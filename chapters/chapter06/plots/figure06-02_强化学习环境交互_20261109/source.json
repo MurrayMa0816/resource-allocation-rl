@@ -1,0 +1,86 @@
+{
+  "editing_source": "source.drawio",
+  "editing_format": "drawio",
+  "title": "灌溉环境交互流程",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/flow",
+  "parent_sha256": {
+    "source.drawio": "3351232860f8e9e1b75ba040e0d34211f547f4cddc9286e33c2dae170dab8b7f",
+    "figure.pdf": "9d28b41879f1342020a4013e8bbe87bd50c6bc8676687a5c53b77f121380d676",
+    "figure.svg": "6f0f75242be7b5f15584f76764575a09ea3011aeebc099dd8e0cd43f03330603",
+    "source.json": "10c0ebf237ed3bee579e14f46c1bf8e22c9456b92b54a3643dcebc86c4e78572"
+  },
+  "semantic_changes": [
+    "Merge physical water update and state/balance/phase update into environment state transition",
+    "Remove separate display-output branch; presentation is explained in body text",
+    "Retain action before same-day weather transition, nonterminal observation recurrence, and terminal-only reward"
+  ],
+  "scientific_data_changed": false,
+  "font_policy": "SimSun / Times New Roman; 10.5bp labels calibrated by official drawio exporter",
+  "style_reference": "Current Figure6.2 / Figure1.1 palette",
+  "graph_nodes": 8,
+  "graph_edges": 8,
+  "pdf_policy": "Generated directly from source.drawio with thesis fonts and calibrated 10.5bp main labels; oversized diagrams must be reflowed.",
+  "drawio_export": {
+    "source": "source.drawio",
+    "source_sha256": "f2441fa7fb2ed3b2ac4fa058f906e972e201869a977e1eec0e31243efbd8c049",
+    "pdf": "figure.pdf",
+    "pdf_sha256": "044bdeaf86c82b3a1a30117dd78faae9b6a29083e53ff228389bbcab6d882eef",
+    "exporter": "scripts/export_method_figures.py",
+    "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+    "generated_utc": "2026-11-09T09:44:29.296363+00:00",
+    "font_files_sha256": {
+      "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+      "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+      "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+    },
+    "diagram_vertices": 8,
+    "diagram_edges": 8,
+    "mathjax_errors": 0,
+    "expected_formulas": 0,
+    "rendered_formulas": 0,
+    "pdf_size_pt": [
+      379.3482666015625,
+      181.32423400878906
+    ],
+    "text_width_limit_cm": 15.6,
+    "applied_pdf_scale": 1.0596320553834353,
+    "native_content_clip_pt": [
+      1.0,
+      0.0,
+      359.0,
+      171.1199951171875
+    ],
+    "native_primary_text_bp": 9.9091,
+    "target_primary_text_bp": 10.5,
+    "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+  },
+  "plot_command": null,
+  "plot_output_default": null,
+  "files": [
+    {
+      "path": "source.drawio",
+      "bytes": 7116,
+      "sha256": "f2441fa7fb2ed3b2ac4fa058f906e972e201869a977e1eec0e31243efbd8c049"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 25115,
+      "sha256": "044bdeaf86c82b3a1a30117dd78faae9b6a29083e53ff228389bbcab6d882eef"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 92679,
+      "sha256": "e4e54f02e5a0c93cff4e0adc1ad4177363ee6f9166802fa67df31e8ec3823c28"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 26960,
+      "sha256": "6b2443a2b723340edddabc545f09d852864f919198c4a967cf268114259d4416"
+    }
+  ],
+  "svg_export": "PyMuPDF vector SVG exported from calibrated final PDF; editable source is source.drawio",
+  "png_export": "PyMuPDF2x RGB final-PDF rendering"
+}

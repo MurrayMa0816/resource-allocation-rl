@@ -1,0 +1,24 @@
+{
+  "revision": "chapter2-native-calibrated-baselines-independent-chapters-v3",
+  "factory": "allocation23.baselines.agent.make_agent",
+  "entrypoint": "./project chapter2 baseline",
+  "learned_methods": [
+    "paspo",
+    "rpo",
+    "td7",
+    "simba_v2",
+    "dime"
+  ],
+  "chapters": [
+    2
+  ],
+  "environments": [
+    "v5",
+    "radio"
+  ],
+  "training_status": "current_final_adopted_100_models",
+  "source": "allocation23/baselines",
+  "implementation_location": "one canonical Python package; chapter facade is metadata/routing",
+  "scientific_snapshot": "frozen/chapter02/legacy_zero_head",
+  "automatic_recovery": false
+}

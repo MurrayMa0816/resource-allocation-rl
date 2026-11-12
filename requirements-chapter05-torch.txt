@@ -1,0 +1,10 @@
+# Chapter 5 maintained Torch source dependencies; separate from Chapter 4 JAX lock.
+# Original ROOT exact maintenance requirements retained below.
+numpy==2.1.2
+torch==2.4.0
+gymnasium==1.2.3
+scipy==1.14.1
+matplotlib==3.10.9
+Pillow==10.2.0
+psutil==6.0.0
+

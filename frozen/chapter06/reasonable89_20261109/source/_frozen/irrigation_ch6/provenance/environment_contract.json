@@ -1,0 +1,142 @@
+{
+  "schema": "irrigation-ch6-environment-contract-v1",
+  "application_version": "1.0.0",
+  "application_chapter": 6,
+  "physical_case": "Hongmiao93-v2",
+  "physical_core_legacy_task_code": 4,
+  "factory": "irrigation_ch6.make_env",
+  "gym_id": "IrrigationApplication/Hongmiao93-v1",
+  "required_arguments": {
+    "coverage_threshold": {
+      "type": "finite non-bool scalar",
+      "range": [
+        0,
+        1
+      ],
+      "identity": "research setting unless independently justified"
+    },
+    "coverage_weight": {
+      "type": "finite non-bool scalar",
+      "range": [
+        0,
+        1
+      ],
+      "identity": "fixed research preference"
+    }
+  },
+  "reward_modes": {
+    "joint": "lambda*C+(1-lambda)*J",
+    "mean_performance": "J; dual-value learner separately uses [C,J] once"
+  },
+  "terminal_objective_order": [
+    "C",
+    "J"
+  ],
+  "N": 93,
+  "T": 81,
+  "physical_substeps_per_day": 96,
+  "default_initial_budget_m3": 810000,
+  "action": {
+    "shape": [
+      93
+    ],
+    "dtype": "real",
+    "unit": "m3 actual field inlet",
+    "constraints": [
+      "nonnegative",
+      "sum <= remaining budget"
+    ],
+    "submitted_action_repair": false,
+    "minimum_positive_dose": 0,
+    "daily_delivery_limit": "none beyond remaining budget; ideal research availability"
+  },
+  "policy_observation": {
+    "schema": "hongmiao93-compact-observation-v6",
+    "keys": 10,
+    "flat_dimension": 563,
+    "physical_units": true,
+    "normalization": "only separate encoder",
+    "future_weather": false,
+    "report_delay_days": 0
+  },
+  "model_input": {
+    "type": "independent IrrigationSpec/Encoder",
+    "state_keys": [
+      "local",
+      "global",
+      "caps",
+      "budget",
+      "remaining"
+    ],
+    "local_shape": [
+      93,
+      6
+    ],
+    "global_shape": [
+      5
+    ],
+    "conditioned_global_shape": [
+      6
+    ],
+    "terminal_budget_caps": 0,
+    "terminal_remaining": "actual unspent m3"
+  },
+  "terminal_labels": {
+    "C": "count(Y>=tau)/93",
+    "J": "arithmetic mean(Y)",
+    "area_weighted_performance": "sum(area_i/sum(area)*Y_i), separately reported",
+    "per_unit_hard_guarantees": false
+  },
+  "info": {
+    "reset": "empty",
+    "intermediate": "empty",
+    "terminal": [
+      "terminal_objectives",
+      "metrics",
+      "physical_reward",
+      "reward_mode",
+      "task_fingerprint"
+    ]
+  },
+  "replay": {
+    "complete_frames": 82,
+    "steps": 81,
+    "public_policy_separated_from_evaluator_diagnostics": true,
+    "export": [
+      "episode.json",
+      "daily.csv",
+      "regional_daily.csv",
+      "terminal.csv",
+      "replay.html",
+      "manifest.json"
+    ],
+    "overwrite_existing_directory": false
+  },
+  "weather_defaults": {
+    "persistent_drought": {
+      "rain_multiplier": 0,
+      "identity": "controlled no-rain research weather"
+    },
+    "historical": {
+      "rain_multiplier": 1,
+      "years": [
+        2022,
+        2024
+      ],
+      "identity": "unscaled archived weather"
+    },
+    "markov": {
+      "rain_multiplier": 1,
+      "donor_years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    }
+  },
+  "methods_modified": false,
+  "method_training_factory_integrated": false,
+  "thesis_modified": false,
+  "formal_training_started": false
+}

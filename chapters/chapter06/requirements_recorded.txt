@@ -1,0 +1,12 @@
+# Recorded local versions, no installation performed. Scientific execution not run.
+# Current readonly entry: Python >=3.11 standard library only.
+# Current stored-data figure redraw:
+numpy==2.1.2
+matplotlib==3.10.9
+shapely==2.1.2
+PyMuPDF==1.28.0
+# Native environment/algorithm source when explicitly used:
+gymnasium==1.2.3
+torch==2.4.0+cu121
+# Shared project also records scipy==1.14.1, Pillow==10.2.0, psutil==6.0.0.
+# numba is optional in the original fp64 physical kernel and is not installed.

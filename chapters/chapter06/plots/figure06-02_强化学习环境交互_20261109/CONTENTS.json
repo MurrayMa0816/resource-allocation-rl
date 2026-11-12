@@ -1,0 +1,27 @@
+{
+  "figure": "6.2",
+  "caption": "灌溉仿真环境交互流程",
+  "directory": "chapters/chapter06_irrigation/figures/figure06-02_强化学习环境交互_20261109",
+  "kind": "drawio",
+  "original_drawio": "source.drawio",
+  "plot_entry": null,
+  "python_sources": [
+    "create_drawio.py",
+    "provenance/original_create_drawio.py"
+  ],
+  "numerical_data": [],
+  "final_PDFs": [
+    {
+      "path": "figure.pdf",
+      "sha256": "044bdeaf86c82b3a1a30117dd78faae9b6a29083e53ff228389bbcab6d882eef",
+      "bytes": 25115
+    }
+  ],
+  "native_model": {
+    "valid_single_page_model": true,
+    "cells": 18,
+    "sha256": "f2441fa7fb2ed3b2ac4fa058f906e972e201869a977e1eec0e31243efbd8c049"
+  },
+  "all_physical_in_own_chapter": true,
+  "external_symlinks": []
+}

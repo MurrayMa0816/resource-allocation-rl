@@ -1,0 +1,126 @@
+{
+  "chapter": 6,
+  "figure": "figure06-03_全期用水与余额统一风格_20261109",
+  "DATA_chapter_relative": "figures/figure06-03_全期用水与余额统一风格_20261109",
+  "resolve_from": "portable_paths.chapter_data_root(6)",
+  "source_role": "exact editable current figure source and required small inputs; generated PDF/PNG/SVG remain only in the data package",
+  "render_entry": "plot.py",
+  "source_files": [
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/README.local.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/README.local.rst",
+      "sha256": "e28f9c6e692564c86867a2904a1f90ddabeaa75f1cc6519a5f0617a6ab00b8e0",
+      "size": 428
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/beginning_balance82.csv",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/beginning_balance82.csv",
+      "sha256": "97aae56771bff74d4c0a8ea7d3ea61b11f10e3980eaefb9884779d246f6db0ab",
+      "size": 2752
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/README.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/README.rst",
+      "sha256": "ae50607f33889e91b586cde2112871845aa0a191a0afeb68a9bdd8f9324a8ad5",
+      "size": 1052
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/daily_allocation81.csv",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/daily_allocation81.csv",
+      "sha256": "8fa44fca3853f6bc3b105473c7a6eba1e37f2f79da5d17eec14b12755c9746b6",
+      "size": 2709
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/inherited_parent_manifest.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/inherited_parent_manifest.json",
+      "sha256": "5e0872c790d1516e23e58390c0c1a770d96a8070d2cad4c689fc68331fe2fa9d",
+      "size": 4745
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/local_source.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/local_source.json",
+      "sha256": "b990958f189f8221979a80d0d0c52bb6f75379f8de1f5f0350c25a4738dbf1af",
+      "size": 1206
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/numeric_artist_values_before_after.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/numeric_artist_values_before_after.json",
+      "sha256": "799fb7bbde705170666825fb4ed7cb2a071f354adb0dfba2cb79f0424f32c713",
+      "size": 47665
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/plot.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/plot.py",
+      "sha256": "20f4332784e78b165f7201ea5eb15f053a2aa1fe649a32524b372966c68ad585",
+      "size": 928
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/render_geometry.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/render_geometry.json",
+      "sha256": "83a3ed948f412f44978a591500eb6d892299aa19140e05a3d6d0bae1c48ffec0",
+      "size": 7991
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/render_receipt.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/render_receipt.json",
+      "sha256": "737db7e7d9e9319cf95b4cf1e38db1b5e5ab2370ee3ddb8059d542d8ab893bad",
+      "size": 966
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/requirements.txt",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/requirements.txt",
+      "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+      "size": 33
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/source.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/source.json",
+      "sha256": "d514061df93e0bacddaca7b1ecc1e07bd04d8adec18ede9a876d768efa16f382",
+      "size": 2898
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/CONTENTS.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/CONTENTS.json",
+      "sha256": "4095d880cf5d9ec33369be5bcaac8e0a42ae81281ea4302d107779f6814d13bc",
+      "size": 1247
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/README_LAYOUT.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/README_LAYOUT.rst",
+      "sha256": "fd8a3809dab60a8f0421fb9f38958b042aa42e8642bd0f46a16cb55d26d3428a",
+      "size": 1638
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/layout_geometry.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/layout_geometry.json",
+      "sha256": "aa1a4d24f45c902c04e61590dccb77b8f0a7ec613da01478db04fe82cdefc5b6",
+      "size": 11404
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/layout_numeric_artists.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/layout_numeric_artists.json",
+      "sha256": "799fb7bbde705170666825fb4ed7cb2a071f354adb0dfba2cb79f0424f32c713",
+      "size": 47665
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/plot_layout.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/plot_layout.py",
+      "sha256": "c8674518a37f3b4dbf420c2b27720eec98947e8b8cfbe779d18bde2ef6ec37ec",
+      "size": 5563
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/source/accepted_statistical.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/source/accepted_statistical.py",
+      "sha256": "5143c568728531dcc88f342c25e2a8cdc6a6a31bf9ba2aefcc33f652341aaa90",
+      "size": 16474
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/source/spacing.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-03_全期用水与余额统一风格_20261109/source/spacing.py",
+      "sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+      "size": 14490
+    }
+  ],
+  "renderer_modified": false,
+  "no_model_or_NEW_TEST": true
+}

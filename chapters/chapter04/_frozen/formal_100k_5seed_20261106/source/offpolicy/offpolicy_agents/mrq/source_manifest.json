@@ -1,0 +1,29 @@
+{
+  "schema": "mrq-prepared-source-v3-scoped-priority-CUDA-pending",
+  "created_utc": "2026-11-05T16:35:33.073833+00:00",
+  "root": "/hy-tmp/resource_allocation_project_code_20261105/chapter04/replacement_candidates/mrq",
+  "files": {
+    "GPU_GATE.rst": "ff005a65923ebef74734ddb10cd47fed50d77b029c35beeb99c9d90c022479ac",
+    "PROVENANCE.json": "a35a0dbe7162231d3854db03ef43ec3b1b5c4b6c8842fff052eafd2cdd628b6c",
+    "README.rst": "a06675cb15378ccfecbffdefc5713f489d16ccc680a083aab746a014292d8d1d",
+    "__init__.py": "3b132800182b402544125c0a85174f1e475da0ed3ab4f84e47e1d34ea404b7ec",
+    "agent.py": "d3594ad810c8088ef1e2365b5c732d29fb2b6ad442600cda6f97f41fbce51471",
+    "gpu_gate_command.json": "58b695eeb16ee2791420ea29381474931a9c82edb0991b705b7865d7964c8d59",
+    "gpu_zero_env_gate.py": "20a9febb0cc56f73b96234b5a269073957fd713052ba2e6a2b7146104142577f",
+    "native_loader.py": "0cc210342fcf523119108970438e5f293a7c206199ab337a463c3d6131fe897f",
+    "vendor/LICENSE": "7c6858d0e71dc8b858255270ad4b5004e80b5b058bf5bbc408a28430d6ddbf4b",
+    "vendor/MRQ.py": "15a7f171b7b81619933428f5ebe596f70f961c92912b5008a32d90c4ec316534",
+    "vendor/README.md": "c9083affa4526c6559352deb4d249dde18a65cb4d14cae9a638397994ef56412",
+    "vendor/buffer.py": "dd526acf596272cc2c6864804991866ae4a5d3cff325727015eca58b00e61804",
+    "vendor/main.py": "a494e496312134f34be187d37f941a422ec7558e8c48a95a11f6b7b14725e968",
+    "vendor/models.py": "c42ff5d2b9a3210477a49d412584008da5fa58d1ed2089e3abb4fc49980b0c5a",
+    "vendor/requirements.txt": "0e60dc0d346246ba5b4b0870fae752ffa97b5c0d5c0ae388990406932407a61b",
+    "vendor/utils.py": "880dd68e374abde98a56c674974006278fd089c126c679b36e2b7a80717ab655",
+    "vendor_manifest.json": "a1e04a8f37f9d16ddd82ee41d1ac1f660a78f7920c1aae0b844267ec7206b6b7",
+    "zero_env_gate.py": "7d535622831a416ad477fcc1f9446867184664b57ad70cf031d346d3b7045913"
+  },
+  "default_CUDA_attempt01_source_backup": "/hy-tmp/resource_allocation_results/chapter4/mrq_reserve_validation_20261106/preflight/default_cuda_attempt01_source",
+  "default_CUDA_attempt01_gate_sha256": "0eff2accdcce1c68335162b8caa7b5f3dd905107b8d99bee3b3f47529cc86b6f",
+  "actual_current_source_CUDA_gate_completed": false,
+  "software_execution_profile": "mrq-priority-index-put-strict-v1"
+}

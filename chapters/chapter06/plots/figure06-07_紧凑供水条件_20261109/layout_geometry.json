@@ -1,0 +1,317 @@
+{
+  "schema": "chapter6-physical-axes-layout-v1",
+  "status": "PASS",
+  "figure_number": "6.7",
+  "authorized_geometry_changes": [
+    {
+      "role": "canvas_initial",
+      "before_mm": [
+        82,
+        73
+      ],
+      "after_mm": [
+        144,
+        132
+      ]
+    },
+    {
+      "role": "axes_physical_layout",
+      "before_fraction": [
+        0.21951219512195122,
+        0.2054794520547945,
+        0.7560975609756098,
+        0.7534246575342466
+      ],
+      "after_fraction": [
+        0.125,
+        0.11363636363636363,
+        0.8611111111111112,
+        0.7954545454545454
+      ]
+    },
+    {
+      "role": "annotation_display_offset_only",
+      "text": "350万m³",
+      "old_points": [
+        0,
+        20
+      ],
+      "new_points": [
+        0,
+        28
+      ],
+      "data_anchor_unchanged": true,
+      "reason": "Native taller axes lengthen the same vertical sample-SD bar into the old display label position"
+    }
+  ],
+  "native_mm": [
+    144.0,
+    119.03787299262156
+  ],
+  "axes_sizes_mm": [
+    [
+      124.0,
+      105.0
+    ]
+  ],
+  "all_scientific_numeric_artists_equal_parent": true,
+  "numeric_sha256": "89e779bc0a90c7ad9ddcaac2e2ec00ac4e17d0f10c1600361d9ae9afa981b764",
+  "parent_numeric_sha256": "6158fd2d5da588b0418845f013dc4846e53f65f133586d3b6a3c02dfc10da653",
+  "fonts_native_10_5bp": true,
+  "annotation_target_data_exact": true,
+  "display_offset_exception": {
+    "350万m³": {
+      "before_points": [
+        0,
+        20
+      ],
+      "after_points": [
+        0,
+        28
+      ]
+    }
+  },
+  "unchanged_original_parent_PDF_sha256": "1d05cde06050e8217f728a5b4dde00101aa50429b147a51a73779f8e8e42b741",
+  "CSV_sha256": {
+    "budget_joint_mean_sample_SD.csv": "397ecc8fef136347f5b0e8e052d9c7cdeec170d35ecbe12b3fd77bd5dfadd302",
+    "budget_all3_seed_weather_means.csv": "817c5f09e483d442876a97c4bed6d338887fa8df340ebe3aa7bb1469d6bdde64"
+  },
+  "local_source_files_sha256": {
+    "plot_layout.py": "7305552bbfccc77d13d35b7f789157adaf999cb2842b17dbaf93764716d4c0b5",
+    "source/spacing.py": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba"
+  },
+  "font_and_spacing_measurements": {
+    "schema": "chapter6-measured-content-spacing-v1",
+    "status": "PASS",
+    "number": "6.7",
+    "native_mm": [
+      144.0,
+      119.03787299262156
+    ],
+    "axes_sizes_mm": [
+      [
+        124.0,
+        105.0
+      ]
+    ],
+    "axes_positions_mm": [
+      [
+        18.0,
+        12.537869262695313,
+        124.0,
+        105.0
+      ]
+    ],
+    "ordinary_font_bp": 10.5,
+    "measurement_basis": "native PDF text frames; upper unlabeled axes use spine plus declared tick length, not pixel ink",
+    "pdf_frames_before": {
+      "native_mm": [
+        143.99999593098957,
+        131.99999627007378
+      ],
+      "xlabel_to_legend_bp": null,
+      "bottom_content_margin_mm": 4.462130737304687,
+      "top_content_margin_mm": 11.999996270073757,
+      "upper_axis_including_ticks_to_lower_title_bp": null,
+      "upper_axis_including_ticks_to_legend_bp": null,
+      "upper_legend_to_lower_title_bp": null,
+      "xlabel_frames_bp": [
+        [
+          175.1544647216797,
+          351.01416015625,
+          278.3904724121094,
+          361.524658203125
+        ]
+      ],
+      "legend_frames_bp": [],
+      "title_frames_bp": []
+    },
+    "pdf_frames_after": {
+      "native_mm": [
+        143.99999593098957,
+        119.0378675672743
+      ],
+      "xlabel_to_legend_bp": null,
+      "bottom_content_margin_mm": 1.9999963548448347,
+      "top_content_margin_mm": 1.499998304578979,
+      "upper_axis_including_ticks_to_lower_title_bp": null,
+      "upper_axis_including_ticks_to_legend_bp": null,
+      "upper_legend_to_lower_title_bp": null,
+      "xlabel_frames_bp": [
+        [
+          175.1544647216797,
+          321.2503967285156,
+          278.3904724121094,
+          331.7608947753906
+        ]
+      ],
+      "legend_frames_bp": [],
+      "title_frames_bp": []
+    },
+    "legend_count": 0,
+    "xlabel_to_legend_bp": null,
+    "legend_to_file_bottom_mm": null,
+    "bottom_content_margin_mm": 1.9999963548448347,
+    "top_content_margin_mm": 1.499998304578979,
+    "upper_axis_including_ticks_to_lower_title_bp": null,
+    "upper_axis_including_ticks_to_legend_bp": null,
+    "upper_legend_to_lower_title_bp": null,
+    "all_text_inside_canvas": true,
+    "all_scientific_artist_values_and_line_styles_exact": true,
+    "numeric_before_sha256": "89e779bc0a90c7ad9ddcaac2e2ec00ac4e17d0f10c1600361d9ae9afa981b764",
+    "numeric_after_sha256": "89e779bc0a90c7ad9ddcaac2e2ec00ac4e17d0f10c1600361d9ae9afa981b764",
+    "texts": [
+      {
+        "text": "350万m³",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          143.02607349253577,
+          113.81892401075855,
+          37.62,
+          10.08
+        ]
+      },
+      {
+        "text": "400万m³",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          315.21069471899136,
+          238.38115909207409,
+          37.62,
+          10.08
+        ]
+      },
+      {
+        "text": "450万m³",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          342.7500321857579,
+          302.87442986811186,
+          37.62,
+          10.08
+        ]
+      },
+      {
+        "text": "区域产量达标率（%）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          175.0216535433071,
+          4.407916807640255,
+          103.5,
+          10.5525
+        ]
+      },
+      {
+        "text": "40",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          71.41526898097594,
+          18.960416807640257,
+          10.53,
+          10.08
+        ]
+      },
+      {
+        "text": "60",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          174.04185671590324,
+          18.960416807640257,
+          10.53,
+          10.08
+        ]
+      },
+      {
+        "text": "80",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          276.7134444508305,
+          18.960416807640257,
+          10.44,
+          10.08
+        ]
+      },
+      {
+        "text": "100",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          376.73003218575786,
+          18.960416807640257,
+          15.66,
+          10.08
+        ]
+      },
+      {
+        "text": "平均相对产量（%）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          14.491122047244092,
+          137.87431444543552,
+          10.372500000000008,
+          92.97
+        ]
+      },
+      {
+        "text": "80",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          34.08362204724409,
+          78.01434256692028,
+          10.44,
+          10.08
+        ]
+      },
+      {
+        "text": "85",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          34.08362204724409,
+          138.75674976602033,
+          10.44,
+          10.08
+        ]
+      },
+      {
+        "text": "90",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          33.993622047244095,
+          199.4991569651204,
+          10.53,
+          10.08
+        ]
+      },
+      {
+        "text": "95",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          33.993622047244095,
+          260.2415641642206,
+          10.53,
+          10.08
+        ]
+      },
+      {
+        "text": "100",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          28.863622047244093,
+          320.9839713633207,
+          15.66,
+          10.08
+        ]
+      }
+    ],
+    "exceptions": [],
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0
+  },
+  "scientific_execution": 0,
+  "output_sha256": {
+    "layout.pdf": "65ed0b577f68232c144de4edd0355bc7df0e056ed548154227e175fd127fea6e",
+    "layout.svg": "449de02da12b2b057a14abadf173cc9fd3499710f92ada16279621d05b907562",
+    "layout.png": "98ff86654ec543fed2934db15d3ae50fdd11671bed323e78f20a875b523af4e1"
+  }
+}

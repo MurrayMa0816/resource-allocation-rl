@@ -1,0 +1,96 @@
+{
+  "method": "pasta",
+  "status": "candidate_recheck_only",
+  "configurations": {
+    "radio": {
+      "current_recipe": {
+        "method": "pasta",
+        "dev_paths": 16,
+        "gamma": 1.0,
+        "n_step": 1,
+        "batch_size": 64,
+        "updates_per_step": 1,
+        "action_mode": "raw",
+        "observation_normalization": false,
+        "n_env": 8,
+        "rollout_panels": 8,
+        "hidden_dim": 64,
+        "hidden_layers": 2,
+        "start_steps": 0,
+        "learning_starts": 0,
+        "gae_lambda": 0.95,
+        "ppo_epochs": 10,
+        "minibatch_size": 64,
+        "lr": 0.0001,
+        "clip": 0.2,
+        "value_loss_coef": 0.5,
+        "entropy_coef": 0.01,
+        "max_grad_norm": 0.5,
+        "initial_log_std": -0.5,
+        "maintenance_rate": 0.15,
+        "utopia_point": 1.05,
+        "min_mu": 0.05,
+        "max_mu": 10.0,
+        "conflict_threshold": 0.4,
+        "smoothness_ema": 0.05,
+        "training_preference": [
+          0.8,
+          0.2
+        ],
+        "domain": "radio",
+        "horizon": 32,
+        "learning_steps": 24576,
+        "profile": "current_recipe"
+      }
+    },
+    "v5": {
+      "current_recipe": {
+        "method": "pasta",
+        "dev_paths": 16,
+        "gamma": 1.0,
+        "n_step": 1,
+        "batch_size": 64,
+        "updates_per_step": 1,
+        "action_mode": "raw",
+        "observation_normalization": false,
+        "n_env": 8,
+        "rollout_panels": 8,
+        "hidden_dim": 64,
+        "hidden_layers": 2,
+        "start_steps": 0,
+        "learning_starts": 0,
+        "gae_lambda": 0.95,
+        "ppo_epochs": 10,
+        "minibatch_size": 64,
+        "lr": 0.0003,
+        "clip": 0.2,
+        "value_loss_coef": 0.5,
+        "entropy_coef": 0.01,
+        "max_grad_norm": 0.5,
+        "initial_log_std": -0.5,
+        "maintenance_rate": 0.15,
+        "utopia_point": 1.05,
+        "min_mu": 0.05,
+        "max_mu": 10.0,
+        "conflict_threshold": 0.4,
+        "smoothness_ema": 0.05,
+        "training_preference": [
+          0.8,
+          0.2
+        ],
+        "domain": "v5",
+        "horizon": 24,
+        "learning_steps": 24576,
+        "profile": "current_recipe"
+      }
+    }
+  },
+  "new_algorithmic_changes": [],
+  "common_screen": {
+    "learning_steps": 24576,
+    "eval_every": 512,
+    "dev_paths": 16,
+    "holdout_paths": 0,
+    "fresh_seed_count": 2
+  }
+}

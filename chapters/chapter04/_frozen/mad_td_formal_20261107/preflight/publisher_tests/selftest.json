@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "new_environment_steps": 0,
+  "live_thesis_modified": false,
+  "checks": [
+    "negative results stay negative",
+    "tie not called improvement",
+    "native scale exactly once",
+    "canonical literature keys resolve",
+    "full result-conditioned section and summary execute with synthetic values only",
+    "all six guarded contract spans locate exactly once",
+    "drifting manuscript guard rejects",
+    "current three drawio figures lack obsolete cap labels",
+    "all publisher modules parse"
+  ],
+  "source_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_formal_20261107/execution/publish_thesis.py": "33f4b080848c1fe7425ac06978c77054b4b741c27db94fe0f7516684331095fd",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_formal_20261107/source/reporting/thesis_content.py": "79123075ea800416d49290539c075a1f212136d5664fdd10432faa480193ca1f",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_formal_20261107/source/reporting/contract_patches.py": "6bf3be01cf4466897e99cedc8c7c5e8e3cf3de84bd542203f731b838d96ee664",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_formal_20261107/source/reporting/citations.py": "a17d69874c5f697c32ccfdea1756e790f66ea300869787f7593b9659689442e0",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_formal_20261107/source/reporting/figure_plot.py": "d5d346be268f5882b92444a388464f37a8cb6b1f64b164c4c9b9c85ca9e96cbd",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_formal_20261107/source/reporting/result_io.py": "3cb0dac571f676781c03fc34d518e9aae96720e8dd2081af27c59159bc5af8ab"
+  }
+}

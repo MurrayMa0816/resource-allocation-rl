@@ -1,0 +1,122 @@
+{
+  "schema": "chapter23-core-migration-v1",
+  "sources": [
+    {
+      "destination": "chapter2_paspo.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/chapter2_paspo.py",
+      "source_sha256": "9a8807be663af7136fd397b27d9de9fb1187a186c9cddf4ad175e23c8a2e1d96",
+      "migration": "Copied algorithm core; dependency-only import rewrite where applicable"
+    },
+    {
+      "destination": "chapter2_rpo.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/chapter2_rpo.py",
+      "source_sha256": "b4202183c28d7378dbfac2c08d7e6821bfc42fc146c0e5072e665d2bdbf60e5b",
+      "migration": "Copied algorithm core; dependency-only import rewrite where applicable"
+    },
+    {
+      "destination": "chapter2_simbav2.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/chapter2_simbav2.py",
+      "source_sha256": "be2a985e0399f8c5ffd73ee1cfe916005d6278ac50c28c63bb66c7dee4b58877",
+      "migration": "Copied algorithm core; dependency-only import rewrite where applicable"
+    },
+    {
+      "destination": "recent_td7_core.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/recent_td7_core.py",
+      "source_sha256": "053207d882135dd4225c3178fa13ae3962c8bcc5d194b5f5635e8b0b3df05bdd",
+      "migration": "Copied algorithm core; dependency-only import rewrite where applicable"
+    },
+    {
+      "destination": "recent_replay.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/recent_replay.py",
+      "source_sha256": "894a1be81b7cfef2df81e787a6f91b2cc260eb9af45e64041c96024c70d6d77c",
+      "migration": "Copied algorithm core; dependency-only import rewrite where applicable"
+    },
+    {
+      "destination": "chapter2_runtime.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/chapter2_runtime.py",
+      "source_sha256": "1ef5f90eebc70d50cdf88ba2e22871ec376ed1151417ea8cec883cde2140e044",
+      "migration": "Copied algorithm core; dependency-only import rewrite where applicable"
+    },
+    {
+      "destination": "common.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/recent_continuous.py",
+      "source_sha256": "947c5fd50c7edf0327917c5056e565228963a417748f92d27813f1a326563090",
+      "migration": "Extracted named utilities; only TD7 is registered in this extracted parameter schema"
+    },
+    {
+      "destination": "dime.py",
+      "source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/expanded_ch3.py",
+      "source_sha256": "f4c37c9c6c2ec4945f6ee428f7a3c01580158222c017f1676e99cbc348c55631",
+      "migration": "Extracted DIME functions/classes unchanged; removed BRO/PASPO/environment registrations"
+    }
+  ],
+  "agent_source": "/root/gamewar/resource_allocation_rl/experiments/src/resource_allocation_experiments/baselines/chapter2_recent_agents.py",
+  "agent_source_sha256": "6777921bc92a592b546345291ec09838410f10e20a8003968bb8ed0617511ea1",
+  "notes": [
+    "Existing baseline algorithms retained; old environment factories omitted.",
+    "Neural observation policy is restricted to current simplified local/global inputs.",
+    "Chapter 3 has an unused-resource coordinate, not the A/B quota head."
+  ],
+  "update_methods_ast_sha256": {
+    "chapter2_paspo.py:PASPOCore.train": "82b7e8019bd34fd49bbf4bbf146d473dfae3a7c1cd144ffeb8f746dfef51d48a",
+    "chapter2_rpo.py:RPOCore.train": "a55246faf4b39841f0bf5e113d0f053f28a99eabad0ae7c655ebd8afddf5a223",
+    "chapter2_simbav2.py:SimbaV2Core.train": "3c95918b72c6f4d61c2e7e6390b33e1aabb767ea684e428f2eb98dd69f59938a",
+    "recent_td7_core.py:Agent.train": "f5acd2db92423330a79dc7baaa299b52e3fd18c8e4d47acdef24a1c5ade5b0e1",
+    "dime.py:DIMECore.update": "a6b2bd6e393ce933a1fe45c46ec2af5a633febc387d3539cf416112e4da37338"
+  },
+  "additional_license_sources": {
+    "RPO_MIT_LICENSE.txt": "https://raw.githubusercontent.com/wadx2019/rpo/9cba44478f7800dbb6e73d06f425397a7ac0b9b6/LICENSE",
+    "DIME_MIT_LICENSE.txt": "https://raw.githubusercontent.com/ALRhub/DIME/7082bb7e8ab0e7f8a036a985333541d08d9d3e7d/LICENSE"
+  },
+  "post_migration_numerical_fixes": [
+    {
+      "file": "chapter2_paspo.py",
+      "method": "CappedAutoregressiveBeta.geometry",
+      "cause": "Positive targets below 1e-300 were divided by an artificial floor, inconsistent with unit-total sampling.",
+      "change": "Use the actual strictly positive target; a unit denominator is substituted for zero only.",
+      "physical_constraints_changed": false,
+      "reward_changed": false,
+      "regression": "test_paspo_subnormal.py"
+    },
+    {
+      "file": "chapter2_rpo.py",
+      "method": "RPOCore.act",
+      "cause": "A positive target below 1e-30 lost its action-to-control inverse due to the denominator floor.",
+      "change": "Use the actual strictly positive target; a unit denominator is substituted for zero only.",
+      "physical_constraints_changed": false,
+      "reward_changed": false,
+      "regression": "test_rpo_tiny_roundtrip.py"
+    },
+    {
+      "file": "chapter2_rpo.py",
+      "method": "correct_inequalities",
+      "cause": "Absolute GRG stopping/legality tolerances accepted negative dependent actions comparable to a tiny positive total.",
+      "change": "Run the same finite GRG active set in unit-target coordinates; validate relative geometry and clip only normalized arithmetic roundoff before returning physical units.",
+      "physical_constraints_changed": false,
+      "reward_changed": false,
+      "update_method_changed": false,
+      "regression": "tests/test_rpo_tiny_geometry.py",
+      "verification": "/hy-tmp/resource_allocation_readiness_20261101/core/rpo_tiny_geometry.xml",
+      "prior_failure_evidence": "/hy-tmp/resource_allocation_readiness_20261101/core/rpo_grg_before.json"
+    }
+  ],
+  "recorded_unchanged_legacy_numerics": [
+    "RPO/PASPO log(scale) floors remain registered numerical policies; no entropy or train update formula has been changed. RPO GRG absolute stopping/legality thresholds were superseded by the separately recorded unit-target numerical correction."
+  ],
+  "preparation_20261101": {
+    "scope": "explicit native action calibration, not replacement of core updates",
+    "chapter2": "fixed-total polytope remains; DIME prior_std=.5 shared with chapter3",
+    "chapter3_polytope": "unused coordinate first for PASPO/RPO; true physical caps and equality retained",
+    "chapter3_generic": "one existing actor amount output and N spatial controls; raw controls retained in replay/Q",
+    "paspo": "optional geometry-prior samples for initial conditional Beta MLE; state-only first-Beta log-shape offset applied identically in sampling and known density",
+    "rpo": "initial mean/log-std output-bias calibration; state-only neutral pre-tanh mean offset used in sampling and density; chapter3 warmup samples calibrated actor",
+    "dynamic_prior": "only public time, remaining budget and physical caps; registered anchors saved in state; no extra learned head or neural input",
+    "dime_prior_std": {
+      "author_default": 2.5,
+      "task_calibration": 0.5,
+      "rule": "fixed for all environments/chapters/seeds based on bounded-control exploration scale; same value in prior draws, OU drift and DIS density; no reward tuning"
+    },
+    "core_train_update_ast": "unchanged",
+    "evaluation_checkpoint": "optional replay omission explicitly marks exact training continuation unavailable for off-policy agents"
+  }
+}

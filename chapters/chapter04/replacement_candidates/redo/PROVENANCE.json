@@ -1,0 +1,44 @@
+{
+  "method": "SAC+ReDo, explicit Torch port of official RecycledSacAgent",
+  "paper": "The Dormant Neuron Phenomenon in Deep Reinforcement Learning",
+  "venue": "ICML2023",
+  "primary_url": "https://proceedings.mlr.press/v202/sokar23a.html",
+  "paper_table": "SAC Table4; not Atari gin",
+  "official_repository": "https://github.com/google/dopamine/tree/master/dopamine/labs/redo",
+  "official_commit": "5873f5494ee0c2d7c016d0ab2ad530354fec59d0",
+  "license": "Apache-2.0",
+  "author_source_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/LICENSE": "e47b2783cb7131207707c35d0aea22277aa1beded6bf9d7c2436cd7de9462323",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/author_files/configs/sac_mujoco_dense_config.gin": "35f8f3d374d32ada4f3f28f01c0283cdfe115a8d1a87589ac4a4b044ec781c17",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/author_files/sac_train_eval.py": "d992d7d4c7d41359a3df926ed788156774467df82c870fb220b41fcfe0609a77",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/rigl_sparse_tanh_projection.py": "8f690938bedbdd2957f3a3c0979a1fdffb9749f5ecaee64da8a11a41b59acc53",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/tf_agents_sac_agent_v0.11.0.py": "ad60745090a59bcfc00b6e336f93eca87d7052924ae0e028dc2170d7ddc7bd2e",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/tf_agents_tanh_projection_v0.11.0.py": "9b979cee646b58cf23eaa373312fb8ca9a2abd27dfbb0b0df3980e8f9de30da2"
+  },
+  "retained_core": [
+    "actor+both critics, both hidden ReLU layers, Glorot uniform kernels and zero biases, actor combined2*A mean/logstd projection",
+    "SAC critic->actor->ReDo->fresh alpha->increment->Polyak source order",
+    "native TF target entropy -A/2, alpha1, gamma.99, unbounded exp(logstd), TF epsilon-hat Adam1e-7",
+    "uniform RAM replay, warmup10000, RR8, period200000 pre-increment clock, tauDormant0, score256",
+    "capture critic activations before critic step and actor activations before actor step; freeze all masks before edits; all incoming edits then all outgoing zeros",
+    "clear masked kernel m/v, preserve bias moments/global optimizer iteration/alpha/replay; no direct target reset",
+    "initializer seeded by counter separately for each hidden kernel; global policy/replay RNG unaffected by recycling"
+  ],
+  "explicit_adaptations": [
+    "TF-Agents/RigL graph to Torch, backend RNG and floating-point trajectory not bitwise TF",
+    "state/action public common compact task decoder supplied by root; no Env implementation insideAgent",
+    "native terminal reward unchanged; learner reward_scale1 instead of train_eval default.1 is the sole reward-scale task adaptation",
+    "registered total49152 includes paid10000 warmup, unlike uncharged calibration",
+    "RAM replay49152 capacity instead of1e6 because all paid transitions fit; no eviction or reset",
+    "concatenation declared obs then action; first-layer input permutation changes only coordinates/initial RNG layout versus TF nest ordering, not available information",
+    "stable analytic tanh Jacobian, no inverse-tanh latent reconstruction for policy likelihood",
+    "eight independent uniform batches gathered and uploaded together while replay is unchanged; exactly8 sequential native updates"
+  ],
+  "source_cautions": [
+    "stale gin SparseSacAgent.reset_mode=None is rejected, never silently used",
+    "original target-network constructor repeats _target_critic_network_1 name; official initialize() separately copies online Q1/Q2 into their target slots. Port preserves intended independent initialized twin targets, no redundant construction",
+    "TF unbounded exp logstd retained, nonfinite losses fail rather than introduce an unregistered clip",
+    "ReDo minimizes dormancy; no promise of improved task learning or no late degradation follows without actual science"
+  ],
+  "source_training_entry": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/agent.py"
+}

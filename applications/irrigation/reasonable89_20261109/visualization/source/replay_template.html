@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>洪庙支渠89区逐日配置推演</title>
+<style>
+*{box-sizing:border-box}body{margin:0;color:#203126;background:#f7f8f5;font-family:"Microsoft YaHei",SimSun,serif}
+main{max-width:1540px;margin:auto;padding:18px}h1{font-size:22px;margin:0 0 14px}button,input{font:inherit}
+.controls,.budgets,.content,.legend{display:flex;gap:12px;align-items:center}.controls{flex-wrap:wrap;margin-bottom:14px}
+button{background:white;border:1px solid #a7b4aa;border-radius:4px;padding:7px 13px;cursor:pointer}button:disabled{opacity:.45;cursor:default}
+input[type=range]{flex:1;min-width:180px;accent-color:#238443}#date{min-width:148px;font-weight:700}
+.budgets{margin-bottom:14px;flex-wrap:wrap}.budget{flex:1;min-width:195px;background:white;border:1px solid #d8dfd8;padding:10px 14px}
+.budget span{display:block;font-size:14px;color:#526358;margin-bottom:4px}.budget strong{font-size:22px;font-variant-numeric:tabular-nums}
+.content{align-items:flex-start}.board{flex:1;min-width:0;background:white;padding:8px;border:1px solid #cbd4cb}
+#scene{display:block;width:100%;height:auto}.region{cursor:pointer;outline:none}.region:hover .region-outline,.region:focus .region-outline,.region.selected .region-outline{stroke:#182a1c;stroke-width:.16}
+.details{width:265px;padding:16px;background:white;border:1px solid #cbd4cb}.details h2{font-size:19px;margin:0 0 13px}.details dl{margin:0}.details dt{font-size:14px;color:#526358;margin-top:13px}.details dd{font-size:21px;margin:4px 0 0;font-variant-numeric:tabular-nums}.details p{font-size:14px;line-height:1.7;color:#526358}
+.legend{flex-wrap:wrap;justify-content:center;gap:8px 15px;margin:12px 0 1px;font-size:14px}.legend-label{font-weight:700}.legend-item{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}.swatch{display:inline-block;width:29px;height:13px;border:1px solid #a8aca2}
+#tooltip{position:fixed;display:none;pointer-events:none;z-index:20;background:#fffef6;border:1px solid #7f907e;box-shadow:0 2px 9px #0002;padding:8px 11px;line-height:1.65;font-size:14px;white-space:nowrap}
+.note{font-size:13px;color:#59665d;margin:12px 0 0;line-height:1.6}
+@media(max-width:950px){.content{display:block}.details{width:100%;margin-top:12px}.details dl{display:flex;gap:18px;flex-wrap:wrap}.details dt{margin-top:4px}.details dd{font-size:18px}}
+</style>
+</head>
+<body>
+<main>
+<h1>洪庙支渠89区逐日配置推演</h1>
+<div class="controls">
+<button id="previous" type="button" aria-label="前一天">前一天</button>
+<button id="play" type="button">播放</button>
+<button id="next" type="button" aria-label="后一天">后一天</button>
+<input id="day" type="range" min="0" max="80" step="1" value="0" aria-label="灌溉日期">
+<output id="date" for="day"></output>
+</div>
+<div class="budgets" aria-live="polite">
+<div class="budget"><span>日初供水余额（m³）</span><strong id="budgetBefore"></strong></div>
+<div class="budget"><span>当日配置总量（m³）</span><strong id="dailyTotal"></strong></div>
+<div class="budget"><span>日末供水余额（m³）</span><strong id="budgetAfter"></strong></div>
+</div>
+<div class="content">
+<div class="board">__MAP_SVG__<div class="legend" id="legend"></div></div>
+<aside class="details" aria-live="polite">
+<h2 id="regionTitle">区域配水与储水</h2>
+<p id="hint">移动或点击区域，查看当日配水量、灌水深度和前后储水状态。</p>
+<dl id="regionDetails" hidden>
+<div><dt>当日配水量（m³）</dt><dd id="allocation"></dd></div>
+<div><dt>当日灌水深度（mm）</dt><dd id="depth"></dd></div>
+<div><dt>配水前日初储水（mm）</dt><dd id="storageBefore"></dd></div>
+<div><dt>当日推进后储水（mm）</dt><dd id="storageAfter"></dd></div>
+</dl>
+</aside>
+</div>
+<p class="note">图中颜色表示各区域当日实际配水量；灰色表示当日配水量为零。全部81日采用同一色标。田间储水的日内变化同时包含配水、降雨、蒸散及渗漏等过程。</p>
+</main>
+<div id="tooltip" role="tooltip"></div>
+<script id="trajectory" type="application/json">__TRAJECTORY_JSON__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('trajectory').textContent);
+const control=document.getElementById('day');
+const formatter=new Intl.NumberFormat('zh-CN',{minimumFractionDigits:2,maximumFractionDigits:2});
+const regions=[...document.querySelectorAll('.region')];
+const tooltip=document.getElementById('tooltip');
+let currentDay=0,selected=null,timer=null,hovered=null,inspected=null;
+
+function numberText(value){
+  return value!==0&&Math.abs(value)<.005?value.toPrecision(3):formatter.format(value);
+}
+
+function colourFor(value){
+  if(value===0)return data.scale.zero_color;
+  if(!Number.isFinite(value)||value<0)throw new Error('Invalid actual allocation');
+  const edges=data.scale.positive_edges_m3;
+  for(let band=0;band<edges.length-1;band++){
+    if(value<=edges[band+1])return data.scale.positive_colors[band];
+  }
+  throw new Error('Allocation outside the shared81-day colour scale');
+}
+function metrics(day,index){
+  return {allocation:data.a_m3[day][index],depth:data.a_m3[day][index]/(10*data.area_ha[index]),
+          before:data.B_mm[day][index],after:data.B_mm[day+1][index]};
+}
+function writeDetails(index){
+  if(index===null)return;
+  const value=metrics(currentDay,index);
+  document.getElementById('regionTitle').textContent=`${data.ids[index]}区 · ${data.dates[currentDay]}`;
+  document.getElementById('hint').hidden=true;
+  document.getElementById('regionDetails').hidden=false;
+  for(const [id,number] of Object.entries({allocation:value.allocation,depth:value.depth,storageBefore:value.before,storageAfter:value.after})){
+    document.getElementById(id).textContent=numberText(number);
+  }
+}
+function writeTooltip(index){
+  const value=metrics(currentDay,index);
+  tooltip.replaceChildren();
+  for(const line of [`${data.ids[index]}区 · ${data.dates[currentDay]}`,
+    `配水量：${numberText(value.allocation)} m³`,
+    `灌水深度：${numberText(value.depth)} mm`,
+    `日初储水：${numberText(value.before)} mm`,
+    `日末储水：${numberText(value.after)} mm`]){
+    const row=document.createElement('div');row.textContent=line;tooltip.append(row);
+  }
+}
+function moveTooltip(event){
+  const margin=12,width=tooltip.offsetWidth,height=tooltip.offsetHeight;
+  tooltip.style.left=`${Math.min(event.clientX+margin,window.innerWidth-width-margin)}px`;
+  tooltip.style.top=`${Math.min(event.clientY+margin,window.innerHeight-height-margin)}px`;
+}
+function stop(){if(timer!==null)clearInterval(timer);timer=null;document.getElementById('play').textContent='播放';}
+function showDay(day){
+  if(!Number.isInteger(day)||day<0||day>80)throw new Error('Invalid stored day');
+  currentDay=day;control.value=String(day);
+  document.getElementById('date').textContent=`${data.dates[day]} · 第${day+1}/81天`;
+  document.getElementById('budgetBefore').textContent=numberText(data.balance_m3[day]);
+  document.getElementById('dailyTotal').textContent=numberText(data.q_m3[day]);
+  document.getElementById('budgetAfter').textContent=numberText(data.balance_m3[day+1]);
+  for(const group of regions){const i=Number(group.dataset.region);group.querySelector('.region-fill').setAttribute('fill',colourFor(data.a_m3[day][i]));}
+  document.getElementById('previous').disabled=day===0;document.getElementById('next').disabled=day===80;
+  writeDetails(selected===null?inspected:selected);
+  if(hovered!==null)writeTooltip(hovered);
+  if(day===80)stop();
+}
+function selectRegion(index){
+  selected=index;inspected=index;
+  for(const group of regions)group.classList.toggle('selected',Number(group.dataset.region)===index);
+  writeDetails(index);
+}
+control.addEventListener('input',()=>{stop();showDay(Number(control.value));});
+document.getElementById('previous').addEventListener('click',()=>{stop();showDay(Math.max(0,currentDay-1));});
+document.getElementById('next').addEventListener('click',()=>{stop();showDay(Math.min(80,currentDay+1));});
+document.getElementById('play').addEventListener('click',()=>{
+  if(timer!==null){stop();return;}
+  if(currentDay===80)showDay(0);
+  document.getElementById('play').textContent='暂停';
+  timer=setInterval(()=>showDay(currentDay+1),500);
+});
+for(const group of regions){
+  const index=Number(group.dataset.region);
+  group.addEventListener('pointerenter',event=>{hovered=index;inspected=index;writeTooltip(index);tooltip.style.display='block';moveTooltip(event);if(selected===null)writeDetails(index);});
+  group.addEventListener('pointermove',moveTooltip);
+  group.addEventListener('pointerleave',()=>{hovered=null;tooltip.style.display='none';});
+  group.addEventListener('click',()=>selectRegion(index));
+  group.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();selectRegion(index);}});
+}
+const legend=document.getElementById('legend');
+const legendLabel=document.createElement('span');legendLabel.className='legend-label';legendLabel.textContent='当日配水量（千m³）';legend.append(legendLabel);
+for(const [colour,label] of [[data.scale.zero_color,'0'],...data.scale.positive_colors.map((colour,index)=>[colour,data.scale.labels[index]])]){
+  const item=document.createElement('span');item.className='legend-item';
+  const swatch=document.createElement('span');swatch.className='swatch';swatch.style.background=colour;
+  const text=document.createElement('span');text.textContent=label;item.append(swatch,text);legend.append(item);
+}
+showDay(0);
+</script>
+</body>
+</html>

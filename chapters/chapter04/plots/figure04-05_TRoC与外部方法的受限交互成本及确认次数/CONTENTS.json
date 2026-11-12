@@ -1,0 +1,58 @@
+{
+  "figure": "4.5",
+  "caption": "各方法的训练步数统计与确认次数",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-05_TRoC与外部方法的受限交互成本及确认次数",
+  "kind": "data_plot",
+  "original_drawio": null,
+  "plot_entry": "plot.py",
+  "python_sources": [
+    "accepted_inputs/accepted_cache_adapter.py",
+    "plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/provenance/unused_parent_presentation_style.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/replot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure45/plot.py",
+    "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py"
+  ],
+  "numerical_data": [
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/data.csv",
+      "sha256": "443d7cc73d23439b4c800cfa3aa607ad27b58c4425e8d293bee3a237102ac9d9",
+      "bytes": 1503,
+      "columns": 5,
+      "header": [
+        "domain",
+        "method",
+        "seed",
+        "restricted_steps",
+        "censored"
+      ],
+      "data_rows": 60
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plotted_points.csv",
+      "sha256": "4f610dfec1e69dd7acc3c49fb1b956b337521cebb41872aca484dbbc8e4a411e",
+      "bytes": 487,
+      "columns": 6,
+      "header": [
+        "domain",
+        "method",
+        "restricted_mean_steps",
+        "sample_sd_steps",
+        "reached_n",
+        "seed_count"
+      ],
+      "data_rows": 12
+    }
+  ],
+  "final_PDFs": [
+    {
+      "path": "figure.pdf",
+      "sha256": "21a444d1315c0a70f8c2f24f492b816383d18aa155072d85fb886157aab9509a",
+      "bytes": 31387
+    }
+  ],
+  "native_model": null,
+  "all_physical_in_own_chapter": true,
+  "external_symlinks": []
+}

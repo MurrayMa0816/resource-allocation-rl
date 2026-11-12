@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "all_panel_a_artists_exact": true,
+  "all_non_PROPS_panel_b_artists_exact": true,
+  "all_original_artist_styles_exact": true,
+  "all_original_axes_ranges_ticks_positions_text_exact": true,
+  "shared_legend_exact": true,
+  "changed_line_indices": {
+    "axis1": [
+      2,
+      3
+    ]
+  },
+  "changed_band_indices": {
+    "axis1": [
+      1
+    ]
+  },
+  "added_annotation": null
+}

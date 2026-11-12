@@ -1,0 +1,89 @@
+{
+  "schema": "pfo-author-core-task-port-provenance-v1",
+  "status": "VERIFIED_PORT_AND_NATIVE_PARTIAL_FINAL_ROLLOUT",
+  "paper": {
+    "title": "No Representation, No Trust: Connecting Representation, Collapse, and Trust Issues in PPO",
+    "venue": "NeurIPS2024",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/81166fbd9cc5adf14031cdb69d3fd6a8-Abstract-Conference.html"
+  },
+  "author_source": {
+    "repo": "https://github.com/CLAIRE-Labo/no-representation-no-trust",
+    "commit": "dff26dd85df9fc7b2c5933ce67e35a0e1da21126",
+    "license": "MIT; retained original notice; PyTorch task adapter of disclosed core with own collector",
+    "retained_core": {
+      "literature_policy/official_pfo/pfo_readme.txt": "47acbd05dff33a85927d6772d7cc6ec2da9b5d827b4ad565055fae4e84d88ee4",
+      "literature_policy/official_pfo/pfo_config.txt": "76c93c45d1267f00c9bdd10016d4b26e442ee4515b905521c05d8e11b2aedbb9",
+      "literature_policy/official_pfo/pfo_license.txt": "719963299d639051d947db9dcdea0083c68664a282a9074622f6ddb3dd2bcb73",
+      "literature_policy/official_pfo/pfo_dependencies.txt": "5209599eb9a10cfcc66a1c157bda48c4b6904734c4c9c4791f2a76a1a00336d7",
+      "literature_policy/official_pfo/requirements.txt": "494e4fb1bb5fe42bbe0aff2aa9e6863c3a9f24c89e763a8959ad3b99e87f7d01",
+      "literature_policy/official_pfo/losses.py": "5ddd05c9350a85f2034abd1b030b5fb769c861605abbee382838d8b0ef324e62",
+      "literature_policy/official_pfo/models.py": "ccac13aa934845cfa76fe2ca5c447ea779070ede2d500250ff2ac3b13cb06072"
+    }
+  },
+  "scientific_core": {
+    "actor": "PPO clipped surrogate epsilon.2 plus lambda1 detached behavior preactivation mean-squared drift penalty",
+    "distribution": "Tanh Normal with state-dependent positive scale; density of actual executed bounded action including correct transform Jacobian",
+    "anchors": "Actual collection-time object and total head preactivation features; each feeds loc and state-dependent scale; detached before any update",
+    "advantages": "GAE lambda1 gamma.99 with population minibatch normalization and sqrt clamp1e-6",
+    "value": "Separate Adam on un-clipped coefficient.5 squared value loss",
+    "clipping": "Separate actor and value gradient norms.5",
+    "optimizer": "Adam lr3e-4 eps1e-8, no learning-rate annealing"
+  },
+  "declared_task_adaptations": [
+    "Serial512 rollout,8 minibatches64,10epochs; finite physical episode terminals. Author large parallel-task sample schedule is not reproduced.",
+    "Compact public observations and shared object/total actor representation; head-balanced feature MSE is a declared task adaptation.",
+    "Both actual head representations feed loc and scale; no global action standard deviation inherited from SPO.",
+    "64x64 orthogonal critic and private serial collector initialization inherited only as engineering infrastructure from independently validated SPO port. PPO/PFO objective, distribution, entropy and optimizers are overridden.",
+    "Private action/learning RNGs and dev-only inference; no observation or reward running normalization. Native environment reward is unchanged; internal scale1.",
+    "No privileged state, offline data, pretrained policy, environment model, target network or replay; independent online-from-scratch methods."
+  ],
+  "limits": [
+    "The author underlying TorchRL/TensorDict distribution version is unpinned. Torch mathematical TanhNormal/default biased-softplus semantics are ported without large dependencies; full author runtime and bitwise author rollout equivalence are not claimed.",
+    "Equal-head reduction is algebraically equivalent to official feature-MSE on explicitly rescaled concatenated features; this is a task reduction adaptation, not the untouched single-flat-trunk author architecture.",
+    "These CPU synthetic tests establish implementation math and isolation, not physical task full-spend or learning success. Parent owns actual native CUDA gates."
+  ],
+  "profiles": {
+    "implementation/profiles/pfo_radio.json": "e0dc517e9471976fb6063bb39a0b44373a0d8ed34c547f105449c2c70d88d63c",
+    "implementation/profiles/pfo_v5.json": "1575ca59926970763a894febcaa08449cccdb6a8158b30e2ebeee07756034f3c"
+  },
+  "implementation_sha256": "65e0e7d6f5a41bf4b8870e5ee84e5210414b1c1ea59c10115e0a21ab3c05a801",
+  "collector_dependency_sha256": "cfd9d6ee9dcf3897ee7acaed4153c72ba6033e50082e779681496c806d01abca",
+  "shared_mean_dependency_sha256": "1ec859e3f4508f3d74fedd82ad0d5cf5d57e92826d74b0e34d46d94c8ceec1f3",
+  "proof_sha256": "a0f3c2dbaee0f18435e29f5442a730cee6b34fde6f6dc1a828ba623a1915b92b",
+  "expected_formal24576_accounting": {
+    "complete_rollouts": 48,
+    "actor_Adam_steps": 3840,
+    "value_Adam_steps": 3840,
+    "all_Adam_steps": 7680,
+    "optimized_positions_actor": 245760,
+    "physical_episodes_radio": 768,
+    "physical_episodes_v5": 1024
+  },
+  "native_gate_minimum_complete_episode_and_rollout_steps": {
+    "radio": 512,
+    "v5": 1536
+  },
+  "scientific_training_started_by_this_component": false,
+  "original_validated_implementation_sha256": "e635054067c2c3b3d016346de64a53334e6922ef9de99a624efe0c9a054401de",
+  "formal100608_tail_revision": {
+    "status": "PASS_NATIVE_TAIL256_AND_PREFIX_EQUIVALENCE",
+    "scientific_scope": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106",
+    "gate": {
+      "path": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/preflight/tail_native_gate.json",
+      "sha256": "16d9355e0eeb956e09de09deb36d77329c6605dd7afb2758c40a90daa791c5df"
+    },
+    "implementation_sha256": "65e0e7d6f5a41bf4b8870e5ee84e5210414b1c1ea59c10115e0a21ab3c05a801",
+    "runner_sha256": "e8afd63788ad304e41e5088d432b7022cf75c6fd5d3ac173175a6648a647e432",
+    "unchanged_collector_sha256": "cfd9d6ee9dcf3897ee7acaed4153c72ba6033e50082e779681496c806d01abca",
+    "steps": 100608,
+    "full_rollouts": 196,
+    "tail_real_steps": 256,
+    "rollout_updates": 197,
+    "nominal_minibatch": 64,
+    "actor_updates": 15720,
+    "value_updates": 15720,
+    "behavior": "Every real tail transition is used in four64-sample minibatches per epoch; ten epochs; no extra collection",
+    "from_scratch_jobs": 10,
+    "training_started": false
+  }
+}

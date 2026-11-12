@@ -1,0 +1,42 @@
+{
+  "paper_chapter": 3,
+  "version": "final-complete-experiment-v1",
+  "method": "ReJoP",
+  "current_model_index": "chapters/chapter03/MODELS.json",
+  "model_count": 80,
+  "main_methods": [
+    "ReJoP",
+    "C-PPO",
+    "PFO",
+    "Gradient PPO",
+    "RPO",
+    "PPO+"
+  ],
+  "main_models": 60,
+  "native_arms": [
+    "A_FULL",
+    "A_PACE"
+  ],
+  "random_object_arm": "A_RANDOM_OBJECT_ALLOCATION",
+  "random_object_models": 10,
+  "random_object_scope": "DEV only; no independent new TEST",
+  "training_steps": 100608,
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "development_paths": 8,
+  "common_confirmation_paths": 128,
+  "frozen_condition_groups_plotted": 150,
+  "native_source": "frozen/chapter03/native",
+  "external_source": "frozen/chapter03/external",
+  "PFO_source": "frozen/chapter03/pfo",
+  "condition_source": "frozen/chapter03/conditions",
+  "random_object_source": "chapters/chapter03/random_object_ablation_20261109",
+  "model_and_record_source_identity": "actual final MODELS.json; historical protocol bytes preserved",
+  "metadata_commands_scientific_execution": false,
+  "automatic_queue_recovery": false
+}

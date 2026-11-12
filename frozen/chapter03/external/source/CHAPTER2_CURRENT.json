@@ -1,0 +1,24 @@
+{
+  "paper_chapter": 2,
+  "version": "1.1.0",
+  "method_factory": "allocation23.methods.make_actor",
+  "methods": [
+    "A"
+  ],
+  "temporal": "fixed",
+  "state": "allocation23.state",
+  "environments": [
+    "v5",
+    "radio"
+  ],
+  "legacy_chapter_numbering": false,
+  "historical_compatibility_methods": [
+    "B"
+  ],
+  "experiment_plan": "experiments/chapter23_completion_20261101/jobs.json",
+  "chapter_workspace": "chapters/chapter02",
+  "workspace_launcher": "chapters/chapter02/launcher.py",
+  "workspace_method": "chapters/chapter02/method.py",
+  "workspace_ablations": "chapters/chapter02/ablations.py",
+  "workspace_environment": "chapters/chapter02/environment.py"
+}

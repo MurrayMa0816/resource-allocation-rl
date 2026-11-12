@@ -1,0 +1,59 @@
+{
+  "schema": "madtd-formal-native-family-schema-fixtures-v1",
+  "status": "PASS",
+  "fixture_only": true,
+  "scientific_data_generated": false,
+  "new_environment_steps": 0,
+  "new_optimizer_steps": 0,
+  "new_TEST_opened": false,
+  "checks": [
+    {
+      "check": "valid_explicit_full_formal_native_schema",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_native_policy_optimizer_steps",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_native_model_optimizer_steps",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_native_first_learning_environment_step",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_native_replay_capacity",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_native_task_terminal_supervised",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_native_sampled_real_terminal_rows",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_native_training_insertions",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_engineering_warmup_as_formal",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "reject_engineering_completion_as_formal",
+      "status": "PASS_EXPECTED_REJECTION"
+    },
+    {
+      "check": "real_registry190_plan_arithmetic",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_missing_formal_case",
+      "status": "PASS_EXPECTED_REJECTION"
+    }
+  ]
+}

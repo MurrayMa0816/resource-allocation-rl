@@ -1,0 +1,50 @@
+{
+  "figure": "6.3",
+  "caption": "全期用水安排与供水余额",
+  "directory": "chapters/chapter06_irrigation/figures/figure06-03_全期用水与余额统一风格_20261109",
+  "kind": "data_plot",
+  "original_drawio": null,
+  "plot_entry": "plot.py",
+  "python_sources": [
+    "plot.py",
+    "plot_layout.py",
+    "source/accepted_statistical.py",
+    "source/spacing.py"
+  ],
+  "numerical_data": [
+    {
+      "path": "beginning_balance82.csv",
+      "sha256": "97aae56771bff74d4c0a8ea7d3ea61b11f10e3980eaefb9884779d246f6db0ab",
+      "bytes": 2752,
+      "columns": 3,
+      "header": [
+        "boundary",
+        "date",
+        "beginning_balance_m3"
+      ],
+      "data_rows": 82
+    },
+    {
+      "path": "daily_allocation81.csv",
+      "sha256": "8fa44fca3853f6bc3b105473c7a6eba1e37f2f79da5d17eec14b12755c9746b6",
+      "bytes": 2709,
+      "columns": 3,
+      "header": [
+        "day",
+        "date",
+        "allocation_m3"
+      ],
+      "data_rows": 81
+    }
+  ],
+  "final_PDFs": [
+    {
+      "path": "layout.pdf",
+      "sha256": "71e9ea051a2cf6dcd38b04d82c92824e45b52534446ca5dac6ebe14c5bbfff2b",
+      "bytes": 14514
+    }
+  ],
+  "native_model": null,
+  "all_physical_in_own_chapter": true,
+  "external_symlinks": []
+}

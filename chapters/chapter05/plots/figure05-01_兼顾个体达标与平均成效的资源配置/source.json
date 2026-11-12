@@ -1,0 +1,245 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "5.1",
+  "caption": "兼顾个体达标与平均成效的资源配置",
+  "label": "fig:ch6-problem-mean-coverage",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-01_兼顾个体达标与平均成效的资源配置",
+  "kind": "drawio",
+  "current_section": "chapters/chapter05_dual_value/section61_problem.tex",
+  "current_references": [
+    "chapters/chapter05_dual_value/figures/figure05-01_兼顾个体达标与平均成效的资源配置/figure.pdf"
+  ],
+  "current_plot_entry": null,
+  "current_editable_source": "source.drawio",
+  "current_data_files": [],
+  "current_source_files": [
+    "source.drawio"
+  ],
+  "historical_provenance": {
+    "schema": "thesis-figure-local-assets-v2",
+    "number": "5.1",
+    "caption": "兼顾个体达标与平均成效的资源配置",
+    "label": "fig:ch6-problem-mean-coverage",
+    "directory": "chapters/chapter05_dual_value/figures/figure05-01_兼顾个体达标与平均成效的资源配置",
+    "current_section": "chapters/chapter05_dual_value/section61_problem.tex",
+    "current_references": [
+      "chapters/chapter05_dual_value/figures/figure05-01_兼顾个体达标与平均成效的资源配置/figure.pdf"
+    ],
+    "files": [
+      {
+        "path": "README.rst",
+        "role": "documentation",
+        "bytes": 1096,
+        "sha256": "2a857da4a2228b2c34676a169ba64526c1906052bc9828e49a91870db4595a3e"
+      },
+      {
+        "path": "figure.pdf",
+        "role": "inserted_pdf",
+        "bytes": 118926,
+        "sha256": "82dbc27a327d7a1d93c8f6018ad5568b81262f59117a6cfa27e7283fdecfd3af"
+      },
+      {
+        "path": "source.drawio",
+        "role": "editable_diagram",
+        "bytes": 177343,
+        "sha256": "df9309da0c66b905a6f6d7e9a688cd786a456466725afb652c3a381e538621cb"
+      },
+      {
+        "path": "figure.svg",
+        "role": "editable_vector_export",
+        "bytes": 543989,
+        "sha256": "29b090d6e74c8a9044565a23ba97b66f9e428a0b12900e8c43726455e5686721"
+      },
+      {
+        "path": "figure.png",
+        "role": "preview",
+        "bytes": 268166,
+        "sha256": "10fe9e85750b42104578ab97d5386bd59beff855d8f99f5ed05f40652afbc978"
+      }
+    ],
+    "original_source_manifest": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter05_dual_value/figures/figure05-01_平均成效与达标数量的差异/original_source.json",
+    "old_references": [
+      "chapters/chapter06_individual_guarantees/figures/problem_mean_coverage.tex"
+    ],
+    "pdf_policy": "Generated directly from source.drawio with calibrated10.5bp labels; insert at natural size.",
+    "drawio_policy": "The sole editable source is source.drawio. Native shapes/text/edges; the thesis supplies figure captions.",
+    "plot_command": null,
+    "plot_output_default": null,
+    "scientific_data_changed": false,
+    "training_or_evaluation_run": false,
+    "verification_evidence": "/hy-tmp/resource_allocation_results/thesis_problem_hex_adoption_20261108_155012/review",
+    "editing_source": "source.drawio",
+    "editing_format": "drawio",
+    "drawio_export": {
+      "number": "figure51",
+      "status": "exported",
+      "source": "source.drawio",
+      "source_sha256": "df9309da0c66b905a6f6d7e9a688cd786a456466725afb652c3a381e538621cb",
+      "pdf": "figure.pdf",
+      "pdf_sha256": "82dbc27a327d7a1d93c8f6018ad5568b81262f59117a6cfa27e7283fdecfd3af",
+      "exporter": "scripts/export_method_figures.py",
+      "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+      "generated_utc": "2026-11-10T11:48:48.715027+00:00",
+      "font_files_sha256": {
+        "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+        "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+        "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+        "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+        "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+        "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+      },
+      "diagram_vertices": 251,
+      "diagram_edges": 97,
+      "mathjax_errors": 0,
+      "expected_formulas": 7,
+      "rendered_formulas": 7,
+      "pdf_size_pt": [
+        437.6008605957031,
+        326.0866394042969
+      ],
+      "text_width_limit_cm": 15.6,
+      "applied_pdf_scale": 1.0570068987316925,
+      "native_content_clip_pt": [
+        1.0,
+        0.5,
+        415.0,
+        309.0
+      ],
+      "native_primary_text_bp": 9.93371,
+      "target_primary_text_bp": 10.5,
+      "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+    },
+    "retired_legacy_drawing_sources": {
+      "date": "2026-11-05",
+      "receipt": "docs/drawio_single_source_20261105/retirement_receipt.json",
+      "historical_source_records_are_not_active_inputs": true
+    },
+    "previous_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_directory_reorganization_20261105/audit/integrated_ch45",
+    "historical_source_archive": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter05_dual_value/figures/figure05-01_平均成效与达标数量的差异",
+    "previous_font_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_drawio_single_source_20261105/audit/drawio_workflow_verification.json",
+    "font_policy": {
+      "ordinary_chinese": "SimSun (宋体)",
+      "ordinary_latin_and_digits": "Times New Roman",
+      "chinese_group_headings": "SimHei (黑体), used sparingly",
+      "ordinary_main_text_final_pdf_bp": 10.5,
+      "secondary_data_plot_ticks_and_legends_bp": 9.5,
+      "mathematics": "MathJax TeX for drawio; Computer Modern mathtext for plots; natural superscript/subscript sizing",
+      "diagram_source_font_size_gui_px": 14,
+      "diagram_export": "Measured primary ordinary text calibrated to10.5bp, natural-size inclusion, maximum width15.6cm; reflow overwide figures instead of shrinking text",
+      "font_directory": "assets/fonts/windows"
+    },
+    "font_unification_record": "docs/figure_font_unification_20261105/PRESENTATION.json",
+    "problem_figure_revision": {
+      "scope": "Formal adoption of user-approved V16; black unfilled frames, complete regular hexagons and connected problem logic.",
+      "task_root": "/hy-tmp/resource_allocation_results/thesis_problem_hex_adoption_20261108_155012",
+      "approved_preview": "/hy-tmp/resource_allocation_results/thesis_hex_preview_v16_20261108_153120",
+      "source_sha256": "406d03fc423e146264d31a531eb3890e7a423b852dbfd35ddbdad1e63891715d",
+      "preview_pdf_sha256": "54e820230e8df76b964cb5a3b4f9537eee3e750bbd7a77cbca8ee62690dd3b0c",
+      "actual_export_cache_reused": true,
+      "original_export_generated_utc_preserved": "2026-11-08T07:33:23.855572+00:00"
+    },
+    "superseded_problem_figure_source": "/hy-tmp/resource_allocation_results/thesis_problem_argument_revision_20261105_2019/before/chapters/chapter05_dual_value/figures/figure05-01_平均成效与达标数量的差异",
+    "previous_problem_figure_revision": {
+      "revision": {
+        "task_root": "/hy-tmp/resource_allocation_results/thesis_problem_figures_rebuild_20261106_124542",
+        "round": 1,
+        "purpose": "有限多期投入改变余额和对象状态，最终各对象成效共同形成达标覆盖与平均成效。独立统计对照只解释同均值异覆盖及同覆盖异均值，不表明同预算可达策略或必然目标冲突。终末允许余额。"
+      },
+      "snapshot": "/hy-tmp/resource_allocation_results/thesis_problem_figures_visual_20261106_133544/before/chapters/chapter05_dual_value/figures/figure05-01_兼顾个体达标与平均成效的资源配置",
+      "source_sha256": "50c5cf73c19313c3534e6970d544a9a16a40d33b2a6ac0266f89ee9b20fda82e",
+      "pdf_sha256": "b00fdfcd581d09d80d0cffdd01436860118aa30811a92c6efe886f3b43c6d254"
+    },
+    "problem_focus_notes": "小型多期任务背景与三组独立对象终点成效统计示意，甲不重复显示。平均成效和达标覆盖以数字行及短比较标记表达，标准40与原三组数值保持，不是同预算可达结果或实验对照。",
+    "language_revision": {
+      "date": "2026-11-10",
+      "changed_cells": [
+        {
+          "id": "metrics",
+          "before": "<div style=\"line-height:1.30;white-space:nowrap;\">平均成效 J：全体对象均值</div><div style=\"line-height:1.30;white-space:nowrap;\">达标覆盖 C：达到门槛 \\(\\tau\\) 的对象占比</div>",
+          "after": "<div style=\"line-height:1.30;white-space:nowrap;\">平均成效 J：全体对象均值</div><div style=\"line-height:1.30;white-space:nowrap;\">达标覆盖率 C：达到门槛 \\(\\tau\\) 的对象占比</div>"
+        },
+        {
+          "id": "focus",
+          "before": "<div style=\"line-height:1.30;white-space:nowrap;\">两项评价不可相互替代</div><div style=\"line-height:1.30;white-space:nowrap;\">如何兼顾平均与达标范围？</div>",
+          "after": "<div style=\"line-height:1.30;white-space:nowrap;\">两项评价不可相互替代</div><div style=\"line-height:1.30;white-space:nowrap;\">兼顾平均成效与达标范围</div>"
+        }
+      ],
+      "parent_source_sha256": "406d03fc423e146264d31a531eb3890e7a423b852dbfd35ddbdad1e63891715d",
+      "parent_pdf_sha256": "54e820230e8df76b964cb5a3b4f9537eee3e750bbd7a77cbca8ee62690dd3b0c",
+      "external_runtime_dependencies": false,
+      "review_record": "docs/chapter5_comprehensive_language_20261110/PRESENTATION.json"
+    }
+  },
+  "scientific_execution": 0,
+  "editing_source": "source.drawio",
+  "editing_format": "drawio",
+  "drawio_export": {
+    "number": "figure51",
+    "status": "exported",
+    "source": "source.drawio",
+    "source_sha256": "df9309da0c66b905a6f6d7e9a688cd786a456466725afb652c3a381e538621cb",
+    "pdf": "figure.pdf",
+    "pdf_sha256": "82dbc27a327d7a1d93c8f6018ad5568b81262f59117a6cfa27e7283fdecfd3af",
+    "exporter": "scripts/export_method_figures.py",
+    "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+    "generated_utc": "2026-11-10T11:48:48.715027+00:00",
+    "font_files_sha256": {
+      "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+      "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+      "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+    },
+    "diagram_vertices": 251,
+    "diagram_edges": 97,
+    "mathjax_errors": 0,
+    "expected_formulas": 7,
+    "rendered_formulas": 7,
+    "pdf_size_pt": [
+      437.6008605957031,
+      326.0866394042969
+    ],
+    "text_width_limit_cm": 15.6,
+    "applied_pdf_scale": 1.0570068987316925,
+    "native_content_clip_pt": [
+      1.0,
+      0.5,
+      415.0,
+      309.0
+    ],
+    "native_primary_text_bp": 9.93371,
+    "target_primary_text_bp": 10.5,
+    "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "82dbc27a327d7a1d93c8f6018ad5568b81262f59117a6cfa27e7283fdecfd3af"
+  },
+  "files": [
+    {
+      "path": "README.rst",
+      "bytes": 638,
+      "sha256": "eed924664a5ae5243b7a48e44f60e47f3f691e4e2cecce9cf464b9b72c2db9ea"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 118926,
+      "sha256": "82dbc27a327d7a1d93c8f6018ad5568b81262f59117a6cfa27e7283fdecfd3af"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 268166,
+      "sha256": "10fe9e85750b42104578ab97d5386bd59beff855d8f99f5ed05f40652afbc978"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 543989,
+      "sha256": "29b090d6e74c8a9044565a23ba97b66f9e428a0b12900e8c43726455e5686721"
+    },
+    {
+      "path": "source.drawio",
+      "bytes": 177343,
+      "sha256": "df9309da0c66b905a6f6d7e9a688cd786a456466725afb652c3a381e538621cb"
+    }
+  ]
+}

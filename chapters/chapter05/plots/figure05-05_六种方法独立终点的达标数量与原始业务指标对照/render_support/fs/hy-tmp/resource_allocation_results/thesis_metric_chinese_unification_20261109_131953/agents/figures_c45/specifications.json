@@ -1,0 +1,101 @@
+[
+  {
+    "number": "4.8",
+    "kind": "c4",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter04_trajectory_reuse/figures/figure04-08_TRoC近期旧决策的归一化有效样本量与策略散度/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/chapter04/figures/display_simplification_20261109_002555/assets/figure4-8",
+    "parent_pdf_sha256": "288609729f8d71082be3cbacc4b4d9fcb6129748a312000859e39dc77fbdd82c",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/chapter04/figures/display_simplification_20261109_002555/assets/figure4-8/plot.py",
+    "parent_renderer_sha256": "3117374308322b03bd877cd064fdfcdd656f62b76ce28d9f32e0288d0a035cea",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure4-8",
+    "mapping": {
+      "策略差异（KL）": "策略分布相对熵"
+    }
+  },
+  {
+    "number": "5.4",
+    "kind": "c5shared",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-04_六种方法独立终点的达标数量与原始业务指标对照/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/joint_endpoint",
+    "parent_pdf_sha256": "8f19ae6066ac2949b1102c9580bab71ab99623ad2010946434f208c2d3129f39",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+    "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4",
+    "mapping": {
+      "平均图像质量（SSIM）": "平均结构相似性指数"
+    },
+    "role": "joint_endpoint",
+    "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data"
+  },
+  {
+    "number": "5.5",
+    "kind": "c5shared",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-05_六种方法达标数量与原始业务指标学习曲线/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/learning",
+    "parent_pdf_sha256": "81603a3737b25f6fc9120d2d3b8cb90a552b075b7d9e0f596f0898b41ec0c59f",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+    "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-5",
+    "mapping": {
+      "平均图像质量（SSIM）": "平均结构相似性指数"
+    },
+    "role": "learning",
+    "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data"
+  },
+  {
+    "number": "5.6",
+    "kind": "c56",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-06_不同训练目标下固定终点的达标数量与平均成效/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/chapter05/paper_revisions/figure56_joint_endpoints_20261109_110543/assets/objective_joint_endpoint",
+    "parent_pdf_sha256": "c3bbc18e47a75f5044577f2b62bf03b2d635dd7fc7f3151b7e3b0f73506d092c",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/chapter05/paper_revisions/figure56_joint_endpoints_20261109_110543/assets/objective_joint_endpoint/plot.py",
+    "parent_renderer_sha256": "421f97ba3d99f5bdc596afd87c71b78d829aa125a912d53e1eba62c658331f56",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-6",
+    "mapping": {
+      "平均图像质量 J（SSIM）": "平均结构相似性指数 J"
+    }
+  },
+  {
+    "number": "5.7",
+    "kind": "c5shared",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/threshold_recount",
+    "parent_pdf_sha256": "ea53b04ebcc65071b7bfc97d7dac95d11b9599e44e120d1ef42d6531654db184",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+    "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-7",
+    "mapping": {
+      "图像质量达标要求（SSIM）": "结构相似性指数门槛"
+    },
+    "role": "threshold_recount",
+    "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data"
+  },
+  {
+    "number": "5.8",
+    "kind": "c5shared",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/budget_transfer",
+    "parent_pdf_sha256": "5d6cf79dbc5961a74555e916dc067d84fc9f72d2b955514dafbc68f3df26e22c",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+    "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-8",
+    "mapping": {
+      "平均图像质量（SSIM）": "平均结构相似性指数"
+    },
+    "role": "budget_transfer",
+    "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data"
+  },
+  {
+    "number": "5.9",
+    "kind": "c59",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-09_对象终点质量与达标分布/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter5/assets/c5_terminal_case",
+    "parent_pdf_sha256": "0090f1479064004618798064e5b56c1aef5f4c1d620dd869fcc363c635aec8fe",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter5/assets/c5_terminal_case/plot.py",
+    "parent_renderer_sha256": "e84b4c06dbb8e1a0664886e04bbb61ba9e954e4b394f861d1ea2bc521c59248c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-9",
+    "mapping": {
+      "SSIM": "结构相似性指数"
+    }
+  }
+]

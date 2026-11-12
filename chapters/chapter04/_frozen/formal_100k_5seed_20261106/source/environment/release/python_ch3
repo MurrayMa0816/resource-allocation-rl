@@ -1,0 +1,37 @@
+#!/bin/bash
+# One Chapter 3 entry. Existing Chapter 2/4/5 environments remain unchanged.
+set -euo pipefail
+project_root=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
+method=$("$project_root/python" -c '
+import json,sys,pathlib
+args=sys.argv[1:]
+def value(flag):
+ for i,x in enumerate(args):
+  if x==flag and i+1<len(args):return args[i+1]
+  if x.startswith(flag+"="):return x.split("=",1)[1]
+ return None
+method=value("--method")
+run=value("--run")
+if not method and run:
+ p=pathlib.Path(run)/"model/online_manifest.json"
+ if p.is_file():method=json.loads(p.read_text())["method"]
+print(method or "")
+' "$@")
+export PYTHONDONTWRITEBYTECODE=1
+export OMP_NUM_THREADS=${OMP_NUM_THREADS:-1}
+export MKL_NUM_THREADS=${MKL_NUM_THREADS:-1}
+if [ "$method" = safedreamer ]; then
+  runtime=/hy-tmp/resource_allocation_results/chapter4/recent_baselines_ready_20261102/runtime/jax/bin/python
+  dependencies=/hy-tmp/resource_allocation_results/chapter3/baseline_reselection_20261104/runtime/dependencies
+  if [ ! -x "$runtime" ] || [ ! -d "$dependencies" ]; then
+    printf '%s\n' 'The registered isolated JAX runtime is unavailable; see docs/chapter3_baseline_reselection_20261104/FINAL_REPORT.rst.' >&2
+    exit 2
+  fi
+  export PYTHONPATH="$dependencies:$project_root${PYTHONPATH:+:$PYTHONPATH}"
+  export XLA_PYTHON_CLIENT_PREALLOCATE=false
+  export XLA_PYTHON_CLIENT_MEM_FRACTION=${XLA_PYTHON_CLIENT_MEM_FRACTION:-0.10}
+  export OPENBLAS_NUM_THREADS=${OPENBLAS_NUM_THREADS:-1}
+  exec "$runtime" -m allocation23.chapter3_baselines "$@"
+else
+  exec "$project_root/python" -m allocation23.chapter3_baselines "$@"
+fi

@@ -1,0 +1,51 @@
+{
+  "schema": "chapter3-A-ablations-v1",
+  "baseline": "A_FULL",
+  "additional_ablations": 4,
+  "entrypoint": "./project chapter3 train --arm ARM",
+  "arms": [
+    {
+      "id": "A_FULL",
+      "temporal": "adaptive",
+      "quota_reference": "pace",
+      "purpose": "完整方法，复用为消融参照",
+      "method": "A",
+      "variant": "A_FULL"
+    },
+    {
+      "id": "A_PACE",
+      "temporal": "pace",
+      "quota_reference": "pace",
+      "purpose": "去掉学习的总量调节，验证自适应总量策略",
+      "method": "A",
+      "variant": "A_FULL"
+    },
+    {
+      "id": "A_BUDGET_ONLY",
+      "temporal": "budget",
+      "quota_reference": "pace",
+      "purpose": "总量分支去掉对象需求/任务表征，验证任务与预算联合决策",
+      "method": "A",
+      "variant": "A_FULL"
+    },
+    {
+      "id": "A_NO_BUDGET",
+      "temporal": "task_no_budget",
+      "quota_reference": "pace",
+      "purpose": "总量分支屏蔽显式余额信息，验证预算输入；公共可行约束仍保留",
+      "method": "A",
+      "variant": "A_FULL"
+    },
+    {
+      "id": "A_CONSTANT_REFERENCE",
+      "temporal": "adaptive",
+      "quota_reference": "nominal",
+      "purpose": "将剩余资源/剩余期数参照换成名义常量，验证动态预算参照",
+      "method": "A",
+      "variant": "A_FULL"
+    }
+  ],
+  "full_spend_required": true,
+  "reference_source": "/hy-tmp/resource_allocation_results/chapter3/full_spend_revision_20261104/execution/a_native_worker.py",
+  "note": "A_CONSTANT_REFERENCE保留可学习总量头，并非fixed_nominal。空间思想沿用第二章；本章核心消融聚焦总量决策。"
+}

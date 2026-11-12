@@ -1,0 +1,40 @@
+{
+  "schema": "chapter4-double-random-postprocess-capsule-v1",
+  "status": "SEALED_CODE_READY_SCIENTIFIC_RESULTS_PENDING",
+  "created_utc": "2026-11-06T17:33:30.944940+00:00",
+  "plan_sha256": "5d501d02906409befa1e9b860fd1cdb140703e0fc7705b6d543aa0f6a0aff474",
+  "files_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/execution/publish_thesis.py": "f5ec4c2e3ad9d3ea07add5109877cff6cee068328cc975e280580f2bab396ab7",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/reporting/thesis_content.py": "6f2d49db34554c5393cacad14c316b5bf2f11ac0785740b7652a64bc5fe98207",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/reporting/contract_patches.py": "ee1a43c5f66caa5cd7763d615371aa072b924037c68aa4820913affb55a00df8",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/reporting/citations.py": "99786121df3a644c08326e0cb6d83f5f3037f5d8302ed8573607731646dea533",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/reporting/figure_plot.py": "b6b034671425226e033c91ec35f9f44fade8aed979b384c7f0c27490e171437f",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/reporting/PUBLISHER_README.rst": "7b73af5e6c03b81b12a15baf5c6f9567c05fdc331e7f4a64ba94d6ce2230e923",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/preflight/publisher_tests/run_synthetic_checks.py": "a4bc02eac1c993c0097fd171b0b6aa5bcf05cf9832c4735cc7b0546aadc522ff",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/preflight/publisher_tests/run_guard_checks.py": "f3662932f2ce0d6366cf49280c37bab5abfe227be6addc15a753fba05267515b",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/execution/independent_acceptance.py": "f74ac087ac53fada2e29a6e2fce38e3bac87c7acf3f2255acd231b6873aba1a2",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/execution/aggregate_results.py": "d370fc522494ea6cd75a9af6753a3875354d789968517547421dfcf57d8291a7",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/execution/postprocess.py": "50c99279790b463fc4423e73b431b94764aebf47fb9f89cb117792d3b85edc06",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/reporting/result_io.py": "46b44ffbbb0f02f8f4d7478a9e31d794ef33c5cf61c214a286e36047119709f7",
+    "/root/gamewar/latex_thesis_resource_allocation/scripts/build.sh": "6193b8a81e6b8a20f5eb54ef1a988d1d86255f6afb03e85795298effa319a604"
+  },
+  "independent_review": "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/preflight/publication_pipeline_independent_review.json",
+  "independent_review_sha256": "9f7c8fcadfe6ce615f3b7ff5b190eebf508ce0c8d2176f428483eaf47ce16cfd",
+  "publisher_approval_sha256": "1d3c9188b4f844db627f24c912009c3985a26cfc87fe64a7c622edb084f119fa",
+  "engineering_test_receipt_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/preflight/publisher_tests/selftest.json": "f9a09b209b08acdfe822bee7ec5769395516dd0b7aaed088a33e9590a2885423",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/preflight/publisher_tests/SYNTHETIC_ONLY/NOT_SCIENTIFIC_RESULTS.json": "c17d7a584a249f48828141eb20d68eaac23c90b062fbc09b62a98520babc680f",
+    "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/preflight/publisher_tests/SYNTHETIC_GUARD_ONLY/NOT_SCIENTIFIC_RESULTS.json": "839ecc1d6c61f9c9dc6db0120153c0ca6a531ac094f4302e9c326bdae4fdc3b9"
+  },
+  "sealer_sha256": "8a42cf7159ac31e7d392dccc3f24ba237db5a1ca694da37e82a82fb141bb8040",
+  "initialization": "both_random",
+  "new_trainings": 50,
+  "retained_external_trainings": 40,
+  "inherited_new_C3_A_endpoints": 10,
+  "scientific_result_entries": 190,
+  "publication_trigger": "All90 registered mixed-origin training results and100 endpoint evaluations complete; independent semantic acceptance PASS then aggregate and five actual whole-thesis builds.",
+  "scientific_results_complete": false,
+  "publication_performed": false,
+  "automatic_extra_training": false,
+  "human_visual_review_not_claimed": true
+}

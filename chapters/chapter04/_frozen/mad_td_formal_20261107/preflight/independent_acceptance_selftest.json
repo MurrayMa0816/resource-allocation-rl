@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "tests": [
+    "two_consecutive_requires_second_point",
+    "single_last_hit_is_censored",
+    "initial_two_hits_confirm_at_first_interval",
+    "raw_case_mean_positive",
+    "raw_case_mean_negative",
+    "duplicate_case_rejected",
+    "wrong_grid_rejected",
+    "nonfinite_rejected",
+    "positive_complete_resource_episode",
+    "zero_budget_rejected",
+    "unspent_budget_rejected",
+    "per_object_cap_violation_rejected",
+    "wrong_resource_phase_count_rejected",
+    "dense_reward_rejected",
+    "truncated_gzip_rejected",
+    "wrong_training_count_rejected",
+    "64bit_seed_string_exact",
+    "64bit_adjacent_seeds_stay_distinct",
+    "64bit_int_exact",
+    "imprecise_large_float_rejected"
+  ],
+  "synthetic_only": true,
+  "model_deserialization": false,
+  "new_environment_steps": 0
+}

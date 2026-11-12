@@ -1,0 +1,22 @@
+﻿论文小节,职责,本项目实体代码,说明
+2.1 / 2.3.1.1,environment and public state,allocation23/environments,"Image inputs are DATA, not required to be duplicated into ROOT code."
+2.1 / 2.3.1.1,environment and public state,allocation23/state.py,"Image inputs are DATA, not required to be duplicated into ROOT code."
+2.1 / 2.3.1.1,environment and public state,allocation23/task.py,"Image inputs are DATA, not required to be duplicated into ROOT code."
+2.1 / 2.3.1.1,environment and public state,allocation23/image_data.py,"Image inputs are DATA, not required to be duplicated into ROOT code."
+2.1 / 2.3.1.1,environment and public state,chapters/chapter02/environment.py,"Image inputs are DATA, not required to be duplicated into ROOT code."
+2.2 / 2.3.2.1,BLoAR canonical native method and PPO training,chapters/chapter02/method.py,门面优先读取本地frozen科学源；固定输入、模型和结果由DATA目录定位。共用allocation23不能替代对应冻结原生实现。
+2.2 / 2.3.2.1,BLoAR canonical native method and PPO training,chapters/chapter02/native_backend.py,门面优先读取本地frozen科学源；固定输入、模型和结果由DATA目录定位。共用allocation23不能替代对应冻结原生实现。
+2.2 / 2.3.2.1,BLoAR canonical native method and PPO training,chapters/chapter02/NATIVE_BACKEND.json,门面优先读取本地frozen科学源；固定输入、模型和结果由DATA目录定位。共用allocation23不能替代对应冻结原生实现。
+2.2 / 2.3.2.1,BLoAR canonical native method and PPO training,allocation23/training.py,门面优先读取本地frozen科学源；固定输入、模型和结果由DATA目录定位。共用allocation23不能替代对应冻结原生实现。
+2.2 / 2.3.2.1,BLoAR canonical native method and PPO training,allocation23/learning.py,门面优先读取本地frozen科学源；固定输入、模型和结果由DATA目录定位。共用allocation23不能替代对应冻结原生实现。
+2.3.1.2 / 2.3.2.1,five adopted external algorithms,allocation23/baselines/agent.py,"PASPO, RPO-SAC, TD7, SimBaV2, DIME; old-named source is still the actual source identity for accepted final100 endpoints, not dispensable."
+2.3.1.2 / 2.3.2.1,five adopted external algorithms,allocation23/baselines/runner.py,"PASPO, RPO-SAC, TD7, SimBaV2, DIME; old-named source is still the actual source identity for accepted final100 endpoints, not dispensable."
+2.3.1.2 / 2.3.2.1,five adopted external algorithms,allocation23/baselines/cores,"PASPO, RPO-SAC, TD7, SimBaV2, DIME; old-named source is still the actual source identity for accepted final100 endpoints, not dispensable."
+2.3.1.2 / 2.3.2.1,five adopted external algorithms,chapters/chapter02/configs/baselines.json,"PASPO, RPO-SAC, TD7, SimBaV2, DIME; old-named source is still the actual source identity for accepted final100 endpoints, not dispensable."
+2.3.2.2 / 2.3.2.3,three current spatial ablations and object count scaling,chapters/chapter02/ablations.py,A_FULL/A_RANDOM_MATCH/A_SOFTMAX/A_DIRECT; scaling reuses120-object defaults plus60/240 variants.
+2.3.2.2 / 2.3.2.3,three current spatial ablations and object count scaling,chapters/chapter02/configs/ablations.json,A_FULL/A_RANDOM_MATCH/A_SOFTMAX/A_DIRECT; scaling reuses120-object defaults plus60/240 variants.
+2.3.3.1 / 2.3.3.2,"evaluation, fixed stage conditions, saved cases",allocation23/evaluation.py,"960-stage TEST is distinct from long-run endpoint TEST; final cases use saved path0, no new TEST required."
+2.3.3.1 / 2.3.3.2,"evaluation, fixed stage conditions, saved cases",allocation23/training.py,"960-stage TEST is distinct from long-run endpoint TEST; final cases use saved path0, no new TEST required."
+2.3.3.1 / 2.3.3.2,"evaluation, fixed stage conditions, saved cases",chapters/chapter02/launcher.py,"960-stage TEST is distinct from long-run endpoint TEST; final cases use saved path0, no new TEST required."
+2.3,实际执行科学源快照,frozen/chapter02/native_random_head,保持原字节和源身份；旧队列脚本仅供查证，不作为当前自动入口
+2.3,实际执行科学源快照,frozen/chapter02/legacy_zero_head,保持原字节和源身份；旧队列脚本仅供查证，不作为当前自动入口

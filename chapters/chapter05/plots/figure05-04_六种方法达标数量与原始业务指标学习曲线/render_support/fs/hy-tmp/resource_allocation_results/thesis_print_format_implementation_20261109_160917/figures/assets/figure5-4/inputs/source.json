@@ -1,0 +1,46 @@
+{
+  "number": "5.5",
+  "kind": "c5shared",
+  "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-05_六种方法达标数量与原始业务指标学习曲线/figure.pdf",
+  "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/learning",
+  "parent_pdf_sha256": "81603a3737b25f6fc9120d2d3b8cb90a552b075b7d9e0f596f0898b41ec0c59f",
+  "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+  "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+  "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-5",
+  "mapping": {
+    "平均图像质量（SSIM）": "平均结构相似性指数"
+  },
+  "role": "learning",
+  "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data",
+  "schema": "thesis-chinese-metric-figure-labels-v1",
+  "native_parent_renderer_byte_identical": true,
+  "changes": [
+    {
+      "old": "平均图像质量（SSIM）",
+      "new": "平均结构相似性指数"
+    }
+  ],
+  "nontext_equal": true,
+  "parent_native_reproduction_pixels_equal": true,
+  "outputs": {
+    "figure.pdf": "eac754beb10a799b9aaf45a6f843efd67e3ddad3102f76c9f92d0a42305afb02",
+    "figure.svg": "51911271e44acb6fa9ff76bfe25f4b48466f488e36ee5fe2874bf71b96483e50",
+    "figure.png": "ace05c1487a66ce89121ae29326e0d0bcddd1a8c541a8b619e1ec4ac78ac1406",
+    "checks/metric_display_proof.json": "389ba0774703ce4f151f50b9c8f6ac704ec327cb7c32cd2ea3d3b010210de215"
+  },
+  "parent_retained": true,
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_evaluations": 0,
+    "training_runs": 0
+  },
+  "checks": {
+    "checks/metric_display_proof.json": "389ba0774703ce4f151f50b9c8f6ac704ec327cb7c32cd2ea3d3b010210de215",
+    "checks/pdf_value_and_vector_check.json": "d1328ce5bde9572c42729189583b1224c0eb59f0aedc750911c5732919acbd2b",
+    "checks/native_parent_reproduction.json": "c6b661a038484692998f727e03428db008c7203f2f31f2f9704aa58f7efeb14f"
+  },
+  "parent_source_metadata": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/learning/source.json",
+  "parent_source_metadata_sha256": "d122c13df8d58c93d01c13ec207f45129f49d7e5672bc07c270460e2f62c1114",
+  "native_parent_asset_directory_preserved": true
+}

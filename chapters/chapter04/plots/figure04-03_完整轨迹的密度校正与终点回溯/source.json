@@ -1,0 +1,183 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "4.3",
+  "caption": "完整轨迹的密度校正与终点回溯",
+  "label": "fig:ch5-trajectory-correction",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-03_完整轨迹的密度校正与终点回溯",
+  "kind": "drawio",
+  "current_section": "chapters/chapter04_trajectory_reuse/section52_method.tex",
+  "current_references": [
+    "chapters/chapter04_trajectory_reuse/figures/figure04-03_完整轨迹的密度校正与终点回溯/figure.pdf"
+  ],
+  "current_plot_entry": null,
+  "current_editable_source": "source.drawio",
+  "current_data_files": [],
+  "current_source_files": [
+    "source.drawio"
+  ],
+  "historical_provenance": {
+    "schema": "thesis-figure-local-assets-v2",
+    "number": "4.3",
+    "caption": "完整轨迹的密度校正与终点回溯",
+    "label": "fig:ch5-trajectory-correction",
+    "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-03_完整轨迹的密度校正与终点回溯",
+    "current_section": "chapters/chapter04_trajectory_reuse/section52_method.tex",
+    "current_references": [
+      "chapters/chapter04_trajectory_reuse/figures/figure04-03_完整轨迹的密度校正与终点回溯/figure.pdf"
+    ],
+    "files": [
+      {
+        "path": "README.rst",
+        "role": "documentation",
+        "bytes": 1547,
+        "sha256": "ade95408589566b89aa1b64b669a2ed403915bf9aec0c9b4c72f78aba0e920d4"
+      },
+      {
+        "path": "figure.pdf",
+        "role": "inserted_pdf",
+        "bytes": 80882,
+        "sha256": "fdd76289186b82806218bd708d0890bcb84add23e3e2da7a41befa7e410dfb3c"
+      },
+      {
+        "path": "source.drawio",
+        "role": "editable_diagram",
+        "bytes": 16030,
+        "sha256": "0c8d783ad9533f116d275f8c3fc6459a2814c1146f106b84108e9625fd7f37d0"
+      }
+    ],
+    "original_source_manifest": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter04_trajectory_reuse/figures/figure04-02_完整轨迹的密度校正与终点回溯/original_source.json",
+    "old_references": [
+      "chapters/chapter05_terminal_reward/figures/trajectory_correction_detail.tex"
+    ],
+    "pdf_policy": "Generated directly from source.drawio with thesis fonts and calibrated 10.5bp main labels; oversized diagrams must be reflowed.",
+    "drawio_policy": "The sole editable source is source.drawio. Native shapes/text/edges; the thesis supplies figure captions.",
+    "plot_command": null,
+    "plot_output_default": null,
+    "scientific_data_changed": false,
+    "training_or_evaluation_run": false,
+    "verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_font_unification_20261105/audit",
+    "editing_source": "source.drawio",
+    "editing_format": "drawio",
+    "drawio_export": {
+      "source": "source.drawio",
+      "source_sha256": "0c8d783ad9533f116d275f8c3fc6459a2814c1146f106b84108e9625fd7f37d0",
+      "pdf": "figure.pdf",
+      "pdf_sha256": "fdd76289186b82806218bd708d0890bcb84add23e3e2da7a41befa7e410dfb3c",
+      "exporter": "scripts/export_method_figures.py",
+      "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+      "generated_utc": "2026-11-08T07:55:20.892773+00:00",
+      "font_files_sha256": {
+        "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+        "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+        "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+        "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+        "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+        "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+      },
+      "diagram_vertices": 12,
+      "diagram_edges": 13,
+      "mathjax_errors": 0,
+      "expected_formulas": 14,
+      "rendered_formulas": 14,
+      "pdf_size_pt": [
+        440.6049499511719,
+        454.8179931640625
+      ],
+      "text_width_limit_cm": 15.6,
+      "applied_pdf_scale": 1.052819450488408,
+      "native_content_clip_pt": [
+        88.5,
+        0.5,
+        507.0,
+        432.5
+      ],
+      "native_primary_text_bp": 9.97322,
+      "target_primary_text_bp": 10.5,
+      "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+    },
+    "retired_legacy_drawing_sources": {
+      "date": "2026-11-05",
+      "receipt": "docs/drawio_single_source_20261105/retirement_receipt.json",
+      "historical_source_records_are_not_active_inputs": true
+    },
+    "previous_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_directory_reorganization_20261105/audit/integrated_ch45",
+    "historical_source_archive": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter04_trajectory_reuse/figures/figure04-02_完整轨迹的密度校正与终点回溯",
+    "previous_font_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_drawio_single_source_20261105/audit/drawio_workflow_verification.json",
+    "font_policy": {
+      "ordinary_chinese": "SimSun (宋体)",
+      "ordinary_latin_and_digits": "Times New Roman",
+      "chinese_group_headings": "SimHei (黑体), used sparingly",
+      "ordinary_main_text_final_pdf_bp": 10.5,
+      "secondary_data_plot_ticks_and_legends_bp": 9.5,
+      "mathematics": "MathJax TeX for drawio; Computer Modern mathtext for plots; natural superscript/subscript sizing",
+      "diagram_source_font_size_gui_px": 14,
+      "diagram_export": "Measured primary ordinary text calibrated to10.5bp, natural-size inclusion, maximum width15.6cm; reflow overwide figures instead of shrinking text",
+      "font_directory": "assets/fonts/windows"
+    },
+    "font_unification_record": "docs/figure_font_unification_20261105/PRESENTATION.json",
+    "numbering_revision": {
+      "reason": "New Chapter4 problem figure; existing scientific figure retained",
+      "receipt": "docs/problem_argument_revision_20261105/directory_map.json"
+    }
+  },
+  "scientific_execution": 0,
+  "editing_source": "source.drawio",
+  "editing_format": "drawio",
+  "drawio_export": {
+    "source": "source.drawio",
+    "source_sha256": "0c8d783ad9533f116d275f8c3fc6459a2814c1146f106b84108e9625fd7f37d0",
+    "pdf": "figure.pdf",
+    "pdf_sha256": "fdd76289186b82806218bd708d0890bcb84add23e3e2da7a41befa7e410dfb3c",
+    "exporter": "scripts/export_method_figures.py",
+    "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+    "generated_utc": "2026-11-08T07:55:20.892773+00:00",
+    "font_files_sha256": {
+      "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+      "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+      "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+    },
+    "diagram_vertices": 12,
+    "diagram_edges": 13,
+    "mathjax_errors": 0,
+    "expected_formulas": 14,
+    "rendered_formulas": 14,
+    "pdf_size_pt": [
+      440.6049499511719,
+      454.8179931640625
+    ],
+    "text_width_limit_cm": 15.6,
+    "applied_pdf_scale": 1.052819450488408,
+    "native_content_clip_pt": [
+      88.5,
+      0.5,
+      507.0,
+      432.5
+    ],
+    "native_primary_text_bp": 9.97322,
+    "target_primary_text_bp": 10.5,
+    "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "fdd76289186b82806218bd708d0890bcb84add23e3e2da7a41befa7e410dfb3c"
+  },
+  "files": [
+    {
+      "path": "README.rst",
+      "bytes": 628,
+      "sha256": "cba67373e2bc2c0774ac0710478a74ee6756ab2e2a569df076d4020806bdc1cf"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 80882,
+      "sha256": "fdd76289186b82806218bd708d0890bcb84add23e3e2da7a41befa7e410dfb3c"
+    },
+    {
+      "path": "source.drawio",
+      "bytes": 16030,
+      "sha256": "0c8d783ad9533f116d275f8c3fc6459a2814c1146f106b84108e9625fd7f37d0"
+    }
+  ]
+}

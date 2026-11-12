@@ -1,0 +1,32 @@
+{
+  "schema": "thesis-print-readability-derivative-v1",
+  "number": "5.9",
+  "scientific_values_changed": false,
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-9",
+  "parent_pdf_sha256": "46ed60bb4afcc02309fbb23038681330c2bec5711265e60505ab6647411e4c14",
+  "editable_source": "plot.py",
+  "render_engine": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+  "native_source": "inputs/parent_renderer.py",
+  "input_files_sha256": {
+    "parent_renderer.py": "e84b4c06dbb8e1a0664886e04bbb61ba9e954e4b394f861d1ea2bc521c59248c",
+    "source.json": "92f42dffff539d858793c0cd2f4865969e3959af61373c715a7408e572ead3f9",
+    "plot.py": "9b40793a2d95ccb7233411182cf7a8d59608761fe14900d93dcc5cc05b5e8a50",
+    "data/c5_radio_seed0_case0_terminal_quality.csv": "05aef557685f76af294e041566998816a26bb558c45a2473d8e4fc722ae92178",
+    "data/c5_v5_seed0_case0_terminal_quality.csv": "1b090658d23ccd9ed81876311fd5859d9bfa6ccc3835bae3ac7df6fbf2c0ca3c",
+    "data/c5_terminal_data_sources.json": "e88f93880b87aa8be3dc47699a1e8ee376a46b471f032a81ff889d799c19d66f"
+  },
+  "changes": [
+    null,
+    "object IDs 7.5 -> 9bp, centered, no collisions"
+  ],
+  "proof_sha256": "66268b747deb07c019c5d86be4235b8533184c57fda75adaf1ccada253f47f59",
+  "outputs": {
+    "figure.pdf": "fb87c4ae277dcd9107efb9ca906193a97ffe3175db98ce727a4eb88f37045ae6",
+    "figure.svg": "eea454fdd23069d9b9be43818fe1eb89361c4e0d9c8abbc82addd3050fe8de4e",
+    "figure.png": "bd9239d28c7f166291849f55cecf564334f9e6354afd061f9e0135c896b9fccf"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

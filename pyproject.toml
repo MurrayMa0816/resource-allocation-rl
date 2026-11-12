@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resource-allocation-research"
+version = "2.0.0"
+description = "Current thesis experiment source; run chapter entrypoints from the delivered source directory"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.1,<3", "torch>=2.4,<3", "gymnasium>=1.2,<2", "scipy>=1.14,<2", "matplotlib>=3.10,<4", "Pillow>=10,<12", "psutil>=6,<8"]
+
+[tool.setuptools]
+py-modules = ["portable_paths", "frozen_adapter"]
+license-files = ["applications/irrigation/LICENSE", "applications/irrigation/THIRD_PARTY_NOTICES.rst", "allocation23/baselines/cores/*LICENSE*.txt"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["allocation23*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+allocation23 = ["project.json", "environments/_emergency/configs/*.json", "assets/*.ttf", "assets/*.txt", "baselines/cores/*.json", "baselines/cores/*.txt"]
+
+"allocation23.chapter3_candidates" = ["profiles/*.json", "licenses/*", "*.json", "*.rst"]
+
+"allocation23.chapter3_baselines" = ["vendor/**/*.py", "vendor/**/*.json", "vendor/**/*.yaml", "vendor/**/*.yml", "vendor/**/*.xml", "vendor/**/*.png", "vendor/**/*.tex", "vendor/**/*.md", "vendor/**/*.txt", "vendor/**/*.in", "vendor/**/*.sh", "vendor/**/LICENSE*", "vendor/safedreamer/.gitignore"]
+
+
+
+[tool.setuptools.data-files]
+"share/resource-allocation/irrigation" = ["applications/irrigation/LICENSE", "applications/irrigation/THIRD_PARTY_NOTICES.rst", "applications/irrigation/CITATION.cff"]

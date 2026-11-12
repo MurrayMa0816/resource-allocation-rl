@@ -1,0 +1,222 @@
+{
+  "chapter": 6,
+  "figure": "figure06-01_区域与单元说明_20261109",
+  "DATA_chapter_relative": "figures/figure06-01_区域与单元说明_20261109",
+  "resolve_from": "portable_paths.chapter_data_root(6)",
+  "source_role": "exact editable current figure source and required small inputs; generated PDF/PNG/SVG remain only in the data package",
+  "render_entry": "plot.py",
+  "source_files": [
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/README.local.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/README.local.rst",
+      "sha256": "e28f9c6e692564c86867a2904a1f90ddabeaa75f1cc6519a5f0617a6ab00b8e0",
+      "size": 428
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/README.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/README.rst",
+      "sha256": "adaf3fcedeb95a8e770c7ca05e8753b18b1c7ea4e413a12cc23e7228cfe38197",
+      "size": 1067
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/local_source.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/local_source.json",
+      "sha256": "ad927e67434873f6a5eadf3f85035171f743860b6e1308733de3aafde8b69edc",
+      "size": 3451
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/manifest.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/manifest.json",
+      "sha256": "9ca8aaa64be3d08bd303f88ce59738863e9e87258ec44db5f2ed82bdc0f21db2",
+      "size": 5415
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/plot.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/plot.py",
+      "sha256": "05ae17ac3fda25ca1711fe16b7ee5d794fe3a8564c62ac4e48fb893364805b5a",
+      "size": 1887
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/region_categorical_colours.csv",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/region_categorical_colours.csv",
+      "sha256": "72b934395be46ed97ea1adc2cff102b7d858686cf540c0c84b5bb44feb7748cc",
+      "size": 4859
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/requirements.txt",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/requirements.txt",
+      "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+      "size": 33
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/CONTENTS.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/CONTENTS.json",
+      "sha256": "517422d95843ab03a568668f6a4f976e43caeaafea1c0c8879d7bcf728d9346f",
+      "size": 1791
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/legend_layout_proof.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/legend_layout_proof.json",
+      "sha256": "a8f257b7081a811963eebf84814667945c22ff09607dbd1e94377e58e611db6a",
+      "size": 2472
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/plot_legend_layout.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/plot_legend_layout.py",
+      "sha256": "704f98c2fed55431e05c7befa9cd06810541e6689b0b04876aa5aaeecf43be72",
+      "size": 8181
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/README_NATIVE_MAP.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/README_NATIVE_MAP.rst",
+      "sha256": "d8c25365cdfd32c96273e9088df94ed5a868f94e6be6e0100fe599f3b3b81a54",
+      "size": 1402
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/native_map_proof.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/native_map_proof.json",
+      "sha256": "bd7557e21c961aed7ef29849b6b8de0c471b9bd15b6c62e1623cb079389052c2",
+      "size": 45052
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/plot_native_map.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/plot_native_map.py",
+      "sha256": "e585740e9a434748d3dd0d21bff6bcef12009a250ce602a470bd93dee2aea7d5",
+      "size": 11072
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/channel_style.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/channel_style.json",
+      "sha256": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+      "size": 1256
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/mapping.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/mapping.json",
+      "sha256": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+      "size": 248935
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/mean_terminal_y_all89.csv",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/mean_terminal_y_all89.csv",
+      "sha256": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+      "size": 12412
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/palette.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/palette.json",
+      "sha256": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+      "size": 67
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/visible_manifest.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/visible_manifest.json",
+      "sha256": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+      "size": 8315
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/geometry/combined_water_geometry.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/geometry/combined_water_geometry.json",
+      "sha256": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "size": 38451
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/geometry/compact_gate_symbols.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/geometry/compact_gate_symbols.json",
+      "sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "size": 140481
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/geometry/water_hex_edges.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/geometry/water_hex_edges.json",
+      "sha256": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "size": 28495
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/geometry/layout.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/geometry/layout.json",
+      "sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "size": 448689
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/static_scene/style_overrides.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/static_scene/style_overrides.json",
+      "sha256": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+      "size": 3358
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/static_scene/data/internal_hex_edges.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/internal_hex_edges.json",
+      "sha256": "629694d376cadaaee127ae5d601e58846ca51be7f4482df53a5da6d2bb229f5c",
+      "size": 94029
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/static_scene/data/source_regions.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/source_regions.json",
+      "sha256": "30a4c3e36e814b9406cae88c527b50b5d5e71ee145ca4eaaae9b91d0c9e52d65",
+      "size": 13924
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/static_scene/data/compact_gate_symbols.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/compact_gate_symbols.json",
+      "sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "size": 140481
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/static_scene/data/layout.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/layout.json",
+      "sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "size": 448689
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/data/static_scene/data/water_band.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/water_band.json",
+      "sha256": "fe5549a2c52d64b10965212a5f8aa60df2e5a55ceb072fe6e5f98906200e1157",
+      "size": 84277
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/provenance/original_static_scene_render.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/provenance/original_static_scene_render.py",
+      "sha256": "983137583127d2bc239534bd7dbb2123d7866a02b03da634b08e3ae0c9e06284",
+      "size": 15140
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/source/display_helpers.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/source/display_helpers.py",
+      "sha256": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+      "size": 7197
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/source/map_family.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/source/map_family.py",
+      "sha256": "4e91b8f86a2c64b2668e3bbd9706092da52eb9567748026ca7cc6e9005dd9dd8",
+      "size": 19936
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/source/scene_clarity.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/source/scene_clarity.py",
+      "sha256": "650a3a8e9cde1b754578d0811207854dc0872d827f68abe449c7e8ffba20db03",
+      "size": 9093
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/native_map_20261110/label_adjustments.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/native_map_20261110/label_adjustments.json",
+      "sha256": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+      "size": 24031
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/native_map_20261110/origin.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/native_map_20261110/origin.json",
+      "sha256": "096143e63af286afb1ea4bff48b183dc7d930e09f6730022a29babf9daf3cab6",
+      "size": 780
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-01_区域与单元说明_20261109/native_map_20261110/source/render_maps.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-01_区域与单元说明_20261109/native_map_20261110/source/render_maps.py",
+      "sha256": "5749c72af58f99fdd8a0b43b92678351ca9eeb36a5c4629c8de6f529ce4c86ed",
+      "size": 21602
+    }
+  ],
+  "renderer_modified": false,
+  "no_model_or_NEW_TEST": true
+}

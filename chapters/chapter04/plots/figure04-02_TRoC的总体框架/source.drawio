@@ -1,0 +1,120 @@
+<mxfile host="Electron" type="device" compressed="false">
+  <diagram id="fig-4-2" name="图4.2 TRoC的总体框架">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="588" pageHeight="474" math="1" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="execute_title" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;配置执行&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=SimHei;fontSize=14;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;spacing=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="state" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;决策状态&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(s_t\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=6;fillColor=#F1D9B5;strokeColor=none;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="88" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="actor" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;联合Actor&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol z_t=(\eta_t,\boldsymbol w_t)\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol z_t\sim p_\theta(\cdot\mid s_t)\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="118" y="60" width="128" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mapping" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;配置映射&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\eta_t\longmapsto q_t\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol a_t=\operatorname{Alloc}(s_t,\boldsymbol w_t;q_t)\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="266" y="60" width="162" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="env" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;环境执行&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(s_{t+1},\ r_t\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(r_{T-1}=F_T\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="454" y="60" width="116" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" edge="1" parent="1" source="state" target="actor" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#263445;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="" edge="1" parent="1" source="actor" target="mapping" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#263445;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol a_t\)&lt;/span&gt;&lt;/div&gt;" edge="1" parent="1" source="mapping" target="env" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;非终点状态&lt;/div&gt;" edge="1" parent="1" source="env" target="state" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512" y="16" />
+              <mxPoint x="54" y="16" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="learning_title" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;完整轨迹复用&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=SimHei;fontSize=14;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;spacing=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="186" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="new" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;本批完整轨迹&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\mathcal B_k^{\mathrm{new}}\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(s_t,\boldsymbol z_t,\log\mu\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=6;fillColor=#E3EDE2;strokeColor=none;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="138" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="old" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;上批完整轨迹&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\mathcal H_k\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\mathcal H_{k+1}\leftarrow\mathcal B_k^{\mathrm{new}}\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=6;fillColor=#E3EDE2;strokeColor=none;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="340" width="138" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mix" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;等量合批&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(b+b\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;预热仅本批&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=6;fillColor=#BDD5EB;strokeColor=none;strokeWidth=1.0;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="168" y="270" width="94" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="core" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;校正回溯&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;（图4.3展开）&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;优化前固定&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\((y_t,A_t)\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=6;fillColor=#285F8A;strokeColor=none;strokeWidth=1.2;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="282" y="270" width="132" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="learn" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;网络更新&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(V_\psi(s_t)\leftarrow y_t\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(A_{\mathrm{std},t}\longrightarrow\theta\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="436" y="270" width="134" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;真实终点&lt;/div&gt;" edge="1" parent="1" source="env" target="new" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512" y="170" />
+              <mxPoint x="79" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" edge="1" parent="1" source="new" target="mix" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#263445;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158" y="260" />
+              <mxPoint x="158" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="" edge="1" parent="1" source="old" target="mix" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#263445;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158" y="380" />
+              <mxPoint x="158" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="" edge="1" parent="1" source="mix" target="core" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#263445;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="" edge="1" parent="1" source="core" target="learn" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#263445;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="" edge="1" parent="1" source="learn" target="core" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.15;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=5 4;fontColor=#1F5E8D;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456.1" y="410" />
+              <mxPoint x="348" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f42_psi_label" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;下批冻结&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\psi\)&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontFamily=SimHei;fontSize=14;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="384" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;更新Actor参数&lt;/div&gt;" edge="1" parent="1" source="learn" target="actor" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=5 4;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="582" y="295" />
+              <mxPoint x="582" y="0" />
+              <mxPoint x="182" y="0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;学习后替换&lt;/div&gt;" edge="1" parent="1" source="learn" target="old" style="edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="503" y="460" />
+              <mxPoint x="79" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

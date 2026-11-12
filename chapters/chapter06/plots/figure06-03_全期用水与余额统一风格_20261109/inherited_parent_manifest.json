@@ -1,0 +1,221 @@
+{
+  "status": "NATIVE_CANDIDATE_REQUIRES_VISUAL_REVIEW",
+  "group": "overview",
+  "width_mm": 144.0,
+  "height_mm": 80.03277638753255,
+  "source_canvas_height_mm": 80.03277549478743,
+  "external_bottom_margin_mm": 2.0,
+  "trimmed_empty_bottom_mm": 0.3022765689425997,
+  "font": {
+    "path": "/root/.local/share/fonts/thesis/ThesisFigureText-Regular.otf",
+    "sha256": "37d119595766a9f1a6fc5577cabafc3636621e71d9dd060fb17c95f0cddc6fc7",
+    "family": "Thesis Figure Text",
+    "ordinary_font_size_bp": 10.5,
+    "origin": "Approved composite SimSun Chinese / Times New Roman Latin figure font"
+  },
+  "all_visible_text_bp": 10.5,
+  "visible_text_checks": [
+    {
+      "text": "返青",
+      "size_bp": 10.5
+    },
+    {
+      "text": "分蘖",
+      "size_bp": 10.5
+    },
+    {
+      "text": "孕穗",
+      "size_bp": 10.5
+    },
+    {
+      "text": "抽穗",
+      "size_bp": 10.5
+    },
+    {
+      "text": "乳熟",
+      "size_bp": 10.5
+    },
+    {
+      "text": "5/30",
+      "size_bp": 10.5
+    },
+    {
+      "text": "7/15",
+      "size_bp": 10.5
+    },
+    {
+      "text": "7/31—8/1",
+      "size_bp": 10.5
+    },
+    {
+      "text": "8/10",
+      "size_bp": 10.5
+    },
+    {
+      "text": "当日总量（万m³）",
+      "size_bp": 10.5
+    },
+    {
+      "text": "0",
+      "size_bp": 10.5
+    },
+    {
+      "text": "5",
+      "size_bp": 10.5
+    },
+    {
+      "text": "10",
+      "size_bp": 10.5
+    },
+    {
+      "text": "(a) 每日配置总量",
+      "size_bp": 10.5
+    },
+    {
+      "text": "灌溉日期",
+      "size_bp": 10.5
+    },
+    {
+      "text": "5/30",
+      "size_bp": 10.5
+    },
+    {
+      "text": "6/16",
+      "size_bp": 10.5
+    },
+    {
+      "text": "7/1",
+      "size_bp": 10.5
+    },
+    {
+      "text": "7/15",
+      "size_bp": 10.5
+    },
+    {
+      "text": "7/31",
+      "size_bp": 10.5
+    },
+    {
+      "text": "8/10",
+      "size_bp": 10.5
+    },
+    {
+      "text": "8/19",
+      "size_bp": 10.5
+    },
+    {
+      "text": "日初余额（万m³）",
+      "size_bp": 10.5
+    },
+    {
+      "text": "0",
+      "size_bp": 10.5
+    },
+    {
+      "text": "200",
+      "size_bp": 10.5
+    },
+    {
+      "text": "400",
+      "size_bp": 10.5
+    },
+    {
+      "text": "(b) 日初供水余额",
+      "size_bp": 10.5
+    }
+  ],
+  "text_bounds_pass": true,
+  "title_anchor_checks": [
+    {
+      "title": "(a) 每日配置总量",
+      "centre_error_pixels": 0.0
+    },
+    {
+      "title": "(b) 日初供水余额",
+      "centre_error_pixels": 0.0
+    }
+  ],
+  "source": "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/source/statistical_style.py",
+  "source_sha256": "f4f43d58e121d33897542eb0b1e0776223c65b6640fb6c498534a0917604abe4",
+  "read_only_inputs_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6400/attempt0/results.npz": "36a66cbcfb07675b1d44cbb380e4e40d0322b545f56c1ac5ee218d8a2b11529e"
+  },
+  "assets": {
+    "pdf": {
+      "path": "/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure63/accepted_stage/figures/overview/figure.pdf",
+      "sha256": "fa2c24fcf5ec83d75a85ddcaf4b59d8216d68867367f35833b0269c9bb38eb56"
+    },
+    "svg": {
+      "path": "/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure63/accepted_stage/figures/overview/figure.svg",
+      "sha256": "96c2f7c1b3d62cea964a773707aa37ba59715b99dfdf73b400af5a1e6e97fd34"
+    },
+    "png": {
+      "path": "/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure63/accepted_stage/figures/overview/figure.png",
+      "sha256": "e884f33b82068f90812b52e19686797631ae86a68b42c64e9583bd8887b79428"
+    }
+  },
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "inference": 0,
+    "training": 0,
+    "new_TEST": 0
+  },
+  "TeX_edits": 0,
+  "paper_builds": 0,
+  "old_outputs_modified": false,
+  "figure_number": "6.3",
+  "curve_node_counts": [
+    81,
+    82
+  ],
+  "representative": {
+    "training_seed": 6400,
+    "weather_id": 125
+  },
+  "stages": [
+    [
+      "返青",
+      0,
+      9
+    ],
+    [
+      "分蘖",
+      9,
+      46
+    ],
+    [
+      "孕穗",
+      46,
+      62
+    ],
+    [
+      "抽穗",
+      62,
+      72
+    ],
+    [
+      "乳熟",
+      72,
+      81
+    ]
+  ],
+  "marker_days": [
+    0,
+    46,
+    62,
+    63,
+    72
+  ],
+  "date_ticks": [
+    0,
+    17,
+    32,
+    46,
+    62,
+    72,
+    81
+  ],
+  "same_original_curve_marker_date_and_stage_values": true,
+  "final_balance_boundary": "8/19 is the state boundary after81dailyactions, not an additional irrigation action"
+}

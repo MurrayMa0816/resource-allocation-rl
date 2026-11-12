@@ -1,0 +1,4 @@
+{
+  "status": "FAIL",
+  "traceback": "Traceback (most recent call last):\n  File \"/hy-tmp/resource_allocation_results/chapter4/full_spend_communication_repair_20261104/source/env/verify_method_interfaces_v2.py\", line 202, in <module>\n    try:run(args.method)\n        ^^^^^^^^^^^^^^^^\n  File \"/hy-tmp/resource_allocation_results/chapter4/full_spend_communication_repair_20261104/source/env/verify_method_interfaces_v2.py\", line 152, in run\n    state_before={k:v.detach().clone() for k,v in model.state_dict().items()}\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/hy-tmp/resource_allocation_results/chapter4/full_spend_communication_repair_20261104/source/env/verify_method_interfaces_v2.py\", line 152, in <dictcomp>\n    state_before={k:v.detach().clone() for k,v in model.state_dict().items()}\n                    ^^^^^^^^\nAttributeError: 'torch.Size' object has no attribute 'detach'\n"
+}

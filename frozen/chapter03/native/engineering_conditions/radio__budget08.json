@@ -1,0 +1,44 @@
+{
+  "invariants": {
+    "full_spend_required": true,
+    "policy_visible_future": false,
+    "same_horizon": true,
+    "same_objects": true,
+    "same_reward": true,
+    "same_source_physics": true
+  },
+  "metadata": {
+    "chapter": 3,
+    "condition_id": "budget08",
+    "domain": "radio",
+    "family": "budget",
+    "level": "0.8"
+  },
+  "physical_config": {
+    "channel_rho": 0.8,
+    "control_and_guard_reserve_s": 0.028,
+    "crc_bits": 32,
+    "csi_complex_error_variance": 0.0625,
+    "deployment_seed": 2026102904,
+    "energy_tolerance_J": 1e-15,
+    "episode_budget_override_J": 0.000384,
+    "frame_s": 0.128,
+    "global_seed_salt": 2026102915,
+    "global_stay_probability": 0.8,
+    "groups": 100,
+    "maximum_power_W": 0.002,
+    "packet_slot_s": 0.001,
+    "payload_bytes": 512,
+    "period_quota_override_J": null,
+    "power_tolerance_W": 1e-12,
+    "quota_power_per_terminal_W": 0.00015,
+    "reference_mean_snr_max_dB": 18.0,
+    "reference_mean_snr_min_dB": 6.0,
+    "reference_power_W": 0.001,
+    "rounds": 32,
+    "source_packets": 24,
+    "strong_noise_multiplier": 16.0,
+    "weak_noise_multiplier": 1.0
+  },
+  "schema": "allocation23-completion-physical-condition-v1"
+}

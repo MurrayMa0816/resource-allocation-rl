@@ -1,0 +1,82 @@
+{
+  "schema": "chapter04-lr-feedback-development-plan-v1",
+  "status": "PREPARED_NOT_RUNNING",
+  "user_authorization": "2026-11-09 用户：快读测试一下（按此前四臂/双域/两新seed/49152步方案）",
+  "arms": {
+    "original_feedback": {
+      "initial_actor_lr": 0.0003,
+      "mode": "feedback",
+      "lower": 0.03333333333333333,
+      "upper": 0.06666666666666667,
+      "factor": 1.03
+    },
+    "fixed_3e4": {
+      "initial_actor_lr": 0.0003,
+      "mode": "fixed",
+      "rate": 0.0003
+    },
+    "fixed_1e4": {
+      "initial_actor_lr": 0.0001,
+      "mode": "fixed",
+      "rate": 0.0001
+    },
+    "relaxed_feedback": {
+      "initial_actor_lr": 0.0003,
+      "mode": "feedback",
+      "lower": 0.05,
+      "upper": 0.1,
+      "factor": 1.03
+    }
+  },
+  "fixed_training": {
+    "domains": [
+      "radio",
+      "v5"
+    ],
+    "seeds": [
+      7100,
+      7101
+    ],
+    "steps": 49152,
+    "DEV_every": 768,
+    "DEV_cases": 32,
+    "DEV_points_including_zero": 65,
+    "train_master": 202611043101,
+    "dev_master": 202611043101,
+    "execution": "deterministic latent mean",
+    "fixed_clip": 0.13333333333333333,
+    "critic_lr": 0.001,
+    "warmup_complete_episodes": 32,
+    "fresh_episodes": 4,
+    "old_episodes": 4,
+    "epochs": 4,
+    "minibatch": 64
+  },
+  "precision": "float64 native; same backend for four arms; CPU/CUDA short engineering benchmark determines shared backend before formal source seal",
+  "primary_metric": "Original q95 comparison score, unsmoothed first consecutive two DEV points; count second point; restricted cost min(first_confirmation,49152), count censored runs separately",
+  "thresholds": {
+    "radio": {
+      "q90": 42.88870151259437,
+      "q95": 45.271407152182945,
+      "q100": 47.654112791771524
+    },
+    "v5": {
+      "q90": 71.61988809469949,
+      "q95": 75.59877076662723,
+      "q100": 79.57765343855498
+    }
+  },
+  "secondary_metrics": [
+    "all original q90/q95/q100 confirmation costs and counts",
+    "raw trapezoid DEV area divided by49152",
+    "fixed49152 DEV endpoint",
+    "paired per-seed differences",
+    "actual LR and policy-change diagnostics"
+  ],
+  "selection_scope": "Report complete outcomes for all four arms; n2 screening only, no significance/global superiority claim, no automatic formal adoption/extra seeds/budget/extensions; do not select via old TEST",
+  "model_storage": "one fixed endpoint per case, no disk replay/optimizer/periodic model",
+  "scientific_TEST_cases": 0,
+  "formal_paper_update": false,
+  "engineering_case_count": 10,
+  "new_scientific_training_count": 16
+}

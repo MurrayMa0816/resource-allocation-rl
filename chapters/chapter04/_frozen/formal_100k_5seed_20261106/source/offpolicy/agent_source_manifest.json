@@ -1,0 +1,406 @@
+{
+  "schema": "chapter4-offpolicy-frozen-agents-v1",
+  "created_utc": "2026-11-06T06:17:13.790753+00:00",
+  "source_files": [
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/DELIVERY.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/DELIVERY.json",
+      "sha256": "9283a568122503285be5e1a5362dbc382d54d0dd10aaf9c5570b79a09eb4a9b5"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/LICENSE",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/LICENSE",
+      "sha256": "e47b2783cb7131207707c35d0aea22277aa1beded6bf9d7c2436cd7de9462323"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/PROVENANCE.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/PROVENANCE.json",
+      "sha256": "3be22484eea2166085a273213442fc660845c53cb7a5dde58eaaea3bdd0df8ef"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/README.rst",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/README.rst",
+      "sha256": "398717dc85ecb3b6595567939e88637822a60bb06069cded1e00fbc2d1a26808"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/README_eager_reference.rst",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/README_eager_reference.rst",
+      "sha256": "ddbf2d955beb721fff16102e8ccafac1c659a523db1f00142552dfceeae759cf"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/agent.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/agent.py",
+      "sha256": "e3f4c13f94ac3ae51ee824103f950a0870d6def666b38c0224c8e83a8fdfeb19"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/gpu_gate_command.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/gpu_gate_command.json",
+      "sha256": "d6d1f0a07643dabfb35fb9394135fe3cd2d26b98d8f40e74128427e29860fd04"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/gpu_synthetic_gate.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/gpu_synthetic_gate.py",
+      "sha256": "43e10c9cd687e94f316675865f63461c16aca2ece5249331c9acf37fb71e17fa"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/graph_agent.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/graph_agent.py",
+      "sha256": "1eac6ae3c177d50fd98d66eaa5ee3b71e523e791cc0eca808f106df4d7339d6f"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/networks.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/networks.py",
+      "sha256": "ef61761eae18c62dd303c6a80b85302ddb708d185231790c7503350ccc35be0e"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/runtime_environment.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/runtime_environment.json",
+      "sha256": "456f7146d62828cbcfa72dec72c2e01376b883f3f27526c28fadd4601b28f221"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/scientific_profile.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/scientific_profile.json",
+      "sha256": "93e04b44c9f50b1e999a63c0adb7b75e541c06774836b938e45b830f00d9213f"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/source_manifest.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/source_manifest.json",
+      "sha256": "bcae52754ae6d4e23da3751b88ee7d141d8abbaf9df3abf0c15fb940828e995a"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/source_manifest_eager_reference.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/source_manifest_eager_reference.json",
+      "sha256": "2b1626bda694ff2a6f5ca78f88d576f9ac27c9fad460946bb35e0b9e194b26ff"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/steady_graph.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/steady_graph.py",
+      "sha256": "7f65fcc914462b72d4f7bd9004dd22b0475772a7e96dd549db6f42557a5e1821"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/steady_graph_gate.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/steady_graph_gate.py",
+      "sha256": "efa6a5089f876c099fc2b8ed80873a8bb860797be1d65769a4b05b1393c4c3d9"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/test_zero_env.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/test_zero_env.py",
+      "sha256": "5e05e5b7d47f6128550115e2343c22e2d1a0120add2358b5ddd4f08d88ac8f5e"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/DELIVERY.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/DELIVERY.json",
+      "sha256": "45c74d538b9f90217ad4c7a10532a24fd90c01b938d67634475b81298e244e17"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/GPU_GATE.rst",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/GPU_GATE.rst",
+      "sha256": "ff005a65923ebef74734ddb10cd47fed50d77b029c35beeb99c9d90c022479ac"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/PROVENANCE.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/PROVENANCE.json",
+      "sha256": "a35a0dbe7162231d3854db03ef43ec3b1b5c4b6c8842fff052eafd2cdd628b6c"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/README.rst",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/README.rst",
+      "sha256": "a06675cb15378ccfecbffdefc5713f489d16ccc680a083aab746a014292d8d1d"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/__init__.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/__init__.py",
+      "sha256": "3b132800182b402544125c0a85174f1e475da0ed3ab4f84e47e1d34ea404b7ec"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/agent.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/agent.py",
+      "sha256": "d3594ad810c8088ef1e2365b5c732d29fb2b6ad442600cda6f97f41fbce51471"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/gpu_gate_command.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/gpu_gate_command.json",
+      "sha256": "58b695eeb16ee2791420ea29381474931a9c82edb0991b705b7865d7964c8d59"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/gpu_gate_source_manifest.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/gpu_gate_source_manifest.json",
+      "sha256": "17af428816601ffa7dd65c2403d85dbe3df29b983b5ef81f4763717c131c19a7"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/gpu_zero_env_gate.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/gpu_zero_env_gate.py",
+      "sha256": "20a9febb0cc56f73b96234b5a269073957fd713052ba2e6a2b7146104142577f"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/native_loader.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/native_loader.py",
+      "sha256": "0cc210342fcf523119108970438e5f293a7c206199ab337a463c3d6131fe897f"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/source_manifest.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/source_manifest.json",
+      "sha256": "ad0c46b80b72d1893077860d3bd536f3095b7d0905a92e4183fea21deb966eaf"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/LICENSE",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/LICENSE",
+      "sha256": "7c6858d0e71dc8b858255270ad4b5004e80b5b058bf5bbc408a28430d6ddbf4b"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/MRQ.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/MRQ.py",
+      "sha256": "15a7f171b7b81619933428f5ebe596f70f961c92912b5008a32d90c4ec316534"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/README.md",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/README.md",
+      "sha256": "c9083affa4526c6559352deb4d249dde18a65cb4d14cae9a638397994ef56412"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/buffer.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/buffer.py",
+      "sha256": "dd526acf596272cc2c6864804991866ae4a5d3cff325727015eca58b00e61804"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/main.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/main.py",
+      "sha256": "a494e496312134f34be187d37f941a422ec7558e8c48a95a11f6b7b14725e968"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/models.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/models.py",
+      "sha256": "c42ff5d2b9a3210477a49d412584008da5fa58d1ed2089e3abb4fc49980b0c5a"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/requirements.txt",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/requirements.txt",
+      "sha256": "0e60dc0d346246ba5b4b0870fae752ffa97b5c0d5c0ae388990406932407a61b"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor/utils.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/utils.py",
+      "sha256": "880dd68e374abde98a56c674974006278fd089c126c679b36e2b7a80717ab655"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/vendor_manifest.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor_manifest.json",
+      "sha256": "a1e04a8f37f9d16ddd82ee41d1ac1f660a78f7920c1aae0b844267ec7206b6b7"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mrq/zero_env_gate.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/zero_env_gate.py",
+      "sha256": "7d535622831a416ad477fcc1f9446867184664b57ad70cf031d346d3b7045913"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/DELIVERY.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/DELIVERY.json",
+      "sha256": "54e92eaea79de38e325dbd9408e39ded49b50de4562c3dc03d01021a3e1c33f3"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/LICENSE",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/LICENSE",
+      "sha256": "7213def49d585f8ce8859da66f90e2f103b087864a94c01f501732b83e3effe1"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/PROVENANCE.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/PROVENANCE.json",
+      "sha256": "647e159c4a532f2c1aa29dbec7f0ebe522bf01fe1b30760627c6809dcf8e5b6f"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/README.rst",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/README.rst",
+      "sha256": "1c372ea50b881b6fb058eabe318ff297783ab64a12486c576540e2db4300e926"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/__init__.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/__init__.py",
+      "sha256": "ce49fee86219a6d7dbf622afc01b18b86d49608d4fb0336e3e40944edf03e947"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/agent.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/agent.py",
+      "sha256": "1d0e67e95539373da14617361ed38a52dd459d3f5160219965b4748972409961"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/gpu_gate_command.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/gpu_gate_command.json",
+      "sha256": "72c4917da5e9772e4809a701233a7f0473d097184dec1d759422c3ad281e66e4"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/native_loader.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/native_loader.py",
+      "sha256": "8899b1c05f9b01ab81c64150820ec9226116041d636a108b30aa65696e10009b"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/source_manifest.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/source_manifest.json",
+      "sha256": "a6ddf7b8c8dc3f22719b7b2213a933dadd8ba4ca487b810d8b48fb0ce0a0304d"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/LICENSE",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/LICENSE",
+      "sha256": "7213def49d585f8ce8859da66f90e2f103b087864a94c01f501732b83e3effe1"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/README.md",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/README.md",
+      "sha256": "58a2572a502d0c0fed546b5a1430fb5453d53b453f9f2ead65948fc957cce3a4"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/configs/__init__.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/configs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/configs/bro_default.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/configs/bro_default.py",
+      "sha256": "7237e0d878c2e38cd0fd939f171ac6eb6e1ddd44e30109ac1a07875e10f67739"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/__init__.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/bro/__init__.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/bro/actor.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/actor.py",
+      "sha256": "3a1c938013cdf716ec2c488df13049c348a41a5b6c991d34db40ce549a328495"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/bro/bro_learner.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/bro_learner.py",
+      "sha256": "a8943300464404c6add30c638a3a4c612abe55d23afef4306308a1a942e3c34e"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/bro/critic.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/critic.py",
+      "sha256": "d0d3a582f1accbaed051e3a96eb893b345902315a390d08ff8317af644a5473a"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/bro/temperature.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/temperature.py",
+      "sha256": "526fab69cf09f6345158d1726c12b63f43f46bf598720cc127c73d17d0264d08"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/networks/__init__.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/networks/common.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/common.py",
+      "sha256": "28c85b5b8fcee5e1d364f632f6047b824422774e1c94bcd5d2e386c1a28dd1da"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/networks/critic_net.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/critic_net.py",
+      "sha256": "6f3a4bb9ed0f24390cfac4b9db260b47107486e5602d95c870f14d07671181ce"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/networks/policies.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/policies.py",
+      "sha256": "b2f5495f069ae86b8f241d72a635f7ffb6d77a5f441bca66eea92f5f0953c830"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/jaxrl/replay_buffer.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/replay_buffer.py",
+      "sha256": "2e94355f91af81ac68fd84be36fa9621ab50edf280a30c0ba3447067ad37bfcb"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/requirements_dmc.txt",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/requirements_dmc.txt",
+      "sha256": "8f702a3d3e6efba61a17581b428f585499698ddff603203c6d89362fd163c6cd"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor/train_parallel.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/train_parallel.py",
+      "sha256": "e768f71c720820b14220fd82c36f7f155b23edc989ff58525c140fda2ec0e7fd"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/vendor_manifest.json",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor_manifest.json",
+      "sha256": "fd06e7267f792cd35cd25afbdeb9b806f54c1c9e9e9e50bca6e5c701b0e98be6"
+    },
+    {
+      "source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/zero_env_gate.py",
+      "frozen": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/zero_env_gate.py",
+      "sha256": "d1f6339c19de75b8cdd63767789611a659a1161eb20fa603bf2c8e881879c54e"
+    }
+  ],
+  "files": {
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/__init__.py": "df0df86d6ed8d16e181f35c71e3518bdb6bf424f67f558d0f38c60d94f3243b5",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/DELIVERY.json": "54e92eaea79de38e325dbd9408e39ded49b50de4562c3dc03d01021a3e1c33f3",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/LICENSE": "7213def49d585f8ce8859da66f90e2f103b087864a94c01f501732b83e3effe1",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/PROVENANCE.json": "647e159c4a532f2c1aa29dbec7f0ebe522bf01fe1b30760627c6809dcf8e5b6f",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/README.rst": "1c372ea50b881b6fb058eabe318ff297783ab64a12486c576540e2db4300e926",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/__init__.py": "ce49fee86219a6d7dbf622afc01b18b86d49608d4fb0336e3e40944edf03e947",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/agent.py": "1d0e67e95539373da14617361ed38a52dd459d3f5160219965b4748972409961",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/gpu_gate_command.json": "72c4917da5e9772e4809a701233a7f0473d097184dec1d759422c3ad281e66e4",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/native_loader.py": "8899b1c05f9b01ab81c64150820ec9226116041d636a108b30aa65696e10009b",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/source_manifest.json": "a6ddf7b8c8dc3f22719b7b2213a933dadd8ba4ca487b810d8b48fb0ce0a0304d",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/LICENSE": "7213def49d585f8ce8859da66f90e2f103b087864a94c01f501732b83e3effe1",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/README.md": "58a2572a502d0c0fed546b5a1430fb5453d53b453f9f2ead65948fc957cce3a4",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/configs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/configs/bro_default.py": "7237e0d878c2e38cd0fd939f171ac6eb6e1ddd44e30109ac1a07875e10f67739",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/actor.py": "3a1c938013cdf716ec2c488df13049c348a41a5b6c991d34db40ce549a328495",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/bro_learner.py": "a8943300464404c6add30c638a3a4c612abe55d23afef4306308a1a942e3c34e",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/critic.py": "d0d3a582f1accbaed051e3a96eb893b345902315a390d08ff8317af644a5473a",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/bro/temperature.py": "526fab69cf09f6345158d1726c12b63f43f46bf598720cc127c73d17d0264d08",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/common.py": "28c85b5b8fcee5e1d364f632f6047b824422774e1c94bcd5d2e386c1a28dd1da",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/critic_net.py": "6f3a4bb9ed0f24390cfac4b9db260b47107486e5602d95c870f14d07671181ce",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/networks/policies.py": "b2f5495f069ae86b8f241d72a635f7ffb6d77a5f441bca66eea92f5f0953c830",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/jaxrl/replay_buffer.py": "2e94355f91af81ac68fd84be36fa9621ab50edf280a30c0ba3447067ad37bfcb",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/requirements_dmc.txt": "8f702a3d3e6efba61a17581b428f585499698ddff603203c6d89362fd163c6cd",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor/train_parallel.py": "e768f71c720820b14220fd82c36f7f155b23edc989ff58525c140fda2ec0e7fd",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/vendor_manifest.json": "fd06e7267f792cd35cd25afbdeb9b806f54c1c9e9e9e50bca6e5c701b0e98be6",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/bro/zero_env_gate.py": "d1f6339c19de75b8cdd63767789611a659a1161eb20fa603bf2c8e881879c54e",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/DELIVERY.json": "45c74d538b9f90217ad4c7a10532a24fd90c01b938d67634475b81298e244e17",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/GPU_GATE.rst": "ff005a65923ebef74734ddb10cd47fed50d77b029c35beeb99c9d90c022479ac",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/PROVENANCE.json": "a35a0dbe7162231d3854db03ef43ec3b1b5c4b6c8842fff052eafd2cdd628b6c",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/README.rst": "a06675cb15378ccfecbffdefc5713f489d16ccc680a083aab746a014292d8d1d",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/__init__.py": "3b132800182b402544125c0a85174f1e475da0ed3ab4f84e47e1d34ea404b7ec",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/agent.py": "d3594ad810c8088ef1e2365b5c732d29fb2b6ad442600cda6f97f41fbce51471",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/gpu_gate_command.json": "58b695eeb16ee2791420ea29381474931a9c82edb0991b705b7865d7964c8d59",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/gpu_gate_source_manifest.json": "17af428816601ffa7dd65c2403d85dbe3df29b983b5ef81f4763717c131c19a7",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/gpu_zero_env_gate.py": "20a9febb0cc56f73b96234b5a269073957fd713052ba2e6a2b7146104142577f",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/native_loader.py": "0cc210342fcf523119108970438e5f293a7c206199ab337a463c3d6131fe897f",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/source_manifest.json": "ad0c46b80b72d1893077860d3bd536f3095b7d0905a92e4183fea21deb966eaf",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/LICENSE": "7c6858d0e71dc8b858255270ad4b5004e80b5b058bf5bbc408a28430d6ddbf4b",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/MRQ.py": "15a7f171b7b81619933428f5ebe596f70f961c92912b5008a32d90c4ec316534",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/README.md": "c9083affa4526c6559352deb4d249dde18a65cb4d14cae9a638397994ef56412",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/buffer.py": "dd526acf596272cc2c6864804991866ae4a5d3cff325727015eca58b00e61804",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/main.py": "a494e496312134f34be187d37f941a422ec7558e8c48a95a11f6b7b14725e968",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/models.py": "c42ff5d2b9a3210477a49d412584008da5fa58d1ed2089e3abb4fc49980b0c5a",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/requirements.txt": "0e60dc0d346246ba5b4b0870fae752ffa97b5c0d5c0ae388990406932407a61b",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor/utils.py": "880dd68e374abde98a56c674974006278fd089c126c679b36e2b7a80717ab655",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/vendor_manifest.json": "a1e04a8f37f9d16ddd82ee41d1ac1f660a78f7920c1aae0b844267ec7206b6b7",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/mrq/zero_env_gate.py": "7d535622831a416ad477fcc1f9446867184664b57ad70cf031d346d3b7045913",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/DELIVERY.json": "9283a568122503285be5e1a5362dbc382d54d0dd10aaf9c5570b79a09eb4a9b5",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/LICENSE": "e47b2783cb7131207707c35d0aea22277aa1beded6bf9d7c2436cd7de9462323",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/PROVENANCE.json": "3be22484eea2166085a273213442fc660845c53cb7a5dde58eaaea3bdd0df8ef",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/README.rst": "398717dc85ecb3b6595567939e88637822a60bb06069cded1e00fbc2d1a26808",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/README_eager_reference.rst": "ddbf2d955beb721fff16102e8ccafac1c659a523db1f00142552dfceeae759cf",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/agent.py": "e3f4c13f94ac3ae51ee824103f950a0870d6def666b38c0224c8e83a8fdfeb19",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/gpu_gate_command.json": "d6d1f0a07643dabfb35fb9394135fe3cd2d26b98d8f40e74128427e29860fd04",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/gpu_synthetic_gate.py": "43e10c9cd687e94f316675865f63461c16aca2ece5249331c9acf37fb71e17fa",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/graph_agent.py": "1eac6ae3c177d50fd98d66eaa5ee3b71e523e791cc0eca808f106df4d7339d6f",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/networks.py": "ef61761eae18c62dd303c6a80b85302ddb708d185231790c7503350ccc35be0e",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/runtime_environment.json": "456f7146d62828cbcfa72dec72c2e01376b883f3f27526c28fadd4601b28f221",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/scientific_profile.json": "93e04b44c9f50b1e999a63c0adb7b75e541c06774836b938e45b830f00d9213f",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/source_manifest.json": "bcae52754ae6d4e23da3751b88ee7d141d8abbaf9df3abf0c15fb940828e995a",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/source_manifest_eager_reference.json": "2b1626bda694ff2a6f5ca78f88d576f9ac27c9fad460946bb35e0b9e194b26ff",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/steady_graph.py": "7f65fcc914462b72d4f7bd9004dd22b0475772a7e96dd549db6f42557a5e1821",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/steady_graph_gate.py": "efa6a5089f876c099fc2b8ed80873a8bb860797be1d65769a4b05b1393c4c3d9",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/offpolicy/offpolicy_agents/redo/test_zero_env.py": "5e05e5b7d47f6128550115e2343c22e2d1a0120add2358b5ddd4f08d88ac8f5e"
+  },
+  "copied_without_math_changes": true
+}

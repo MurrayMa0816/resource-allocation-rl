@@ -1,0 +1,84 @@
+{
+  "status": "PASS_ZERO_ENV_FORMAL_AND_EXPLICIT_ENGINEERING_CONTRACT",
+  "adapter_source_sha256": "1c917b2bc433ed6c7ebc6e2445708318ee4929209f2c2e8cc7874c164d2725c1",
+  "source_sha256": {
+    "__init__.py": "fa8dc959f25b8337506c3a1e7f717e1c76448341c1846aeb26804a90495fea3d",
+    "agent.py": "3259f50527eb1aec8fcdb91f233eed960c64f5a2310685161a0e70afbc2f38c1",
+    "_native.py": "e97972992b3383ccd275ddced04b721ca1586c20cf13f4c956e574dacf97f92d",
+    "configs.json": "e3e29b01953acfdd379050108d8d74056e9b43561b83bc6707f989f0be77aad7",
+    "README.rst": "1a09609a0cdcc5ceea83cdc2a32d2105e1287cecd3a93faa7f780fca02607b85",
+    "RELEASE.json": "0452723ed5e8a0ae61c52495cd5f9cb54ddf850e6a268f4e421b931ff1676a0b"
+  },
+  "obs_shape": [
+    8,
+    719
+  ],
+  "fixed64_shape": [
+    8,
+    64,
+    49
+  ],
+  "fixed64_dtype": "float64",
+  "fixed64_exact_native_float32_parameters_then_float64_math": true,
+  "fixed64_does_not_change_torch_or_private_RNG": true,
+  "training_sample_and_logp_still_native_float32_exact": true,
+  "original_sampling_panel_update_methods_identical": true,
+  "formal": {
+    "engineering": false,
+    "learning_steps": 259200,
+    "rollout_steps": 5184,
+    "update_groups": 50,
+    "DEV_paths": 32,
+    "smoothness_total_steps": 259200
+  },
+  "engineering": {
+    "engineering": true,
+    "learning_steps": 5184,
+    "episodes": 64,
+    "update_groups": 1,
+    "DEV_paths": 2,
+    "smoothness_total_steps": 5184
+  },
+  "invalid_budget_profiles_rejected": [
+    {
+      "learning_steps": 5184
+    },
+    {
+      "engineering": true,
+      "learning_steps": 259200
+    },
+    {
+      "engineering": true,
+      "learning_steps": 10368
+    },
+    {
+      "engineering": true,
+      "learning_steps": 5184,
+      "dev_paths": 32
+    },
+    {
+      "engineering": "true"
+    }
+  ],
+  "configuration_and_metadata_consistent": true,
+  "previous_checks": [
+    "pasta_tensor_check_before_float64.json",
+    "pasta_tensor_check_before_engineering.json"
+  ],
+  "physical_work": {
+    "environment_constructions": 0,
+    "resets": 0,
+    "steps": 0,
+    "training_runs": 0,
+    "optimizer_updates": 0,
+    "model_loads": 0
+  },
+  "synthetic_work": {
+    "newly_initialized_valid_agents_this_check": 2,
+    "sample_info_calls": 1,
+    "complete_panels": 0
+  },
+  "GPU_or_real_engineering": "Parentownsengineeringscopeandcost",
+  "portability_check": "pasta_portability_check.json",
+  "source_change_since_exact_tensor_checks": "FORMAL_ROOTconstantonly; inheritedtrainingmethodsandfixed64arithmeticunchanged"
+}

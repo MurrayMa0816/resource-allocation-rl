@@ -1,0 +1,189 @@
+{
+  "schema": "chapter6-reasonable89-maintenance-entry-v1",
+  "status": "completed_published",
+  "global_canonical_active": true,
+  "case_id": "Hongmiao89-reasonable-depth-v1",
+  "maintained_code_root": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109",
+  "entrypoint": "launcher.py",
+  "commands": {
+    "inspect": "read true runtime status and verify static identities",
+    "plan": "read true status/profile/source/TEST amendment without scientific imports",
+    "check": "same read-only static checks as plan",
+    "run --phase training": "only the locked fresh9 training controller; existing cohort is rejected",
+    "run --phase evaluation": "only the locked evaluation dispatcher after all9 audit and explicit root TEST release; existing dispatch is rejected"
+  },
+  "source": "source",
+  "algorithm": "method",
+  "scientific_execution_files": [
+    "execution/common.py",
+    "execution/worker_train.py"
+  ],
+  "scientific_source_files": 140,
+  "scientific_source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "actual_training_frozen_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code",
+  "scientific_source_manifest": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/scientific_source_manifest.json",
+  "selected_application": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/protocol/selected_application.json",
+  "study_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109",
+  "run_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal",
+  "runtime_status": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/status.json",
+  "training_registration": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json",
+  "training_controller": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/train_final_M64_controller.py",
+  "evaluation_controller": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/run_evaluation.py",
+  "evaluation_capsule": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/evaluation_execution_capsule.json",
+  "region_count": 89,
+  "area_mu": 12618,
+  "horizon_days": 81,
+  "models": 9,
+  "budgets_m3": [
+    3500000,
+    4000000,
+    4500000
+  ],
+  "main_budget_m3": 4000000,
+  "training_seeds": [
+    6400,
+    6401,
+    6402
+  ],
+  "fixed_training_episodes": 3200,
+  "development_every_episodes": 128,
+  "development_paths_per_checkpoint": 32,
+  "adapter": "depth_area_physical",
+  "local_dim": 8,
+  "objective_order": [
+    "C90",
+    "JA"
+  ],
+  "coverage_threshold": 0.9,
+  "training_weight": 0.2,
+  "learning_scalar": ".2*C90+.8*JA",
+  "spatial_sigma_scale": 1.0,
+  "initialization": "chapter5-both-heads-default-random-v1",
+  "training_operator": "native_stochastic_complete_joint_Gaussian",
+  "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+  "execution_point_count": 64,
+  "execution_event_dim": 49,
+  "execution_points_seed": 2026110964,
+  "execution_points_sha256": "9b59078bcb00785b7febcfe2b78d35fd1bd227c0ec7a85af45ef25b1b6a6a500",
+  "test_namespace_amendment": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/TEST_namespace_amendment.json",
+  "test_namespace_amendment_sha256": "a8213768eeb0de85f7e774030670dcd9614b7a7c260b5cdb5bcc5fb4766fb079",
+  "test_seeds_inclusive": [
+    3900000000,
+    3900000127
+  ],
+  "formal_training_started": true,
+  "formal_training_completed": true,
+  "formal_evaluation_completed": true,
+  "thesis_published": true,
+  "non_scientific_entry_files": [
+    "launcher.py",
+    "README.rst",
+    "integration.json",
+    "AGENTS.md"
+  ],
+  "evaluation_mirror": {
+    "path": "evaluation",
+    "status": "EXACT_READABLE_MIRROR_PAPER_ACCEPTED_CANONICAL",
+    "manifest": "evaluation/manifest.json",
+    "manifest_sha256": "79b7dab7283e557576b5d0a631d0602218042cec8a2595862565c39ef618adfb",
+    "actual_entry": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/evaluate.py"
+  },
+  "visualization_mirror": {
+    "path": "visualization",
+    "status": "EXACT_READABLE_MIRROR_PAPER_ACCEPTED_CANONICAL",
+    "manifest": "visualization/manifest.json",
+    "manifest_sha256": "8492263f4ba62e39a2b09a953aba31b11f6b4959a983bdaa2c096d8a19f29b75",
+    "copied_editable_files": 21,
+    "HY_static_categorical_input_links": 3,
+    "generated_output_copies": 0,
+    "actual_renderer": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/render.py",
+    "actual_replay_renderer": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/replay.py"
+  },
+  "all_models_results_logs_figures_cache_storage": "/hy-tmp",
+  "automatic_training_or_recovery": false,
+  "automatic_TEST_release": false,
+  "active_CURRENT_or_MAINTAINED_CODE_modified": true,
+  "scientific_complete": true,
+  "scientific_audits_pass": true,
+  "formal_evaluation_jobs": 40,
+  "formal_evaluation_trajectories": 2698,
+  "base_evaluation_jobs": 36,
+  "base_evaluation_trajectories": 2694,
+  "descriptive_jobs": 4,
+  "descriptive_trajectories": 4,
+  "pdf_review_completed": true,
+  "final_publication_receipt": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/PAPER_ACCEPTANCE.json",
+  "scientific_completion_receipt": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/TEST_COMPLETION_RECEIPT.json",
+    "sha256": "15f213d85adcf639a3ed5803442110ee6a50e132d33821e03288da0f0aefbf72"
+  },
+  "independent_result_audits": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/TEST_independent_output_acceptance.json",
+      "sha256": "fb39c0db9f9bb0150cc4868854e20de704b857c285078e163a7f0aeb180112b4"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/final_evaluation_independent_review.json",
+      "sha256": "ebbef6b6e29cb71f934c24265012737ecc8091fbce027ce39bfaad0a75cd8b68"
+    }
+  ],
+  "main_result_summary": {
+    "C90": {
+      "mean": 0.9404845505617979,
+      "between_training_seed_sample_SD": 0.034464149234169954
+    },
+    "JA": {
+      "mean": 0.9212388702693167,
+      "between_training_seed_sample_SD": 0.005199057189429005
+    },
+    "J": {
+      "mean": 0.9241684622118239,
+      "between_training_seed_sample_SD": 0.006212986340453249
+    },
+    "CA90": {
+      "mean": 0.9148174565435623,
+      "between_training_seed_sample_SD": 0.038177880988028906
+    }
+  },
+  "metric_definitions": {
+    "C90": "Fraction of the89 regions whose model relative yield is at least0.90",
+    "JA": "Area-weighted model relative yield",
+    "J": "Unweighted regional mean model relative yield; auxiliary",
+    "CA90": "Area fraction with model relative yield at least0.90; auxiliary"
+  },
+  "publication_status": "completed_published",
+  "figure_delivery": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/FINAL_FIGURE_DELIVERY.json",
+    "sha256": "153aa3045b28d26022f3d2cecf62bb3dc5acf5d7a8b25414b43c84ba069de049"
+  },
+  "design_status": "completed_published",
+  "pdf_built": true,
+  "final_publication_sha256": "e55a90d02e063f618b1a4f98fd90573ee2b3e2c9fdf714f4a2e43362139d93b3",
+  "publication_receipt_role": "actual_PDF_acceptance; study FINAL_PUBLICATION to be issued separately by root",
+  "paper_acceptance": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/PAPER_ACCEPTANCE.json",
+    "sha256": "e55a90d02e063f618b1a4f98fd90573ee2b3e2c9fdf714f4a2e43362139d93b3"
+  },
+  "current_pdf": "/root/gamewar/latex_thesis_resource_allocation/build/main.pdf",
+  "current_pdf_sha256": "2d1271dc1122d477a78e60b3d57e7abb66a18e1708bcacc58ada03353321dded",
+  "whole_thesis_pdf_sha256": "2d1271dc1122d477a78e60b3d57e7abb66a18e1708bcacc58ada03353321dded",
+  "pdf_pages": 196,
+  "C6_reader_pages": [
+    152,
+    173
+  ],
+  "C6_body_pages": [
+    132,
+    153
+  ],
+  "maintenance_switch_authorized": true,
+  "canonical_switch_utc": "2026-11-08T21:06:18.458062+00:00",
+  "publication_summary": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/summary.json",
+    "sha256": "c065f50f0e8e7dc2f95d555784e98c04ac1c2320d289c8f3785f76de46982377"
+  },
+  "publication_summary_csv": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/summary.csv",
+    "sha256": "7998a6d2e10eb22c82e0f22074f9a548000fe19fa6adc5497ac1588a5b82208d"
+  }
+}

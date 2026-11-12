@@ -1,0 +1,22 @@
+{
+  "status": "candidate_CPU_synthetic_gate_pass_not_formally_adopted",
+  "method": "cola",
+  "created_utc": "2026-11-05T14:45:45.986637+00:00",
+  "source_sha256": {
+    "LICENSE.COLA": "5f506eed339c246f46ab37aff9536eea7dccd0915c0749992c8bf8bf90d7228b",
+    "LICENSE.QPensieve_primitives": "5f506eed339c246f46ab37aff9536eea7dccd0915c0749992c8bf8bf90d7228b",
+    "README.rst": "62f91ebaf112b1008dbb1935c7f382d3f16f272163e875193cded9b6098be83f",
+    "__init__.py": "2a9ded2c810d51512f446025ee9e4f7621c7ecff2704d2d81def926c2dc1b8aa",
+    "agent.py": "4b635496055da8ee06dbb0da10940dba0da28caae1cda35d0a6103392f0206af",
+    "cola_exact_runtime.py": "c618e0f7a4cabb033973b71aed9754cdda2334fca8a8ae1160796d54f5d847f1",
+    "configs.json": "dae3e28bb2a2235e0823db7bd31838796170948ac460d53182be3ae6aff53807",
+    "native.py": "cf7050d489cdd6c6b3e06b384a70d2bfec0d9e307357d0390beec5582bf32d41",
+    "sac_base.py": "dbaaec6b733081cfb93165da80f8b652f4ccf0ce4c19b580fb7f1e3bbc6861c2"
+  },
+  "historical_review": "/hy-tmp/resource_allocation_results/chapter5/parallel_latest_20261105/audit/cola_pasta_historical_and_fix_review.json",
+  "formal_registry_modified": false,
+  "physical_steps_by_this_preparation": 0,
+  "CPU_gate": "/hy-tmp/resource_allocation_results/chapter5/parallel_latest_20261105/audit/cola_pasta_synthetic_gate.json",
+  "CPU_gate_sha256": "093c8ca7b47e9256a4c84e6fbcb5afcbcc1b9c43518e505f6f3e644be3432c09",
+  "GPU_or_real_environment_acceptance": false
+}

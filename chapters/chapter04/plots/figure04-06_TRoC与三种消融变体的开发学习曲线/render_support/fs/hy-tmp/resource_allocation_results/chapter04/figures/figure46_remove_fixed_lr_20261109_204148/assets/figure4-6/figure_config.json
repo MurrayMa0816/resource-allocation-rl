@@ -1,0 +1,91 @@
+{
+  "schema": "chapter04-diesel-full-original-9216-bars-v1",
+  "kind": "ablation_confirmation_interactions",
+  "methods": [
+    "f1",
+    "no_history",
+    "no_offpolicy_correction"
+  ],
+  "thresholds": {
+    "radio": 45.271407152182945,
+    "v5": 75.59877076662723
+  },
+  "training_seeds": "method-specific; see method_metadata",
+  "sample_sd": true,
+  "source": "confirmation_steps_per_seed.csv",
+  "raw_field": "nq_q95_restricted",
+  "confirmation_field": "nq_q95",
+  "censor_field": "nq_q95_censored",
+  "right_censored_runs": 0,
+  "statistics": "mean and sample standard deviation across method-specific training seeds; see method_metadata",
+  "plot_unit": "10^3 newly collected training environment interactions",
+  "smoothing": false,
+  "figure_width_cm": 15.6,
+  "figure_height_cm": 7.7,
+  "all_text_font_bp": 10.5,
+  "shared_legend": false,
+  "method_tick_names": "TRoC; 仅用新轨迹; 旧轨迹不校正",
+  "scientific_data_changed": false,
+  "expected_confirmation_rows": 24,
+  "method_metadata": {
+    "f1": {
+      "seeds": [
+        7100,
+        7101
+      ],
+      "training_steps": 49152,
+      "status": "development candidate",
+      "source_method_by_domain": {
+        "radio": "relaxed_feedback",
+        "v5": "original_feedback"
+      }
+    },
+    "no_history": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_steps": 100608,
+      "status": "original formal"
+    },
+    "no_offpolicy_correction": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_steps": 100608,
+      "status": "original formal"
+    }
+  },
+  "all_plotted_runs_confirmed": true,
+  "scientific_role": "Existing TRoC and two displayed variants; only fixed-learning-rate bars removed, no method or scientific-source replacement",
+  "source_full_DEV": "full_new_DEV.csv",
+  "mixed_raw_DEV_rows": 2900,
+  "parent_raw_DEV": "parent_data.csv",
+  "new_full_rows": 4,
+  "old_full_results_retained_as_parent": true,
+  "new_fixed_rows": 4,
+  "retained_original_other_rows": 20,
+  "source_full_method": {
+    "radio": "relaxed_feedback",
+    "v5": "original_feedback"
+  },
+  "source_diesel_full_DEV": "diesel_full_original_DEV.csv",
+  "display_methods": [
+    "f1",
+    "no_history",
+    "no_offpolicy_correction"
+  ],
+  "mean_annotations": {
+    "decimals": 2,
+    "units": "same as y-axis: 10^3 training steps",
+    "offset_above_upper_SD_cap_pt": 4
+  },
+  "source_fixed_DEV_retained_as_historical_only": "fixed_new_DEV.csv"
+}

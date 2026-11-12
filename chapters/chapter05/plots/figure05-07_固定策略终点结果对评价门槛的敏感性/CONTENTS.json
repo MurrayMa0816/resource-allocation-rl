@@ -1,0 +1,131 @@
+{
+  "figure": "5.7",
+  "caption": "不同评价要求下固定策略的达标数量",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "kind": "data_plot",
+  "original_drawio": null,
+  "plot_entry": "plot.py",
+  "python_sources": [
+    "plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure56/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/parent_renderer.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+    "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py"
+  ],
+  "numerical_data": [
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/costs_by_seed.csv",
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+      "bytes": 14491,
+      "columns": 17,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "device",
+        "host",
+        "train_steps",
+        "internal_steps",
+        "charged_steps",
+        "development_steps",
+        "reload_steps",
+        "reload_verification_scope",
+        "default_test_steps",
+        "transfer_test_steps",
+        "native_update_records",
+        "extra_exchange_updates",
+        "seconds"
+      ],
+      "data_rows": 90
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/fixed_endpoints_by_seed.csv",
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "bytes": 22143,
+      "columns": 9,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "scale",
+        "K",
+        "C",
+        "J",
+        "F_0_8"
+      ],
+      "data_rows": 210
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_display.csv",
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "bytes": 2758404,
+      "columns": 11,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "learning_steps",
+        "kind",
+        "K",
+        "C",
+        "J",
+        "F_0_8",
+        "display_filter"
+      ],
+      "data_rows": 17820
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_raw.csv",
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "bytes": 1877519,
+      "columns": 10,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "learning_steps",
+        "kind",
+        "K",
+        "C",
+        "J",
+        "F_0_8"
+      ],
+      "data_rows": 17820
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/threshold_recounts_by_seed.csv",
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "bytes": 26645,
+      "columns": 10,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "task_threshold",
+        "K",
+        "C",
+        "J",
+        "policy_fixed",
+        "new_environment_steps"
+      ],
+      "data_rows": 300
+    }
+  ],
+  "final_PDFs": [
+    {
+      "path": "figure.pdf",
+      "sha256": "90d0d5423848dfc0158f24fa41b6ca97b7a417a2e218dd91f46ecd3bec639c1e",
+      "bytes": 38454
+    }
+  ],
+  "native_model": null,
+  "all_physical_in_own_chapter": true,
+  "external_symlinks": []
+}

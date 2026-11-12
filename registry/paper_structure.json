@@ -1,0 +1,900 @@
+{
+  "chapters": {
+    "chapter02": {
+      "source_directory": "chapters/chapter02_high_dimensional",
+      "sections": [
+        {
+          "number": "2.1",
+          "level": "section",
+          "title": "各期总量给定的高维配置问题",
+          "source_tex": "chapters/chapter02_high_dimensional/section31_problem.tex"
+        },
+        {
+          "number": "2.1.1",
+          "level": "subsection",
+          "title": "高维配置问题定义",
+          "source_tex": "chapters/chapter02_high_dimensional/section31_problem.tex"
+        },
+        {
+          "number": "2.1.2",
+          "level": "subsection",
+          "title": "序贯决策模型",
+          "source_tex": "chapters/chapter02_high_dimensional/section31_problem.tex"
+        },
+        {
+          "number": "2.1.2.1",
+          "level": "subsubsection",
+          "title": "状态空间",
+          "source_tex": "chapters/chapter02_high_dimensional/section31_problem.tex"
+        },
+        {
+          "number": "2.1.2.2",
+          "level": "subsubsection",
+          "title": "动作空间与资源约束",
+          "source_tex": "chapters/chapter02_high_dimensional/section31_problem.tex"
+        },
+        {
+          "number": "2.1.2.3",
+          "level": "subsubsection",
+          "title": "状态转移",
+          "source_tex": "chapters/chapter02_high_dimensional/section31_problem.tex"
+        },
+        {
+          "number": "2.1.2.4",
+          "level": "subsubsection",
+          "title": "奖励与优化目标",
+          "source_tex": "chapters/chapter02_high_dimensional/section31_problem.tex"
+        },
+        {
+          "number": "2.2",
+          "level": "section",
+          "title": "基函数低维动作表示",
+          "source_tex": "chapters/chapter02_high_dimensional/section32_method.tex"
+        },
+        {
+          "number": "2.2.1",
+          "level": "subsection",
+          "title": "方法总体框架",
+          "source_tex": "chapters/chapter02_high_dimensional/section32_method.tex"
+        },
+        {
+          "number": "2.2.2",
+          "level": "subsection",
+          "title": "基函数评分与配置生成",
+          "source_tex": "chapters/chapter02_high_dimensional/section32_method.tex"
+        },
+        {
+          "number": "2.2.3",
+          "level": "subsection",
+          "title": "策略与价值学习",
+          "source_tex": "chapters/chapter02_high_dimensional/section32_method.tex"
+        },
+        {
+          "number": "2.3",
+          "level": "section",
+          "title": "实验结果与分析",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.1",
+          "level": "subsection",
+          "title": "实验设置",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.1.1",
+          "level": "subsubsection",
+          "title": "实验环境",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.1.2",
+          "level": "subsubsection",
+          "title": "对比方法",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.1.3",
+          "level": "subsubsection",
+          "title": "训练过程与算法参数设置",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.1.4",
+          "level": "subsubsection",
+          "title": "评价指标与统计方法",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.2",
+          "level": "subsection",
+          "title": "配置性能与动作表示",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.2.1",
+          "level": "subsubsection",
+          "title": "配置成效比较",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.2.2",
+          "level": "subsubsection",
+          "title": "低维表示与配置映射分析",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.2.3",
+          "level": "subsubsection",
+          "title": "对象规模扩展分析",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.3",
+          "level": "subsection",
+          "title": "条件变化与配置实例",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.3.1",
+          "level": "subsubsection",
+          "title": "任务条件变化分析",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.3.3.2",
+          "level": "subsubsection",
+          "title": "资源配置实例分析",
+          "source_tex": "chapters/chapter02_high_dimensional/section33_experiments.tex"
+        },
+        {
+          "number": "2.4",
+          "level": "section",
+          "title": "本章小结",
+          "source_tex": "chapters/chapter02_high_dimensional/section34_summary.tex"
+        }
+      ]
+    },
+    "chapter03": {
+      "source_directory": "chapters/chapter03_intertemporal",
+      "sections": [
+        {
+          "number": "3.1",
+          "level": "section",
+          "title": "期末全额分配约束下的跨期配置问题",
+          "source_tex": "chapters/chapter03_intertemporal/section41_problem.tex"
+        },
+        {
+          "number": "3.1.1",
+          "level": "subsection",
+          "title": "跨期配置问题定义",
+          "source_tex": "chapters/chapter03_intertemporal/section41_problem.tex"
+        },
+        {
+          "number": "3.1.2",
+          "level": "subsection",
+          "title": "序贯决策模型",
+          "source_tex": "chapters/chapter03_intertemporal/section41_problem.tex"
+        },
+        {
+          "number": "3.1.2.1",
+          "level": "subsubsection",
+          "title": "状态空间",
+          "source_tex": "chapters/chapter03_intertemporal/section41_problem.tex"
+        },
+        {
+          "number": "3.1.2.2",
+          "level": "subsubsection",
+          "title": "动作空间与资源约束",
+          "source_tex": "chapters/chapter03_intertemporal/section41_problem.tex"
+        },
+        {
+          "number": "3.1.2.3",
+          "level": "subsubsection",
+          "title": "状态转移",
+          "source_tex": "chapters/chapter03_intertemporal/section41_problem.tex"
+        },
+        {
+          "number": "3.1.2.4",
+          "level": "subsubsection",
+          "title": "奖励与优化目标",
+          "source_tex": "chapters/chapter03_intertemporal/section41_problem.tex"
+        },
+        {
+          "number": "3.2",
+          "level": "section",
+          "title": "残差参数化联合策略",
+          "source_tex": "chapters/chapter03_intertemporal/section42_method.tex"
+        },
+        {
+          "number": "3.2.1",
+          "level": "subsection",
+          "title": "方法总体框架",
+          "source_tex": "chapters/chapter03_intertemporal/section42_method.tex"
+        },
+        {
+          "number": "3.2.2",
+          "level": "subsection",
+          "title": "总量调整与对象间分配",
+          "source_tex": "chapters/chapter03_intertemporal/section42_method.tex"
+        },
+        {
+          "number": "3.2.3",
+          "level": "subsection",
+          "title": "联合策略更新",
+          "source_tex": "chapters/chapter03_intertemporal/section42_method.tex"
+        },
+        {
+          "number": "3.3",
+          "level": "section",
+          "title": "实验结果与分析",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.1",
+          "level": "subsection",
+          "title": "实验设置",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.1.1",
+          "level": "subsubsection",
+          "title": "实验环境",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.1.2",
+          "level": "subsubsection",
+          "title": "对比方法",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.1.3",
+          "level": "subsubsection",
+          "title": "训练过程与算法参数设置",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.1.4",
+          "level": "subsubsection",
+          "title": "评价指标与统计方法",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.2",
+          "level": "subsection",
+          "title": "配置性能与控制分支消融",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.2.1",
+          "level": "subsubsection",
+          "title": "配置性能比较",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.2.2",
+          "level": "subsubsection",
+          "title": "总量与对象分配学习的消融分析",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.3",
+          "level": "subsection",
+          "title": "条件变化与跨期配置实例",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.3.1",
+          "level": "subsubsection",
+          "title": "资源与时序条件变化分析",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.3.3.2",
+          "level": "subsubsection",
+          "title": "跨期资源配置实例分析",
+          "source_tex": "chapters/chapter03_intertemporal/section43_experiments.tex"
+        },
+        {
+          "number": "3.4",
+          "level": "section",
+          "title": "本章小结",
+          "source_tex": "chapters/chapter03_intertemporal/section44_summary.tex"
+        }
+      ]
+    },
+    "chapter04": {
+      "source_directory": "chapters/chapter04_trajectory_reuse",
+      "sections": [
+        {
+          "number": "4.1",
+          "level": "section",
+          "title": "资源配置策略学习的样本效率问题",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section51_problem.tex"
+        },
+        {
+          "number": "4.1.1",
+          "level": "subsection",
+          "title": "样本效率问题定义",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section51_problem.tex"
+        },
+        {
+          "number": "4.1.2",
+          "level": "subsection",
+          "title": "配置决策模型与样本效率度量",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section51_problem.tex"
+        },
+        {
+          "number": "4.1.2.1",
+          "level": "subsubsection",
+          "title": "状态空间",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section51_problem.tex"
+        },
+        {
+          "number": "4.1.2.2",
+          "level": "subsubsection",
+          "title": "动作空间与资源约束",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section51_problem.tex"
+        },
+        {
+          "number": "4.1.2.3",
+          "level": "subsubsection",
+          "title": "状态转移",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section51_problem.tex"
+        },
+        {
+          "number": "4.1.2.4",
+          "level": "subsubsection",
+          "title": "配置目标与样本需求",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section51_problem.tex"
+        },
+        {
+          "number": "4.2",
+          "level": "section",
+          "title": "离策略校正轨迹复用",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section52_method.tex"
+        },
+        {
+          "number": "4.2.1",
+          "level": "subsection",
+          "title": "方法总体框架",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section52_method.tex"
+        },
+        {
+          "number": "4.2.2",
+          "level": "subsection",
+          "title": "离策略校正与终点回溯",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section52_method.tex"
+        },
+        {
+          "number": "4.2.3",
+          "level": "subsection",
+          "title": "参数更新与轨迹替换",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section52_method.tex"
+        },
+        {
+          "number": "4.3",
+          "level": "section",
+          "title": "实验结果与分析",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.1",
+          "level": "subsection",
+          "title": "实验设置",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.1.1",
+          "level": "subsubsection",
+          "title": "实验环境",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.1.2",
+          "level": "subsubsection",
+          "title": "对比方法",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.1.3",
+          "level": "subsubsection",
+          "title": "训练过程与算法参数设置",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.1.4",
+          "level": "subsubsection",
+          "title": "评价指标与统计方法",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.2",
+          "level": "subsection",
+          "title": "样本效率与轨迹复用",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.2.1",
+          "level": "subsubsection",
+          "title": "训练步数与配置成效比较",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.2.2",
+          "level": "subsubsection",
+          "title": "轨迹复用与离策略校正对照",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.3",
+          "level": "subsection",
+          "title": "训练步数与策略更新",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.3.1",
+          "level": "subsubsection",
+          "title": "不同训练步数下的配置成效",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.3.3.2",
+          "level": "subsubsection",
+          "title": "旧轨迹权重与策略更新",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section53_experiments.tex"
+        },
+        {
+          "number": "4.4",
+          "level": "section",
+          "title": "本章小结",
+          "source_tex": "chapters/chapter04_trajectory_reuse/section54_summary.tex"
+        }
+      ]
+    },
+    "chapter05": {
+      "source_directory": "chapters/chapter05_dual_value",
+      "sections": [
+        {
+          "number": "5.1",
+          "level": "section",
+          "title": "达标覆盖率与平均成效的配置问题",
+          "source_tex": "chapters/chapter05_dual_value/section61_problem.tex"
+        },
+        {
+          "number": "5.1.1",
+          "level": "subsection",
+          "title": "双目标配置问题定义",
+          "source_tex": "chapters/chapter05_dual_value/section61_problem.tex"
+        },
+        {
+          "number": "5.1.2",
+          "level": "subsection",
+          "title": "序贯决策模型",
+          "source_tex": "chapters/chapter05_dual_value/section61_problem.tex"
+        },
+        {
+          "number": "5.1.2.1",
+          "level": "subsubsection",
+          "title": "状态空间",
+          "source_tex": "chapters/chapter05_dual_value/section61_problem.tex"
+        },
+        {
+          "number": "5.1.2.2",
+          "level": "subsubsection",
+          "title": "动作空间与资源约束",
+          "source_tex": "chapters/chapter05_dual_value/section61_problem.tex"
+        },
+        {
+          "number": "5.1.2.3",
+          "level": "subsubsection",
+          "title": "状态转移",
+          "source_tex": "chapters/chapter05_dual_value/section61_problem.tex"
+        },
+        {
+          "number": "5.1.2.4",
+          "level": "subsubsection",
+          "title": "奖励与优化目标",
+          "source_tex": "chapters/chapter05_dual_value/section61_problem.tex"
+        },
+        {
+          "number": "5.2",
+          "level": "section",
+          "title": "分项监督双价值学习",
+          "source_tex": "chapters/chapter05_dual_value/section62_method.tex"
+        },
+        {
+          "number": "5.2.1",
+          "level": "subsection",
+          "title": "方法总体框架",
+          "source_tex": "chapters/chapter05_dual_value/section62_method.tex"
+        },
+        {
+          "number": "5.2.2",
+          "level": "subsection",
+          "title": "分项监督与优势加权",
+          "source_tex": "chapters/chapter05_dual_value/section62_method.tex"
+        },
+        {
+          "number": "5.2.3",
+          "level": "subsection",
+          "title": "策略与双价值更新",
+          "source_tex": "chapters/chapter05_dual_value/section62_method.tex"
+        },
+        {
+          "number": "5.3",
+          "level": "section",
+          "title": "实验结果与分析",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.1",
+          "level": "subsection",
+          "title": "实验设置",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.1.1",
+          "level": "subsubsection",
+          "title": "实验环境",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.1.2",
+          "level": "subsubsection",
+          "title": "训练过程与算法参数设置",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.1.3",
+          "level": "subsubsection",
+          "title": "对比方法",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.1.4",
+          "level": "subsubsection",
+          "title": "评价指标与统计方法",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.2",
+          "level": "subsection",
+          "title": "配置性能与价值监督",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.2.1",
+          "level": "subsubsection",
+          "title": "配置性能比较",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.2.2",
+          "level": "subsubsection",
+          "title": "分项价值监督分析",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.3",
+          "level": "subsection",
+          "title": "条件变化与终点实例",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.3.1",
+          "level": "subsubsection",
+          "title": "评价门槛变化分析",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.3.2",
+          "level": "subsubsection",
+          "title": "资源预算变化分析",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.3.3.3",
+          "level": "subsubsection",
+          "title": "目标取舍与对象终点成效分析",
+          "source_tex": "chapters/chapter05_dual_value/section63_experiments.tex"
+        },
+        {
+          "number": "5.4",
+          "level": "section",
+          "title": "本章小结",
+          "source_tex": "chapters/chapter05_dual_value/section64_summary.tex"
+        }
+      ]
+    },
+    "chapter06": {
+      "source_directory": "chapters/chapter06_irrigation",
+      "sections": [
+        {
+          "number": "6.1",
+          "level": "section",
+          "title": "推演环境构建",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.1.1",
+          "level": "subsection",
+          "title": "中稻灌溉配水任务",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.1.2",
+          "level": "subsection",
+          "title": "强化学习任务建模",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.1.2.1",
+          "level": "subsubsection",
+          "title": "状态与观测",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.1.2.2",
+          "level": "subsubsection",
+          "title": "动作与约束",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.1.2.3",
+          "level": "subsubsection",
+          "title": "状态转移",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.1.2.4",
+          "level": "subsubsection",
+          "title": "奖励与目标",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.1.3",
+          "level": "subsection",
+          "title": "推演环境实现",
+          "source_tex": "chapters/chapter06_irrigation/section61_environment.tex"
+        },
+        {
+          "number": "6.2",
+          "level": "section",
+          "title": "配置推演与结果分析",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.1",
+          "level": "subsection",
+          "title": "推演设置与评价指标",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.2",
+          "level": "subsection",
+          "title": "配置过程与水分响应",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.2.1",
+          "level": "subsubsection",
+          "title": "全期用水安排",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.2.2",
+          "level": "subsubsection",
+          "title": "区域配水过程",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.2.3",
+          "level": "subsubsection",
+          "title": "相邻两日的配水调整",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.3",
+          "level": "subsection",
+          "title": "配置成效与条件分析",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.3.1",
+          "level": "subsubsection",
+          "title": "学习方法的配置成效比较",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.3.2",
+          "level": "subsubsection",
+          "title": "区域产量分布",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.3.3",
+          "level": "subsubsection",
+          "title": "供水条件与配置成效",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.2.3.4",
+          "level": "subsubsection",
+          "title": "天气变化后的配水调整",
+          "source_tex": "chapters/chapter06_irrigation/section62_simulation.tex"
+        },
+        {
+          "number": "6.3",
+          "level": "section",
+          "title": "本章小结",
+          "source_tex": "chapters/chapter06_irrigation/section63_summary.tex"
+        }
+      ]
+    }
+  },
+  "paper_source_files": [
+    {
+      "path": "chapters/chapter02_high_dimensional/section31_problem.tex",
+      "sha256": "a3b647ca540cada96cd09399746cffe81456f3844f6714b4fbf748b849df3b2f"
+    },
+    {
+      "path": "chapters/chapter02_high_dimensional/section32_method.tex",
+      "sha256": "e993908c73db5bb9e6a2ae0b3372705ab838c8485dee523d84bcba8803df881f"
+    },
+    {
+      "path": "chapters/chapter02_high_dimensional/section33_experiments.tex",
+      "sha256": "cd77fd02f63fa9a393b321cf43cc7225786306971d4b1dccf560033e9a6ac68b"
+    },
+    {
+      "path": "chapters/chapter02_high_dimensional/section34_summary.tex",
+      "sha256": "30495015785ed9de3f6438d8c0254c6210db398cc685ab49f6c2fcee263bb9d7"
+    },
+    {
+      "path": "chapters/chapter03_intertemporal/section41_problem.tex",
+      "sha256": "6b92ed0b6aa4787c1bfd2c0d4fd9c5dbc6f717f2d989a222998288f530134d6c"
+    },
+    {
+      "path": "chapters/chapter03_intertemporal/section42_method.tex",
+      "sha256": "8ea19c21455c9aedf8d0e0aa161abd6ce8c1743573911b10a5d45ed74bc41741"
+    },
+    {
+      "path": "chapters/chapter03_intertemporal/section43_experiments.tex",
+      "sha256": "a8f4c4bc152fe2a8ee0b3c247673de1d2b298276d06d37a530b518e55fb89348"
+    },
+    {
+      "path": "chapters/chapter03_intertemporal/section44_summary.tex",
+      "sha256": "07f7c351eb58fad16980793b1aee65afe14062674e4a8914ece28c4c47e6fd83"
+    },
+    {
+      "path": "chapters/chapter04_trajectory_reuse/section51_problem.tex",
+      "sha256": "dd52fe542732caf64610445ba17cae6950ca31c0c2b8f43bf621739dfead7b68"
+    },
+    {
+      "path": "chapters/chapter04_trajectory_reuse/section52_method.tex",
+      "sha256": "668d1e59ea5de61ae3c27f50c0b85ddd32941406e3e6634f19d41d3bdae991ff"
+    },
+    {
+      "path": "chapters/chapter04_trajectory_reuse/section53_experiments.tex",
+      "sha256": "31b717f58f5c69da9a931a14f817b24cd2b749683923d7cd8cb6df9ff46700c0"
+    },
+    {
+      "path": "chapters/chapter04_trajectory_reuse/section54_summary.tex",
+      "sha256": "bfb9f8ac6297889507617fd56ee884be1d663cf2e4aafeff1a4827589552ffe2"
+    },
+    {
+      "path": "chapters/chapter05_dual_value/section61_problem.tex",
+      "sha256": "38950ccd93c676278255e108adf08f44854fc328ed290cea028aaafcbd61a4d2"
+    },
+    {
+      "path": "chapters/chapter05_dual_value/section62_method.tex",
+      "sha256": "abc95ada5333883ec8bd74959d4bdf493ea7cf446eb3d0fc3d0ec5cd2dfa05e9"
+    },
+    {
+      "path": "chapters/chapter05_dual_value/section63_experiments.tex",
+      "sha256": "f505415f747d78090d4b83c64b65b20965d97f830a3f595cb625fb9817448f98"
+    },
+    {
+      "path": "chapters/chapter05_dual_value/section64_summary.tex",
+      "sha256": "cac6f94a925d438bd43e2b4021ace8b01faeadf6cbd6c0f428f986234a7abde4"
+    },
+    {
+      "path": "chapters/chapter06_irrigation/section61_environment.tex",
+      "sha256": "76e7afc93b0eece70f655616d3c7292ab0a7a4a447c33e1a2051e5e044f2174f"
+    },
+    {
+      "path": "chapters/chapter06_irrigation/section62_simulation.tex",
+      "sha256": "c8a212eabb7778b27cfa85af20d8d7e64d63ef446318582851c60c1738f77c25"
+    },
+    {
+      "path": "chapters/chapter06_irrigation/section63_summary.tex",
+      "sha256": "1608f7ee2b7154cff78756bf56ff6f52d72f39cb96dc107236d50305ea8d4542"
+    }
+  ],
+  "active_aux_labels": {
+    "sec:ch1-background": "1.\\hspace  {1bp",
+    "sec:ch1-related_work": "1.\\hspace  {1bp",
+    "sec:ch1-overview": "1.\\hspace  {1bp",
+    "fig:ch1-framework": "1.1",
+    "sec:ch3-problem": "2.\\hspace  {1bp",
+    "fig:ch3-problem-coupling": "2.1",
+    "sec:ch3-method": "2.\\hspace  {1bp",
+    "fig:ch3-overview": "2.2",
+    "fig:ch3-basis-projection": "2.3",
+    "sec:ch3-experiments": "2.\\hspace  {1bp",
+    "tab:formal-ch2-training": "2.1",
+    "tab:ch2-training-parameters": "2.1",
+    "tab:ch2-baseline-settings": "2.2",
+    "fig:formal-ch2-training": "2.4",
+    "tab:formal-ch2-main": "2.3",
+    "fig:formal-ch2-ablation": "2.5",
+    "tab:formal-ch2-ablation": "2.4",
+    "fig:ch2-scale-structure": "2.6",
+    "fig:formal-ch2-conditions": "2.7",
+    "fig:formal-ch2-case": "2.8",
+    "sec:ch3-summary": "2.\\hspace  {1bp",
+    "sec:ch4-problem": "3.\\hspace  {1bp",
+    "fig:ch4-problem-intertemporal": "3.1",
+    "sec:ch4-method": "3.\\hspace  {1bp",
+    "fig:ch4-overview": "3.2",
+    "fig:ch4-residual-detail": "3.3",
+    "sec:ch4-experiments": "3.\\hspace  {1bp",
+    "tab:formal-ch3-training": "3.1",
+    "tab:ch3-baseline-settings": "3.2",
+    "fig:formal-ch3-development": "3.4",
+    "tab:formal-ch3-main": "3.3",
+    "fig:formal-ch3-ablation": "3.5",
+    "fig:formal-ch3-conditions": "3.6",
+    "fig:formal-ch3-case": "3.7",
+    "fig:formal-ch3-case-diesel": "3.8",
+    "sec:ch4-summary": "3.\\hspace  {1bp",
+    "sec:ch5-problem": "4.\\hspace  {1bp",
+    "fig:ch5-problem-sample-efficiency": "4.1",
+    "sec:ch5-method": "4.\\hspace  {1bp",
+    "fig:ch5-overview": "4.2",
+    "fig:ch5-trajectory-correction": "4.3",
+    "sec:ch5-experiments": "4.\\hspace  {1bp",
+    "tab:ch4-reuse-training-parameters": "4.1",
+    "fig:ch4-formal-main": "4.4",
+    "fig:ch4-completed-development": "4.5",
+    "fig:ch4-matched-development": "4.6",
+    "tab:ch4-formal-results": "4.2",
+    "fig:ch4-budget-quality": "4.7",
+    "fig:ch4-tv-learning-rate": "4.8",
+    "sec:ch5-summary": "4.\\hspace  {1bp",
+    "sec:ch6-problem": "5.\\hspace  {1bp",
+    "fig:ch6-problem-mean-coverage": "5.1",
+    "sec:ch6-method": "5.\\hspace  {1bp",
+    "fig:ch6-overview": "5.2",
+    "fig:ch6-dual-advantage-detail": "5.3",
+    "sec:ch6-experiments": "5.\\hspace  {1bp",
+    "tab:ch5-formal-settings": "5.1",
+    "fig:ch5-validation-learning": "5.4",
+    "fig:ch5-validation-tradeoff": "5.5",
+    "fig:ch5-supervision-prediction-errors": "5.6",
+    "fig:ch5-validation-threshold": "5.7",
+    "fig:ch5-validation-budget": "5.8",
+    "fig:ch5-terminal-case": "5.9",
+    "sec:ch6-summary": "5.\\hspace  {1bp",
+    "sec:irrigation-environment": "6.\\hspace  {1bp",
+    "fig:ch2-areas": "6.1",
+    "fig:irrigation-integrated-rollout": "6.2",
+    "sec:irrigation-simulation": "6.\\hspace  {1bp",
+    "sec:irrigation-experiments": "6.\\hspace  {1bp",
+    "tab:irrigation-fixed-environment": "6.1",
+    "tab:ch2-calendar": "6.2",
+    "fig:irrigation89-seasonal-allocation": "6.3",
+    "tab:irrigation89-regional-continuity": "6.3",
+    "fig:irrigation89-state-action-response": "6.4",
+    "fig:irrigation89-learning-outcomes": "6.5",
+    "fig:irrigation89-regional-outcomes": "6.6",
+    "fig:irrigation89-budget-conditions": "6.7",
+    "fig:irrigation89-feedback-adjustment": "6.8",
+    "sec:irrigation-summary": "6.\\hspace  {1bp",
+    "sec:conclusion-conclusions": "6",
+    "sec:conclusion-outlook": "6"
+  },
+  "uses_page_numbers": false,
+  "scientific_execution": 0
+}

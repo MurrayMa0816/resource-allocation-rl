@@ -1,0 +1,51 @@
+{
+  "status": "prepared_not_executed",
+  "objective": "sample efficiency of joint allocation learning under the unchanged terminal-feedback task",
+  "methods": [
+    "props",
+    "fog",
+    "tdmpc2",
+    "addq",
+    "pgr"
+  ],
+  "reference_methods": [
+    "chapter3_A",
+    "chapter4_F1"
+  ],
+  "reserve_not_in_five": [
+    "crossq",
+    "bro"
+  ],
+  "reserve_reason": "CrossQ and BRO both have actual historical chapter-3 records; avoid repetition",
+  "domains": [
+    "radio",
+    "v5"
+  ],
+  "proposed_new_seeds": [
+    730,
+    731,
+    732,
+    733,
+    734
+  ],
+  "episodes": 960,
+  "learning_starts_episodes_for_replay_methods": 32,
+  "development_episodes": 32,
+  "development_every_training_episodes": 48,
+  "initial_development_evaluation": true,
+  "primary_execution": "native stochastic policy/planner execution; no training RNG consumption",
+  "example_primary_quality_targets_from_existing_protocol": {
+    "radio": 30.0,
+    "v5": 65.0
+  },
+  "proposed_sensitivity_targets": {
+    "radio": 35.0,
+    "v5": 70.0
+  },
+  "attainment_confirmation": "second of two consecutive passing development evaluations",
+  "nonattainment": "retain right censoring, never success-only averages",
+  "evaluation_cost": "record separately, never free training samples",
+  "synthetic_or_model_transitions": "not real interactions; record their computation separately",
+  "formal_analysis": "lock targets, primary comparison family, intervals and test-set rule before reading new efficacy results",
+  "no_formal_training_launched": true
+}

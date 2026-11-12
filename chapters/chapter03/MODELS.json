@@ -1,0 +1,2755 @@
+{
+  "schema": "current-models-physical-v1",
+  "count": 80,
+  "models": [
+    {
+      "model": "chapters/chapter03/training/ReJoP/communication/seed_0/model/state.pt",
+      "sha256": "75080a1c8ce184357603ecd3546bb8ec347d3104cb4ad439b0adc52140329e21",
+      "size": 143618,
+      "id": "ReJoP/communication/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/communication/seed_0/state.pt",
+      "source_sha256": "75080a1c8ce184357603ecd3546bb8ec347d3104cb4ad439b0adc52140329e21",
+      "method": "ReJoP",
+      "domain": "communication",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/communication/0",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1",
+        "3.3.3.2"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.7"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_0/model/state.pt",
+      "sha256": "da90cc5b9fd0eb35959d9d30f02b2de7ff07f1d1ce26f0edc7d2f1a788a09eac",
+      "size": 169474,
+      "id": "ReJoP/emergency_diesel/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/emergency_diesel/seed_0/state.pt",
+      "source_sha256": "da90cc5b9fd0eb35959d9d30f02b2de7ff07f1d1ce26f0edc7d2f1a788a09eac",
+      "method": "ReJoP",
+      "domain": "emergency_diesel",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/emergency_diesel/0",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1",
+        "3.3.3.2"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.8"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/communication/seed_0/model/state.pt",
+      "sha256": "24a019a650a3f4f47afebbe2234e99ba4eba38a59d4df3ac177e508ee575e82b",
+      "size": 132507,
+      "id": "规则总量/communication/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/communication/seed_0/state.pt",
+      "source_sha256": "24a019a650a3f4f47afebbe2234e99ba4eba38a59d4df3ac177e508ee575e82b",
+      "method": "规则总量",
+      "domain": "communication",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/communication/0",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/emergency_diesel/seed_0/model/state.pt",
+      "sha256": "9a50fcc8c272f5ccccaca9fb3f5c291009a8eda10f1cb8656170077a7ea04da3",
+      "size": 158363,
+      "id": "规则总量/emergency_diesel/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/emergency_diesel/seed_0/state.pt",
+      "source_sha256": "9a50fcc8c272f5ccccaca9fb3f5c291009a8eda10f1cb8656170077a7ea04da3",
+      "method": "规则总量",
+      "domain": "emergency_diesel",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/emergency_diesel/0",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/communication/seed_1/model/state.pt",
+      "sha256": "8d70e44d5818ea0f55fffda8d8312ee129e0085f24d900ee62c5c188625dda0f",
+      "size": 143170,
+      "id": "ReJoP/communication/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/communication/seed_1/state.pt",
+      "source_sha256": "8d70e44d5818ea0f55fffda8d8312ee129e0085f24d900ee62c5c188625dda0f",
+      "method": "ReJoP",
+      "domain": "communication",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/communication/1",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_1/model/state.pt",
+      "sha256": "3035046dc0bc72bab9a6dc62e911af5e450899b79fb00bdc841b431c2c0936ac",
+      "size": 169026,
+      "id": "ReJoP/emergency_diesel/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/emergency_diesel/seed_1/state.pt",
+      "source_sha256": "3035046dc0bc72bab9a6dc62e911af5e450899b79fb00bdc841b431c2c0936ac",
+      "method": "ReJoP",
+      "domain": "emergency_diesel",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/emergency_diesel/1",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/communication/seed_1/model/state.pt",
+      "sha256": "04b8d1b4d0f2ce33d5f2611b503adbe135fb73349b1a7acde0ff6ec674441941",
+      "size": 132123,
+      "id": "规则总量/communication/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/communication/seed_1/state.pt",
+      "source_sha256": "04b8d1b4d0f2ce33d5f2611b503adbe135fb73349b1a7acde0ff6ec674441941",
+      "method": "规则总量",
+      "domain": "communication",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/communication/1",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/emergency_diesel/seed_1/model/state.pt",
+      "sha256": "4f4a418202880de3a9731dd54ffa8ed74ce2c3da5302f7492e792538b149ea2c",
+      "size": 157979,
+      "id": "规则总量/emergency_diesel/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/emergency_diesel/seed_1/state.pt",
+      "source_sha256": "4f4a418202880de3a9731dd54ffa8ed74ce2c3da5302f7492e792538b149ea2c",
+      "method": "规则总量",
+      "domain": "emergency_diesel",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/emergency_diesel/1",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/communication/seed_2/model/state.pt",
+      "sha256": "519410e3e5dc52ef269b0a0c75604ed44c15b1164ad215d8074b0f78b7186816",
+      "size": 143170,
+      "id": "ReJoP/communication/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/communication/seed_2/state.pt",
+      "source_sha256": "519410e3e5dc52ef269b0a0c75604ed44c15b1164ad215d8074b0f78b7186816",
+      "method": "ReJoP",
+      "domain": "communication",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/communication/2",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_2/model/state.pt",
+      "sha256": "87b9d6c5101a6c7f797cc3d752b993052ea116fa54b3f8498ef1bdc8bbee2b14",
+      "size": 169026,
+      "id": "ReJoP/emergency_diesel/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/emergency_diesel/seed_2/state.pt",
+      "source_sha256": "87b9d6c5101a6c7f797cc3d752b993052ea116fa54b3f8498ef1bdc8bbee2b14",
+      "method": "ReJoP",
+      "domain": "emergency_diesel",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/emergency_diesel/2",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/communication/seed_2/model/state.pt",
+      "sha256": "5b3d9ccc9520361608f959a68fa7adb8ff33084afd9430f6e49cf1e3c2d8b9f8",
+      "size": 132123,
+      "id": "规则总量/communication/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/communication/seed_2/state.pt",
+      "source_sha256": "5b3d9ccc9520361608f959a68fa7adb8ff33084afd9430f6e49cf1e3c2d8b9f8",
+      "method": "规则总量",
+      "domain": "communication",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/communication/2",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/emergency_diesel/seed_2/model/state.pt",
+      "sha256": "d74a36c944f0fd45c3f3afe0b8b3637d72cd4f0c33213fdf1c6d76e951ed5bcb",
+      "size": 157979,
+      "id": "规则总量/emergency_diesel/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/emergency_diesel/seed_2/state.pt",
+      "source_sha256": "d74a36c944f0fd45c3f3afe0b8b3637d72cd4f0c33213fdf1c6d76e951ed5bcb",
+      "method": "规则总量",
+      "domain": "emergency_diesel",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/emergency_diesel/2",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/communication/seed_3/model/state.pt",
+      "sha256": "cd33027d70b4b3c0c4cae706d8949c9cf6c2d9b5f990893eb20f4701b7eb4216",
+      "size": 143170,
+      "id": "ReJoP/communication/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/communication/seed_3/state.pt",
+      "source_sha256": "cd33027d70b4b3c0c4cae706d8949c9cf6c2d9b5f990893eb20f4701b7eb4216",
+      "method": "ReJoP",
+      "domain": "communication",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/communication/3",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_3/model/state.pt",
+      "sha256": "6bc4666b12adb86931f63fb9d0bf3b604c23a6a01343b00a51cc9be859942180",
+      "size": 169026,
+      "id": "ReJoP/emergency_diesel/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/emergency_diesel/seed_3/state.pt",
+      "source_sha256": "6bc4666b12adb86931f63fb9d0bf3b604c23a6a01343b00a51cc9be859942180",
+      "method": "ReJoP",
+      "domain": "emergency_diesel",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/emergency_diesel/3",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/communication/seed_3/model/state.pt",
+      "sha256": "e5bff13c02da9f091baccdf3a1160b18cd69e4499a9fb1b8a54c4b75118553b3",
+      "size": 132123,
+      "id": "规则总量/communication/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/communication/seed_3/state.pt",
+      "source_sha256": "e5bff13c02da9f091baccdf3a1160b18cd69e4499a9fb1b8a54c4b75118553b3",
+      "method": "规则总量",
+      "domain": "communication",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/communication/3",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/emergency_diesel/seed_3/model/state.pt",
+      "sha256": "65f0b29323e9f8b99407262e12a41abc42950e5970431c1e4375d59d0c37f7a9",
+      "size": 157979,
+      "id": "规则总量/emergency_diesel/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/emergency_diesel/seed_3/state.pt",
+      "source_sha256": "65f0b29323e9f8b99407262e12a41abc42950e5970431c1e4375d59d0c37f7a9",
+      "method": "规则总量",
+      "domain": "emergency_diesel",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/emergency_diesel/3",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/communication/seed_4/model/state.pt",
+      "sha256": "db559db5f1c9b83d44c94385d0363706aa9308c90a8b3d2da9867ef56a6ae0f1",
+      "size": 143170,
+      "id": "ReJoP/communication/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/communication/seed_4/state.pt",
+      "source_sha256": "db559db5f1c9b83d44c94385d0363706aa9308c90a8b3d2da9867ef56a6ae0f1",
+      "method": "ReJoP",
+      "domain": "communication",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/communication/4",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_4/model/state.pt",
+      "sha256": "9aec1348776f9c62dd66e2997dac97be37c7cdea99aea3afb73fcac00936d85e",
+      "size": 169026,
+      "id": "ReJoP/emergency_diesel/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/ReJoP/emergency_diesel/seed_4/state.pt",
+      "source_sha256": "9aec1348776f9c62dd66e2997dac97be37c7cdea99aea3afb73fcac00936d85e",
+      "method": "ReJoP",
+      "domain": "emergency_diesel",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.5_ablation",
+        "figure3.6_conditions",
+        "figure3.7_3.8_cases"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "ReJoP/emergency_diesel/4",
+      "paper_method": "ReJoP",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": "完整方法同一实体用于主比较/消融/条件；保留补存默认轨迹与原默认统计各自身份。"
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/communication/seed_4/model/state.pt",
+      "sha256": "60f892b07022963a017fc9f77be5fdc66a8509f882f56bef223c910525777225",
+      "size": 132123,
+      "id": "规则总量/communication/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/communication/seed_4/state.pt",
+      "source_sha256": "60f892b07022963a017fc9f77be5fdc66a8509f882f56bef223c910525777225",
+      "method": "规则总量",
+      "domain": "communication",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/communication/4",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/规则总量/emergency_diesel/seed_4/model/state.pt",
+      "sha256": "f2e7956e9d885da2cef19051b6a304179fb82ef784e18cfaeb55a261bbf9313f",
+      "size": 157979,
+      "id": "规则总量/emergency_diesel/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/ablations/rule_total/emergency_diesel/seed_4/state.pt",
+      "source_sha256": "f2e7956e9d885da2cef19051b6a304179fb82ef784e18cfaeb55a261bbf9313f",
+      "method": "规则总量",
+      "domain": "emergency_diesel",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "double_random_formal_20261107",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation",
+        "figure3.6_conditions"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "规则总量/emergency_diesel/4",
+      "paper_method": "去总量学习",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.5",
+        "3.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/communication/seed_0/model/state.pt",
+      "sha256": "5d69a9dda9b9ff558309f4def7fa680953c206acd98f4139501ffe2897052c6c",
+      "size": 125551,
+      "id": "C-PPO/communication/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/communication/seed_0/state.pt",
+      "source_sha256": "5d69a9dda9b9ff558309f4def7fa680953c206acd98f4139501ffe2897052c6c",
+      "method": "C-PPO",
+      "domain": "communication",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.7_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/communication/0",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1",
+        "3.3.3.2"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6",
+        "3.7"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/communication/seed_1/model/state.pt",
+      "sha256": "4f9ca812c21afb1921b82dd4699e5392b9056301ffca177760de04c35b04f835",
+      "size": 125551,
+      "id": "C-PPO/communication/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/communication/seed_1/state.pt",
+      "source_sha256": "4f9ca812c21afb1921b82dd4699e5392b9056301ffca177760de04c35b04f835",
+      "method": "C-PPO",
+      "domain": "communication",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.7_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/communication/1",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/communication/seed_2/model/state.pt",
+      "sha256": "ea0f14bdb6c1254133791f4aabbadd63523a50850f42b76293d60537058a48f8",
+      "size": 125551,
+      "id": "C-PPO/communication/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/communication/seed_2/state.pt",
+      "source_sha256": "ea0f14bdb6c1254133791f4aabbadd63523a50850f42b76293d60537058a48f8",
+      "method": "C-PPO",
+      "domain": "communication",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.7_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/communication/2",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/communication/seed_3/model/state.pt",
+      "sha256": "7deb8c0a9f83acabe9f67ddc87bfd3c9ca51b296f605adad617d18bac36d933b",
+      "size": 125551,
+      "id": "C-PPO/communication/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/communication/seed_3/state.pt",
+      "source_sha256": "7deb8c0a9f83acabe9f67ddc87bfd3c9ca51b296f605adad617d18bac36d933b",
+      "method": "C-PPO",
+      "domain": "communication",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.7_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/communication/3",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/communication/seed_4/model/state.pt",
+      "sha256": "3b931f7bcf70f02067bc7b01363fd2a401bf19ca9d14e47e65ddcbccc6b7bf2c",
+      "size": 125551,
+      "id": "C-PPO/communication/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/communication/seed_4/state.pt",
+      "source_sha256": "3b931f7bcf70f02067bc7b01363fd2a401bf19ca9d14e47e65ddcbccc6b7bf2c",
+      "method": "C-PPO",
+      "domain": "communication",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.7_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/communication/4",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/emergency_diesel/seed_0/model/state.pt",
+      "sha256": "5ce7704aabd5212fe230a239297677157c0003ed6d8938d4c97c36c7db6a1b19",
+      "size": 109487,
+      "id": "C-PPO/emergency_diesel/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/emergency_diesel/seed_0/state.pt",
+      "source_sha256": "5ce7704aabd5212fe230a239297677157c0003ed6d8938d4c97c36c7db6a1b19",
+      "method": "C-PPO",
+      "domain": "emergency_diesel",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/emergency_diesel/0",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/emergency_diesel/seed_1/model/state.pt",
+      "sha256": "bdf19ca3277cf662052dda3751a61030536dd00c7115b730e21f0fb21c2f088b",
+      "size": 109487,
+      "id": "C-PPO/emergency_diesel/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/emergency_diesel/seed_1/state.pt",
+      "source_sha256": "bdf19ca3277cf662052dda3751a61030536dd00c7115b730e21f0fb21c2f088b",
+      "method": "C-PPO",
+      "domain": "emergency_diesel",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/emergency_diesel/1",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/emergency_diesel/seed_2/model/state.pt",
+      "sha256": "c9b526ead886e1bc79e6c327035a98fc7a1bcb2792b65a971f556297dcfcfabd",
+      "size": 109487,
+      "id": "C-PPO/emergency_diesel/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/emergency_diesel/seed_2/state.pt",
+      "source_sha256": "c9b526ead886e1bc79e6c327035a98fc7a1bcb2792b65a971f556297dcfcfabd",
+      "method": "C-PPO",
+      "domain": "emergency_diesel",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/emergency_diesel/2",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/emergency_diesel/seed_3/model/state.pt",
+      "sha256": "f438afe3a437c44d7a6a8e7d49600299590d53048dfb5f57d29a4fb319eef179",
+      "size": 109487,
+      "id": "C-PPO/emergency_diesel/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/emergency_diesel/seed_3/state.pt",
+      "source_sha256": "f438afe3a437c44d7a6a8e7d49600299590d53048dfb5f57d29a4fb319eef179",
+      "method": "C-PPO",
+      "domain": "emergency_diesel",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/emergency_diesel/3",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/C-PPO/emergency_diesel/seed_4/model/state.pt",
+      "sha256": "b589ed327dbd5a93d39aa753fd433460745bbe7c3e7bfaef517edcc650f19a5e",
+      "size": 109487,
+      "id": "C-PPO/emergency_diesel/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/C-PPO/emergency_diesel/seed_4/state.pt",
+      "source_sha256": "b589ed327dbd5a93d39aa753fd433460745bbe7c3e7bfaef517edcc650f19a5e",
+      "method": "C-PPO",
+      "domain": "emergency_diesel",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "C-PPO/emergency_diesel/4",
+      "paper_method": "C-PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/communication/seed_0/model/state.pt",
+      "sha256": "27fd055c3eb2c516f8a6fa7dad8dd1103d84917dfb15d3b816817390d4fb26a4",
+      "size": 33726,
+      "id": "PFO/communication/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/communication/seed_0/model.pt",
+      "source_sha256": "27fd055c3eb2c516f8a6fa7dad8dd1103d84917dfb15d3b816817390d4fb26a4",
+      "method": "PFO",
+      "domain": "communication",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/communication/0",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/communication/seed_1/model/state.pt",
+      "sha256": "2b90347d01a10347f6d54f9d4e430da4bb12c47ddfcabe417371e6eb5a15a49c",
+      "size": 33726,
+      "id": "PFO/communication/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/communication/seed_1/model.pt",
+      "source_sha256": "2b90347d01a10347f6d54f9d4e430da4bb12c47ddfcabe417371e6eb5a15a49c",
+      "method": "PFO",
+      "domain": "communication",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/communication/1",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/communication/seed_2/model/state.pt",
+      "sha256": "ed16291c97f4a55002bd96322b9f637c4129064d12b1bd58ed61194d9644bc00",
+      "size": 33726,
+      "id": "PFO/communication/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/communication/seed_2/model.pt",
+      "source_sha256": "ed16291c97f4a55002bd96322b9f637c4129064d12b1bd58ed61194d9644bc00",
+      "method": "PFO",
+      "domain": "communication",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/communication/2",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/communication/seed_3/model/state.pt",
+      "sha256": "3c830318b60a183d6830fe9e95bc75337798243ee4c56d04067ce0923e766f51",
+      "size": 33726,
+      "id": "PFO/communication/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/communication/seed_3/model.pt",
+      "source_sha256": "3c830318b60a183d6830fe9e95bc75337798243ee4c56d04067ce0923e766f51",
+      "method": "PFO",
+      "domain": "communication",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/communication/3",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/communication/seed_4/model/state.pt",
+      "sha256": "d230a6c7a8588da7fa8680b3e23344ec7992089c632e0e8383e45a86aa15aaec",
+      "size": 33726,
+      "id": "PFO/communication/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/communication/seed_4/model.pt",
+      "source_sha256": "d230a6c7a8588da7fa8680b3e23344ec7992089c632e0e8383e45a86aa15aaec",
+      "method": "PFO",
+      "domain": "communication",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/communication/4",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/emergency_diesel/seed_0/model/state.pt",
+      "sha256": "3570e0286f8378b46a632bcdb824b48bbc902dbbe6d11062e939b64fda461c7e",
+      "size": 32318,
+      "id": "PFO/emergency_diesel/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/emergency_diesel/seed_0/model.pt",
+      "source_sha256": "3570e0286f8378b46a632bcdb824b48bbc902dbbe6d11062e939b64fda461c7e",
+      "method": "PFO",
+      "domain": "emergency_diesel",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/emergency_diesel/0",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/emergency_diesel/seed_1/model/state.pt",
+      "sha256": "2f8a1aa99d75bdd6e9ecf9a5baf87165ea9743c3a6c4baeb919f5f95a0ba28a7",
+      "size": 32318,
+      "id": "PFO/emergency_diesel/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/emergency_diesel/seed_1/model.pt",
+      "source_sha256": "2f8a1aa99d75bdd6e9ecf9a5baf87165ea9743c3a6c4baeb919f5f95a0ba28a7",
+      "method": "PFO",
+      "domain": "emergency_diesel",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/emergency_diesel/1",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/emergency_diesel/seed_2/model/state.pt",
+      "sha256": "1de9820a6f6a5b94c215fa45ac667f975bda0350700b83f316ceb6a15a8bea2f",
+      "size": 32318,
+      "id": "PFO/emergency_diesel/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/emergency_diesel/seed_2/model.pt",
+      "source_sha256": "1de9820a6f6a5b94c215fa45ac667f975bda0350700b83f316ceb6a15a8bea2f",
+      "method": "PFO",
+      "domain": "emergency_diesel",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/emergency_diesel/2",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/emergency_diesel/seed_3/model/state.pt",
+      "sha256": "b831201fa1a3eea212fc58961deb367aff3f9627de06d11151ce65667d8be41c",
+      "size": 32318,
+      "id": "PFO/emergency_diesel/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/emergency_diesel/seed_3/model.pt",
+      "source_sha256": "b831201fa1a3eea212fc58961deb367aff3f9627de06d11151ce65667d8be41c",
+      "method": "PFO",
+      "domain": "emergency_diesel",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/emergency_diesel/3",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PFO/emergency_diesel/seed_4/model/state.pt",
+      "sha256": "59d9234a6ff276653becf4307c10d6bc600723decdef3786a964cc731c76795a",
+      "size": 32318,
+      "id": "PFO/emergency_diesel/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PFO/emergency_diesel/seed_4/model.pt",
+      "source_sha256": "59d9234a6ff276653becf4307c10d6bc600723decdef3786a964cc731c76795a",
+      "method": "PFO",
+      "domain": "emergency_diesel",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "pfo_formal_100k_5seed_20261106",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PFO/emergency_diesel/4",
+      "paper_method": "PFO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/communication/seed_0/model/state.pt",
+      "sha256": "6f9cafcf442f8ea934c2f70fbe18bc0d443472a93b12d7c7a7897a526e1f74d9",
+      "size": 131641,
+      "id": "Gradient_PPO/communication/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/communication/seed_0/model.pt",
+      "source_sha256": "6f9cafcf442f8ea934c2f70fbe18bc0d443472a93b12d7c7a7897a526e1f74d9",
+      "method": "Gradient_PPO",
+      "domain": "communication",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/communication/0",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/communication/seed_1/model/state.pt",
+      "sha256": "8da6d24a0f26887a5f3eab2075eac2e49b46b982e787b91cc44cf91395b62cd8",
+      "size": 131705,
+      "id": "Gradient_PPO/communication/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/communication/seed_1/model.pt",
+      "source_sha256": "8da6d24a0f26887a5f3eab2075eac2e49b46b982e787b91cc44cf91395b62cd8",
+      "method": "Gradient_PPO",
+      "domain": "communication",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/communication/1",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/communication/seed_2/model/state.pt",
+      "sha256": "2854bc56146f87db33418a265478a08bf5424c09e3ca3b84ca2a84556741d261",
+      "size": 131769,
+      "id": "Gradient_PPO/communication/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/communication/seed_2/model.pt",
+      "source_sha256": "2854bc56146f87db33418a265478a08bf5424c09e3ca3b84ca2a84556741d261",
+      "method": "Gradient_PPO",
+      "domain": "communication",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/communication/2",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/communication/seed_3/model/state.pt",
+      "sha256": "50e0c2171d92b99f45b9ce6b37ea7c6176aa023a8eed1e285422d14a75313bb8",
+      "size": 131641,
+      "id": "Gradient_PPO/communication/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/communication/seed_3/model.pt",
+      "source_sha256": "50e0c2171d92b99f45b9ce6b37ea7c6176aa023a8eed1e285422d14a75313bb8",
+      "method": "Gradient_PPO",
+      "domain": "communication",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/communication/3",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/communication/seed_4/model/state.pt",
+      "sha256": "89046048fc7cbc7a4167d518b4365a6293d6e06b61ad03a64bb1207d588f9c0c",
+      "size": 131705,
+      "id": "Gradient_PPO/communication/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/communication/seed_4/model.pt",
+      "source_sha256": "89046048fc7cbc7a4167d518b4365a6293d6e06b61ad03a64bb1207d588f9c0c",
+      "method": "Gradient_PPO",
+      "domain": "communication",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/communication/4",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/emergency_diesel/seed_0/model/state.pt",
+      "sha256": "b3116709a5fd8d9632f9c3fcd2c0e368a6a81cedbcb044242303d7eb0fdfe1bd",
+      "size": 114361,
+      "id": "Gradient_PPO/emergency_diesel/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/emergency_diesel/seed_0/model.pt",
+      "source_sha256": "b3116709a5fd8d9632f9c3fcd2c0e368a6a81cedbcb044242303d7eb0fdfe1bd",
+      "method": "Gradient_PPO",
+      "domain": "emergency_diesel",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.8_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/emergency_diesel/0",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1",
+        "3.3.3.2"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6",
+        "3.8"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/emergency_diesel/seed_1/model/state.pt",
+      "sha256": "d259bb235f3a4ae2f8a541463688e0f845acb6b0763095600a1af24d2785392a",
+      "size": 114297,
+      "id": "Gradient_PPO/emergency_diesel/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/emergency_diesel/seed_1/model.pt",
+      "source_sha256": "d259bb235f3a4ae2f8a541463688e0f845acb6b0763095600a1af24d2785392a",
+      "method": "Gradient_PPO",
+      "domain": "emergency_diesel",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.8_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/emergency_diesel/1",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/emergency_diesel/seed_2/model/state.pt",
+      "sha256": "9c6d7668f0b2f05ccb6e3d549d6e665fc75da000a83b28dc71241570944645ae",
+      "size": 114361,
+      "id": "Gradient_PPO/emergency_diesel/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/emergency_diesel/seed_2/model.pt",
+      "source_sha256": "9c6d7668f0b2f05ccb6e3d549d6e665fc75da000a83b28dc71241570944645ae",
+      "method": "Gradient_PPO",
+      "domain": "emergency_diesel",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.8_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/emergency_diesel/2",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/emergency_diesel/seed_3/model/state.pt",
+      "sha256": "cb532d0ab76a4bc65ebea1c761a9b2dadd782d6c1c4cc618192e33225fddd0ca",
+      "size": 114361,
+      "id": "Gradient_PPO/emergency_diesel/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/emergency_diesel/seed_3/model.pt",
+      "source_sha256": "cb532d0ab76a4bc65ebea1c761a9b2dadd782d6c1c4cc618192e33225fddd0ca",
+      "method": "Gradient_PPO",
+      "domain": "emergency_diesel",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.8_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/emergency_diesel/3",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Gradient_PPO/emergency_diesel/seed_4/model/state.pt",
+      "sha256": "6334510c80ccad902671671a11198891f7aa03b9ce22c3c423d1beaf30f5ad69",
+      "size": 114297,
+      "id": "Gradient_PPO/emergency_diesel/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Gradient_PPO/emergency_diesel/seed_4/model.pt",
+      "source_sha256": "6334510c80ccad902671671a11198891f7aa03b9ce22c3c423d1beaf30f5ad69",
+      "method": "Gradient_PPO",
+      "domain": "emergency_diesel",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV",
+        "figure3.6_conditions",
+        "figure3.8_case"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Gradient_PPO/emergency_diesel/4",
+      "paper_method": "Gradient PPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1",
+        "3.3.3.1"
+      ],
+      "paper_figures": [
+        "3.4",
+        "3.6"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/communication/seed_0/model/state.pt",
+      "sha256": "33218aca46604763646bb9e7a61454c41580e1f3ed8001651587d81270d1a0e0",
+      "size": 131513,
+      "id": "Reflective_PPO/communication/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/communication/seed_0/model.pt",
+      "source_sha256": "33218aca46604763646bb9e7a61454c41580e1f3ed8001651587d81270d1a0e0",
+      "method": "Reflective_PPO",
+      "domain": "communication",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/communication/0",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/communication/seed_1/model/state.pt",
+      "sha256": "098cd606be9edbbb5b3cd9b90714e5e4715b7045ea561018b979242518458f6f",
+      "size": 131577,
+      "id": "Reflective_PPO/communication/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/communication/seed_1/model.pt",
+      "source_sha256": "098cd606be9edbbb5b3cd9b90714e5e4715b7045ea561018b979242518458f6f",
+      "method": "Reflective_PPO",
+      "domain": "communication",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/communication/1",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/communication/seed_2/model/state.pt",
+      "sha256": "e0c6d7360c4fa4f6da247b8103078013ad67956978829aa8bd94603fe99ae89e",
+      "size": 131641,
+      "id": "Reflective_PPO/communication/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/communication/seed_2/model.pt",
+      "source_sha256": "e0c6d7360c4fa4f6da247b8103078013ad67956978829aa8bd94603fe99ae89e",
+      "method": "Reflective_PPO",
+      "domain": "communication",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/communication/2",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/communication/seed_3/model/state.pt",
+      "sha256": "4739014c175ed610eb9cedf621b627ccd7f0e1031723371308bc550723c90d58",
+      "size": 131577,
+      "id": "Reflective_PPO/communication/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/communication/seed_3/model.pt",
+      "source_sha256": "4739014c175ed610eb9cedf621b627ccd7f0e1031723371308bc550723c90d58",
+      "method": "Reflective_PPO",
+      "domain": "communication",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/communication/3",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/communication/seed_4/model/state.pt",
+      "sha256": "27353c9683aaddf3fb6018ffd30dd5a5da005d27312439fcefdb1229dd7f886f",
+      "size": 131513,
+      "id": "Reflective_PPO/communication/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/communication/seed_4/model.pt",
+      "source_sha256": "27353c9683aaddf3fb6018ffd30dd5a5da005d27312439fcefdb1229dd7f886f",
+      "method": "Reflective_PPO",
+      "domain": "communication",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/communication/4",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/emergency_diesel/seed_0/model/state.pt",
+      "sha256": "a6965aa462a45aed38070bc44c0d188e2d88c806a7c9637e721819d02a8eab11",
+      "size": 114233,
+      "id": "Reflective_PPO/emergency_diesel/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/emergency_diesel/seed_0/model.pt",
+      "source_sha256": "a6965aa462a45aed38070bc44c0d188e2d88c806a7c9637e721819d02a8eab11",
+      "method": "Reflective_PPO",
+      "domain": "emergency_diesel",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/emergency_diesel/0",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/emergency_diesel/seed_1/model/state.pt",
+      "sha256": "96823d7d2da8cbdaa5987b54d63f79de8cebb38f3258d6cef5e63277e8d9d525",
+      "size": 114169,
+      "id": "Reflective_PPO/emergency_diesel/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/emergency_diesel/seed_1/model.pt",
+      "source_sha256": "96823d7d2da8cbdaa5987b54d63f79de8cebb38f3258d6cef5e63277e8d9d525",
+      "method": "Reflective_PPO",
+      "domain": "emergency_diesel",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/emergency_diesel/1",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/emergency_diesel/seed_2/model/state.pt",
+      "sha256": "9a5fa071b2ce130535c277890e55266fff8fa773390b70fdc8ac5f43df70f6bf",
+      "size": 114233,
+      "id": "Reflective_PPO/emergency_diesel/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/emergency_diesel/seed_2/model.pt",
+      "source_sha256": "9a5fa071b2ce130535c277890e55266fff8fa773390b70fdc8ac5f43df70f6bf",
+      "method": "Reflective_PPO",
+      "domain": "emergency_diesel",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/emergency_diesel/2",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/emergency_diesel/seed_3/model/state.pt",
+      "sha256": "a8ec20a802dce526c43814137a02c5c3cf73a97048b38c71f5793cc929cafbbc",
+      "size": 114233,
+      "id": "Reflective_PPO/emergency_diesel/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/emergency_diesel/seed_3/model.pt",
+      "source_sha256": "a8ec20a802dce526c43814137a02c5c3cf73a97048b38c71f5793cc929cafbbc",
+      "method": "Reflective_PPO",
+      "domain": "emergency_diesel",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/emergency_diesel/3",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/Reflective_PPO/emergency_diesel/seed_4/model/state.pt",
+      "sha256": "fa61b8a851af5c65d56df86bf37d96de02d1167144afb1068b0d10a7e869b46c",
+      "size": 114169,
+      "id": "Reflective_PPO/emergency_diesel/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/Reflective_PPO/emergency_diesel/seed_4/model.pt",
+      "source_sha256": "fa61b8a851af5c65d56df86bf37d96de02d1167144afb1068b0d10a7e869b46c",
+      "method": "Reflective_PPO",
+      "domain": "emergency_diesel",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "Reflective_PPO/emergency_diesel/4",
+      "paper_method": "RPO",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/communication/seed_0/model/state.pt",
+      "sha256": "553a6a71daf2faaff650393d555d422c46629936b2d52673265cfbe43c4b452b",
+      "size": 2083959,
+      "id": "PPO+/communication/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/communication/seed_0/model.pt",
+      "source_sha256": "553a6a71daf2faaff650393d555d422c46629936b2d52673265cfbe43c4b452b",
+      "method": "PPO+",
+      "domain": "communication",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/communication/0",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/communication/seed_1/model/state.pt",
+      "sha256": "dbce7ba614b584b3d09a4d6f5ed533f3bf7bcc1925116726cb72a7a324c21973",
+      "size": 2083959,
+      "id": "PPO+/communication/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/communication/seed_1/model.pt",
+      "source_sha256": "dbce7ba614b584b3d09a4d6f5ed533f3bf7bcc1925116726cb72a7a324c21973",
+      "method": "PPO+",
+      "domain": "communication",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/communication/1",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/communication/seed_2/model/state.pt",
+      "sha256": "d35b7d73023667fd4a90d886d285ff08e9d83606591af7f805da7ced4362617a",
+      "size": 2083959,
+      "id": "PPO+/communication/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/communication/seed_2/model.pt",
+      "source_sha256": "d35b7d73023667fd4a90d886d285ff08e9d83606591af7f805da7ced4362617a",
+      "method": "PPO+",
+      "domain": "communication",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/communication/2",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/communication/seed_3/model/state.pt",
+      "sha256": "0a64d868807ce52bf7bbe2621ae0401fd4a51ed8d31062fa94a44a3988159c2e",
+      "size": 2083959,
+      "id": "PPO+/communication/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/communication/seed_3/model.pt",
+      "source_sha256": "0a64d868807ce52bf7bbe2621ae0401fd4a51ed8d31062fa94a44a3988159c2e",
+      "method": "PPO+",
+      "domain": "communication",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/communication/3",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/communication/seed_4/model/state.pt",
+      "sha256": "ad32095d5be82e2f682fa9dc25954c8405e56b4709a899bec5a9a22a1bdf4d06",
+      "size": 2083959,
+      "id": "PPO+/communication/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/communication/seed_4/model.pt",
+      "source_sha256": "ad32095d5be82e2f682fa9dc25954c8405e56b4709a899bec5a9a22a1bdf4d06",
+      "method": "PPO+",
+      "domain": "communication",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/communication/4",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/emergency_diesel/seed_0/model/state.pt",
+      "sha256": "430d10cabe9fe18cba38be6302b7829d4fe93c85a01425e66c213ad407be73ca",
+      "size": 2056617,
+      "id": "PPO+/emergency_diesel/0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/emergency_diesel/seed_0/model.pt",
+      "source_sha256": "430d10cabe9fe18cba38be6302b7829d4fe93c85a01425e66c213ad407be73ca",
+      "method": "PPO+",
+      "domain": "emergency_diesel",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/emergency_diesel/0",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/emergency_diesel/seed_1/model/state.pt",
+      "sha256": "9e636daab2be2401316cd3d6d5355066fd2d3dd4b1da15c717773e7be369dc15",
+      "size": 2056617,
+      "id": "PPO+/emergency_diesel/1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/emergency_diesel/seed_1/model.pt",
+      "source_sha256": "9e636daab2be2401316cd3d6d5355066fd2d3dd4b1da15c717773e7be369dc15",
+      "method": "PPO+",
+      "domain": "emergency_diesel",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/emergency_diesel/1",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/emergency_diesel/seed_2/model/state.pt",
+      "sha256": "57f046122950f1a83acc976abe5f4ff931a562d60c3a48178608972e8e6d1a25",
+      "size": 2056617,
+      "id": "PPO+/emergency_diesel/2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/emergency_diesel/seed_2/model.pt",
+      "source_sha256": "57f046122950f1a83acc976abe5f4ff931a562d60c3a48178608972e8e6d1a25",
+      "method": "PPO+",
+      "domain": "emergency_diesel",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/emergency_diesel/2",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/emergency_diesel/seed_3/model/state.pt",
+      "sha256": "6d211d62c9861dde674b65f38ef334a8cd2b33c6618a8ebced7e776e6315d072",
+      "size": 2056617,
+      "id": "PPO+/emergency_diesel/3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/emergency_diesel/seed_3/model.pt",
+      "source_sha256": "6d211d62c9861dde674b65f38ef334a8cd2b33c6618a8ebced7e776e6315d072",
+      "method": "PPO+",
+      "domain": "emergency_diesel",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/emergency_diesel/3",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/PPO+/emergency_diesel/seed_4/model/state.pt",
+      "sha256": "0f053aefb5f12740a5751bd33d18ad59006cb620b6a4b0886377d007dfba2337",
+      "size": 2056617,
+      "id": "PPO+/emergency_diesel/4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/models/main_comparison/PPO_plus/emergency_diesel/seed_4/model.pt",
+      "source_sha256": "0f053aefb5f12740a5751bd33d18ad59006cb620b6a4b0886377d007dfba2337",
+      "method": "PPO+",
+      "domain": "emergency_diesel",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "formal_100k_5seed_20261105",
+      "reused_accepted_external_model": true,
+      "usage": [
+        "formal_main_endpoint_table_and_DEV"
+      ],
+      "new_independent_TEST_for_random_object": null,
+      "chapter": "chapter03",
+      "paper_model_id": "PPO+/emergency_diesel/4",
+      "paper_method": "PPO+",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.1"
+      ],
+      "paper_figures": [
+        "3.4"
+      ],
+      "paper_tables": [
+        "3.3"
+      ],
+      "paper_usage_status": "current_final_adopted",
+      "paper_usage_note": ""
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__radio__seed0/model/state.pt",
+      "sha256": "ca177cd5e2d876a52bbdee4bf53bf31d2a98fd7e3cdd8054f796df6e742cb3ad",
+      "size": 142028,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__radio__seed0/model/state.pt",
+      "source_sha256": "ca177cd5e2d876a52bbdee4bf53bf31d2a98fd7e3cdd8054f796df6e742cb3ad",
+      "method": "随机对象分配",
+      "domain": "radio",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed0",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__radio__seed1/model/state.pt",
+      "sha256": "43880933485756965460019e7d795248705edf559a2ec4bdfcf197f345643842",
+      "size": 142028,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__radio__seed1/model/state.pt",
+      "source_sha256": "43880933485756965460019e7d795248705edf559a2ec4bdfcf197f345643842",
+      "method": "随机对象分配",
+      "domain": "radio",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed1",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__radio__seed2/model/state.pt",
+      "sha256": "f0fcb677205577c112f46666c8b6bde0aab0094725163f8d0ba44170609f252c",
+      "size": 142028,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__radio__seed2/model/state.pt",
+      "source_sha256": "f0fcb677205577c112f46666c8b6bde0aab0094725163f8d0ba44170609f252c",
+      "method": "随机对象分配",
+      "domain": "radio",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed2",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__radio__seed3/model/state.pt",
+      "sha256": "871abbc4e2840f43533571a4198978caf436c8f9f0544cc5f69428e2ec720a7a",
+      "size": 142028,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__radio__seed3/model/state.pt",
+      "source_sha256": "871abbc4e2840f43533571a4198978caf436c8f9f0544cc5f69428e2ec720a7a",
+      "method": "随机对象分配",
+      "domain": "radio",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed3",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__radio__seed4/model/state.pt",
+      "sha256": "b93d19a22961865c9f12151ec897763b46e040a553f1ae093f9eb6efaaad876c",
+      "size": 142028,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__radio__seed4/model/state.pt",
+      "source_sha256": "b93d19a22961865c9f12151ec897763b46e040a553f1ae093f9eb6efaaad876c",
+      "method": "随机对象分配",
+      "domain": "radio",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__radio__seed4",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__v5__seed0/model/state.pt",
+      "sha256": "6a03740f3261030249ae96dfa0558afe0fb597a8e219df8a76a3d386cb25a34a",
+      "size": 169484,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed0",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__v5__seed0/model/state.pt",
+      "source_sha256": "6a03740f3261030249ae96dfa0558afe0fb597a8e219df8a76a3d386cb25a34a",
+      "method": "随机对象分配",
+      "domain": "v5",
+      "seed": 0,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed0",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__v5__seed1/model/state.pt",
+      "sha256": "5de61a12bffc7b9f1a9416220ce72250270139db831fe3768021dc5b4c7521e6",
+      "size": 169484,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed1",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__v5__seed1/model/state.pt",
+      "source_sha256": "5de61a12bffc7b9f1a9416220ce72250270139db831fe3768021dc5b4c7521e6",
+      "method": "随机对象分配",
+      "domain": "v5",
+      "seed": 1,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed1",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__v5__seed2/model/state.pt",
+      "sha256": "611861eceaad4bcbc015f95414625bf4806da3ed8931af3c92960de0dfe65590",
+      "size": 169484,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed2",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__v5__seed2/model/state.pt",
+      "source_sha256": "611861eceaad4bcbc015f95414625bf4806da3ed8931af3c92960de0dfe65590",
+      "method": "随机对象分配",
+      "domain": "v5",
+      "seed": 2,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed2",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__v5__seed3/model/state.pt",
+      "sha256": "6fd5118064df9765040734ba9d13bd5cff13ad2e7d99f2f27d61f2c405c81d46",
+      "size": 169484,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed3",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__v5__seed3/model/state.pt",
+      "source_sha256": "6fd5118064df9765040734ba9d13bd5cff13ad2e7d99f2f27d61f2c405c81d46",
+      "method": "随机对象分配",
+      "domain": "v5",
+      "seed": 3,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed3",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    },
+    {
+      "model": "chapters/chapter03/training/random_object/A_RANDOM_OBJECT_ALLOCATION__v5__seed4/model/state.pt",
+      "sha256": "897e8191ec0107d55501610887f1ee0aad3e393bd1eeb4ebad1d7f9b5cb14bf5",
+      "size": 169484,
+      "id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed4",
+      "source_used": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/training/A_RANDOM_OBJECT_ALLOCATION__v5__seed4/model/state.pt",
+      "source_sha256": "897e8191ec0107d55501610887f1ee0aad3e393bd1eeb4ebad1d7f9b5cb14bf5",
+      "method": "随机对象分配",
+      "domain": "v5",
+      "seed": 4,
+      "training_steps": 100608,
+      "scientific_training_campaign": "random_object_ablation_20261109_192455",
+      "reused_accepted_external_model": false,
+      "usage": [
+        "figure3.5_ablation_DEV_only"
+      ],
+      "new_independent_TEST_for_random_object": false,
+      "chapter": "chapter03",
+      "paper_model_id": "A_RANDOM_OBJECT_ALLOCATION__v5__seed4",
+      "paper_method": "随机对象分配",
+      "variant": "",
+      "paper_sections": [
+        "3.3.2.2"
+      ],
+      "paper_figures": [
+        "3.5"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "current_DEV_ablation_only_no_new_TEST",
+      "paper_usage_note": "随机对象分配仅有开发情景消融曲线，未追加独立TEST。"
+    }
+  ],
+  "paths_relative_to_final_data_root": true
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "hongmiao93_budget_v3",
+  "case_id": "Hongmiao93-v2",
+  "decision_days": 81,
+  "default_daily_quota_m3": 10000.0,
+  "default_seasonal_budget_m3": 810000.0,
+  "daily_quota_parameter": "finite nonnegative research setting; 81-day total must remain finite",
+  "chapter3": "constant actual daily total; sum(action) must equal daily_quota_m3",
+  "chapters4_to_6": "one budget of 81 * daily_quota_m3, shared across all 81 days",
+  "daily_supply_limit": "whole seasonal budget as mathematical upper bound; no separately calibrated engineering capacity",
+  "regional_supply_limit": "none imposed; no calibrated region-specific delivery capacity",
+  "provenance": "research_setting: fixed 10000 m3/day in the default persistent drought case; selected below a conservative all-policy current-stress-refill bound, not by reward or a demand ratio; no runtime demand scaling; not measured supply",
+  "allowance_selection": "fixed 10000 m3/day; supported by the all-policy scarcity certificate, not chosen as a demand ratio",
+  "not_recomputed_at_runtime_from": [
+    "daily reference crop demand",
+    "realized rainfall or weather"
+  ],
+  "not_measured_from": [
+    "historical dispatch",
+    "engineering supply capacity",
+    "per-region delivery capacity"
+  ],
+  "reference_demand_file": "reference_irrigation_demand.csv",
+  "reference_demand_status": "historical v1 scale reference only; not the basis of v2 allowance or runtime daily quotas",
+  "reference_period": {
+    "start_month_day": "05-30",
+    "end_month_day": "08-18",
+    "days": 81
+  },
+  "reference_total_m3": 3329440.841496756,
+  "reference_ratio": 0.2432840944054327,
+  "reference_ratio_identity": "default seasonal research allowance divided by the archived 81-day reference demand total; descriptive ratio, not a runtime quota multiplier"
+}

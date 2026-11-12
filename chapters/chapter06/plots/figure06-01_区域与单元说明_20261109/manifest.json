@@ -1,0 +1,138 @@
+{
+  "status": "CANDIDATE_FOR_NATIVE_PDF_REVIEW",
+  "source": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/scene_clarity.py",
+  "source_sha256": "b4fc0a56ea34ac9ddafb2d5aedaab9e965a10b81e6d0fee9a4c181117b1f0388",
+  "snapshot_source": "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/reader_mainline_revision_20261109_234807/source/scene_clarity.py",
+  "snapshot_sha256": "b4fc0a56ea34ac9ddafb2d5aedaab9e965a10b81e6d0fee9a4c181117b1f0388",
+  "input_files_sha256": {
+    "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/maps/figures/scene/figure.pdf": "08dc86e7dbcf2a0c79f2852e049a630006c163b6ee291ccf752db6a652bb5d04",
+    "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/maps/figures/scene/figure.svg": "5d28531eb54fa100fb83f363e63778bc5cae84a933454b236015be8f51a94c8d",
+    "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/maps/figures/scene/figure.png": "ec5eb52fffa6cb20f74d42f4f064a8ffa7015e7a231d6d0f481d7874154da264",
+    "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/maps/figures/scene/region_categorical_colours.csv": "72b934395be46ed97ea1adc2cff102b7d858686cf540c0c84b5bb44feb7748cc",
+    "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/maps/figures/scene/manifest.json": "8712667c1a8bfac5f8aff67e2ea054a240ff46c3f3fdfda72d5c8c55b51ad464",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/geometry/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5"
+  },
+  "inputs_unchanged": true,
+  "figure_body_inherited_exact_bytes": true,
+  "inherited_body_source": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/maps/source/map_family.py",
+  "inherited_body_source_sha256": "246f4a0f04ed2b218ec6c260d017416e56d3d1dd4091774c0d274fc520bb0d11",
+  "inherited_map_canvas_mm": [
+    156.0,
+    131.21471879190491
+  ],
+  "inherited_scene_board_width_mm": 146.0,
+  "legend_canvas_mm": [
+    156.0,
+    28.0
+  ],
+  "ordinary_legend_font_bp": 10.5,
+  "legend_text_checks": [
+    {
+      "text": "多个单元组成一个区域",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        173.22834645669295,
+        150.30296505905514,
+        291.25,
+        26.953125
+      ]
+    },
+    {
+      "text": "颜色辅助区分区域",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        826.7716535433073,
+        150.05296505905514,
+        233.0000000000001,
+        27.453125
+      ]
+    },
+    {
+      "text": "总闸",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        338.58267716535437,
+        38.165477362204726,
+        58.25,
+        26.03125
+      ]
+    },
+    {
+      "text": "区域入口",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        881.8897637795277,
+        37.868602362204726,
+        116.5,
+        26.625
+      ]
+    }
+  ],
+  "semantics": {
+    "region_count": 89,
+    "service_hex_count": 1257,
+    "minimum_cells_per_region": 2,
+    "maximum_cells_per_region": 52,
+    "fill_semantics": "Six categorical colours cycle by source owner modulo6 to assist region recognition. Region boundaries and IDs define ownership; one hexagon is not one region.",
+    "colour_assignment": "palette[region.owner % 6]",
+    "palette": [
+      "#d2dfad",
+      "#bacd90",
+      "#e0e9c9",
+      "#c5d9bb",
+      "#e1dfad",
+      "#add0ba"
+    ],
+    "colour_counts": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      14
+    ],
+    "colour_reuse": true,
+    "adjacent_same_colour_region_pairs": [
+      [
+        "7",
+        "26"
+      ],
+      [
+        "64",
+        "76"
+      ]
+    ],
+    "nominal_display_area_mu_per_service_cell": 10,
+    "display_area_mu": 12570,
+    "original_actual_area_mu": 12618,
+    "area_calculations_use_original_unrounded_regions": true,
+    "mini_group": {
+      "cell_count": 6,
+      "purpose": "Generic containment legend only; not a new measured region or a new allocation observation",
+      "same_fill": true,
+      "deep_outer_boundary": true
+    }
+  },
+  "outputs_sha256": {
+    "figure.pdf": "08dc86e7dbcf2a0c79f2852e049a630006c163b6ee291ccf752db6a652bb5d04",
+    "figure.svg": "5d28531eb54fa100fb83f363e63778bc5cae84a933454b236015be8f51a94c8d",
+    "figure.png": "ec5eb52fffa6cb20f74d42f4f064a8ffa7015e7a231d6d0f481d7874154da264",
+    "legend.pdf": "5d3ff6ffbbaf6004a0aed6714e145ce955989ae6fcb725220f6911430d0f6953",
+    "legend.svg": "3694b9788ce4488167de16da9edbff21187ec5dd70ebdd301be244001339e1af",
+    "legend.png": "d733b868b7a7321b2ac1bcd09056ae82fd552b0bbe27aed15777b444ab9cbc03",
+    "region_categorical_colours.csv": "72b934395be46ed97ea1adc2cff102b7d858686cf540c0c84b5bb44feb7748cc"
+  },
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "inference_calls": 0,
+    "training_runs": 0,
+    "new_TEST": 0
+  },
+  "TeX_edits": 0,
+  "index_edits": 0,
+  "paper_builds": 0,
+  "current_asset_or_pointer_modified": false
+}

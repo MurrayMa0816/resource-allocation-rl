@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chapter4-credit-assignment"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["numpy", "torch", "scipy", "gymnasium", "matplotlib"]
+
+[tool.setuptools.packages.find]
+include = ["allocation4*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

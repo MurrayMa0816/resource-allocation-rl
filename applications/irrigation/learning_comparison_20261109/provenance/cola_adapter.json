@@ -1,0 +1,249 @@
+{
+  "status": "READY_FOR_PARENT_FROZEN_APPEND_PROTOCOL",
+  "adapter_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/learning_comparison_20261109/methods/cola_adapter.py",
+  "adapter_sha256": "faf03c33918a6e1ec24331402962320d7599652dd29e6cfcee1737fe3b75745f",
+  "original_formal_source_root": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source",
+  "original_formal_source_manifest_path": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source_manifest.json",
+  "original_formal_source_manifest_sha256": "2341958df1d3a73298d025741f634c3ec84fcc2f2900cd832a7310b6c07d6cf7",
+  "original285_all_SHA_match": true,
+  "original_formal_run_config_path": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/configs/cola__v5__seed0.json",
+  "original_formal_run_config_sha256": "9aae53014dc375ecc0f7e1716de449bc28e49d407a1989583ca5c7f7d3bba88b",
+  "original_formal_profile": "COLA fixed_oadm/v5",
+  "original_numerical_config_retained": {
+    "hidden_dim": {
+      "old": 256,
+      "new": 256
+    },
+    "policy_hidden_dim": {
+      "old": 128,
+      "new": 128
+    },
+    "batch_size": {
+      "old": 256,
+      "new": 256
+    },
+    "gamma": {
+      "old": 1.0,
+      "new": 1.0
+    },
+    "lr": {
+      "old": 0.0001,
+      "new": 0.0001
+    },
+    "tau": {
+      "old": 0.002,
+      "new": 0.002
+    },
+    "updates_per_step": {
+      "old": 1,
+      "new": 1
+    },
+    "start_steps": {
+      "old": 2048,
+      "new": 2048
+    },
+    "learning_starts": {
+      "old": 2048,
+      "new": 2048
+    },
+    "alpha": {
+      "old": 0.001,
+      "new": 0.001
+    },
+    "entropy_tuning": {
+      "old": false,
+      "new": false
+    },
+    "cola_latent_dim": {
+      "old": 50,
+      "new": 50
+    },
+    "cola_old_q_update_frequency": {
+      "old": 1,
+      "new": 1
+    },
+    "cola_regular_alpha": {
+      "old": 0.1,
+      "new": 0.1
+    },
+    "cola_regular_bar": {
+      "old": 0.25,
+      "new": 0.25
+    },
+    "preference_floor": {
+      "old": 0.02,
+      "new": 0.02
+    },
+    "target_entropy_scale": {
+      "old": 1.0,
+      "new": 1.0
+    },
+    "reward_scale": {
+      "old": 1.0,
+      "new": 1.0
+    },
+    "alpha_min": {
+      "old": 1e-06,
+      "new": 1e-06
+    },
+    "alpha_max": {
+      "old": 0.05,
+      "new": 0.05
+    },
+    "actor_output_init_scale": {
+      "old": 0.5,
+      "new": 0.5
+    },
+    "domain": {
+      "old": "v5",
+      "new": "v5"
+    },
+    "development_cycle": {
+      "old": 5,
+      "new": 5
+    },
+    "holdout_selection": {
+      "old": false,
+      "new": false
+    },
+    "observation_normalization": {
+      "old": false,
+      "new": false
+    },
+    "observation_calibration_steps": {
+      "old": 2048,
+      "new": 2048
+    },
+    "actor_lr": {
+      "old": 0.0001,
+      "new": 0.0001
+    },
+    "actor_gradient_clip": {
+      "old": 1.0,
+      "new": 1.0
+    },
+    "n_step": {
+      "old": 8,
+      "new": 8
+    },
+    "cola_batched_finite_checks": {
+      "old": true,
+      "new": true
+    },
+    "n_env": {
+      "old": 8,
+      "new": 8
+    },
+    "action_mode": {
+      "old": "tanh_latent",
+      "new": "tanh_latent"
+    },
+    "oadm_one_step_target": {
+      "old": true,
+      "new": true
+    },
+    "profile": {
+      "old": "fixed_oadm",
+      "new": "fixed_oadm"
+    },
+    "method": {
+      "old": "cola",
+      "new": "cola"
+    },
+    "acknowledge_nstep_task_variant": {
+      "old": true,
+      "new": true
+    }
+  },
+  "task_changes": {
+    "observation_dim": 719,
+    "action_dim": 49,
+    "horizon": 81,
+    "domain": "actualHongmiao89reasonable-depth",
+    "coverage_threshold": 0.9,
+    "objective_order": [
+      "C",
+      "JA"
+    ],
+    "deployment_preference": {
+      "old": 0.8,
+      "new": 0.2
+    },
+    "learning_steps": {
+      "old": 100608,
+      "new": 259200
+    },
+    "training_seeds": [
+      6400,
+      6401,
+      6402
+    ],
+    "n_env": 8,
+    "evaluation_grid_step": 10368,
+    "DEV_paths": 32,
+    "original_environment_or_models_reused": false
+  },
+  "native_mechanisms_preserved": [
+    "OADM objective-agnostic latent state/dynamics encoder",
+    "actuals[t+1]OADM target distinct from8stepTD successor",
+    "COR final-layergradientconflict cosine gate andoldQ preservation",
+    "originalvectorSAC/Adam/actorgradclip1",
+    "fixedalpha.001/noadaptiveentropy",
+    "gamma1 andraw8steprewardaccumulation",
+    "acceptedexactbatchedfinitevalidationonly",
+    "nativecontinuouspositivepreferences onceperepisodepanel"
+  ],
+  "replay_contract": {
+    "n_step": 8,
+    "oadm_one_step_target": true,
+    "required_fields": [
+      "obs",
+      "actions",
+      "weights",
+      "rewards",
+      "next_obs",
+      "dones",
+      "oadm_next_obs"
+    ],
+    "meaning": "next_obs/rewards/dones are8stepTD; oadm_next_obs is first realone-step successor; terminaltail flushing retained; noextraphysics/syntheticreward"
+  },
+  "inference_contract": {
+    "operator": "64fixedpre-tanhGaussian→tanh→oneatanhclipinbridge→C6feasiblewater→physicalvectormean",
+    "encoder": "currentnativeencoder forcurrentobs",
+    "float32_native_forward_and_std": true,
+    "float64_quadrature": true,
+    "no_rng_consumed": true,
+    "zero_new_model_updates": true
+  },
+  "source_files_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/__init__.py": "6aa086c1d7ef9277b2c016a0073113d48ace24c02b5493de9cb0b5add9e0a10e",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/RELEASE.json": "8dd8c412a893b1bc89540ab1e14aad6bb37b560099c7adf0f10e1722def49173",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/__init__.py": "2a9ded2c810d51512f446025ee9e4f7621c7ecff2704d2d81def926c2dc1b8aa",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/agent.py": "4b635496055da8ee06dbb0da10940dba0da28caae1cda35d0a6103392f0206af",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/cola_exact_runtime.py": "c618e0f7a4cabb033973b71aed9754cdda2334fca8a8ae1160796d54f5d847f1",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/configs.json": "dae3e28bb2a2235e0823db7bd31838796170948ac460d53182be3ae6aff53807",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/native.py": "cf7050d489cdd6c6b3e06b384a70d2bfec0d9e307357d0390beec5582bf32d41",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/sac_base.py": "dbaaec6b733081cfb93165da80f8b652f4ccf0ce4c19b580fb7f1e3bbc6861c2"
+  },
+  "C6_read_only_interface_sources_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/source/hongmiao89/interface.py": "6517897ad5ce0b30b2cd0fcbd60ccf4713201e9ccbb85ba9dcf44074d10eefea",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/source/hongmiao89/depth_decoder.py": "72a358570b9b7575cfb5d764391541d523194fa36ea939ce9a33c6db0010a4dd",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/source/hongmiao89/execution_operator.py": "98e101735afd12446aa6c107a84766e363a51c171074ae3e50b858db97eaf528",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/source/hongmiao89/models.py": "ce0d787f288b75cd8d163beb55ef5362eae778217ed872faea4c6e4c5b6d7848",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/source/hongmiao89/full_spend.py": "255061515f85937484f199be8b5390ef2facf4b43586643bdccd388f58f712b5"
+  },
+  "tensor_check": {
+    "path": "/root/gamewar/resource_allocation_rl/applications/irrigation/learning_comparison_20261109/provenance/cola_tensor_check.json",
+    "sha256": "699755cf75cc1485f660173a6277f956f291628e0086588cb0c11404cb56c046",
+    "environment_steps": 0,
+    "optimizer_updates": 0,
+    "agents_constructed": 2,
+    "one_step_label_separation_test": true
+  },
+  "selection_timing": "Additionalcomparator requested afteroriginalCAPQLDEVresults wereviewed; COLAprofile frozenbefore anyadditionalCOLADEV. Notanoriginalpre-CAPQLresult comparator.",
+  "scientific_identity": "Additionalappend only; existing6jobs/data/results andoriginal400sealedfiles untouched",
+  "performance_claim": null,
+  "formal_training_started_by_this_agent": false,
+  "prior_sources_or_results_modified": false,
+  "limits": "CPUtensorforward check only. Parentowns one64epCUDAengineering job andnew3fixed-endpointtraining jobs. Noautomatic tuning, bestDEVselection, rerunorperformance guarantee."
+}

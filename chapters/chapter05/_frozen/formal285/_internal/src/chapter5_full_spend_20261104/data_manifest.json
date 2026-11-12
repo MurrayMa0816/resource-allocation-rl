@@ -1,0 +1,32 @@
+{
+  "schema": "chapter5-full-spend-data-v1",
+  "data_root": "/hy-tmp/resource_allocation_results/chapter5/full_spend_revision_20261104/execution/shared_data/eurosat_rgb",
+  "files": {
+    "images.npy": {
+      "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef",
+      "bytes": 331776128,
+      "source_path": "/hy-tmp/resource_allocation_results/chapter3/two_seed_main_ablation_20261104/execution/shared_data/eurosat_rgb/images.npy",
+      "path": "/hy-tmp/resource_allocation_results/chapter5/full_spend_revision_20261104/execution/shared_data/eurosat_rgb/images.npy"
+    },
+    "image_records.json": {
+      "sha256": "cc02b91346ecb02e63c0f1cbe75e0b7583133bef24827bffb6e761032d9cd982",
+      "bytes": 4926321,
+      "source_path": "/hy-tmp/resource_allocation_results/chapter3/full_spend_revision_20261104/execution/source/allocation23/data/eurosat_rgb/image_records.json",
+      "path": "/hy-tmp/resource_allocation_results/chapter5/full_spend_revision_20261104/execution/shared_data/eurosat_rgb/image_records.json"
+    },
+    "split_manifest.json": {
+      "sha256": "3da80902473649ff41d0b92110b03820827983434a45e11f5c1df3d4ac841731",
+      "bytes": 341975,
+      "source_path": "/hy-tmp/resource_allocation_results/chapter3/full_spend_revision_20261104/execution/source/allocation23/data/eurosat_rgb/split_manifest.json",
+      "path": "/hy-tmp/resource_allocation_results/chapter5/full_spend_revision_20261104/execution/shared_data/eurosat_rgb/split_manifest.json"
+    },
+    "manifest.json": {
+      "sha256": "46a2024d907206413296fd9d0cf0f053e9c32752467da29078eaba06e0166ba4",
+      "bytes": 717,
+      "source_path": "/hy-tmp/resource_allocation_results/chapter3/full_spend_revision_20261104/execution/source/allocation23/data/eurosat_rgb/manifest.json",
+      "path": "/hy-tmp/resource_allocation_results/chapter5/full_spend_revision_20261104/execution/shared_data/eurosat_rgb/manifest.json"
+    }
+  },
+  "read_only_original_data_reused": true,
+  "old_data_modified": false
+}

@@ -1,0 +1,8 @@
+{
+  "horizon": 32,
+  "actor_architecture": "shared_mean",
+  "gamma": 0.99,
+  "reward_scale": 100.0,
+  "init_alpha": 0.01,
+  "brn_warmup": 1024
+}

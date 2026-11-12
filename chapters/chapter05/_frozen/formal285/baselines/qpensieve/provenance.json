@@ -1,0 +1,74 @@
+{
+  "schema": "chapter5-candidate-implementation-review-v1",
+  "method": "qpensieve",
+  "status": "ready_for_CPU_API_review_then_real_native_CUDA_smoke_not_formal_acceptance",
+  "created_utc": "2026-11-05T14:45:50.572742+00:00",
+  "source_location": "/hy-tmp/resource_allocation_project_code_20261105/chapter05/baselines/qpensieve",
+  "historical_review": "/hy-tmp/resource_allocation_results/chapter5/parallel_latest_20261105/implementation_review/capql_qpensieve/historical_review.json",
+  "synthetic_gate": "/hy-tmp/resource_allocation_results/chapter5/parallel_latest_20261105/implementation_review/capql_qpensieve/synthetic_gate.json",
+  "formal_roster_accepted": false,
+  "old_scientific_sources_modified": false,
+  "physical_environment_modified": false,
+  "reward_function_modified": false,
+  "checkpoint_selection_or_initial_value_filter": false,
+  "all_curves_include_true_untrained_policy": true,
+  "interface": {
+    "constructor": "Agent(obs_dim,action_dim,seed,device,config)",
+    "action": "act(obs,preference,deterministic=False)",
+    "update": "update(batch_dict) withobs/actions/rewards/next_obs/dones/weights",
+    "train_normalization_hook": "observe_training(raw_obs) exactlyonceperphysicalstep beforedueupdate; Agent.manages_observation_normalization=True",
+    "owned_rng": "rng_state_dict/load_rng_state_dict; worker additionally preservesglobal Python/NumPy/Torch/CUDA",
+    "checkpoint": "state_dict/load_state_dict/endpoint; no optimizer/replay backup andno exactresumeclaim",
+    "config_loader": "load_config(domain,profile='fixed')"
+  },
+  "common_task_adaptations": [
+    "currentfull-spend19/13-jointlatentEnv suppliedbyworker; nooldEnv imported",
+    "historicalpublished networkwidth256, taskgamma1, terminalbootstrapmask0",
+    "selectedhistory normalization/rates/rewardscale retained andexplicit inconfigs; rawreportedC/J unchanged",
+    "newcorepackages have noimportsfromoldgamewar/execution snapshots"
+  ],
+  "runtime_requires": {
+    "torch": true,
+    "numpy": true,
+    "gymnasium": false,
+    "shared_support_normalization": "/hy-tmp/resource_allocation_project_code_20261105/chapter05/baselines/_support/normalization.py"
+  },
+  "primary_sources": [
+    "https://openreview.net/forum?id=AwWaBXLIJE",
+    "https://github.com/rl-bandits-lab/Q-Pensieve/tree/07385086539126db74284402d798dd89ce04ff0b",
+    "https://raw.githubusercontent.com/ku2482/rltorch/master/rltorch/network/builder.py"
+  ],
+  "legacy_recipe_fidelity_limitations": [
+    "Highest historicalrecipe usesfull_vector_mean criticloss, lowerfixedalpha, earlierQsnapshotwarmup, train-onlynormalization, n_step8/16; thesearedeclaredtaskadaptations, not untouchedauthordefaults.",
+    "The retained compactport updatescritic beforeformingactorloss andupdates target/snapshot afterlearning. OriginaloldPyTorch authorcodeprecomputes losses andupdates target/snapshot beforelearning. Bothnewarms retain same inheritedschedule; initializerfixdoesnotestablish full sourcebitwisefidelity.",
+    "Whole-vector conservativeQselection followsauthorintendedrowwise argmin; oldvendor calc_target_q repeat+reshape mask isnot copiedliterally when itwouldpermute rows.",
+    "Historicalmax acrossstored/currentQ andalternative preferences isretained; memorycapacity4 andsamplingcontinuouspositive simplex remain.",
+    "No claim that initializer mismatch explainsall pastlowreturns; realGPU/physical pairedscreen isstillrequired."
+  ],
+  "upstream_repository": "https://github.com/rl-bandits-lab/Q-Pensieve",
+  "upstream_commit": "07385086539126db74284402d798dd89ce04ff0b",
+  "paper": "Q-Pensieve: Boosting Sample Efficiency ofMulti-Objective RL ThroughMemory Sharing ofQ-Snapshots",
+  "venue": "ICLR2023",
+  "license": "MIT; complete authorLICENSE retained in vendor/",
+  "new_single_factor_fix": "network_initializer: legacy_torch_default toauthor_xavier_uniform withzerobias",
+  "initial_weights_identical_across_profiles": false,
+  "recommended_number_of_current_profile_arms": 2,
+  "guaranteed_physical_improvement": false,
+  "verified_initializer_evidence": {
+    "author_model_py": "vendor/model.py GaussianPolicy/QNetwork defaultinitializer=xavier",
+    "referenced_rltorch_builder": "str_to_initializer[xavier] is nn.init.xavier_uniform_; initialize_weights setsbiaszero",
+    "previous_local_port": "primitives.py inherited oldmlp Linear defaults andthereforedid notapply authorXavier/zerobias",
+    "fresh_primary_builder_checked_utc": "2026-11-05T14:45:50.572901+00:00",
+    "scope": "restoreinitializer distribution only, not originalsource seedorder orbitwise nativeconstructor matching"
+  },
+  "retained_upstream_files_sha256": {
+    "vendor/LICENSE": "5f506eed339c246f46ab37aff9536eea7dccd0915c0749992c8bf8bf90d7228b",
+    "vendor/README.md": "49057044d71ac8f57085638215936b8c7fa21a89f3be579f8aac2eadbb4fac13",
+    "vendor/SOURCE_MANIFEST.json": "827442186677256a66c278787e8134fc7feefdd4c27763bf6ce414912615eb37",
+    "vendor/agent.py": "733df2bd56eb640e330acff441b136eef93a91a00b61ce343a0ddeec8d9292ab",
+    "vendor/base.py": "b8e34011ec9b51c53bf36a30291e867b76316c83daa0ac8185568321c1dfcc33",
+    "vendor/model.py": "c990b036b46e9e002973320858eb4174358aea65042505ec01ed83f6713746bb",
+    "vendor/utils.py": "9bc491408420ad80d4c95268c8d6b381744f4a524f828206486c43ab1371a732"
+  },
+  "upstream_manifest_note": "vendor/SOURCE_MANIFEST.json preserves originalhistorical largersnapshot manifest; runtime usesonlylistedcopiedsource files andnewnativepackageprovenance, not everyuncopied upstreamfile."
+}

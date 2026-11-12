@@ -1,0 +1,28 @@
+{
+  "schema": "chapter4-final-postprocess-capsule-v1",
+  "status": "SEALED_CODE_READY_SCIENTIFIC_RESULTS_PENDING",
+  "created_utc": "2026-11-06T07:50:18.407346+00:00",
+  "plan_sha256": "d0fb859443d4f9ff14213ef169392fe5b4f106838955fd7094ad0526da31e5d3",
+  "files_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/execution/publish_thesis.py": "0073964da7d58544d991ed84f004008a294b758273c4cd45091a181ebac89d78",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/reporting/thesis_content.py": "83bffe7aa2f1d02d9f51b577b35db5c9c5e4d87fdd4e5264764ac10bde021665",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/reporting/contract_patches.py": "1a27bcf595dca59e60977c5f4b0030717d26bf9128cdacbc978d7aaf768b05f4",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/reporting/citations.py": "99786121df3a644c08326e0cb6d83f5f3037f5d8302ed8573607731646dea533",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/reporting/figure_plot.py": "c507b61d9da979bee72f34fb247d3cf96895380dec2b9ad36814d822683c1358",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/reporting/PUBLISHER_README.rst": "d913371bc027acd30b24a5f9f97e877600404dd885d0b77def2e9f9c6c7903f2",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/preflight/publisher_tests/run_synthetic_checks.py": "a4bc02eac1c993c0097fd171b0b6aa5bcf05cf9832c4735cc7b0546aadc522ff",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/preflight/publisher_tests/run_guard_checks.py": "f3662932f2ce0d6366cf49280c37bab5abfe227be6addc15a753fba05267515b",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/execution/independent_acceptance.py": "acae4d818fa0b9d6bf622a582ab54cec402d4d308b598c489abd4a151ec73ffa",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/execution/aggregate_results.py": "646f49a43c2b778de0cb1aee1572da79a230d818ace31882bae70c8b9b700044",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/execution/postprocess.py": "cab55878a3f875ebda7abc5bbfc6aeefa9505ef86d12e7975819803f1ab7f774",
+    "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/reporting/result_io.py": "42d9607faa489d1f2bf7ad049ff5126134f52c066fb7757d685bc0cd256fce78",
+    "/root/gamewar/latex_thesis_resource_allocation/scripts/build.sh": "6193b8a81e6b8a20f5eb54ef1a988d1d86255f6afb03e85795298effa319a604"
+  },
+  "independent_review": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/preflight/publication_pipeline_independent_review.json",
+  "independent_review_sha256": "7679a3331b848e9ee41d9079e5f749a90499ed66fc8cd86dee5216ef833cfe6d",
+  "publisher_approval_sha256": "b1ce59ccd0dae0ac0f590f6e3d10d0165c9e19404d2a847044835e6580347886",
+  "auto_execution_trigger": "All90 registered new training jobs and100 fixed endpoint evaluations completed; independent semantic acceptance PASS before publication",
+  "automatic_extra_training": false,
+  "human_visual_review_not_claimed": true,
+  "publication_scope": "Chapter4 experiments/summary and only necessary full-spend contract consistency; preserve concurrent other chapters"
+}

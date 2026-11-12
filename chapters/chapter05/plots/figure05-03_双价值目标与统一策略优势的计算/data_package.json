@@ -1,0 +1,32 @@
+{
+  "figure": "figure05-03_双价值目标与统一策略优势的计算",
+  "paths_relative_to_final_data_root": true,
+  "data_package": "chapters/chapter05/figures/figure05-03_双价值目标与统一策略优势的计算",
+  "legacy_data_package": "chapters/chapter05/figures/figure05-03_双价值目标与统一策略优势的计算",
+  "code_package": "chapters/chapter05/plots/figure05-03_双价值目标与统一策略优势的计算",
+  "source_files": [
+    {
+      "relative": "README.rst",
+      "sha256": "1131d1b0bd8dc80ef489cc2b25b416b9739227128554918f239852a609a1a444",
+      "size": 638
+    },
+    {
+      "relative": "source.drawio",
+      "sha256": "c9315ef6ef23786357b17cd47f3afcf66abe0684fa864e912a8443b43ec9eadf",
+      "size": 16008
+    },
+    {
+      "relative": "source.json",
+      "sha256": "0025ba1b10cb85ea7dc2e494cfb4d4c96241587df2fd7bd62ca3af4dfff3c70a",
+      "size": 11856
+    },
+    {
+      "relative": "CONTENTS.json",
+      "sha256": "984e4b26c7bccd5b282c6c47eb63b61f7ef693a170c75cdab79bb7bd8c088ff8",
+      "size": 723
+    }
+  ],
+  "numerical_data_is_not_duplicated_in_ROOT": true,
+  "no_FS_links": true,
+  "role": "maintained exact renderer version plus explicit DATA input package"
+}

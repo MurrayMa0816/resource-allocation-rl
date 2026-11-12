@@ -1,0 +1,130 @@
+{
+  "schema": "madtd-independent-formal-expected-protocol-v1",
+  "status": "REGISTERED_EXPECTATIONS_BEFORE_NEW_FORMAL_RESULTS",
+  "created_at": "2026-11-07T04:38:01.837245+00:00",
+  "user_authorized_five_seed_full_training": true,
+  "training_steps": 100608,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "domains": [
+    "radio",
+    "v5"
+  ],
+  "train_master": 202611043101,
+  "DEV_master": 202611043101,
+  "DEV_interval": 768,
+  "DEV_cases": 32,
+  "DEV_points": 132,
+  "TEST_master": 2026110694199,
+  "TEST_phase": "final",
+  "TEST_cases": 256,
+  "main_methods": [
+    "f1",
+    "props",
+    "mad_td",
+    "redo",
+    "mrq",
+    "bro"
+  ],
+  "ablations": [
+    "no_history",
+    "no_offpolicy_correction",
+    "fixed_actor_lr"
+  ],
+  "A_reference_only": "A_inherited",
+  "new_training_jobs": 10,
+  "retained_training_jobs": 80,
+  "training_curve_jobs": 90,
+  "new_TEST_jobs": 70,
+  "retained_TEST_jobs": 30,
+  "TEST_jobs": 100,
+  "total_records": 190,
+  "endpoints_before_new_TEST": 100,
+  "quality_targets": {
+    "schema": "chapter4-preregistered-quality-targets-v1",
+    "created_utc": "2026-11-06T06:30:51.005131+00:00",
+    "primary_fraction": 0.95,
+    "secondary_fractions": [
+      0.9,
+      1.0
+    ],
+    "A_common32_endpoint_means": {
+      "radio": 0.47654112791771525,
+      "v5": 0.7957765343855497
+    },
+    "thresholds": {
+      "radio": {
+        "0.9": 0.42888701512594374,
+        "0.95": 0.45271407152182946,
+        "1.0": 0.47654112791771525
+      },
+      "v5": {
+        "0.9": 0.7161988809469948,
+        "0.95": 0.7559877076662722,
+        "1.0": 0.7957765343855497
+      }
+    },
+    "source": "existing A fixed endpoints, newly evaluated common32 DEV before new formal training; no test used",
+    "rule": "second of two consecutive unsmoothed DEV points >=q; no attainment is right-censored at100608",
+    "first8_old_A_reproduction_all10": true,
+    "reference_new_training_steps": 0,
+    "reference_dev_steps": 8960,
+    "reference_replay_steps": 8960
+  },
+  "quality_targets_sha256": "9f70b7d52e6e40c46e3e97c0de332dab4146ba0c8820fe5f5910d7d13e48d267",
+  "native_MADTD": {
+    "commit": "685293e222accf1a0f36afcab933ce1902d4452a",
+    "core_copied_verbatim_from_accepted_pilot": true,
+    "warmup_charged_steps": 5000,
+    "first_learning_step": 5001,
+    "UTD": 8,
+    "batch512": true,
+    "real_rows486": true,
+    "generated_rows26": true,
+    "learning_calls": 95608,
+    "actor_optimizer_steps": 764864,
+    "critic_optimizer_steps": 764864,
+    "encoder_optimizer_steps": 95608,
+    "model_optimizer_steps": 95608,
+    "generated_onpolicy_rows": 19886464,
+    "real_critic_references": 371723904,
+    "latent512": true,
+    "HLGauss151": true,
+    "value_support": [
+      -1.0,
+      1.0
+    ],
+    "gamma": 1.0,
+    "tau_target_retention": 0.99,
+    "slow_model": true,
+    "slow_actor": false,
+    "terminal_reward_and_critic_supervised": true
+  },
+  "costs": {
+    "new_learning": 1006080,
+    "new_DEV": 1182720,
+    "new_TEST": 501760,
+    "new_A_TEST_replay": 71680,
+    "new_actual_total": 2762240,
+    "cohort_learning": 9054720,
+    "cohort_DEV": 10644480,
+    "cohort_TEST": 716800,
+    "cohort_A_TEST_replay": 71680,
+    "cohort_actual_total": 20487680,
+    "pilot_and_preflight_engineering_separate": true,
+    "A_source_training_not_recharged": true
+  },
+  "storage": "one fixed encoder+actor inference endpoint for each MADTD case; raw full curves; no optimizer/replay/periodic checkpoints",
+  "TEST_release": "All90 training endpoints plus10 reusedA references frozen by independent release gate before any new70TEST; retained30TEST explicitly historical",
+  "retained_inventory_sha256": "e2f978ce84a54416e5b85da761e6f29627bee4760b5669cdeef961e37b22fad0",
+  "pilot_boundary": "Accepted pilot retained unchanged: each domain had one regressing seed. Longer training has not yet established improvement; no forced monotonicity/best-checkpoint selection.",
+  "old_observers_not_run": true,
+  "PGR_excluded": true,
+  "publication": "Only after complete190 independent PASS; root authorized whole-thesis C4 results update, no result invented in advance",
+  "auditor_Env_GPU_calls": 0
+}

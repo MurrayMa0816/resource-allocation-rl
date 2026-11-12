@@ -1,0 +1,432 @@
+{
+  "schema": "reasonable89-evaluation-field-contract-v1",
+  "case_id": "Hongmiao89-reasonable-depth-v1",
+  "domain": "hongmiao89_reasonable_depth_irrigation",
+  "run_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal",
+  "study_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109",
+  "executor_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/evaluate.py",
+  "formal_identity": {
+    "regions": 89,
+    "horizon": 81,
+    "adapter": "depth_area_physical",
+    "tau": 0.9,
+    "weight": 0.2,
+    "objective_order": [
+      "C",
+      "JA"
+    ],
+    "budgets_m3": [
+      3500000,
+      4000000,
+      4500000
+    ],
+    "training_seeds": [
+      6400,
+      6401,
+      6402
+    ],
+    "endpoint_episode": 3200,
+    "dev_every": 128,
+    "dev_paths": 32,
+    "test_paths": 128,
+    "feedback_paths": 32,
+    "historical_paths_per_job": 1,
+    "spatial_sigma_scale": 1.0,
+    "execution_operator": "fixed64_antithetic_mean_feasible_actions"
+  },
+  "scientific_manifest": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/scientific_source_manifest.json",
+    "required_fields": {
+      "source_files_sha256": "relative path ->sha256, exact full140 scientific source closure including hongmiao89.execution_operator",
+      "source_release": "release identity equal to endpoint protocol"
+    },
+    "aliases_accepted": {
+      "files_sha256": "source_files_sha256",
+      "release": "source_release"
+    },
+    "must_match": [
+      "job.scientific_manifest_sha256",
+      "job.source_files_sha256",
+      "job.source_release",
+      "common.source_hashes()",
+      "endpoint.protocol.source_files_sha256",
+      "endpoint.protocol.source_release"
+    ]
+  },
+  "barrier": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/all9_endpoints_verified.json",
+    "required_fields": {
+      "status": "PASS",
+      "fixed_endpoint_episode": 3200,
+      "adapter": "selected adapter",
+      "source_release": "formal release",
+      "experiment_design_sha256": "design file sha256",
+      "frozen_code_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code",
+      "models": {
+        "unique_job_id": {
+          "model_path": "absolute model.pt path under formal",
+          "model_sha256": "SHA256",
+          "episode": 3200,
+          "adapter": "selected adapter",
+          "budget_m3": "3500000|4000000|4500000",
+          "seed": "6400|6401|6402"
+        }
+      },
+      "training_weight": "selected training weight",
+      "spatial_sigma_scale": "selected exploration-noise scale",
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "execution_operator_module_sha256": "SHA256 of formal source/hongmiao89/execution_operator.py",
+      "execution_points_array_sha256": "9b59078bcb00785b7febcfe2b78d35fd1bd227c0ec7a85af45ef25b1b6a6a500"
+    },
+    "matrix": "exactly all 9 budget/seed combinations; all model bytes verified before reading any TEST panel"
+  },
+  "release": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/test_release.json",
+    "required_fields": {
+      "status": "AUTHORIZED_AFTER_DEV_REVIEW",
+      "training_barrier_sha256": "barrier bytes SHA256",
+      "evaluation_source_sha256": "executor SHA256",
+      "evaluation_files_sha256": "absolute evaluate.py, evaluation_contract.json, prepare_evaluation.py, run_evaluation.py and any additional evaluation helper -> SHA256",
+      "selected_adapter": "selected adapter",
+      "source_release": "formal scientific release",
+      "weather_panel_file": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/test_weather_panel.json",
+      "weather_panel_sha256": "sealed panel bytes SHA256",
+      "training_weight": "selected training weight",
+      "spatial_sigma_scale": "selected exploration-noise scale",
+      "max_descriptive_feedback_paths": 4,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "execution_operator_module_sha256": "SHA256 of formal source/hongmiao89/execution_operator.py",
+      "execution_points_array_sha256": "9b59078bcb00785b7febcfe2b78d35fd1bd227c0ec7a85af45ef25b1b6a6a500",
+      "test_namespace_amendment_sha256": "a8213768eeb0de85f7e774030670dcd9614b7a7c260b5cdb5bcc5fb4766fb079"
+    },
+    "no_TEST_values_read_without_valid_release": true
+  },
+  "weather_panel": {
+    "schema": "reasonable89-sealed-evaluation-weather-v1",
+    "case_id": "Hongmiao89-reasonable-depth-v1",
+    "panels": {
+      "test128": {
+        "weather_ids": "integers 0..127",
+        "weather_seeds": "128 unique sealed integers"
+      },
+      "feedback32": {
+        "weather_ids": "integers 0..31",
+        "weather_seeds": "exact first 32 test128 seeds"
+      },
+      "history2022": {
+        "weather_ids": "one unique integer",
+        "weather_seeds": "[3900000000]"
+      },
+      "history2024": {
+        "weather_ids": "one unique integer",
+        "weather_seeds": "[3900000000]"
+      }
+    },
+    "only_after_release": "executor.registered_weather opens the file after complete barrier and model/source verification; template preparation reads no values",
+    "namespace_resolution": "base final_design stays immutable; only ROOT prospective TEST_namespace_amendment replaces future seed/reset lists"
+  },
+  "matrix": {
+    "jobs": 36,
+    "paths": 2694,
+    "environment_steps": 218214,
+    "learning_updates": 0,
+    "roles": {
+      "main_or_trained_budget": {
+        "jobs": 9,
+        "paths_per_job": 128
+      },
+      "initial_main4M": {
+        "jobs": 3,
+        "paths_per_job": 128
+      },
+      "fixed4M_policy_cross_budget": {
+        "jobs": 6,
+        "paths_per_job": 128
+      },
+      "feedback": {
+        "jobs": 12,
+        "paths_per_job": 32
+      },
+      "history": {
+        "jobs": 6,
+        "paths_per_job": 1
+      }
+    },
+    "max_jobs_with_conditional_description": 40,
+    "max_paths_with_conditional_description": 2698,
+    "max_environment_steps_with_conditional_description": 218538
+  },
+  "initial_reference": {
+    "budget_m3": 4000000,
+    "episode": 0,
+    "reference_endpoint_episode": 3200,
+    "construction": "native make_models_for_arm(full,FullSpendSpec.from_env(original training environment),training_seed)",
+    "required_exact_match": [
+      "protocol.initial_actor_sha256",
+      "protocol.initial_critic_sha256",
+      "protocol.neural_spec"
+    ],
+    "no_trained_weights_used_for_actions": true,
+    "not_evaluated_before_all9_barrier": true
+  },
+  "fixed_budget_policy": "Frozen main4M policy evaluated at 3.5M/4.5M: physical ledger and action bounds use evaluation supply; global remaining-budget input divisor remains original 4M. Budget-specific endpoints retain original train budget divisor.",
+  "feedback": {
+    "baseline": "corresponding same-seed main result, exact first32 rows",
+    "mode": [
+      "feedback",
+      "replay"
+    ],
+    "et0_multipliers": [
+      0.85,
+      1.15
+    ],
+    "changed_days_zero_based": [
+      62,
+      63,
+      64
+    ],
+    "first_possible_feedback_action_day_zero_based": 63,
+    "prefix_before_first_adjustment": "a[0:63] exactly identical, weather previous reset identical, prefix62 hash identical",
+    "branch_construction": "fresh day0 complete rollout with explicit donor base/modified forcing; never restore state across forcing",
+    "scope": "own action-sequence counterfactual, not optimal-open-loop or external benchmark"
+  },
+  "arrays": {
+    "all_paths": "Each job, including initial/history/replay, saves complete arrays; no selective region traces",
+    "float64_shapes_per_job": {
+      "a_m3": [
+        "N",
+        81,
+        89
+      ],
+      "q_m3": [
+        "N",
+        81
+      ],
+      "balance_m3": [
+        "N",
+        82
+      ],
+      "B_mm": [
+        "N",
+        82,
+        89
+      ],
+      "Y": [
+        "N",
+        89
+      ],
+      "et_mm": [
+        "N",
+        81,
+        89
+      ],
+      "percolation_mm": [
+        "N",
+        81,
+        89
+      ],
+      "overflow_mm": [
+        "N",
+        81,
+        89
+      ],
+      "stage_ETa_mm": [
+        "N",
+        4,
+        89
+      ],
+      "stage_reference_ETc_mm": [
+        "N",
+        4
+      ],
+      "weather_trace": [
+        "N",
+        81,
+        2
+      ],
+      "initial_previous_weather": [
+        "N",
+        2
+      ],
+      "water_balance_m3": [
+        "N",
+        81,
+        6
+      ],
+      "completed_yield_factor": [
+        "N",
+        82,
+        89
+      ],
+      "current_stage_ETa_mm": [
+        "N",
+        82,
+        89
+      ],
+      "current_stage_reference_ETc_mm": [
+        "N",
+        82
+      ],
+      "terminal_storage_mm": [
+        "N",
+        89
+      ]
+    },
+    "other_arrays": [
+      "weather_seed",
+      "weather_id",
+      "forcing_sha256",
+      "task_fingerprint",
+      "prefix_sha(N,2) nodes46/62",
+      "region_ids(89)",
+      "date(81)",
+      "calendar_stage_index(82)",
+      "water_balance_names(6)",
+      "C",
+      "C90",
+      "JA",
+      "J",
+      "joint_score",
+      "CA90",
+      "area_coverage_rate",
+      "area_weighted_performance",
+      "water_used_m3",
+      "remaining_budget_m3",
+      "coverage_count",
+      "joint_score strictly actual training_weight*C+(1-training_weight)*JA; not a new reported agriculture metric"
+    ],
+    "forcing_identity": "SHA256(float64 initial_previous_weather bytes + float64 actual81weather bytes)",
+    "diagnostic_definitions": {
+      "I_mm": "a_m3 / (10*area_ha)",
+      "root_theta": "min(B/Z,theta_sat)",
+      "no_stress_deficit_mm": "max(theta_crit*Z-B,0)",
+      "total_store_per_soil_depth": "B/Z, includes ponding; not root-only theta"
+    }
+  },
+  "outputs": [
+    "results.npz",
+    "metadata.json",
+    "execution_work.json",
+    "complete.json",
+    "progress.json",
+    "shared formal/fixed_inputs89.json"
+  ],
+  "scientific_checks": [
+    "all89 original IDs and source order",
+    "q=sum(a), exact declared budget ledger and terminal zero",
+    "regional B balance including rain, ET, percolation, overflow",
+    "Jensen terminal Y from all4 stageET and source lambdas",
+    "C90/JA/J/CA90 from full rawY and true areas",
+    "all recorded physical arrays finite float64",
+    "forcing hash includes reset prior weather",
+    "actual callback work accounts every step and inference"
+  ],
+  "engineering": {
+    "formal": false,
+    "purpose": "engineering_nonTEST",
+    "output": "inside explicit run_root/engineering",
+    "weather": "explicit unrelated engineering weather_seeds only; no weather_panel_file allowed",
+    "expected_endpoint_episode": "explicit fixture8 value",
+    "never_mix_with_formal": true
+  },
+  "representative_policy": "Canonical storedJA after independent recomputation check<=1e-12: min(abs(JA-pooledMedian),seed,weatherID) across all384 main4M paths. Same stored record for all process figures; never restrict to feedback subset or filter by benefit.",
+  "status": "EXECUTION_CONTRACT_PREPARED_NOT_TEST_RELEASED",
+  "selected_identity": {
+    "selected_application_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/protocol/selected_application.json",
+    "formal_registration_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/formal_registration.json",
+    "both_required_top_level_fields": [
+      "adapter",
+      "training_weight",
+      "spatial_sigma_scale",
+      "execution_operator"
+    ],
+    "path_and_SHA256_bound_in_job": true,
+    "strict_match": "selected copies, formal registration, barrier, TEST release, job, endpoint protocol must agree on adapter/training_weight/spatial_sigma_scale; actual native model spec/sigma buffer reconstruction verified by loader",
+    "DEV_external_selection_score": "not used as training objective or final efficacy score",
+    "same_byte_copies": [
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/selected_application.json",
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/selected_application.json",
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/protocol/selected_application.json"
+    ],
+    "registration_canonical_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json",
+    "registration_alias": "formal_registration.json symlink to training_registration.json is accepted after resolve"
+  },
+  "executed_policy_parameter_identity": {
+    "field": "executed_actor_sha256",
+    "alias": "actor_sha256 (identical parameter hash, retained)",
+    "initial": "exact reconstructed training initial actor parameters",
+    "final": "loaded endpoint actor parameters; must match completed.endpoint_actor_sha256",
+    "container_identity": "reference_checkpoint_sha256 separately identifies model.pt container, never substituted for actor parameter SHA"
+  },
+  "DEV_amendments": {
+    "preference_dev_amendment_sha256": "21814bcd3633103382daccbc36f4f8a42f0cff9326be61fc1ddd4af36339b185",
+    "noise_dev_amendment_sha256": "41a2a8283762b82e8c69f9083a9b3c3dd1ad39af94ce5072d761cb5042db6192",
+    "no_TEST_selection": true,
+    "noise_midpoint_dev_amendment_sha256": "761da1418ff05e5b90952946441c4db724f18a5193ff345e4b405a45a0f5924e",
+    "total_registered_DEV_candidates": 39
+  },
+  "descriptive_feedback": {
+    "contract_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/representative_feedback_contract.json",
+    "contract_sha256": "cacd702470f079a484d697e8bb0eaf78aa350539931c2ef382107fcc4c5d5b59",
+    "trigger": "representative.weather_id>=32",
+    "jobs": 4,
+    "paths_per_job": 1,
+    "kind": "descriptive_feedback",
+    "panel_role": "test128",
+    "subset_indices": "[the single canonical representative weather_id]",
+    "modes": "two ET multipliers times feedback/replay",
+    "exclusion": "Never enters the original192 statistical pairs; descriptive panels only",
+    "representative_record": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/representative_case.json",
+    "recompute_from_existing_outputs_only": true
+  },
+  "formal_design_binding": {
+    "actual_worker_design": "formal registration.experiment_design_path and experiment_design_sha256; selected_application.final_design if present must identify same bytes",
+    "parent_provenance": "Original dee62d... plus preference21814..., noise41a2..., midpoint761da... all remain independently SHA-bound",
+    "no_implicit_relabeling": "If the merged final design changes, its actual path/SHA must be recorded by formal registration and match endpoint protocol; default original path is accepted only when registration SHA still matches"
+  },
+  "execution_contract": {
+    "module": "hongmiao89.execution_operator",
+    "factory": "make_execution_actor(native_actor,M64_OPERATOR)",
+    "implementation": "Shared scientific source140 module only; evaluator contains no duplicated physical-action conversion",
+    "operator": "fixed64_antithetic_mean_feasible_actions",
+    "points": 64,
+    "event_dimension": 49,
+    "isolated_CPU_float64_generator_seed": 2026110964,
+    "points_array_sha256": "9b59078bcb00785b7febcfe2b78d35fd1bd227c0ec7a85af45ef25b1b6a6a500",
+    "native_parameter_identity": "Compute actor SHA before wrapping; initial actor/critic reconstructed exact source-native state",
+    "all_actor_roles": "initial,fixed endpoints,budget,historical,feedback all use identical shared operator; replay uses original storedM64 a and0model calls",
+    "actual_counter_fields": [
+      "parameter_evaluations",
+      "raw_feasible_action_vectors",
+      "policy_parameter_batch_calls"
+    ],
+    "interpretation": "Different deterministic closed-loop application conversion; not raw latentmean and not original random-policy expectedreturn",
+    "formal_endpoint_aliases": [
+      "execution_operator",
+      "execution_description"
+    ],
+    "engineering_endpoint_alias_fallback": "development_execution descriptor only for engineering fixtures"
+  },
+  "application_adoption_decision": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/application_adoption_decision.json",
+    "sha256": "0f05b4fae56f451f9fa53f3dc238d0d38b249295d887b97da9eb30f6d3dcc7a5",
+    "does_not_replace_ROOT_TEST_release": true
+  },
+  "TEST_namespace_amendment": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/TEST_namespace_amendment.json",
+    "sha256": "a8213768eeb0de85f7e774030670dcd9614b7a7c260b5cdb5bcc5fb4766fb079",
+    "base_final_design_sha256": "07bda52f9462d30e8c12517631c7fb3e664b212390e1a43ed8b5f98df9a45bdd",
+    "unchanged_scientific_source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+    "only_override": "future TEST/reset integers; all other training,initialization,M64,budgets,checkpoints,dates,36+4roles unchanged",
+    "test128": "3900000000..3900000127",
+    "feedback32": "first32",
+    "historical_reset_seed": 3900000000,
+    "binding": [
+      "each job",
+      "panel",
+      "execution capsule",
+      "eventual separate ROOT TEST release"
+    ],
+    "no_authorization": "This amendment alone cannot execute TEST; all9 and source-bound separate release remain required"
+  }
+}

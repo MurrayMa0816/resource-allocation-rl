@@ -1,0 +1,87 @@
+{
+  "schema": "madtd-c4-finite-terminal-scientific-profile-v1",
+  "status": "NATIVE_CPU_MATH_GATES_PASS_REAL_ENV_GATE_PENDING",
+  "method": "MAD-TD",
+  "venue": "ICLR2025",
+  "upstream_commit": "685293e222accf1a0f36afcab933ce1902d4452a",
+  "task_adaptations": {
+    "gamma": 1.0,
+    "value_support": [
+      -1.0,
+      1.0
+    ],
+    "real_reward_scaling": 1.0,
+    "no_added_real_rewards": true,
+    "finite_terminal_critic_target": "r + gamma*(1-done)*nextQ",
+    "terminal_critic_and_encoder_critic_supervision": true,
+    "terminal_reward_model_supervision": true,
+    "terminal_next_latent_model_losses_masked": true,
+    "fixed_H_source_mask_valid_for_generated_policy_actions": true,
+    "one_decision_one_physical_round_no_DMC_frame_skip": true,
+    "internal_validation_fraction": 0.05,
+    "internal_validation_is_not_benchmark_DEV_or_holdout": true,
+    "all_internal_validation_transitions_count_as_paid": true
+  },
+  "native_profile": {
+    "warmup_physical_steps": 5000,
+    "first_learning_physical_step": 5001,
+    "UTD": 8,
+    "slow_model": true,
+    "slow_actor": false,
+    "model_encoder_updates_per_learning_call": 1,
+    "critic_actor_updates_per_learning_call": 8,
+    "batch_size": 512,
+    "latent_dim": 512,
+    "num_bins": 151,
+    "binned_regression_encoding": "hl-gauss",
+    "is_binned": true,
+    "add_zero_prior": true,
+    "real_rows_per_critic_batch": 486,
+    "generated_onpolicy_model_rows_per_critic_batch": 26,
+    "use_mpc": false,
+    "mpc_if_enabled_config": {
+      "samples": 512,
+      "iterations": 6,
+      "top_k": 64,
+      "temperature": 0.5
+    },
+    "use_daml": true,
+    "update_encoder_with_critic_loss": true,
+    "resetting": false,
+    "RL_learning_rate": 0.0003,
+    "model_learning_rate": 0.0003,
+    "encoder_learning_rate": 0.0001,
+    "gradient_clip": 10.0,
+    "tau_target_retention": 0.99,
+    "online_internal_split_rng": "Private seeded NumPyRandomState Bernoulli .95/.05; replay sampling retains official globalnp.random; task driver seed sequence differs from DMC benchmark driver, no bitwiseDMC claim"
+  },
+  "paper_code_boundaries": [
+    "Current official YAML tau=.99 differs from paper Table2 .995; use official YAML target-retention coefficient, not source interpolation weight",
+    "Official upstream main allocates5% online data to a private diagnostic replay; preserve this paid split; this is not external offline data",
+    "Official repo About says2024; README BibTeX and official conference proceedings identifyICLR2025",
+    "Official git tree has no LICENSE file at pin; no license invented",
+    "JAX0.4.x/Flax0.8.5 compatibility profile to be actually validated; no numerical parity claim against original newer dependency stack"
+  ],
+  "public_task_bound_evidence": {
+    "reason": "Only one finite terminal feedback; gamma1; radio normalized reward in[-1,1], emergency clipped mean completion in[0,1]; hence true continuationQ is within common[-1,1]",
+    "source_sha256": {
+      "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/environment/release/allocation23/spec.py": "136f3e3970592c65215a2a4615ef1648cbf042c163869debd7269bb8641680ff",
+      "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/environment/release/allocation23/environments/_radio/env.py": "ac6b154ade5b1b5ccbf7924723c206dd0a0d1c09dbb66d119c66e7303354287f",
+      "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/environment/release/allocation23/environments/_emergency/core.py": "d0750b9dab693284183fb75f6505c03b08a237dd490c6ed12af5434a2c5c0da6",
+      "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/source/environment/chapter4_full_spend_env/task.py": "f880875a62693ffc00c57161cd4284dbe34f1d73750be3477b48068845920e47"
+    },
+    "support_selected_before_any_MADTD_development_or_holdout_result": true
+  },
+  "storage": {
+    "inference_endpoint_only": "encoder+actor+construction metadata",
+    "optimizer_or_disk_replay_or_periodic_models": false,
+    "run_outputs_and_caches_under_HY": true
+  },
+  "no_formal_or_pilot_training_performed_by_this_delivery": true,
+  "CPU_engineering_gates": [
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_radio_attempt0/gate.json",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_radio_reward0_attempt0/gate.json",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_v5_attempt0/gate.json",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_v5_reward0_attempt0/gate.json"
+  ]
+}

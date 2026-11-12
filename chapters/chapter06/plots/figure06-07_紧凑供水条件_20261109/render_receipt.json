@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "number": "6.7",
+  "numeric_identity": true,
+  "source_CSV_bytes_preserved": true,
+  "all_parent_files_unchanged": true,
+  "outputs_sha256": {
+    "figure.pdf": "1d05cde06050e8217f728a5b4dde00101aa50429b147a51a73779f8e8e42b741",
+    "figure.png": "f0edf2ff61c95755d85e1748012d2b5ae45079990d0e153781458fbfe2b6305b",
+    "figure.svg": "8b77cdd09cb9389cb51a3bcc01e17d1ebafdb241d6a8411936a502b19e967b4e",
+    "source.json": "7f337b3718e5e994a8cf6add807e8a272f3dfc9159f270edc30d13888d92525f",
+    "render_geometry.json": "ff5d4d669dbc733a94ca751ce8cfc51de425dfc88da23aaa8a438b6a2b0dee8f",
+    "numeric_artist_values_before_after.json": "cd71adfcfd082eec0412bd02359c8e3f574d9354ab49f1e3f082c0d0249fb612",
+    "plot.py": "e539ccf731e9ad2a351cd882184fcbdcf777370267ff3fe60c58d080df2035af"
+  },
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0
+  },
+  "thesis_builds": 0
+}

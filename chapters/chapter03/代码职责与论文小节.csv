@@ -1,0 +1,21 @@
+﻿论文小节,职责,本项目实体代码,说明
+3.1 / 3.3.1.1,environment and full spend geometry,allocation23/environments,Physical package variants retain their actual source identities.
+3.1 / 3.3.1.1,environment and full spend geometry,allocation23/state.py,Physical package variants retain their actual source identities.
+3.1 / 3.3.1.1,environment and full spend geometry,allocation23/task.py,Physical package variants retain their actual source identities.
+3.1 / 3.3.1.1,environment and full spend geometry,allocation23/full_spend.py,Physical package variants retain their actual source identities.
+3.1 / 3.3.1.1,environment and full spend geometry,allocation23/chapter3_baselines/environment.py,Physical package variants retain their actual source identities.
+3.1 / 3.3.1.1,environment and full spend geometry,chapters/chapter03/environment.py,Physical package variants retain their actual source identities.
+3.2 / 3.3.2.1 / 3.3.2.2,ReJoP and rule-total canonical native branch,chapters/chapter03/method.py,当前80项模型的原生分支是A_FULL/ReJoP与A_PACE/规则总量；随机对象消融另列，旧分支不再公开。
+3.2 / 3.3.2.1 / 3.3.2.2,ReJoP and rule-total canonical native branch,chapters/chapter03/formal_native.py,当前80项模型的原生分支是A_FULL/ReJoP与A_PACE/规则总量；随机对象消融另列，旧分支不再公开。
+3.3.1.2 / 3.3.2.1,five adopted external algorithms,allocation23/chapter3_candidates,"C-PPO, PFO, Gradient PPO, RPO/Reflective_PPO, PPO+; PFO depends on spo.py collection/GAE base although SPO is not a current comparison method."
+3.3.1.2 / 3.3.2.1,five adopted external algorithms,chapters/chapter03/configs/baselines.json,"C-PPO, PFO, Gradient PPO, RPO/Reflective_PPO, PPO+; PFO depends on spo.py collection/GAE base although SPO is not a current comparison method."
+3.3.2.2,current random-object DEV ablation,chapters/chapter03/random_object_ablation_20261109,"随机对象策略依赖原核心policy；两份代码均已实体补齐。当前随机对象10模型只有DEV，没有额外独立TEST。"
+3.3.2.2,current random-object DEV ablation,chapters/chapter03/core_ablation_20261109/policy.py,"随机对象策略依赖原核心policy；两份代码均已实体补齐。当前随机对象10模型只有DEV，没有额外独立TEST。"
+3.3.2.1 / 3.3.3.1 / 3.3.3.2,"common confirmation, frozen conditions and saved trajectory case",chapters/chapter03/formal_native.py,70 original defaults+120 changed conditions+10 retained default trajectories; plotted condition group150; no retraining. Old registry absolute paths need runtime Path adaptation.
+3.3.2.1 / 3.3.3.1 / 3.3.3.2,"common confirmation, frozen conditions and saved trajectory case",frozen_adapter.py,70 original defaults+120 changed conditions+10 retained default trajectories; plotted condition group150; no retraining. Old registry absolute paths need runtime Path adaptation.
+3.3.2.1 / 3.3.3.1 / 3.3.3.2,"common confirmation, frozen conditions and saved trajectory case",portable_paths.py,70 original defaults+120 changed conditions+10 retained default trajectories; plotted condition group150; no retraining. Old registry absolute paths need runtime Path adaptation.
+3.3,实际执行科学源快照,frozen/chapter03/native,保持原字节和源身份；旧队列脚本仅供查证，不作为当前自动入口
+3.3,实际执行科学源快照,frozen/chapter03/external,保持原字节和源身份；旧队列脚本仅供查证，不作为当前自动入口
+3.3,实际执行科学源快照,frozen/chapter03/pfo,保持原字节和源身份；旧队列脚本仅供查证，不作为当前自动入口
+3.3,实际执行科学源快照,frozen/chapter03/conditions,保持原字节和源身份；旧队列脚本仅供查证，不作为当前自动入口
+3.3,实际执行科学源快照,frozen/chapter03/random_object,保持原字节和源身份；旧队列脚本仅供查证，不作为当前自动入口

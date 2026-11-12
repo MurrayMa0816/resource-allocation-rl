@@ -1,0 +1,22 @@
+{
+  "method": "qpensieve",
+  "status": "candidate_revalidation_source_only",
+  "files_sha256": {
+    "README.rst": "f2ead2794cc429d9853bb0db3f7eb1108243ae9c52dd1ed41ca36c47b34691d9",
+    "__init__.py": "4fbb3b3d99e5b36d0201e4e36187e5b762a44208a33b6797ab869fd0f3893d49",
+    "agent.py": "0f7ca3f308894962071019121d8c3cd83519f849c12ae6760b36e68a8c29f92d",
+    "configs.json": "ce866d98a0118e5c123a6b5fc305e69392a0bff5efec195709d4c05148005680",
+    "core.py": "71771dc60198e156266cf71e6773b6fa83c2bb8dd9e6aa186a0c829d24c9b088",
+    "memory.py": "bb0179c392ecb2da2f901b18617e6957d6c6d11e6af252ac06c35b3a072a2aee",
+    "primitives.py": "7bdffcb24f3b2fe28b46dc44dac628c4ab29d265788529c1b39004cf05911e2e",
+    "provenance.json": "9e63c5d0c41082ecaa5780e911598f9decd8c69b94b0085083ac7c464bb355e7",
+    "vendor/LICENSE": "5f506eed339c246f46ab37aff9536eea7dccd0915c0749992c8bf8bf90d7228b",
+    "vendor/README.md": "49057044d71ac8f57085638215936b8c7fa21a89f3be579f8aac2eadbb4fac13",
+    "vendor/SOURCE_MANIFEST.json": "827442186677256a66c278787e8134fc7feefdd4c27763bf6ce414912615eb37",
+    "vendor/agent.py": "733df2bd56eb640e330acff441b136eef93a91a00b61ce343a0ddeec8d9292ab",
+    "vendor/base.py": "b8e34011ec9b51c53bf36a30291e867b76316c83daa0ac8185568321c1dfcc33",
+    "vendor/model.py": "c990b036b46e9e002973320858eb4174358aea65042505ec01ed83f6713746bb",
+    "vendor/utils.py": "9bc491408420ad80d4c95268c8d6b381744f4a524f828206486c43ab1371a732"
+  },
+  "algorithm_acceptance_claimed": false
+}

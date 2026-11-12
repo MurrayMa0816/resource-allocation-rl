@@ -1,0 +1,229 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "5.2",
+  "caption": "SeDVal方法总体框架",
+  "label": "fig:ch6-overview",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架",
+  "kind": "drawio",
+  "current_section": "chapters/chapter05_dual_value/section62_method.tex",
+  "current_references": [
+    "chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架/figure.pdf"
+  ],
+  "current_plot_entry": null,
+  "current_editable_source": "source.drawio",
+  "current_data_files": [],
+  "current_source_files": [
+    "source.drawio"
+  ],
+  "historical_provenance": {
+    "schema": "thesis-figure-local-assets-v2",
+    "number": "5.2",
+    "caption": "SeDVal方法总体框架",
+    "label": "fig:ch6-overview",
+    "directory": "chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架",
+    "current_section": "chapters/chapter05_dual_value/section62_method.tex",
+    "current_references": [
+      "chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架/figure.pdf"
+    ],
+    "files": [
+      {
+        "path": "README.rst",
+        "role": "documentation",
+        "bytes": 1527,
+        "sha256": "ece5062387794c8000d7bf5f1e34d5de8742c9d34a0bb64c87e1d1bfcf1f4284"
+      },
+      {
+        "path": "figure.pdf",
+        "role": "inserted_pdf",
+        "bytes": 88699,
+        "sha256": "8515cf09acd58c10bfeeda26bad8f47c2bd4fcdc5d72b17dcf9a5e98da467951"
+      },
+      {
+        "path": "source.drawio",
+        "role": "editable_diagram",
+        "bytes": 20702,
+        "sha256": "a6be74c7527ab13bb91ac5a4b77cacb7a4318ba239c0b90fc9fc7df348c011c6"
+      },
+      {
+        "path": "figure.svg",
+        "role": "editable_vector_export",
+        "bytes": 391652,
+        "sha256": "027f9f30559b007eb80c77b6403e8fa49deb114511047d60cb15ecbd80be1520"
+      },
+      {
+        "path": "figure.png",
+        "role": "preview",
+        "bytes": 193779,
+        "sha256": "69c7bd17fef8dc0b577a331804bc71e3b3eb7a90b593a5b9cdfe204f2cf06ab8"
+      }
+    ],
+    "original_source_manifest": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架/original_source.json",
+    "old_references": [
+      "chapters/chapter06_individual_guarantees/figures/dual_value_reuse_overview.tex"
+    ],
+    "pdf_policy": "Generated directly from source.drawio with thesis fonts and calibrated 10.5bp main labels; oversized diagrams must be reflowed.",
+    "drawio_policy": "The sole editable source is source.drawio. Native shapes/text/edges; the thesis supplies figure captions.",
+    "plot_command": null,
+    "plot_output_default": null,
+    "scientific_data_changed": false,
+    "training_or_evaluation_run": false,
+    "verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_font_unification_20261105/audit",
+    "editing_source": "source.drawio",
+    "editing_format": "drawio",
+    "drawio_export": {
+      "number": "figure52",
+      "status": "exported",
+      "source": "source.drawio",
+      "source_sha256": "a6be74c7527ab13bb91ac5a4b77cacb7a4318ba239c0b90fc9fc7df348c011c6",
+      "pdf": "figure.pdf",
+      "pdf_sha256": "8515cf09acd58c10bfeeda26bad8f47c2bd4fcdc5d72b17dcf9a5e98da467951",
+      "exporter": "scripts/export_method_figures.py",
+      "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+      "generated_utc": "2026-11-10T11:48:53.514090+00:00",
+      "font_files_sha256": {
+        "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+        "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+        "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+        "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+        "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+        "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+      },
+      "diagram_vertices": 14,
+      "diagram_edges": 17,
+      "mathjax_errors": 0,
+      "expected_formulas": 19,
+      "rendered_formulas": 19,
+      "pdf_size_pt": [
+        441.2088317871094,
+        473.9300842285156
+      ],
+      "text_width_limit_cm": 15.6,
+      "applied_pdf_scale": 1.0555235547620698,
+      "native_content_clip_pt": [
+        23.0,
+        3.0,
+        441.0,
+        452.0
+      ],
+      "native_primary_text_bp": 9.94767,
+      "target_primary_text_bp": 10.5,
+      "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+    },
+    "retired_legacy_drawing_sources": {
+      "date": "2026-11-05",
+      "receipt": "docs/drawio_single_source_20261105/retirement_receipt.json",
+      "historical_source_records_are_not_active_inputs": true
+    },
+    "previous_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_directory_reorganization_20261105/audit/integrated_ch45",
+    "historical_source_archive": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架",
+    "previous_font_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_drawio_single_source_20261105/audit/drawio_workflow_verification.json",
+    "font_policy": {
+      "ordinary_chinese": "SimSun (宋体)",
+      "ordinary_latin_and_digits": "Times New Roman",
+      "chinese_group_headings": "SimHei (黑体), used sparingly",
+      "ordinary_main_text_final_pdf_bp": 10.5,
+      "secondary_data_plot_ticks_and_legends_bp": 9.5,
+      "mathematics": "MathJax TeX for drawio; Computer Modern mathtext for plots; natural superscript/subscript sizing",
+      "diagram_source_font_size_gui_px": 14,
+      "diagram_export": "Measured primary ordinary text calibrated to10.5bp, natural-size inclusion, maximum width15.6cm; reflow overwide figures instead of shrinking text",
+      "font_directory": "assets/fonts/windows"
+    },
+    "font_unification_record": "docs/figure_font_unification_20261105/PRESENTATION.json",
+    "language_revision": {
+      "date": "2026-11-10",
+      "changed_cells": [
+        {
+          "id": "mix",
+          "before": "<div style=\"line-height:1.35;white-space:nowrap;\">完整轨迹合批</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\mathcal B_k\\)</span></div>",
+          "after": "<div style=\"line-height:1.35;white-space:nowrap;\">新旧完整轨迹合并</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\mathcal B_k\\)</span></div>"
+        },
+        {
+          "id": "pred",
+          "before": "<div style=\"line-height:1.35;white-space:nowrap;\">两独立价值网络</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(V_t^C,V_t^J\\)</span></div>",
+          "after": "<div style=\"line-height:1.35;white-space:nowrap;\">两个独立价值网络</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(V_t^C,V_t^J\\)</span></div>"
+        },
+        {
+          "id": "keep",
+          "before": "<div style=\"line-height:1.35;white-space:nowrap;\">批后保留本批末<span style=\"font-family:Times New Roman;\">\\(b\\)</span>条</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\mathcal H_{k+1}\\)</span></div>",
+          "after": "<div style=\"line-height:1.35;white-space:nowrap;\">保留末<span style=\"font-family:Times New Roman;\">\\(b\\)</span>条新轨迹</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\mathcal H_{k+1}\\)</span></div>"
+        }
+      ],
+      "parent_source_sha256": "d98d3838bd3d571690e363123cd973bbd3bca86ee3713e8188cf271d0657ea47",
+      "parent_pdf_sha256": "91d05c029afe164100b33537089c073fb462ec122bd4863838213521511d419f",
+      "external_runtime_dependencies": false,
+      "review_record": "docs/chapter5_comprehensive_language_20261110/PRESENTATION.json"
+    }
+  },
+  "scientific_execution": 0,
+  "editing_source": "source.drawio",
+  "editing_format": "drawio",
+  "drawio_export": {
+    "number": "figure52",
+    "status": "exported",
+    "source": "source.drawio",
+    "source_sha256": "a6be74c7527ab13bb91ac5a4b77cacb7a4318ba239c0b90fc9fc7df348c011c6",
+    "pdf": "figure.pdf",
+    "pdf_sha256": "8515cf09acd58c10bfeeda26bad8f47c2bd4fcdc5d72b17dcf9a5e98da467951",
+    "exporter": "scripts/export_method_figures.py",
+    "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+    "generated_utc": "2026-11-10T11:48:53.514090+00:00",
+    "font_files_sha256": {
+      "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+      "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+      "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+    },
+    "diagram_vertices": 14,
+    "diagram_edges": 17,
+    "mathjax_errors": 0,
+    "expected_formulas": 19,
+    "rendered_formulas": 19,
+    "pdf_size_pt": [
+      441.2088317871094,
+      473.9300842285156
+    ],
+    "text_width_limit_cm": 15.6,
+    "applied_pdf_scale": 1.0555235547620698,
+    "native_content_clip_pt": [
+      23.0,
+      3.0,
+      441.0,
+      452.0
+    ],
+    "native_primary_text_bp": 9.94767,
+    "target_primary_text_bp": 10.5,
+    "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "8515cf09acd58c10bfeeda26bad8f47c2bd4fcdc5d72b17dcf9a5e98da467951"
+  },
+  "files": [
+    {
+      "path": "README.rst",
+      "bytes": 606,
+      "sha256": "5bc470cbf8c3b071624bad1ae323387d72313868a30a9da3fafde19e539e1839"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 88699,
+      "sha256": "8515cf09acd58c10bfeeda26bad8f47c2bd4fcdc5d72b17dcf9a5e98da467951"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 193779,
+      "sha256": "69c7bd17fef8dc0b577a331804bc71e3b3eb7a90b593a5b9cdfe204f2cf06ab8"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 391652,
+      "sha256": "027f9f30559b007eb80c77b6403e8fa49deb114511047d60cb15ecbd80be1520"
+    },
+    {
+      "path": "source.drawio",
+      "bytes": 20702,
+      "sha256": "a6be74c7527ab13bb91ac5a4b77cacb7a4318ba239c0b90fc9fc7df348c011c6"
+    }
+  ]
+}

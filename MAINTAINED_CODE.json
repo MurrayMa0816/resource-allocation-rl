@@ -1,0 +1,8 @@
+{
+  "schema": "publication-source-snapshot-v1",
+  "mode": "shared",
+  "source_root": ".",
+  "data_root_configuration": "RESOURCE_ALLOCATION_DATA_ROOT",
+  "automatic_training_or_recovery": false,
+  "manifest": "release_manifest.json"
+}

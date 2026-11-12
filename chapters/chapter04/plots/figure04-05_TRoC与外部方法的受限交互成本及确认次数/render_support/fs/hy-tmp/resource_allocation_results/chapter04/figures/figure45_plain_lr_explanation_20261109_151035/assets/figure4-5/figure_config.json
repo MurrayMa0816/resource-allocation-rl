@@ -1,0 +1,21 @@
+{
+  "kind": "cost",
+  "methods": [
+    "f1",
+    "props",
+    "mad_td",
+    "redo",
+    "mrq",
+    "bro"
+  ],
+  "thresholds": {
+    "radio": 45.271407152182945,
+    "v5": 75.59877076662723
+  },
+  "display_scale": 100,
+  "native_data": true,
+  "training_seeds": 5,
+  "sample_sd": true,
+  "internal_nonoverlapping_bin_steps": 3072,
+  "main_smoothing": "none"
+}

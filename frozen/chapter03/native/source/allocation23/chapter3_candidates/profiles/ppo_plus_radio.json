@@ -1,0 +1,23 @@
+{
+  "hidden_dims": 256,
+  "use_layer_norm": true,
+  "final_fc_init_scale": 0.01,
+  "actor_lr": 0.0003,
+  "critic_lr": 0.0003,
+  "temp_lr": 0.0003,
+  "clip_grad_norm": 0.5,
+  "clipping_ratio": 0.25,
+  "gae_lambda": 1.0,
+  "entropy_coeff": 0.5,
+  "temperature": 0.01,
+  "discount": 1.0,
+  "min_target": false,
+  "policy_steps": 2048,
+  "num_epochs": 10,
+  "batch_size": 256,
+  "buffer_size": 50000,
+  "value_samples": 10,
+  "reward_scale": 100.0,
+  "terminal_actor_mask": true,
+  "mean_architecture": "shared_objects"
+}

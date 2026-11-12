@@ -1,0 +1,8 @@
+"""Explicit current-formal evaluate entry. No legacy queue is dispatched."""
+from chapters.chapter05._runtime import main as _main
+
+def main(argv=None):
+    return _main('evaluate', argv)
+
+if __name__ == "__main__":
+    raise SystemExit(main())

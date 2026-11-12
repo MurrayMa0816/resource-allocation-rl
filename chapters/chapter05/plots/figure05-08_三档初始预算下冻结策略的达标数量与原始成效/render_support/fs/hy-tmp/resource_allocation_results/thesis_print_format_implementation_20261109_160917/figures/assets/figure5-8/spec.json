@@ -1,0 +1,89 @@
+{
+  "number": "5.8",
+  "kind": "c5shared",
+  "resize_IDs": false,
+  "method_line_patterns": true,
+  "active_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-8",
+  "output_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8",
+  "native_source": "parent_renderer.py",
+  "source_metadata": {
+    "number": "5.8",
+    "kind": "c5shared",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/budget_transfer",
+    "parent_pdf_sha256": "5d6cf79dbc5961a74555e916dc067d84fc9f72d2b955514dafbc68f3df26e22c",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+    "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-8",
+    "mapping": {
+      "平均图像质量（SSIM）": "平均结构相似性指数"
+    },
+    "role": "budget_transfer",
+    "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data",
+    "schema": "thesis-chinese-metric-figure-labels-v1",
+    "native_parent_renderer_byte_identical": true,
+    "changes": [
+      {
+        "old": "平均图像质量（SSIM）",
+        "new": "平均结构相似性指数"
+      }
+    ],
+    "nontext_equal": true,
+    "parent_native_reproduction_pixels_equal": true,
+    "outputs": {
+      "figure.pdf": "441e8051a18599f94a9512cb8aedfcc98011176244d9b34b53e1fb7c0df601f0",
+      "figure.svg": "49b96e8a09fbabc01b5c0b4b19dc2f20ba9dc2ad7d80e6417d5d267e26c3ed85",
+      "figure.png": "cefcedd8e3c20b18d5d1c73c25b1085a8cf3c20d63bf78e303483d9307d775bb",
+      "checks/metric_display_proof.json": "7d4a3e6d005e17997214cf2d4e4eb50c5a0e4f4fab6dda5218eca77699b5c885"
+    },
+    "parent_retained": true,
+    "scientific_execution": {
+      "environment_steps": 0,
+      "model_loads": 0,
+      "policy_evaluations": 0,
+      "training_runs": 0
+    },
+    "checks": {
+      "checks/metric_display_proof.json": "7d4a3e6d005e17997214cf2d4e4eb50c5a0e4f4fab6dda5218eca77699b5c885",
+      "checks/pdf_value_and_vector_check.json": "03ee665dd514be7b3b8d048c1f57a362b68f659de1054d723328771eb99e0008",
+      "checks/native_parent_reproduction.json": "a8434cca86ff1df9584db84c067cbcfd68ad1d9c002dfa58b16ee459285e0790"
+    },
+    "parent_source_metadata": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/budget_transfer/source.json",
+    "parent_source_metadata_sha256": "51c39cfc26d48b0dc94f67bcb51ec9dfe0d779fbda50a42c960042d49b089600",
+    "native_parent_asset_directory_preserved": true
+  },
+  "cache_adaptations": [],
+  "parent_files_sha256": {
+    "parent_renderer.py": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "figure.pdf": "441e8051a18599f94a9512cb8aedfcc98011176244d9b34b53e1fb7c0df601f0",
+    "figure.svg": "49b96e8a09fbabc01b5c0b4b19dc2f20ba9dc2ad7d80e6417d5d267e26c3ed85",
+    "figure.png": "cefcedd8e3c20b18d5d1c73c25b1085a8cf3c20d63bf78e303483d9307d775bb",
+    "parent_presentation_proof.json": "eb7fa65d77c1fda79ddc6becfb678e9f5897e540e10ee783bf299506f75b79b4",
+    "source.json": "eabc431c7d8c67bb89724ecb89d2ba6cc79eea215fabf59e497424191f7f9524",
+    "README.rst": "099ff2c67a63553d5d87fce0ab97b24140debaed12cdea3c03c3ba2db5e066c1",
+    "plot.py": "17937eccc41cb8c7bffff9e875195b11561879fa6cdcdf3896bb04caf8e40aab"
+  },
+  "input_files_sha256": {
+    "parent_renderer.py": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "parent_presentation_proof.json": "eb7fa65d77c1fda79ddc6becfb678e9f5897e540e10ee783bf299506f75b79b4",
+    "source.json": "eabc431c7d8c67bb89724ecb89d2ba6cc79eea215fabf59e497424191f7f9524",
+    "plot.py": "17937eccc41cb8c7bffff9e875195b11561879fa6cdcdf3896bb04caf8e40aab",
+    "data/learning_raw.csv": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+    "data/learning_display.csv": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+    "data/fixed_endpoints_by_seed.csv": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+    "data/threshold_recounts_by_seed.csv": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+    "data/costs_by_seed.csv": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+    "data/data_manifest.json": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+  },
+  "index_row": {
+    "图号": "5.8",
+    "图题": "不同初始资源量下固定策略的配置效果",
+    "章节目录": "chapter05_dual_value",
+    "图目录": "chapters/chapter05_dual_value/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "../../data/fixed_endpoints_by_seed.csv"
+  }
+}

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Codex editable diagram" version="24.7.17" type="device">
+  <diagram id="ch6-rl-environment-compact" name="灌溉环境交互流程">
+    <mxGraphModel dx="524" dy="245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="524" pageHeight="245" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="initialize" value="回合初始化" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#F1D9B5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="8" y="5" width="112" height="32" />
+        </mxCell>
+        <mxCell id="observe" value="日初观测" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#BDD5EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="8" y="61" width="112" height="36" />
+        </mxCell>
+        <mxCell id="policy" value="联合配置策略" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#BDD5EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="194" y="61" width="126" height="36" />
+        </mxCell>
+        <mxCell id="action" value="区域配水动作" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#BDD5EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="394" y="61" width="112" height="36" />
+        </mxCell>
+        <mxCell id="transition" value="环境状态转移" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#F1D9B5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="394" y="147" width="112" height="36" />
+        </mxCell>
+        <mxCell id="end" value="完成81日" style="rounded=0;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#FFFFFF;shape=rhombus;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="194" y="138" width="126" height="54" />
+        </mxCell>
+        <mxCell id="reward" value="终点奖励" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#E3ECE2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="8" y="147" width="112" height="36" />
+        </mxCell>
+        <mxCell id="weather" value="当日天气" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#F1D9B5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="394" y="209" width="112" height="32" />
+        </mxCell>
+        <mxCell id="initialize-observe" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="initialize" target="observe">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="observe-policy" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="observe" target="policy">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="policy-action" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="policy" target="action">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="action-transition" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="action" target="transition">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="weather-transition" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="weather" target="transition">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="transition-end" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="transition" target="end">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="end-observe" value="否" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="end" target="observe">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="257" y="117" />
+              <mxPoint x="64" y="117" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="end-reward" value="是" style="edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="end" target="reward">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,35 @@
+{
+  "schema": "chapter04-two-panel-readable-labels-geometry-v1",
+  "figure_inches": [
+    6.141732283464567,
+    3.031496062992126
+  ],
+  "axes_positions": [
+    [
+      0.125,
+      0.2145454545454546,
+      0.3516260162601626,
+      0.6545454545454545
+    ],
+    [
+      0.6383739837398374,
+      0.2145454545454546,
+      0.35162601626016254,
+      0.6545454545454545
+    ]
+  ],
+  "axes_count": 2,
+  "all_six_remaining_parent_bar_values_preserved": true,
+  "physical_axes_mm_unchanged": true,
+  "display_method_order": [
+    "f1",
+    "no_history",
+    "no_offpolicy_correction"
+  ],
+  "mean_labels_decimals": 2,
+  "mean_labels_position": "4pt above upper sample-SD cap",
+  "matched_protocol_ablation_claimed": false,
+  "all_learning_curve_panels_removed": true,
+  "shared_legend": false,
+  "old_pixel_or_geometry_invariance_claimed": false
+}

@@ -1,0 +1,147 @@
+{
+  "status": "historical_optimization_evidence_not_current_adoption",
+  "historical_sources_and_audit_preserved": true,
+  "historical_models_and_raw_external_artifacts_retired_by_user": true,
+  "original_evidence_path": "/hy-tmp/resource_allocation_results/chapter5/replacement_search_20261105/analysis/morld_latest_verdict_20261105.json",
+  "original_evidence_sha256": "2c2df9165f6779081ec1ff6a6341e7b953895082053e4c6c1d1be034a28e275b",
+  "prior_modifications": [
+    "Native author MOSAC update and three-policy round-robin population; shared uniform replay, PSA with separately charged internal evaluation",
+    "R2 radio n_step1→32 original-reward multi-step target; v5 retained native one-step; fixed all other parameters",
+    "Inference-only three-actor endpoint export, no on-disk critic/Adam/replay"
+  ],
+  "prior_selected_task_recipe": {
+    "radio": {
+      "round": "r02",
+      "n_step": 32,
+      "budget": 24576,
+      "seeds": [
+        9710,
+        9711
+      ]
+    },
+    "v5": {
+      "round": "r01",
+      "n_step": 1,
+      "budget": 24576,
+      "seeds": [
+        9710,
+        9711
+      ]
+    }
+  },
+  "prior_cautions": [
+    "Both seeds of each domain use one exact pre-registered recipe; no peak checkpoint or single-seed selection. Domain-specific n_step must be declared as tuned task adaptation, not one globally fixed default.",
+    "R2 nstep32 accumulates original terminal vector reward with gamma1; intermediate entropy omitted, uncorrected offpolicy; not original paper one-step soft-return equivalence.",
+    "Only two development seeds and16 shared development cases; no formal holdout or statistical significance.",
+    "Radio seed9711 is much improved from own initialization but near/below neutral no-training rule in endpoint K and J; learning alone does not establish strong competitiveness.",
+    "v5 seed9710 shows modest late J/F quarter dip despite large whole-curve improvement; do not require perfectly monotone training or deny observed learning.",
+    "DWA/MORLD CUDA initial noise stream common83100 via decoder construction was previously disclosed; separate RNG correction required before formal independent-seed significance."
+  ],
+  "new_unproven_revision": {
+    "constructor_rng_isolation": "CPU initial weights remain byte-identical; eliminate CUDA reseed side effect",
+    "matched_extra_updates": "Restore author10 other-policy passes after short-budget per-episode exchange versus historical0; not claimed proven beneficial",
+    "source_identity": "Same four pinned author files, byte-exact, now package-local; old frozen source unchanged"
+  },
+  "jobs": [
+    {
+      "round": "r01",
+      "domain": "v5",
+      "seed": 9710,
+      "metrics": {
+        "K": {
+          "initial": 22.25,
+          "endpoint": 71.25,
+          "last13_mean": 72.75961538461539,
+          "last_quarter_OLS_per_1024_steps": 0.07211538461538461
+        },
+        "J": {
+          "initial": 0.3911027290989698,
+          "endpoint": 0.6899745085555012,
+          "last13_mean": 0.7005005103014952,
+          "last_quarter_OLS_per_1024_steps": -0.0038379708502517544
+        },
+        "F": {
+          "initial": 0.22655387915312733,
+          "endpoint": 0.6129949017111003,
+          "last13_mean": 0.6251642046244016,
+          "last_quarter_OLS_per_1024_steps": -0.0002868249392811235
+        }
+      }
+    },
+    {
+      "round": "r01",
+      "domain": "v5",
+      "seed": 9711,
+      "metrics": {
+        "K": {
+          "initial": 14.9375,
+          "endpoint": 72.9375,
+          "last13_mean": 65.1298076923077,
+          "last_quarter_OLS_per_1024_steps": 3.2740384615384617
+        },
+        "J": {
+          "initial": 0.47405816821859187,
+          "endpoint": 0.7257460661247265,
+          "last13_mean": 0.6880085996569308,
+          "last_quarter_OLS_per_1024_steps": 0.012792222298053395
+        },
+        "F": {
+          "initial": 0.19439496697705172,
+          "endpoint": 0.6313992132249453,
+          "last13_mean": 0.571800437880104,
+          "last_quarter_OLS_per_1024_steps": 0.02438536753653375
+        }
+      }
+    },
+    {
+      "round": "r02",
+      "domain": "radio",
+      "seed": 9710,
+      "metrics": {
+        "K": {
+          "initial": 37.375,
+          "endpoint": 54.8125,
+          "last13_mean": 51.54326923076923,
+          "last_quarter_OLS_per_1024_steps": 0.8811813186813187
+        },
+        "J": {
+          "initial": 0.27427261158114447,
+          "endpoint": 0.3839779709933268,
+          "last13_mean": 0.35404408344717503,
+          "last_quarter_OLS_per_1024_steps": 0.005323567380128997
+        },
+        "F": {
+          "initial": 0.3538545223162289,
+          "endpoint": 0.5152955941986654,
+          "last13_mean": 0.48315497053558887,
+          "last_quarter_OLS_per_1024_steps": 0.008114164025476345
+        }
+      }
+    },
+    {
+      "round": "r02",
+      "domain": "radio",
+      "seed": 9711,
+      "metrics": {
+        "K": {
+          "initial": 20.4375,
+          "endpoint": 47.9375,
+          "last13_mean": 48.75,
+          "last_quarter_OLS_per_1024_steps": -0.21703296703296704
+        },
+        "J": {
+          "initial": 0.10994827392702688,
+          "endpoint": 0.34901780135819793,
+          "last13_mean": 0.34804281265042264,
+          "last_quarter_OLS_per_1024_steps": 0.0017405400955345447
+        },
+        "F": {
+          "initial": 0.18548965478540538,
+          "endpoint": 0.4533035602716396,
+          "last13_mean": 0.4596085625300846,
+          "last_quarter_OLS_per_1024_steps": -0.0013881557171568323
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "crossq": "Pinned official MIT reference; retained license covers the explicit author-math PyTorch derivative",
+  "ppo_plus": "Pinned official MIT reference; retained author license accompanies the derivative task adapter",
+  "gradient_ppo": "Independent paper-equation implementation; no claim that author source is copied or newly licensed here",
+  "reflective_ppo": "Independent paper-derived implementation; author repository license was not verified, and no author core is copied",
+  "c_ppo": "In-workspace paper-derived implementation of ECAI2023 conservative CCPO with PPO backbone",
+  "shared_mean": "In-workspace public-state object-sharing task adaptation; no proposed-method response basis",
+  "pfo": "NeurIPS2024 pinned official MIT core; original Skander Moalla notice retained in PFO_MIT.txt; declared minimal Torch task architecture adapter",
+  "spo_dependency": "Independent ICML2025 Eq16 implementation is retained only as PFO serial collector/GAE/save-load infrastructure; no author SPO source relicensing or sixth active method"
+}

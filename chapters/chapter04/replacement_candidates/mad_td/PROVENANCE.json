@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/adaptive-agents-lab/MAD-TD",
+  "commit": "685293e222accf1a0f36afcab933ce1902d4452a",
+  "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b292ef48c211e2d8288146ff045dd61d-Abstract-Conference.html",
+  "canonical_maintenance_root": "/hy-tmp/resource_allocation_project_code_20261105/chapter04/replacement_candidates/mad_td",
+  "ROOT_entry": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mad_td",
+  "native_core": "vendor/mad_td",
+  "vendor_bytes_modified": false,
+  "in_memory_task_adapter": "native_loader.py",
+  "profile": "scientific_profile.json"
+}

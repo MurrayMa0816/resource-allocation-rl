@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "adapter_sha256": "faf03c33918a6e1ec24331402962320d7599652dd29e6cfcee1737fe3b75745f",
+  "environment_constructions": 0,
+  "environment_steps": 0,
+  "optimizer_updates": 0,
+  "inference_model_files_loaded": 0,
+  "synthetic_agents_constructed": 2,
+  "fixed64_shape": [
+    2,
+    64,
+    49
+  ],
+  "fixed64_float64": true,
+  "fixed64_pre_tanh_formula": true,
+  "fixed64_all_model_state_unchanged": true,
+  "fixed64_global_action_learn_private_RNG_unchanged": true,
+  "actual_one_step_oadm_separate_from_eight_step_successor": true,
+  "missing_one_step_auxiliary_rejected": true,
+  "panel_preferences_shape": [
+    8,
+    2
+  ],
+  "no_per_tick_preference_resampling": true,
+  "endpoint_in_memory_reload_fixed64_exact": true,
+  "synthetic_batch_conversion_only": true,
+  "formal_source_bindings": {
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/__init__.py": "6aa086c1d7ef9277b2c016a0073113d48ace24c02b5493de9cb0b5add9e0a10e",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/RELEASE.json": "8dd8c412a893b1bc89540ab1e14aad6bb37b560099c7adf0f10e1722def49173",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/__init__.py": "2a9ded2c810d51512f446025ee9e4f7621c7ecff2704d2d81def926c2dc1b8aa",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/agent.py": "4b635496055da8ee06dbb0da10940dba0da28caae1cda35d0a6103392f0206af",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/cola_exact_runtime.py": "c618e0f7a4cabb033973b71aed9754cdda2334fca8a8ae1160796d54f5d847f1",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/configs.json": "dae3e28bb2a2235e0823db7bd31838796170948ac460d53182be3ae6aff53807",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/native.py": "cf7050d489cdd6c6b3e06b384a70d2bfec0d9e307357d0390beec5582bf32d41",
+    "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source/baselines/cola/sac_base.py": "dbaaec6b733081cfb93165da80f8b652f4ccf0ce4c19b580fb7f1e3bbc6861c2"
+  },
+  "limitations": "PureCPU construct/forward/label validation; nooptimizer/nativelearningupdate/environmentexecution ornewperformance result"
+}

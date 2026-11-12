@@ -1,0 +1,234 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "5.3",
+  "caption": "双价值目标与标准化加权优势的计算",
+  "label": "fig:ch6-dual-advantage-detail",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算",
+  "kind": "drawio",
+  "current_section": "chapters/chapter05_dual_value/section62_method.tex",
+  "current_references": [
+    "chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算/figure.pdf"
+  ],
+  "current_plot_entry": null,
+  "current_editable_source": "source.drawio",
+  "current_data_files": [],
+  "current_source_files": [
+    "source.drawio"
+  ],
+  "historical_provenance": {
+    "schema": "thesis-figure-local-assets-v2",
+    "number": "5.3",
+    "caption": "双价值目标与标准化加权优势的计算",
+    "label": "fig:ch6-dual-advantage-detail",
+    "directory": "chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算",
+    "current_section": "chapters/chapter05_dual_value/section62_method.tex",
+    "current_references": [
+      "chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算/figure.pdf"
+    ],
+    "files": [
+      {
+        "path": "README.rst",
+        "role": "documentation",
+        "bytes": 1551,
+        "sha256": "41253aac36429c09ce6b24aea0bc85c6b3dcb1e472ddd01790207534b7e3be00"
+      },
+      {
+        "path": "figure.pdf",
+        "role": "inserted_pdf",
+        "bytes": 80570,
+        "sha256": "cd1e564ca53eba7cd82a7f9db84ef07647a70fb821f0335fabb206e1886e73cb"
+      },
+      {
+        "path": "source.drawio",
+        "role": "editable_diagram",
+        "bytes": 16008,
+        "sha256": "c9315ef6ef23786357b17cd47f3afcf66abe0684fa864e912a8443b43ec9eadf"
+      },
+      {
+        "path": "figure.svg",
+        "role": "editable_vector_export",
+        "bytes": 410799,
+        "sha256": "7a98253b8ac6bba75f19fb3256643dde9a7159d9cadde2a89745719880df5f90"
+      },
+      {
+        "path": "figure.png",
+        "role": "preview",
+        "bytes": 191521,
+        "sha256": "b50e8ef3ee21ee40b391bf794d756e8e86192f3cd88ba12081c6f16f45c7752f"
+      }
+    ],
+    "original_source_manifest": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算/original_source.json",
+    "old_references": [
+      "chapters/chapter06_individual_guarantees/figures/dual_value_advantage_detail.tex"
+    ],
+    "pdf_policy": "Generated directly from source.drawio with thesis fonts and calibrated 10.5bp main labels; oversized diagrams must be reflowed.",
+    "drawio_policy": "The sole editable source is source.drawio. Native shapes/text/edges; the thesis supplies figure captions.",
+    "plot_command": null,
+    "plot_output_default": null,
+    "scientific_data_changed": false,
+    "training_or_evaluation_run": false,
+    "verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_font_unification_20261105/audit",
+    "editing_source": "source.drawio",
+    "editing_format": "drawio",
+    "drawio_export": {
+      "number": "figure53",
+      "status": "exported",
+      "source": "source.drawio",
+      "source_sha256": "c9315ef6ef23786357b17cd47f3afcf66abe0684fa864e912a8443b43ec9eadf",
+      "pdf": "figure.pdf",
+      "pdf_sha256": "cd1e564ca53eba7cd82a7f9db84ef07647a70fb821f0335fabb206e1886e73cb",
+      "exporter": "scripts/export_method_figures.py",
+      "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+      "generated_utc": "2026-11-10T11:48:53.567778+00:00",
+      "font_files_sha256": {
+        "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+        "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+        "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+        "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+        "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+        "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+      },
+      "diagram_vertices": 11,
+      "diagram_edges": 13,
+      "mathjax_errors": 0,
+      "expected_formulas": 14,
+      "rendered_formulas": 14,
+      "pdf_size_pt": [
+        425.195068359375,
+        435.20587158203125
+      ],
+      "text_width_limit_cm": 15.6,
+      "applied_pdf_scale": 1.0537672178036481,
+      "native_content_clip_pt": [
+        20.5,
+        0.5,
+        424.0,
+        413.5
+      ],
+      "native_primary_text_bp": 9.96425,
+      "target_primary_text_bp": 10.5,
+      "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+    },
+    "retired_legacy_drawing_sources": {
+      "date": "2026-11-05",
+      "receipt": "docs/drawio_single_source_20261105/retirement_receipt.json",
+      "historical_source_records_are_not_active_inputs": true
+    },
+    "previous_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_directory_reorganization_20261105/audit/integrated_ch45",
+    "historical_source_archive": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算",
+    "previous_font_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_drawio_single_source_20261105/audit/drawio_workflow_verification.json",
+    "font_policy": {
+      "ordinary_chinese": "SimSun (宋体)",
+      "ordinary_latin_and_digits": "Times New Roman",
+      "chinese_group_headings": "SimHei (黑体), used sparingly",
+      "ordinary_main_text_final_pdf_bp": 10.5,
+      "secondary_data_plot_ticks_and_legends_bp": 9.5,
+      "mathematics": "MathJax TeX for drawio; Computer Modern mathtext for plots; natural superscript/subscript sizing",
+      "diagram_source_font_size_gui_px": 14,
+      "diagram_export": "Measured primary ordinary text calibrated to10.5bp, natural-size inclusion, maximum width15.6cm; reflow overwide figures instead of shrinking text",
+      "font_directory": "assets/fonts/windows"
+    },
+    "font_unification_record": "docs/figure_font_unification_20261105/PRESENTATION.json",
+    "language_revision": {
+      "date": "2026-11-10",
+      "changed_cells": [
+        {
+          "id": "records",
+          "before": "<div style=\"line-height:1.35;white-space:nowrap;\">原轨迹记录与终点反馈</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\((s_t,\\boldsymbol z_t,\\lambda,\\mu;C,J)\\)</span></div>",
+          "after": "<div style=\"line-height:1.35;white-space:nowrap;\">采集时轨迹记录与终点反馈</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\((s_t,\\boldsymbol z_t,\\lambda,\\mu;C,J)\\)</span></div>"
+        },
+        {
+          "id": "frozen",
+          "before": "<div style=\"line-height:1.35;white-space:nowrap;\">冻结双价值预测</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\boldsymbol V_t=\\boldsymbol V_{\\psi_{\\rm old}}(s_t,\\lambda)\\)</span></div>",
+          "after": "<div style=\"line-height:1.35;white-space:nowrap;\">批前固定价值预测</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\boldsymbol V_t=\\boldsymbol V_{\\psi_{\\rm old}}(s_t,\\lambda)\\)</span></div>"
+        },
+        {
+          "id": "adv",
+          "before": "<div style=\"line-height:1.35;white-space:nowrap;\">后继目标形成分项优势</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\boldsymbol A_t=\\boldsymbol y_{t+1}-\\boldsymbol V_t\\)</span></div>",
+          "after": "<div style=\"line-height:1.35;white-space:nowrap;\">下一时刻目标与当前预测作差</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(\\boldsymbol A_t=\\boldsymbol y_{t+1}-\\boldsymbol V_t\\)</span></div>"
+        },
+        {
+          "id": "norm",
+          "before": "<div style=\"line-height:1.35;white-space:nowrap;\">一次共同标准化</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(A_{\\mathrm{std},t}=\\dfrac{A_t^\\lambda-A_{\\mathrm{mean}}}{s_A+10^{-8}}\\)</span></div>",
+          "after": "<div style=\"line-height:1.35;white-space:nowrap;\">加权优势整体标准化</div><div style=\"line-height:1.35;white-space:nowrap;\"><span style=\"font-family:Times New Roman;\">\\(A_{\\mathrm{std},t}=\\dfrac{A_t^\\lambda-A_{\\mathrm{mean}}}{s_A+10^{-8}}\\)</span></div>"
+        }
+      ],
+      "parent_source_sha256": "a96c0df7643c2137566a205dfae8baa7e130c08ecb63c311ae9605b2bad0be6c",
+      "parent_pdf_sha256": "bdc19c869f843c3e2ffa37e9efc4929ce4fbfa8481861698e3581ef2f4a522c8",
+      "external_runtime_dependencies": false,
+      "review_record": "docs/chapter5_comprehensive_language_20261110/PRESENTATION.json"
+    }
+  },
+  "scientific_execution": 0,
+  "editing_source": "source.drawio",
+  "editing_format": "drawio",
+  "drawio_export": {
+    "number": "figure53",
+    "status": "exported",
+    "source": "source.drawio",
+    "source_sha256": "c9315ef6ef23786357b17cd47f3afcf66abe0684fa864e912a8443b43ec9eadf",
+    "pdf": "figure.pdf",
+    "pdf_sha256": "cd1e564ca53eba7cd82a7f9db84ef07647a70fb821f0335fabb206e1886e73cb",
+    "exporter": "scripts/export_method_figures.py",
+    "exporter_sha256": "d2a016725d042da711cfbaa4d34627af018c0e08951d643061d918aae7ecf55b",
+    "generated_utc": "2026-11-10T11:48:53.567778+00:00",
+    "font_files_sha256": {
+      "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+      "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+      "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+    },
+    "diagram_vertices": 11,
+    "diagram_edges": 13,
+    "mathjax_errors": 0,
+    "expected_formulas": 14,
+    "rendered_formulas": 14,
+    "pdf_size_pt": [
+      425.195068359375,
+      435.20587158203125
+    ],
+    "text_width_limit_cm": 15.6,
+    "applied_pdf_scale": 1.0537672178036481,
+    "native_content_clip_pt": [
+      20.5,
+      0.5,
+      424.0,
+      413.5
+    ],
+    "native_primary_text_bp": 9.96425,
+    "target_primary_text_bp": 10.5,
+    "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "cd1e564ca53eba7cd82a7f9db84ef07647a70fb821f0335fabb206e1886e73cb"
+  },
+  "files": [
+    {
+      "path": "README.rst",
+      "bytes": 638,
+      "sha256": "1131d1b0bd8dc80ef489cc2b25b416b9739227128554918f239852a609a1a444"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 80570,
+      "sha256": "cd1e564ca53eba7cd82a7f9db84ef07647a70fb821f0335fabb206e1886e73cb"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 191521,
+      "sha256": "b50e8ef3ee21ee40b391bf794d756e8e86192f3cd88ba12081c6f16f45c7752f"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 410799,
+      "sha256": "7a98253b8ac6bba75f19fb3256643dde9a7159d9cadde2a89745719880df5f90"
+    },
+    {
+      "path": "source.drawio",
+      "bytes": 16008,
+      "sha256": "c9315ef6ef23786357b17cd47f3afcf66abe0684fa864e912a8443b43ec9eadf"
+    }
+  ]
+}

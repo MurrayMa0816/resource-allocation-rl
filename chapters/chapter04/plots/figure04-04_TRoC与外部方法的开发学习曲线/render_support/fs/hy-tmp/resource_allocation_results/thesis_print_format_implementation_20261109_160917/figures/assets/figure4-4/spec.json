@@ -1,0 +1,257 @@
+{
+  "number": "4.4",
+  "kind": "c4random",
+  "resize_IDs": false,
+  "method_line_patterns": true,
+  "active_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter04_trajectory_reuse/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter04/figures/figure44_label_cleanup_20261109_134450/publication/assets/figure4-4",
+  "output_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4",
+  "native_source": "plot.py",
+  "source_metadata": {
+    "schema": "c4-figure44b-real-props-stochastic-narrow-replacement-v1",
+    "status": "COMPLETE_REAL_RANDOM_CURVE_RENDERED",
+    "parent_binding": {
+      "schema": "c4-figure44b-props-random-narrow-replacement-parent-v1",
+      "status": "WAITING_FOR_FULL_REAL_CURVE",
+      "parent_asset_directory": "/hy-tmp/resource_allocation_results/chapter04/figures/readability_refinement_20261108_234201/assets/figure4-4",
+      "experiment_root": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430",
+      "parent_files": {
+        "plot.py": "d1507140eda0163a5241cfec572df372606cbf583ee60eb1f58d60ff5df4fc59",
+        "presentation_style.py": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba",
+        "data.csv": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+        "figure_config.json": "fbe8e9ec044926bc6f0ef31212f2638a435d2ef94ba0c34e3ff1640c03a02175",
+        "plotted_points.csv": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+        "render_geometry.json": "b7d4c1e6b7897e0199bf732bf5a6283ae04a7fb67197e08e71791d8e259ae742",
+        "presentation_geometry.json": "7fa4d9bd6dd18d45e621a28e99567e90b01e81f1695af1ed2c019a6720b5ec2c",
+        "figure.pdf": "9e3445b513c86d4ca8ac8ced48fb239eb7008b2d1f53786f92b67d473a9be542",
+        "figure.png": "db375adb660d06118662fb623975a2b90a15f03763e081543e8b492f766c26e3",
+        "figure.svg": "535893bd7241679950a035f7f64b63865c1eeb9e1c3ff67a1c14db517a586bb0"
+      },
+      "source_adaptation": {
+        "file": "parent_plot.py",
+        "only_replacement": {
+          "old": "PRESENTATION_ROOT=Path('/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34')",
+          "new": "PRESENTATION_ROOT=Path('/hy-tmp/resource_allocation_results/chapter04/figures/figure44_label_cleanup_20261109_134450/publication')",
+          "count": 1
+        }
+      },
+      "replace_only": {
+        "domain": "v5",
+        "method": "props",
+        "artists": [
+          "raw faint line",
+          "causal5 line",
+          "sample SD band"
+        ]
+      },
+      "retained_original_data": [
+        "data.csv",
+        "plotted_points.csv"
+      ],
+      "current_display_data_file": "current_display_points.csv",
+      "display_execution": "panel(b) PROPS uses native random action, other curves retain original mean action",
+      "local_annotation": "PROPS：随机动作",
+      "existing_scientific_Nq_AUC_TEST_tables": "unchanged mean execution protocol",
+      "no_new_scientific_execution_by_plot": true,
+      "training_or_environment_modules_imported": false,
+      "renders_permitted_only_after": "all five fixed formal endpoints and aggregate complete; no endpoint target or fabricated points"
+    },
+    "random_input_binding": {
+      "status": "PASS_COMPLETE_FIVE_FIXED_RUNS_POSTHOC_ACCEPTED",
+      "plan_sha256": "5f5965769674e6788005aba34cc3e493d633417cdb2227f57e3f132dbcc26afd",
+      "fixed_completions": [
+        {
+          "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed0/accepted_completion.json",
+          "sha256": "6d2583add76b3249fbc1605dae2472603cdc7578cea20693d083fc16af533188",
+          "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+          "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed0/failed.json",
+          "original_failed_sha256": "fed8a3ecf99f64c363004071f36662d5d6c6e35b699b3ee16643476433c77d9e",
+          "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+          "scientific_verification_sha256": "8f87d2a8dce88382b79ad9ca7e29b910383efe4f8b19f3160c4862f204e4e8cc"
+        },
+        {
+          "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed1/accepted_completion.json",
+          "sha256": "b4d8e602ecea3ba912e99730e2263eee6b3fe1cc75258dd2b820b59acd19af59",
+          "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+          "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed1/failed.json",
+          "original_failed_sha256": "c41dcf0de8b8407744cb26e2d132383f3cebc166e30a21972f010eb9ab43e633",
+          "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+          "scientific_verification_sha256": "5765462ff56d1791427d41cbccfd280aeec1019a09b640f72e6d41f1146d3b21"
+        },
+        {
+          "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed2/accepted_completion.json",
+          "sha256": "880503570a2b01c79a03a06f664be44cf6d6dc6969f62eccd7af37ec319a4c29",
+          "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+          "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed2/failed.json",
+          "original_failed_sha256": "bb9868f2d9cf43e3822c17490207da4eae088848e0ba000aead30200bae10bc5",
+          "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+          "scientific_verification_sha256": "c5b1cc9a0d03e250c6a788ebf06ecc974d620a9d21987d2b67633b952e6f7dc9"
+        },
+        {
+          "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed3/accepted_completion.json",
+          "sha256": "d1705e5c5f2f817b5c0f7496f797c2b75a0900d620b3ade51343fd67a856b506",
+          "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+          "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed3/failed.json",
+          "original_failed_sha256": "ecf408cb63c9ae6d420000edb4e95303ff2c89a6c15b0d55a695419b9dfb520e",
+          "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+          "scientific_verification_sha256": "571149b064e467b5bca3e4f5a92fb76d1a355abee747a9c658b6f0027ac3322c"
+        },
+        {
+          "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed4/accepted_completion.json",
+          "sha256": "2b5678946ae292595bbb9392058079f94fb8e880b77a390a198dd1e153307586",
+          "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+          "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed4/failed.json",
+          "original_failed_sha256": "e5a5f935e6f3c7b6296658365510da0eb4ab44f0cec2d1e074e695f87fd2928a",
+          "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+          "scientific_verification_sha256": "2290125062a167225f0deec029220fe7738e39690bfd6213af3399ec29793871"
+        }
+      ],
+      "admission_route": "explicit posthoc complete scientific acceptance with five original terminal source-path-key failures preserved",
+      "original_worker_process_status": "failed",
+      "original_failed_receipts_and_controller_status_preserved": true,
+      "scientific_retries": 0,
+      "independent_full_audit_status": "PASS_POSTHOC_FULL_DATA_ACCEPTED_WITH_WORKER_FAILURES_PRESERVED",
+      "independent_full_audit_sha256": "48585daaf0e3920d81fbf40e692f93f3989c57dd9ead94fa1f9c5e7064279a04",
+      "independent_aggregation_crosscheck_status": "PASS",
+      "independent_aggregation_crosscheck_sha256": "a1e1c5b84d5870cdbbb7533f9e16dbd37d000a9e1cefc2b6774339b766cdd686",
+      "aggregation_completion": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/results/aggregation_completion.json",
+      "aggregation_completion_sha256": "dc5e6186391f14d42ad85cb1699cd7b7029ef4e7479939f79159f57e57bc6327",
+      "local_sha256": {
+        "random_curve_by_seed.csv": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+        "random_plotted_points.csv": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
+        "random_aggregation_summary.json": "9fa181247d583d158b4de3d8b5805520fd49a47e6f5f4d43994f17768bd0ceff",
+        "random_aggregation_completion.json": "dc5e6186391f14d42ad85cb1699cd7b7029ef4e7479939f79159f57e57bc6327",
+        "audit_scientific_acceptance.json": "61ad30a625dbccf1a866f6e7e621cf1459fdd2acd70abe9bb2224f0cf423bd7b",
+        "audit_independent_full_numeric.json": "48585daaf0e3920d81fbf40e692f93f3989c57dd9ead94fa1f9c5e7064279a04",
+        "audit_aggregation_crosscheck.json": "a1e1c5b84d5870cdbbb7533f9e16dbd37d000a9e1cefc2b6774339b766cdd686"
+      },
+      "model_loads_during_staging": 0,
+      "environment_steps_during_staging": 0,
+      "source_data": "32 DEV cases x 8 action repeats averaged inside each of 5 training seeds at each of 132 real nodes"
+    },
+    "only_replaced": "panel(b) PROPS raw line, trailing5 mean line, five-training-seed sample SD band",
+    "display_conditions": "PROPS in panel(b): native random actions; all other original curves: original mean actions",
+    "local_label": null,
+    "presentation_amendment": "Standalone annotation removed; complete execution protocol retained in paper settings; all scientific curve data unchanged",
+    "scientific_tables_Nq_AUC_TEST": "retain original mean execution protocol",
+    "cross_execution_gap": "does not on its own establish an intrinsic algorithm benefit",
+    "statistics": "32 cases per action repeat; equal mean of 8 repeats within seed; 5 independent training seeds; trailing5 separately inside seed before across-seed mean/sample SD",
+    "actual_raw_endpoint_score_x100": 76.64613317669642,
+    "actual_display_endpoint_score_x100": 76.58347623727245,
+    "endpoint_score_was_forced": false,
+    "narrow_replacement_proof": {
+      "status": "PASS",
+      "all_panel_a_artists_exact": true,
+      "all_non_PROPS_panel_b_artists_exact": true,
+      "all_original_artist_styles_exact": true,
+      "all_original_axes_ranges_ticks_positions_text_exact": true,
+      "shared_legend_exact": true,
+      "changed_line_indices": {
+        "axis1": [
+          2,
+          3
+        ]
+      },
+      "changed_band_indices": {
+        "axis1": [
+          1
+        ]
+      },
+      "added_annotation": null
+    },
+    "historical_data_sha256": {
+      "data.csv": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+      "plotted_points.csv": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+      "figure_config.json": "fbe8e9ec044926bc6f0ef31212f2638a435d2ef94ba0c34e3ff1640c03a02175"
+    },
+    "code_sha256": {
+      "plot.py": "eafe2d573ef902b04eedc707b0ce8c4b3ce58a33032f254f80c006445e4d4bb5",
+      "parent_plot.py": "047075ff1c594897d01db45898ba96658b7409634a356936eed14b62034793f5",
+      "presentation_style.py": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba"
+    },
+    "outputs_sha256": {
+      "figure.pdf": "60daf663b3ff334915f12449cd85c7b69e85208d8d3eb2bd4f59078b598bf2a7",
+      "figure.svg": "e756420f8f618c7f04285550f36ba379622c4b0932de21daeeed72fdfb8c6072",
+      "figure.png": "e802755b0258676597f43e51e27510b06bc58ddd2a1040388b8a0ad6b75a4b93",
+      "current_display_points.csv": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+      "render_geometry.json": "0541ebb5f9f70d3defd4c182e06957e3e179638b266c6ed30fbd00b7a2998547",
+      "narrow_replacement_proof.json": "483f679e77975294ee686752608b91a5594220b0e0a2734c7c61fff2c0a53894"
+    },
+    "render_model_loads": 0,
+    "render_environment_steps": 0
+  },
+  "cache_adaptations": [
+    {
+      "file": "parent_plot.py",
+      "only_change": "private cache output root",
+      "parent_sha256": "047075ff1c594897d01db45898ba96658b7409634a356936eed14b62034793f5",
+      "derived_sha256": "ddf05503e6e49afb98d58a7ad11e20fe802c13f076315edd1c70a36997d56996"
+    }
+  ],
+  "parent_files_sha256": {
+    "data.csv": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+    "plotted_points.csv": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+    "figure_config.json": "fbe8e9ec044926bc6f0ef31212f2638a435d2ef94ba0c34e3ff1640c03a02175",
+    "presentation_style.py": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba",
+    "original_render_geometry.json": "b7d4c1e6b7897e0199bf732bf5a6283ae04a7fb67197e08e71791d8e259ae742",
+    "original_presentation_geometry.json": "7fa4d9bd6dd18d45e621a28e99567e90b01e81f1695af1ed2c019a6720b5ec2c",
+    "parent_source.json": "58f5b6d7c3ca1ac91203159efea781a34dbe0e6006414ee73599de20e514adbd",
+    "parent_plot.py": "047075ff1c594897d01db45898ba96658b7409634a356936eed14b62034793f5",
+    "parent_binding.json": "366defb1299507796c0876710803894cf947783a4a96678e1a0c2f294f7aacfe",
+    "plot.py": "eafe2d573ef902b04eedc707b0ce8c4b3ce58a33032f254f80c006445e4d4bb5",
+    "replot.py": "29859428bff27108161f6b09521eb7144fe0622dbb1c210974ff5ffc89781a2b",
+    "README.rst": "15e6b02181e31ccb5bceaeaf17a843fda5312b21192e8e048b6842fe04a52bfb",
+    "random_curve_by_seed.csv": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+    "random_plotted_points.csv": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
+    "random_aggregation_summary.json": "9fa181247d583d158b4de3d8b5805520fd49a47e6f5f4d43994f17768bd0ceff",
+    "random_aggregation_completion.json": "dc5e6186391f14d42ad85cb1699cd7b7029ef4e7479939f79159f57e57bc6327",
+    "audit_scientific_acceptance.json": "61ad30a625dbccf1a866f6e7e621cf1459fdd2acd70abe9bb2224f0cf423bd7b",
+    "audit_independent_full_numeric.json": "48585daaf0e3920d81fbf40e692f93f3989c57dd9ead94fa1f9c5e7064279a04",
+    "audit_aggregation_crosscheck.json": "a1e1c5b84d5870cdbbb7533f9e16dbd37d000a9e1cefc2b6774339b766cdd686",
+    "random_input_binding.json": "bba4713b0d964a0653c3202d5b729e0d11d5b259df70ebc524fd06c58cfeb8a1",
+    "parent_reproduction_geometry.json": "b7d4c1e6b7897e0199bf732bf5a6283ae04a7fb67197e08e71791d8e259ae742",
+    "current_display_points.csv": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+    "render_geometry.json": "0541ebb5f9f70d3defd4c182e06957e3e179638b266c6ed30fbd00b7a2998547",
+    "narrow_replacement_proof.json": "483f679e77975294ee686752608b91a5594220b0e0a2734c7c61fff2c0a53894",
+    "figure.pdf": "60daf663b3ff334915f12449cd85c7b69e85208d8d3eb2bd4f59078b598bf2a7",
+    "figure.png": "e802755b0258676597f43e51e27510b06bc58ddd2a1040388b8a0ad6b75a4b93",
+    "figure.svg": "e756420f8f618c7f04285550f36ba379622c4b0932de21daeeed72fdfb8c6072",
+    "source.json": "a7b7bce4a4bad0eea3aec8b9503cd3ed6145f07b2d3fafa8c25983c93f465afb"
+  },
+  "input_files_sha256": {
+    "data.csv": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+    "plotted_points.csv": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+    "figure_config.json": "fbe8e9ec044926bc6f0ef31212f2638a435d2ef94ba0c34e3ff1640c03a02175",
+    "presentation_style.py": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba",
+    "original_render_geometry.json": "b7d4c1e6b7897e0199bf732bf5a6283ae04a7fb67197e08e71791d8e259ae742",
+    "original_presentation_geometry.json": "7fa4d9bd6dd18d45e621a28e99567e90b01e81f1695af1ed2c019a6720b5ec2c",
+    "parent_source.json": "58f5b6d7c3ca1ac91203159efea781a34dbe0e6006414ee73599de20e514adbd",
+    "parent_plot.py": "ddf05503e6e49afb98d58a7ad11e20fe802c13f076315edd1c70a36997d56996",
+    "parent_binding.json": "366defb1299507796c0876710803894cf947783a4a96678e1a0c2f294f7aacfe",
+    "plot.py": "eafe2d573ef902b04eedc707b0ce8c4b3ce58a33032f254f80c006445e4d4bb5",
+    "replot.py": "29859428bff27108161f6b09521eb7144fe0622dbb1c210974ff5ffc89781a2b",
+    "random_curve_by_seed.csv": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+    "random_plotted_points.csv": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
+    "random_aggregation_summary.json": "9fa181247d583d158b4de3d8b5805520fd49a47e6f5f4d43994f17768bd0ceff",
+    "random_aggregation_completion.json": "dc5e6186391f14d42ad85cb1699cd7b7029ef4e7479939f79159f57e57bc6327",
+    "audit_scientific_acceptance.json": "61ad30a625dbccf1a866f6e7e621cf1459fdd2acd70abe9bb2224f0cf423bd7b",
+    "audit_independent_full_numeric.json": "48585daaf0e3920d81fbf40e692f93f3989c57dd9ead94fa1f9c5e7064279a04",
+    "audit_aggregation_crosscheck.json": "a1e1c5b84d5870cdbbb7533f9e16dbd37d000a9e1cefc2b6774339b766cdd686",
+    "random_input_binding.json": "bba4713b0d964a0653c3202d5b729e0d11d5b259df70ebc524fd06c58cfeb8a1",
+    "parent_reproduction_geometry.json": "b7d4c1e6b7897e0199bf732bf5a6283ae04a7fb67197e08e71791d8e259ae742",
+    "current_display_points.csv": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+    "render_geometry.json": "0541ebb5f9f70d3defd4c182e06957e3e179638b266c6ed30fbd00b7a2998547",
+    "narrow_replacement_proof.json": "483f679e77975294ee686752608b91a5594220b0e0a2734c7c61fff2c0a53894",
+    "source.json": "a7b7bce4a4bad0eea3aec8b9503cd3ed6145f07b2d3fafa8c25983c93f465afb"
+  },
+  "index_row": {
+    "图号": "4.4",
+    "图题": "各方法训练过程中的配置成效比较",
+    "章节目录": "chapter04_trajectory_reuse",
+    "图目录": "chapters/chapter04_trajectory_reuse/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "current_display_points.csv"
+  }
+}

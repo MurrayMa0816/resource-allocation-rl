@@ -1,0 +1,308 @@
+\newpage
+\onecolumn
+
+
+\clearpage
+% \appendix
+\section{Proofs and discussions}
+\label{section: proof and discussions}
+
+\subsection{Proof of Theorem~\ref{Theorem: Bounded estimation error}}
+\label{proof: Bounded estimation error}
+\begin{proof}
+In the proof, we omit the subscript $\fs \in \{r, c\}$ for notation simplicity. The results hold for both cost and reward Q functions.
+Denote $\boldsymbol{x_j} = [1, \tilde\epsilon_j, ..., \tilde\epsilon_j^p]$, $\boldsymbol{X}=[\boldsymbol{x_1}^T, ..., \boldsymbol{x_N}^T] \in \R^{(p+1)\times N}$. For each component $z_i$ of $\boldsymbol{z}$, it can be written as:
+\begin{equation}
+    z^*_i = \boldsymbol{\beta_i}^T \boldsymbol{x} + e_i; \quad i = 1, ..., M
+\end{equation}
+where $e_i$ is the remainder, and we regard it following the Gaussian distribution: $e_i \sim \Ncal(0, \sigma_i^2)$, and $\sigma_i \leq \sigma$. We divide the proof of the bounded estimation error into the following parts:
+    
+\textbf{(1) Estimation error bound depending on the threshold $\epsilon$ for generalization:} The objective of the Poly-regression is to find the optimal parameter $\beta_i$ such that it minimizes the Mean Squared Error:
+\begin{equation}
+    \boldsymbol{\hat{\beta}_i} := \arg \min_\beta \frac{1}{N} \| \boldsymbol{\beta_i}^T  \boldsymbol{X} -\boldsymbol{z}_i \|^2_2
+\end{equation}
+% \begin{equation}
+%     \hat{z}_i = \boldsymbol{\hat{\beta}_i}^T \boldsymbol{x}
+% \end{equation}
+The point estimation of $\boldsymbol{\beta_i}$ as:
+\begin{equation}
+    \hat{\boldsymbol{\beta}}_i = \left(\boldsymbol{X}^T \boldsymbol{X}\right)^{-1} \boldsymbol{X}^T \boldsymbol{z}_i
+\end{equation}
+Without loss of generality, we assume $e_i \sim \Ncal(0, \sigma^2), \forall i$ to derive a loosen bound. In this case, it can be verified that this estimator is unbiased, i.e., 
+$\E [ \hat{\boldsymbol{\beta}}_i ] = \boldsymbol{\beta}_i$, and the covariance matrix for $\hat{\boldsymbol{\beta}}_i$ is:
+\begin{equation}
+    cov(\hat{\boldsymbol{\beta}}_i) = (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{X}^T cov(z_i) \boldsymbol{X} (\boldsymbol{X}^T \boldsymbol{X})^{-1} = \sigma^2 (\boldsymbol{X}^T \boldsymbol{X})^{-1}
+\end{equation}
+Then the mean of $\psi_{i}(s, a) \hat{z}_i = \psi_{i}(s, a)\boldsymbol{\hat{\beta}_i}^T \boldsymbol{x}$ is:
+\begin{equation}
+    \E \ \psi_{i}(s, a) \hat{z}_i = \psi_{i}(s, a) \hat{z}^*_i
+\end{equation}
+and the variance of $\psi_{i}(s, a) \hat{z}_i = \psi_{i}(s, a)\boldsymbol{\hat{\beta}_i}^T \boldsymbol{x}$ is:
+\begin{equation}
+\begin{aligned}
+    \Var(\psi_{i}(s, a)\hat{z}_i)  = \psi_{i}^2(s, a)\boldsymbol{x}^T \Var(\hat{\boldsymbol{\beta}}_i) \boldsymbol{x} = \sigma^2\psi_{i}^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}
+\end{aligned}
+\end{equation}
+Then $\psi_{i}(s, a)\hat{z}_i$ follows the Gaussian distribution:
+\begin{equation}
+    \psi_{i}(s, a)\hat{z}_i \sim \Ncal(\psi_{i}(s, a) \hat{z}^*_i, \sigma^2\psi_{i}^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x})
+\end{equation}
+Assuming $\hat{z}_i$ are independent of each other, we can get the estimation error of the versatile Q function as:
+\begin{equation}
+\label{equ: gaussian bound}
+    w := \hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon) \sim \Ncal\left(0, \sum_{i=1}^{M} \sigma^2\psi_{i}^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}\right)
+\end{equation}
+% By Gauss-Markov Theorem, $\hat{Q}(s, a|\epsilon)$ is an unbiased and variance-minimizing estimator of ${Q}^*(s, a|\epsilon)$. 
+With~(\ref{equ: gaussian bound}), we can get the prediction error bound as:
+\begin{equation}
+\label{equ: gaussian prediction interval}
+    \Pr \left( -z_{{\alpha} / {2}} \leq \frac{\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)}{ \sqrt{\sum_{i=1}^{M} \sigma^2\psi_{i}^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}} } \leq z_{{\alpha} / {2}} \right) = 1 - \alpha 
+\end{equation}
+Also since $||\psi_{\fs, i}(s, a)|| \leq K_\fs$, with confidence level $1-\alpha$, we can get:
+\begin{equation}
+\label{equ: error bound depending on x}
+    ||\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)|| \leq z_{\alpha/2} \sqrt{ \sigma^2 \ M K^2 \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}},
+\end{equation}
+where $z_{\alpha/2}$ is the Z-score for the standard Gaussian distributions. Bound shown in~(\ref{equ: error bound depending on x}) depends on the choice of behavior policy conditions (encoded in $\boldsymbol{X}^T \boldsymbol{X}$) and the targeted threshold for adaptation (encoded in $\boldsymbol{x}$).
+
+\textbf{(2) Upper bound for all the threshold conditions:} In the next, we are going to find the upper bound for $\sqrt{\boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}}$ to derive an upper bound for any threshold $\epsilon$. First, we assume the threshold conditions for behavior policies are selected to divide the target condition interval $[\epsilon_L, \epsilon_H]$ evenly. We then show that given limited $N \leq N_{max}$, there exists $B_0(p)$ and $\beta_0(p)$ such that the estimation error bound can be presented as:
+\begin{equation}
+\label{equ: representation assumption}
+    ||\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)|| \leq \frac{B_0(p)}{N^{\beta_0(p)}}
+\end{equation}
+This result naturally holds since $\boldsymbol{\psi}(s, a)$ is bounded, and $z^*$ can be represented as a polynomial of normalized $\epsilon \in [0, 1]$ (Note that we have normalized the threshold conditions $\epsilon \in [\epsilon_L, \epsilon_H]$ to the interval $[0, 1]$ by $\epsilon = (\epsilon - \epsilon_L) / \epsilon_H$ for numerical stability). One trivial solution is a large enough $B(p)$ and $\beta(p)=0$. The problem is how can we find the tight estimate of $B(p)$ and $\beta(p)$. Here we use the numerical method to find the tight mappings from $p$ to $C$ and $\beta$. When $N \leq 20$, the results are shown as:
+\begin{equation}
+   \max_{\boldsymbol{x}} \sqrt{\boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x} } \leq \frac{B(p)}{N^{\beta(p)}},
+\end{equation}
+\input{Tables/appendix-beta}
+where $C(p)$ and $\beta(p)$ can be found in Table.~\ref{tab: beta and c}. Putting the results in \textbf{(1)} and \textbf{(2)} together and adding the subscript $\fs$ for Q functions and the parameter $K_\fs$, one can derive:
+\begin{equation}
+\label{equ: results for bounded error}
+    ||\hat{Q}_\fs(s, a|\epsilon) - Q_\fs^*(s, a|\epsilon)|| \leq \frac{B(p) z_{\alpha/2}}{N^{\beta(p)}} \sqrt{ \sigma^2 \ M K_\fs^2},
+\end{equation}
+which is claimed in~(\ref{equ: bounded safety violation}).
+\end{proof}
+% \textbf{(2) General case for unknown $\sigma$:} Denote ${\boldsymbol{Z}} = \boldsymbol{z}_i$ as arbitrary behavior policy vector, then the sum of squares due to regression (SSR) can be written as:
+% \begin{equation}
+% SSR={\boldsymbol{Z}}^T\left[\boldsymbol{X}\left(\boldsymbol{X}^T \boldsymbol{X}\right)^{-1} \boldsymbol{X}^T-\frac{1}{N} \mathbf{1} \mathbf{1}^T\right] {\boldsymbol{Z}}
+% \end{equation}
+% then we can derive the following $\chi^2$ distribution with $p$ degree.
+% \begin{equation}
+% \frac{S S R}{\sigma^2} \sim \chi^2(rank(X)-1)=\chi^2(p)
+% \end{equation}
+% Now, the definition of a student distribution random variable tells us that:
+% \begin{equation}
+% \begin{aligned}
+% T_i & =\frac{{\left(\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)\right)} / {\sqrt{\sum_{i=1}^{N} \sigma^2\psi_i^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}}}}{\sqrt{{S S R}/{\sigma^2}}} \\
+% & =\frac{\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)}{ \sqrt{SSR \ \sum_{i=1}^{N} \psi_i^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}} } \sim t_{p}
+% \end{aligned}
+% \end{equation}
+% The prediction interval for the estimation error can be found by manipulating the quantity inside the parentheses of a probability statement:
+% \begin{equation}
+%     \Pr \left( -t_{{\alpha} / {2}, p} \leq \frac{\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)}{ \sqrt{SSR \ \sum_{i=1}^{N} \psi_i^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}} } \leq t_{{\alpha} / {2}, p} \right) = 1 - \alpha 
+% \end{equation}
+% Then with confidence level $1-\alpha$, we can get:
+% \begin{equation}
+%     ||\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)|| \leq t_{{\alpha} / {2}, p} \sqrt{SSR \ \sum_{i=1}^{N} \psi_i^2(s, a) \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}}
+% \end{equation}
+% Since $\psi_i^2(s, a) \leq K^2$, we can get:
+% \begin{equation}
+%     ||\hat{Q}(s, a|\epsilon) - Q^*(s, a|\epsilon)|| \leq t_{{\alpha} / {2}, p} \sqrt{SSR \ M  K^2 \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}}
+% \end{equation}
+% Then putting case \textbf{(1)} and \textbf{(2)} together, we can get the prediction bound for the versatile Q functions as:
+% \begin{equation}
+% % \label{equ: general error bound}
+%     ||\hat{Q}_\fs(s, a|\epsilon) - Q_\fs^*(s, a|\epsilon)|| \leq t \sqrt{ \Delta^2 \ M K_\fs^2 \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}},
+% \end{equation}
+% where $t$ and $\Delta^2$ are determined by:
+% \begin{equation}
+% \begin{cases}t=z_{\alpha / 2}; \quad \Delta^2=\sigma^2 & \text { for known and small $\sigma$ } \\ t=t_{\alpha / 2, p}; \quad \Delta^2=S S R & \text {for unknown $\sigma$ }\end{cases}
+% \end{equation}
+% as claimed in Theorem~\ref{Theorem: Bounded estimation error}.
+
+
+% \subsection{Proof of Theorem~\ref{Theorem: Bounded estimation error} [Confidence interval]}
+% Denote the MSE loss for the poly-regression is:
+% \begin{equation}
+%     MSE = \frac{N-2}{N} \sum_{i=1}^{n} ||\tilde{z}_i-\hat{z}||_2^2
+% \end{equation}
+% Then the point estimation of mean $\mu_{z(\epsilon)}$ for the policy vector $z(\epsilon)$ by minimizing the MSE loss is:
+% \begin{equation}
+%     \hat{z}(\epsilon) = \hat{\alpha} + \hat{\beta} (x - \bar{x})
+% \end{equation}
+% With Poly-regression, we can get:
+% \begin{equation}
+% \hat{\alpha}_i \sim N\left(\alpha_i, \frac{\sigma^2}{n}\right); \quad \hat{\beta_i} \sim N\left(\beta_i, \frac{\sigma^2}{\sum_{i=1}^n\left(x_i-\bar{x}\right)^2}\right); \quad \frac{n \hat{\sigma}_i^2}{\sigma^2} \sim \chi_{(n-2)}^2
+% \end{equation}
+% where $\alpha_i$, $\beta_i$ are vector components of $\alpha$ and $\beta$, and $\hat{\sigma}_i$ denotes the estimation of variance for each component:
+% \begin{equation}
+% \hat{\sigma}_i^2 = \frac{1}{N} \sum_{j=1}^{N} ||(z_j-\hat{z})_i||_2^2,
+% \end{equation}
+% Therefore, $z$ is a linear combination of independent normal random variables with mean:
+% \begin{equation}
+% \mathbb{E}(\hat{z})=\mathbb{E}[\hat{\alpha}+\hat{\beta}(x-\bar{x})]=\mathbb{E}(\hat{\alpha})+(x-\bar{x}) \mathbb{E}(\hat{\beta})=\alpha+\beta(x-\bar{x})=\mu_{z},
+% \end{equation}
+% and variance:
+% \begin{equation}
+% \operatorname{Var}(\hat{z})=\operatorname{Var}[\hat{\alpha}+\hat{\beta}(x-\bar{x})]=\operatorname{Var}(\hat{\alpha})+(x-\bar{x})^2 \operatorname{Var}(\hat{\beta})=\sigma^2\left[\frac{1}{N}+\frac{(x-\bar{x})^2}{\sum\left(x_i-\bar{x}\right)^2}\right]
+% \end{equation}
+% Putting it all together, we have:
+% \begin{equation}
+% \hat{Z} \sim N\left(\mu_z, \sigma^2 I_M \left[\frac{1}{N}+\frac{(x-\bar{x})^2}{\sum\left(x_i-\bar{x}\right)^2}\right]\right)
+% \end{equation}
+% Similarly, we can get:
+% \begin{equation}
+% \hat{Q}(s, a | \epsilon) \sim N\left(Q(s, a | \epsilon), \sigma^2 ||\psi(s, a)||_2^2 M \left[\frac{1}{N}+\frac{(x-\bar{x})^2}{\sum\left(x_i-\bar{x}\right)^2}\right]\right)
+% \end{equation}
+% Now, the definition of a student (T) random variable tells us that:
+% \begin{equation}
+% T=\frac{\frac{\hat{Q}(s, a | \epsilon)-Q(s, a | \epsilon)}{\sigma \sqrt{ M \left(  \frac{1}{N}+\frac{(x-\bar{x})^2}{\sum\left(x_i-\bar{x}\right)^2}\right)}}}{\sqrt{\frac{N \hat{\sigma}^2}{\sigma^2} /(N-2)}}=\frac{\hat{Q}(s, a | \epsilon)-Q(s, a | \epsilon)}{\sqrt{M S E} \sqrt{ M \left( \frac{1}{N}+\frac{(x-\bar{x})^2}{\sum\left(x_i-\bar{x}\right)^2}\right) }} \sim t_{N-2}
+% \end{equation}
+% So, finding the confidence interval for $z$ reduces to manipulating the quantity inside the parentheses of a probability statement:
+% \begin{equation}
+% \hat{y} \pm t_{\alpha / 2, n-2} \sqrt{M S E} \sqrt{\frac{1}{N}+\frac{(x-\bar{x})^2}{\sum\left(x_i-\bar{x}\right)^2}}
+% \end{equation}
+
+% \subsection{Proof of Theorem~\ref{Theorem: Bounded estimation error} [Prediction interval]}
+% \begin{proof}
+% Denote:
+% \begin{equation}
+%     \hat{Q}(s, a|\epsilon) = Q^*(s, a | \epsilon) + E
+% \end{equation}
+% then since $\hat{Q}(s, a|\epsilon)= \psi^\top(s, a)z(\epsilon) = \psi^\top (s, a) (\text{Poly}(\epsilon)  + e) $, we can get:
+% \begin{equation}
+%     E \sim \Ncal(0, \sigma_2^2); \quad \sigma_2 \leq L M \sigma_1,
+% \end{equation}
+% Then denote $\hat{\alpha}, \hat{\beta}$ are learned parameters such that the model $z = \hat{\alpha} + x^{\top}\hat{\beta}$ minimizes the polynomial regression MSE loss function $L = \frac{1}{N} \sum_{i=1}^N ||z(\tilde{\epsilon}_i) - \bar{z}(\tilde{\epsilon}_i)||_2^2$, we can get:
+% \begin{equation}
+%     \hat{\alpha} \sim \Ncal(\alpha, \frac{\sigma_1^2 I_M}{N}); \quad \hat{\beta} \sim \Ncal(\beta, \frac{\sigma_1^2 I_M}{\sum_{i=1}^{N} ||x_i - \bar{x}||_2^2})
+% \end{equation}
+% The error of Q estimation is:
+% \begin{equation}
+%     W = Q^*(s, a | \epsilon) - \hat{Q}(s, a | \epsilon) = \psi^\top (s, a) (z^*(\epsilon) - \hat{z}(\epsilon)) = \psi^\top (s, a) (z^*(\epsilon) - \hat{\alpha} - \hat{\beta}(x-\bar{x})),
+% \end{equation}
+% which is a linear combination of independent normal random variables with mean:
+% \begin{equation}
+% \begin{aligned}
+% \mathbb{E}(w)=\psi^\top(s,a) \mathbb{E}\left[z^*(\epsilon)-\hat{\alpha}-\hat{\beta}\left(x-\bar{x}\right)\right] & =\mathbb{E}\left[z^*(\epsilon)\right]-\mathbb{E}[\hat{\alpha}]-\left(x_{n+1}-\bar{x}\right) \mathbb{E}[\hat{\beta}] \\
+% & =\alpha+\beta\left(x-\bar{x}\right)-\alpha-\left(x-\bar{x}\right) \beta \\
+% & =0
+% \end{aligned}
+% \end{equation}
+% and variance:
+% \begin{equation}
+% \begin{aligned}
+% \operatorname{Var}(w)& =\psi^\top(s,a) \operatorname{Var}\left[Y_{n+1}-\hat{\alpha}-\hat{\beta}\left(x_{n+1}-\bar{x}\right)\right] \psi(s,a) \\
+% & = \psi^\top(s,a) \left( \operatorname{Var}\left(Y_{n+1}\right)+\operatorname{Var}(\hat{\alpha})+\left(x_{n+1}-\bar{x}\right)^2 \operatorname{Var}(\hat{\beta}) \right) \psi(s,a) \\
+% & = || \psi(s,a) ||_2^2 \left( \sigma_1^2+\frac{\sigma_1^2}{N}+\frac{||x-\bar{x}||_2^2 \sigma_1^2}{\sum ||x_i-\bar{x}||_2^2} \right) \\
+% & = || \psi(s,a) ||_2^2 \ \sigma_1^2\left(1+\frac{1}{N} + \frac{||x-\bar{x}||_2^2}{\sum ||x_i-\bar{x}||_2^2}\right)
+% \end{aligned}
+% \end{equation}
+% Putting it all together, we have:
+% \begin{equation}
+% W=\left(Q^*(s, a | \epsilon) - \hat{Q}(s, a | \epsilon)\right) \sim N\left(0, || \psi(s,a) ||_2^2 \ \sigma_1^2\left(1+\frac{1}{N}+\frac{||x-\bar{x}||_2^2}{\sum ||x_i-\bar{x}||_2^2}\right) \right)
+% \end{equation}
+% Now, the definition of a student distribution random variable tells us that:
+% \begin{equation}
+% \begin{aligned}
+% T & =\frac{{\left(Q^*(s, a | \epsilon) - \hat{Q}(s, a | \epsilon)\right)} / {\sqrt{|| \psi(s,a) ||_2^2 \ \sigma_1^2\left(1+\frac{||x-\bar{x}||_2^2}{\sum ||x_i-\bar{x}||_2^2}\right)}}}{\sqrt{\frac{ N \hat{\sigma_1}^2}{\sigma_1^2} /(N-2)}} \\
+% & =\frac{\left(Q^*(s, a | \epsilon) - \hat{Q}(s, a | \epsilon)\right)}{\sqrt{ L || \psi(s,a) ||_2^2 } \sqrt{1+\frac{1}{N}+\frac{||x-\bar{x}||_2^2}{\sum ||x_i-\bar{x}||_2^2}}} \sim t_{N-2}
+% \end{aligned}
+% \end{equation}
+% Consequently, the prediction interval for the estimation error can be found by manipulating the quantity inside the parentheses of a probability statement:
+% \begin{equation}
+%     \Pr \left( -t_{{\alpha} / {2}, N-2} \leq \frac{\left(Q^*(s, a | \epsilon) - \hat{Q}(s, a | \epsilon)\right)}{\sqrt{ L || \psi(s,a) ||_2^2 } \sqrt{1+\frac{1}{N}+\frac{||x-\bar{x}||_2^2}{\sum ||x_i-\bar{x}||_2^2}}} \leq t_{{\alpha} / {2}, N-2} \right) = 1 - \alpha
+% \end{equation}
+% Upon doing the manipulation, we get that a $(1-\alpha) 100\%$ prediction interval for $Q^*(s,a|\epsilon)$ is:
+% \begin{equation}
+%     \hat{Q}(s,a|\epsilon) \pm t_{{\alpha} / {2}, N-2} \sqrt{ L || \psi(s,a) ||_2^2 } \sqrt{1+\frac{1}{N}+\frac{||x-\bar{x}||_2^2}{\sum ||x_i-\bar{x}||_2^2}} 
+% \end{equation}
+% as was to be proved.
+% \end{proof}
+
+
+% \subsection{Proof and discussion of proposition~\ref{proposition: bounded safety violation}}
+% \label{proof: bounded safety violation}
+
+% \subsection{Proof and discussion of proposition~\ref{proposition: sampling efficiency}}
+% \label{proof: sampling efficiency}
+
+\subsection{Proof of Proposition~\ref{proposition: bounded safety violation}}
+\label{proof: bounded safety violation}
+\begin{proof}
+With the definition of the versatile safe RL, the optimal policy $\pi^*$ should satisfy the constraint:
+\begin{equation}
+    V_c^{\pi^*(\mu_0|\epsilon)} \leq \epsilon,
+\end{equation}
+Consequently, with confidence $1-\alpha$:
+\begin{equation}
+\begin{aligned}
+  V_c^{\pi(\mu_0|\epsilon)} - \epsilon & \leq V_c^{\pi(\mu_0|\epsilon)} - V_c^{\pi^*(\mu_0|\epsilon)} \\
+  & = \E_{s_0 \sim \mu_0, a \sim \pi(\cdot | \epsilon)} \left[ Q_c(s, a|\epsilon) - Q_c^*(s, a|\epsilon) \right] \\
+  & \leq \max_{(s, a)} Q_c(s, a|\epsilon) - Q_c^*(s, a|\epsilon) \\
+  & \leq \frac{z_{\alpha/2} B(p)}{N^{\beta(p)}}  \sqrt{ \sigma^2 K_\fs^2 M },
+  % \vspace{-5p}
+\end{aligned}
+\end{equation}
+where the last inequality comes from Theorem~\ref{Theorem: Bounded estimation error}.
+\end{proof}
+
+% \subsection{Proof of the E-step objective (\ref{eq:estep_objective})}
+
+\subsection{Proof of the closed-form solution (\ref{eq:optimalq_theorem})}
+The closed-form solution is mainly derived from the EM-style safe RL training framework, and more details could be found in Appendix A.2 in~\cite{liu2022constrained}. For self-contained, we briefly introduce them as follows.
+\label{app_subsection: Proof of the closed-form solution}
+\begin{proof}
+It should be noticed that we have an inherent constraint for $q(\cdot |s, \epsilon_i )$ to be a valid distribution:
+\begin{equation}
+    \int q(a | s, \epsilon_i) da = 1, \quad \forall s \sim \rho_q
+\end{equation}
+
+Then to solve the constrained optimization problem, we first convert it to the equivalent Lagrangian function:
+\begin{align}
+    L(q,\lambda, \eta, \kappa) & = \int \rho_q(s) \int q(a|s) \hat{Q}^{\pi_{\theta_j}}_r(s,a|\epsilon_i) da ds \\
+    &+ \lambda \left( \epsilon_i - \int\rho_q(s)\int q(a|s, \epsilon_i) \hat{Q}^{\pi_{\theta_j}}_c(s,a|\epsilon_i) dads \right) \\ 
+    & + \eta \left(\kappa - \int\rho_q(s)\int q(a|s, \epsilon_i) \log \frac{q(a|s, \epsilon_i)}{\pi(a|s, \epsilon_i)}dads \right) \\
+    &+ \kappa \left(1 - \int\rho_q(s)\int q(a|s, \epsilon_i)dads \right),
+    \label{eq:lagrangian}
+\end{align}
+where $\lambda, \eta, \kappa$ are the Lagrange multipliers for the constraints. 
+Since the objective is linear and all constraints are convex (note that KL is convex), the E-step optimization problem is convex.
+Then we obtain the equivalent dual problem:
+\begin{equation}
+    \min_{\lambda, \eta, \kappa} \max_{q(\cdot | \epsilon_i)} L(q(\cdot | \epsilon_i), \lambda, \eta, \kappa).
+    \label{eq:dual_formulation}
+\end{equation}
+
+Take the derivative of the Lagrangian function w.r.t $q$:
+\begin{equation}
+    \frac{\partial L}{\partial q(\cdot | \epsilon_i)} = \hat{Q}^{\pi_{\theta_j}}_r(s,a| \epsilon_i) - \lambda \hat{Q}^{\pi_{\theta_j}}_c(s,a| \epsilon_i) - \eta - \kappa - \eta\log\frac{q(a|s, \epsilon_i)}{\pi(a|s, \epsilon_i)}.
+    \label{eq:q_partial}
+\end{equation}
+
+Let (\ref{eq:q_partial}) be zero, then we have the form of the optimal $q$ distribution:
+\begin{align}
+    q^*(a|s, \epsilon_i) = {\pi_{\theta_j}}(a|s, \epsilon_i) \exp\left(\frac{\hat{Q}_r(s,a|\epsilon_i) - \lambda \hat{Q}_c(s,a|\epsilon_i)}{\eta}\right) \exp\left(-\frac{\eta+\kappa}{\eta}\right),
+    \label{eq:optimalq}
+\end{align}
+where $\exp\left(-\frac{\eta+\kappa}{\eta}\right)$ could be viewed as a normalizer for $q(a|s, \epsilon_i)$ since it is a constant that is independent of $q(\cdot | \epsilon_i)$. Thus, we obtain the following form of the normalizer by integrating the optimal $q(\cdot | \epsilon_i)$:
+\begin{align}
+    \exp\left(\frac{\eta+\kappa}{\eta}\right) = \int \pi_{\theta_j}(a|s, \epsilon_i) \exp\left(\frac{Q_r^{\pi_{\theta_j}}(s,a|\epsilon_i) - \lambda Q_c^{\pi_{\theta_j}}(s,a|\epsilon_i)}{\eta}\right) da,
+    \label{eq:normalizer}
+\end{align}
+\begin{align}
+    \frac{\eta+\kappa}{\eta} = \log\int {\pi_{\theta_j}}(a|s, \epsilon_i) \exp\left(\frac{\hat{Q}^{\pi_{\theta_j}}_r(s,a | \epsilon_i) - \lambda \hat{Q}^{\pi_{\theta_j}}_c(s,a| \epsilon_i)}{\eta}\right) da.
+    \label{eq:normalizer2}
+\end{align}
+Take the optimal $q$ distribution in Equation~(\ref{eq:optimalq}) and $\frac{\eta+\kappa}{\eta}$ in Equation~(\ref{eq:normalizer2}) back to the Lagrangian function~(\ref{eq:lagrangian}), we can find that most of the terms are cancelled out, and obtain the dual function $g(\eta, \lambda)$,
+\begin{align}
+    g(\eta, \lambda) = \lambda \epsilon_i + \eta \kappa + \eta \int \rho_q(s) \log \int \pi(a|s, \epsilon_i) \exp\left(\frac{\hat{Q}^{\pi_{\theta_j}}_r(s,a | \epsilon_i) - \lambda \hat{Q}^{\pi_{\theta_j}}_c(s,a | \epsilon_i)}{\eta}\right) da ds.
+    \label{eq:dual}
+\end{align}
+The optimal dual variables are calculated by
+\begin{align}
+   \eta^*, \lambda^* = \arg\min_{\eta, \lambda} g(\eta, \lambda).
+\label{eq:optimal_dual}
+\end{align}
+\end{proof}
+A good property is that the dual function (\ref{eq:optimal_dual}) is convex (as revealed in appendix A.3 of~\cite{liu2022constrained}), so we could use off-the-shelf convex optimization tools to solve the dual problem.

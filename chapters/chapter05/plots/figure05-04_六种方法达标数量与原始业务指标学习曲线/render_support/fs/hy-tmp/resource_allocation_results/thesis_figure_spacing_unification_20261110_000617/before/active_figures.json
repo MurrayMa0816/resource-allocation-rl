@@ -1,0 +1,42 @@
+[
+  {
+    "图号": "2.4",
+    "图题": "各方法训练过程中的配置效果对比",
+    "章节目录": "chapter02_high_dimensional",
+    "图目录": "chapters/chapter02_high_dimensional/figures/figure02-04_各方法十五万步开发评估_默认随机输出头",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "",
+    "绘图程序": "plot.py",
+    "绘图数据": "data.csv"
+  },
+  {
+    "图号": "3.4",
+    "图题": "各方法训练过程中的配置效果对比",
+    "章节目录": "chapter03_intertemporal",
+    "图目录": "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "data.csv.gz"
+  },
+  {
+    "图号": "4.4",
+    "图题": "各方法训练过程中的配置成效比较",
+    "章节目录": "chapter04_trajectory_reuse",
+    "图目录": "chapters/chapter04_trajectory_reuse/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "current_display_points.csv"
+  },
+  {
+    "图号": "5.4",
+    "图题": "各方法训练过程中的达标数量与平均成效",
+    "章节目录": "chapter05_dual_value",
+    "图目录": "chapters/chapter05_dual_value/figures/figure05-05_六种方法达标数量与原始业务指标学习曲线",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "inputs/data/learning_display.csv"
+  }
+]

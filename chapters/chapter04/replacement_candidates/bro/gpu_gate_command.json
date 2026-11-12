@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/hy-tmp/resource_allocation_results/chapter4/recent_baselines_ready_20261102/runtime/jax/bin/python",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/bro/zero_env_gate.py",
+    "--device", "cuda:0",
+    "--output", "/hy-tmp/resource_allocation_results/chapter4/candidate_pool_expansion_20261105/bro/gpu_gate"
+  ],
+  "execute_by": "root only after independent device and resource admission",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+    "JAX_PLATFORMS": "cuda",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+    "JAX_ENABLE_COMPILATION_CACHE": "false",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "XLA_FLAGS": "--xla_cpu_multi_thread_eigen=false",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "additional_runtime_requirement": "Use the existing working local NVIDIA library LD_LIBRARY_PATH as in the prior SR JAX CUDA gate; do not install a large new backend.",
+  "environment_steps": 0,
+  "synthetic_compute_per_two_domains": {"full_BRO_iterations": 16, "standalone_critic_updates": 4, "synthetic_transition_insertions": 5002},
+  "status": "prepared_not_executed_by_implementation_agent"
+}

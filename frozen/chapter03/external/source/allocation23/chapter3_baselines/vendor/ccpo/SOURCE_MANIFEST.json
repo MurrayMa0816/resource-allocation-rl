@@ -1,0 +1,14 @@
+{
+  "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/29906cbd165b78991da2c4dbabc2a04b-Abstract-Conference.html",
+  "source_archive": "https://arxiv.org/src/2310.03718v2",
+  "official_code_repository": null,
+  "official_code_commit": null,
+  "official_code_license": null,
+  "implementation": "Independent paper-derived implementation; no author-code equivalence claimed",
+  "files_sha256": {
+    "appendix-implementation.tex": "6bad54e86ddc71e2ebd64975dcd9c486cc2cf0a5b94bcc400ee59f1ea8594990",
+    "appendix-proof.tex": "66ba032c60de0ad67740a37bc8214164a05327f9a91a95aa31ac2a1c5a6761b4",
+    "sec4-method.tex": "36c8a1763996f4bd6851ff08a1f78e4d28aef52646910733e69633b71055c130"
+  },
+  "author_algorithm_draft_note": "Algorithm blocks in the provided implementation appendix are commented-out TeX drafts, not a claimed published final Algorithm1. Critic and model definitions are active appendix text."
+}

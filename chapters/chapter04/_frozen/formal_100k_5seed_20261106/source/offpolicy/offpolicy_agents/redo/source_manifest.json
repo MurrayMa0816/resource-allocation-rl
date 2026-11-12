@@ -1,0 +1,79 @@
+{
+  "schema": "redo-source-frozen-v2-steady-graph",
+  "created_utc": "2026-11-05T12:08:25.336219+00:00",
+  "maintained_source": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo",
+  "physical_source": "/hy-tmp/resource_allocation_project_code_20261105/chapter04/replacement_candidates/redo",
+  "files": {
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/DELIVERY.json": "9283a568122503285be5e1a5362dbc382d54d0dd10aaf9c5570b79a09eb4a9b5",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/LICENSE": "e47b2783cb7131207707c35d0aea22277aa1beded6bf9d7c2436cd7de9462323",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/PROVENANCE.json": "3be22484eea2166085a273213442fc660845c53cb7a5dde58eaaea3bdd0df8ef",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/README.rst": "398717dc85ecb3b6595567939e88637822a60bb06069cded1e00fbc2d1a26808",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/README_eager_reference.rst": "ddbf2d955beb721fff16102e8ccafac1c659a523db1f00142552dfceeae759cf",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/agent.py": "e3f4c13f94ac3ae51ee824103f950a0870d6def666b38c0224c8e83a8fdfeb19",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/gpu_gate_command.json": "d6d1f0a07643dabfb35fb9394135fe3cd2d26b98d8f40e74128427e29860fd04",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/gpu_synthetic_gate.py": "43e10c9cd687e94f316675865f63461c16aca2ece5249331c9acf37fb71e17fa",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/graph_agent.py": "1eac6ae3c177d50fd98d66eaa5ee3b71e523e791cc0eca808f106df4d7339d6f",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/networks.py": "ef61761eae18c62dd303c6a80b85302ddb708d185231790c7503350ccc35be0e",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/runtime_environment.json": "456f7146d62828cbcfa72dec72c2e01376b883f3f27526c28fadd4601b28f221",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/scientific_profile.json": "93e04b44c9f50b1e999a63c0adb7b75e541c06774836b938e45b830f00d9213f",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/source_manifest_eager_reference.json": "2b1626bda694ff2a6f5ca78f88d576f9ac27c9fad460946bb35e0b9e194b26ff",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/steady_graph.py": "7f65fcc914462b72d4f7bd9004dd22b0475772a7e96dd549db6f42557a5e1821",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/steady_graph_gate.py": "efa6a5089f876c099fc2b8ed80873a8bb860797be1d65769a4b05b1393c4c3d9",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/test_zero_env.py": "5e05e5b7d47f6128550115e2343c22e2d1a0120add2358b5ddd4f08d88ac8f5e"
+  },
+  "external_scientific_sources": {
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/LICENSE": "e47b2783cb7131207707c35d0aea22277aa1beded6bf9d7c2436cd7de9462323",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/author_files/configs/sac_mujoco_dense_config.gin": "35f8f3d374d32ada4f3f28f01c0283cdfe115a8d1a87589ac4a4b044ec781c17",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/author_files/sac_train_eval.py": "d992d7d4c7d41359a3df926ed788156774467df82c870fb220b41fcfe0609a77",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/rigl_sparse_tanh_projection.py": "8f690938bedbdd2957f3a3c0979a1fdffb9749f5ecaee64da8a11a41b59acc53",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/tf_agents_sac_agent_v0.11.0.py": "ad60745090a59bcfc00b6e336f93eca87d7052924ae0e028dc2170d7ddc7bd2e",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/tf_agents_tanh_projection_v0.11.0.py": "9b979cee646b58cf23eaa373312fb8ca9a2abd27dfbb0b0df3980e8f9de30da2"
+  },
+  "CPU_zero_Env_gate": {
+    "path": "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/zero_env_gate.json",
+    "sha256": "fdaf79836069782800bf6bd661e27c702148fa0c8af7744d2f58138fc0fb9df2"
+  },
+  "dependencies": [
+    "Python3.11",
+    "NumPy",
+    "Torch2.5.1 from existing native torch runtime",
+    "existing CUDA shared libraries for root-approved GPU invocation"
+  ],
+  "no_TensorFlow_RigL_Reverb_runtime_install_required": true,
+  "interface": {
+    "class": "replacement_candidates.redo.agent.Agent",
+    "act": "act(obs, deterministic=False) -> bounded numpy action; training warmup honored",
+    "DEV": "policy_action(obs, deterministic=False) -> actual actor; no warmup",
+    "transition": "observe(obs, action, reward, next_obs, done) -> steps/updates/new recycle_events",
+    "counter": "steps, n_updates",
+    "endpoint": "save(path), Agent.load(path, device), inference only",
+    "diagnostics": "diagnostics(), native_state_fingerprint()"
+  },
+  "GPU_synthetic_command": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/gpu_gate_command.json",
+  "prepared_only_no_GPU_or_physical_training": false,
+  "resource_request": {
+    "CPU_cores": 1,
+    "RAM_GiB": 2,
+    "GPU_MiB": 2048,
+    "disk_MiB": 64,
+    "GPU_peak_unmeasured": true
+  },
+  "execution_variant": "steady_graph",
+  "factory": "replacement_candidates.redo.graph_agent.Agent",
+  "eager_reference_agent_sha256": "e3f4c13f94ac3ae51ee824103f950a0870d6def666b38c0224c8e83a8fdfeb19",
+  "previous_eager_manifest": {
+    "path": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/source_manifest_eager_reference.json",
+    "sha256": "2b1626bda694ff2a6f5ca78f88d576f9ac27c9fad460946bb35e0b9e194b26ff",
+    "role": "historical metadata, original eager core still present"
+  },
+  "root_steady_graph_gate": {
+    "path": "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/redo/steady_graph_gate.json",
+    "sha256": "002e989cb2c43b4d10acff2858d8989024bfa79894f2794ea9a550451e2c69c7"
+  },
+  "root_eager_GPU_gate": {
+    "path": "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/redo/gpu_synthetic_gate.json",
+    "sha256": "8698a6265002e1de3acd8db04be3da6b81f9b5aa5bf283828dcf2326b8a51d58"
+  },
+  "scientific_training_started_by_this_agent": false,
+  "GPU_executed_by": "root engineering gates only"
+}

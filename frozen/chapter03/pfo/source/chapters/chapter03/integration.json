@@ -1,0 +1,74 @@
+{
+  "schema": "chapter3-separated-platform-integration-v1",
+  "status": "PASS_PFO_FORMAL100608_NATIVE_READY",
+  "chapter": 3,
+  "project_logical_directory": "/root/gamewar/resource_allocation_rl/chapters/chapter03",
+  "physical_directory": "/hy-tmp/resource_allocation_project_code_20261105/chapter03",
+  "actual_source": "/hy-tmp/resource_allocation_project_code_20261105/chapter03/src/chapter3_candidates",
+  "compatibility_package": "/root/gamewar/resource_allocation_rl/allocation23/chapter3_candidates",
+  "python_package_name": "allocation23.chapter3_candidates",
+  "entrypoint": "chapters/chapter03/launcher.py",
+  "main_method": "A",
+  "ablations": 4,
+  "comparators": [
+    "c_ppo",
+    "pfo",
+    "gradient_ppo",
+    "reflective_ppo",
+    "ppo_plus"
+  ],
+  "configuration_files": [
+    "configs/current.json",
+    "configs/baselines.json",
+    "configs/ablations.json"
+  ],
+  "one_actual_source_copy": true,
+  "shared_physics": "allocation23.environments",
+  "shared_spatial_policy": "allocation23.methods",
+  "shared_PPO_update": "allocation23.learning",
+  "no_formal_training_started": true,
+  "historical_compatibility_comparators": [
+    "crossq"
+  ],
+  "formal_adoption_record": "releases/pfo_user_adoption_20261106.json",
+  "PFO100608_ready": true,
+  "PFO100608_blocker": null,
+  "formal_PFO_training_started": false,
+  "historical_directory_split_20261105": {
+    "unaltered_learning_files": 27,
+    "path_only_adaptations": {
+      "runner.py": {
+        "before": "f10f5bea1cb88db51387f094eba248b132e8dd9faa6f938f1cdaf0f686ba183a",
+        "after": "2147ce871a62a69edaa2e90c5a527e5f12e2f149baf19622ce84ccbb2af68a36"
+      },
+      "native.py": {
+        "before": "0b986429596cee2ebc8a4e1896087af057556b67a8f7b926c162070e6f11d815",
+        "after": "7f7f695c9fba9f4b15eb953dfa1d21c62caed7f2f72e733e631e54cb0761382d"
+      }
+    },
+    "native_validation_scope": "/hy-tmp/resource_allocation_results/chapter23_directory_split_20261105",
+    "final_layout_audit_root": "/hy-tmp/resource_allocation_results/chapter23_directory_split_20261105",
+    "chapter_workflow_native_gate": {
+      "path": "/hy-tmp/resource_allocation_results/chapter23_directory_split_20261105/native_A_summary.json",
+      "sha256": "218d4978c45ee2914942ba83f4aa11c18f61ec95ec3ddb6ea20b2bd97c7a6dd7"
+    },
+    "regression_tests": {
+      "path": "/hy-tmp/resource_allocation_results/chapter23_directory_split_20261105/pytest_verification.json",
+      "sha256": "972021ba753ae7d742d8c99c23c8defd3ed7a0c27d3f6c1647866c97416ddd21",
+      "passed": 56
+    },
+    "five_comparators_both_native_domains": {
+      "path": "/hy-tmp/resource_allocation_results/chapter23_directory_split_20261105/chapter3_native/summary.json",
+      "sha256": "223f35a90beda2302263c7a538161a925caaaece3c6b4771b97c3b61434d55a0"
+    },
+    "native_raw_data_audit": {
+      "path": "/hy-tmp/resource_allocation_results/chapter23_directory_split_20261105/chapter3_native/independent_raw_data_audit.json",
+      "sha256": "655c6d85a8a3b80e7d0ef956555a0f943162ed89254daea223f88376ea7ef1ff"
+    },
+    "native_gate_pending": false
+  },
+  "native_gate_pending": false,
+  "pending_gate_scope": null,
+  "PFO_budget_failfast_before_environment": true,
+  "current_integration_audit": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/preflight/tail_native_gate.json"
+}

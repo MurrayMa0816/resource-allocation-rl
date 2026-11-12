@@ -1,0 +1,32 @@
+{
+  "figure": "figure04-02_TRoC的总体框架",
+  "paths_relative_to_final_data_root": true,
+  "data_package": "chapters/chapter04/figures/figure04-02_TRoC的总体框架",
+  "legacy_data_package": "chapters/chapter04/figures/figure04-02_TRoC的总体框架",
+  "code_package": "chapters/chapter04/plots/figure04-02_TRoC的总体框架",
+  "source_files": [
+    {
+      "relative": "source.drawio",
+      "sha256": "45c5e9dc2c33fd0804d9614f3c19577a960ef73fef161dfd3328c9a87ccbd401",
+      "size": 16990
+    },
+    {
+      "relative": "README.rst",
+      "sha256": "77dce54694407ffe146cc58479a496078cab68816f37dd1c8f83da16cc1611b0",
+      "size": 595
+    },
+    {
+      "relative": "source.json",
+      "sha256": "37edf7dd46afe3f8f6e3d3a997a62e52a6b0ebc282688d587873df22533a3647",
+      "size": 8191
+    },
+    {
+      "relative": "CONTENTS.json",
+      "sha256": "77034521ab16b43cc2f509313da64f59902252b4e6037acae72385c5b90194ca",
+      "size": 674
+    }
+  ],
+  "numerical_data_is_not_duplicated_in_ROOT": true,
+  "no_FS_links": true,
+  "role": "maintained exact renderer version plus explicit DATA input package"
+}

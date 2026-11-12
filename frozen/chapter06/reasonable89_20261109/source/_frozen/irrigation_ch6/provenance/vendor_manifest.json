@@ -1,0 +1,257 @@
+{
+  "original_package": "irrigation-allocation-rl",
+  "original_version": "2.0.0",
+  "physical_case": "Hongmiao93-v2",
+  "purpose": "frozen independent physical core for the chapter 6 application; originals untouched",
+  "namespace_adaptations": [
+    "resource lookups now name irrigation_ch6._core",
+    "private __init__ omits historical Gym registration side effects"
+  ],
+  "files": [
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/_direct_kernel.py",
+      "destination": "src/irrigation_ch6/_core/_direct_kernel.py",
+      "original_sha256": "fb82ff8e335c1f35c35fb2a685de5f05db63525da09dbeb5025b4fffa6a0157b",
+      "vendored_sha256": "fb82ff8e335c1f35c35fb2a685de5f05db63525da09dbeb5025b4fffa6a0157b",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/chapters.py",
+      "destination": "src/irrigation_ch6/_core/chapters.py",
+      "original_sha256": "1ee18fed7790eb4fb611017d56692f0c0b3abbe30d42d98a086ae2b310a2fa3d",
+      "vendored_sha256": "1ee18fed7790eb4fb611017d56692f0c0b3abbe30d42d98a086ae2b310a2fa3d",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/compact_observation.py",
+      "destination": "src/irrigation_ch6/_core/compact_observation.py",
+      "original_sha256": "5430d126d94f3efa4851e4725705a61a14960c39cb655c8bc93d5e66276c7e01",
+      "vendored_sha256": "5430d126d94f3efa4851e4725705a61a14960c39cb655c8bc93d5e66276c7e01",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/direct_env.py",
+      "destination": "src/irrigation_ch6/_core/direct_env.py",
+      "original_sha256": "a16d68aa701fcbb1f571552c651c471ce899a5fb759b7db0ab6ce33e69af8081",
+      "vendored_sha256": "a16d68aa701fcbb1f571552c651c471ce899a5fb759b7db0ab6ce33e69af8081",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/direct_execution.py",
+      "destination": "src/irrigation_ch6/_core/direct_execution.py",
+      "original_sha256": "b4d6ff64c60eabc4d351b29b1c4cf310dba4df3c9a7e82971b06103be245bd31",
+      "vendored_sha256": "b4d6ff64c60eabc4d351b29b1c4cf310dba4df3c9a7e82971b06103be245bd31",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/direct_recording.py",
+      "destination": "src/irrigation_ch6/_core/direct_recording.py",
+      "original_sha256": "314d399d7bfc0d492153bb2a7c1050e74060bfd82f5d0b874d272425124b0602",
+      "vendored_sha256": "314d399d7bfc0d492153bb2a7c1050e74060bfd82f5d0b874d272425124b0602",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/direct_scenarios.py",
+      "destination": "src/irrigation_ch6/_core/direct_scenarios.py",
+      "original_sha256": "e05f452f0297d70adc9adaebc9c6791dded3446eb057cc8ea6d0a36c02a4c8b7",
+      "vendored_sha256": "e05f452f0297d70adc9adaebc9c6791dded3446eb057cc8ea6d0a36c02a4c8b7",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/direct_step_view.py",
+      "destination": "src/irrigation_ch6/_core/direct_step_view.py",
+      "original_sha256": "4bdaa4d15f4fff7722bbef7b6e7a23038412a8f24ca388a7a88a4e115bcdcde7",
+      "vendored_sha256": "4bdaa4d15f4fff7722bbef7b6e7a23038412a8f24ca388a7a88a4e115bcdcde7",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/direct_visualization.py",
+      "destination": "src/irrigation_ch6/_core/direct_visualization.py",
+      "original_sha256": "fdc458cad082d54822b519ac64ffd8aa41ee7f7855b239fd682ced8da9b362b1",
+      "vendored_sha256": "fdc458cad082d54822b519ac64ffd8aa41ee7f7855b239fd682ced8da9b362b1",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/field.py",
+      "destination": "src/irrigation_ch6/_core/field.py",
+      "original_sha256": "fa96d8d5e70cee129fdf0fe3920fc9d97c2c8358550957324b3e2f717fa43b02",
+      "vendored_sha256": "fa96d8d5e70cee129fdf0fe3920fc9d97c2c8358550957324b3e2f717fa43b02",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/hongmiao.py",
+      "destination": "src/irrigation_ch6/_core/hongmiao.py",
+      "original_sha256": "576fcf248efe64504df0c3a5767866151a012f876e9074a3115fcbb0f033e3b6",
+      "vendored_sha256": "8a75d2a270c1375495f94ae5591a4ec4d8840c590100187f4c257af841d1cf7f",
+      "adaptation": "resource package namespace only"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/hongmiao_layout.py",
+      "destination": "src/irrigation_ch6/_core/hongmiao_layout.py",
+      "original_sha256": "d61c8ad52a289c4b72529b4159a6cc3211f7ac23304ab31c950794302255345c",
+      "vendored_sha256": "6c2fa2b34e3bfc5e4bd5647f249a679e8568967bc8fc372d99184e38e78b4b0c",
+      "adaptation": "resource package namespace only"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/outcomes.py",
+      "destination": "src/irrigation_ch6/_core/outcomes.py",
+      "original_sha256": "c88911f0883e2a0dc1416a70c6a4b3b6b146f417c5c25c5614a6d2a3c36af70c",
+      "vendored_sha256": "c88911f0883e2a0dc1416a70c6a4b3b6b146f417c5c25c5614a6d2a3c36af70c",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/regional_guarantee.py",
+      "destination": "src/irrigation_ch6/_core/regional_guarantee.py",
+      "original_sha256": "4b5cca1f0b4faa8e0d0b2dbbe7cb3f00ae2725567d1c885935e7be6f53f55db1",
+      "vendored_sha256": "4b5cca1f0b4faa8e0d0b2dbbe7cb3f00ae2725567d1c885935e7be6f53f55db1",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/scarcity.py",
+      "destination": "src/irrigation_ch6/_core/scarcity.py",
+      "original_sha256": "6ecd1329d0399e99863c7846aa610db9eeb6e93b52a04b833fe5982f73b1fb8d",
+      "vendored_sha256": "6ecd1329d0399e99863c7846aa610db9eeb6e93b52a04b833fe5982f73b1fb8d",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/validation.py",
+      "destination": "src/irrigation_ch6/_core/validation.py",
+      "original_sha256": "fb6085fd505f73d5ffbd31198976bd1b23bb087814c07d957967d29271cb49cd",
+      "vendored_sha256": "0d295c79b42d3bf0fd444585601d979f6f9bab84947eaa2559f3626fe6b94c8c",
+      "adaptation": "resource package namespace only"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/weather.py",
+      "destination": "src/irrigation_ch6/_core/weather.py",
+      "original_sha256": "e08d17740ff573548e58a901b147a1082a6207d0db88c38f7b004cf616500779",
+      "vendored_sha256": "e08d17740ff573548e58a901b147a1082a6207d0db88c38f7b004cf616500779",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/weather_pairs.py",
+      "destination": "src/irrigation_ch6/_core/weather_pairs.py",
+      "original_sha256": "a79179e88b8d78c3c9af7ad022a7a199510ed6c9af6ba0081288a5b20defdb3c",
+      "vendored_sha256": "a79179e88b8d78c3c9af7ad022a7a199510ed6c9af6ba0081288a5b20defdb3c",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/display/hongmiao93_opposite_banks.json",
+      "destination": "src/irrigation_ch6/_core/data/display/hongmiao93_opposite_banks.json",
+      "original_sha256": "b19945306c73fd7fdfa92074510c5ab80ef2eedf8d90e35af4b1b73d3eaedfef",
+      "vendored_sha256": "b19945306c73fd7fdfa92074510c5ab80ef2eedf8d90e35af4b1b73d3eaedfef",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/budget_contract.json",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/budget_contract.json",
+      "original_sha256": "3bec4778c4f2aa7d664dc8d139bdfd4b70d8cbd9eb75b2eb449ff141ef9b7a0e",
+      "vendored_sha256": "3bec4778c4f2aa7d664dc8d139bdfd4b70d8cbd9eb75b2eb449ff141ef9b7a0e",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/case_model.json",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/case_model.json",
+      "original_sha256": "23394c3be927fce3051ed0fbaba4805593875de548554c5557263208e4df12af",
+      "vendored_sha256": "23394c3be927fce3051ed0fbaba4805593875de548554c5557263208e4df12af",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/manifest.json",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/manifest.json",
+      "original_sha256": "48ac98893ef79a758747fe69042844f3a28cf8086317da389127574ef39b8852",
+      "vendored_sha256": "48ac98893ef79a758747fe69042844f3a28cf8086317da389127574ef39b8852",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/nasa_power_tuanlin_proxy_2018_2021_seasons.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/nasa_power_tuanlin_proxy_2018_2021_seasons.csv",
+      "original_sha256": "9a309a264e2bec31c368ff036fce86041feba50a4e9d24f48552336a37a77da7",
+      "vendored_sha256": "9a309a264e2bec31c368ff036fce86041feba50a4e9d24f48552336a37a77da7",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/nasa_power_tuanlin_proxy_2022_daily.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/nasa_power_tuanlin_proxy_2022_daily.csv",
+      "original_sha256": "5c417c70c8ba8427c051e64c24b5a76e0188e0d7cc2be17776bdd349951852fa",
+      "vendored_sha256": "5c417c70c8ba8427c051e64c24b5a76e0188e0d7cc2be17776bdd349951852fa",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/nasa_power_tuanlin_proxy_2024_daily.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/nasa_power_tuanlin_proxy_2024_daily.csv",
+      "original_sha256": "e3fba7d64349c6a3c772a0adf2cddee7abaf6baf1b87508c99726a2ea1ef7917",
+      "vendored_sha256": "e3fba7d64349c6a3c772a0adf2cddee7abaf6baf1b87508c99726a2ea1ef7917",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/quota.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/quota.csv",
+      "original_sha256": "2f1052e4e5c9c02a97e0092098943e47a91c98c859e0f74fb41af7e41e363ac4",
+      "vendored_sha256": "2f1052e4e5c9c02a97e0092098943e47a91c98c859e0f74fb41af7e41e363ac4",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/reference_field_model_candidate.json",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/reference_field_model_candidate.json",
+      "original_sha256": "1000c1cfc345e39e623cb495b401721ec6bc11e3c963feb983781347a2ace9eb",
+      "vendored_sha256": "1000c1cfc345e39e623cb495b401721ec6bc11e3c963feb983781347a2ace9eb",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/reference_irrigation_demand.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/reference_irrigation_demand.csv",
+      "original_sha256": "9bddc44d06462b203202a558897707d840c62b34a441ee421ee81e845b8b063d",
+      "vendored_sha256": "9bddc44d06462b203202a558897707d840c62b34a441ee421ee81e845b8b063d",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/region_parameters_frozen.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/region_parameters_frozen.csv",
+      "original_sha256": "f5a4274d405aac1fa67fa0e55b772384d38719c48707a909f9cbfa5000dd9d56",
+      "vendored_sha256": "f5a4274d405aac1fa67fa0e55b772384d38719c48707a909f9cbfa5000dd9d56",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/regions_93.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/regions_93.csv",
+      "original_sha256": "6242cd75582a28d64a4379b219e9cc3bddd3dd85aad930fa469d03ede326db81",
+      "vendored_sha256": "6242cd75582a28d64a4379b219e9cc3bddd3dd85aad930fa469d03ede326db81",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/source_registry.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/source_registry.csv",
+      "original_sha256": "5b7d25f76dfde398760a6679cedadeae21ced06447c4b1141109dc23b7737205",
+      "vendored_sha256": "5b7d25f76dfde398760a6679cedadeae21ced06447c4b1141109dc23b7737205",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/weather.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/weather.csv",
+      "original_sha256": "92736a4eaa5902c653e6cd60b364dae6fa459b9bdf2d3d730cff9be539cd8ae7",
+      "vendored_sha256": "92736a4eaa5902c653e6cd60b364dae6fa459b9bdf2d3d730cff9be539cd8ae7",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/weather_manifest.json",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/weather_manifest.json",
+      "original_sha256": "1340c534302a36466a22b6c504bd6f5fce4933b8d3f7660f1242dce5c4f7883f",
+      "vendored_sha256": "1340c534302a36466a22b6c504bd6f5fce4933b8d3f7660f1242dce5c4f7883f",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/weather_prior.json",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/weather_prior.json",
+      "original_sha256": "7169ad8923284472ff23a8d710052422c86b0157c16e7e0a19700eb8e08ecdd8",
+      "vendored_sha256": "7169ad8923284472ff23a8d710052422c86b0157c16e7e0a19700eb8e08ecdd8",
+      "adaptation": "byte identical"
+    },
+    {
+      "original": "/root/gamewar/resource_allocation_rl/applications/irrigation/src/irrigation_rl/data/hongmiao93/weather_with_et0.csv",
+      "destination": "src/irrigation_ch6/_core/data/hongmiao93/weather_with_et0.csv",
+      "original_sha256": "6f1c8f358fa1c9551674a33d41fc7f8795cfcd00e25b54646e2da25d41149f82",
+      "vendored_sha256": "6f1c8f358fa1c9551674a33d41fc7f8795cfcd00e25b54646e2da25d41149f82",
+      "adaptation": "byte identical"
+    }
+  ]
+}

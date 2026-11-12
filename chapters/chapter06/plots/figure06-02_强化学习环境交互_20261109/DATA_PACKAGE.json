@@ -1,0 +1,72 @@
+{
+  "chapter": 6,
+  "figure": "figure06-02_强化学习环境交互_20261109",
+  "DATA_chapter_relative": "figures/figure06-02_强化学习环境交互_20261109",
+  "resolve_from": "portable_paths.chapter_data_root(6)",
+  "source_role": "exact editable current figure source and required small inputs; generated PDF/PNG/SVG remain only in the data package",
+  "render_entry": null,
+  "source_files": [
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/README.local.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/README.local.rst",
+      "sha256": "4da835c9d206f57e9fa82583bbbee1922725714ad9eca3126278ba6219722ad0",
+      "size": 212
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/README.rst",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/README.rst",
+      "sha256": "895a8f9bfe116a905831ee984db28b178e3f2da0bc475d392be36153ad547a01",
+      "size": 701
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/completion_receipt.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/completion_receipt.json",
+      "sha256": "a3efc7b54df508afb19fb8e874a67ba7ef3907e3f972c4c1e002ccab7b489383",
+      "size": 2433
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/create_drawio.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/create_drawio.py",
+      "sha256": "3105b8aa76a8a65fe0562f6df7f59a9c5239e042f400984f6e216360f9698255",
+      "size": 3129
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/local_source.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/local_source.json",
+      "sha256": "9a9260e7f007f59580b9163870444b70709601386dff77ce0aa05bc8394e0c3b",
+      "size": 814
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/requirements.txt",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/requirements.txt",
+      "sha256": "e682d65aab7f6a1e39184fcd4b378d8299c0c632e3ae846e49f6dc3cf0dc7ef5",
+      "size": 90
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/source.drawio",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/source.drawio",
+      "sha256": "f2441fa7fb2ed3b2ac4fa058f906e972e201869a977e1eec0e31243efbd8c049",
+      "size": 7116
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/source.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/source.json",
+      "sha256": "eac61b4ac5a63bd399d4f0a78913aa783bcf8ce78c55bf7c87afabff64c9d378",
+      "size": 3728
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/CONTENTS.json",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/CONTENTS.json",
+      "sha256": "4cd72945e27e25ef638384b31adf001622e5d725caeab4a6a80f8ae0ffc7d7d4",
+      "size": 763
+    },
+    {
+      "destination_code_relative": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/provenance/original_create_drawio.py",
+      "source_data_relative": "chapters/chapter06/figures/figure06-02_强化学习环境交互_20261109/provenance/original_create_drawio.py",
+      "sha256": "198d30f03e685f80d1233e91d32996b6b38cc7c233b34cf6608243307b67c0bd",
+      "size": 4161
+    }
+  ],
+  "renderer_modified": false,
+  "no_model_or_NEW_TEST": true
+}

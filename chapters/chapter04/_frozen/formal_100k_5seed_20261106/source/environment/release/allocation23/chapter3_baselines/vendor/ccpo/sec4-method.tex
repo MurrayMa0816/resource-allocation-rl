@@ -1,0 +1,198 @@
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\linewidth]{Figures/Illustration/Framework_overview.png}
+\caption{Proposed framework}
+\vspace{-10pt}
+\label{fig: framework}
+\end{figure}
+
+As illustrated in Figure.~\ref{fig: framework}, CCPO is comprised of two parts. The first \textbf{versatile critic learning }part involves data collection via several behavior agents, each under their respective target constraint thresholds. The goal is to learn feature representations for both the state-action pair feature and the target thresholds, facilitating linear disentanglement of Q values and hence enabling generalization to unseen thresholds. This step is inspired by the concept of successor feature in RL transfer learning \cite{barreto2017successor}, and we term it Versatile Value Estimation (VVE). 
+
+In the second \textbf{versatile agent training} part, we train the policy to be responsive to a range of unseen thresholds based on the well-trained value functions. Our key insight is to adopt the variational inference safe RL framework \cite{liu2022constrained}, which allows us to compute the optimal non-parametric policy distributions for various thresholds through convex optimization, and, subsequently, use them to train the constraint-conditioned policy via supervised learning. 
+With this Conditional Variational Inference (CVI) step, the policy can achieve zero-shot adaptation to unseen thresholds without the necessity for behavior agents to collect data under corresponding conditions. We introduce each step as follows.
+
+% \subsection{Framework overview}
+% The key idea of the proposed CCPO method is to expand the policy set by estimating the versatile policies, conditioned on unseen threshold conditions, using the behavior policy and their collected data. 
+% The versatile safe RL agent, which incorporates the threshold condition as part of its input, is then trained using the expanded versatile policy set.
+% As depicted in Fig.~\ref{fig: framework}, the versatile safe RL agent interacts with the world conditioned on behavior policy thresholds $\tilde{\Ecal}$, and utilizes the collected data for training. This training framework has two stages. In the \textbf{pre-training stage}, the agent learns versatile Q functions and the versatile policy conditioned on $\tilde{\Ecal}$. After learning the near-optimal versatile policy conditioned on behavior conditions with versatile Q functions that can generalize to unseen thresholds, in the \textbf{fine-tuning stage}, CCPO estimates the optimal versatile policies conditioned on unseen thresholds using the data collected by behavior policies and the estimation results from versatile Q functions. After that, CCPO updates the versatile safe RL agent with both behavior policies and estimated versatile policies. To tackle the issues for versatile safe RL agent learning mentioned in section~\ref{section: problem formulation}, the proposed CCPO contains (1) versatile value function estimation (VVE); and (2) conditioned variational inference (CVI), as introduced in the following sections.
+
+\subsection{Versatile value estimation}
+\label{subsection: versatile critics learning}
+% This assumption is summarized in Assumption~\ref{assumption: Significant value function difference}.
+% \begin{Assumption}[Value function difference]
+% \label{assumption: Significant value function difference}
+% The difference between the expectation of value function $Q_\fs^{\pi(\cdot | \epsilon)}(s, a)$ conditioned on different and adjunct thresholds $\epsilon_1, \epsilon_2 \in [\epsilon_L, \epsilon_H]$ is larger than a positive and monotonically increasing function $Q_{\fs}^{e}(|\epsilon_1 - \epsilon_2|)$ such that:
+% \begin{equation}
+%      \mathbb{E}_{\rho_{\pi(\cdot | \epsilon_1)}}||Q_\fs^{\pi(\cdot | \epsilon_1)}(s, a) - Q_\fs^{\pi(\cdot | \epsilon_2)}(s, a)|| \geq Q_{\fs}^{e}(|\epsilon_1 - \epsilon_2|)
+% \vspace{5pt}
+% \end{equation}
+% \end{Assumption}
+% Assumption~\ref{assumption: Significant value function difference} 
+% , our method is targeted at a specified category of tasks. Otherwise, if the value functions corresponding to the optimal policy do not change much with different threshold conditions, we may take arbitrary threshold conditions in different settings.
+% We first assume that the tasks for versatile safe RL policy training have a significant efficiency-safety trade-off, which means the Q functions corresponding to optimal policies are different with different threshold conditions, which naturally holds in most safe RL settings, especially for those with significant reward-cost trading-off as the return reward and cost would change dramatically with different threshold conditions.
+It has been shown that inherent trade-offs exist between the reward and cost values for the optimal policy under varying cost thresholds \cite{liu2022robustness}.
+Typically, stricter safety requirements tend to be accompanied by reduced rewards.
+Hence, the estimation of Q-value functions becomes increasingly crucial when dealing with unseen thresholds that are not encountered by the behavior agents.
+To this end, we propose the versatile critics learning module, which disentangles observations and target thresholds within a latent feature space. The assumption regarding the decomposition is as follows. 
+\begin{Assumption}[Critics linear decomposition] 
+\label{assumption: Q decomposition}
+The versatile Q functions $Q_\fs^*$ with respect to the optimal versatile policy $\pi^*$ can be represented as:
+\begin{equation}
+\label{equ: critics decomposition}
+    Q_\fs^*(s, a|\epsilon) = \boldsymbol{\psi}_\fs(s, a)^\top \boldsymbol{z}_\fs^*(\epsilon), \quad \fs \in \{r, c\},
+\end{equation}
+where $||\boldsymbol{\psi}_\fs(s, a)||_\infty \leq K_\fs$ is the feature for the function of the state-action pair $(s, a)$, $K_\fs$ are constants, and $\boldsymbol{z}_\fs^*$ is the optimal constraint-conditioned policy feature, which only depends on the policy condition $\epsilon$ for a specified task. The dimension of $\boldsymbol{\psi}_\fs(s, a)$ and $\boldsymbol{z}_\fs^*(\epsilon)$ are both $M$.
+\end{Assumption}
+Note that Assumption~\ref{assumption: Q decomposition} is reasonable and widely accepted in the RL transfer learning literature with successor features \cite{barreto2018transfer}, as it is reasonable to find a high-dimensional feature space to decompose the Q functions into the product of feature functions $\psi_{\fs}(s, a)$ and the latent vectors $\boldsymbol{z}_{\fs}(\epsilon)$ \cite{bengio2013representation}. 
+As shown in Theorem~\ref{Theorem: Bounded estimation error}, by learning $\boldsymbol{\psi}_\fs(s, a)$ and $\boldsymbol{z}_\fs(\epsilon)$ jointly and adding norm constraints on the feature function $||\boldsymbol{\psi}_\fs(s, a)||_\infty \leq K_\fs$, we can efficiently encode the threshold information $\epsilon$ into the Q functions and achieve accurate estimations for unseen thresholds. This is the basis for our method's data-efficient training.
+To further facilitate theoretical analysis, we assume that the optimal constraint-conditioned policy feature $\boldsymbol{z}_\fs^*(\epsilon)$ can be approximated by polynomial functions:
+\begin{Assumption}[Polynomial feature space]
+\label{assumption: Polynomial policy vector}
+    The optimal constraint-conditioned policy feature $\boldsymbol{z}_\fs^*$ can be approximated by $\boldsymbol{z}_\fs^*(\epsilon) = \text{Poly}(\epsilon, p) + \boldsymbol{e}$, meaning each element of $\boldsymbol{z}_\fs^*$ is a $p$-degree polynomial of $\epsilon$, and $\boldsymbol{e}$ is the remainder. Each component for $\boldsymbol{e}$ follows $e_j \sim \Ncal(0, \sigma_j^2), j=i,...,M$, and denote $\sigma = \max_j \sigma_j$. 
+\end{Assumption}
+Note that the degree $p$ corresponds to the $\boldsymbol{z}(\epsilon)$ model representation capability. Based on the above assumptions, we can derive the Q function estimation error bound as follows.
+\begin{Theorem}[Bounded estimation error]
+\label{Theorem: Bounded estimation error}
+Denote $\epsilon_L$ and $\epsilon_H$ are the lower and upper bound of the target threshold interval for $\Ecal$. Suppose the threshold conditions $\{\tilde{\epsilon}_i\}_{i=1, 2, ..., N}$ for behavior policies are selected to divide the interval $[\epsilon_L, \epsilon_H]$ evenly, then with confidence level $1-\alpha$, the estimation error of versatile Q functions conditioned on arbitrary $\epsilon \in [\epsilon_L, \epsilon_H]$ can be bounded by:
+\begin{equation}
+    ||\hat{Q}_\fs(s, a|\epsilon) - Q_\fs^*(s, a|\epsilon)|| \leq 
+ \frac{z_{\alpha/2} B(p)}{N^{\beta(p)}}  \sqrt{ \sigma^2 K_\fs^2 M },
+\end{equation}
+\end{Theorem}
+where $B(p)$ and $\beta(p)$ are both functions of the polynomial degree $p$, and $z_{\alpha / 2}$ is the upper alpha quantile for the standard Gaussian distribution. The proof and detailed discussion of Theorem~\ref{Theorem: Bounded estimation error} and functions $B(p), \beta(p)$ are shown in Appendix. It is worth noting that we normalize the threshold conditions $\epsilon \in [\epsilon_L, \epsilon_H]$ by $\epsilon = (\epsilon - \epsilon_L) / \epsilon_H$ for numerical stability. Theorem~\ref{Theorem: Bounded estimation error} establishes that by decomposing the Q function into the product of $\boldsymbol{\psi}(s,a)$ and $\boldsymbol{z}(\epsilon)$ and jointly learning these components, we can guarantee a bounded estimation error for Q functions under unseen threshold conditions. Furthermore, we can derive the bounded cost violation for unseen thresholds and $\epsilon$-sample complexity analysis based on the theorem, both of which are discussed in proposition~\ref{proposition: bounded safety violation} and remark~\ref{proposition: sampling efficiency}. 
+% In practice, we use a neural network to parameterize $\boldsymbol{\psi}_\fs(s, a)$ and another model with significant less 
+
+
+% \begin{Theorem}[Bounded estimation error]
+% \label{Theorem: Bounded estimation error}
+% With Behavior policy threshold conditions $\{\tilde{\epsilon}_i\}_{i=1, 2, ..., N}$, denote $\boldsymbol{x}_i = [1, \tilde\epsilon_i, ..., \tilde\epsilon_i^p]^\top$, $\boldsymbol{X}=[\boldsymbol{x_1}^\top, ..., \boldsymbol{x_N}^\top]^\top \in \R^{N\times(p+1)}$, then with confidence level $1-\alpha$, the estimation error of versatile Q functions conditioned on arbitrary $\epsilon \in [\epsilon_L, \epsilon_H]$ can be bounded as:
+% \begin{equation}
+% \label{equ: general error bound}
+%     ||\hat{Q}_\fs(s, a|\epsilon) - Q_\fs^*(s, a|\epsilon)|| \leq t \sqrt{ \Delta^2 \ M K_\fs^2 \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}},
+% \end{equation}
+% where $\boldsymbol{x} = [1, \epsilon, ..., \epsilon^p]^\top$, $t$ is the probability constant decided by $\alpha$, and $\Delta^2$ is the variance constant determined by $\sigma$ (see Appendix.~\ref{proof: Bounded estimation error} for details and discussion.) Assuming $\sigma$ is known and small enough, for any $(s,a)$, the error bound~(\ref{equ: general error bound}) becomes:
+% \begin{equation}
+% \label{equ: sigma error bound}
+%      ||\hat{Q}_\fs(s, a|\epsilon) - Q_\fs^*(s, a|\epsilon)|| \leq z_{\alpha/2} \sqrt{ \sigma^2 \ M K_\fs^2 \boldsymbol{x}^T (\boldsymbol{X}^T \boldsymbol{X})^{-1} \boldsymbol{x}},
+% \end{equation}
+% where $z_{\alpha/2}$ is the Gaussian probability constant.
+% \end{Theorem}
+
+\subsection{Conditioned variational inference}
+\label{subsection: Conditioned policy learing}
+Given well-trained versatile Q functions in the previous VVE module, we aim to encode arbitrary threshold constraints during policy learning in the versatile policy learning part. We utilize the \textit{safe RL as inference} framework to achieve this goal, as it decomposes safe RL to a convex optimization followed by supervised learning, both stages readily accommodating varying target thresholds. In contrast to the classical view of safe RL aiming to find the most-rewarding actions while satisfying the constraints, the probabilistic inference perspective finds the feasible (constraint-satisfying) actions most likely to have been taken given future success in maximizing task rewards \cite{liu2022constrained}.
+
+% Before presenting the inference view of versatile safe RL as inference, we first introduce the standard primal-dual perspective to solve CMDP, which transforms the objective for safe RL conditioned on threshold $\epsilon$ into a min-max optimization by introducing the Lagrange multiplier $\lambda$: 
+% \begin{align}
+%     (\pi^*, \lambda^*) = \arg \min_{\lambda \geq 0}\max_\pi V_r^\pi(\mu_0) - \lambda (V_r^\pi(\mu_0) -\epsilon ) 
+% \end{align}
+% The core principle of primal-dual approaches is to solve the min-max problem iteratively. However, these methods can not support the conditioned policy learning to augment the versatile policy set due to the difficulty to calculate the Lagrangian multipliers for the auxiliary policies using the trajectory return values from behavior policies, which makes the versatile policy estimation not reliable.
+
+% To tackle this issue, we propose to use safe RL as inference framework.
+% The inference formulation allows us to solve safe RL with a rich toolbox from probabilistic inference, such as the Expectation-Maximization (EM) algorithm~\citep{abdolmaleki2018maximum, abdolmaleki2018relative, liu2022constrained}.
+Following the RL as inference literature~\cite{levine2018reinforcement, liu2023towards},
+we consider an infinite discounted reward formulation. In the condition that the constraint threshold is $\epsilon_i$, we denote $O = O(s, a)$ as the optimality variable of a state-action pair $(s, a)$, which indicates the reward-maximizing (optimal) event by choosing an action $a$ at a state $s$. Then for a given trajectory $\tau$, the likelihood of being optimal is proportional to the exponential of the discounted cumulative reward: $p(O=1 | \tau) \propto \exp(\sum_t \gamma^t r_t/\alpha)$, where $\alpha$ is a temperature parameter. Since the probability of getting a trajectory $\tau$ under the conditioned policy $\pi(\cdot | \epsilon_i)$ can be expressed as $p_{\pi(\cdot | \epsilon_i)}(\tau)=p(s_0)\prod_{t\geq 0}p(s_{t+1} | s_t, a_t)\pi(a_t | s_t, \epsilon_i)$, the lower bound for the log-likelihood of optimality given the conditioned policy $\pi(\cdot | \epsilon_i)$ is:
+% \vspace{-5pt}
+\begin{equation}
+% \vspace{-10pt}
+\begin{aligned}
+ \log p_{\pi(\cdot | \epsilon_i)}  (O=1) 
+     & = \log \E_{\tau \sim q(\cdot | \epsilon_i)} \frac{p(O=1 | \tau)p_\pi(\tau | \epsilon_i)}{q(\tau | \epsilon_i) } \\
+     & \geq \E_{\tau \sim q(\cdot | \epsilon_i)} \log \frac{p(O=1 | \tau)p_{\pi(\cdot | \epsilon_i)}(\tau)}{q(\tau | \epsilon_i) } \\ 
+    & \propto \E_{\tau \sim q(\cdot | \epsilon_i)} [\sum_{t=0}^\infty \gamma^t r_t] - \alpha \KL(q(\tau | \epsilon_i)  \Vert p_{\pi(\cdot | \epsilon_i)}(\tau)) := \Jcal(q,\pi | \epsilon_i), \label{eq:elbo}
+\end{aligned}
+% \vspace{5pt}
+\end{equation}
+where the inequality follows Jensen's inequality, and $q(\tau | \epsilon_i)$ is an auxiliary trajectory-wise variational distribution conditioned on $\epsilon_i$. $\Jcal(q,\pi | \epsilon_i)$ in equation~(\ref{eq:elbo}) is the evidence lower bound (ELBO) to reach the reward optimality under condition $\epsilon_i$. 
+Since $q(\tau | \epsilon_i) = p(s_0)\prod_{t\geq0}p(s_{t+1}|s_t, a_t) q(a_t|s_t, \epsilon_i)$, we have the following ELBO over the state and constraint conditioned action distribution $q(a|s, \epsilon_i)$:
+% \vspace{-5pt}
+\begin{equation}
+% \vspace{-2mm}
+% \vspace{-15pt}
+\begin{split}
+    \Jcal(q,\theta | \epsilon_i) =&
+    \E_{\rho_q(\cdot |\epsilon_i)} \Big[ \sum_{t=0}^\infty \gamma^t r_t - \alpha\KL(q(\cdot | \epsilon_i) \Vert \pi_\theta(\cdot | \epsilon_i))\Big] + \log p(\theta)
+\end{split}
+% \vspace{-5pt}
+\label{eq:elbo_new}
+\end{equation}
+where $\rho_q(s | \epsilon_i)$ is the stationary state distribution induced by $q(\cdot|s, \epsilon_i)$ and $\rho_0$, $\theta$ refers to the parameters for policy $\pi$, and $p(\theta)$ is a prior distribution over the parameters. Note we overload $q$ by using it both in $q(a|s, \epsilon_i)$ and $q(\tau | \epsilon_i)$.
+
+% Following previous works~\cite{abdolmaleki2018maximum, abdolmaleki2018relative, liu2022constrained}, 
+We utilize the Expectation-Maximization (EM)-based RL algorithms, which alternate to improve $\Jcal(q,\pi | \epsilon_i)$ in terms of $q(\tau | \epsilon_i)$ and $p_{\pi(\cdot | \epsilon_i)}(\tau)$ to improve the likelihood of optimality~\cite{abdolmaleki2018maximum, abdolmaleki2018relative, liu2022constrained}. 
+Denote the feasible distribution family for the conditioned variational distribution $q(\cdot | s, \epsilon_i)$  as: 
+\begin{equation}
+\label{equ: feasible distribution}
+    \Pi_{\Qcal}^{\epsilon_i}\coloneqq \{q(a|s, \epsilon_i): \E_{\tau \sim q(\cdot | \epsilon_i)}[\sum_{t=0}^\infty \gamma^t c_t] \leq \epsilon_i, a \in \Acal, s \in \Scal\},
+\end{equation}
+which is a set of all the state-conditioned action distributions that satisfy the safety constraint specified by $\epsilon_i$.
+Then the E-step optimizes $q(\tau | \epsilon_i)$ to maximize the reward return within the trust region of the old policy and within $\Pi_{\Qcal}^{\epsilon_i}$, while the M-step aims to minimize the KL divergence between $p_{\pi(\cdot | \epsilon_i)}(\tau)$ and $q(\tau | \epsilon_i)$ by updating the parametrized policy in a supervised learning fashion. 
+Since Off-policy deep RL techniques can be used during training, the EM updating steps are more data efficient. 
+
+The key strength of using the variational inference framework lies in its ability to encode arbitrary threshold conditions during policy learning, as shown in~(\ref{equ: feasible distribution}), a feat that is challenging for other methods, such as those based on primal-dual algorithms.
+Optimizing the factorized lower bound $\Jcal(q,\theta | \epsilon_i)$ w.r.t $q(\cdot | \epsilon_i)$ within the feasible distribution family and the policy parameter $\theta$ iteratively with one single threshold $\epsilon_i$ via EM yields the CVPO method~\cite{liu2022constrained}, which is the basis of our method. We introduce the modified constraint-conditioned E-step and M-step as follows.
+
+\textbf{Constraint-Conditioned E-step: }The conditioned E-step aims to find the optimal variational distribution $q(\cdot | \epsilon_i) \in \Pi_{\Qcal}^{\epsilon_i}$ that maximizes the reward return while satisfying the safety condition defined by $\epsilon_i$.
+At the $j$-$th$ iteration, We can write the ELBO objective w.r.t $q$ as a constrained optimization problem:
+\begin{equation}
+\label{eq:estep_objective}
+\begin{aligned}
+ \max _{q\left(a | s, \epsilon_i\right)}  & \mathbb{E}_{\rho_q}\left[\int q\left(a | s, \epsilon_i\right) \hat{Q}_r^{\pi_{\theta_j}}\left(s, a | \epsilon_i\right) d a\right] \\
+ \text { s.t. } & \mathbb{E}_{\rho_q}\left[\int q\left(a | s, \epsilon_i\right) \hat{Q}_c^{\pi_{\theta_j}}\left(s, a | \epsilon_i\right) d a\right] \leq \epsilon_i, \\
+& \mathbb{E}_{\rho_q}\left[D_{\mathrm{KL}}\left(q\left(a | s, \epsilon_i\right) \| \pi_{\theta_j}\left(\cdot | \epsilon_i\right)\right)\right] \leq \kappa;
+\end{aligned}
+\end{equation}
+where $\hat{Q}_\fs(\cdot | \epsilon_i)$ is the versatile Q functions as introduced in section~\ref{subsection: versatile critics learning}, the first inequality constraint represents the constraint defined in~(\ref{equ: feasible distribution}) and the last term in the constraint is the trust region with the old policy defined by KL distance $\kappa$. Inspired by~\cite{abdolmaleki2018maximum}, we use the solution of the optimal variational distribution $q^*_i = q^*_i(a|s, \epsilon_i)$ for arbitrary safety constraint $\epsilon_i$, which has the closed form:
+ \begin{align}
+    q^*_i = \frac{\pi_{\theta_j}(\cdot | \epsilon_i)}{Z(s, \epsilon_i)} \exp\left(\frac{\hat{Q}_r^{\pi_{\theta_j}}(\cdot | \epsilon_i) - \lambda_i^* \hat{Q}_c^{\pi_{\theta_j}}(\cdot | \epsilon_i)}{\eta_i^*}\right),
+    \label{eq:optimalq_theorem}
+\end{align}
+where $Z(s, \epsilon_i)$ is a normalizer to make sure $q_i^*$ is a valid distribution, and the dual variables $\eta_i^*$ and $\lambda_i^*$ are the solutions of the following convex optimization problem:
+\begin{equation}
+% \small
+ \begin{aligned}
+      \min_{\lambda_i, \eta_i \geq 0} \ g(\eta_i, \lambda_i) = \lambda_i \epsilon_i + \eta_i \kappa \E_{\rho_q} \left[ \log \E_{\pi(\cdot |{\epsilon_i})} \Big[ \exp\left(\frac{\hat{Q}_r( \cdot | \epsilon_i)- \lambda_i \hat{Q}_c( \cdot | \epsilon_i)}{\eta_i}\right) \Big] \right].
+\end{aligned}
+\label{eq:dual_opt}
+\end{equation}
+Then we can encode arbitrary safety constraints by calculating the optimal distribution $q^*_i(a|s, \epsilon_i)$ regarding the corresponding condition $\epsilon_i$ efficiently with~(\ref{eq:optimalq_theorem}). The term $q^*_i(a|s, \epsilon_i)$ means when conditioned on $\epsilon_i$, the probability of taking $a$ at $s$ for the optimal feasible policy.
+
+\textbf{Versatile M-step: }After the constraint-conditioned E-step, we obtain a set of optimal feasible variational distribution $q^*_i=q^*_i(\cdot|s, \epsilon_i)$ for each constraint threshold $\epsilon_i$. In the versatile M-step, we aim to improve the ELBO~(\ref{eq:elbo}) w.r.t the policy parameter $\theta$ for $\epsilon_i \in \Ecal$.
+\begin{equation}
+\begin{split}
+    {\Jcal}(\theta|\epsilon_i) = \E_{\rho_q}\Big[\alpha \E_{q^*_i} \big[ \log \pi_\theta (a|s, \epsilon_i)\big]\Big] + \log (p|\epsilon_i)
+\end{split}
+\label{eq:mstep}
+\end{equation}
+% With a Gaussian prior around the previous-step policy parameter $\theta_j$ in $j$-th iteration: $\theta \sim \Ncal(\theta_j, \frac{ F_{\theta_j}}{\alpha\beta})$, where $F_{\theta_j}$ is the Fisher information matrix and $\beta$ is a positive constant, and 
+Using a Gaussian prior for each threshold-conditioned policy, 
+%where $F_{\theta_j}$ is the Fisher information matrix and $\beta$ is a positive constant,
+% Assuming that the prior distribution for tasks with different thresholds is even,
+this problem can be further converted to the following supervised-learning problem with KL-divergence constraints \cite{abdolmaleki2018maximum, abdolmaleki2018relative}: 
+\vspace{-5pt}
+\begin{equation}
+\begin{split}
+    \max_\theta \ \E_{\rho_q}\Big[\sum_{i=1}^{|{\mathcal{E}}|} \E_{q^*_i} \big[ \log \pi_\theta (a|s,\epsilon_i)\big] / |{\mathcal{E}}| \Big] \  s.t. \ \E_{\rho_q}\big[ \KL(\pi_{\theta_j}(a|s, \epsilon_i)\Vert \pi_{\theta}(a|s, \epsilon_i)) \big] \leq \gamma \ \forall i,
+\end{split}
+\label{eq:m_step_kl}
+\end{equation}
+where $\mathcal{E}$ is the set for all the sampled versatile policy conditions $\{\epsilon_i\}$ in fine-tuning stage of training. The constraint in~(\ref{eq:m_step_kl}) is a regularizer to stabilize the policy update. 
+\subsection{Theoretical analysis}
+
+\begin{Proposition}[Bounded safety violation]
+\label{proposition: bounded safety violation}
+With the threshold conditions $\tilde{\epsilon}_i \in \tilde{\Ecal}$ for behavior policies selected to divide the target condition interval $[\epsilon_L, \epsilon_H]$ evenly, and with confidence level $1-\alpha$, the cost violation of versatile policy under arbitrary threshold condition $\epsilon \in [\epsilon_L, \epsilon_H]$ is bounded as:
+\begin{equation}
+\label{equ: bounded safety violation}
+  V_c^{\pi(\mu_0|\epsilon)} - \epsilon \leq  \frac{z_{\alpha/2} B(p)}{N^{\beta(p)}}  \sqrt{ \sigma^2 K_c^2 M },
+  % \vspace{-5p}
+\end{equation}
+\end{Proposition}
+The proof is shown in the Appendix. Proposition~\ref{proposition: bounded safety violation} ensures that the cost violation of the versatile safe RL agent on unseen thresholds can be bounded if the selected behavior policy conditions divide the interval $[\epsilon_L, \epsilon_H]$ evenly. We can observe that the bound~(\ref{equ: bounded safety violation}) is proportional to $\sqrt{K_c^2 M}$. Since larger $K_c$ and $M$ correspond to a wider range of threshold conditions, this safety violation bound is related to the interval range.
+Also, we provide the complexity analysis for the $\epsilon$-sample, i.e., the estimation error corresponding to the number of behavior policies $N$ as shown in remark~\ref{proposition: sampling efficiency}.
+\begin{Remark}[$\epsilon$-sample complexity analysis]
+\label{proposition: sampling efficiency}
+The estimation error for Q functions and safety violation bound decreases as the number of behavior policies $N$ increases. The decreasing rate is proportional to $\frac{1}{N^{\beta(p)}}$, where the exponent of $N$ is related to $p$, which is the representation capabilities of the model to represent the constraint-conditioned policy feature $z(\epsilon)$. When $p$ increases, $\beta$ also increases as shown in the Appendix, which means when the model capability is high, the proposed method significantly becomes more data-efficient.
+\end{Remark}
+The functions $\beta(p), B(p)$ are provided in the Appendix. 
+Since CCPO is under the ``RL as inference'' framework, we also enjoy many benefits as revealed in previous works, such as the optimality guarantees and training robustness~\cite{liu2022constrained}.

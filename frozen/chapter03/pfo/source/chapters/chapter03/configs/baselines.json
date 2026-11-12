@@ -1,0 +1,259 @@
+{
+  "schema": "chapter3-adopted-online-baselines-v4",
+  "status": "FORMAL_ACTIVE_ROSTER_SET_BY_USER_PFO_FORMAL_RESULTS_PENDING",
+  "entrypoint": "./project chapter3 baseline inspect|train|evaluate",
+  "unified_entrypoint": "./project chapter3 baseline inspect|train|evaluate",
+  "factory": "allocation23.chapter3_candidates.make",
+  "load": "allocation23.chapter3_candidates.load",
+  "chapters": [
+    3
+  ],
+  "learned_methods": [
+    "c_ppo",
+    "pfo",
+    "gradient_ppo",
+    "reflective_ppo",
+    "ppo_plus"
+  ],
+  "online_from_scratch": true,
+  "offline_dataset": false,
+  "pretrained_model": false,
+  "native_task": {
+    "domains": [
+      "v5",
+      "radio"
+    ],
+    "objects": {
+      "v5": 120,
+      "radio": 100
+    },
+    "horizons": {
+      "v5": 24,
+      "radio": 32
+    },
+    "neural_observation_dimensions": {
+      "v5": 242,
+      "radio": 303
+    },
+    "action_dimensions": {
+      "v5": 121,
+      "radio": 101
+    },
+    "full_spend_required": true,
+    "terminal_balance": 0,
+    "action_interface": "public total interval plus capped proportional object allocation",
+    "reward": "unchanged native terminal reward; declared algorithm-specific reward scaling/discount only",
+    "discount": "Per-domain checked-in profiles; PFO gamma.99/lambda1, raw native terminal reward and declared clipped PPO/feature regularization.",
+    "public_neural_inputs": "compact current local/global vector only; no future/private simulator information"
+  },
+  "methods": [
+    {
+      "id": "c_ppo",
+      "alias": "C-PPO (ECAI2023 conservatively constrained CCPO adaptation)",
+      "title": "CCPO: Conservatively Constrained Policy Optimization Using State Augmentation",
+      "year": 2023,
+      "publication": "ECAI2023; Frontiers in AI and Applications372:2599–2606; DOI10.3233/FAIA230566",
+      "primary_url": "https://journals.sagepub.com/doi/10.3233/FAIA230566",
+      "conference_primary_url": "https://www.ecai2023.eu/programm",
+      "author_code": "https://github.com/xiaopeng-whu/CCPO",
+      "inspected_pin": "3c66b5978fc17fe4cd9c3eb33569a074df68359f",
+      "license": "No author-code license copied; independent paper-derived implementation",
+      "native_core": "Remaining safety-budget state, safety-promotion function SPF and adaptive weighted-cost reward penalty attached to PPO (paper framework can wrap other RL algorithms).",
+      "C3_fit": "Public remaining budget/history directly matches intertemporal shared-resource state; strong matched full-spend learning reference now independently confirmed in both domains.",
+      "limitations": "Common physical mapping already enforces total-budget feasibility. Good full-spend performance cannot separately establish necessity of SPF/penalty or transfer the paper almost-sure safety claim. Not inherently a terminal-credit solution.",
+      "task_adapter": "Public actualcost/history from balance, analytically feasible weighted-cost normalizer K_H=1.5-.5/H; shared_objects mean; gamma=costgamma=lambda1, nativefractionreward/noRMS, rollout256 and40value/atmost40actorKLlimitediterations. No hidden future/private geometry.",
+      "evidence_sources": [
+        "/root/gamewar/resource_allocation_rl/CHAPTER3_BASELINES.json",
+        "/hy-tmp/resource_allocation_results/chapter3/fifth_comparator_search_20261105/cppo_confirmation/cuda_preparation_receipt.json",
+        "/hy-tmp/resource_allocation_results/chapter3/fifth_comparator_search_20261105/cppo_confirmation/final_acceptance.json"
+      ],
+      "status": "Retained existing C3 control, not counted again as a newly discovered identity; matchedCUDA4 independently accepted",
+      "overlap_with_Ch2_4_5_comparison_papers": [],
+      "implementation": "chapters/chapter03/src/chapter3_candidates/c_ppo.py",
+      "profiles": {
+        "radio": "chapters/chapter03/src/chapter3_candidates/profiles/c_ppo_radio.json",
+        "v5": "chapters/chapter03/src/chapter3_candidates/profiles/c_ppo_v5.json"
+      }
+    },
+    {
+      "id": "pfo",
+      "alias": "PFO (PPO feature-stability regularization task adapter)",
+      "title": "No Representation, No Trust: Connecting Representation, Collapse, and Trust Issues in PPO",
+      "year": 2024,
+      "publication": "NeurIPS2024",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/81166fbd9cc5adf14031cdb69d3fd6a8-Abstract-Conference.html",
+      "author_code": "https://github.com/CLAIRE-Labo/no-representation-no-trust",
+      "inspected_pin": "dff26dd85df9fc7b2c5933ce67e35a0e1da21126",
+      "license": "MIT author core; retained notice licenses/PFO_MIT.txt; declared minimal Torch task port",
+      "native_core": "Clipped PPO plus detached actual behavior penultimate preactivation MSE; TanhNormal and state-dependent scale, independent actor/value Adam.",
+      "task_adapter": "Shared public object/total mean-and-scale heads, equal-head representation MSE, serial512 rollout/B64/10epochs; coefficient1, gamma.99/lambda1, no obs/reward RMS, no reward reshaping. SPO module is collector infrastructure only, not a sixth comparator and no SPO objective is used.",
+      "status": "FORMALLY_ADOPTED_BY_USER_20261106",
+      "selection_authority": "Current explicit user decision; admission is not conditional on matching CrossQ scores or historical CrossQ-2 quality gates.",
+      "implementation": "chapters/chapter03/src/chapter3_candidates/pfo.py",
+      "profiles": {
+        "radio": "chapters/chapter03/src/chapter3_candidates/profiles/pfo_radio.json",
+        "v5": "chapters/chapter03/src/chapter3_candidates/profiles/pfo_v5.json"
+      },
+      "evidence_sources": [
+        "/hy-tmp/resource_allocation_results/chapter3/comparator_reselection_20261106/implementation/pfo_provenance.json",
+        "/hy-tmp/resource_allocation_results/chapter3/comparator_reselection_20261106/implementation/pfo_validation/pfo_cpu_gate.json",
+        "/hy-tmp/resource_allocation_results/chapter3/comparator_reselection_20261106/local_review/pfo_learning_speed_diagnostic/diagnosis.json"
+      ],
+      "formal_100608_five_seed_two_domain": {
+        "status": "NOT_STARTED_AND_NOT_COMPLETE",
+        "missing_training_jobs": 10,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "steps_per_job": 100608,
+        "budget_interface": "PENDING_PARTIAL256_SUPPORT_AND_ENGINEERING_GATE"
+      },
+      "limitations": "User adoption does not convert historical frozen negative screening gates to PASS or establish that two training seeds are a completed five-seed formal comparison."
+    },
+    {
+      "id": "gradient_ppo",
+      "alias": "Gradient PPO / TDRC(lambda)",
+      "title": "Deep Reinforcement Learning with Gradient Eligibility Traces",
+      "year": 2025,
+      "publication": "Reinforcement Learning Journal / RLC2025",
+      "primary_url": "https://rlj.cs.umass.edu/2025/papers/RLJ_RLC_2025_302.pdf",
+      "author_code": "https://github.com/esraaelelimy/gtd_algos",
+      "inspected_pin": "76293dea9b2129d55e08bfb4178618a0a26c2dd8",
+      "license": "MIT author code; paper-equation correction declared",
+      "native_core": "PPO actor with live multistep lambda-return TDRC value correction and auxiliary h network: Delta_w=delta_lambda*gradV-h*grad(V+delta_lambda); Delta_theta=(delta_lambda-h)*gradh-beta*theta. Actor advantage is stale within rollout; critic/h live.",
+      "C3_fit": "Most direct multistep credit/value-learning comparator among these five; complete already-collected sequences contain delayed endpoint feedback without a decision-time oracle.",
+      "limitations": "Nonlinear deep/highD guarantees do not follow from linear GTD theory.6144steps only few rolloutcycles; h is not known true reward attribution.",
+      "task_adapter": "Paper Eq10/11 implemented with directly differentiable returns rather than author extra-grad multiplier. Corrected all32realtransitions plus storednext_obs avoids dropping radio terminalreward; original defectiveR1 retained. Shared public mean/native conststd and64x64V/h plus onlineRMS; radio rollout1024, power2048 declared. Both use native raw Gaussian likelihood and physical clip.",
+      "evidence_sources": [
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/research_reserve/gradient_ppo_independent.rst",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/batch2/onpolicy_implementation_manifest.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/reports/combined9/profile_notes/gradient_ppo_r02_profile_zh.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/final_implementations/profiles/gradient_ppo_radio.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/final_implementations/profiles/gradient_ppo_v5.json"
+      ],
+      "status": "Accepted feedback-complete versions; original31/32R1 is diagnostic only",
+      "overlap_with_Ch2_4_5_comparison_papers": [],
+      "implementation": "chapters/chapter03/src/chapter3_candidates/gradient_ppo.py",
+      "profiles": {
+        "radio": "chapters/chapter03/src/chapter3_candidates/profiles/gradient_ppo_radio.json",
+        "v5": "chapters/chapter03/src/chapter3_candidates/profiles/gradient_ppo_v5.json"
+      }
+    },
+    {
+      "id": "reflective_ppo",
+      "alias": "Reflective PPO / Reflective Policy Optimization",
+      "title": "Reflective Policy Optimization",
+      "year": 2024,
+      "publication": "ICML2024; PMLR235:14471–14490",
+      "primary_url": "https://proceedings.mlr.press/v235/gan24b.html",
+      "author_code": "https://github.com/Edgargan/RPO",
+      "inspected_pin": "3c43816ec410cf396a61fa2cedd83dda4ebc7907",
+      "license": "No author license verified; independent paper-derived Torch implementation",
+      "native_core": "PPO L0 plus beta times chronological neighboring pair-ratio objective L1; BOTH adjacent density ratios differentiated, separately clipped, with same-episode masks.",
+      "C3_fit": "Temporal policy update uses adjacent already-observed state/action transitions and future-in-rollout advantages; this is not access to future disturbances during act.",
+      "limitations": "Two-step reflective objective is not an H-step reward redistribution mechanism. Its theoretical monotonic-improvement conditions are not automatic guarantees under finite minibatches/RMS/task architecture.",
+      "task_adapter": "Public shared mean/native conststd and64x64critic; shared Gym online population RMS explicitly differs from native batch/unbiased/±10/backwardRTG filter; no hidden2048calibration. Correct actual next-adv operand normalization/dynamicdone masks; radio lambda1 vs power.97 declared; raw Gaussian likelihood then physical clip.",
+      "evidence_sources": [
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/research_reserve/reflective_rpo_provenance.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/batch2/onpolicy_normalization_adaptation.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/final_implementations/profiles/reflective_ppo_radio.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/final_implementations/profiles/reflective_ppo_v5.json"
+      ],
+      "status": "Previously accepted, matching-finalRMS weight attribution retained",
+      "overlap_with_Ch2_4_5_comparison_papers": [],
+      "implementation": "chapters/chapter03/src/chapter3_candidates/reflective_ppo.py",
+      "profiles": {
+        "radio": "chapters/chapter03/src/chapter3_candidates/profiles/reflective_ppo_radio.json",
+        "v5": "chapters/chapter03/src/chapter3_candidates/profiles/reflective_ppo_v5.json"
+      }
+    },
+    {
+      "id": "ppo_plus",
+      "alias": "PPO+ (task adapter)",
+      "title": "PPO+: Enhancing proximal policy optimization",
+      "year": 2026,
+      "publication": "RLJ/RLC2026 pre-proceedings",
+      "primary": "https://rlj.cs.umass.edu/2026/papers/Paper8.html",
+      "code": "https://github.com/kallel-mahdi/PPO-Plus",
+      "code_commit": "adfc6c5b7665f24fa5269c2c108046e2aaf7e6a5",
+      "boundary": "Earlier EWRL2025 workshop is a distinct version",
+      "implementation": "chapters/chapter03/src/chapter3_candidates/ppo_plus.py",
+      "profiles": {
+        "radio": "chapters/chapter03/src/chapter3_candidates/profiles/ppo_plus_radio.json",
+        "v5": "chapters/chapter03/src/chapter3_candidates/profiles/ppo_plus_v5.json"
+      }
+    }
+  ],
+  "development_evidence_catalog": "/hy-tmp/resource_allocation_results/chapter3/pfo_adoption_20261106/user_decision.json",
+  "scientific_limits": [
+    "The active five comparator identities are formally selected by the latest explicit user decision.",
+    "PFO100608 steps x seeds0-4 x both domains is ten missing fresh training runs; no formal PFO result is yet claimed.",
+    "Previous frozen screening rules/results, including NO_ELIGIBLE, remain unchanged diagnostic records and do not override the current user roster decision.",
+    "Common hard feasibility guarantees full resource allocation, not the necessity of a learned safety component."
+  ],
+  "excluded_current_chapters": {
+    "2": [
+      "PASPO",
+      "RPO-SAC",
+      "TD7",
+      "SAC-SimBaV2",
+      "DIME"
+    ],
+    "4": [
+      "PROPS",
+      "FoG",
+      "ADDQ",
+      "TD-MPC2",
+      "PGR"
+    ],
+    "5": []
+  },
+  "chapter5_note": "Old external comparators retired by user; no current adopted external roster.",
+  "storage": "complete training/development records and one fixed evaluation model; no optimizer/replay/periodic checkpoint files",
+  "legacy_implementation_package": "allocation23.chapter3_baselines (public environment helpers and historical learning cores; not the active roster)",
+  "documentation": "chapters/chapter03/README.rst",
+  "release_manifest": "CHAPTER3_RELEASE.json",
+  "maintained_source": "chapters/chapter03/src/chapter3_candidates",
+  "historical_methods": [
+    {
+      "id": "crossq",
+      "alias": "CrossQ",
+      "title": "CrossQ: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity",
+      "year": 2024,
+      "publication": "ICLR2024",
+      "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f381114cf5aba4e45552869863deaaa7-Abstract-Conference.html",
+      "author_code": "https://github.com/adityab/CrossQ",
+      "inspected_pin": "a318a266679bec3f9d93c44e029860a6da077c89",
+      "license": "MIT author code; explicit Torch port",
+      "native_core": "SAC-style online continuous policy; joint current/next-state BatchRenorm critic forward; detached soft Bellman targets from same critic, no targetcritic; delayed actor/temperature.",
+      "C3_fit": "Continuous joint allocation and timing; stable/efficient bootstrapping supplies a conventional strong policy-learning control for terminal-feedback tasks.",
+      "limitations": "No explicit H-step sparse-credit reconstruction. Dense MuJoCo results do not establish sparse highD performance or finite-budget safety-component effects.",
+      "task_adapter": "Raw public SharedObjectMean replaces only actor mean; native state-dependent flat std/BRN/backbones remain. Short512warmup, reward×100 and alpha.01 are explicit; communication selectedR5 gamma.99/BRNwarmup1024, power selectedR3 retains its registeredgamma1/100kBRNwarmup. These are declared per-domain profiles, not uniform author defaults.",
+      "evidence_sources": [
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/research_crossq/independent_review.rst",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/final_implementations/catalog.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/final_implementations/profiles/crossq_radio.json",
+        "/hy-tmp/resource_allocation_results/chapter3/new_candidate_search_20261105/final_implementations/profiles/crossq_v5.json"
+      ],
+      "status": "historical_compatibility_only_removed_from_active_roster_by_user_20261106",
+      "overlap_with_Ch2_4_5_comparison_papers": [],
+      "implementation": "chapters/chapter03/src/chapter3_candidates/crossq.py",
+      "profiles": {
+        "radio": "chapters/chapter03/src/chapter3_candidates/profiles/crossq_radio.json",
+        "v5": "chapters/chapter03/src/chapter3_candidates/profiles/crossq_v5.json"
+      }
+    }
+  ],
+  "historical_compatibility_ids": [
+    "crossq"
+  ],
+  "collector_only_dependencies": {
+    "spo.py": "PFO serial collector/GAE/save-load infrastructure only; not an active or historical comparator id"
+  },
+  "formal_adoption_record": "chapters/chapter03/releases/pfo_user_adoption_20261106.json",
+  "historical_development_evidence_catalog": "/hy-tmp/resource_allocation_results/chapter3/problem_driven_search_20261105/recommended_five_catalog.json"
+}

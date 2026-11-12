@@ -1,0 +1,148 @@
+{
+  "schema": "chapter3-user-adopted-five-release-v3",
+  "created_utc": "2026-11-06T04:48:59.437818+00:00",
+  "status": "PASS_FORMAL_ROSTER_AND_PFO100608_NATIVE_READY",
+  "chapter": 3,
+  "workspace": "chapters/chapter03",
+  "physical_workspace": "/hy-tmp/resource_allocation_project_code_20261105/chapter03",
+  "active_comparators": [
+    "c_ppo",
+    "pfo",
+    "gradient_ppo",
+    "reflective_ppo",
+    "ppo_plus"
+  ],
+  "historical_compatibility_comparators": [
+    "crossq"
+  ],
+  "collector_only_dependencies": [
+    "spo.py"
+  ],
+  "single_copy_implementation": true,
+  "python_package": "allocation23.chapter3_candidates",
+  "user_decision": {
+    "path": "/hy-tmp/resource_allocation_results/chapter3/pfo_adoption_20261106/user_decision.json",
+    "sha256": "89a83583889366a454395072bb5bb4cddc65fff972298d7bde1b01693b233ae3",
+    "authority": "Latest explicit user decision selects PFO; no CrossQ-score closeness condition"
+  },
+  "previous_release": {
+    "path": "chapters/chapter03/releases/before_pfo_tail256_20261106.json",
+    "sha256": "44bcfdfd4b2e679335b653aa00fdf1bc80539b4350d99b1bce3e5839a8f5f668"
+  },
+  "PFO_source_origin": {
+    "pfo_sha256": "e635054067c2c3b3d016346de64a53334e6922ef9de99a624efe0c9a054401de",
+    "spo_collector_sha256": "cfd9d6ee9dcf3897ee7acaed4153c72ba6033e50082e779681496c806d01abca",
+    "same_as_validated_port": true
+  },
+  "existing_other_four_CrossQ_physics_state_A_PPO_unchanged": true,
+  "runner_change": "PFO-only exact-budget validation accepts a properly partitioned terminal partial rollout; other methods unchanged",
+  "verification": {
+    "path": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/preflight/tail_native_gate.json",
+    "sha256": "16d9355e0eeb956e09de09deb36d77329c6605dd7afb2758c40a90daa791c5df"
+  },
+  "PFO_formal_100608": {
+    "ready": true,
+    "status": "PASS_NATIVE_GATES_NOT_YET_STARTED",
+    "missing_fresh_training_jobs": 10,
+    "steps_per_job": 100608,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "domains": [
+      "radio",
+      "v5"
+    ],
+    "formal_training_started": false,
+    "tail_2304_native_gate_performed": true,
+    "prefix_learning_state_equivalence_gate_performed": true,
+    "clock_steps": {
+      "full512": 196,
+      "tail": 256,
+      "ceil_total": 197,
+      "planned_B64_actor_and_value_updates_each": 15720
+    }
+  },
+  "PFO_formal_selection_decided": true,
+  "old_130_completion_and_all_frozen_results_retained": true,
+  "old_negative_gates_not_rewritten": true,
+  "existing_longscope_and_coordinator_unchanged": true,
+  "paper_modified": false,
+  "files_sha256": {
+    "chapters/chapter03/README.rst": "33422354e73ad94b77763aa3bef283e71cd6b6b14f576910f5612a6da6ea5b25",
+    "chapters/chapter03/ablations.py": "cdd2a53e3c7e7da3f50e1f1841723f463b371e4df5a26642bf52c6b5a554128a",
+    "chapters/chapter03/configs/ablations.json": "65a3abe2d3b49393d0f583d9386460509bc31ed6cf513c078a759c0bedfd5546",
+    "chapters/chapter03/configs/baselines.json": "30460c4ab3fce785cf61b614be1860ba5761b4fd60c0c99bff67469601500052",
+    "chapters/chapter03/configs/crossq_actor_only_lr1e4.json": "f56200c5ae4a32e9feee3fa4a92e96586689a709a3c3b410b150d35f6b0a18c7",
+    "chapters/chapter03/configs/current.json": "f970d83c594379a9554cf708f5c0d8a4b15adb74a4ff6f9cf8043c2f54d5783c",
+    "chapters/chapter03/docs/crossq_actor_lr_optional_20261106.rst": "916a7edc90cdc61bf44ff125119f406af96e11f2d6a85b8429e2cf679cc585bf",
+    "chapters/chapter03/environment.py": "ed06306d47cc9e498ecce54676295e71bdceba4ff8e8ba7c03b2f9fce8ccf07f",
+    "chapters/chapter03/integration.json": "998791f021af46d7c98f4ec54d444fb310c41abaadd810d7588d3795fe12c424",
+    "chapters/chapter03/launcher.py": "65f3a495d33030d0f754e7bf9a0233fe231d4292e9266d9555c3a6a186ea2108",
+    "chapters/chapter03/method.py": "a38a40412686cc75d90399423d046d833c78143abbba3e914b9c57890b8bba65",
+    "chapters/chapter03/src/chapter3_candidates/README.rst": "985bd05b8eb7f50d5c976375b0d8d954f374fa698793a93f2ef34e70ae9f2bc1",
+    "chapters/chapter03/src/chapter3_candidates/__init__.py": "ec41cec0bf80014f3bd48147354f66d93cc8b4ab9bc770bfd0080287161956dd",
+    "chapters/chapter03/src/chapter3_candidates/_c_ppo_core.py": "ee769f9358a1514049acf421fb2cb5b6bb813a54342bfba5fc4b49e92815fa35",
+    "chapters/chapter03/src/chapter3_candidates/_c_ppo_runtime.py": "280c2c22a8cb890e2b862196a5577a1dbac02e0125fe1fc7661092e4f9f35d05",
+    "chapters/chapter03/src/chapter3_candidates/c_ppo.py": "2106d68fbf05951568bba265e9980a668097fd7d29f2e781b69762499e5005e1",
+    "chapters/chapter03/src/chapter3_candidates/c_ppo_eval.py": "6d2a88b0204e0926c0ccb741a855febbe9d6022fdb10daa8b0c1b776feb01845",
+    "chapters/chapter03/src/chapter3_candidates/cli.py": "a9330f54058a4f4d3158e55ae49be71107dd1477a9c6fcde6123dac9474eb20b",
+    "chapters/chapter03/src/chapter3_candidates/crossq.py": "458002cecc8bbf7e554deb14d82717ab825882dfa0152080e421e547a87bc848",
+    "chapters/chapter03/src/chapter3_candidates/gradient_ppo.py": "78170e0e3a023f07a9d8e75cd3eb51122f78a2f0ec97d430359def5695f3f683",
+    "chapters/chapter03/src/chapter3_candidates/licenses/CrossQ_MIT.txt": "c335190466d393ff09ef2c9df4fafa442895de2edbde9b498c7322a990b18e00",
+    "chapters/chapter03/src/chapter3_candidates/licenses/PFO_MIT.txt": "719963299d639051d947db9dcdea0083c68664a282a9074622f6ddb3dd2bcb73",
+    "chapters/chapter03/src/chapter3_candidates/licenses/license_facts.json": "cbafe2813017254a1945ba30eed0d66c9d1d688c7b9ae26751866efec543e0b3",
+    "chapters/chapter03/src/chapter3_candidates/licenses/ppo_plus_reference_LICENSE.txt": "3a1169e9b1870cc3a8fcf1a3aaa270fd6266d53000c56ce05d3bbd51974fec82",
+    "chapters/chapter03/src/chapter3_candidates/native.py": "7f7f695c9fba9f4b15eb953dfa1d21c62caed7f2f72e733e631e54cb0761382d",
+    "chapters/chapter03/src/chapter3_candidates/pfo.py": "65e0e7d6f5a41bf4b8870e5ee84e5210414b1c1ea59c10115e0a21ab3c05a801",
+    "chapters/chapter03/src/chapter3_candidates/pfo_provenance.json": "eb8bf0849b404295dfa58f3f286f99db7bfc7efcdb0ade3c1f71b8e85fc231cd",
+    "chapters/chapter03/src/chapter3_candidates/ppo_plus.py": "fa6ed0450c139a2f3ee65539bccda1d4c77faa2ba697b32b76b2b39bfb68c7e9",
+    "chapters/chapter03/src/chapter3_candidates/profiles/c_ppo_radio.json": "1d81613cab345547ef894ae0f584c3cd9ecf6f01af49128f97b8544cd84bbd35",
+    "chapters/chapter03/src/chapter3_candidates/profiles/c_ppo_v5.json": "1d81613cab345547ef894ae0f584c3cd9ecf6f01af49128f97b8544cd84bbd35",
+    "chapters/chapter03/src/chapter3_candidates/profiles/crossq_radio.json": "afe55094c0936063c86a45804f77cb54a20460ee76d6380fa5239c4a3a6dba5e",
+    "chapters/chapter03/src/chapter3_candidates/profiles/crossq_v5.json": "c4745b9dcd1c9f951b5675eb85b6ee083821427828c443bd66682ec408c0d526",
+    "chapters/chapter03/src/chapter3_candidates/profiles/gradient_ppo_radio.json": "e925b1786bc2607a91a596b00761a71c8fd2bc1e11a1783f82e331af1e3ad59b",
+    "chapters/chapter03/src/chapter3_candidates/profiles/gradient_ppo_v5.json": "0ff55d389e4466561037bd48eb4b3a7b304f2ea28552af1bcc0122b1bb51af4c",
+    "chapters/chapter03/src/chapter3_candidates/profiles/pfo_radio.json": "e0dc517e9471976fb6063bb39a0b44373a0d8ed34c547f105449c2c70d88d63c",
+    "chapters/chapter03/src/chapter3_candidates/profiles/pfo_v5.json": "1575ca59926970763a894febcaa08449cccdb6a8158b30e2ebeee07756034f3c",
+    "chapters/chapter03/src/chapter3_candidates/profiles/ppo_plus_radio.json": "d68c4ade0585ed140b2f6be20794e1738e966fb0744acf6cb3d0740579a7fb03",
+    "chapters/chapter03/src/chapter3_candidates/profiles/ppo_plus_v5.json": "4242092c283e4c8df51cd0aaa5e4012cd6e1b315f4b7dd37d41830485566a7f6",
+    "chapters/chapter03/src/chapter3_candidates/profiles/reflective_ppo_radio.json": "b3d161b5b121ca24edab8900846c9431c5205ab810f9da73a994842fb33366da",
+    "chapters/chapter03/src/chapter3_candidates/profiles/reflective_ppo_v5.json": "5904293e47318d101a1e20e9107c228e5fa2ad7ba8f918d6c754045db64cf4a2",
+    "chapters/chapter03/src/chapter3_candidates/provenance.json": "b1e6009ea6cb890b89d532182f340737450c1e0f249c53b3d117b1de6ec485de",
+    "chapters/chapter03/src/chapter3_candidates/references.json": "b64297a43650afd60d15ac55547a3f7063d4c75e8d4cd83773b445876957e3b0",
+    "chapters/chapter03/src/chapter3_candidates/reflective_ppo.py": "a6072317882ac6ead0baae42afdbbae8124a294414bdd7e7f0d143e1c19f42d9",
+    "chapters/chapter03/src/chapter3_candidates/runner.py": "e8afd63788ad304e41e5088d432b7022cf75c6fd5d3ac173175a6648a647e432",
+    "chapters/chapter03/src/chapter3_candidates/shared_mean.py": "1ec859e3f4508f3d74fedd82ad0d5cf5d57e92826d74b0e34d46d94c8ceec1f3",
+    "chapters/chapter03/src/chapter3_candidates/spo.py": "cfd9d6ee9dcf3897ee7acaed4153c72ba6033e50082e779681496c806d01abca",
+    "chapters/chapter03/src/chapter3_candidates/spo_provenance.json": "da6be6a373be08d6c7adb1fe6a423f50f813bbac85bc3b91c24180eff243ca9e",
+    "CHAPTER3_BASELINES.json": "30460c4ab3fce785cf61b614be1860ba5761b4fd60c0c99bff67469601500052",
+    "PROJECT.json": "cfb9d470f3b317708eaeffdc979799251c6495f0b6cdacd07433dcf1ac2df7b8",
+    "MAINTAINED_CODE.json": "c73d41cebdcbae0f46afe06fafc661caa21593ab69aa4f215e0be686fd85531f"
+  },
+  "source_hash_discovery": "allocation23.paths.iter_source_files follows maintained chapter alias; future formal execution requires its own freeze and protocol",
+  "PFO_formal_tail_revision": {
+    "status": "PASS_NATIVE_TAIL256_AND_PREFIX_EQUIVALENCE",
+    "scientific_scope": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106",
+    "gate": {
+      "path": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/preflight/tail_native_gate.json",
+      "sha256": "16d9355e0eeb956e09de09deb36d77329c6605dd7afb2758c40a90daa791c5df"
+    },
+    "implementation_sha256": "65e0e7d6f5a41bf4b8870e5ee84e5210414b1c1ea59c10115e0a21ab3c05a801",
+    "runner_sha256": "e8afd63788ad304e41e5088d432b7022cf75c6fd5d3ac173175a6648a647e432",
+    "unchanged_collector_sha256": "cfd9d6ee9dcf3897ee7acaed4153c72ba6033e50082e779681496c806d01abca",
+    "steps": 100608,
+    "full_rollouts": 196,
+    "tail_real_steps": 256,
+    "rollout_updates": 197,
+    "nominal_minibatch": 64,
+    "actor_updates": 15720,
+    "value_updates": 15720,
+    "behavior": "Every real tail transition is used in four64-sample minibatches per epoch; ten epochs; no extra collection",
+    "from_scratch_jobs": 10,
+    "training_started": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "paper_chapter": 2,
+  "version": "final-complete-experiment-v1",
+  "method": "BLoAR",
+  "method_factory": "chapters.chapter02.method.make_actor",
+  "temporal": "fixed",
+  "current_model_index": "chapters/chapter02/MODELS.json",
+  "model_count": 210,
+  "scientific_sources": {
+    "native110": "frozen/chapter02/native_random_head",
+    "accepted_external100": "frozen/chapter02/legacy_zero_head"
+  },
+  "spatial_variants": [
+    "A_FULL",
+    "A_RANDOM_MATCH",
+    "A_SOFTMAX",
+    "A_DIRECT"
+  ],
+  "baselines": [
+    "paspo",
+    "rpo",
+    "td7",
+    "simba_v2",
+    "dime"
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "main_and_ablation_steps": "approximately150000 actual complete-episode budget per MODELS",
+  "condition_comparison_episodes": 960,
+  "TEST_paths_per_model": 512,
+  "same_long_run_stage_and_endpoint_have_separate_TEST": true,
+  "automatic_queue_recovery": false
+}

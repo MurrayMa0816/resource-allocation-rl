@@ -1,0 +1,46 @@
+{
+  "schema": "allocation23-comparison-suite-v1",
+  "purpose": "formal_comparison",
+  "description": "A-only chapter2 default-condition main comparison: six methods, two environments, five seeds.",
+  "domains": [
+    "v5",
+    "radio"
+  ],
+  "chapters": [
+    2
+  ],
+  "methods": [
+    "A",
+    "paspo",
+    "rpo",
+    "td7",
+    "simba_v2",
+    "dime"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "episodes": 960,
+  "eval_every": 240,
+  "development_paths": 32,
+  "holdout_paths": 512,
+  "path_master": 202610303101,
+  "holdout_master": 202611016199,
+  "radio_groups": 100,
+  "baseline_profile": "formal",
+  "checkpoint_every": 32,
+  "checkpoint_keep": 2,
+  "final_checkpoint_mode": "evaluation",
+  "retention_note": "Running baselines keep two complete resumable generations. At the fixed final budget, off-policy models/normalizers/optimizer param_groups/RNG and logs are retained without replay or Adam moments; these final artifacts support evaluation, not continuation. PASPO has no replay and retains its full state. A/B final checkpoints retain their native format.",
+  "device": "cpu",
+  "reserve_cpu": 2,
+  "storage_reserve_bytes": 536870912,
+  "algorithm_stage_note": "DIME BRN warmup 100000 and TD7 late checkpoint phase 750000 are retained algorithm settings; those late stages do not activate in this main budget.",
+  "primary_research_method": "A",
+  "full_completion_plan": "experiments/chapter23_completion_20261101/jobs.json",
+  "scope_note": "Implemented default-condition main subset; not the complete560-job plan."
+}

@@ -1,0 +1,73 @@
+{
+  "status": "PASS_COMPLETE_FIVE_FIXED_RUNS_POSTHOC_ACCEPTED",
+  "plan_sha256": "5f5965769674e6788005aba34cc3e493d633417cdb2227f57e3f132dbcc26afd",
+  "fixed_completions": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed0/accepted_completion.json",
+      "sha256": "6d2583add76b3249fbc1605dae2472603cdc7578cea20693d083fc16af533188",
+      "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+      "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed0/failed.json",
+      "original_failed_sha256": "fed8a3ecf99f64c363004071f36662d5d6c6e35b699b3ee16643476433c77d9e",
+      "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+      "scientific_verification_sha256": "8f87d2a8dce88382b79ad9ca7e29b910383efe4f8b19f3160c4862f204e4e8cc"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed1/accepted_completion.json",
+      "sha256": "b4d8e602ecea3ba912e99730e2263eee6b3fe1cc75258dd2b820b59acd19af59",
+      "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+      "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed1/failed.json",
+      "original_failed_sha256": "c41dcf0de8b8407744cb26e2d132383f3cebc166e30a21972f010eb9ab43e633",
+      "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+      "scientific_verification_sha256": "5765462ff56d1791427d41cbccfd280aeec1019a09b640f72e6d41f1146d3b21"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed2/accepted_completion.json",
+      "sha256": "880503570a2b01c79a03a06f664be44cf6d6dc6969f62eccd7af37ec319a4c29",
+      "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+      "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed2/failed.json",
+      "original_failed_sha256": "bb9868f2d9cf43e3822c17490207da4eae088848e0ba000aead30200bae10bc5",
+      "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+      "scientific_verification_sha256": "c5b1cc9a0d03e250c6a788ebf06ecc974d620a9d21987d2b67633b952e6f7dc9"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed3/accepted_completion.json",
+      "sha256": "d1705e5c5f2f817b5c0f7496f797c2b75a0900d620b3ade51343fd67a856b506",
+      "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+      "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed3/failed.json",
+      "original_failed_sha256": "ecf408cb63c9ae6d420000edb4e95303ff2c89a6c15b0d55a695419b9dfb520e",
+      "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+      "scientific_verification_sha256": "571149b064e467b5bca3e4f5a92fb76d1a355abee747a9c658b6f0027ac3322c"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed4/accepted_completion.json",
+      "sha256": "2b5678946ae292595bbb9392058079f94fb8e880b77a390a198dd1e153307586",
+      "original_worker_status": "failed_in_postrun_dynamic_source_registry_guard",
+      "original_failed_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed4/failed.json",
+      "original_failed_sha256": "e5a5f935e6f3c7b6296658365510da0eb4ab44f0cec2d1e074e695f87fd2928a",
+      "source_identity_reconciliation_sha256": "ede5119cc61833368e4a0550827dd1f6daadf80bc34bad031add251012b60a57",
+      "scientific_verification_sha256": "2290125062a167225f0deec029220fe7738e39690bfd6213af3399ec29793871"
+    }
+  ],
+  "admission_route": "explicit posthoc complete scientific acceptance with five original terminal source-path-key failures preserved",
+  "original_worker_process_status": "failed",
+  "original_failed_receipts_and_controller_status_preserved": true,
+  "scientific_retries": 0,
+  "independent_full_audit_status": "PASS_POSTHOC_FULL_DATA_ACCEPTED_WITH_WORKER_FAILURES_PRESERVED",
+  "independent_full_audit_sha256": "48585daaf0e3920d81fbf40e692f93f3989c57dd9ead94fa1f9c5e7064279a04",
+  "independent_aggregation_crosscheck_status": "PASS",
+  "independent_aggregation_crosscheck_sha256": "a1e1c5b84d5870cdbbb7533f9e16dbd37d000a9e1cefc2b6774339b766cdd686",
+  "aggregation_completion": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/results/aggregation_completion.json",
+  "aggregation_completion_sha256": "dc5e6186391f14d42ad85cb1699cd7b7029ef4e7479939f79159f57e57bc6327",
+  "local_sha256": {
+    "random_curve_by_seed.csv": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+    "random_plotted_points.csv": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
+    "random_aggregation_summary.json": "9fa181247d583d158b4de3d8b5805520fd49a47e6f5f4d43994f17768bd0ceff",
+    "random_aggregation_completion.json": "dc5e6186391f14d42ad85cb1699cd7b7029ef4e7479939f79159f57e57bc6327",
+    "audit_scientific_acceptance.json": "61ad30a625dbccf1a866f6e7e621cf1459fdd2acd70abe9bb2224f0cf423bd7b",
+    "audit_independent_full_numeric.json": "48585daaf0e3920d81fbf40e692f93f3989c57dd9ead94fa1f9c5e7064279a04",
+    "audit_aggregation_crosscheck.json": "a1e1c5b84d5870cdbbb7533f9e16dbd37d000a9e1cefc2b6774339b766cdd686"
+  },
+  "model_loads_during_staging": 0,
+  "environment_steps_during_staging": 0,
+  "source_data": "32 DEV cases x 8 action repeats averaged inside each of 5 training seeds at each of 132 real nodes"
+}

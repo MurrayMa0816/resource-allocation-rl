@@ -1,0 +1,153 @@
+{
+  "key": "qpensieve",
+  "repository": "https://github.com/rl-bandits-lab/Q-Pensieve",
+  "commit": "07385086539126db74284402d798dd89ce04ff0b",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "5f506eed339c246f46ab37aff9536eea7dccd0915c0749992c8bf8bf90d7228b",
+      "bytes": 1076,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "49057044d71ac8f57085638215936b8c7fa21a89f3be579f8aac2eadbb4fac13",
+      "bytes": 4051,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/README.md"
+    },
+    {
+      "path": "agent.py",
+      "sha256": "733df2bd56eb640e330acff441b136eef93a91a00b61ce343a0ddeec8d9292ab",
+      "bytes": 23452,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/agent.py"
+    },
+    {
+      "path": "base.py",
+      "sha256": "b8e34011ec9b51c53bf36a30291e867b76316c83daa0ac8185568321c1dfcc33",
+      "bytes": 5173,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/base.py"
+    },
+    {
+      "path": "compute_hv.py",
+      "sha256": "ac98375d8d24f80b0275bb802379cdf6708c090d7bd3f6d301f6ff37fc988785",
+      "bytes": 2971,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/compute_hv.py"
+    },
+    {
+      "path": "compute_hv_and_uv.py",
+      "sha256": "28b9be373bbf7757903bf5492f80284d0c8521cc96eef98797203977123d220a",
+      "bytes": 1168,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/compute_hv_and_uv.py"
+    },
+    {
+      "path": "environments/MO_lunar_lander.py",
+      "sha256": "0bd4bb51c2fc21c3ee2393fc1aeced3083d2e1118a55838ee9237a215aa44d93",
+      "bytes": 18299,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/MO_lunar_lander.py"
+    },
+    {
+      "path": "environments/MO_lunar_lander5d.py",
+      "sha256": "7195eb75a865f3d1863a1602293d27b8254d217139332fbb72b10a90b31ee5e0",
+      "bytes": 18345,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/MO_lunar_lander5d.py"
+    },
+    {
+      "path": "environments/ant3d_v3.py",
+      "sha256": "dc8da35f64419bc853310f693007f4f7ce43b6bfbbb1fa04b396f17a3c771304",
+      "bytes": 5194,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/ant3d_v3.py"
+    },
+    {
+      "path": "environments/ant_v3.py",
+      "sha256": "2d3aee1c47561a06ff62849b719ec33685839e55a63c0912b673eb4573654b91",
+      "bytes": 5178,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/ant_v3.py"
+    },
+    {
+      "path": "environments/dst_d.py",
+      "sha256": "3541e30eb44891c805f819c616a35b0b35fa4e5feb27c281a8edeef3a83c0c51",
+      "bytes": 5225,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/dst_d.py"
+    },
+    {
+      "path": "environments/half_cheetah_v3.py",
+      "sha256": "8b08e319333fcfd9fcb6f220fddde29d123c5144786676511a9eb47da0834f18",
+      "bytes": 3247,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/half_cheetah_v3.py"
+    },
+    {
+      "path": "environments/hopper3d_v3.py",
+      "sha256": "3b760bc0fbef8edddd873a31855ef700f37f23fcb93f461e2b2456722cc6ebe9",
+      "bytes": 5118,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/hopper3d_v3.py"
+    },
+    {
+      "path": "environments/hopper5d_v3.py",
+      "sha256": "93b725494509358cea2258bd50680229756523ffe2d389c46d64ebc4e34b046c",
+      "bytes": 5131,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/hopper5d_v3.py"
+    },
+    {
+      "path": "environments/hopper_v3.py",
+      "sha256": "8b05818e09ebc452a3bc6c4ef1a2c2a01aac770e92a22fcc4a367c78509901b4",
+      "bytes": 4997,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/hopper_v3.py"
+    },
+    {
+      "path": "environments/humanoid_v3.py",
+      "sha256": "0cea9ba79f65fb4998bdadb8fd35908085f5451fed7a3bc4dad9a74e5d74bc96",
+      "bytes": 5786,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/humanoid_v3.py"
+    },
+    {
+      "path": "environments/walker2d_v3.py",
+      "sha256": "cae9c68e67007f8607dd4eefdcda440850a22f841f5743a99bfec104bcd049d3",
+      "bytes": 14800,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/environments/walker2d_v3.py"
+    },
+    {
+      "path": "hypervolume.py",
+      "sha256": "3a7925a5c967f94e1e0c1655198c05bd09528abe602424e26c08e5fc35783612",
+      "bytes": 10515,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/hypervolume.py"
+    },
+    {
+      "path": "main.py",
+      "sha256": "b124b6f8a697678d6ffcdfd1b500838c7a55d2934dbf799f0128aa9a096cf726",
+      "bytes": 2319,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/main.py"
+    },
+    {
+      "path": "model.py",
+      "sha256": "c990b036b46e9e002973320858eb4174358aea65042505ec01ed83f6713746bb",
+      "bytes": 2800,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/model.py"
+    },
+    {
+      "path": "multi_step.py",
+      "sha256": "bfe9e969e8bc766b9c58bbb9159bf47bd033f4fb86a64ef1411284749bf07341",
+      "bytes": 2487,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/multi_step.py"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "daf3c674bfa20e9ea909ed3e3c1ce7c0633480d2892776806ff42bfb8bb9fcd8",
+      "bytes": 105,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/requirements.txt"
+    },
+    {
+      "path": "test.py",
+      "sha256": "4e698ec64d75764403c8e050a6cd467cba43e69a932302f859e02856f68f786f",
+      "bytes": 3928,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/test.py"
+    },
+    {
+      "path": "utils.py",
+      "sha256": "9bc491408420ad80d4c95268c8d6b381744f4a524f828206486c43ab1371a732",
+      "bytes": 1500,
+      "url": "https://raw.githubusercontent.com/rl-bandits-lab/Q-Pensieve/07385086539126db74284402d798dd89ce04ff0b/utils.py"
+    }
+  ],
+  "source_only": true,
+  "pretrained_models_downloaded": false
+}

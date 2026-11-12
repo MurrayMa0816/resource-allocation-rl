@@ -1,0 +1,198 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "4.5",
+  "caption": "各方法的训练步数统计与确认次数",
+  "label": "fig:ch4-completed-development",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-05_TRoC与外部方法的受限交互成本及确认次数",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter04_trajectory_reuse/section53_experiments.tex",
+  "current_references": [
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_TRoC与外部方法的受限交互成本及确认次数/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/data.csv",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/figure_config.json",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plotted_points.csv"
+  ],
+  "current_source_files": [
+    "accepted_inputs/accepted_cache_adapter.py",
+    "plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/provenance/unused_parent_presentation_style.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/replot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure45/plot.py",
+    "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py"
+  ],
+  "historical_provenance": {
+    "schema": "chapters45-content-spacing-derivative-v1",
+    "number": "4.5",
+    "parent_directory": "/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5",
+    "parent_pdf_sha256": "7d117f2a69cdcb0afd0e0bc46dbbb526d0db9b1a44d964350cac3a10a682b5da",
+    "parent_source_sha256": "409727294ccce6aa1ecbf7737346c948988df591419978d39af92897e759a5b5",
+    "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+    "renderer_sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
+    "scientific_data_sha256": {
+      "data.csv": "443d7cc73d23439b4c800cfa3aa607ad27b58c4425e8d293bee3a237102ac9d9",
+      "plotted_points.csv": "4f610dfec1e69dd7acc3c49fb1b956b337521cebb41872aca484dbbc8e4a411e"
+    },
+    "input_copies_sha256": {
+      "data.csv": "443d7cc73d23439b4c800cfa3aa607ad27b58c4425e8d293bee3a237102ac9d9",
+      "figure_config.json": "ac964c11c6d77cd7849fcf5d4f6830d3e3c8cb833e6493183a92b9f92c35f4ec",
+      "replot.py": "8f3e2d1e04209ac88b981b3ad0ae50cc2d34bfb6723d96b88ace1ea7835150f5",
+      "plot.py": "22d30446d4bb5aca45c139b9b4bf50e082fc9318b39b5545b07d9b9be1cd26cf",
+      "props_b_derivation.json": "f1135a74343d21c57c18fde33be630249b534b270f63a2d6ed870d1446e28849",
+      "render_geometry.json": "c16b27e59e1d64dc5556d9f766898a347988825f5bfb728b65e0aebf48a393b0",
+      "plotted_points.csv": "4f610dfec1e69dd7acc3c49fb1b956b337521cebb41872aca484dbbc8e4a411e",
+      "source.json": "409727294ccce6aa1ecbf7737346c948988df591419978d39af92897e759a5b5"
+    },
+    "scientific_values_styles_and_axes_physical_dimensions_preserved": true,
+    "pdf_character_frame_spacing": {
+      "width_bp": 442.2047119140625,
+      "height_bp": 212.7890625,
+      "content_top_bp": 4.251965522766113,
+      "content_bottom_bp": 207.11976623535156,
+      "legend_box_bp": null,
+      "xlabel_to_legend_bp": null,
+      "bottom_margin_mm": 2.000001737806532,
+      "top_margin_mm": 1.4999989483091565,
+      "row_metrics": [],
+      "all_pdf_text_exact": true,
+      "unmatched_texts": [],
+      "footer_below_legend": false
+    },
+    "output_sha256": {
+      "figure.pdf": "21a444d1315c0a70f8c2f24f492b816383d18aa155072d85fb886157aab9509a",
+      "figure.png": "03828cc46d6f971005f44276294d6cab0e89be1e847529f34b329642b4713a7a",
+      "figure.svg": "809acc31615b4076c4f1a06e367f1b9ea695dd3633367ad23a88191b2f728b92"
+    },
+    "environment_steps": 0,
+    "model_loads": 0,
+    "training_runs": 0,
+    "external_scientific_data_sha256": {},
+    "retained_external_scientific_copies": {},
+    "external_data_files": []
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "21a444d1315c0a70f8c2f24f492b816383d18aa155072d85fb886157aab9509a"
+  },
+  "files": [
+    {
+      "path": "LOCAL_REPRODUCTION.rst",
+      "bytes": 669,
+      "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c"
+    },
+    {
+      "path": "README.rst",
+      "bytes": 2191,
+      "sha256": "ab4e13fb6e494c95d5d5d4a0605581d909d3589a77540fe543a0e9a1b28d3ac2"
+    },
+    {
+      "path": "accepted_inputs/accepted_cache_adapter.py",
+      "bytes": 8661,
+      "sha256": "ae5613e19cb934db0ec81f66b822b71790895665a9aa768d757d150fe4f23dcf"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 31387,
+      "sha256": "21a444d1315c0a70f8c2f24f492b816383d18aa155072d85fb886157aab9509a"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 114757,
+      "sha256": "03828cc46d6f971005f44276294d6cab0e89be1e847529f34b329642b4713a7a"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 26703,
+      "sha256": "809acc31615b4076c4f1a06e367f1b9ea695dd3633367ad23a88191b2f728b92"
+    },
+    {
+      "path": "plot.py",
+      "bytes": 7310,
+      "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1"
+    },
+    {
+      "path": "render_support/config.json",
+      "bytes": 233,
+      "sha256": "44181b973434bc5a0db87f4360195c7ed0513a24fb66e03d0e3774fdcdf81456"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/data.csv",
+      "bytes": 1503,
+      "sha256": "443d7cc73d23439b4c800cfa3aa607ad27b58c4425e8d293bee3a237102ac9d9"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/figure.pdf",
+      "bytes": 31373,
+      "sha256": "7d117f2a69cdcb0afd0e0bc46dbbb526d0db9b1a44d964350cac3a10a682b5da"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/figure.png",
+      "bytes": 72442,
+      "sha256": "b205f869c851afc5e2306cda1115d41ba709185eb33d6e32b403c1425c4f8f3c"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/figure_config.json",
+      "bytes": 359,
+      "sha256": "ac964c11c6d77cd7849fcf5d4f6830d3e3c8cb833e6493183a92b9f92c35f4ec"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plot.py",
+      "bytes": 8490,
+      "sha256": "22d30446d4bb5aca45c139b9b4bf50e082fc9318b39b5545b07d9b9be1cd26cf"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plotted_points.csv",
+      "bytes": 487,
+      "sha256": "4f610dfec1e69dd7acc3c49fb1b956b337521cebb41872aca484dbbc8e4a411e"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/props_b_derivation.json",
+      "bytes": 2727,
+      "sha256": "f1135a74343d21c57c18fde33be630249b534b270f63a2d6ed870d1446e28849"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/provenance/parent_binding.json",
+      "bytes": 712,
+      "sha256": "b95914d2eeab2a3d26b98909efe2064df8f8f821179d8d745fa9b5434f8fbd11"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/provenance/unused_parent_presentation_style.py",
+      "bytes": 5412,
+      "sha256": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/render_geometry.json",
+      "bytes": 11654,
+      "sha256": "c16b27e59e1d64dc5556d9f766898a347988825f5bfb728b65e0aebf48a393b0"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/replot.py",
+      "bytes": 53,
+      "sha256": "8f3e2d1e04209ac88b981b3ad0ae50cc2d34bfb6723d96b88ace1ea7835150f5"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/source.json",
+      "bytes": 5434,
+      "sha256": "409727294ccce6aa1ecbf7737346c948988df591419978d39af92897e759a5b5"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure45/plot.py",
+      "bytes": 215,
+      "sha256": "3232b50fe709e4111742c14f3993e97689799efac5c237e33560db13496b78ad"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "path": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+      "bytes": 22348,
+      "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4"
+    }
+  ]
+}

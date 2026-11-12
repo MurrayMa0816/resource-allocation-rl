@@ -1,0 +1,27 @@
+{
+  "source_directory": "/root/gamewar/data/eurosat_rgb",
+  "copied_without_modification": true,
+  "files": {
+    "images.npy": {
+      "bytes": 331776128,
+      "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef"
+    },
+    "split_manifest.json": {
+      "bytes": 341975,
+      "sha256": "3da80902473649ff41d0b92110b03820827983434a45e11f5c1df3d4ac841731"
+    },
+    "image_records.json": {
+      "bytes": 4926321,
+      "sha256": "cc02b91346ecb02e63c0f1cbe75e0b7583133bef24827bffb6e761032d9cd982"
+    }
+  },
+  "runtime_files": [
+    "images.npy",
+    "split_manifest.json"
+  ],
+  "provenance_file": "image_records.json",
+  "not_included": [
+    "EuroSAT_RGB.zip",
+    "prefix_mse.npy"
+  ]
+}

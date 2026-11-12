@@ -1,0 +1,82 @@
+{
+  "number": "5.9",
+  "kind": "c5case",
+  "resize_IDs": true,
+  "method_line_patterns": false,
+  "active_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-09_对象终点质量与达标分布",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-9",
+  "output_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9",
+  "native_source": "parent_renderer.py",
+  "source_metadata": {
+    "number": "5.9",
+    "kind": "c59",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-09_对象终点质量与达标分布/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter5/assets/c5_terminal_case",
+    "parent_pdf_sha256": "0090f1479064004618798064e5b56c1aef5f4c1d620dd869fcc363c635aec8fe",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter5/assets/c5_terminal_case/plot.py",
+    "parent_renderer_sha256": "e84b4c06dbb8e1a0664886e04bbb61ba9e954e4b394f861d1ea2bc521c59248c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-9",
+    "mapping": {
+      "SSIM": "结构相似性指数"
+    },
+    "schema": "thesis-chinese-metric-figure-labels-v1",
+    "native_parent_renderer_byte_identical": true,
+    "changes": [
+      {
+        "old": "SSIM",
+        "new": "结构相似性指数"
+      }
+    ],
+    "nontext_equal": true,
+    "parent_native_reproduction_pixels_equal": true,
+    "outputs": {
+      "figure.pdf": "46ed60bb4afcc02309fbb23038681330c2bec5711265e60505ab6647411e4c14",
+      "figure.svg": "840d4b0e2afac38dbed8b829ceab8739c64d9c47d8d0a4305fffd59cbfd25593",
+      "figure.png": "46f03ac1bfb75696f4ba679b909cb48b985d771dd050bb4c3959c2b365a07a8a",
+      "checks/metric_display_proof.json": "c627c38f89a98bbfcc49021a686a4899155b98d63a27f329c7dade7f9cd15d07"
+    },
+    "parent_retained": true,
+    "scientific_execution": {
+      "environment_steps": 0,
+      "model_loads": 0,
+      "policy_evaluations": 0,
+      "training_runs": 0
+    },
+    "checks": {
+      "checks/metric_display_proof.json": "c627c38f89a98bbfcc49021a686a4899155b98d63a27f329c7dade7f9cd15d07",
+      "checks/pdf_value_and_vector_check.json": "c6dd53c541717ec2c34e4f16d877ea760d24c39575f7135981e2d0fbcd58e132",
+      "checks/native_parent_reproduction.json": "4b836dfc5730f24a81934f509f3c19101c30f4e5367f91abb37d5bb5908c4d10"
+    },
+    "parent_source_metadata": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter5/assets/c5_terminal_case/source.json",
+    "parent_source_metadata_sha256": "bdc47419d82979395a49a84829a6d5cbb0a0e7de5bca1bd7ceffdadcbab955c7",
+    "native_parent_asset_directory_preserved": true
+  },
+  "cache_adaptations": [],
+  "parent_files_sha256": {
+    "parent_renderer.py": "e84b4c06dbb8e1a0664886e04bbb61ba9e954e4b394f861d1ea2bc521c59248c",
+    "figure.pdf": "46ed60bb4afcc02309fbb23038681330c2bec5711265e60505ab6647411e4c14",
+    "figure.svg": "840d4b0e2afac38dbed8b829ceab8739c64d9c47d8d0a4305fffd59cbfd25593",
+    "figure.png": "46f03ac1bfb75696f4ba679b909cb48b985d771dd050bb4c3959c2b365a07a8a",
+    "source.json": "92f42dffff539d858793c0cd2f4865969e3959af61373c715a7408e572ead3f9",
+    "README.rst": "099ff2c67a63553d5d87fce0ab97b24140debaed12cdea3c03c3ba2db5e066c1",
+    "plot.py": "9b40793a2d95ccb7233411182cf7a8d59608761fe14900d93dcc5cc05b5e8a50"
+  },
+  "input_files_sha256": {
+    "parent_renderer.py": "e84b4c06dbb8e1a0664886e04bbb61ba9e954e4b394f861d1ea2bc521c59248c",
+    "source.json": "92f42dffff539d858793c0cd2f4865969e3959af61373c715a7408e572ead3f9",
+    "plot.py": "9b40793a2d95ccb7233411182cf7a8d59608761fe14900d93dcc5cc05b5e8a50",
+    "data/c5_radio_seed0_case0_terminal_quality.csv": "05aef557685f76af294e041566998816a26bb558c45a2473d8e4fc722ae92178",
+    "data/c5_v5_seed0_case0_terminal_quality.csv": "1b090658d23ccd9ed81876311fd5859d9bfa6ccc3835bae3ac7df6fbf2c0ca3c",
+    "data/c5_terminal_data_sources.json": "e88f93880b87aa8be3dc47699a1e8ee376a46b471f032a81ff889d799c19d66f"
+  },
+  "index_row": {
+    "图号": "5.9",
+    "图题": "不同目标下的对象终点成效与达标分布",
+    "章节目录": "chapter05_dual_value",
+    "图目录": "chapters/chapter05_dual_value/figures/figure05-09_对象终点质量与达标分布",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "data/c5_radio_seed0_case0_terminal_quality.csv;data/c5_v5_seed0_case0_terminal_quality.csv"
+  }
+}

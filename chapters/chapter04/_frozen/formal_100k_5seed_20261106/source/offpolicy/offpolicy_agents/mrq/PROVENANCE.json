@@ -1,0 +1,83 @@
+{
+  "paper": "Towards General-Purpose Model-Free Reinforcement Learning",
+  "venue": "ICLR 2025",
+  "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/cf6501108fced72ee5c47e2151c4e153-Abstract-Conference.html",
+  "paper_pdf": "https://proceedings.iclr.cc/paper_files/paper/2025/file/cf6501108fced72ee5c47e2151c4e153-Paper-Conference.pdf",
+  "repository": "https://github.com/facebookresearch/MRQ",
+  "commit": "073adcd6b30f84694c241e00bd684db50242a215",
+  "license": "CC-BY-NC-4.0",
+  "unmodified_learning_files": [
+    "vendor/MRQ.py",
+    "vendor/models.py",
+    "vendor/buffer.py",
+    "vendor/utils.py"
+  ],
+  "not_imported": [
+    "vendor/main.py",
+    "env_preprocessing.py",
+    "Gym",
+    "Atari"
+  ],
+  "TD7_relationship": "Different ICLR2025 paper and full method, with representation-learning lineage; not a relabelled TD7 baseline.",
+  "implementation_status": "independently registered reserve; default CUDA failed priority-repeat exactness; scoped priority-write CUDA attempt02 pending",
+  "actual_new_environment_steps": 0,
+  "actual_GPU_calls": 0,
+  "deployment": "deterministic native state encoder plus policy",
+  "terminal_semantics": "public H cutoff is true terminated, not continuing truncation",
+  "warmup": "native replay.size >10000 for train, extra terminal observation slots retained; first RL physical9698 radio/9601 v5",
+  "reward": "unaltered public terminal reward; native internal adaptive reward normalization retained",
+  "native_temporal_horizons": {
+    "encoder": 5,
+    "value": 3
+  },
+  "native_target_schedule": "at RL1+250k, hard sync then250 encoder updates",
+  "endpoint": "one state-encoder plus policy inference file, no value/model-head/Adam/replay/periodic state",
+  "explicit_engineering_adaptations": [
+    {
+      "file": "agent.py",
+      "location": "ObservedReplay.__init__ after native super",
+      "change": "if self.prioritized: self.priority.zero_()",
+      "reason": "native torch.empty invalid slots participate in full-capacity cumsum(priority*mask); NaN*0 remains NaN",
+      "equivalence_scope": "valid-slot priorities and LAP distribution unchanged for finite mask-weighted original data; never-written slots defined as zero",
+      "not_claimed": "unmodified complete author software stack; no new learning/optimizer/sampling algorithm",
+      "RNG_consumption": 0,
+      "vendor_modified": false
+    },
+    {
+      "profile": "mrq-priority-index-put-strict-v1",
+      "file": "agent.py",
+      "scope": "ObservedReplay.update_priority calling unchanged native super only",
+      "change": "strict deterministic Torch dispatch inside guard; finally restore original enabled and warn_only flags",
+      "vendor_modified": false,
+      "hyperparameters_or_priority_formula_changed": false,
+      "global_determinism_or_CUBLAS_changed": false,
+      "not_claimed": "default whole-stack CUDA determinism",
+      "default_CUDA_failure_preserved": "/hy-tmp/resource_allocation_results/chapter4/mrq_reserve_validation_20261106/preflight/cuda/gate.json"
+    }
+  ],
+  "priority_initialization_before_evidence": "/hy-tmp/resource_allocation_results/chapter4/mrq_reserve_validation_20261106/preflight/priority_initialization_review/before_manifest.json",
+  "priority_initialization_CPU_gate": "/hy-tmp/resource_allocation_results/chapter4/mrq_reserve_validation_20261106/preflight/priority_initialization_review/cpu_initialization_gate.json",
+  "legacy_CPU_gate_does_not_certify_current_agent": true,
+  "independent_reserve_study_protocol": "/hy-tmp/resource_allocation_results/chapter4/mrq_reserve_validation_20261106/study_protocol.json",
+  "default_CUDA_attempt01": {
+    "path": "/hy-tmp/resource_allocation_results/chapter4/mrq_reserve_validation_20261106/preflight/cuda/gate.json",
+    "sha256": "0eff2accdcce1c68335162b8caa7b5f3dd905107b8d99bee3b3f47529cc86b6f",
+    "status": "FAIL_NATIVE_NONDETERMINISM",
+    "exact_comparisons": {
+      "native_repeat_all_full_state_exact": false,
+      "adapter_native_all_full_state_exact": false,
+      "parameters_and_targets": true,
+      "Adam": true,
+      "gradients": true,
+      "RNG": true,
+      "replay_and_LAP": false
+    },
+    "actual_optimizer_steps": {
+      "encoder": 1500,
+      "value": 12,
+      "policy": 12
+    },
+    "physical_environment_steps": 0,
+    "source_backup": "/hy-tmp/resource_allocation_results/chapter4/mrq_reserve_validation_20261106/preflight/default_cuda_attempt01_source"
+  }
+}

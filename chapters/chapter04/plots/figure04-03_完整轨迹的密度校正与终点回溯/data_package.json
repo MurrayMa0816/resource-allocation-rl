@@ -1,0 +1,32 @@
+{
+  "figure": "figure04-03_完整轨迹的密度校正与终点回溯",
+  "paths_relative_to_final_data_root": true,
+  "data_package": "chapters/chapter04/figures/figure04-03_完整轨迹的密度校正与终点回溯",
+  "legacy_data_package": "chapters/chapter04/figures/figure04-03_完整轨迹的密度校正与终点回溯",
+  "code_package": "chapters/chapter04/plots/figure04-03_完整轨迹的密度校正与终点回溯",
+  "source_files": [
+    {
+      "relative": "source.drawio",
+      "sha256": "0c8d783ad9533f116d275f8c3fc6459a2814c1146f106b84108e9625fd7f37d0",
+      "size": 16030
+    },
+    {
+      "relative": "README.rst",
+      "sha256": "cba67373e2bc2c0774ac0710478a74ee6756ab2e2a569df076d4020806bdc1cf",
+      "size": 628
+    },
+    {
+      "relative": "source.json",
+      "sha256": "05ed972df7d84f7d3c76464658ed6ba43b06ab7724c497fa8b3d5717c173c542",
+      "size": 8406
+    },
+    {
+      "relative": "CONTENTS.json",
+      "sha256": "64f0debe98857ba701224c5ba29ef9275e24f5adc698b34a3a4d6fbc9c73d3c2",
+      "size": 720
+    }
+  ],
+  "numerical_data_is_not_duplicated_in_ROOT": true,
+  "no_FS_links": true,
+  "role": "maintained exact renderer version plus explicit DATA input package"
+}

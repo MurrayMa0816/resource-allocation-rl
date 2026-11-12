@@ -1,0 +1,117 @@
+{
+  "figure": "figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "paths_relative_to_final_data_root": true,
+  "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "legacy_data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "code_package": "chapters/chapter05/plots/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "source_files": [
+    {
+      "relative": "LOCAL_REPRODUCTION.rst",
+      "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
+      "size": 669
+    },
+    {
+      "relative": "README.rst",
+      "sha256": "5457fcda401fbc59bbac0b2e59fc4ede88895dc6822ee8bc69de8cb4878a72eb",
+      "size": 3051
+    },
+    {
+      "relative": "plot.py",
+      "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
+      "size": 7310
+    },
+    {
+      "relative": "source.json",
+      "sha256": "a02e349fe2d4fc855dfdb113b9387386179aa262f7a2bfff9a6faaeb9c357cbb",
+      "size": 13192
+    },
+    {
+      "relative": "CONTENTS.json",
+      "sha256": "e5d4846423969ae28bda615eb4d7bd96bd013c8de0f1bc4ce738fc0459786d25",
+      "size": 4470
+    },
+    {
+      "relative": "render_support/config.json",
+      "sha256": "de1c30f758643cdf9ad21bfcd858083f7395cfe9b657ca12f89dd3865d48ae79",
+      "size": 233
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/manifest.json",
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
+      "size": 122365
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure56/plot.py",
+      "sha256": "30f6dff4005f07e6f623ce470eda98ed1a3e0974a3f925480743472caad01033",
+      "size": 215
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/execution/print_manifest_ch45.json",
+      "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632",
+      "size": 122366
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
+      "size": 21351
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/manifest.json",
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
+      "size": 122365
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+      "sha256": "b48d560e1c9c922cea85dad27b154d1e29dcf56717ad4b262f17ca789ce1fb57",
+      "size": 12682
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inherited_native_presentation_proof.json",
+      "sha256": "1b0e8c20afd6524f6235a2549c7c5b23ec72243df7f0b3721ff9bb747acb88e1",
+      "size": 26996
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/plot.py",
+      "sha256": "60d6a87c11ac92cd22b4a1ff4bae4fcfd4e354c5ca5ea014cf834b3c2350ea7f",
+      "size": 260
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/print_presentation_proof.json",
+      "sha256": "f5853f218061b687284610b1510f94dc9578db575428760da06bb7b908616474",
+      "size": 8108
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/source.json",
+      "sha256": "e63e88a56820dcc7f5cc215b89ed1c40fc03560e7de028ccc125780afa32617c",
+      "size": 2114
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/spec.json",
+      "sha256": "2f086e63876363d7e084a1a0f322e60a315f72db395107385355b7654ea4b0a9",
+      "size": 5453
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/parent_renderer.py",
+      "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+      "size": 13693
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/plot.py",
+      "sha256": "c738673b5664053ecc21936aa7e4fe9a9505fd2bed4f05157cc3f845b530c651",
+      "size": 233
+    },
+    {
+      "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/data_manifest.json",
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
+      "size": 1844
+    },
+    {
+      "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+      "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
+      "size": 22348
+    }
+  ],
+  "numerical_data_is_not_duplicated_in_ROOT": true,
+  "no_FS_links": true,
+  "role": "maintained exact renderer version plus explicit DATA input package"
+}

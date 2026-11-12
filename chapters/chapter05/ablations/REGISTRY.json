@@ -1,0 +1,27 @@
+{
+  "schema": "chapter5-current-ablation-index-v1",
+  "active_source": "ablations/variants.py",
+  "worker_selector": "--variant",
+  "groups": [
+    {
+      "id": "full",
+      "role": "完整Full"
+    },
+    {
+      "id": "only_j",
+      "role": "只优化原任务指标J"
+    },
+    {
+      "id": "only_c",
+      "role": "只优化达标比例C"
+    },
+    {
+      "id": "scalar_value",
+      "role": "单一综合目标的价值监督"
+    }
+  ],
+  "completed_results": "results/02_ablations",
+  "experiment_plan": "experiments/02_ablations/plan.json",
+  "executable_training_configuration": false,
+  "automatic_training_started": false
+}

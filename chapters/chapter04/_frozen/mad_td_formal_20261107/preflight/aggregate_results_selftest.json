@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "tests": [
+    "trapezoidal_normalized_AUC",
+    "single_hit_censor",
+    "second_consecutive_confirmation",
+    "sample_SD_not_population_SD"
+  ],
+  "new_environment_steps": 0
+}

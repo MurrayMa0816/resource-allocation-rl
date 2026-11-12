@@ -1,0 +1,71 @@
+{
+  "status": "PASS_MAINTENANCE_AND_REAL_HY_COPY_ZERO_ENV_IMPORT",
+  "adapter_source_sha256": "1c917b2bc433ed6c7ebc6e2445708318ee4929209f2c2e8cc7874c164d2725c1",
+  "identified_failure": "Previous FORMAL_ROOT inferred from__file__.parents pointed insideHY when adapter was copied; failed engineeringattempt0 remains untouched",
+  "repair": "Only stable absolute actualformal285 path binding; no trainingmath/config/RNG change",
+  "records": [
+    {
+      "role": "maintenance",
+      "import_file": "/root/gamewar/resource_allocation_rl/applications/irrigation/learning_comparison_20261109/methods/pasta_adapter.py",
+      "copy_sha256": "1c917b2bc433ed6c7ebc6e2445708318ee4929209f2c2e8cc7874c164d2725c1",
+      "actual_formal_root": "/root/gamewar/resource_allocation_rl/frozen/chapter05/formal285",
+      "resolved_formal_root": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source",
+      "native_source_checks": {
+        "__init__.py": "fa8dc959f25b8337506c3a1e7f717e1c76448341c1846aeb26804a90495fea3d",
+        "agent.py": "3259f50527eb1aec8fcdb91f233eed960c64f5a2310685161a0e70afbc2f38c1",
+        "_native.py": "e97972992b3383ccd275ddced04b721ca1586c20cf13f4c956e574dacf97f92d",
+        "configs.json": "e3e29b01953acfdd379050108d8d74056e9b43561b83bc6707f989f0be77aad7",
+        "README.rst": "1a09609a0cdcc5ceea83cdc2a32d2105e1287cecd3a93faa7f780fca02607b85",
+        "RELEASE.json": "0452723ed5e8a0ae61c52495cd5f9cb54ddf850e6a268f4e421b931ff1676a0b"
+      },
+      "formal_learning_steps": 259200,
+      "engineering_learning_steps": 5184,
+      "fixed64_shape": [
+        1,
+        64,
+        49
+      ],
+      "fixed64_dtype": "float64",
+      "zero_env_agent_constructed": true
+    },
+    {
+      "role": "HY_copied_snapshot",
+      "import_file": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/runtime_cache/pasta_portability/zero_env_2psq2n3x/deep/snapshot/methods/pasta_adapter.py",
+      "copy_sha256": "1c917b2bc433ed6c7ebc6e2445708318ee4929209f2c2e8cc7874c164d2725c1",
+      "actual_formal_root": "/root/gamewar/resource_allocation_rl/frozen/chapter05/formal285",
+      "resolved_formal_root": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/execution/source",
+      "native_source_checks": {
+        "__init__.py": "fa8dc959f25b8337506c3a1e7f717e1c76448341c1846aeb26804a90495fea3d",
+        "agent.py": "3259f50527eb1aec8fcdb91f233eed960c64f5a2310685161a0e70afbc2f38c1",
+        "_native.py": "e97972992b3383ccd275ddced04b721ca1586c20cf13f4c956e574dacf97f92d",
+        "configs.json": "e3e29b01953acfdd379050108d8d74056e9b43561b83bc6707f989f0be77aad7",
+        "README.rst": "1a09609a0cdcc5ceea83cdc2a32d2105e1287cecd3a93faa7f780fca02607b85",
+        "RELEASE.json": "0452723ed5e8a0ae61c52495cd5f9cb54ddf850e6a268f4e421b931ff1676a0b"
+      },
+      "formal_learning_steps": 259200,
+      "engineering_learning_steps": 5184,
+      "fixed64_shape": [
+        1,
+        64,
+        49
+      ],
+      "fixed64_dtype": "float64",
+      "zero_env_agent_constructed": true
+    }
+  ],
+  "temporary_copy_removed_after_check": true,
+  "attempt0_modified": false,
+  "CAPQL_modified_or_restarted": false,
+  "physical_work": {
+    "environment_constructions": 0,
+    "resets": 0,
+    "steps": 0,
+    "optimizer_updates": 0,
+    "training_runs": 0,
+    "model_loads": 0
+  },
+  "synthetic_work": {
+    "new_agents_initialized": 2,
+    "fixed64_forward_calls": 2
+  }
+}

@@ -1,0 +1,765 @@
+{
+  "canvas_shape": [
+    666,
+    1351
+  ],
+  "figure_inches": [
+    6.141732283464567,
+    3.031496062992126
+  ],
+  "dpi": 220,
+  "axes_positions": [
+    [
+      0.125,
+      0.2145454545454546,
+      0.3516260162601626,
+      0.6545454545454545
+    ],
+    [
+      0.6383739837398374,
+      0.2145454545454546,
+      0.35162601626016254,
+      0.6545454545454545
+    ]
+  ],
+  "geometry": [
+    {
+      "xlim": [
+        -0.452,
+        2.4520000000000004
+      ],
+      "ylim": [
+        0.0,
+        80.0
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        0,
+        1,
+        2
+      ],
+      "yticks": [
+        0.0,
+        20.0,
+        40.0,
+        60.0,
+        80.0
+      ],
+      "lines": [
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "93b93a23de817e1bf65ad9b01095369634800bd24a0136e021a25db891cb7912"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "438bc61b8f3feb8f2fd32c55b85d3e6db5c52bf6e2cc01cc46bb6e2ae1c8caf3"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "6c786de9326c789bc3aa59be473f69c38011321c809896752265b046074d0c38"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "be199e1d2debf7a773422bc972571492975850be7ad6b2e2306da265e6266401"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "237fc8abe60bb50d01cb4bfed91e816598a400d81899f568052e073a58ca10ea"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "078f4809f0832d6d5418dfd22e135ae37183dd82282f13628720e0bacb9812df"
+        }
+      ],
+      "collections": [
+        [
+          {
+            "vertices": {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "745ed8763dc940dc9e7068d13238de4f49915cdf56a02e92e1b77f62a8f83c8e"
+            },
+            "codes": null
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "a3107a33d4fef4163a2c06cc3f55227f3e561e64fd7ccba301ee1a1f80179830"
+            },
+            "codes": null
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "8f3c431f8ade39609e8c886b21bfeba881bc93cf0089e81bc5f0e77d53119323"
+            },
+            "codes": null
+          }
+        ]
+      ],
+      "patches": [
+        [
+          -0.32,
+          0.0,
+          0.64,
+          18.432
+        ],
+        [
+          0.6799999999999999,
+          0.0,
+          0.6400000000000001,
+          58.8288
+        ],
+        [
+          1.68,
+          0.0,
+          0.6400000000000003,
+          37.324799999999996
+        ]
+      ]
+    },
+    {
+      "xlim": [
+        -0.452,
+        2.4520000000000004
+      ],
+      "ylim": [
+        0.0,
+        22.0
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        0,
+        1,
+        2
+      ],
+      "yticks": [
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      "lines": [
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "d32d5603f7bebb479eafbfbca28353af8d81ab5256758c4ab8cb4d1fb59f7d19"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "a96db040460c6e2f63fc693627796e6d0d99e37dff3d91fba4fe79de6f92c055"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "7ea20d727b8f6a45d5c9006b389f9722e85a2de69fb5f8681cb4180b47e43407"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "18f67363584e8ca47611d9db92bbfc279cf0ed493a7527c0b348bbbf0138c8fa"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "cf8221d7a21f850a89293179a16d22d9680b70fe1d568a48a58949e654793181"
+        },
+        {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "f589d1e5e20e03b4ca9b03fd23d09f9861b61bdfce10f390829b1b9c2a37e630"
+        }
+      ],
+      "collections": [
+        [
+          {
+            "vertices": {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "5b6f8568887a8ce667a1dc17eff23ee4013c667531d91ef1347ea45b068c922a"
+            },
+            "codes": null
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "9e70ef44880986bef0f81dc5c7ef3ea0bf76fcddb59f52a98c152b10d5589c81"
+            },
+            "codes": null
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "3b75afc8a203f758874432c14c432dc689d6cf9862d40eeb8decd2216f262170"
+            },
+            "codes": null
+          }
+        ]
+      ],
+      "patches": [
+        [
+          -0.32,
+          0.0,
+          0.64,
+          9.216
+        ],
+        [
+          0.6799999999999999,
+          0.0,
+          0.6400000000000001,
+          12.441600000000001
+        ],
+        [
+          1.68,
+          0.0,
+          0.6400000000000003,
+          10.751999999999999
+        ]
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "key": "ax0.ylabel",
+      "kind": "ylabel",
+      "text": "达到45.27分所需训练步数\n（×10³）",
+      "box": [
+        25.189304461942243,
+        123.95816929133855,
+        90.93930446194227,
+        485.33316929133855
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.title",
+      "kind": "title",
+      "text": "(a) 通信功率分配",
+      "box": [
+        288.2028519300941,
+        29.541147200349883,
+        524.7028519300941,
+        62.82239720034988
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.xtick0",
+      "kind": "xtick",
+      "text": "TRoC",
+      "box": [
+        203.59733255349732,
+        554.9967191601049,
+        282.0973325534973,
+        584.9967191601049
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.xtick1",
+      "kind": "xtick",
+      "text": "仅用\n新轨迹",
+      "box": [
+        358.2653519300941,
+        554.9967191601049,
+        454.6403519300941,
+        617.7567191601049
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.xtick2",
+      "kind": "xtick",
+      "text": "旧轨迹\n不校正",
+      "box": [
+        521.8708713066908,
+        554.9967191601049,
+        618.2458713066908,
+        617.7567191601049
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.ytick0",
+      "kind": "ytick",
+      "text": "0",
+      "box": [
+        131.5087489063867,
+        511.4133858267716,
+        147.5087489063867,
+        541.4133858267717
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.ytick1",
+      "kind": "ytick",
+      "text": "20",
+      "box": [
+        115.5087489063867,
+        402.27952755905505,
+        147.5087489063867,
+        432.27952755905505
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.ytick2",
+      "kind": "ytick",
+      "text": "40",
+      "box": [
+        115.3837489063867,
+        293.1456692913385,
+        147.5087489063867,
+        323.1456692913385
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.ytick3",
+      "kind": "ytick",
+      "text": "60",
+      "box": [
+        115.5087489063867,
+        184.01181102362193,
+        147.5087489063867,
+        214.01181102362193
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.ytick4",
+      "kind": "ytick",
+      "text": "80",
+      "box": [
+        115.3837489063867,
+        74.87795275590543,
+        147.5087489063867,
+        104.87795275590543
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.annotation0",
+      "kind": "annotation",
+      "text": "18.43",
+      "box": [
+        206.65983255349732,
+        374.1867982579316,
+        279.0348325534973,
+        404.1867982579316
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.annotation1",
+      "kind": "annotation",
+      "text": "58.83",
+      "box": [
+        370.3278519300941,
+        105.47554799364366,
+        442.5778519300941,
+        135.47554799364366
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax0.annotation2",
+      "kind": "annotation",
+      "text": "37.32",
+      "box": [
+        533.9958713066908,
+        209.66881350495612,
+        606.1208713066908,
+        239.66881350495612
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.ylabel",
+      "kind": "ylabel",
+      "text": "达到75.60%所需训练步数\n（×10³）",
+      "box": [
+        718.8505297356123,
+        126.70816929133855,
+        784.6005297356123,
+        482.58316929133855
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.title",
+      "kind": "title",
+      "text": "(b) 应急柴油分配",
+      "box": [
+        980.926577203764,
+        29.244272200349883,
+        1219.301577203764,
+        62.82239720034988
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.xtick0",
+      "kind": "xtick",
+      "text": "TRoC",
+      "box": [
+        897.2585578271674,
+        554.9967191601049,
+        975.7585578271674,
+        584.9967191601049
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.xtick1",
+      "kind": "xtick",
+      "text": "仅用\n新轨迹",
+      "box": [
+        1051.926577203764,
+        554.9967191601049,
+        1148.301577203764,
+        617.7567191601049
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.xtick2",
+      "kind": "xtick",
+      "text": "旧轨迹\n不校正",
+      "box": [
+        1215.5320965803608,
+        554.9967191601049,
+        1311.9070965803608,
+        617.7567191601049
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.ytick0",
+      "kind": "ytick",
+      "text": "0",
+      "box": [
+        825.1699741800568,
+        511.4133858267716,
+        841.1699741800568,
+        541.4133858267717
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.ytick1",
+      "kind": "ytick",
+      "text": "5",
+      "box": [
+        825.1699741800568,
+        412.20078740157476,
+        841.1699741800568,
+        442.20078740157476
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.ytick2",
+      "kind": "ytick",
+      "text": "10",
+      "box": [
+        809.0449741800568,
+        312.98818897637784,
+        841.1699741800568,
+        342.98818897637784
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.ytick3",
+      "kind": "ytick",
+      "text": "15",
+      "box": [
+        809.0449741800568,
+        213.77559055118098,
+        841.1699741800568,
+        243.77559055118098
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.ytick4",
+      "kind": "ytick",
+      "text": "20",
+      "box": [
+        809.1699741800568,
+        114.56299212598412,
+        841.1699741800568,
+        144.56299212598412
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.annotation0",
+      "kind": "annotation",
+      "text": "9.22",
+      "box": [
+        908.5085578271674,
+        211.617388484096,
+        964.5085578271674,
+        241.617388484096
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.annotation1",
+      "kind": "annotation",
+      "text": "12.44",
+      "box": [
+        1063.926577203764,
+        114.60268895636352,
+        1136.301577203764,
+        144.60268895636352
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    },
+    {
+      "key": "ax1.annotation2",
+      "kind": "annotation",
+      "text": "10.75",
+      "box": [
+        1227.5945965803608,
+        148.81236060920162,
+        1299.8445965803608,
+        178.81236060920162
+      ],
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman"
+      ],
+      "font_weight": "normal",
+      "font_style": "normal"
+    }
+  ],
+  "legends": [],
+  "spacing": null,
+  "artist_geometry_sha256": "75267d4f7f3179b01f7c827797cee56f9f49087a05ab284a5fc93ac8329856df"
+}

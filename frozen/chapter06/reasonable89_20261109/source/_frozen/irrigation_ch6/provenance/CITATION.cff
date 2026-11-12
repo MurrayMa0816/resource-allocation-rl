@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this software together with the scenario and external data/model sources."
+title: "Irrigation Allocation RL: Hongmiao 93-unit resource allocation environment"
+type: software
+authors:
+  - name: "Irrigation Allocation RL contributors"
+version: 1.0.0
+date-released: 2026-10-14
+license: MIT
+abstract: "A research environment with 93 published midseason-rice service areas, 81 daily allocation decisions and terminal simulated relative-yield evaluation. Frozen research initial surface water, percolation and effective root available storage differences, shared crop and weather, and a constant research supply quota are distinguished from local measurements. The terminal boundary is not actual crop maturity. Version 1.0.0 requires chapter 3 to allocate the fixed actual daily total, while chapters 4 to 6 retain optional use of the carryover budget. It provides ten-field policy observations with 563 values in every chapter from 3 through 6. Completed-stage yield products and current-stage actual/reference ET totals are sufficient yield-history statistics within the current Jensen model; this is not a generic minimum-state claim. The previous realized weather pair remains a policy input; report ages and the derived mean forecast remain only in the 26-field public display and audit view. All formal chapters use current simulated reports and reject nonzero report delays. Chapter 6 inherits the carryover budget and sparse terminal reward, and adds 93 expected positive relative-yield shortfall constraints with explicitly configured targets and tolerances. Constraint feedback remains separate from the scalar reward and the ten policy fields. Hongmiao93-v1 adds centered regional root available storage and a default 0.30 rainfall multiplier with unchanged ET0; these are research controls, not measured drought or unit soil properties."

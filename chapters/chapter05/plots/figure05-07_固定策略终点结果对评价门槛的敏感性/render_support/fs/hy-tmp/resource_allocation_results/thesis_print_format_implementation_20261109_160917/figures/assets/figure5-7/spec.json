@@ -1,0 +1,89 @@
+{
+  "number": "5.7",
+  "kind": "c5shared",
+  "resize_IDs": false,
+  "method_line_patterns": true,
+  "active_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-7",
+  "output_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7",
+  "native_source": "parent_renderer.py",
+  "source_metadata": {
+    "number": "5.7",
+    "kind": "c5shared",
+    "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性/figure.pdf",
+    "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/threshold_recount",
+    "parent_pdf_sha256": "ea53b04ebcc65071b7bfc97d7dac95d11b9599e44e120d1ef42d6531654db184",
+    "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+    "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-7",
+    "mapping": {
+      "图像质量达标要求（SSIM）": "结构相似性指数门槛"
+    },
+    "role": "threshold_recount",
+    "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data",
+    "schema": "thesis-chinese-metric-figure-labels-v1",
+    "native_parent_renderer_byte_identical": true,
+    "changes": [
+      {
+        "old": "图像质量达标要求（SSIM）",
+        "new": "结构相似性指数门槛"
+      }
+    ],
+    "nontext_equal": true,
+    "parent_native_reproduction_pixels_equal": true,
+    "outputs": {
+      "figure.pdf": "d37fb1df5f473c8cb8a182111dfb1f0423d009ce4c05fed67a17821af7df1f22",
+      "figure.svg": "ad2a19e3471a15d8693b6286defb0ab11a271c7807c098c60dee86fa45e26012",
+      "figure.png": "70d36743939a63ef003484ed5e22a054d59fbc8b43be2952410c6c522d5567fb",
+      "checks/metric_display_proof.json": "65dfbb9f5f4144a883df69d2d7737b6edbae4243363ab0e052dd872994a8e520"
+    },
+    "parent_retained": true,
+    "scientific_execution": {
+      "environment_steps": 0,
+      "model_loads": 0,
+      "policy_evaluations": 0,
+      "training_runs": 0
+    },
+    "checks": {
+      "checks/metric_display_proof.json": "65dfbb9f5f4144a883df69d2d7737b6edbae4243363ab0e052dd872994a8e520",
+      "checks/pdf_value_and_vector_check.json": "623c67414a78eecdcd27fee1628e15a6b1ede7719e198f6f1ae7c4189247876f",
+      "checks/native_parent_reproduction.json": "2b9e7c82b76a8a847cee7eb941d5971c8ff6852e55af947374bc83ffae5e2a0d"
+    },
+    "parent_source_metadata": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/threshold_recount/source.json",
+    "parent_source_metadata_sha256": "8d7781cbbf46f985c8852c3211f19fe09274ff78839c23e5157e779e3b4572fe",
+    "native_parent_asset_directory_preserved": true
+  },
+  "cache_adaptations": [],
+  "parent_files_sha256": {
+    "parent_renderer.py": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "figure.pdf": "d37fb1df5f473c8cb8a182111dfb1f0423d009ce4c05fed67a17821af7df1f22",
+    "figure.svg": "ad2a19e3471a15d8693b6286defb0ab11a271c7807c098c60dee86fa45e26012",
+    "figure.png": "70d36743939a63ef003484ed5e22a054d59fbc8b43be2952410c6c522d5567fb",
+    "parent_presentation_proof.json": "c296c50f3bedae62850207530ee3614304d3aec16b8698d1b0a8dfb0e1aa4748",
+    "source.json": "65fed16cc4fbaa8d7fd3d95c905b87c9cd132c483db9480c7ad125174dffc926",
+    "README.rst": "099ff2c67a63553d5d87fce0ab97b24140debaed12cdea3c03c3ba2db5e066c1",
+    "plot.py": "c738673b5664053ecc21936aa7e4fe9a9505fd2bed4f05157cc3f845b530c651"
+  },
+  "input_files_sha256": {
+    "parent_renderer.py": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "parent_presentation_proof.json": "c296c50f3bedae62850207530ee3614304d3aec16b8698d1b0a8dfb0e1aa4748",
+    "source.json": "65fed16cc4fbaa8d7fd3d95c905b87c9cd132c483db9480c7ad125174dffc926",
+    "plot.py": "c738673b5664053ecc21936aa7e4fe9a9505fd2bed4f05157cc3f845b530c651",
+    "data/learning_raw.csv": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+    "data/learning_display.csv": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+    "data/fixed_endpoints_by_seed.csv": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+    "data/threshold_recounts_by_seed.csv": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+    "data/costs_by_seed.csv": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+    "data/data_manifest.json": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+  },
+  "index_row": {
+    "图号": "5.7",
+    "图题": "不同评价要求下固定策略的达标数量",
+    "章节目录": "chapter05_dual_value",
+    "图目录": "chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "../../data/threshold_recounts_by_seed.csv"
+  }
+}

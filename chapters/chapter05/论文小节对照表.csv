@@ -1,0 +1,9 @@
+﻿章节,小节编号,小节标题,资料目录,图号,表号,模型条目数,用途说明
+chapter05,5.1,达标覆盖率与平均成效的配置问题,chapters/chapter05/paper/5.1_达标覆盖率与平均成效的配置问题,5.1,,0,双目标任务、约束与评价含义；示意图不强配实验模型。
+chapter05,5.2,分项监督双价值学习,chapters/chapter05/paper/5.2_分项监督双价值学习,5.2 | 5.3,,0,方法框架、分项目标与统一策略优势。
+chapter05,5.3.1,实验设置,chapters/chapter05/paper/5.3.1_实验设置,,5.1,90,90模型与210次独立评价的统一配置、冻结源和固定输入。
+chapter05,5.3.2.1,配置性能比较,chapters/chapter05/paper/5.3.2.1_配置性能比较,5.4 | 5.5,,60,Full/SeDVal与五外法的DEV学习曲线和标准预算TEST。
+chapter05,5.3.2.2,分项价值监督分析,chapters/chapter05/paper/5.3.2.2_分项价值监督分析,5.6,,20,Full对ScalarValue：自身策略运行状态DEV回报预测残差，以及标准预算独立TEST；两种评价身份分开。
+chapter05,5.3.3.1,评价门槛变化分析,chapters/chapter05/paper/5.3.3.1_评价门槛变化分析,5.7,,60,已冻结TEST对象成效按不同阈值重数，不重训或生成新模型。
+chapter05,5.3.3.2,资源预算变化分析,chapters/chapter05/paper/5.3.3.2_资源预算变化分析,5.8,,60,固定模型在0.8/1.0/1.2倍预算TEST，不是三档分别重训。
+chapter05,5.3.3.3,目标取舍与对象终点成效分析,chapters/chapter05/paper/5.3.3.3_目标取舍与对象终点成效分析,5.9,,30,Full/OnlyJ/OnlyC五种子总体TEST；图实例仅Full与OnlyJ的seed0、共同case0。

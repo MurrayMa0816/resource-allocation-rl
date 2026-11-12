@@ -1,0 +1,233 @@
+{
+  "schema": "reasonable89-ROOT-visualization-readable-mirror-v1",
+  "status": "EXACT_READABLE_MIRROR_PAPER_ACCEPTED_CANONICAL",
+  "utc": "2026-11-08T20:53:06.764432+00:00",
+  "scientific_source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "scientific140_changed": false,
+  "authority_source_manifest": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/source_preparation_manifest.json",
+    "sha256": "00cf4856fe8cc404081f3dcd736974887826ad36fd02feaee47c4e13fad8dd78"
+  },
+  "figure_delivery": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/FINAL_FIGURE_DELIVERY.json",
+    "sha256": "153aa3045b28d26022f3d2cecf62bb3dc5acf5d7a8b25414b43c84ba069de049"
+  },
+  "files": [
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/build_index.py",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/build_index.py",
+      "authoritative_sha256": "6a41ec1dfeb9a0ce73119f279182a3c9ade5a979536fa6f2c3f7b43abbbdab80",
+      "maintained_sha256": "6a41ec1dfeb9a0ce73119f279182a3c9ade5a979536fa6f2c3f7b43abbbdab80",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/channel_style.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/channel_style.json",
+      "authoritative_sha256": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+      "maintained_sha256": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/data_adapter.py",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/data_adapter.py",
+      "authoritative_sha256": "cf9ae44030f193a9a39fa01c993dc1c9cffbf37dbf286cec1f2f77d884c841ca",
+      "maintained_sha256": "cf9ae44030f193a9a39fa01c993dc1c9cffbf37dbf286cec1f2f77d884c841ca",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/diagrams/figure06-02_灌溉仿真环境交互流程/source.drawio",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/diagrams/figure06-02_灌溉仿真环境交互流程/source.drawio",
+      "authoritative_sha256": "88c0a13334062db2359c4e3a23b08fc99c4f8d49bd7b3a794bca0565844310ed",
+      "maintained_sha256": "88c0a13334062db2359c4e3a23b08fc99c4f8d49bd7b3a794bca0565844310ed",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/display_helpers.py",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/display_helpers.py",
+      "authoritative_sha256": "9bf2a93811649d13db0001e175ad7e69b960b362295061b627c05e18643dc170",
+      "maintained_sha256": "9bf2a93811649d13db0001e175ad7e69b960b362295061b627c05e18643dc170",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/geometry/combined_water_geometry.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/geometry/combined_water_geometry.json",
+      "authoritative_sha256": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "maintained_sha256": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/geometry/compact_gate_symbols.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/geometry/compact_gate_symbols.json",
+      "authoritative_sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "maintained_sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/geometry/layout.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/geometry/layout.json",
+      "authoritative_sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "maintained_sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/geometry/water_hex_edges.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/geometry/water_hex_edges.json",
+      "authoritative_sha256": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "maintained_sha256": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/process_panels.py",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/process_panels.py",
+      "authoritative_sha256": "162e29ec83e86955b2fa0f1955c43f2f8a38c710861b9ee45c9884c320b39a0e",
+      "maintained_sha256": "162e29ec83e86955b2fa0f1955c43f2f8a38c710861b9ee45c9884c320b39a0e",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/render.py",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/render.py",
+      "authoritative_sha256": "542d4e139c57025797a38242b4cbef4bdf18e396b8bee8df3b542f8d00e71182",
+      "maintained_sha256": "542d4e139c57025797a38242b4cbef4bdf18e396b8bee8df3b542f8d00e71182",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/replay.py",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/replay.py",
+      "authoritative_sha256": "3b951cfaf4f5aaab707aa90c30420bff4d8c3f98e9678b8028d7be332f690552",
+      "maintained_sha256": "3b951cfaf4f5aaab707aa90c30420bff4d8c3f98e9678b8028d7be332f690552",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/replay_template.html",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/replay_template.html",
+      "authoritative_sha256": "98ad0ab690fef36cbb9dcf0d5afa0df1f980923e321fcd023bcceb90db4ea9f2",
+      "maintained_sha256": "98ad0ab690fef36cbb9dcf0d5afa0df1f980923e321fcd023bcceb90db4ea9f2",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/data/combined_water_geometry.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/data/combined_water_geometry.json",
+      "authoritative_sha256": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "maintained_sha256": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/data/compact_gate_symbols.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/data/compact_gate_symbols.json",
+      "authoritative_sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "maintained_sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/data/internal_hex_edges.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/data/internal_hex_edges.json",
+      "authoritative_sha256": "629694d376cadaaee127ae5d601e58846ca51be7f4482df53a5da6d2bb229f5c",
+      "maintained_sha256": "629694d376cadaaee127ae5d601e58846ca51be7f4482df53a5da6d2bb229f5c",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/data/layout.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/data/layout.json",
+      "authoritative_sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "maintained_sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/data/source_regions.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/data/source_regions.json",
+      "authoritative_sha256": "30a4c3e36e814b9406cae88c527b50b5d5e71ee145ca4eaaae9b91d0c9e52d65",
+      "maintained_sha256": "30a4c3e36e814b9406cae88c527b50b5d5e71ee145ca4eaaae9b91d0c9e52d65",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/data/water_band.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/data/water_band.json",
+      "authoritative_sha256": "fe5549a2c52d64b10965212a5f8aa60df2e5a55ceb072fe6e5f98906200e1157",
+      "maintained_sha256": "fe5549a2c52d64b10965212a5f8aa60df2e5a55ceb072fe6e5f98906200e1157",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/data/water_hex_edges.json",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/data/water_hex_edges.json",
+      "authoritative_sha256": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "maintained_sha256": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/source/render.py",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/source/render.py",
+      "authoritative_sha256": "983137583127d2bc239534bd7dbb2123d7866a02b03da634b08e3ae0c9e06284",
+      "maintained_sha256": "983137583127d2bc239534bd7dbb2123d7866a02b03da634b08e3ae0c9e06284",
+      "storage": "exact_byte_editable_source_copy",
+      "path_adaptation": "none"
+    }
+  ],
+  "HY_static_input_links": [
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/figure.pdf",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/figure.pdf",
+      "authoritative_sha256": "2695b49ba85636a3ee0f66d5cf5c70bced3d0c33eaaef54e29a17299fd281a77",
+      "maintained_sha256": "2695b49ba85636a3ee0f66d5cf5c70bced3d0c33eaaef54e29a17299fd281a77",
+      "storage": "HY_static_categorical_input_symlink",
+      "read_only_usage_contract": true,
+      "read_only_note": "Reference only, not a claim of POSIX target write-protection; no maintenance write to linked input."
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/figure.png",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/figure.png",
+      "authoritative_sha256": "1bea42814670615070b2d0c53216f81613cfe120348a02285457bd5ffb63ddd8",
+      "maintained_sha256": "1bea42814670615070b2d0c53216f81613cfe120348a02285457bd5ffb63ddd8",
+      "storage": "HY_static_categorical_input_symlink",
+      "read_only_usage_contract": true,
+      "read_only_note": "Reference only, not a claim of POSIX target write-protection; no maintenance write to linked input."
+    },
+    {
+      "authoritative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/static_scene/figure.svg",
+      "maintained_path": "/root/gamewar/resource_allocation_rl/applications/irrigation/reasonable89_20261109/visualization/source/static_scene/figure.svg",
+      "authoritative_sha256": "b43464ff6c7a71268d66b7d0dd095310b122ce7d32d66f68f0bc8fa354c3730c",
+      "maintained_sha256": "b43464ff6c7a71268d66b7d0dd095310b122ce7d32d66f68f0bc8fa354c3730c",
+      "storage": "HY_static_categorical_input_symlink",
+      "read_only_usage_contract": true,
+      "read_only_note": "Reference only, not a claim of POSIX target write-protection; no maintenance write to linked input."
+    }
+  ],
+  "copied_editable_files": 21,
+  "core_plot_python_files": 6,
+  "replay_template_included": true,
+  "actual_renderer": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/render.py",
+  "actual_replay_renderer": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source/replay.py",
+  "execution_rule": "Actual execution remains sealed HY source; ROOT copies are reviewable exact-byte mirrors. No relocated import/path equivalence claimed.",
+  "generated_PDF_PNG_SVG_copies": 0,
+  "formal_NPZ_or_model_copies": 0,
+  "generated_HTML_copies": 0,
+  "path_adaptations": [],
+  "output_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures",
+  "global_pointers_switched": true,
+  "new_environment_steps": 0,
+  "new_model_inferences": 0,
+  "previous_prepublication_manifest_sha256": "c05aeb8eeec2a7a7999af42ca26c327f4c0b6a0f8eae4855a3aa8f90a5a51745",
+  "paper_acceptance": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/PAPER_ACCEPTANCE.json",
+    "sha256": "e55a90d02e063f618b1a4f98fd90573ee2b3e2c9fdf714f4a2e43362139d93b3"
+  }
+}

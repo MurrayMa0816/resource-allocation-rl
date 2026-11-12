@@ -1,0 +1,28 @@
+{
+  "initialization_source": "/root/gamewar/resource_allocation_rl/chapters/chapter05/method/initialization.py",
+  "initialization_source_sha256": "4389a779c47ace6dbf536a6c91868147edf37f98cce9624ae1da6816782a46c7",
+  "profile_compatible": "chapter5-both-heads-default-random-v1",
+  "source_usage": "copied chapter6-owned entity; no runtime chapter5 imports",
+  "learning_math_changes": false,
+  "values.py_source_sha256": "3d4f4349aa04f15e6a5617640d29a1a33e45d100eee54468295b5698189e1f30",
+  "learner_change": "only device admission guard accepts one-visible CUDA; no learning equation or optimizer-setting changes",
+  "learner.py_source_sha256": "5e2e13e44912a77eeef6e4884e447ea19f37ab4a01105a36f5d0ee0abe97cd6f",
+  "high_yield89_adaptation": {
+    "source_maintenance_root": "/root/gamewar/resource_allocation_rl/applications/irrigation/current89",
+    "objective_order": [
+      "C",
+      "JA"
+    ],
+    "second_objective": "area weighted mean using fixed public rice_area_ha",
+    "auxiliary_J": "unweighted mean only",
+    "unchanged": [
+      "actor",
+      "initialization",
+      "PPO clipping",
+      "dual trace equations",
+      "recent-trajectory reuse",
+      "optimizer settings",
+      "physical dependency121 files"
+    ]
+  }
+}

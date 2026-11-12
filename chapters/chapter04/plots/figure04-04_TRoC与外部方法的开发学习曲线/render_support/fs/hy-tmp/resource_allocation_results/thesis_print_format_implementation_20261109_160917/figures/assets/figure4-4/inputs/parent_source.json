@@ -1,0 +1,90 @@
+{
+  "schema": "c4-experiment-section-alignment-presentation-v1",
+  "number": "4.4",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_experiment_labels_and_c2_discussion_20261108_115454/assets_non_c2/figure04-04_TRoC与外部方法的开发学习曲线",
+  "parent_plot_file": "plot_source.py",
+  "parent_plot_sha256": "bc749edf3affb41a90d1881fff9c8335f0942c7a96af17dba1a03f11ced7e1f7",
+  "parent_data_sha256": {
+    "data.csv": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+    "figure_config.json": "fbe8e9ec044926bc6f0ef31212f2638a435d2ef94ba0c34e3ff1640c03a02175",
+    "plotted_points.csv": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63"
+  },
+  "new_environment_steps": 0,
+  "models_loaded": false,
+  "smoothing_and_scientific_statistics_unchanged": true,
+  "plot_sha256": "7d3f70d1224b226212b2400e1e7c4128e8528b22c6e995fda3479a4423861a62",
+  "presentation_style_sha256": "a22dc2f801b2028dc9f32f2c03d5e8a13191dd0d209b04c490ee2d092e26e8bc",
+  "source_replacements": "source_replacements.json",
+  "outputs_sha256": {
+    "figure.pdf": "fa57b2cec813e42b0aff28b54c378ccf07b76d2b1bacd9716d52f37c6e2a0eeb",
+    "figure.svg": "7b8123fbb6b0fcd9e52af261f7bc00555adf0a6b13ee232c5c4c5c318717ce7a",
+    "figure.png": "87e0b9db8d229e053ba72ffe84aee26a00eb23bf49aebe34295f3d8f7c6a015f",
+    "plotted_points.csv": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+    "render_geometry.json": "87118305c22f08d536dbc6c1fe5007e36f66f6c8fa3113cd839b60d6f0eefa3a"
+  },
+  "presentation_alignment": {
+    "schema": "axes-centered-subplot-title-v1",
+    "status": "PASS",
+    "parent_directory": "/hy-tmp/resource_allocation_results/chapter04/figures/experimental_display_20261108_171303/chapter4/assets/figure04-04_TRoC与外部方法的开发学习曲线",
+    "proof": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/proofs/c4_fig_ch4_formal_main/verification.json",
+    "proof_sha256": "7954fd0d9a1a2725a450448438cfec1bc9bd91a7e06de83a265ad126b9ce2b26",
+    "editable_sources": {
+      "plot.py": "d1507140eda0163a5241cfec572df372606cbf583ee60eb1f58d60ff5df4fc59",
+      "presentation_style.py": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba"
+    },
+    "outputs_sha256": {
+      "pdf": "9e3445b513c86d4ca8ac8ced48fb239eb7008b2d1f53786f92b67d473a9be542",
+      "svg": "535893bd7241679950a035f7f64b63865c1eeb9e1c3ff67a1c14db517a586bb0",
+      "png": "db375adb660d06118662fb623975a2b90a15f03763e081543e8b492f766c26e3"
+    },
+    "data": [
+      {
+        "file": "data.csv",
+        "parent_sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+        "new_sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+        "decoded_sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+        "exact_bytes": true,
+        "numeric_records_exact": true
+      },
+      {
+        "file": "plotted_points.csv",
+        "parent_sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+        "new_sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+        "decoded_sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+        "exact_bytes": true,
+        "numeric_records_exact": true
+      }
+    ],
+    "source_replacements": [
+      {
+        "file": "plot.py",
+        "old": "PRESENTATION_ROOT=Path('/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter4')",
+        "new": "PRESENTATION_ROOT=Path('/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34')",
+        "count": 1,
+        "kind": "private_output_or_cache_root"
+      },
+      {
+        "file": "presentation_style.py",
+        "old": "loc='left',pad=8",
+        "new": "loc='center',pad=8",
+        "count": 1,
+        "kind": "title_position_or_diagnostic_title_binding"
+      },
+      {
+        "file": "presentation_style.py",
+        "old": "'title',axis._left_title",
+        "new": "'title',axis.title",
+        "count": 1,
+        "kind": "title_position_or_diagnostic_title_binding"
+      }
+    ],
+    "title_rule": "Complete (letter)+short title centered on its own axes plotting rectangle; preserve y/titlepad/font/canvas",
+    "local_replot_command": "python -B /hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/assets/c4_fig_ch4_formal_main/plot.py --output-dir /hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/reproduced/c4_fig_ch4_formal_main",
+    "geometry_unchanged": true,
+    "title_exterior_pixel_differences": 0,
+    "model_loads": 0,
+    "new_environment_steps": 0,
+    "new_policy_inferences": 0,
+    "new_training_steps": 0
+  }
+}

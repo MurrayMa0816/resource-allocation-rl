@@ -1,0 +1,29 @@
+{
+  "scope": "root must perform fresh resource admission; prepare-only, not started",
+  "argv": [
+    "/hy-tmp/resource_allocation_results/chapter4/recent_baselines_ready_20261102/runtime/torch/bin/python",
+    "-P",
+    "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo/gpu_synthetic_gate.py",
+    "--physical-gpu",
+    "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+    "--receipt",
+    "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/literature/redo/gpu_synthetic_gate.json",
+    "--iterations",
+    "32"
+  ],
+  "env": {
+    "CUDA_VISIBLE_DEVICES": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "LD_LIBRARY_PATH": "/hy-tmp/resource_allocation_results/chapter4/recent_baselines_ready_20261102/runtime/torch/lib/python3.11/site-packages/nvidia/nccl/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cublas/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cuda_cupti/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cuda_nvrtc/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cuda_runtime/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cudnn/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cufft/lib:/usr/local/lib/python3.11/dist-packages/nvidia/curand/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cusolver/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cusparse/lib:/usr/local/lib/python3.11/dist-packages/nvidia/nccl/lib:/usr/local/lib/python3.11/dist-packages/nvidia/nvjitlink/lib:/usr/local/lib/python3.11/dist-packages/nvidia/nvtx/lib",
+    "TMPDIR": "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/tmp/redo",
+    "XDG_CACHE_HOME": "/hy-tmp/resource_allocation_results/chapter4/no_degradation_screen_20261105/cache/redo",
+    "PYTHONPATH": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/redo"
+  },
+  "expected_environment_steps": 0,
+  "expected_synthetic_CUDA_native_iterations": 68,
+  "reserved_GPU_MiB": 2048,
+  "minimum_physical_GPU_free_floor_MiB": 1536
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "chapter5-morld-single-selected-implementation-v1",
+  "status": "USER_SELECTED_CURRENT_IMPLEMENTATION",
+  "selected_utc": "2026-11-06T04:39:58.507870+00:00",
+  "method": "morld",
+  "display_name": "MORL/D",
+  "profile": "critic_lr1e4",
+  "selection": "User explicitly fixed the orange Critic-lr0.0001 setting as the only current implementation.",
+  "actor_lr": 0.0003,
+  "critic_lr": 0.0001,
+  "morld_update_passes": 10,
+  "morld_other_update_every_training_episodes": 1,
+  "active_alternative_profiles": [],
+  "config_file": "configs.json",
+  "source_file": "agent.py",
+  "source_sha256": "9f934bac20a86f16608572e55d1ad5879641b63193a2bec338c8f92c4e52bd8b",
+  "configs_sha256": "7382a184206b25737fd0d2996dedf8edf5fbb44a5bf3924d0953006f3d39d7b5",
+  "reference_scope": "/hy-tmp/resource_allocation_results/chapter5/morld_stability_20261106",
+  "reference_science_seeds": [
+    9840,
+    9841
+  ],
+  "reference_development_only": true,
+  "independent_test_completed": false,
+  "validated_learning_domains": [
+    "v5"
+  ],
+  "radio_lr1e4_learning_validation": "not_run; selected recipe available, original radio n_step32 retained",
+  "selected_existing_models": [
+    {
+      "seed": 9840,
+      "domain": "v5",
+      "endpoint": "/hy-tmp/resource_allocation_results/chapter5/morld_stability_20261106/jobs/morld__v5__critic_lr1e4__seed9840/endpoint.pt.gz",
+      "endpoint_sha256": "748ad5aa8adafefe15f122650edc532503a2f502f5c8673465ed4a164ac84b4f",
+      "original_config": "/hy-tmp/resource_allocation_results/chapter5/morld_stability_20261106/configs/morld__v5__critic_lr1e4__seed9840.json",
+      "original_config_sha256": "e29974af296725e945db7b302f9bb768cd7116af2f9540ee3a066ec1b5ff5399",
+      "frozen_source_manifest": "/hy-tmp/resource_allocation_results/chapter5/morld_stability_20261106/execution/source_manifest.json",
+      "frozen_source_manifest_sha256": "04b47e385717e0afcc289cbdd4df58e10a86f8ffe433ee9a45a4e9466c7e4587",
+      "load_with_original_frozen_source": true,
+      "original_payload_must_match_selected_profile": true
+    },
+    {
+      "seed": 9841,
+      "domain": "v5",
+      "endpoint": "/hy-tmp/resource_allocation_results/chapter5/morld_stability_20261106/jobs/morld__v5__critic_lr1e4__seed9841/endpoint.pt.gz",
+      "endpoint_sha256": "63a445495ecee765e78c3022d49eefa34fabaea8e95e4d87406346edb9981b43",
+      "original_config": "/hy-tmp/resource_allocation_results/chapter5/morld_stability_20261106/configs/morld__v5__critic_lr1e4__seed9841.json",
+      "original_config_sha256": "a3d86087ddd5eeac20874c15ac384d996da177c740dcd4d368b382009482a131",
+      "frozen_source_manifest": "/hy-tmp/resource_allocation_results/chapter5/morld_stability_20261106/execution/source_manifest.json",
+      "frozen_source_manifest_sha256": "04b47e385717e0afcc289cbdd4df58e10a86f8ffe433ee9a45a4e9466c7e4587",
+      "load_with_original_frozen_source": true,
+      "original_payload_must_match_selected_profile": true
+    }
+  ],
+  "new_endpoint_format": "morld-selected-critic1e4-three-actors-inference-v1",
+  "old_model_identity": "No old model is relabelled; retained selected trials use original frozen loaders and config/SHA binding.",
+  "history_in_active_selection": false,
+  "new_training_started": false,
+  "whole_roster_accepted": false,
+  "engineering_validation": {
+    "cpu_API_gate": "/hy-tmp/resource_allocation_results/chapter5/morld_selected_20261106/selected_cpu_gate.json",
+    "independent_frozen_orange_equivalence": "/hy-tmp/resource_allocation_results/chapter5/morld_selected_20261106/independent_orange_equivalence.json",
+    "physical_environment_steps": 0,
+    "no_new_training_or_holdout": true
+  }
+}

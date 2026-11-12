@@ -1,0 +1,36 @@
+{
+  "schema": "thesis-print-readability-derivative-v1",
+  "number": "5.7",
+  "scientific_values_changed": false,
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-7",
+  "parent_pdf_sha256": "d37fb1df5f473c8cb8a182111dfb1f0423d009ce4c05fed67a17821af7df1f22",
+  "editable_source": "plot.py",
+  "render_engine": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+  "native_source": "inputs/parent_renderer.py",
+  "input_files_sha256": {
+    "parent_renderer.py": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "parent_presentation_proof.json": "c296c50f3bedae62850207530ee3614304d3aec16b8698d1b0a8dfb0e1aa4748",
+    "source.json": "65fed16cc4fbaa8d7fd3d95c905b87c9cd132c483db9480c7ad125174dffc926",
+    "plot.py": "c738673b5664053ecc21936aa7e4fe9a9505fd2bed4f05157cc3f845b530c651",
+    "data/learning_raw.csv": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+    "data/learning_display.csv": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+    "data/fixed_endpoints_by_seed.csv": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+    "data/threshold_recounts_by_seed.csv": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+    "data/costs_by_seed.csv": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+    "data/data_manifest.json": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+  },
+  "changes": [
+    "distinct dash patterns preserving markers/colors",
+    null
+  ],
+  "proof_sha256": "f5853f218061b687284610b1510f94dc9578db575428760da06bb7b908616474",
+  "outputs": {
+    "figure.pdf": "2d0d4d470b86d8a6f62a0bf85d9339d2333e5a87520dc1d6c6d2f9b7f66ac33d",
+    "figure.svg": "154adec5e02f3f1096b260cb8c1a970b789475366e41d94e1fd9a5a5ea4319e0",
+    "figure.png": "ba84ec686dc9729f36d46e92861ec9cfff3fcbe9838028ee8399aa3bf57bfe0d"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

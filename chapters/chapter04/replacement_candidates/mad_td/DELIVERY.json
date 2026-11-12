@@ -1,0 +1,23 @@
+{
+  "schema": "madtd-native-adapter-delivery-v1",
+  "status": "SOURCE_READY_CPU_MATH_PASS_REAL_ENV_GATE_PENDING",
+  "canonical_root": "/hy-tmp/resource_allocation_project_code_20261105/chapter04/replacement_candidates/mad_td",
+  "ROOT_entry": "/root/gamewar/resource_allocation_rl/chapters/chapter04/replacement_candidates/mad_td",
+  "paper": "ICLR2025 MAD-TD",
+  "official_commit": "685293e222accf1a0f36afcab933ce1902d4452a",
+  "native_core_vendor_unchanged": true,
+  "CPU_gates": [
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_radio_attempt0/gate.json",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_radio_reward0_attempt0/gate.json",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_v5_attempt0/gate.json",
+    "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/cpu_v5_reward0_attempt0/gate.json"
+  ],
+  "engineering_work_ledger": "/hy-tmp/resource_allocation_results/chapter4/mad_td_pilot_20261107/preflight/engineering_work_ledger.json",
+  "physical_environment_steps_by_this_delivery": 0,
+  "GPU_contexts_by_this_delivery": 0,
+  "formal_or_pilot_training_started_by_this_delivery": false,
+  "real_environment_GPU_and_fresh_reload_gates_required": true,
+  "maintenance_registry_edits_delegated_to_parent": true,
+  "API": "Agent(cfg,observation_dim,action_dim,device);act/policy_action/observe/diagnostics/get_rng_state/set_rng_state/native_state_fingerprint/save/load",
+  "inference_storage": "msgpack encoder+actor+metadata only; no optimizer/replay/periodicmodels"
+}

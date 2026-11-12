@@ -1,0 +1,78 @@
+{
+  "figure": "6.4",
+  "caption": "不同阶段的区域状态与配水",
+  "directory": "chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109",
+  "kind": "data_plot",
+  "original_drawio": null,
+  "plot_entry": "plot.py",
+  "python_sources": [
+    "layout_pairs_20261110/source/compose_pairs.py",
+    "layout_pairs_20261110/source/render_maps.py",
+    "plot.py",
+    "plot_pairs.py",
+    "provenance/original_static_scene_render.py",
+    "source/display_helpers.py",
+    "source/map_family.py",
+    "source/storage_depth_legend.py"
+  ],
+  "numerical_data": [
+    {
+      "path": "all89_four_dates_state_action.csv",
+      "sha256": "2fc6be7f4fbc2652bc13dc97b11bba743b2a28ec12f6c9ebd90d17b16782d00d",
+      "bytes": 73251,
+      "columns": 14,
+      "header": [
+        "day",
+        "date",
+        "region_id",
+        "beginning_storage_mm",
+        "allocation_m3",
+        "circle_x",
+        "circle_y",
+        "radius_mm",
+        "radius_geometry_units",
+        "enclosed_area_mm2",
+        "drawn",
+        "label_x",
+        "label_y",
+        "circle_position_mode"
+      ],
+      "data_rows": 356
+    },
+    {
+      "path": "data/mean_terminal_y_all89.csv",
+      "sha256": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+      "bytes": 12412,
+      "columns": 9,
+      "header": [
+        "region_id",
+        "mean_relative_yield_percent",
+        "training_sample_sd_percent",
+        "seed6400_weather128_mean_percent",
+        "seed6401_weather128_mean_percent",
+        "seed6402_weather128_mean_percent",
+        "mean_below_90",
+        "label_x",
+        "label_y"
+      ],
+      "data_rows": 89
+    }
+  ],
+  "final_PDFs": [
+    {
+      "path": "pair_ab.pdf",
+      "sha256": "8ac4967696531f6343bca4fe6fa103c71af6fe02e0e09a8ca3b6c426414a69cb",
+      "bytes": 251156
+    },
+    {
+      "path": "pair_cd.pdf",
+      "sha256": "509072cf80c68fa89e3951761b77515553fe45cb3312bd4dcbcf96515312c3d0",
+      "bytes": 250942
+    }
+  ],
+  "native_model": null,
+  "all_physical_in_own_chapter": true,
+  "external_symlinks": [],
+  "additional_current_plot_entry": "plot_pairs.py",
+  "entrypoint_note": "plot.py reproduces the original maps and invokes plot_pairs.py for the currently selected paired PDFs."
+}

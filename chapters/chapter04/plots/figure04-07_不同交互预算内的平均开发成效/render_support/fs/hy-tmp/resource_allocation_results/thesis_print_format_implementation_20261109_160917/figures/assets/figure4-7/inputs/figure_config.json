@@ -1,0 +1,31 @@
+{
+  "kind": "prefix_auc",
+  "methods": [
+    "f1",
+    "props",
+    "mad_td",
+    "redo",
+    "mrq",
+    "bro"
+  ],
+  "thresholds": {
+    "radio": 45.271407152182945,
+    "v5": 75.59877076662723
+  },
+  "display_scale": 100,
+  "native_data": true,
+  "training_seeds": 5,
+  "sample_sd": true,
+  "internal_nonoverlapping_bin_steps": 3072,
+  "main_smoothing": "none",
+  "presentation_schema": "c4-raw-prefix-marker-presentation-v1",
+  "prefix_marker_size": 3.5,
+  "prefix_points": [
+    6144,
+    12288,
+    24576,
+    49152,
+    100608
+  ],
+  "interpolation": "none; straight_segments_connect_only_the5_exact_summary_values"
+}

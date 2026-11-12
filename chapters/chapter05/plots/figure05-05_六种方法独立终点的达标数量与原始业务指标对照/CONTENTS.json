@@ -1,0 +1,130 @@
+{
+  "figure": "5.5",
+  "caption": "各方法独立测试中的达标数量与平均成效",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
+  "kind": "data_plot",
+  "original_drawio": null,
+  "plot_entry": "plot.py",
+  "python_sources": [
+    "plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure55/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/agents/figures_c45/render_metric_labels.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/parent_renderer.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/plot.py",
+    "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py"
+  ],
+  "numerical_data": [
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/costs_by_seed.csv",
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+      "bytes": 14491,
+      "columns": 17,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "device",
+        "host",
+        "train_steps",
+        "internal_steps",
+        "charged_steps",
+        "development_steps",
+        "reload_steps",
+        "reload_verification_scope",
+        "default_test_steps",
+        "transfer_test_steps",
+        "native_update_records",
+        "extra_exchange_updates",
+        "seconds"
+      ],
+      "data_rows": 90
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/fixed_endpoints_by_seed.csv",
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "bytes": 22143,
+      "columns": 9,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "scale",
+        "K",
+        "C",
+        "J",
+        "F_0_8"
+      ],
+      "data_rows": 210
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/learning_display.csv",
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "bytes": 2758404,
+      "columns": 11,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "learning_steps",
+        "kind",
+        "K",
+        "C",
+        "J",
+        "F_0_8",
+        "display_filter"
+      ],
+      "data_rows": 17820
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/learning_raw.csv",
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "bytes": 1877519,
+      "columns": 10,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "learning_steps",
+        "kind",
+        "K",
+        "C",
+        "J",
+        "F_0_8"
+      ],
+      "data_rows": 17820
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/threshold_recounts_by_seed.csv",
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "bytes": 26645,
+      "columns": 10,
+      "header": [
+        "model_id",
+        "algorithm",
+        "domain",
+        "seed",
+        "task_threshold",
+        "K",
+        "C",
+        "J",
+        "policy_fixed",
+        "new_environment_steps"
+      ],
+      "data_rows": 300
+    }
+  ],
+  "final_PDFs": [
+    {
+      "path": "figure.pdf",
+      "sha256": "f14f770f6f3f431c1c30d8c2e9d20db7a39561d47a2dc9baf25b59b5b344c214",
+      "bytes": 35034
+    }
+  ],
+  "native_model": null,
+  "all_physical_in_own_chapter": true,
+  "external_symlinks": []
+}
