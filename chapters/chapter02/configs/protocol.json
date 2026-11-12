@@ -1,0 +1,32 @@
+{
+  "method": "BLoAR",
+  "chapter": 2,
+  "variants": [
+    "A_FULL",
+    "A_RANDOM_MATCH",
+    "A_SOFTMAX",
+    "A_DIRECT"
+  ],
+  "temporal": "fixed",
+  "baselines": [
+    "paspo",
+    "rpo",
+    "td7",
+    "simba_v2",
+    "dime"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "stage_episodes": 960,
+  "default_training_episodes": 960,
+  "test_paths": 512,
+  "source_views": [
+    "chapter02.native",
+    "chapter02.legacy"
+  ]
+}

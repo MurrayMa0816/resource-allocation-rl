@@ -1,0 +1,36 @@
+{
+  "figure": "4.5",
+  "caption": "各方法的训练步数统计与确认次数",
+  "data_package": "chapters/chapter04/figures/figure04-05_TRoC与外部方法的受限交互成本及确认次数",
+  "numerical_inputs": [
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/data.csv",
+      "sha256": "443d7cc73d23439b4c800cfa3aa607ad27b58c4425e8d293bee3a237102ac9d9",
+      "bytes": 1503,
+      "columns": 5,
+      "header": [
+        "domain",
+        "method",
+        "seed",
+        "restricted_steps",
+        "censored"
+      ],
+      "data_rows": 60
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plotted_points.csv",
+      "sha256": "4f610dfec1e69dd7acc3c49fb1b956b337521cebb41872aca484dbbc8e4a411e",
+      "bytes": 487,
+      "columns": 6,
+      "header": [
+        "domain",
+        "method",
+        "restricted_mean_steps",
+        "sample_sd_steps",
+        "reached_n",
+        "seed_count"
+      ],
+      "data_rows": 12
+    }
+  ]
+}

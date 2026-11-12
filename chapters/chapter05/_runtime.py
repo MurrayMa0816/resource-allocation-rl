@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse, importlib, importlib.abc, importlib.machinery, importlib.util
 import json, os, sys
-from portable_paths import project_root, final_data_root, chapter_data_root, resolve_path
+from portable_paths import project_root, final_data_root, chapter_data_root, resolve_path, eurosat_root
 
 CURRENT_BUDGET = 100608
 
@@ -10,16 +10,16 @@ def chapter_root():
     return project_root() / 'chapters' / 'chapter05'
 
 def frozen_source_root():
-    return chapter_root() / '_frozen' / 'formal285'
+    return chapter_root() / 'source'
 
 def configure_internal_paths():
-    base = chapter_root() / '_internal' / 'src'
+    base = frozen_source_root() / '_internal' / 'src'
     roots = [base, base / 'chapter4_credit_assignment', base / 'chapter4_sample_efficiency_v5',
-             base / 'chapter5_multiobjective', project_root()]
+             base / 'chapter5_multiobjective', frozen_source_root(), project_root()]
     for root in reversed(roots):
         value = str(root)
         if value not in sys.path: sys.path.insert(0, value)
-    os.environ.setdefault('CH5_FULL_SPEND_DATA_ROOT', str(final_data_root() / 'datasets' / 'eurosat_rgb'))
+    os.environ.setdefault('CH5_FULL_SPEND_DATA_ROOT', str(eurosat_root()))
     return roots
 
 def import_internal(name):
@@ -39,13 +39,13 @@ def resolve_scientific_path(value):
     text = str(value)
     frozen = frozen_source_root()
     if text == str(frozen) or text.startswith(str(frozen) + '/'): return Path(text)
-    manifest = json.loads((chapter_root() / '_frozen' / 'source_manifest.json').read_text())
+    manifest = json.loads((chapter_root() / 'source_manifest.json').read_text())
     origins = {manifest['source_root']: frozen, '/root/gamewar/resource_allocation_rl/chapters/chapter05/_internal/src': frozen/'_internal/src'}
     for old in sorted(origins, key=len, reverse=True):
         if text == old: return origins[old]
         if text.startswith(old + '/'): return origins[old] / text[len(old) + 1:]
     if text=='/hy-tmp/resource_allocation_results/chapter5/full_spend_revision_20261104/execution/shared_data/eurosat_rgb':
-        return final_data_root()/'datasets/eurosat_rgb'
+        return eurosat_root()
     formal_origins=['/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2']
     for old in formal_origins:
         if text==old:return chapter_data_root(5)/'formal'
@@ -53,7 +53,18 @@ def resolve_scientific_path(value):
             suffix=text[len(old)+1:]
             # Execution/source was handled by the longer immutable-source binding above.
             target=chapter_data_root(5)/'formal'/suffix
-            return resolve_path(target)
+            return resolve_scientific_path(target)
+    # The external artifact bundle retains its original execution/source names.
+    # Resolve those source-only descendants to the one published source tree.
+    formal = chapter_data_root(5) / 'formal'
+    aliases = {formal / 'execution/source': frozen,
+               formal / 'execution/source_manifest.json': chapter_root() / 'source_manifest.json',
+               formal / 'execution': chapter_root() / 'execution'}
+    for old, new in aliases.items():
+        old_text = str(old)
+        if text == old_text: return new
+        if text.startswith(old_text + '/'):
+            return new / text[len(old_text) + 1:]
     return resolve_path(value)
 
 class _SourceLoader(importlib.abc.Loader):
@@ -78,7 +89,7 @@ class _SourceFinder(importlib.abc.MetaPathFinder):
 
 def verify_frozen_source():
     import hashlib
-    manifest = json.loads((chapter_root() / '_frozen' / 'source_manifest.json').read_text())
+    manifest = json.loads((chapter_root() / 'source_manifest.json').read_text())
     for relative, expected in manifest['files'].items():
         actual = hashlib.sha256((frozen_source_root() / relative).read_bytes()).hexdigest()
         if actual != expected: raise ValueError('Frozen scientific source changed: ' + relative)
@@ -128,7 +139,7 @@ def _entry_code(script):
 def _run_formal(filename, arguments):
     configure_internal_paths()
     if not any(isinstance(f, _SourceFinder) for f in sys.meta_path): sys.meta_path.insert(0, _SourceFinder())
-    script = chapter_root() / 'formal_execution' / '90_原始执行快照' / filename
+    script = chapter_root() / 'execution' / filename
     old_argv, old_path = sys.argv[:], sys.path[:]
     sys.argv = [str(script), *arguments]
     sys.path.insert(0, str(script.parent))
@@ -141,7 +152,7 @@ def _run_formal(filename, arguments):
         formal=chapter_data_root(5)/'formal'
         if filename=='baseline_worker.py':
             namespace.update(ROOT=formal,SOURCE_ROOT=frozen_source_root(),
-                SOURCE_MANIFEST=chapter_root()/'_frozen/source_manifest.json')
+                SOURCE_MANIFEST=chapter_root()/'source_manifest.json')
         elif filename=='evaluate_formal_fixed.py':namespace['R']=formal
         if filename=='baseline_worker.py':
             config_path=arguments[arguments.index('--config')+1]

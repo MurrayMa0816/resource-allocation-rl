@@ -1,0 +1,28 @@
+{
+  "method": "ReJoP",
+  "chapter": 3,
+  "native_arms": [
+    "A_FULL",
+    "A_PACE"
+  ],
+  "random_object_arm": "A_RANDOM_OBJECT_ALLOCATION",
+  "random_object_evidence": "DEV only; no independent new TEST",
+  "comparators": [
+    "c_ppo",
+    "pfo",
+    "gradient_ppo",
+    "reflective_ppo",
+    "ppo_plus"
+  ],
+  "training_steps": 100608,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "development_interval": 512,
+  "development_paths": 8,
+  "confirmation_paths": 128
+}

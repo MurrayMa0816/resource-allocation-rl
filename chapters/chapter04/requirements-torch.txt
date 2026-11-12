@@ -1,0 +1,10 @@
+# TRoC, PROPS and SAC+ReDo; recorded direct dependencies.
+--extra-index-url https://download.pytorch.org/whl/cu121
+numpy==2.1.2
+torch==2.5.1+cu121
+gymnasium==1.2.3
+PyYAML==6.0.2
+wandb==0.26.1
+tensorboard
+matplotlib==3.10.9
+scipy==1.14.1

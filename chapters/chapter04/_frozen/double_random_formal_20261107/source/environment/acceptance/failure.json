@@ -1,4 +1,0 @@
-{
-  "status": "FAIL",
-  "traceback": "Traceback (most recent call last):\n  File \"/hy-tmp/resource_allocation_results/chapter4/full_spend_communication_repair_20261104/source/env/verify_shared_bridge.py\", line 191, in <module>\n    run()\n  File \"/hy-tmp/resource_allocation_results/chapter4/full_spend_communication_repair_20261104/source/env/verify_shared_bridge.py\", line 61, in run\n    assert all(unchanged.values())\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
-}

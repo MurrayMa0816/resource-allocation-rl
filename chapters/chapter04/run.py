@@ -1,15 +1,19 @@
 """Current C4 explicit source entry; inspect/validation never executes science."""
 from pathlib import Path
+import sys
+_ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(_ROOT.parents[1]))
+sys.path.insert(0, str(_ROOT.parent))
 import argparse, json
 from portable_paths import project_root, resolve_path
 METHODS = ('f1','props','redo','mrq','bro','mad_td','no_history','no_offpolicy_correction','fixed_actor_lr')
 
 def source_entry(method):
     root=project_root()/'chapters/chapter04'
-    if method in ('redo','mrq','bro'): return root/'_frozen/formal_100k_5seed_20261106/execution/offpolicy_worker.py'
-    if method=='mad_td': return root/'_frozen/mad_td_formal_20261107/execution/formal_worker.py'
-    if method=='props': return root/'_frozen/double_random_formal_20261107/execution/props_worker.py'
-    return root/'_frozen/double_random_formal_20261107/execution/f1_worker.py'
+    if method in ('redo','mrq','bro'): return root/'source/offpolicy/execution/offpolicy_worker.py'
+    if method=='mad_td': return root/'source/mad_td/execution/formal_worker.py'
+    if method=='props': return root/'source/troc_props/execution/props_worker.py'
+    return root/'source/troc_props/execution/f1_worker.py'
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
@@ -47,14 +51,14 @@ def main(argv=None):
         phase_flag='--evaluation-phase' if args.method in ('f1','no_history','no_offpolicy_correction','fixed_actor_lr') else '--eval-phase'
         if args.method!='mad_td':arguments += [phase_flag,str(cfg['eval_phase'])]
     if cfg.get('evaluate_model'):
-        from chapters.chapter04.source_provenance import resolve_scientific_path
+        from chapters.chapter04._runtime import resolve_scientific_path
         arguments += ['--model' if args.method=='mad_td' else '--evaluate-model',str(resolve_scientific_path(cfg['evaluate_model']))]
     if args.method=='mad_td':arguments += ['--phase','test' if args.evaluation_only else 'train']
     arguments += ['--output',str(dest)]
     if 'environment_root'not in cfg:
-        run='formal_100k_5seed_20261106' if args.method in ('redo','mrq','bro') else ('mad_td_formal_20261107' if args.method=='mad_td' else 'double_random_formal_20261107')
-        arguments += ['--environment-root',str(project_root()/'chapters/chapter04/_frozen'/run/'source/environment')]
-    from chapters.chapter04.source_provenance import local_git_source_receipts, run_current_source
+        run='offpolicy' if args.method in ('redo','mrq','bro') else 'troc_props'
+        arguments += ['--environment-root',str(project_root()/'chapters/chapter04/source'/run/'source/environment')]
+    from chapters.chapter04._runtime import local_git_source_receipts, run_current_source
     with local_git_source_receipts():run_current_source(script,arguments)
     return 0
 if __name__=='__main__':raise SystemExit(main())

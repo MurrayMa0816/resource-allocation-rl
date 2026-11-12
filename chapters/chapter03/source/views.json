@@ -1,0 +1,525 @@
+{
+  "schema": "chapter-source-views-v1",
+  "views": {
+    "chapter03.comparators": {
+      "files": {
+        "allocation23/__init__.py": {
+          "path": "chapter02/source/allocation23/__init__.py",
+          "sha256": "7dddf18afed5a90e095334b93efd32cfedaed71490443d40ce810e454f4bf256"
+        },
+        "allocation23/baselines/__init__.py": {
+          "path": "chapter03/source/allocation23/baselines/__init__.py",
+          "sha256": "70881772812a1503670ce25ed3fbd38797d32f48a702c53ae06ec87ce5a4ff09"
+        },
+        "allocation23/baselines/actions.py": {
+          "path": "chapter03/source/allocation23/baselines/actions.py",
+          "sha256": "80401b3fa452e6eb67d6e270b02c9ddfaf25d1e0566ccd1bd6f74260455f60fc"
+        },
+        "allocation23/baselines/adapter.py": {
+          "path": "chapter03/source/allocation23/baselines/adapter.py",
+          "sha256": "ca6a1fa30eb1ee2ea2e12c6ebc126074c13d7c7bbfb8373a182b87a1385b6d60"
+        },
+        "allocation23/environments/__init__.py": {
+          "path": "chapter02/source/allocation23/environments/__init__.py",
+          "sha256": "b1d83ac57e3842515e92fb6a6c5652c4f0b12d7c4530c0c4acb924685cd32465"
+        },
+        "allocation23/environments/_emergency/__init__.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/__init__.py",
+          "sha256": "23e9510b6ddebd1a02142eb417cf8995b036f2c22c4fb3b0a4f22e663975a0d9"
+        },
+        "allocation23/environments/_emergency/arrivals.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/arrivals.py",
+          "sha256": "d3e1fdb1edc9d0b4187572cd5d17a1caded191879ef8934c3ad13163f35e4fe9"
+        },
+        "allocation23/environments/_emergency/config.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/config.py",
+          "sha256": "5eacc194cd19148816f09acf0af06170fa122e4e7c46d12f5a63fa1c6340d3f6"
+        },
+        "allocation23/environments/_emergency/configs/emergency_chapter2.json": {
+          "path": "chapter02/source/allocation23/environments/_emergency/configs/emergency_chapter2.json",
+          "sha256": "5fedd720822803d84d6a7a5f59b21c85899cbe7953cd1eefbd7f002319479ddb"
+        },
+        "allocation23/environments/_emergency/configs/emergency_chapter3.json": {
+          "path": "chapter02/source/allocation23/environments/_emergency/configs/emergency_chapter3.json",
+          "sha256": "0abe56752fe06221b39dd9af989efaba61e4b0ec5d00d5abed34403ab899ab0d"
+        },
+        "allocation23/environments/_emergency/configs/emergency_environment.json": {
+          "path": "chapter02/source/allocation23/environments/_emergency/configs/emergency_environment.json",
+          "sha256": "65d8362bcd9d430382d334610d359948e9d1c4c13aef221c1d598b6e47ba42e1"
+        },
+        "allocation23/environments/_emergency/core.py": {
+          "path": "chapter03/source/allocation23/environments/_emergency/core.py",
+          "sha256": "d0750b9dab693284183fb75f6505c03b08a237dd490c6ed12af5434a2c5c0da6"
+        },
+        "allocation23/environments/_radio/__init__.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/__init__.py",
+          "sha256": "23e9510b6ddebd1a02142eb417cf8995b036f2c22c4fb3b0a4f22e663975a0d9"
+        },
+        "allocation23/environments/_radio/codec.py": {
+          "path": "chapter02/source/allocation23/environments/_radio/codec.py",
+          "sha256": "3f4f6e2b6f57379cde248342aa314e2b9be89b1eb1c31a7c6c5514738c689f9e"
+        },
+        "allocation23/environments/_radio/config.py": {
+          "path": "chapter02/source/allocation23/environments/_radio/config.py",
+          "sha256": "52e4ce689698aa5c4021e79557c898752e8e931cd8fedf31830e1eb6453e1476"
+        },
+        "allocation23/environments/_radio/env.py": {
+          "path": "chapter03/source/allocation23/environments/_radio/env.py",
+          "sha256": "ac6b154ade5b1b5ccbf7924723c206dd0a0d1c09dbb66d119c66e7303354287f"
+        },
+        "allocation23/environments/_radio/quality.py": {
+          "path": "chapter02/source/allocation23/environments/_radio/quality.py",
+          "sha256": "bf875f3dea3181ce56bf5cd43f810a5e8178cf1216ddbe7e890930273f736188"
+        },
+        "allocation23/environments/emergency.py": {
+          "path": "chapter03/source/allocation23/environments/emergency.py",
+          "sha256": "739792e2c2c9e7e7692b4b563f68cef8118e2f905b53519d64cf61b4d90ac233"
+        },
+        "allocation23/environments/radio.py": {
+          "path": "chapter02/source/allocation23/environments/radio.py",
+          "sha256": "7c4d1502a7474bafdbd15026a6dda75e977eb225fb4bdf433837b623fafe0933"
+        },
+        "allocation23/evaluation.py": {
+          "path": "chapter02/source/allocation23/evaluation.py",
+          "sha256": "eaaa40b4e08fc325c6691c7911c3a3338d4cbc91dff34cb140a0e09430694fa4"
+        },
+        "allocation23/image_data.py": {
+          "path": "chapter03/source/allocation23/image_data.py",
+          "sha256": "d3ee9abd7abd6459531959dacdac221a8b1ae7cc7fd02c5bc0b37659bf7ab429"
+        },
+        "allocation23/io.py": {
+          "path": "chapter03/source/allocation23/io.py",
+          "sha256": "3a8e9fe39ab2f54f04f8411790307687e358517175103916f4f28a3db934357e"
+        },
+        "allocation23/learning.py": {
+          "path": "chapter02/source/allocation23/learning.py",
+          "sha256": "87f5e497befdbedb7a3f67bbafc19826eff1c5a2b7eeb10e84a27cdec4fdd04c"
+        },
+        "allocation23/methods/__init__.py": {
+          "path": "chapter02/source/allocation23/methods/__init__.py",
+          "sha256": "894e67cae8579b43c2ec7a8f80902b7fcbe8d5a3cbaced1bed6f854724f9c72e"
+        },
+        "allocation23/methods/constraints.py": {
+          "path": "chapter02/source/allocation23/methods/constraints.py",
+          "sha256": "617c4e1d3e2bad67f4320b2c145becf68fd1234b1f669ea428070f756d136b6e"
+        },
+        "allocation23/methods/method_a.py": {
+          "path": "chapter02/source/allocation23/methods/method_a.py",
+          "sha256": "22e07b6a737d92e9c41c545ee952e6d12de6cb657d9d24cf610308031f6298ac"
+        },
+        "allocation23/methods/method_b.py": {
+          "path": "chapter02/source/allocation23/methods/method_b.py",
+          "sha256": "4f981fffe0293f964cee8c33d759de26b83c3c59b68c09886265ad8f9f9875a4"
+        },
+        "allocation23/methods/networks.py": {
+          "path": "chapter02/source/legacy_zero_head/methods/networks.py",
+          "sha256": "e11a8358b75f7305a010cf67451613ba1bb8a05cb28867ed7ba58d38bbe1d47f"
+        },
+        "allocation23/methods/policy.py": {
+          "path": "chapter03/source/allocation23/methods/policy.py",
+          "sha256": "1f98a76d2a4519bea8344af6fc7fdcd829e84fd2a44772fd2fbd7697afeeac79"
+        },
+        "allocation23/spec.py": {
+          "path": "chapter03/source/allocation23/spec.py",
+          "sha256": "136f3e3970592c65215a2a4615ef1648cbf042c163869debd7269bb8641680ff"
+        },
+        "allocation23/state.py": {
+          "path": "chapter03/source/allocation23/state.py",
+          "sha256": "d93d58ad5d6d4619308b0481641946fa6fcc59b0bf2de26f0fdb68312d8e1341"
+        },
+        "allocation23/task.py": {
+          "path": "chapter03/source/allocation23/task.py",
+          "sha256": "5dafe3eef027cb36be9dcc45a39ae631a45423c129b6be3f654e0799966201ef"
+        },
+        "allocation23/training.py": {
+          "path": "chapter02/source/allocation23/training.py",
+          "sha256": "eaf821c514eae33f516633d9746e64fbf0ac91045ffd79512693215e14aa4dd7"
+        },
+        "allocation23/chapter3_baselines/__init__.py": {
+          "path": "chapter03/source/allocation23/chapter3_baselines/__init__.py",
+          "sha256": "e7e0ed0c693fa68b936cba69b37eaaa148e2cfc0475934cd6a5035bc9584ecb0"
+        },
+        "allocation23/chapter3_baselines/environment.py": {
+          "path": "chapter03/source/allocation23/chapter3_baselines/environment.py",
+          "sha256": "87e603fc2fe3fa8b13d19b375b542a011427368d05eb59e3f4ab5902583a1115"
+        },
+        "allocation23/chapter3_baselines/execution_cache.py": {
+          "path": "chapter03/source/allocation23/chapter3_baselines/execution_cache.py",
+          "sha256": "dd91008e07e768883afdda2e99873168b41f9aacd46c6fa7d8f0dbdc13e9eb6a"
+        },
+        "allocation23/chapter3_candidates/__init__.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/__init__.py",
+          "sha256": "341ad7911297303b9d4d750674f4a1d89f72e98d8341efcb0f0775968c87a742"
+        },
+        "allocation23/chapter3_candidates/_c_ppo_core.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/_c_ppo_core.py",
+          "sha256": "ee769f9358a1514049acf421fb2cb5b6bb813a54342bfba5fc4b49e92815fa35"
+        },
+        "allocation23/chapter3_candidates/_c_ppo_runtime.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/_c_ppo_runtime.py",
+          "sha256": "280c2c22a8cb890e2b862196a5577a1dbac02e0125fe1fc7661092e4f9f35d05"
+        },
+        "allocation23/chapter3_candidates/c_ppo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/c_ppo.py",
+          "sha256": "2106d68fbf05951568bba265e9980a668097fd7d29f2e781b69762499e5005e1"
+        },
+        "allocation23/chapter3_candidates/c_ppo_eval.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/c_ppo_eval.py",
+          "sha256": "6d2a88b0204e0926c0ccb741a855febbe9d6022fdb10daa8b0c1b776feb01845"
+        },
+        "allocation23/chapter3_candidates/cli.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/cli.py",
+          "sha256": "a9330f54058a4f4d3158e55ae49be71107dd1477a9c6fcde6123dac9474eb20b"
+        },
+        "allocation23/chapter3_candidates/gradient_ppo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/gradient_ppo.py",
+          "sha256": "78170e0e3a023f07a9d8e75cd3eb51122f78a2f0ec97d430359def5695f3f683"
+        },
+        "allocation23/chapter3_candidates/licenses/CrossQ_MIT.txt": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/licenses/CrossQ_MIT.txt",
+          "sha256": "c335190466d393ff09ef2c9df4fafa442895de2edbde9b498c7322a990b18e00"
+        },
+        "allocation23/chapter3_candidates/licenses/PFO_MIT.txt": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/licenses/PFO_MIT.txt",
+          "sha256": "719963299d639051d947db9dcdea0083c68664a282a9074622f6ddb3dd2bcb73"
+        },
+        "allocation23/chapter3_candidates/licenses/ppo_plus_reference_LICENSE.txt": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/licenses/ppo_plus_reference_LICENSE.txt",
+          "sha256": "3a1169e9b1870cc3a8fcf1a3aaa270fd6266d53000c56ce05d3bbd51974fec82"
+        },
+        "allocation23/chapter3_candidates/pfo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/pfo.py",
+          "sha256": "65e0e7d6f5a41bf4b8870e5ee84e5210414b1c1ea59c10115e0a21ab3c05a801"
+        },
+        "allocation23/chapter3_candidates/ppo_plus.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/ppo_plus.py",
+          "sha256": "fa6ed0450c139a2f3ee65539bccda1d4c77faa2ba697b32b76b2b39bfb68c7e9"
+        },
+        "allocation23/chapter3_candidates/profiles/c_ppo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/c_ppo_radio.json",
+          "sha256": "1d81613cab345547ef894ae0f584c3cd9ecf6f01af49128f97b8544cd84bbd35"
+        },
+        "allocation23/chapter3_candidates/profiles/c_ppo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/c_ppo_radio.json",
+          "sha256": "1d81613cab345547ef894ae0f584c3cd9ecf6f01af49128f97b8544cd84bbd35"
+        },
+        "allocation23/chapter3_candidates/profiles/gradient_ppo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/gradient_ppo_radio.json",
+          "sha256": "e925b1786bc2607a91a596b00761a71c8fd2bc1e11a1783f82e331af1e3ad59b"
+        },
+        "allocation23/chapter3_candidates/profiles/gradient_ppo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/gradient_ppo_v5.json",
+          "sha256": "0ff55d389e4466561037bd48eb4b3a7b304f2ea28552af1bcc0122b1bb51af4c"
+        },
+        "allocation23/chapter3_candidates/profiles/pfo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/pfo_radio.json",
+          "sha256": "e0dc517e9471976fb6063bb39a0b44373a0d8ed34c547f105449c2c70d88d63c"
+        },
+        "allocation23/chapter3_candidates/profiles/pfo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/pfo_v5.json",
+          "sha256": "1575ca59926970763a894febcaa08449cccdb6a8158b30e2ebeee07756034f3c"
+        },
+        "allocation23/chapter3_candidates/profiles/ppo_plus_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/ppo_plus_radio.json",
+          "sha256": "d68c4ade0585ed140b2f6be20794e1738e966fb0744acf6cb3d0740579a7fb03"
+        },
+        "allocation23/chapter3_candidates/profiles/ppo_plus_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/ppo_plus_v5.json",
+          "sha256": "4242092c283e4c8df51cd0aaa5e4012cd6e1b315f4b7dd37d41830485566a7f6"
+        },
+        "allocation23/chapter3_candidates/profiles/reflective_ppo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/reflective_ppo_radio.json",
+          "sha256": "b3d161b5b121ca24edab8900846c9431c5205ab810f9da73a994842fb33366da"
+        },
+        "allocation23/chapter3_candidates/profiles/reflective_ppo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/reflective_ppo_v5.json",
+          "sha256": "5904293e47318d101a1e20e9107c228e5fa2ad7ba8f918d6c754045db64cf4a2"
+        },
+        "allocation23/chapter3_candidates/reflective_ppo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/reflective_ppo.py",
+          "sha256": "a6072317882ac6ead0baae42afdbbae8124a294414bdd7e7f0d143e1c19f42d9"
+        },
+        "allocation23/chapter3_candidates/runner.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/runner.py",
+          "sha256": "22dabcb98a27831eeed0b431c08cccacb9a1338b4e3abc64b684b16f40e88844"
+        },
+        "allocation23/chapter3_candidates/shared_mean.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/shared_mean.py",
+          "sha256": "1ec859e3f4508f3d74fedd82ad0d5cf5d57e92826d74b0e34d46d94c8ceec1f3"
+        },
+        "allocation23/chapter3_candidates/spo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/spo.py",
+          "sha256": "cfd9d6ee9dcf3897ee7acaed4153c72ba6033e50082e779681496c806d01abca"
+        },
+        "allocation23/full_spend.py": {
+          "path": "chapter03/source/allocation23/full_spend.py",
+          "sha256": "5b9f5d47569742730c9d12bdc8037e3a0d26b140c34fdadd3f055227d56a0269"
+        },
+        "allocation23/paths.py": {
+          "path": "chapter03/source/allocation23/paths.py",
+          "sha256": "d519b7b8b5a235e3c61ba2c12d4641cea41ffa66721e984ff76e3de170569b19"
+        }
+      }
+    },
+    "chapter03.native": {
+      "files": {
+        "allocation23/__init__.py": {
+          "path": "chapter02/source/allocation23/__init__.py",
+          "sha256": "7dddf18afed5a90e095334b93efd32cfedaed71490443d40ce810e454f4bf256"
+        },
+        "allocation23/baselines/__init__.py": {
+          "path": "chapter03/source/allocation23/baselines/__init__.py",
+          "sha256": "70881772812a1503670ce25ed3fbd38797d32f48a702c53ae06ec87ce5a4ff09"
+        },
+        "allocation23/baselines/actions.py": {
+          "path": "chapter03/source/allocation23/baselines/actions.py",
+          "sha256": "80401b3fa452e6eb67d6e270b02c9ddfaf25d1e0566ccd1bd6f74260455f60fc"
+        },
+        "allocation23/baselines/adapter.py": {
+          "path": "chapter03/source/allocation23/baselines/adapter.py",
+          "sha256": "ca6a1fa30eb1ee2ea2e12c6ebc126074c13d7c7bbfb8373a182b87a1385b6d60"
+        },
+        "allocation23/environments/__init__.py": {
+          "path": "chapter02/source/allocation23/environments/__init__.py",
+          "sha256": "b1d83ac57e3842515e92fb6a6c5652c4f0b12d7c4530c0c4acb924685cd32465"
+        },
+        "allocation23/environments/_emergency/__init__.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/__init__.py",
+          "sha256": "23e9510b6ddebd1a02142eb417cf8995b036f2c22c4fb3b0a4f22e663975a0d9"
+        },
+        "allocation23/environments/_emergency/arrivals.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/arrivals.py",
+          "sha256": "d3e1fdb1edc9d0b4187572cd5d17a1caded191879ef8934c3ad13163f35e4fe9"
+        },
+        "allocation23/environments/_emergency/config.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/config.py",
+          "sha256": "5eacc194cd19148816f09acf0af06170fa122e4e7c46d12f5a63fa1c6340d3f6"
+        },
+        "allocation23/environments/_emergency/configs/emergency_chapter2.json": {
+          "path": "chapter02/source/allocation23/environments/_emergency/configs/emergency_chapter2.json",
+          "sha256": "5fedd720822803d84d6a7a5f59b21c85899cbe7953cd1eefbd7f002319479ddb"
+        },
+        "allocation23/environments/_emergency/configs/emergency_chapter3.json": {
+          "path": "chapter02/source/allocation23/environments/_emergency/configs/emergency_chapter3.json",
+          "sha256": "0abe56752fe06221b39dd9af989efaba61e4b0ec5d00d5abed34403ab899ab0d"
+        },
+        "allocation23/environments/_emergency/configs/emergency_environment.json": {
+          "path": "chapter02/source/allocation23/environments/_emergency/configs/emergency_environment.json",
+          "sha256": "65d8362bcd9d430382d334610d359948e9d1c4c13aef221c1d598b6e47ba42e1"
+        },
+        "allocation23/environments/_emergency/core.py": {
+          "path": "chapter03/source/allocation23/environments/_emergency/core.py",
+          "sha256": "d0750b9dab693284183fb75f6505c03b08a237dd490c6ed12af5434a2c5c0da6"
+        },
+        "allocation23/environments/_radio/__init__.py": {
+          "path": "chapter02/source/allocation23/environments/_emergency/__init__.py",
+          "sha256": "23e9510b6ddebd1a02142eb417cf8995b036f2c22c4fb3b0a4f22e663975a0d9"
+        },
+        "allocation23/environments/_radio/codec.py": {
+          "path": "chapter02/source/allocation23/environments/_radio/codec.py",
+          "sha256": "3f4f6e2b6f57379cde248342aa314e2b9be89b1eb1c31a7c6c5514738c689f9e"
+        },
+        "allocation23/environments/_radio/config.py": {
+          "path": "chapter02/source/allocation23/environments/_radio/config.py",
+          "sha256": "52e4ce689698aa5c4021e79557c898752e8e931cd8fedf31830e1eb6453e1476"
+        },
+        "allocation23/environments/_radio/env.py": {
+          "path": "chapter03/source/allocation23/environments/_radio/env.py",
+          "sha256": "ac6b154ade5b1b5ccbf7924723c206dd0a0d1c09dbb66d119c66e7303354287f"
+        },
+        "allocation23/environments/_radio/quality.py": {
+          "path": "chapter02/source/allocation23/environments/_radio/quality.py",
+          "sha256": "bf875f3dea3181ce56bf5cd43f810a5e8178cf1216ddbe7e890930273f736188"
+        },
+        "allocation23/environments/emergency.py": {
+          "path": "chapter03/source/allocation23/environments/emergency.py",
+          "sha256": "739792e2c2c9e7e7692b4b563f68cef8118e2f905b53519d64cf61b4d90ac233"
+        },
+        "allocation23/environments/radio.py": {
+          "path": "chapter02/source/allocation23/environments/radio.py",
+          "sha256": "7c4d1502a7474bafdbd15026a6dda75e977eb225fb4bdf433837b623fafe0933"
+        },
+        "allocation23/evaluation.py": {
+          "path": "chapter02/source/allocation23/evaluation.py",
+          "sha256": "eaaa40b4e08fc325c6691c7911c3a3338d4cbc91dff34cb140a0e09430694fa4"
+        },
+        "allocation23/image_data.py": {
+          "path": "chapter02/source/allocation23/image_data.py",
+          "sha256": "1000dfa1de02f88499180cd1e0b218e847bde843ffea50145b80c60d65e3e769"
+        },
+        "allocation23/io.py": {
+          "path": "chapter03/source/allocation23/io.py",
+          "sha256": "3a8e9fe39ab2f54f04f8411790307687e358517175103916f4f28a3db934357e"
+        },
+        "allocation23/learning.py": {
+          "path": "chapter02/source/allocation23/learning.py",
+          "sha256": "87f5e497befdbedb7a3f67bbafc19826eff1c5a2b7eeb10e84a27cdec4fdd04c"
+        },
+        "allocation23/methods/__init__.py": {
+          "path": "chapter02/source/allocation23/methods/__init__.py",
+          "sha256": "894e67cae8579b43c2ec7a8f80902b7fcbe8d5a3cbaced1bed6f854724f9c72e"
+        },
+        "allocation23/methods/constraints.py": {
+          "path": "chapter02/source/allocation23/methods/constraints.py",
+          "sha256": "617c4e1d3e2bad67f4320b2c145becf68fd1234b1f669ea428070f756d136b6e"
+        },
+        "allocation23/methods/method_a.py": {
+          "path": "chapter02/source/allocation23/methods/method_a.py",
+          "sha256": "22e07b6a737d92e9c41c545ee952e6d12de6cb657d9d24cf610308031f6298ac"
+        },
+        "allocation23/methods/method_b.py": {
+          "path": "chapter02/source/allocation23/methods/method_b.py",
+          "sha256": "4f981fffe0293f964cee8c33d759de26b83c3c59b68c09886265ad8f9f9875a4"
+        },
+        "allocation23/methods/networks.py": {
+          "path": "chapter03/source/native/allocation23/methods/networks.py",
+          "sha256": "a542f91b9a73c77af19df16efe1f890f0e47d3b4ffb49ec14f77a6fb46682875"
+        },
+        "allocation23/methods/policy.py": {
+          "path": "chapter03/source/native/allocation23/methods/policy.py",
+          "sha256": "321fc27f42137f1965d153fdc7bf9ae76700ca34beabbb27cf64b0053a6a09d8"
+        },
+        "allocation23/spec.py": {
+          "path": "chapter03/source/allocation23/spec.py",
+          "sha256": "136f3e3970592c65215a2a4615ef1648cbf042c163869debd7269bb8641680ff"
+        },
+        "allocation23/state.py": {
+          "path": "chapter03/source/allocation23/state.py",
+          "sha256": "d93d58ad5d6d4619308b0481641946fa6fcc59b0bf2de26f0fdb68312d8e1341"
+        },
+        "allocation23/task.py": {
+          "path": "chapter03/source/allocation23/task.py",
+          "sha256": "5dafe3eef027cb36be9dcc45a39ae631a45423c129b6be3f654e0799966201ef"
+        },
+        "allocation23/training.py": {
+          "path": "chapter02/source/allocation23/training.py",
+          "sha256": "eaf821c514eae33f516633d9746e64fbf0ac91045ffd79512693215e14aa4dd7"
+        },
+        "allocation23/chapter3_baselines/__init__.py": {
+          "path": "chapter03/source/allocation23/chapter3_baselines/__init__.py",
+          "sha256": "e7e0ed0c693fa68b936cba69b37eaaa148e2cfc0475934cd6a5035bc9584ecb0"
+        },
+        "allocation23/chapter3_baselines/environment.py": {
+          "path": "chapter03/source/allocation23/chapter3_baselines/environment.py",
+          "sha256": "87e603fc2fe3fa8b13d19b375b542a011427368d05eb59e3f4ab5902583a1115"
+        },
+        "allocation23/chapter3_baselines/execution_cache.py": {
+          "path": "chapter03/source/allocation23/chapter3_baselines/execution_cache.py",
+          "sha256": "dd91008e07e768883afdda2e99873168b41f9aacd46c6fa7d8f0dbdc13e9eb6a"
+        },
+        "allocation23/chapter3_candidates/__init__.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/__init__.py",
+          "sha256": "341ad7911297303b9d4d750674f4a1d89f72e98d8341efcb0f0775968c87a742"
+        },
+        "allocation23/chapter3_candidates/_c_ppo_core.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/_c_ppo_core.py",
+          "sha256": "ee769f9358a1514049acf421fb2cb5b6bb813a54342bfba5fc4b49e92815fa35"
+        },
+        "allocation23/chapter3_candidates/_c_ppo_runtime.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/_c_ppo_runtime.py",
+          "sha256": "280c2c22a8cb890e2b862196a5577a1dbac02e0125fe1fc7661092e4f9f35d05"
+        },
+        "allocation23/chapter3_candidates/c_ppo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/c_ppo.py",
+          "sha256": "2106d68fbf05951568bba265e9980a668097fd7d29f2e781b69762499e5005e1"
+        },
+        "allocation23/chapter3_candidates/c_ppo_eval.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/c_ppo_eval.py",
+          "sha256": "6d2a88b0204e0926c0ccb741a855febbe9d6022fdb10daa8b0c1b776feb01845"
+        },
+        "allocation23/chapter3_candidates/cli.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/cli.py",
+          "sha256": "a9330f54058a4f4d3158e55ae49be71107dd1477a9c6fcde6123dac9474eb20b"
+        },
+        "allocation23/chapter3_candidates/gradient_ppo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/gradient_ppo.py",
+          "sha256": "78170e0e3a023f07a9d8e75cd3eb51122f78a2f0ec97d430359def5695f3f683"
+        },
+        "allocation23/chapter3_candidates/licenses/CrossQ_MIT.txt": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/licenses/CrossQ_MIT.txt",
+          "sha256": "c335190466d393ff09ef2c9df4fafa442895de2edbde9b498c7322a990b18e00"
+        },
+        "allocation23/chapter3_candidates/licenses/PFO_MIT.txt": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/licenses/PFO_MIT.txt",
+          "sha256": "719963299d639051d947db9dcdea0083c68664a282a9074622f6ddb3dd2bcb73"
+        },
+        "allocation23/chapter3_candidates/licenses/ppo_plus_reference_LICENSE.txt": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/licenses/ppo_plus_reference_LICENSE.txt",
+          "sha256": "3a1169e9b1870cc3a8fcf1a3aaa270fd6266d53000c56ce05d3bbd51974fec82"
+        },
+        "allocation23/chapter3_candidates/pfo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/pfo.py",
+          "sha256": "65e0e7d6f5a41bf4b8870e5ee84e5210414b1c1ea59c10115e0a21ab3c05a801"
+        },
+        "allocation23/chapter3_candidates/ppo_plus.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/ppo_plus.py",
+          "sha256": "fa6ed0450c139a2f3ee65539bccda1d4c77faa2ba697b32b76b2b39bfb68c7e9"
+        },
+        "allocation23/chapter3_candidates/profiles/c_ppo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/c_ppo_radio.json",
+          "sha256": "1d81613cab345547ef894ae0f584c3cd9ecf6f01af49128f97b8544cd84bbd35"
+        },
+        "allocation23/chapter3_candidates/profiles/c_ppo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/c_ppo_radio.json",
+          "sha256": "1d81613cab345547ef894ae0f584c3cd9ecf6f01af49128f97b8544cd84bbd35"
+        },
+        "allocation23/chapter3_candidates/profiles/gradient_ppo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/gradient_ppo_radio.json",
+          "sha256": "e925b1786bc2607a91a596b00761a71c8fd2bc1e11a1783f82e331af1e3ad59b"
+        },
+        "allocation23/chapter3_candidates/profiles/gradient_ppo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/gradient_ppo_v5.json",
+          "sha256": "0ff55d389e4466561037bd48eb4b3a7b304f2ea28552af1bcc0122b1bb51af4c"
+        },
+        "allocation23/chapter3_candidates/profiles/pfo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/pfo_radio.json",
+          "sha256": "e0dc517e9471976fb6063bb39a0b44373a0d8ed34c547f105449c2c70d88d63c"
+        },
+        "allocation23/chapter3_candidates/profiles/pfo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/pfo_v5.json",
+          "sha256": "1575ca59926970763a894febcaa08449cccdb6a8158b30e2ebeee07756034f3c"
+        },
+        "allocation23/chapter3_candidates/profiles/ppo_plus_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/ppo_plus_radio.json",
+          "sha256": "d68c4ade0585ed140b2f6be20794e1738e966fb0744acf6cb3d0740579a7fb03"
+        },
+        "allocation23/chapter3_candidates/profiles/ppo_plus_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/ppo_plus_v5.json",
+          "sha256": "4242092c283e4c8df51cd0aaa5e4012cd6e1b315f4b7dd37d41830485566a7f6"
+        },
+        "allocation23/chapter3_candidates/profiles/reflective_ppo_radio.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/reflective_ppo_radio.json",
+          "sha256": "b3d161b5b121ca24edab8900846c9431c5205ab810f9da73a994842fb33366da"
+        },
+        "allocation23/chapter3_candidates/profiles/reflective_ppo_v5.json": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/profiles/reflective_ppo_v5.json",
+          "sha256": "5904293e47318d101a1e20e9107c228e5fa2ad7ba8f918d6c754045db64cf4a2"
+        },
+        "allocation23/chapter3_candidates/reflective_ppo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/reflective_ppo.py",
+          "sha256": "a6072317882ac6ead0baae42afdbbae8124a294414bdd7e7f0d143e1c19f42d9"
+        },
+        "allocation23/chapter3_candidates/runner.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/runner.py",
+          "sha256": "22dabcb98a27831eeed0b431c08cccacb9a1338b4e3abc64b684b16f40e88844"
+        },
+        "allocation23/chapter3_candidates/shared_mean.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/shared_mean.py",
+          "sha256": "1ec859e3f4508f3d74fedd82ad0d5cf5d57e92826d74b0e34d46d94c8ceec1f3"
+        },
+        "allocation23/chapter3_candidates/spo.py": {
+          "path": "chapter03/source/allocation23/chapter3_candidates/spo.py",
+          "sha256": "cfd9d6ee9dcf3897ee7acaed4153c72ba6033e50082e779681496c806d01abca"
+        },
+        "allocation23/full_spend.py": {
+          "path": "chapter03/source/allocation23/full_spend.py",
+          "sha256": "5b9f5d47569742730c9d12bdc8037e3a0d26b140c34fdadd3f055227d56a0269"
+        },
+        "allocation23/paths.py": {
+          "path": "chapter03/source/allocation23/paths.py",
+          "sha256": "d519b7b8b5a235e3c61ba2c12d4641cea41ffa66721e984ff76e3de170569b19"
+        }
+      }
+    }
+  }
+}

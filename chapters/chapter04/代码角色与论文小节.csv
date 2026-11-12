@@ -1,8 +1,0 @@
-﻿论文小节,角色,本章相对代码路径,用途与边界
-4.1/4.2,环境与TRoC数学,chapter4_full_spend_20261104/source/env,完整Task/Actor/全额分配环境定义
-4.3.2.1/4.3.3.1,TRoC/F1,foundation/chapter4_sample_efficiency_v5/allocation_efficiency/frequent.py,当前核心和兼容辅助公式
-4.3.2.1,PROPS,chapter4_full_spend_20261104/source/communication,原生PROPS更新与动作表示；commit/SHA票验证
-4.3.2.1,SAC+ReDo/MR.Q/BRO/MAD-TD,replacement_candidates,当前四外法及逐法vendor/license
-4.3.2.2/4.3.3.2,消融与学习率诊断,development/lr_feedback_20261109,正式fixed10与开发LR8分开
-4.3,正式训练与终测,formal_execution,显式run.py，100608预算，新输出，默认metadata-only
-4.1–4.3,当前图源,plots,17图中的本章8图；精确renderer与data_package定位输入
