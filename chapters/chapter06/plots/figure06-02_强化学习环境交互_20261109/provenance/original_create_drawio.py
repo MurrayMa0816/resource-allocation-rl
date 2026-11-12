@@ -4,7 +4,7 @@ import json,hashlib
 O=Path(__file__).resolve().parent
 parent=Path('/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-02_推演环境流程统一风格_20261109')
 if (O/'completion_receipt.json').exists():raise SystemExit('Completed presentation; replay refused')
-mx=ET.Element('mxfile',{'host':'app.diagrams.net','agent':'Codex editable diagram','version':'24.7.17','type':'device'})
+mx=ET.Element('mxfile',{'host':'app.diagrams.net','version':'24.7.17','type':'device'})
 diag=ET.SubElement(mx,'diagram',{'id':'ch6-rl-environment-compact','name':'灌溉环境交互流程'})
 graph=ET.SubElement(diag,'mxGraphModel',{'dx':'524','dy':'245','grid':'1','gridSize':'10','guides':'1','tooltips':'1','connect':'1','arrows':'1','fold':'1','page':'1','pageScale':'1','pageWidth':'524','pageHeight':'245','math':'0','shadow':'0','background':'#ffffff'})
 root=ET.SubElement(graph,'root');ET.SubElement(root,'mxCell',{'id':'0'});ET.SubElement(root,'mxCell',{'id':'1','parent':'0'})

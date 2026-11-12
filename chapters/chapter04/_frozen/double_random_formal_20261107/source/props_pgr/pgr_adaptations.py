@@ -102,6 +102,6 @@ def install_pgr(runner,domain,out,*,engineering=False):
         real_replay_rewards_unchanged=True,all_native_sample_and_update_budgets_unchanged=True,
         acceleration_capsule=str(ACCEL/'capsule.json'),acceleration_capsule_sha256=sha(ACCEL/'capsule.json'),
         old_registered_job_whitelist_not_claimed=True,
-        new_scope_authorization='User requested current external baselines be modified and tested; parent fixed full native budget',
+        new_scope_authorization='External-baseline adaptation under the fixed full native interaction budget',
         original_float_math_and_rng_sequence_acceleration='Pinned IO+EMA v3 reused after full capsule/parity hash verification'))
     return records

@@ -15,6 +15,6 @@
     ./python ./project chapter2 check
     ./python ./project chapter2 baseline inspect
 
-inspect/status/plan只读现成索引，check只核源码SHA，均不载模型或创建环境。train/evaluate仅在用户显式调用时进入科学程序；本次整理未执行。历史dispatch/watchdog/controller/旧队列仅作封存来源，不自动恢复。
+inspect/status/plan读取索引，check校验源码SHA，均不载入模型或创建环境。train/evaluate分别执行训练与评价。历史队列脚本保留作来源记录，不作为当前运行入口。
 
 plots保存当前实际绘图代码和每图输入包对照；最终模型、TRAIN/DEV/TEST原始数据、完整图包统一由final_data_root与chapter_data_root定位。在HY完整实验版，这些实体同处一个项目目录；ROOT代码版只保全部代码、配置、许可和源快照，数据通过显式RESOURCE_ALLOCATION_DATA_ROOT指定。

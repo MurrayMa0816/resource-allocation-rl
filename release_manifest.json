@@ -69,8 +69,8 @@
     },
     {
       "path": "LICENSE_SCOPE.rst",
-      "size": 2960,
-      "sha256": "f535c60a1afcef96dea5cd224794c73c4c10e6fd61e15f6dbb2c668b10154e51"
+      "size": 2797,
+      "sha256": "f16693318ff60d778cd34d3d37f10c0742274b2d96a954413c6a60fcc462750a"
     },
     {
       "path": "MAINTAINED_CODE.json",
@@ -89,8 +89,8 @@
     },
     {
       "path": "README.rst",
-      "size": 6058,
-      "sha256": "a1692255832a9618961db0422443d498225a80c13ad919e69243fcb62f47db0d"
+      "size": 1685,
+      "sha256": "060c084fb2811e7d8f79bbce7055f0a592f78296b0d9f5c4f08659c81c34e697"
     },
     {
       "path": "allocation23/__init__.py",
@@ -1499,8 +1499,8 @@
     },
     {
       "path": "applications/irrigation/reasonable89_20261109/visualization/source/diagrams/figure06-02_灌溉仿真环境交互流程/source.drawio",
-      "size": 8382,
-      "sha256": "88c0a13334062db2359c4e3a23b08fc99c4f8d49bd7b3a794bca0565844310ed"
+      "size": 8353,
+      "sha256": "1114b6943b82e00d61d8cc5aad3fc0a8ced8144a4347679b313647f576556b57"
     },
     {
       "path": "applications/irrigation/reasonable89_20261109/visualization/source/display_helpers.py",
@@ -1594,8 +1594,8 @@
     },
     {
       "path": "chapters/chapter02/CODE_README.rst",
-      "size": 1964,
-      "sha256": "b69aece093f304179a77651dc40b27eeeb7a4a235bb2957a379d03e48ebe979d"
+      "size": 1908,
+      "sha256": "c2b6bc3db999cd20b904e3c3f1c22f8901f1bce89b73deed6a5e701ae29116bf"
     },
     {
       "path": "chapters/chapter02/MODELS.json",
@@ -2049,8 +2049,8 @@
     },
     {
       "path": "chapters/chapter03/CODE_README.rst",
-      "size": 2096,
-      "sha256": "dd1363d281bbd93bdf175973e120f1900b2394fec6ab323507c25e54b510f8bd"
+      "size": 2040,
+      "sha256": "3f407ea59c508e3f0bf774db09c37a0c9abe6a47c4ad32f0c8b0c8f0bd444af2"
     },
     {
       "path": "chapters/chapter03/MODELS.json",
@@ -2574,13 +2574,13 @@
     },
     {
       "path": "chapters/chapter04/_frozen/action_sampling_diagnostic_20261109/protocol/PLAN.json",
-      "size": 12150,
-      "sha256": "01b549fc951c29f6e9c6d23361af63af176305b979f9f1f0600916b4419a0eee"
+      "size": 12130,
+      "sha256": "f1a8eca0041baf5d1a3caea8cc00125df7ffb47b5b5dfde4920154bf7017ab3e"
     },
     {
       "path": "chapters/chapter04/_frozen/action_sampling_diagnostic_20261109/protocol/aggregate_report_initial.py",
-      "size": 12310,
-      "sha256": "832228ef359689818e5114be72568235a6e920b261f6eb356e32759b212fcf6f"
+      "size": 12301,
+      "sha256": "db10f1f02e022da291eee7098ecbd0beac9d959b21f3c51727ae12086bf7b120"
     },
     {
       "path": "chapters/chapter04/_frozen/action_sampling_diagnostic_20261109/protocol/execution_seal.json",
@@ -2609,8 +2609,8 @@
     },
     {
       "path": "chapters/chapter04/_frozen/action_sampling_diagnostic_20261109/source/aggregate_report.py",
-      "size": 14105,
-      "sha256": "117dc3be1f4be3dc4d819afe22b33d85cacff883439c60f59661f449827eeca6"
+      "size": 14096,
+      "sha256": "e2a93131d3b114923af33e11fb1427ef0d3c5c6a74acca25687f11e043f632a4"
     },
     {
       "path": "chapters/chapter04/_frozen/action_sampling_diagnostic_20261109/source/evaluate_endpoint.py",
@@ -3919,8 +3919,8 @@
     },
     {
       "path": "chapters/chapter04/_frozen/double_random_formal_20261107/source/props_pgr/pgr_adaptations.py",
-      "size": 7251,
-      "sha256": "092f59a98dc79714d8936aab0247f2c407eaf3f2bdd3944269971d63a7c96eb3"
+      "size": 7229,
+      "sha256": "3a09d1ac15fd1bab3d4c79af4541eba12a8f6788667ba8836212a491126d9a44"
     },
     {
       "path": "chapters/chapter04/_frozen/double_random_formal_20261107/source/props_pgr/pgr_native_runner.py",
@@ -5609,8 +5609,8 @@
     },
     {
       "path": "chapters/chapter04/_frozen/formal_100k_5seed_20261106/source/props_pgr/pgr_adaptations.py",
-      "size": 7251,
-      "sha256": "092f59a98dc79714d8936aab0247f2c407eaf3f2bdd3944269971d63a7c96eb3"
+      "size": 7229,
+      "sha256": "3a09d1ac15fd1bab3d4c79af4541eba12a8f6788667ba8836212a491126d9a44"
     },
     {
       "path": "chapters/chapter04/_frozen/formal_100k_5seed_20261106/source/props_pgr/pgr_native_runner.py",
@@ -5861,11 +5861,6 @@
       "path": "chapters/chapter04/_frozen/mad_td_formal_20261107/publication/citation_sources/reading_receipt.json",
       "size": 3341,
       "sha256": "67d75cb8467a0c343ca80939cd36908e4b2567ca63f3d4a59da59860abe60361"
-    },
-    {
-      "path": "chapters/chapter04/_frozen/mad_td_formal_20261107/publication/requirements/writing_rules_snapshot.rst",
-      "size": 73638,
-      "sha256": "c09060e34ba596f71df1cfc1a36b45566bcc40dfb013921797ded5e011718fb5"
     },
     {
       "path": "chapters/chapter04/_frozen/mad_td_formal_20261107/source/environment/acceptance/attempt02/failure.json",
@@ -9229,8 +9224,8 @@
     },
     {
       "path": "chapters/chapter04/foundation/chapter4_recent_baselines/README.rst",
-      "size": 13615,
-      "sha256": "95a2d5d995b3790e358ae02638a72282d2ed75d86eea8c192948e346d83dcf41"
+      "size": 13591,
+      "sha256": "ee40079371be65c26b95f37a9ff753efd1b09b6f94818ef2c5dbbf2ed9b8f126"
     },
     {
       "path": "chapters/chapter04/foundation/chapter4_recent_baselines/__init__.py",
@@ -12559,8 +12554,8 @@
     },
     {
       "path": "chapters/chapter05/_frozen/formal285/baselines/morld/selected_implementation.json",
-      "size": 3653,
-      "sha256": "0ff7404784f8876dc3aa6a83d8eb71c99bce8cff9b155de6f1a00a6455761ecb"
+      "size": 3633,
+      "sha256": "01f4739eacbab04b97a1d9e51025bb07af473b5dea39330da5ae850ca633f110"
     },
     {
       "path": "chapters/chapter05/_frozen/formal285/baselines/morld/source_manifest.json",
@@ -13469,8 +13464,8 @@
     },
     {
       "path": "chapters/chapter05/baselines/morld/selected_implementation.json",
-      "size": 3653,
-      "sha256": "0ff7404784f8876dc3aa6a83d8eb71c99bce8cff9b155de6f1a00a6455761ecb"
+      "size": 3633,
+      "sha256": "01f4739eacbab04b97a1d9e51025bb07af473b5dea39330da5ae850ca633f110"
     },
     {
       "path": "chapters/chapter05/baselines/morld/source_manifest.json",
@@ -15274,8 +15269,8 @@
     },
     {
       "path": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/create_drawio.py",
-      "size": 3129,
-      "sha256": "3105b8aa76a8a65fe0562f6df7f59a9c5239e042f400984f6e216360f9698255"
+      "size": 3096,
+      "sha256": "3af30d81d1dea2c5b11232ecb93452eac9ffba075d1134e94261833c18f04bfe"
     },
     {
       "path": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/local_source.json",
@@ -15284,8 +15279,8 @@
     },
     {
       "path": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/provenance/original_create_drawio.py",
-      "size": 4161,
-      "sha256": "198d30f03e685f80d1233e91d32996b6b38cc7c233b34cf6608243307b67c0bd"
+      "size": 4128,
+      "sha256": "a364a70d1155a79975697668d97b384894a95a3d806ec3eb80693fb30011dffd"
     },
     {
       "path": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/requirements.txt",
@@ -15294,8 +15289,8 @@
     },
     {
       "path": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/source.drawio",
-      "size": 7116,
-      "sha256": "f2441fa7fb2ed3b2ac4fa058f906e972e201869a977e1eec0e31243efbd8c049"
+      "size": 7085,
+      "sha256": "fd7284876e9511b517558867c2efc37d4a08e654492371be0b7052ba51fab1fb"
     },
     {
       "path": "chapters/chapter06/plots/figure06-02_强化学习环境交互_20261109/source.json",
@@ -133255,6 +133250,10 @@
     {
       "path": "datasets/chapter06/weather_originals/hongmiao_supply_weather_alcar581/Zhanghe_2022_drought.txt",
       "reason": "third-party reference or news full text, not runtime weather arrays"
+    },
+    {
+      "path": "chapters/chapter04/_frozen/mad_td_formal_20261107/publication/requirements/writing_rules_snapshot.rst",
+      "reason": "internal editorial guidance; not an experiment runtime dependency"
     }
   ],
   "statistics": {

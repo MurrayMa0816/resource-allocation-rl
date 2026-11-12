@@ -76,7 +76,7 @@ CrossQ 的官方仓库为
 https://github.com/adityab/CrossQ，固定提交
 ``a318a266679bec3f9d93c44e029860a6da077c89``，MIT，位于
 ``vendor/crossq/sbx/sac/sac.py``。历史旧洪涝第三章规范提及旧 CrossQ 模型、
-诊断及验收；为避免用户要求的不重复存在歧义，本轮最终名单以 PGR 替代它。
+诊断及验收；正式对照采用 PGR，CrossQ 仅保留历史诊断记录。
 不能将 CrossQ 描述成“历史从未使用”或“只有占位”。
 
 第二三章排除口径
