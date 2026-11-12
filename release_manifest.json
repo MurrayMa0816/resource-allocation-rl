@@ -19,13 +19,13 @@
     },
     {
       "path": "00_代码阅读说明.rst",
-      "size": 377,
-      "sha256": "2f18cd47b11e711e6649fa8fe5a7084a5d07f2d1c2bc50ee732449964073c7b8"
+      "size": 376,
+      "sha256": "ca90629a58867e3b47a92d9f8594feaebaebf25c3bd9d72ec8f93c15a9f317c8"
     },
     {
       "path": "00_完整实验包说明.rst",
-      "size": 377,
-      "sha256": "2f18cd47b11e711e6649fa8fe5a7084a5d07f2d1c2bc50ee732449964073c7b8"
+      "size": 376,
+      "sha256": "ca90629a58867e3b47a92d9f8594feaebaebf25c3bd9d72ec8f93c15a9f317c8"
     },
     {
       "path": "ANONYMOUS_REVIEW.rst",
@@ -34,8 +34,8 @@
     },
     {
       "path": "CODE_README.rst",
-      "size": 301,
-      "sha256": "dc2393ceb06839bda3aebf5a8c38fe7abdcc2d1c9945f9ee895e7d15fcd470aa"
+      "size": 300,
+      "sha256": "9887b3d60e6868cd77b14db539631f724866f9d2ef03770820f1cc912bb845de"
     },
     {
       "path": "CODE_VERSION.json",
@@ -88,9 +88,9 @@
       "sha256": "e5a3562c65f7f9c1f0dd7b28021cac4bb5db2ad26ff725871c45c8ed8f3cf6d8"
     },
     {
-      "path": "README.rst",
-      "size": 1685,
-      "sha256": "060c084fb2811e7d8f79bbce7055f0a592f78296b0d9f5c4f08659c81c34e697"
+      "path": "README.md",
+      "size": 1551,
+      "sha256": "be115788050299b41b192ba38156c37fd8e85e87f122d2fa3463d6b92317a2f9"
     },
     {
       "path": "allocation23/__init__.py",
@@ -8523,6 +8523,36 @@
       "sha256": "8b3833c8432244bdf18b00e74ca60963b50bd2659c19b23bb6a27da3714c6d02"
     },
     {
+      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/INSTALLER",
+      "size": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/LICENSE",
+      "size": 1518,
+      "sha256": "b31375ed5d5cbe7ec2d0c4c14df8afa7a8e5501bbe25f70b6cbc461685f4b91a"
+    },
+    {
+      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/METADATA",
+      "size": 3865,
+      "sha256": "ab2dcbf0e3e70cc75dca1d894f8953e7de8b651dc2dc28f08f350bfa5787badb"
+    },
+    {
+      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/RECORD",
+      "size": 4338,
+      "sha256": "abf6edbc8262ff11bd8e6e23890b2d4029b6ea8f9e6d1ef50cd9a9ca3b473df9"
+    },
+    {
+      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/WHEEL",
+      "size": 92,
+      "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba"
+    },
+    {
+      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/top_level.txt",
+      "size": 25,
+      "sha256": "80aa39b2394c9cc2f9afdfa5d5e2d80534b5c59fb102bebb9a505280bf72bd20"
+    },
+    {
       "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf/__init__.py",
       "size": 1170,
       "sha256": "9729f08831c414120732aac13771d18742897afcc86a9e8cc942c53643269417"
@@ -8621,36 +8651,6 @@
       "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf/version.py",
       "size": 442,
       "sha256": "f4ebb03d69acacd44141899e8a97b95e7cb0298e23c3e65006b8dba390b931de"
-    },
-    {
-      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/INSTALLER",
-      "size": 4,
-      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
-    },
-    {
-      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/LICENSE",
-      "size": 1518,
-      "sha256": "b31375ed5d5cbe7ec2d0c4c14df8afa7a8e5501bbe25f70b6cbc461685f4b91a"
-    },
-    {
-      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/METADATA",
-      "size": 3865,
-      "sha256": "ab2dcbf0e3e70cc75dca1d894f8953e7de8b651dc2dc28f08f350bfa5787badb"
-    },
-    {
-      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/RECORD",
-      "size": 4338,
-      "sha256": "abf6edbc8262ff11bd8e6e23890b2d4029b6ea8f9e6d1ef50cd9a9ca3b473df9"
-    },
-    {
-      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/WHEEL",
-      "size": 92,
-      "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba"
-    },
-    {
-      "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/omegaconf-2.3.0.dist-info/top_level.txt",
-      "size": 25,
-      "sha256": "80aa39b2394c9cc2f9afdfa5d5e2d80534b5c59fb102bebb9a505280bf72bd20"
     },
     {
       "path": "chapters/chapter04/_frozen/mad_td_support_20261107/runtime/hydra_overlay/pydevd_plugins/__init__.py",
@@ -15383,6 +15383,11 @@
       "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494"
     },
     {
+      "path": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/source.json",
+      "size": 2898,
+      "sha256": "d514061df93e0bacddaca7b1ecc1e07bd04d8adec18ede9a876d768efa16f382"
+    },
+    {
       "path": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/source/accepted_statistical.py",
       "size": 16474,
       "sha256": "5143c568728531dcc88f342c25e2a8cdc6a6a31bf9ba2aefcc33f652341aaa90"
@@ -15391,11 +15396,6 @@
       "path": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/source/spacing.py",
       "size": 14490,
       "sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba"
-    },
-    {
-      "path": "chapters/chapter06/plots/figure06-03_全期用水与余额统一风格_20261109/source.json",
-      "size": 2898,
-      "sha256": "d514061df93e0bacddaca7b1ecc1e07bd04d8adec18ede9a876d768efa16f382"
     },
     {
       "path": "chapters/chapter06/plots/figure06-04_阶段状态配水统一风格_20261109/CONTENTS.json",
@@ -15648,6 +15648,11 @@
       "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494"
     },
     {
+      "path": "chapters/chapter06/plots/figure06-05_学习方法配置成效比较_20261109/source.json",
+      "size": 3688,
+      "sha256": "4f8a2b510b6eaca4f66db3501d695d2c42216f67e38f82f2551d9f61837572c0"
+    },
+    {
       "path": "chapters/chapter06/plots/figure06-05_学习方法配置成效比较_20261109/source/accepted_learning.py",
       "size": 6927,
       "sha256": "6ed5f7f9c99a040f1fe0b1ca23be1b91ffb70a0224de2175e349dd42303fb9e2"
@@ -15656,11 +15661,6 @@
       "path": "chapters/chapter06/plots/figure06-05_学习方法配置成效比较_20261109/source/spacing.py",
       "size": 14490,
       "sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba"
-    },
-    {
-      "path": "chapters/chapter06/plots/figure06-05_学习方法配置成效比较_20261109/source.json",
-      "size": 3688,
-      "sha256": "4f8a2b510b6eaca4f66db3501d695d2c42216f67e38f82f2551d9f61837572c0"
     },
     {
       "path": "chapters/chapter06/plots/figure06-06_区域终点统一尺度_20261109/CONTENTS.json",
@@ -15928,6 +15928,11 @@
       "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494"
     },
     {
+      "path": "chapters/chapter06/plots/figure06-07_紧凑供水条件_20261109/source.json",
+      "size": 2944,
+      "sha256": "7f337b3718e5e994a8cf6add807e8a272f3dfc9159f270edc30d13888d92525f"
+    },
+    {
       "path": "chapters/chapter06/plots/figure06-07_紧凑供水条件_20261109/source/accepted_compact.py",
       "size": 8509,
       "sha256": "93f3f6b987ebe8dd5b172defc540373e2ea33cb61957f071ba7204a859888a53"
@@ -15936,11 +15941,6 @@
       "path": "chapters/chapter06/plots/figure06-07_紧凑供水条件_20261109/source/spacing.py",
       "size": 14490,
       "sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba"
-    },
-    {
-      "path": "chapters/chapter06/plots/figure06-07_紧凑供水条件_20261109/source.json",
-      "size": 2944,
-      "sha256": "7f337b3718e5e994a8cf6add807e8a272f3dfc9159f270edc30d13888d92525f"
     },
     {
       "path": "chapters/chapter06/plots/figure06-08_天气与配水响应统一风格_20261109/CONTENTS.json",
@@ -16023,6 +16023,11 @@
       "sha256": "5e6d3e2b8ee570d139f584692c859c5b92b647b5fcfa594fc656fbf7239fed82"
     },
     {
+      "path": "chapters/chapter06/plots/figure06-08_天气与配水响应统一风格_20261109/source.json",
+      "size": 2609,
+      "sha256": "8365055a8e7cc1cfede1dd1cdab78710d73a0470a89c57d4e87637c24be0908f"
+    },
+    {
       "path": "chapters/chapter06/plots/figure06-08_天气与配水响应统一风格_20261109/source/accepted_statistical.py",
       "size": 16474,
       "sha256": "5143c568728531dcc88f342c25e2a8cdc6a6a31bf9ba2aefcc33f652341aaa90"
@@ -16031,11 +16036,6 @@
       "path": "chapters/chapter06/plots/figure06-08_天气与配水响应统一风格_20261109/source/spacing.py",
       "size": 14490,
       "sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba"
-    },
-    {
-      "path": "chapters/chapter06/plots/figure06-08_天气与配水响应统一风格_20261109/source.json",
-      "size": 2609,
-      "sha256": "8365055a8e7cc1cfede1dd1cdab78710d73a0470a89c57d4e87637c24be0908f"
     },
     {
       "path": "chapters/chapter06/requirements_recorded.txt",
