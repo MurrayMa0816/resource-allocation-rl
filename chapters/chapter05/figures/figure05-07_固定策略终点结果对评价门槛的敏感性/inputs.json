@@ -1,7 +1,11 @@
 {
   "figure": "5.7",
-  "caption": "不同评价要求下固定策略的达标数量",
-  "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "caption": "同一配置结果在不同达标门槛下的达标对象数",
+  "active_figure_package": "chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性_axes59p2x51_spacing15_20261111",
+  "data_package": "chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性_axes59p2x51_spacing15_20261111",
+  "data_package_scope": "complete current figure package, supplied separately",
+  "previous_complete_bundle_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "attachment_download_url": null,
   "numerical_inputs": [
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/costs_by_seed.csv",
@@ -9,7 +13,7 @@
       "bytes": 14491,
       "columns": 17,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -27,7 +31,18 @@
         "extra_exchange_updates",
         "seconds"
       ],
-      "data_rows": 90
+      "data_rows": 90,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/costs_by_seed.csv"
+        }
+      ]
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/data_manifest.json",
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
+      "bytes": 1844
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/fixed_endpoints_by_seed.csv",
@@ -35,7 +50,7 @@
       "bytes": 22143,
       "columns": 9,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -45,7 +60,13 @@
         "J",
         "F_0_8"
       ],
-      "data_rows": 210
+      "data_rows": 210,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/fixed_endpoints_by_seed.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_display.csv",
@@ -53,7 +74,7 @@
       "bytes": 2758404,
       "columns": 11,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -65,7 +86,13 @@
         "F_0_8",
         "display_filter"
       ],
-      "data_rows": 17820
+      "data_rows": 17820,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_display.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_raw.csv",
@@ -73,7 +100,7 @@
       "bytes": 1877519,
       "columns": 10,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -84,7 +111,13 @@
         "J",
         "F_0_8"
       ],
-      "data_rows": 17820
+      "data_rows": 17820,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_raw.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/threshold_recounts_by_seed.csv",
@@ -92,7 +125,7 @@
       "bytes": 26645,
       "columns": 10,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -103,7 +136,110 @@
         "policy_fixed",
         "new_environment_steps"
       ],
-      "data_rows": 300
+      "data_rows": 300,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/threshold_recounts_by_seed.csv"
+        }
+      ]
+    }
+  ],
+  "editable_source": {
+    "path": "plot.py",
+    "role": "portable public entry; exact current source is in support.json",
+    "current_plot_sha256": "d1ae4a1f22172e744fe7cf54153328df8375dd3284a968829015e95de77a2387"
+  },
+  "external_files": [
+    {
+      "path": "figure.pdf",
+      "sha256": "0380308c40b1430cd86a373a0b60fc9ea27231ab26b7697c69c619a841611873",
+      "bytes": 38476
+    },
+    {
+      "path": "figure.png",
+      "sha256": "8d10f466c178b4b3f2299ba16a734868d8c3b1f5fe1fadb60f5604abede3c9df",
+      "bytes": 281309
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
+      "bytes": 21351
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/execution/print_manifest_ch45.json",
+      "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632",
+      "bytes": 122366
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/manifest.json",
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
+      "bytes": 122365
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-7/figure.png",
+      "sha256": "70d36743939a63ef003484ed5e22a054d59fbc8b43be2952410c6c522d5567fb",
+      "bytes": 138175
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/figure.pdf",
+      "sha256": "2d0d4d470b86d8a6f62a0bf85d9339d2333e5a87520dc1d6c6d2f9b7f66ac33d",
+      "bytes": 38490
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/figure.png",
+      "sha256": "ba84ec686dc9729f36d46e92861ec9cfff3fcbe9838028ee8399aa3bf57bfe0d",
+      "bytes": 145990
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inherited_native_presentation_proof.json",
+      "sha256": "1b0e8c20afd6524f6235a2549c7c5b23ec72243df7f0b3721ff9bb747acb88e1",
+      "bytes": 26996
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/costs_by_seed.csv",
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+      "bytes": 14491
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/data_manifest.json",
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
+      "bytes": 1844
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/fixed_endpoints_by_seed.csv",
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "bytes": 22143
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_display.csv",
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "bytes": 2758404
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/learning_raw.csv",
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "bytes": 1877519
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/threshold_recounts_by_seed.csv",
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "bytes": 26645
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/print_presentation_proof.json",
+      "sha256": "f5853f218061b687284610b1510f94dc9578db575428760da06bb7b908616474",
+      "bytes": 8108
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/source.json",
+      "sha256": "e63e88a56820dcc7f5cc215b89ed1c40fc03560e7de028ccc125780afa32617c",
+      "bytes": 2114
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/manifest.json",
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
+      "bytes": 122365
     }
   ]
 }

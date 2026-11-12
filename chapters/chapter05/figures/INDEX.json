@@ -1,777 +1,91 @@
 {
+  "schema": "active-thesis-figure-index-v1",
   "figures": [
     {
-      "figure": "figure05-01_兼顾个体达标与平均成效的资源配置",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-01_兼顾个体达标与平均成效的资源配置",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-01_兼顾个体达标与平均成效的资源配置",
-      "code_package": "chapters/chapter05/plots/figure05-01_兼顾个体达标与平均成效的资源配置",
-      "source_files": [
-        {
-          "relative": "README.rst",
-          "sha256": "eed924664a5ae5243b7a48e44f60e47f3f691e4e2cecce9cf464b9b72c2db9ea",
-          "size": 638
-        },
-        {
-          "relative": "source.drawio",
-          "sha256": "df9309da0c66b905a6f6d7e9a688cd786a456466725afb652c3a381e538621cb",
-          "size": 177343
-        },
-        {
-          "relative": "source.json",
-          "sha256": "0f17aadc47023027cea04f6db56c936e355ac6d15fb7c773dd5c6c4dd48d9e5d",
-          "size": 12383
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "2984430e7bd2f8e3ef609785935a60d18008948aa7558ecf4c755e5f0794af71",
-          "size": 728
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.1",
+      "package": "chapters/chapter05/figures/figure05-01_兼顾个体达标与平均成效的资源配置",
+      "editable_source": "source.drawio",
+      "source_sha256": "3902647da9fce1954e6d687b479c1d0522e092cb4ce56268f53bfaa341108a69",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-01_兼顾个体达标与平均成效的资源配置/source.drawio",
+      "external_inputs": 0
     },
     {
-      "figure": "figure05-02_SeDVal方法总体框架",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-02_SeDVal方法总体框架",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-02_SeDVal方法总体框架",
-      "code_package": "chapters/chapter05/plots/figure05-02_SeDVal方法总体框架",
-      "source_files": [
-        {
-          "relative": "README.rst",
-          "sha256": "5bc470cbf8c3b071624bad1ae323387d72313868a30a9da3fafde19e539e1839",
-          "size": 606
-        },
-        {
-          "relative": "source.drawio",
-          "sha256": "a6be74c7527ab13bb91ac5a4b77cacb7a4318ba239c0b90fc9fc7df348c011c6",
-          "size": 20702
-        },
-        {
-          "relative": "source.json",
-          "sha256": "3bbfac327efbb6e224eb263c60ac91534336b04c77780c7bb69a033593d4400e",
-          "size": 10852
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "51d14671b5092243ec115539572b650845abe6d0de73cee72c6910f9c76d050d",
-          "size": 678
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.2",
+      "package": "chapters/chapter05/figures/figure05-02_SeDVal方法总体框架",
+      "editable_source": "source.drawio",
+      "source_sha256": "840a265b62668c671183dd2c199823306f770a0d83510f7a85d36e03d793a602",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架/source.drawio",
+      "external_inputs": 0
     },
     {
-      "figure": "figure05-03_双价值目标与统一策略优势的计算",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-03_双价值目标与统一策略优势的计算",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-03_双价值目标与统一策略优势的计算",
-      "code_package": "chapters/chapter05/plots/figure05-03_双价值目标与统一策略优势的计算",
-      "source_files": [
-        {
-          "relative": "README.rst",
-          "sha256": "1131d1b0bd8dc80ef489cc2b25b416b9739227128554918f239852a609a1a444",
-          "size": 638
-        },
-        {
-          "relative": "source.drawio",
-          "sha256": "c9315ef6ef23786357b17cd47f3afcf66abe0684fa864e912a8443b43ec9eadf",
-          "size": 16008
-        },
-        {
-          "relative": "source.json",
-          "sha256": "0025ba1b10cb85ea7dc2e494cfb4d4c96241587df2fd7bd62ca3af4dfff3c70a",
-          "size": 11856
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "984e4b26c7bccd5b282c6c47eb63b61f7ef693a170c75cdab79bb7bd8c088ff8",
-          "size": 723
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.3",
+      "package": "chapters/chapter05/figures/figure05-03_双价值目标与统一策略优势的计算",
+      "editable_source": "source.drawio",
+      "source_sha256": "0f436dfb49f0bedbe8fdac6e8c9c8777b6fd6d03ebeb9581528e917564096253",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算/source.drawio",
+      "external_inputs": 0
     },
     {
-      "figure": "figure05-04_六种方法达标数量与原始业务指标学习曲线",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
-      "code_package": "chapters/chapter05/plots/figure05-04_六种方法达标数量与原始业务指标学习曲线",
-      "source_files": [
-        {
-          "relative": "LOCAL_REPRODUCTION.rst",
-          "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
-          "size": 669
-        },
-        {
-          "relative": "README.rst",
-          "sha256": "8979b4af9b2ff14ac71554bb7c7ddb426db852b9d29fa62382e6e8242fbb832a",
-          "size": 2903
-        },
-        {
-          "relative": "plot.py",
-          "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
-          "size": 7310
-        },
-        {
-          "relative": "source.json",
-          "sha256": "68ec8d477d552e3bdc0d8b186224f2d2f27a98605b790c13cd4d5ad7d7ff6281",
-          "size": 16241
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "35fc8334a75079ce196d5f3af6a16038e284790c42463f58b13a923ac1cce578",
-          "size": 7318
-        },
-        {
-          "relative": "render_support/config.json",
-          "sha256": "6d66a0a63a6331bc3b161605fe461caa50bdd3df3dc67d9a1d877df14b422fd9",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure54/plot.py",
-          "sha256": "bfb0a2a4746451f846707a82e7155a21f53ff72b90f864bb953a8368e4e2f57f",
-          "size": 215
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/before/active_figures.json",
-          "sha256": "4d3d2f4a79465638778ffc2ec4e1d2037eaa621d5ac440aa502c9bcca7026e4e",
-          "size": 1629
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/before/manifest.json",
-          "sha256": "d73ccf98afa17828354cebf8d4bfd03d7980355addbf45f95b3a196c937ad320",
-          "size": 65451
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
-          "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
-          "size": 21351
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/render_learning_figures.py",
-          "sha256": "8ad96f999ce819f40e2de3389babcabf34d41f6e01ec7bae6c89d2d9ef058fed",
-          "size": 14804
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inherited_native_presentation_proof.json",
-          "sha256": "93a9984c4a489256d0f0aafca9395367d3295e0979e64501c0539845dd48bd40",
-          "size": 47107
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/input_original_sha256.json",
-          "sha256": "c8324532d34facbb7f571920110753abdc4576f344d04b2181ff1169240686c0",
-          "size": 967
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/plot.py",
-          "sha256": "fe2fbf95079ce683cad9347cf2ede2265488b6f638d724fa2aaedbcd178c17a3",
-          "size": 240
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/numeric_artist_geometry.json",
-          "sha256": "fb38a5fa6fff1b7952c25f0ac64d29aac6492b59d5ac160e7a82033b64900023",
-          "size": 2758677
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/render_geometry.json",
-          "sha256": "140128e3776c61d387d832b4b56d3a4132450b2ba8fb2608a423b4154c58bc58",
-          "size": 22228
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/source.json",
-          "sha256": "5254cf4e32ea9a5d540928721ea8aa9de890cb7656061a7739f0490ae50d1472",
-          "size": 2241
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/style_proof.json",
-          "sha256": "ab72bf0baccc003abc2dc92992579cef5a68662491881a92605b53f98b07c042",
-          "size": 670
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/before/active_figures.json",
-          "sha256": "4d3d2f4a79465638778ffc2ec4e1d2037eaa621d5ac440aa502c9bcca7026e4e",
-          "size": 1629
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/before/manifest.json",
-          "sha256": "d73ccf98afa17828354cebf8d4bfd03d7980355addbf45f95b3a196c937ad320",
-          "size": 65451
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/spec.json",
-          "sha256": "f5853180a75b2843d4835d00cf11f6658a4a887a7b933aa1100c278138832d58",
-          "size": 5428
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/parent_presentation_proof.json",
-          "sha256": "435d9a9297526746eb653789b1362e3588bb0b387d313bdc0dd4e4e196836d74",
-          "size": 47107
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/parent_renderer.py",
-          "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
-          "size": 13693
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/plot.py",
-          "sha256": "e9b5565c811f13e0a4f267a6ba5e662026cf74153b397f2c00e2c7ad638b4e33",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/source.json",
-          "sha256": "fcfb321c79dd2160e447019060a3a0d6e91fe1fa1c57e2067ac2fa36b5da61fd",
-          "size": 2506
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/data_manifest.json",
-          "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
-          "size": 1844
-        },
-        {
-          "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
-          "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
-          "size": 22348
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.4",
+      "package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+      "editable_source": "plot.py",
+      "current_source_sha256": "d1ae4a1f22172e744fe7cf54153328df8375dd3284a968829015e95de77a2387",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/plot.py",
+      "source_map": "support.json",
+      "published_source_files": 10,
+      "external_inputs": 28
     },
     {
-      "figure": "figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
-      "code_package": "chapters/chapter05/plots/figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
-      "source_files": [
-        {
-          "relative": "LOCAL_REPRODUCTION.rst",
-          "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
-          "size": 669
-        },
-        {
-          "relative": "README.rst",
-          "sha256": "d3cf1a80ce62822d6d84e2a81e8db8e7046b5ca48c42f007452cc0a9d86e3f1d",
-          "size": 2769
-        },
-        {
-          "relative": "accepted_metric_specification.json",
-          "sha256": "20f18e7143406e68e4f8e384fe6869ae8414503667b881b947664cfbc228b919",
-          "size": 1056
-        },
-        {
-          "relative": "plot.py",
-          "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
-          "size": 7310
-        },
-        {
-          "relative": "source.json",
-          "sha256": "65fac03e377309e6a848ce7e73824b9db7d16a934ac89c8669d80e31193cb52a",
-          "size": 15138
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "3113909f4e0e1995322a7da8365e6691fb3f334da3b023c6b8335a8b65d5a3b4",
-          "size": 4185
-        },
-        {
-          "relative": "render_support/config.json",
-          "sha256": "a28f7567c1dd0fcf4bdccd041fd5619c57d475d102c1d464fb3aadb439ef8050",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/data_manifest.json",
-          "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
-          "size": 1844
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure55/plot.py",
-          "sha256": "b703088b12ace4e60a531157e12d5119f7942df06f5003a5855d132f06e93e04",
-          "size": 215
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
-          "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
-          "size": 21351
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/agents/figures_c45/render_metric_labels.py",
-          "sha256": "56e1123adb73cefbe7c9112b7b10ccf44266dbc03e0196db00148a12789903ee",
-          "size": 9571
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/agents/figures_c45/specifications.json",
-          "sha256": "3a88eee6483ffd20eb455665f91b841efa6d34607393c32cb3d4497c6e5869c0",
-          "size": 6943
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/parent_presentation_proof.json",
-          "sha256": "1fa15fe07c95d38560514db8ef25eadc839221f9cb53fe01296cb96ecb234b04",
-          "size": 44743
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/parent_renderer.py",
-          "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
-          "size": 13693
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/plot.py",
-          "sha256": "4f35cc031ab82a09e02c1465ac1116a1a4149420e5edef5cf35a59c7a3083b0d",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/source.json",
-          "sha256": "59d80770a3a981c5f99d70a7ef0bf66561181c9a87836f729e1443cd0c6c97ae",
-          "size": 2533
-        },
-        {
-          "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
-          "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
-          "size": 22348
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.5",
+      "package": "chapters/chapter05/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
+      "editable_source": "plot.py",
+      "current_source_sha256": "d1ae4a1f22172e744fe7cf54153328df8375dd3284a968829015e95de77a2387",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照_axes59p2x51_spacing15_20261111/plot.py",
+      "source_map": "support.json",
+      "published_source_files": 9,
+      "external_inputs": 14
     },
     {
-      "figure": "figure05-06_不同价值监督方式下的回报预测误差",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-06_不同价值监督方式下的回报预测误差",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-06_不同价值监督方式下的回报预测误差",
-      "code_package": "chapters/chapter05/plots/figure05-06_不同价值监督方式下的回报预测误差",
-      "source_files": [
-        {
-          "relative": "LOCAL_REPRODUCTION.rst",
-          "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
-          "size": 669
-        },
-        {
-          "relative": "README.rst",
-          "sha256": "6c4c66d87c29398da49a42e6ee994c0b20274c652ea1b5ed493f8de1057639a1",
-          "size": 2324
-        },
-        {
-          "relative": "plot.py",
-          "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
-          "size": 7310
-        },
-        {
-          "relative": "plotted_values.json",
-          "sha256": "e159b99bbf49e91ef06c4e5820c7d2f21dde0699c72a21e8956e28d84ff0f966",
-          "size": 11476
-        },
-        {
-          "relative": "source.json",
-          "sha256": "e58ad120a5b2e0503ba1f6c804217b0c6de68c4aa2c04edd82e9ead169ff1d62",
-          "size": 10060
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "a29b951bb0fcd34ac7d9663d5467bfb21b8f651ab7df0a6dc9095cc65a4c2a94",
-          "size": 3905
-        },
-        {
-          "relative": "render_support/config.json",
-          "sha256": "6f3556b7bb855530995a1b9fa6c328824622df3cc89d8d8ea298318595fd84c4",
-          "size": 217
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/summary.json",
-          "sha256": "51fa064fc7bb40c4b015a0bce2a3b81fb44ea775cc98c64c685122152f08918d",
-          "size": 28231
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/protocol.json",
-          "sha256": "61089c223238ff6f1adfd901d5e7e66753a16a2cc443c134ba600ab034eb33c5",
-          "size": 16478
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/source_binding.json",
-          "sha256": "2bd9c61dd2aabca6b2c362fb78e32431e3371871b11765e0b480da92505b57d8",
-          "size": 665
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/plot.py",
-          "sha256": "a284dfb1311ec37f1a59b5c97ecf1f38ee2f91d2c63efce51324746b4254e09c",
-          "size": 5304
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/plotted_values.json",
-          "sha256": "912bf54f0e7aed13eba371625e3a45c848d59b1cdae4f88f5b13f70b270a4cb8",
-          "size": 11463
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/paper_revisions/integrate_supervision_boxplot_20261110_171410/assets/figure56_supervision/plot.py",
-          "sha256": "e2cdac1c1774a1f7be5562dd10a9e8233ef970307c34a75b120d0be834b892c6",
-          "size": 334
-        },
-        {
-          "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/chapter05_supervision_boxplot_20261110.py",
-          "sha256": "aa488539a6d9d89e144046cb5c4fbeb8157987f4da982f87e37b61cd91b7ca82",
-          "size": 19437
-        },
-        {
-          "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/figure_5_6_supervision_boxplot__plot.py",
-          "sha256": "eb5ce2a1f42b7bfb902dee0428785a305a01ba5a778657519a265f7a6076ca11",
-          "size": 168
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.6",
+      "package": "chapters/chapter05/figures/figure05-06_不同价值监督方式下的回报预测误差",
+      "editable_source": "plot.py",
+      "current_source_sha256": "df5fd26ed97147d30d37407a8a254f0de9cb8d5a66ef0c94c74c664b1eac63e7",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-06_不同价值监督方式下的回报预测误差_axes59p2x51_spacing15_20261111/plot.py",
+      "source_map": "support.json",
+      "published_source_files": 7,
+      "external_inputs": 9
     },
     {
-      "figure": "figure05-07_固定策略终点结果对评价门槛的敏感性",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
-      "code_package": "chapters/chapter05/plots/figure05-07_固定策略终点结果对评价门槛的敏感性",
-      "source_files": [
-        {
-          "relative": "LOCAL_REPRODUCTION.rst",
-          "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
-          "size": 669
-        },
-        {
-          "relative": "README.rst",
-          "sha256": "5457fcda401fbc59bbac0b2e59fc4ede88895dc6822ee8bc69de8cb4878a72eb",
-          "size": 3051
-        },
-        {
-          "relative": "plot.py",
-          "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
-          "size": 7310
-        },
-        {
-          "relative": "source.json",
-          "sha256": "a02e349fe2d4fc855dfdb113b9387386179aa262f7a2bfff9a6faaeb9c357cbb",
-          "size": 13192
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "e5d4846423969ae28bda615eb4d7bd96bd013c8de0f1bc4ce738fc0459786d25",
-          "size": 4470
-        },
-        {
-          "relative": "render_support/config.json",
-          "sha256": "de1c30f758643cdf9ad21bfcd858083f7395cfe9b657ca12f89dd3865d48ae79",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/manifest.json",
-          "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
-          "size": 122365
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure56/plot.py",
-          "sha256": "30f6dff4005f07e6f623ce470eda98ed1a3e0974a3f925480743472caad01033",
-          "size": 215
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/execution/print_manifest_ch45.json",
-          "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632",
-          "size": 122366
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
-          "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
-          "size": 21351
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/manifest.json",
-          "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
-          "size": 122365
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
-          "sha256": "b48d560e1c9c922cea85dad27b154d1e29dcf56717ad4b262f17ca789ce1fb57",
-          "size": 12682
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inherited_native_presentation_proof.json",
-          "sha256": "1b0e8c20afd6524f6235a2549c7c5b23ec72243df7f0b3721ff9bb747acb88e1",
-          "size": 26996
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/plot.py",
-          "sha256": "60d6a87c11ac92cd22b4a1ff4bae4fcfd4e354c5ca5ea014cf834b3c2350ea7f",
-          "size": 260
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/print_presentation_proof.json",
-          "sha256": "f5853f218061b687284610b1510f94dc9578db575428760da06bb7b908616474",
-          "size": 8108
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/source.json",
-          "sha256": "e63e88a56820dcc7f5cc215b89ed1c40fc03560e7de028ccc125780afa32617c",
-          "size": 2114
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/spec.json",
-          "sha256": "2f086e63876363d7e084a1a0f322e60a315f72db395107385355b7654ea4b0a9",
-          "size": 5453
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/parent_renderer.py",
-          "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
-          "size": 13693
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/plot.py",
-          "sha256": "c738673b5664053ecc21936aa7e4fe9a9505fd2bed4f05157cc3f845b530c651",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-7/inputs/data/data_manifest.json",
-          "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
-          "size": 1844
-        },
-        {
-          "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
-          "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
-          "size": 22348
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.7",
+      "package": "chapters/chapter05/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+      "editable_source": "plot.py",
+      "current_source_sha256": "d1ae4a1f22172e744fe7cf54153328df8375dd3284a968829015e95de77a2387",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性_axes59p2x51_spacing15_20261111/plot.py",
+      "source_map": "support.json",
+      "published_source_files": 9,
+      "external_inputs": 18
     },
     {
-      "figure": "figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
-      "code_package": "chapters/chapter05/plots/figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
-      "source_files": [
-        {
-          "relative": "LOCAL_REPRODUCTION.rst",
-          "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
-          "size": 669
-        },
-        {
-          "relative": "README.rst",
-          "sha256": "63a23c08c81b4765d07e82973c8f4409b0534428753facc1652ba9e1518a6b4c",
-          "size": 3056
-        },
-        {
-          "relative": "plot.py",
-          "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
-          "size": 7310
-        },
-        {
-          "relative": "source.json",
-          "sha256": "c16946c3fa86fa487c810514f5d7c14fdfc65fcf61875ada7d75a64d2b2e7468",
-          "size": 14618
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "b74dc40b019fd8066de46e1e93c7d1ddf73ce10f27d891c88fcd32834ccb8fbd",
-          "size": 4485
-        },
-        {
-          "relative": "render_support/config.json",
-          "sha256": "04c0fd05a198ef0ed254d7a13af385604aa090cc7e92cb58f2e740d884a43c2c",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/manifest.json",
-          "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
-          "size": 122365
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure57/plot.py",
-          "sha256": "01552ec586f9f992aab5af001326e5d922c3bcb457ea9285f2aab7b665c40e3b",
-          "size": 215
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/execution/print_manifest_ch45.json",
-          "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632",
-          "size": 122366
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
-          "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
-          "size": 21351
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
-          "sha256": "b48d560e1c9c922cea85dad27b154d1e29dcf56717ad4b262f17ca789ce1fb57",
-          "size": 12682
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/manifest.json",
-          "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
-          "size": 122365
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inherited_native_presentation_proof.json",
-          "sha256": "8437e10bcc4050af1909787018a80df137e206b4ba140db7be13b7e34e6793f1",
-          "size": 69913
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/plot.py",
-          "sha256": "cac97de52b371e9d03b6a78545d7561a46de078688ea4d8187e9058cea1b4368",
-          "size": 260
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/print_presentation_proof.json",
-          "sha256": "d3f4b33a7acc40779dbe3bf12b5904afb7e18c747405ac2be8eef4cc5351aba8",
-          "size": 13006
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/source.json",
-          "sha256": "4892822b81e1e488e76bc8db122cd306963aebc22b461bf4a11f632d969631dd",
-          "size": 2114
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/spec.json",
-          "sha256": "a09a947a60b3b65709f1a94bbd9705aa99469de9ae41e8e6151caac1dd249fca",
-          "size": 5471
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/parent_renderer.py",
-          "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
-          "size": 13693
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/plot.py",
-          "sha256": "17937eccc41cb8c7bffff9e875195b11561879fa6cdcdf3896bb04caf8e40aab",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/data_manifest.json",
-          "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
-          "size": 1844
-        },
-        {
-          "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
-          "sha256": "7708f8e4d45e6272111f11efe257b79c8d4951cdfd5db4f3198f5e06e31462c8",
-          "size": 24350
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.8",
+      "package": "chapters/chapter05/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
+      "editable_source": "plot.py",
+      "current_source_sha256": "60aa8ee53688df93bba0ff64f7604c917e98f4e871edcc77178274928dfa8b60",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效_axes59p2x51_spacing15_20261111/plot.py",
+      "source_map": "support.json",
+      "published_source_files": 9,
+      "external_inputs": 18
     },
     {
-      "figure": "figure05-09_对象终点质量与达标分布",
-      "paths_relative_to_final_data_root": true,
-      "data_package": "chapters/chapter05/figures/figure05-09_对象终点质量与达标分布",
-      "legacy_data_package": "chapters/chapter05/figures/figure05-09_对象终点质量与达标分布",
-      "code_package": "chapters/chapter05/plots/figure05-09_对象终点质量与达标分布",
-      "source_files": [
-        {
-          "relative": "LOCAL_REPRODUCTION.rst",
-          "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
-          "size": 669
-        },
-        {
-          "relative": "README.rst",
-          "sha256": "ee51c84338a98902ef6a83f69faaa721e74c97191dcc5e7f06ec7c3d5facce50",
-          "size": 2423
-        },
-        {
-          "relative": "plot.py",
-          "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
-          "size": 7310
-        },
-        {
-          "relative": "source.json",
-          "sha256": "862ec9b20429551124f7958520daa5ea5970bccf778fc4a9226a7b8ad9da088f",
-          "size": 10816
-        },
-        {
-          "relative": "CONTENTS.json",
-          "sha256": "6dd57fff99eec80836b65869bf67b9585a0a3a62f4b3c031dc58ddb4d9abd26e",
-          "size": 2521
-        },
-        {
-          "relative": "render_support/config.json",
-          "sha256": "4d55226fa4558bf7347e27175f90b33c8b2d72ba3ba42cca0f141a42aeb8059b",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/manifest.json",
-          "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
-          "size": 122365
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure58/plot.py",
-          "sha256": "57376b45b375d6259e42c799db67b1f85d96ad1b7ddf7300a82835511a656e98",
-          "size": 215
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/execution/print_manifest_ch45.json",
-          "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632",
-          "size": 122366
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
-          "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
-          "size": 21351
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/manifest.json",
-          "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
-          "size": 122365
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
-          "sha256": "b48d560e1c9c922cea85dad27b154d1e29dcf56717ad4b262f17ca789ce1fb57",
-          "size": 12682
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9/plot.py",
-          "sha256": "1966e082452100f7a1cff9216f4d07d5796d5032e3a739d99023619afb7a23e8",
-          "size": 260
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9/print_presentation_proof.json",
-          "sha256": "66268b747deb07c019c5d86be4235b8533184c57fda75adaf1ccada253f47f59",
-          "size": 219471
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9/source.json",
-          "sha256": "7abbb82c026bb9d0741cf9ff95db2f6ae958ffba0f3e9338c9e0ddd21f0e90b2",
-          "size": 1743
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9/spec.json",
-          "sha256": "11de11792ee0e4a01ef658f020e04bac3fb7a27c91cc3967d92367024d62fce6",
-          "size": 4803
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9/inputs/parent_renderer.py",
-          "sha256": "e84b4c06dbb8e1a0664886e04bbb61ba9e954e4b394f861d1ea2bc521c59248c",
-          "size": 14947
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9/inputs/plot.py",
-          "sha256": "9b40793a2d95ccb7233411182cf7a8d59608761fe14900d93dcc5cc05b5e8a50",
-          "size": 233
-        },
-        {
-          "relative": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-9/inputs/data/c5_terminal_data_sources.json",
-          "sha256": "e88f93880b87aa8be3dc47699a1e8ee376a46b471f032a81ff889d799c19d66f",
-          "size": 8631
-        },
-        {
-          "relative": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
-          "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
-          "size": 22348
-        }
-      ],
-      "numerical_data_is_not_duplicated_in_ROOT": true,
-      "no_FS_links": true,
-      "role": "maintained exact renderer version plus explicit DATA input package"
+      "number": "5.9",
+      "package": "chapters/chapter05/figures/figure05-09_对象终点质量与达标分布",
+      "editable_source": "plot.py",
+      "current_source_sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1",
+      "current_thesis_source": "chapters/chapter05_dual_value/figures/figure05-09_对象终点质量与达标分布/plot.py",
+      "source_map": "support.json",
+      "published_source_files": 9,
+      "external_inputs": 14
     }
-  ]
+  ],
+  "numerical_data_and_reference_images_included": false,
+  "plotting_performed_during_source_alignment": false
 }

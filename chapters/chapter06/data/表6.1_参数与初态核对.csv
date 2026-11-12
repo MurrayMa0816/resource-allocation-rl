@@ -1,0 +1,7 @@
+﻿表号,参数,正文值,源数据说明,真实输入
+6.1,可利用储水容量Si,36--60 mm,固定分布设定区间；当前89区实际最小36.3971985171、最大60；Si=soil_depth_mm*(theta_fc-theta_wp),experiments/chapter06/studies/reasonable_allocation89_20261109/formal/fixed_inputs89.json
+6.1,饱和渗漏率,1--3 mm/d,固定研究分布区间；当前89区实际最小1.00894641813、最大2.98647450331,experiments/chapter06/studies/reasonable_allocation89_20261109/formal/fixed_inputs89.json
+6.1,田面储水上限,80 mm,[80.0],experiments/chapter06/studies/reasonable_allocation89_20261109/formal/fixed_inputs89.json
+6.1,评分参考含水率,0.40,当前depth_decoder与固定theta_crit参数所用参考值；不等于田间持水率0.39,experiments/chapter06/studies/reasonable_allocation89_20261109/formal/frozen_code/source/hongmiao89/depth_decoder.py
+6.1,初始供水,400万m3,主学习方法比较设置；350/450万另按档重训，不改这个主比较表,experiments/chapter06/studies/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6400.json
+6.1,储水初态,根区田间持水量，田面0,89个initial_storage_mm等于各区soil_depth_mm*theta_fc；田面无额外积水,experiments/chapter06/studies/reasonable_allocation89_20261109/formal/fixed_inputs89.json

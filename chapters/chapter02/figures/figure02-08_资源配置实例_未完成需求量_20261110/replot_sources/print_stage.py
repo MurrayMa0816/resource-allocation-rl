@@ -8,7 +8,11 @@ import argparse,csv,gzip,hashlib,importlib.util,json,os,sys
 sys.dont_write_bytecode=True
 ROOT=Path(__file__).resolve().parent
 HERE=Path(__file__).resolve().parent.parent
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts/windows').is_dir())
+THESIS=next((p for p in HERE.parents if (p/'assets/fonts/windows').is_dir()),None)
+if THESIS is None:
+ _font_env=os.environ.get('THESIS_FIGURE_FONT_DIR')
+ if not _font_env:raise RuntimeError('Pass --font-dir when rendering outside the thesis')
+ THESIS=Path(_font_env).resolve().parents[2]
 
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def dump(p,v):Path(p).write_text(json.dumps(v,ensure_ascii=False,indent=2,allow_nan=False)+'\n')

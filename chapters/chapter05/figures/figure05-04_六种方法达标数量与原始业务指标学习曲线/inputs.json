@@ -1,7 +1,11 @@
 {
   "figure": "5.4",
   "caption": "各方法训练过程中的达标数量与平均成效",
-  "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+  "active_figure_package": "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111",
+  "data_package": "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111",
+  "data_package_scope": "complete current figure package, supplied separately",
+  "previous_complete_bundle_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+  "attachment_download_url": null,
   "numerical_inputs": [
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/costs_by_seed.csv",
@@ -9,7 +13,7 @@
       "bytes": 14491,
       "columns": 17,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -27,7 +31,17 @@
         "extra_exchange_updates",
         "seconds"
       ],
-      "data_rows": 90
+      "data_rows": 90,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/costs_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/costs_by_seed.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv",
@@ -35,7 +49,7 @@
       "bytes": 22143,
       "columns": 9,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -45,7 +59,17 @@
         "J",
         "F_0_8"
       ],
-      "data_rows": 210
+      "data_rows": 210,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_display.csv",
@@ -53,7 +77,7 @@
       "bytes": 2758404,
       "columns": 11,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -65,7 +89,17 @@
         "F_0_8",
         "display_filter"
       ],
-      "data_rows": 17820
+      "data_rows": 17820,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_display.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_display.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_raw.csv",
@@ -73,7 +107,7 @@
       "bytes": 1877519,
       "columns": 10,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -84,7 +118,17 @@
         "J",
         "F_0_8"
       ],
-      "data_rows": 17820
+      "data_rows": 17820,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_raw.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_raw.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv",
@@ -92,7 +136,7 @@
       "bytes": 26645,
       "columns": 10,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -103,7 +147,17 @@
         "policy_fixed",
         "new_environment_steps"
       ],
-      "data_rows": 300
+      "data_rows": 300,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/costs_by_seed.csv",
@@ -111,7 +165,7 @@
       "bytes": 14491,
       "columns": 17,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -129,7 +183,22 @@
         "extra_exchange_updates",
         "seconds"
       ],
-      "data_rows": 90
+      "data_rows": 90,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/costs_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/costs_by_seed.csv"
+        }
+      ]
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/data_manifest.json",
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
+      "bytes": 1844
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv",
@@ -137,7 +206,7 @@
       "bytes": 22143,
       "columns": 9,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -147,7 +216,17 @@
         "J",
         "F_0_8"
       ],
-      "data_rows": 210
+      "data_rows": 210,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_display.csv",
@@ -155,7 +234,7 @@
       "bytes": 2758404,
       "columns": 11,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -167,7 +246,17 @@
         "F_0_8",
         "display_filter"
       ],
-      "data_rows": 17820
+      "data_rows": 17820,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_display.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_display.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_raw.csv",
@@ -175,7 +264,7 @@
       "bytes": 1877519,
       "columns": 10,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -186,7 +275,17 @@
         "J",
         "F_0_8"
       ],
-      "data_rows": 17820
+      "data_rows": 17820,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_raw.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_raw.csv"
+        }
+      ]
     },
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv",
@@ -194,7 +293,7 @@
       "bytes": 26645,
       "columns": 10,
       "header": [
-        "model_id",
+        "﻿model_id",
         "algorithm",
         "domain",
         "seed",
@@ -205,7 +304,164 @@
         "policy_fixed",
         "new_environment_steps"
       ],
-      "data_rows": 300
+      "data_rows": 300,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter05/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv"
+        }
+      ]
+    }
+  ],
+  "editable_source": {
+    "path": "plot.py",
+    "role": "portable public entry; exact current source is in support.json",
+    "current_plot_sha256": "d1ae4a1f22172e744fe7cf54153328df8375dd3284a968829015e95de77a2387"
+  },
+  "external_files": [
+    {
+      "path": "figure.pdf",
+      "sha256": "7ad2336d43786f71c30703a01b97a98bce65f8aa45d069dc809638c6bf55be52",
+      "bytes": 155911
+    },
+    {
+      "path": "figure.png",
+      "sha256": "9bb62d2013b163d230f185d675b6c6f36f30790a10e3400d37809922f3b19193",
+      "bytes": 515800
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
+      "bytes": 21351
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/before/active_figures.json",
+      "sha256": "4d3d2f4a79465638778ffc2ec4e1d2037eaa621d5ac440aa502c9bcca7026e4e",
+      "bytes": 1629
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/before/manifest.json",
+      "sha256": "d73ccf98afa17828354cebf8d4bfd03d7980355addbf45f95b3a196c937ad320",
+      "bytes": 65451
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/figure.pdf",
+      "sha256": "4c5b3628911fd4f647496b7e5c76ecabb0a514cc86ee9ccd300360cf44b025d1",
+      "bytes": 156101
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/figure.png",
+      "sha256": "229059ddb3f37d73fd991ecab4a821947adb2197ca8c64caefbe270bad5c7cf8",
+      "bytes": 283602
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inherited_native_presentation_proof.json",
+      "sha256": "93a9984c4a489256d0f0aafca9395367d3295e0979e64501c0539845dd48bd40",
+      "bytes": 47107
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/costs_by_seed.csv",
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+      "bytes": 14491
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv",
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "bytes": 22143
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_display.csv",
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "bytes": 2758404
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/learning_raw.csv",
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "bytes": 1877519
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv",
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "bytes": 26645
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/numeric_artist_geometry.json",
+      "sha256": "fb38a5fa6fff1b7952c25f0ac64d29aac6492b59d5ac160e7a82033b64900023",
+      "bytes": 2758677
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/render_geometry.json",
+      "sha256": "140128e3776c61d387d832b4b56d3a4132450b2ba8fb2608a423b4154c58bc58",
+      "bytes": 22228
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/source.json",
+      "sha256": "5254cf4e32ea9a5d540928721ea8aa9de890cb7656061a7739f0490ae50d1472",
+      "bytes": 2241
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure5-4/style_proof.json",
+      "sha256": "ab72bf0baccc003abc2dc92992579cef5a68662491881a92605b53f98b07c042",
+      "bytes": 670
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/before/active_figures.json",
+      "sha256": "4d3d2f4a79465638778ffc2ec4e1d2037eaa621d5ac440aa502c9bcca7026e4e",
+      "bytes": 1629
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/before/manifest.json",
+      "sha256": "d73ccf98afa17828354cebf8d4bfd03d7980355addbf45f95b3a196c937ad320",
+      "bytes": 65451
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/figure.pdf",
+      "sha256": "c23b78bf3043b60ec38a0df9e297e3fcf799bc5c49b11626cccfe3730a2ba0f8",
+      "bytes": 137350
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/costs_by_seed.csv",
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+      "bytes": 14491
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/data_manifest.json",
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
+      "bytes": 1844
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/fixed_endpoints_by_seed.csv",
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "bytes": 22143
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_display.csv",
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "bytes": 2758404
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/learning_raw.csv",
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "bytes": 1877519
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/data/threshold_recounts_by_seed.csv",
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "bytes": 26645
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/parent_presentation_proof.json",
+      "sha256": "435d9a9297526746eb653789b1362e3588bb0b387d313bdc0dd4e4e196836d74",
+      "bytes": 47107
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-4/inputs/source.json",
+      "sha256": "fcfb321c79dd2160e447019060a3a0d6e91fe1fa1c57e2067ac2fa36b5da61fd",
+      "bytes": 2506
     }
   ]
 }

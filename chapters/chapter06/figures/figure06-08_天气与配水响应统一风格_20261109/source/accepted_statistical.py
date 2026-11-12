@@ -14,11 +14,18 @@ import os
 from datetime import date, timedelta
 from pathlib import Path
 
+import sys
+_FIGURE_SHARED = next(p for p in Path(__file__).resolve().parents if p.name == "figures") / "shared"
+if str(_FIGURE_SHARED) not in sys.path:
+    sys.path.insert(0, str(_FIGURE_SHARED))
+from figure_paths import configure_fonts, fonts_root
+SHARED_DATA = _FIGURE_SHARED / "data"
+
 import numpy as np
 
 from pathlib import Path
 HERE=Path(__file__).resolve().parents[1]
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts').is_dir())
+FONT_ASSETS=fonts_root(__file__)
 ROOT = HERE / '.render-stage'
 DATA = HERE
 BLUE, ORANGE, GREY = '#236d9e', '#cf7627', '#999999'
@@ -61,7 +68,7 @@ def setup():
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
     from matplotlib import font_manager
-    font = THESIS/'assets/fonts/figure/ThesisFigureText-Regular.otf'
+    font = FONT_ASSETS/'figure/ThesisFigureText-Regular.otf'
     font_manager.fontManager.addfont(str(font))
     family = font_manager.FontProperties(fname=font).get_name()
     plt.rcParams.update({
@@ -217,27 +224,28 @@ def feedback(plt):
     top.set(ylim=(0,8.8),ylabel='参考蒸散率（mm/d）');top.set_yticks([0,4,8]);top.tick_params(axis='x',labelbottom=False)
     top.set_title('(a) 参考蒸散率变化',pad=6);top.grid(axis='y',alpha=.18,linewidth=.6)
     main_ax.axvspan(61.5,64.5,color='#d5d8d9',alpha=.12,zorder=0)
-    line_old=main_ax.plot(days,old,color=GREY,ls='--',marker='o',ms=4,mfc='white',label='按原安排执行',zorder=3)[0]
-    line_new=main_ax.plot(days,new,color=BLUE,marker='s',ms=3,label='根据新状态调整',zorder=4)[0]
+    line_old=main_ax.plot(days,old,color=GREY,ls='--',marker='o',ms=4,mfc='white',label='继续执行原配水安排',zorder=3)[0]
+    line_new=main_ax.plot(days,new,color=BLUE,marker='s',ms=3,label='依据新状态重新配水',zorder=4)[0]
     connections=[]
     for day,a,b in zip(days,old,new):
         if abs(a-b)>1e-12:
             main_ax.vlines(day,min(a,b),max(a,b),color='#666666',lw=.65,zorder=2.5);connections.append([(float(day),float(a)),(float(day),float(b))])
-    main_ax.set(ylim=(4,13),ylabel='每日总配水量（万m³）',xlabel='日期');main_ax.set_yticks([4,6,8,10,12])
+    main_ax.set(ylim=(4,13),ylabel='每日分配灌溉总水量\n（万m³）',xlabel='日期');main_ax.set_yticks([4,6,8,10,12])
     main_ax.set_xticks(days);main_ax.set_xticklabels(['7/30','7/31','8/1\n首次调整','8/2','8/3','8/4','8/5']);main_ax.set_xlim(60.5,67.5)
     main_ax.set_title('(b) 相同变化天气下的每日配水',pad=6);main_ax.grid(axis='y',alpha=.18,linewidth=.6)
-    note=main_ax.text(.985,.975,'标注为同日较原安排增减量（m³）',transform=main_ax.transAxes,ha='right',va='top')
+    note=main_ax.text(.985,.975,'标注为同日较原安排增减水量（m³）',transform=main_ax.transAxes,ha='right',va='top')
     labels=[];rows=[]
     for i,day in enumerate(days):
-        difference=float(delta[day]);label='未调整' if abs(difference)<1e-8 else f"{'多配' if difference>0 else '少配'}{int(round(abs(difference)))}"
+        difference=float(delta[day]);csv_label='未调整' if abs(difference)<1e-8 else f"{'多配' if difference>0 else '少配'}{int(round(abs(difference)))}"
+        label=csv_label.replace('未调整','水量未变').replace('多配','增加').replace('少配','减少')
         dy,va=(-17,'top') if day in {61,63,66} else (8,'bottom')
         labels.append(main_ax.annotate(label,(day,max(old[i],new[i])),xytext=(0,dy),textcoords='offset points',ha='center',va=va))
         rows.append(dict(day_zero_based=int(day),date=str(original['dates'][day]),original_ET0_mm_per_day=float(original['weather'][day,1]),
                          changed_ET0_mm_per_day=float(modes['feedback']['weather'][day,1]),ET0_multiplier=1.15 if 62<=day<=64 else 1.,
                          original_weather_plan_q_m3=float(original['q'][day]),same_changed_weather_replay_q_m3=float(modes['replay']['q'][day]),
-                         same_changed_weather_feedback_q_m3=float(modes['feedback']['q'][day]),same_day_feedback_minus_replay_m3=difference,display_annotation_m3=label))
+                         same_changed_weather_feedback_q_m3=float(modes['feedback']['q'][day]),same_day_feedback_minus_replay_m3=difference,display_annotation_m3=csv_label))
     fig.legend([first,second],['原天气','变化后天气'],ncol=2,frameon=False,loc='upper center',bbox_to_anchor=(.5725,.714),handlelength=1.8,columnspacing=1.6,handletextpad=.5)
-    fig.legend([line_old,line_new],['按原安排执行','根据新状态调整'],ncol=2,frameon=False,loc='lower center',bbox_to_anchor=(.5725,.005),handlelength=1.8,columnspacing=1.2,handletextpad=.5)
+    fig.legend([line_old,line_new],['继续执行原配水安排','依据新状态重新配水'],ncol=2,frameon=False,loc='lower center',bbox_to_anchor=(.5725,.005),handlelength=1.8,columnspacing=1.2,handletextpad=.5)
     fig.canvas.draw();renderer=fig.canvas.get_renderer();boxes=[x.get_window_extent(renderer) for x in labels];note_box=note.get_window_extent(renderer)
     paths=[x.get_path().transformed(main_ax.transData) for x in (line_old,line_new)]+[MplPath(main_ax.transData.transform(x)) for x in connections]
     for i,box in enumerate(boxes):

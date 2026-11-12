@@ -1,7 +1,11 @@
 {
   "figure": "5.6",
-  "caption": "不同价值监督方式下的回报预测误差",
-  "data_package": "chapters/chapter05/figures/figure05-06_不同价值监督方式下的回报预测误差",
+  "caption": "分项价值监督与标量价值监督的回报预测均方误差",
+  "active_figure_package": "chapters/chapter05_dual_value/figures/figure05-06_不同价值监督方式下的回报预测误差_axes59p2x51_spacing15_20261111",
+  "data_package": "chapters/chapter05_dual_value/figures/figure05-06_不同价值监督方式下的回报预测误差_axes59p2x51_spacing15_20261111",
+  "data_package_scope": "complete current figure package, supplied separately",
+  "previous_complete_bundle_package": "chapters/chapter05/figures/figure05-06_不同价值监督方式下的回报预测误差",
+  "attachment_download_url": null,
   "numerical_inputs": [
     {
       "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/per_seed_metrics.csv",
@@ -67,7 +71,80 @@
         "terminal_C",
         "terminal_J"
       ],
-      "data_rows": 20
+      "data_rows": 20,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter05/figures/figure05-06_不同价值监督方式下的回报预测误差",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/per_seed_metrics.csv"
+        }
+      ]
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/protocol.json",
+      "sha256": "61089c223238ff6f1adfd901d5e7e66753a16a2cc443c134ba600ab034eb33c5",
+      "bytes": 16478
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/summary.json",
+      "sha256": "51fa064fc7bb40c4b015a0bce2a3b81fb44ea775cc98c64c685122152f08918d",
+      "bytes": 28231
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/plotted_values.json",
+      "sha256": "912bf54f0e7aed13eba371625e3a45c848d59b1cdae4f88f5b13f70b270a4cb8",
+      "bytes": 11463
+    }
+  ],
+  "editable_source": {
+    "path": "plot.py",
+    "role": "portable public entry; exact current source is in support.json",
+    "current_plot_sha256": "df5fd26ed97147d30d37407a8a254f0de9cb8d5a66ef0c94c74c664b1eac63e7"
+  },
+  "external_files": [
+    {
+      "path": "figure.pdf",
+      "sha256": "0ef92b01877f261b35d798153caf66f8a21aaa1dda30440a69a0beadc987e2cb",
+      "bytes": 32204
+    },
+    {
+      "path": "figure.png",
+      "sha256": "ecbb61cb264079073c62dfde19f767977572f7ef4b81c63ab1288380adbf48a3",
+      "bytes": 138825
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/per_seed_metrics.csv",
+      "sha256": "c2c98a75c9d99c3e0ad80e287744bdf2b3396cbc81e4a9919abe3d6573ab0d2c",
+      "bytes": 22615
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/protocol.json",
+      "sha256": "61089c223238ff6f1adfd901d5e7e66753a16a2cc443c134ba600ab034eb33c5",
+      "bytes": 16478
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/summary.json",
+      "sha256": "51fa064fc7bb40c4b015a0bce2a3b81fb44ea775cc98c64c685122152f08918d",
+      "bytes": 28231
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/plotted_values.json",
+      "sha256": "912bf54f0e7aed13eba371625e3a45c848d59b1cdae4f88f5b13f70b270a4cb8",
+      "bytes": 11463
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/value_supervision_boxplot.pdf",
+      "sha256": "2e1a9c8d23ae9a22650c106c639c3fcab4f0307db3ecea8cd13632e46b553ee5",
+      "bytes": 31491
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/value_supervision_boxplot.png",
+      "sha256": "99f2d22dfc8ae06119de778828288e7d30946585012c4556d0737fa75f89be81",
+      "bytes": 153971
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/value_supervision_boxplot.svg",
+      "sha256": "5f1beed2593921fd4aab2865538c5ed2a3b732d5f07dbdfe538650a7e03a2dbe",
+      "bytes": 92877
     }
   ]
 }

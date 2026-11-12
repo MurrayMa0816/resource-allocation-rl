@@ -1,10 +1,14 @@
 {
   "figure": "4.8",
-  "caption": "TRoC与固定学习率变体的策略更新幅度",
-  "data_package": "chapters/chapter04/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+  "caption": "学习率反馈与固定学习率下的单批策略密度比变化",
+  "active_figure_package": "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111",
+  "data_package": "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111",
+  "data_package_scope": "complete current figure package, supplied separately",
+  "previous_complete_bundle_package": "chapters/chapter04/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+  "attachment_download_url": null,
   "numerical_inputs": [
     {
-      "path": "plotted_points.csv",
+      "path": "native_parent/plotted_points.csv",
       "sha256": "8ea40581f2760f272a55b6603e23be18041f4e2661133e6761aedd7b48d19d94",
       "bytes": 315233,
       "columns": 9,
@@ -19,10 +23,16 @@
         "sample_sd",
         "seed_count"
       ],
-      "data_rows": 3768
+      "data_rows": 3768,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+          "path": "plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/plotted_points.csv",
       "sha256": "ef1b448fe1a25eaec2636f25b794c3bafaf94a088d284add52f4d480c523e682",
       "bytes": 315650,
       "columns": 9,
@@ -37,10 +47,16 @@
         "sample_sd",
         "seed_count"
       ],
-      "data_rows": 3772
+      "data_rows": 3772,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/data.csv",
       "sha256": "aeb379cdbf58fa33236d962016842202fb20572a83bea1f887a7a84f108c0436",
       "bytes": 13251157,
       "columns": 73,
@@ -119,10 +135,16 @@
         "diagnostic_native_lr_proposal",
         "tv_used_for_lr"
       ],
-      "data_rows": 18260
+      "data_rows": 18260,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_per_seed.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_per_seed.csv",
       "sha256": "c0f7bde80eaa0413a3779286632e9f93e748b0ee67699e76a03608123f4fc13d",
       "bytes": 3102,
       "columns": 18,
@@ -146,10 +168,16 @@
         "first_included_training_step",
         "last_included_training_step"
       ],
-      "data_rows": 20
+      "data_rows": 20,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_per_seed.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_summary.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_summary.csv",
       "sha256": "b9a51bf31ba8e2c9e47c973e1daeb71dad1baa4d9b3f10f26033cf49c1f7e579",
       "bytes": 1684,
       "columns": 12,
@@ -167,7 +195,95 @@
         "uncertainty_definition",
         "no_statistical_significance_claim"
       ],
-      "data_rows": 4
+      "data_rows": 4,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_summary.csv"
+        }
+      ]
+    }
+  ],
+  "editable_source": {
+    "path": "plot.py",
+    "role": "portable public entry; exact current source is in support.json",
+    "current_plot_sha256": "430778b535fdde71cd660031cf54534b83579223a7bbfb7f8d25be06ae963e35"
+  },
+  "external_files": [
+    {
+      "path": "native_parent/CONTENTS.json",
+      "sha256": "49d0c3e97a9445bb9788c6a94f21011b96788b0a06a32bdbdd26c3613273863c",
+      "bytes": 6038
+    },
+    {
+      "path": "native_parent/LOCAL_REPRODUCTION.rst",
+      "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
+      "bytes": 669
+    },
+    {
+      "path": "native_parent/README.rst",
+      "sha256": "8af6b899d6f43de25539aae1968e552e7ba8d5f589d5001204ccfe80446cc05c",
+      "bytes": 2207
+    },
+    {
+      "path": "native_parent/figure.pdf",
+      "sha256": "1bc3b0ba01a8afcc4357b6b2a2db451bec1d8534086761aa15576518a3358645",
+      "bytes": 62346
+    },
+    {
+      "path": "native_parent/figure.png",
+      "sha256": "d44cc07d8d1cf7016f2a0cc4996049970ecf1ad66544938fbe26d42306fdbc08",
+      "bytes": 238755
+    },
+    {
+      "path": "native_parent/figure.svg",
+      "sha256": "baceeda008c55132361a95243b1a2fb1ab5b1034ac557d7c18b4f7cac53d68e6",
+      "bytes": 106703
+    },
+    {
+      "path": "native_parent/plotted_points.csv",
+      "sha256": "8ea40581f2760f272a55b6603e23be18041f4e2661133e6761aedd7b48d19d94",
+      "bytes": 315233
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/numeric_artist_values_before_after.json",
+      "sha256": "96efb56f9b61cd81be964fee5d8fdc9142219912c617011773e63250786e3365",
+      "bytes": 512345
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/plotted_points.csv",
+      "sha256": "ef1b448fe1a25eaec2636f25b794c3bafaf94a088d284add52f4d480c523e682",
+      "bytes": 315650
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/render_geometry.json",
+      "sha256": "67dc736de15ef2be52a837b7cd1169a400fdc3344fb838e938b5181eb49b1ad7",
+      "bytes": 12585
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/data.csv",
+      "sha256": "aeb379cdbf58fa33236d962016842202fb20572a83bea1f887a7a84f108c0436",
+      "bytes": 13251157
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_per_seed.csv",
+      "sha256": "c0f7bde80eaa0413a3779286632e9f93e748b0ee67699e76a03608123f4fc13d",
+      "bytes": 3102
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_summary.csv",
+      "sha256": "b9a51bf31ba8e2c9e47c973e1daeb71dad1baa4d9b3f10f26033cf49c1f7e579",
+      "bytes": 1684
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/runtime/mpl/fontlist-v390.json",
+      "sha256": "1b9a688ff3526e6e83629b7f67d659d80fa6dbe066673c75fc92e4d1c5d18a57",
+      "bytes": 165561
+    },
+    {
+      "path": "native_parent/source.json",
+      "sha256": "b64ae7400610afca6d5367aa1bed55eafb4fccfe4a2304193a82e2d1cabedec6",
+      "bytes": 7297
     }
   ]
 }

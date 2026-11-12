@@ -1,0 +1,102 @@
+{
+  "schema": "chapter6-same-weather-case-comparison-v1",
+  "selection": "Reuse current figure6.8 case; no benefit-based reselection",
+  "case_id": "Hongmiao89-reasonable-depth-v1",
+  "trained_seed": 6400,
+  "weather_id": 125,
+  "weather_seed": 3900000125,
+  "first_weather_change_day_zero_based": 62,
+  "first_weather_change_date": "2022-07-31",
+  "first_action_change_day_zero_based": 63,
+  "first_action_change_date": "2022-08-01",
+  "actor_sha256": "7130c639c1c879c0ea50accdc132745c02a51b8f6661fca16fe479071ffa3123",
+  "endpoint_episode": 3200,
+  "reference_checkpoint_sha256": "26063e51639ce94461cd62ce398d1e1882f6f1d16d73c7a667c1923adc86880d",
+  "same_original_weather_plan_replayed_all81_days_exactly": true,
+  "both_methods_same_changed_weather_and_initial_state": true,
+  "prefix_actions_exact_through_day62_inclusive": true,
+  "published_figure68_all7_dates_weather_and_q_exact": true,
+  "fixed_execution_operator": "fixed64_antithetic_mean_feasible_actions",
+  "table": [
+    {
+      "metric": "initial_budget",
+      "unit": "m3",
+      "replay": 4000000.0,
+      "feedback": 4000000.0,
+      "feedback_minus_replay": 0.0
+    },
+    {
+      "metric": "total_used_water",
+      "unit": "m3",
+      "replay": 4000000.000000001,
+      "feedback": 3999999.9999999995,
+      "feedback_minus_replay": -1.3969838619232178e-09
+    },
+    {
+      "metric": "terminal_remaining_budget",
+      "unit": "m3",
+      "replay": 0.0,
+      "feedback": 0.0,
+      "feedback_minus_replay": 0.0
+    },
+    {
+      "metric": "regions_reaching_90_percent",
+      "unit": "regions",
+      "replay": 87.0,
+      "feedback": 86.0,
+      "feedback_minus_replay": -1.0
+    },
+    {
+      "metric": "C",
+      "unit": "percent",
+      "replay": 97.75280898876404,
+      "feedback": 96.62921348314607,
+      "feedback_minus_replay": -1.1235955056179705
+    },
+    {
+      "metric": "JA",
+      "unit": "percent",
+      "replay": 91.85021748824863,
+      "feedback": 91.81446855613252,
+      "feedback_minus_replay": -0.03574893211610686
+    }
+  ],
+  "threshold_status_changes": [
+    {
+      "region_id": "46",
+      "area_ha": 34.666666666666664,
+      "replay_Y_percent": 90.1777689344557,
+      "feedback_Y_percent": 89.82107824410896,
+      "feedback_minus_replay_Y_pp": -0.3566906903467393,
+      "replay_reaches_90_percent": 1,
+      "feedback_reaches_90_percent": 0,
+      "replay_total_allocation_m3": 161729.18847326285,
+      "feedback_total_allocation_m3": 161083.51414189508
+    }
+  ],
+  "delta_C_percentage_points": -1.1235955056179692,
+  "delta_JA_percentage_points": -0.035748932116108634,
+  "delta_fixed_weight_joint_score_percentage_points": -0.25331824681648074,
+  "sum_daily_q_difference_m3": -1.4965735317673534e-09,
+  "sum_absolute_daily_q_difference_m3": 22326.310072567325,
+  "sum_absolute_regional_allocation_difference_m3": 257929.76942200624,
+  "terminal_metric_verification": {
+    "replay": {
+      "coverage_count_from_Y_exact": true,
+      "C90_from_equal_region_counts_max_abs_error": 0.0,
+      "JA_from_area_weighted_Y_max_abs_error": 0.0,
+      "joint_score_is_0p2_C_plus_0p8_JA": true
+    },
+    "feedback": {
+      "coverage_count_from_Y_exact": true,
+      "C90_from_equal_region_counts_max_abs_error": 0.0,
+      "JA_from_area_weighted_Y_max_abs_error": 1.1102230246251565e-16,
+      "joint_score_is_0p2_C_plus_0p8_JA": true
+    }
+  },
+  "budget_closure_max_abs_error_m3": {
+    "replay": 4.656612873077393e-10,
+    "feedback": 4.656612873077393e-10
+  },
+  "interpretation": "For this existing illustrative weather125 case, feedback has one fewer region above90% and a slightly lower JA. It must not be replaced with a favorable case; it is outside the first32-weather statistical subset."
+}

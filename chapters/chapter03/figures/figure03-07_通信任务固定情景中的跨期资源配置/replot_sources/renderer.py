@@ -149,6 +149,120 @@ def text_and_hex_audit(fig):
                 all_object_ID_bboxes_inside_complete_hexagons=True, visible_text_outside_canvas=0)
 
 
+CURVE_AXES_MM = (125.0, 26.13563961876694)
+TARGET_INK_XLABEL_LEGEND_BP = 15.0
+TARGET_INK_LEGEND_MAPTITLE_BP = 12.0
+TARGET_INK_BOTTOM_MM = 2.0
+TARGET_INK_TOP_BP = 4.5
+ALLOCATION_LABELS_BY_CASE = {'3.7': {'本期投入占\n初始资源（%）': '本期发射能量占\n初始发射能量（%）', '(a) 各期总投入': '(a) 各期发射能量分配总量', '对象投入占初始资源（%）': '各终端发射能量占初始发射能量（%）'}, '3.8': {'本期投入占\n初始资源（%）': '本期分配的额度占\n初始总额度（%）', '(a) 各期总投入': '(a) 各期分配的柴油额度', '对象投入占初始资源（%）': '各区域获得的额度占初始总额度（%）'}}
+
+
+def visible_ink_spacing(pdf, legend_labels, bottom_label_text):
+    """Measure actual720dpi raster ink inside independently identified PDF text regions."""
+    import fitz
+    import numpy as np
+    doc = fitz.open(pdf)
+    page = doc[0]
+    lines = []
+    for b in page.get_text('dict')['blocks']:
+        if b['type'] != 0:
+            continue
+        for line in b['lines']:
+            text = ''.join(s['text'] for s in line['spans']).strip()
+            if text:
+                lines.append((text, fitz.Rect(line['bbox'])))
+    def line_for(text):
+        normalized = text.replace(' ', '')
+        matches = [r for t, r in lines if t.replace(' ', '') == normalized]
+        assert len(matches) == 1, (text, [(t, list(r)) for t,r in lines if normalized in t.replace(' ', '')])
+        return matches[0]
+    def union(rects):
+        result = fitz.Rect(rects[0])
+        for rect in rects[1:]:
+            result |= rect
+        return result
+    def ink(rect, pad=1.0):
+        r = fitz.Rect(rect.x0-pad, rect.y0-pad, rect.x1+pad, rect.y1+pad) & page.rect
+        pix = page.get_pixmap(matrix=fitz.Matrix(10,10), clip=r, colorspace=fitz.csRGB, alpha=False)
+        array = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height,pix.width,3)
+        yy, xx = np.nonzero(array.min(axis=2) < 220)
+        assert len(xx), ('no ink', list(rect))
+        return [(pix.x+xx.min())/10, (pix.y+yy.min())/10,
+                (pix.x+xx.max()+1)/10, (pix.y+yy.max()+1)/10]
+    xlabel_rect = line_for('决策期')
+    legend_rect = union([line_for(label) for label in legend_labels])
+    # Include the legend's line/marker keys as well as its text.
+    legend_rect.x0 = max(0, legend_rect.x0-40)
+    titles = [r for text,r in lines if text.startswith('(b)') or text.startswith('(c)')]
+    assert len(titles) == 2
+    xlabel = ink(xlabel_rect)
+    legend = ink(legend_rect)
+    map_titles = [ink(r) for r in titles]
+    bottom_label = ink(line_for(bottom_label_text))
+    top_visible = ink(fitz.Rect(0,0,page.rect.width,30),pad=0)
+    return dict(schema='actual-raster-ink-spacing-v1', dpi=720, threshold_min_rgb_less_than=220,
+                measurement_basis='actual raster pixels in independent PDF text/key crops; not font layout boxes',
+                xlabel_bbox_bp=list(xlabel_rect), legend_bbox_bp=list(legend_rect),
+                xlabel_ink_bp=xlabel, legend_ink_bp=legend, top_map_title_ink_bp=map_titles,
+                bottom_scale_label_ink_bp=bottom_label, top_visible_ink_bp=top_visible,
+                top_visible_content_to_file_top_bp=top_visible[1],
+                xlabel_to_first_legend_ink_bp=legend[1]-xlabel[3],
+                last_legend_to_first_map_title_ink_bp=min(r[1] for r in map_titles)-legend[3],
+                scale_label_ink_to_file_bottom_bp=page.rect.height-bottom_label[3],
+                native_canvas_bp=list(page.rect)[2:])
+
+
+def apply_physical_geometry(fig, rects_mm, height_mm, legend_anchor_mm):
+    """Change canvas/positions only; physical axes width/height and font sizes stay explicit."""
+    fig.set_size_inches(156.0/25.4, height_mm/25.4, forward=True)
+    for ax, (x,y,w,h) in zip(fig.axes, rects_mm):
+        ax.set_position([x/156.0, y/height_mm, w/156.0, h/height_mm])
+    fig.legends[0].set_bbox_to_anchor((legend_anchor_mm[0]/156.0, legend_anchor_mm[1]/height_mm),
+                                    transform=fig.transFigure)
+    fig.canvas.draw()
+
+
+def calibrate_visible_spacing(fig, out, save_original):
+    import numpy as np
+    labels = [t.get_text() for t in fig.legends[0].get_texts()]
+    probe = out/'runtime'/'spacing_probe.pdf'
+    records = []
+    # PDF's coordinates point down; Matplotlib's physical coordinates point up.
+    for iteration in range(3):
+        save_original(fig, probe, metadata={'CreationDate':None,'ModDate':None})
+        measured = visible_ink_spacing(probe, labels, fig.axes[-1].xaxis.label.get_text())
+        records.append(measured)
+        if (abs(measured['xlabel_to_first_legend_ink_bp']-TARGET_INK_XLABEL_LEGEND_BP) <= .15
+            and abs(measured['last_legend_to_first_map_title_ink_bp']-TARGET_INK_LEGEND_MAPTITLE_BP) <= .15
+            and abs(measured['scale_label_ink_to_file_bottom_bp']-TARGET_INK_BOTTOM_MM*72/25.4) <= .15
+            and abs(measured['top_visible_content_to_file_top_bp']-TARGET_INK_TOP_BP) <= .15):
+            break
+        wh = fig.get_size_inches()*25.4
+        rects = [list(r) for r in physical_axes(fig)]
+        anchor = fig.legends[0].get_bbox_to_anchor()._bbox.bounds
+        legend_anchor = [anchor[0]*wh[0], anchor[1]*wh[1]]
+        legend_up = TARGET_INK_LEGEND_MAPTITLE_BP-measured['last_legend_to_first_map_title_ink_bp']
+        curve_up = TARGET_INK_XLABEL_LEGEND_BP-measured['xlabel_to_first_legend_ink_bp']+legend_up
+        bottom_down = measured['scale_label_ink_to_file_bottom_bp']-TARGET_INK_BOTTOM_MM*72/25.4
+        rects[0][1] += curve_up*25.4/72
+        legend_anchor[1] += legend_up*25.4/72
+        new_height = float(wh[1]+curve_up*25.4/72)
+        for rect in rects:
+            rect[1] -= bottom_down*25.4/72
+        legend_anchor[1] -= bottom_down*25.4/72
+        new_height -= bottom_down*25.4/72
+        new_height += (TARGET_INK_TOP_BP-measured['top_visible_content_to_file_top_bp'])*25.4/72
+        apply_physical_geometry(fig,rects,new_height,legend_anchor)
+    save_original(fig, probe, metadata={'CreationDate':None,'ModDate':None})
+    final = visible_ink_spacing(probe, labels, fig.axes[-1].xaxis.label.get_text())
+    assert abs(final['xlabel_to_first_legend_ink_bp']-15) <= .2, final
+    assert abs(final['last_legend_to_first_map_title_ink_bp']-12) <= .2, final
+    assert abs(final['scale_label_ink_to_file_bottom_bp']-2*72/25.4) <= .2, final
+    assert abs(final['top_visible_content_to_file_top_bp']-TARGET_INK_TOP_BP) <= .2, final
+    return dict(iterations=records,final=final,targets=dict(xlabel_to_legend_ink_bp=15,
+                legend_to_top_map_title_ink_bp=12,bottom_scale_label_to_file_bottom_mm=2,top_visible_content_to_file_top_bp=4.5))
+
+
 def render(number, output_dir=None):
     asset, parent, inputs = prepare(number)
     out = Path(output_dir or asset).resolve()
@@ -219,13 +333,13 @@ def render(number, output_dir=None):
     old_wh = fig.get_size_inches() * 25.4
     assert len(fig.axes) == 6
     curve_before = before_axes[0]
-    new_height = curve_before[1] + 26.0 + 6.5
+    new_height = curve_before[1] + CURVE_AXES_MM[1] + 6.5
     fig.set_layout_engine(None)
     fig.set_size_inches(156.0 / 25.4, new_height / 25.4, forward=True)
     for i, (ax, rect) in enumerate(zip(fig.axes, before_axes)):
         x, y, w, h = rect
         if i == 0:
-            h = 26.0
+            h = CURVE_AXES_MM[1]
         ax.set_position([x / 156.0, y / new_height, w / 156.0, h / new_height])
         ax.set_xticks(before[i]['xticks'])
         ax.set_yticks(before[i]['yticks'])
@@ -251,13 +365,41 @@ def render(number, output_dir=None):
         line.set_markeredgewidth(.6)
         line.set_markerfacecolor(line.get_color())
         line.set_markeredgecolor(line.get_color())
+    ink_spacing_proof = calibrate_visible_spacing(fig, out, save_original)
+    # Current labels change only after the historical parent has been reproduced.
+    # Keep the saved source, scientific artists, geometry and font sizes intact.
+    from matplotlib.text import Text
+    label_changes = []
+    allocation_labels = ALLOCATION_LABELS_BY_CASE[number]
+    for text in fig.findobj(Text):
+        old_label = text.get_text()
+        if old_label in allocation_labels:
+            new_label = allocation_labels[old_label]
+            text.set_text(new_label)
+            label_changes.append(dict(before=old_label, after=new_label,
+                                      font_bp=text.get_fontsize()))
+    assert len(label_changes) == 3, (number, label_changes)
+    # Wording changes must not recrop the accepted canvas or move any axes.
+    final_probe = out / 'runtime' / 'term_spacing_probe.pdf'
+    save_original(fig, final_probe, metadata={'CreationDate': None, 'ModDate': None})
+    measured_terms = visible_ink_spacing(final_probe,
+                        [t.get_text() for t in fig.legends[0].get_texts()],
+                        fig.axes[-1].xaxis.label.get_text())
+    assert abs(measured_terms['xlabel_to_first_legend_ink_bp']-15) <= .2
+    assert abs(measured_terms['last_legend_to_first_map_title_ink_bp']-12) <= .2
+    assert abs(measured_terms['scale_label_ink_to_file_bottom_bp']-2*72/25.4) <= .2
+    assert abs(measured_terms['top_visible_content_to_file_top_bp']-TARGET_INK_TOP_BP) <= .2
+    ink_spacing_proof['final'] = measured_terms
+    ink_spacing_proof['wording_change_preserves_accepted_canvas_and_axes'] = True
+    new_height = float(fig.get_size_inches()[1]*25.4)
     fig.canvas.draw()
     after = scientific_artists(fig)
     after_axes = physical_axes(fig)
     assert digest(before) == digest(after), (number, 'scientific artists changed')
-    assert np.allclose(before_axes[1:], after_axes[1:], atol=1e-11, rtol=0), 'Map/colorbar physical geometry changed'
-    assert np.allclose(before_axes[0][:3], after_axes[0][:3], atol=1e-11, rtol=0)
-    assert np.allclose(after_axes[0][2:], [125, 26], atol=1e-10, rtol=0)
+    assert np.allclose(np.array(before_axes)[1:, [0,2,3]], np.array(after_axes)[1:, [0,2,3]], atol=1e-9, rtol=0), 'Map/colorbar physical sizes or x positions changed'
+    assert np.ptp(np.array(after_axes)[1:,1]-np.array(before_axes)[1:,1]) < 1e-9, 'Map/colorbar internal spacing changed'
+    assert np.allclose(after_axes[0][[0,2]] if isinstance(after_axes[0],np.ndarray) else [after_axes[0][0],after_axes[0][2]], [before_axes[0][0],before_axes[0][2]], atol=1e-9, rtol=0)
+    assert np.allclose(after_axes[0][2:], CURVE_AXES_MM, atol=1e-9, rtol=0)
     audits = text_and_hex_audit(fig)
     assert audits['object_ID_count'] == (400 if number == '3.7' else 480)
     renderer, k = fig.canvas.get_renderer(), 72 / fig.dpi
@@ -279,21 +421,24 @@ def render(number, output_dir=None):
     dump(out / 'audit' / 'scientific_before.json', before)
     dump(out / 'audit' / 'scientific_after.json', after)
     dump(out / 'audit' / 'text_and_hex_bboxes.json', audits)
-    proof = dict(schema='chapter3-case-style-unification-v1', status='PASS', number=number,
+    proof = dict(schema='chapter3-case-native-restoration-spacing15-v1', status='PASS', number=number,
                  accepted_parent_directory=str(parent), accepted_parent_png_reproduction_exact=True,
                  scientific_before_sha256=digest(before), scientific_after_sha256=digest(after),
                  scientific_arrays_ranges_ticks_patches_colors_IDs_exact=True,
                  original_input_data_sha256={n: sha(inputs / n) for n in ['data.csv', 'period_totals.csv', 'data/provenance.json']},
                  input_files_sha256=input_hashes, figure_size_mm=[156.0, new_height],
                  parent_figure_size_mm=clean(old_wh), parent_axes_mm=before_axes, axes_mm=after_axes,
-                 map_and_colorbar_physical_rectangles_unchanged=True,
-                 curve_axes_size_mm=[125.0, 26.0], curve_linewidth_bp=1.25,
+                 map_and_colorbar_physical_sizes_preserved=True, map_and_colorbar_spacing_preserved=True,
+                 actual_ink_spacing_720dpi=ink_spacing_proof,
+                 prior_radio_curve_axes_mm=[125.0,26.13563961876694],
+                 curve_axes_size_mm=list(CURVE_AXES_MM), curve_linewidth_bp=1.25,
                  curve_linestyle='solid', marker_size_bp=4.0, marker_edgewidth_bp=.6,
                  method_marker_identities_preserved=True, modified_line_artists=changed_lines,
                  fonts_bp=dict(main=10.5, object_ID=9.0), spacing=spacing,
                  visible_text_outside_canvas=audits['visible_text_outside_canvas'],
                  object_ID_count=audits['object_ID_count'], ID_bbox_collision_count=0,
                  all_object_ID_bboxes_inside_complete_hexagons=True,
+                 allocation_term_label_changes=label_changes,
                  environment_steps=0, model_loads=0, policy_inferences=0, training_runs=0)
     for ext in ['pdf', 'svg', 'png']:
         metadata = {'CreationDate': None, 'ModDate': None} if ext == 'pdf' else {'Date': None} if ext == 'svg' else None
@@ -307,23 +452,29 @@ def render(number, output_dir=None):
             shutil.copyfile(asset / name, dst)
         assert sha(dst) == sha(asset / name)
     # Local CSV hashes are verified by plot.py before loading the native source.
-    proof['outputs_sha256'] = {f'figure.{ext}': sha(out / f'figure.{ext}') for ext in ['pdf', 'svg', 'png']}
+    proof['outputs_sha256'] = {name: sha(out / name) for name in
+                              ['figure.pdf', 'figure.svg', 'figure.png', 'figure_grayscale.png']}
+    dump(out / 'audit' / 'actual_ink_spacing_720dpi.json', ink_spacing_proof)
     dump(out / 'presentation_proof.json', proof)
-    source = dict(schema='chapter3-case-style-unification-v1', number=number,
+    source = dict(schema='chapter3-case-native-restoration-spacing15-v1', number=number,
                   parent_directory=str(parent), parent_pdf_sha256=sha(parent / 'figure.pdf'),
                   editable_source='plot.py', renderer=str(MAINTAINED), renderer_sha256=sha(MAINTAINED),
                   inherited_native_source='inputs/plot_source.py', input_files_sha256=input_hashes,
                   scientific_values_changed=False, changes=['equal solid 1.25bp method lines with filled 4bp markers',
-                      'common 125 x 26mm total-allocation axes; fixed 58mm map width and inherited internal map/colorbar spacing'],
+                      'restore common125x26.1356396188mm curve axes,58mm wide maps at original equal-hex scale; actual720dpi xlabel-to-legend15bp and legend-to-map-title12bp',
+                      'replace three labels with explicit transmitter-energy or diesel-quota quantities; initial-budget denominators, saved inputs and scientific artists unchanged'],
+                  allocation_term_label_changes=label_changes,
                   figure_size_mm=proof['figure_size_mm'], scientific_before_sha256=digest(before),
                   scientific_after_sha256=digest(after), outputs=proof['outputs_sha256'],
                   proof_sha256=sha(out / 'presentation_proof.json'), environment_steps=0,
                   model_loads=0, policy_inferences=0, training_runs=0)
     dump(out / 'source.json', source)
     dump(out / 'spec.json', dict(number=number, kind='chapter3_case', figure_size_mm=proof['figure_size_mm'],
-                               axes_mm=after_axes, fonts_bp=proof['fonts_bp'], spacing=spacing,
-                               color_scales_and_map_geometry='inherited exactly', curve_axes_size_mm=[125.0, 26.0]))
-    (out / 'README.rst').write_text('第三章案例图风格统一\n==================\n\n只读本地保存的CSV重绘，无模型、环境、推理或训练。先逐像素复现接受父PNG，再统一为1.25bp实线、4bp实心marker和125×26mm总量绘图区。四地图的原始数值、原58mm宽正六边形几何、颜色/色标、ID9bp、坐标范围与刻度保持。地图对象行数不同，因此总高度随任务变化。详细图元与无裁切核验见presentation_proof.json及audit。\n')
+                               axes_mm=after_axes, fonts_bp=proof['fonts_bp'], spacing=spacing, actual_ink_spacing_720dpi=ink_spacing_proof['final'],
+                               color_scales_and_map_geometry='inherited exactly', curve_axes_size_mm=list(CURVE_AXES_MM)))
+    (out / 'README.rst').write_text('第三章案例图风格统一\n==================\n\n只读本地保存的CSV重绘，无模型、环境、推理或训练。先逐像素复现接受父PNG，再统一为1.25bp实线、4bp实心marker和125×26.1356396188mm总量绘图区；横坐标至图例实际墨迹15bp，图例至上排地图标题实际墨迹12bp。四地图的原始数值、原58mm宽正六边形几何、颜色/色标、ID9bp、坐标范围与刻度保持。地图对象行数不同，因此总高度随任务变化。详细图元与无裁切核验见presentation_proof.json及audit。\n')
+    with (out / 'README.rst').open('a') as readme:
+        readme.write('\n2026-11-12术语统一：当前活动renderer在父图复现后，仅将三处可见标签写明通信发射能量或柴油分配额度，并明确分母为初始发射能量或初始总额度。历史inputs和父图不变；画布、绘图区、科学图元、字体与间距保持。\n')
     print(json.dumps(dict(number=number, output=str(out), size_mm=proof['figure_size_mm'], spacing=spacing,
                           scientific_exact=True, accepted_parent_pixels_exact=True), ensure_ascii=False))
 

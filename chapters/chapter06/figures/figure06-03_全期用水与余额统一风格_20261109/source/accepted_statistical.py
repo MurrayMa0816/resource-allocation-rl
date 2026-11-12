@@ -14,11 +14,18 @@ import os
 from datetime import date, timedelta
 from pathlib import Path
 
+import sys
+_FIGURE_SHARED = next(p for p in Path(__file__).resolve().parents if p.name == "figures") / "shared"
+if str(_FIGURE_SHARED) not in sys.path:
+    sys.path.insert(0, str(_FIGURE_SHARED))
+from figure_paths import configure_fonts, fonts_root
+SHARED_DATA = _FIGURE_SHARED / "data"
+
 import numpy as np
 
 from pathlib import Path
 HERE=Path(__file__).resolve().parents[1]
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts').is_dir())
+FONT_ASSETS=fonts_root(__file__)
 ROOT = HERE / '.render-stage'
 DATA = HERE
 BLUE, ORANGE, GREY = '#236d9e', '#cf7627', '#999999'
@@ -61,7 +68,7 @@ def setup():
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
     from matplotlib import font_manager
-    font = THESIS/'assets/fonts/figure/ThesisFigureText-Regular.otf'
+    font = FONT_ASSETS/'figure/ThesisFigureText-Regular.otf'
     font_manager.fontManager.addfont(str(font))
     family = font_manager.FontProperties(fname=font).get_name()
     plt.rcParams.update({
@@ -156,9 +163,9 @@ def overview(plt):
     bottom = fig.add_axes([.16, .1625, .825, .25], sharex=top)
     top.plot(np.arange(81), q, color=BLUE)
     bottom.plot(np.arange(82), balance, color=BLUE)
-    top.set(ylabel='当日总量（万m³）', ylim=(0, q.max() * 1.3))
+    top.set(ylabel='每日分配灌溉总水量\n（万m³）', ylim=(0, q.max() * 1.3))
     top.set_yticks([0, 5, 10])
-    bottom.set(ylabel='日初余额（万m³）', xlabel='灌溉日期', ylim=(-8, 432))
+    bottom.set(ylabel='剩余可供分配的水量\n（万m³）', xlabel='灌溉日期', ylim=(-8, 432))
     bottom.set_yticks([0, 200, 400])
     ticks = (0, 17, 32, 46, 62, 72, 81)
     for ax, values in ((top, q), (bottom, balance)):
@@ -171,8 +178,8 @@ def overview(plt):
         ax.set_xticklabels([(date(2022,5,30)+timedelta(days=int(d))).strftime('%-m/%-d') for d in ticks])
         ax.grid(axis='y', alpha=.18, linewidth=.6)
     top.tick_params(labelbottom=False)
-    top.set_title('(a) 每日配置总量', pad=20)
-    bottom.set_title('(b) 日初供水余额', pad=8)
+    top.set_title('(a) 每日分配灌溉总水量', pad=20)
+    bottom.set_title('(b) 每日开始时剩余可供分配的水量', pad=8)
     phase_texts = []
     for name, start, stop in STAGES:
         phase_texts.append(top.text((start+stop)/2, 1.035, name, ha='center', va='bottom',

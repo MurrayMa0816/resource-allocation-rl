@@ -6,7 +6,11 @@ import argparse,csv,gzip,hashlib,importlib.util,json,os,shutil,sys
 sys.dont_write_bytecode=True
 R=Path(__file__).resolve().parent
 HERE=Path(__file__).resolve().parent.parent
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts/windows').is_dir())
+THESIS=next((p for p in HERE.parents if (p/'assets/fonts/windows').is_dir()),None)
+if THESIS is None:
+ _font_env=os.environ.get('THESIS_FIGURE_FONT_DIR')
+ if not _font_env:raise RuntimeError('Pass --font-dir when rendering outside the thesis')
+ THESIS=Path(_font_env).resolve().parents[2]
 T=THESIS
 PRINT=HERE/'replot_sources'
 MARKERS=('o','s','^','D','v','P')

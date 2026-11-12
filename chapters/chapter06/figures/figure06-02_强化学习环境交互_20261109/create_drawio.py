@@ -1,42 +1,31 @@
-from pathlib import Path
-import xml.etree.ElementTree as ET
-import json,hashlib
-O=Path(__file__).resolve().parent
-parent=O
+#!/usr/bin/env python3
+"""Reproduce the current editable Figure6.2 with its adopted geometry.
 
-mx=ET.Element('mxfile',{'host':'app.diagrams.net','version':'24.7.17','type':'device'})
-diag=ET.SubElement(mx,'diagram',{'id':'ch6-rl-environment-compact','name':'灌溉环境交互流程'})
-graph=ET.SubElement(diag,'mxGraphModel',{'dx':'524','dy':'245','grid':'1','gridSize':'10','guides':'1','tooltips':'1','connect':'1','arrows':'1','fold':'1','page':'1','pageScale':'1','pageWidth':'524','pageHeight':'245','math':'0','shadow':'0','background':'#ffffff'})
-root=ET.SubElement(graph,'root');ET.SubElement(root,'mxCell',{'id':'0'});ET.SubElement(root,'mxCell',{'id':'1','parent':'0'})
-style='rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;'
-def node(k,label,x,y,w,h,fill,diamond=False):
- st=style+f'fillColor={fill};'
- if diamond:st=st.replace('rounded=1;','rounded=0;')+'shape=rhombus;'
- c=ET.SubElement(root,'mxCell',{'id':k,'value':label,'style':st,'vertex':'1','parent':'1'})
- ET.SubElement(c,'mxGeometry',{'as':'geometry','x':str(x),'y':str(y),'width':str(w),'height':str(h)})
-node('initialize','回合初始化',8,5,112,32,'#F1D9B5')
-node('observe','日初观测',8,61,112,36,'#BDD5EB')
-node('policy','联合配置策略',194,61,126,36,'#BDD5EB')
-node('action','区域配水动作',394,61,112,36,'#BDD5EB')
-node('transition','环境状态转移',394,147,112,36,'#F1D9B5')
-node('end','完成81日',194,138,126,54,'#FFFFFF',True)
-node('reward','终点奖励',8,147,112,36,'#E3ECE2')
-node('weather','当日天气',394,209,112,32,'#F1D9B5')
-def edge(k,source,target,exitxy,entryxy,label='',points=None):
- st='edgeStyle=none;rounded=0;html=0;strokeColor=#527492;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;'+f'exitX={exitxy[0]};exitY={exitxy[1]};entryX={entryxy[0]};entryY={entryxy[1]};'
- c=ET.SubElement(root,'mxCell',{'id':k,'value':label,'style':st,'edge':'1','parent':'1','source':source,'target':target})
- geo=ET.SubElement(c,'mxGeometry',{'as':'geometry','relative':'1'})
- if points:
-  arr=ET.SubElement(geo,'Array',{'as':'points'})
-  for x,y in points:ET.SubElement(arr,'mxPoint',{'x':str(x),'y':str(y)})
-edge('initialize-observe','initialize','observe',(0.5,1),(0.5,0))
-edge('observe-policy','observe','policy',(1,0.5),(0,0.5))
-edge('policy-action','policy','action',(1,0.5),(0,0.5))
-edge('action-transition','action','transition',(0.5,1),(0.5,0))
-edge('weather-transition','weather','transition',(0.5,0),(0.5,1))
-edge('transition-end','transition','end',(0,0.5),(1,0.5))
-edge('end-observe','end','observe',(0.5,0),(0.5,1),'否',[(257,117),(64,117)])
-edge('end-reward','end','reward',(0,0.5),(1,0.5),'是')
-ET.indent(mx,space='  ')
-ET.ElementTree(mx).write(O/'source.drawio',encoding='utf-8',xml_declaration=True)
-print('Generated editable source.drawio; export it with the thesis scripts/export_method_figures.py tool.')
+The fixed-policy rollout, current-day-weather field update and recorded-plan
+analysis are preserved. Open source.drawio in diagrams.net to export the vector figure.
+"""
+from pathlib import Path
+
+import sys
+_FIGURE_SHARED = next(p for p in Path(__file__).resolve().parents if p.name == "figures") / "shared"
+if str(_FIGURE_SHARED) not in sys.path:
+    sys.path.insert(0, str(_FIGURE_SHARED))
+from figure_paths import configure_fonts, fonts_root, validate_output_dir
+SHARED_DATA = _FIGURE_SHARED / "data"
+import argparse
+
+DRAWIO_XML = '<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<mxfile host="app.diagrams.net" agent="diagrams.net" version="24.7.17" type="device">\n  <diagram id="ch6-rl-environment-compact" name="灌溉用水分配推演流程">\n    <mxGraphModel dx="568" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="568" pageHeight="306" math="0" shadow="0" background="#ffffff">\n      <root>\n        <mxCell id="0" />\n        <mxCell id="1" parent="0" />\n        <mxCell id="initialize" value="区域与供水条件" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#F1D9B5;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="8" y="8" width="132" height="36" />\n        </mxCell>\n        <mxCell id="observe" value="日初观测" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#BDD5EB;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="8" y="78" width="132" height="36" />\n        </mxCell>\n        <mxCell id="policy" value="固定策略配置决策" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#BDD5EB;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="198" y="78" width="156" height="36" />\n        </mxCell>\n        <mxCell id="action" value="各区灌溉水量" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#BDD5EB;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="412" y="78" width="144" height="36" />\n        </mxCell>\n        <mxCell id="transition" value="田间水分计算" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#F1D9B5;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="412" y="170" width="144" height="36" />\n        </mxCell>\n        <mxCell id="end" value="完成81日" style="rounded=0;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#FFFFFF;shape=rhombus;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="198" y="159" width="156" height="58" />\n        </mxCell>\n        <mxCell id="reward" value="终点评价" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#E3ECE2;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="8" y="170" width="132" height="36" />\n        </mxCell>\n        <mxCell id="weather" value="当日天气" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#F1D9B5;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="412" y="262" width="144" height="36" />\n        </mxCell>\n        <mxCell id="record" value="过程记录" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#E3ECE2;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="198" y="262" width="156" height="36" />\n        </mxCell>\n        <mxCell id="analysis" value="方案分析" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;strokeColor=#000000;strokeWidth=1.0;fontFamily=Times New Roman,SimSun;fontSize=14;align=center;verticalAlign=middle;spacing=2;fontColor=#263445;absoluteArcSize=1;fillColor=#E3ECE2;" vertex="1" parent="1">\n          <mxGeometry as="geometry" x="8" y="262" width="132" height="36" />\n        </mxCell>\n        <mxCell id="initialize-observe" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="initialize" target="observe">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="observe-policy" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="observe" target="policy">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="policy-action" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="policy" target="action">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="action-transition" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="action" target="transition">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="weather-transition" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="weather" target="transition">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="transition-end" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="transition" target="end">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="end-observe" value="否" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="end" target="observe">\n          <mxGeometry as="geometry" relative="1">\n            <Array as="points">\n              <mxPoint x="276" y="135" />\n              <mxPoint x="74" y="135" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id="end-reward" value="是" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="end" target="reward">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="transition-record" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="transition" target="record">\n          <mxGeometry as="geometry" relative="1">\n            <Array as="points">\n              <mxPoint x="448" y="234" />\n              <mxPoint x="276" y="234" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id="reward-analysis" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="reward" target="analysis">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n        <mxCell id="record-analysis" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=0.8;endArrow=block;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="record" target="analysis">\n          <mxGeometry as="geometry" relative="1" />\n        </mxCell>\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>'
+
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--output-dir',type=Path,required=True,help='Fresh output directory outside sources and data')
+    args=parser.parse_args()
+    try:
+        output=validate_output_dir(__file__,args.output_dir)
+    except ValueError as exc:
+        parser.error(str(exc))
+    output.mkdir(parents=True,exist_ok=True)
+    (output/'source.drawio').write_text(DRAWIO_XML,encoding='utf-8')
+    print('Generated current source.drawio; open it in diagrams.net to export the figure.')
+
+if __name__=='__main__':main()

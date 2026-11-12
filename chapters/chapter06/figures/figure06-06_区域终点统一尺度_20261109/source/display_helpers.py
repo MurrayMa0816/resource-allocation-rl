@@ -2,11 +2,18 @@
 from __future__ import annotations
 import csv,hashlib,json,math,os
 from pathlib import Path
+
+import sys
+_FIGURE_SHARED = next(p for p in Path(__file__).resolve().parents if p.name == "figures") / "shared"
+if str(_FIGURE_SHARED) not in sys.path:
+    sys.path.insert(0, str(_FIGURE_SHARED))
+from figure_paths import configure_fonts, fonts_root
+SHARED_DATA = _FIGURE_SHARED / "data"
 import numpy as np
 from pathlib import Path
 HERE=Path(__file__).resolve().parents[1]
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts').is_dir())
-FONT_ROOT=THESIS/'assets/fonts/windows'
+FONT_ASSETS=fonts_root(__file__)
+FONT_ROOT=FONT_ASSETS/'windows'
 FONT_NAMES=('simsun.ttc','TIMES.TTF','TIMESI.TTF','TIMESBD.TTF')
 POSITIVE_COLORS=('#ffffcc','#d9f0a3','#addd8e','#78c679','#31a354','#006837')
 ZERO_COLOR='#cdd3d8'

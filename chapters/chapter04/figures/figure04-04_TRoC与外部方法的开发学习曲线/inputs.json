@@ -1,10 +1,14 @@
 {
   "figure": "4.4",
   "caption": "各方法训练过程中的配置成效比较",
-  "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+  "active_figure_package": "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111",
+  "data_package": "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111",
+  "data_package_scope": "complete current figure package, supplied separately",
+  "previous_complete_bundle_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+  "attachment_download_url": null,
   "numerical_inputs": [
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv",
       "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
       "bytes": 302432,
       "columns": 18,
@@ -28,10 +32,36 @@
         "action_execution",
         "action_repeats_within_training_seed"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv",
       "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
       "bytes": 665943,
       "columns": 9,
@@ -46,10 +76,36 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 7920
+      "data_rows": 7920,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv",
       "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
       "bytes": 276521,
       "columns": 16,
@@ -71,10 +127,36 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv",
       "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
       "bytes": 302432,
       "columns": 18,
@@ -98,10 +180,36 @@
         "action_execution",
         "action_repeats_within_training_seed"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv",
       "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
       "bytes": 665943,
       "columns": 9,
@@ -116,10 +224,36 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 7920
+      "data_rows": 7920,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv",
       "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
       "bytes": 302432,
       "columns": 18,
@@ -143,10 +277,36 @@
         "action_execution",
         "action_repeats_within_training_seed"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv",
       "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
       "bytes": 665943,
       "columns": 9,
@@ -161,10 +321,36 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 7920
+      "data_rows": 7920,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv",
       "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
       "bytes": 276521,
       "columns": 16,
@@ -186,10 +372,36 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_curve_by_seed.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_curve_by_seed.csv",
       "sha256": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
       "bytes": 92300,
       "columns": 14,
@@ -209,10 +421,24 @@
         "effective_window_points",
         "original_mean_case_max_absolute_error"
       ],
-      "data_rows": 660
+      "data_rows": 660,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_curve_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_curve_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_curve_by_seed.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_plotted_points.csv",
       "sha256": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
       "bytes": 23157,
       "columns": 16,
@@ -234,10 +460,24 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 132
+      "data_rows": 132,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv",
       "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
       "bytes": 276521,
       "columns": 16,
@@ -259,10 +499,36 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv",
       "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
       "bytes": 302432,
       "columns": 18,
@@ -286,10 +552,36 @@
         "action_execution",
         "action_repeats_within_training_seed"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv",
       "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
       "bytes": 665943,
       "columns": 9,
@@ -304,10 +596,36 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 7920
+      "data_rows": 7920,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv",
       "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
       "bytes": 302432,
       "columns": 18,
@@ -331,10 +649,36 @@
         "action_execution",
         "action_repeats_within_training_seed"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv",
       "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
       "bytes": 665943,
       "columns": 9,
@@ -349,10 +693,36 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 7920
+      "data_rows": 7920,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv",
       "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
       "bytes": 276521,
       "columns": 16,
@@ -374,10 +744,36 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_curve_by_seed.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_curve_by_seed.csv",
       "sha256": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
       "bytes": 92300,
       "columns": 14,
@@ -397,10 +793,24 @@
         "effective_window_points",
         "original_mean_case_max_absolute_error"
       ],
-      "data_rows": 660
+      "data_rows": 660,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_curve_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_curve_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_curve_by_seed.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_plotted_points.csv",
       "sha256": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
       "bytes": 23157,
       "columns": 16,
@@ -422,10 +832,24 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 132
+      "data_rows": 132,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv",
       "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
       "bytes": 276521,
       "columns": 16,
@@ -447,10 +871,36 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv",
       "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
       "bytes": 302432,
       "columns": 18,
@@ -474,10 +924,36 @@
         "action_execution",
         "action_repeats_within_training_seed"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv",
       "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
       "bytes": 665943,
       "columns": 9,
@@ -492,10 +968,36 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 7920
+      "data_rows": 7920,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv",
       "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
       "bytes": 276521,
       "columns": 16,
@@ -517,10 +1019,36 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 1584
+      "data_rows": 1584,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_curve_by_seed.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_curve_by_seed.csv",
       "sha256": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
       "bytes": 92300,
       "columns": 14,
@@ -540,10 +1068,24 @@
         "effective_window_points",
         "original_mean_case_max_absolute_error"
       ],
-      "data_rows": 660
+      "data_rows": 660,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_curve_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_curve_by_seed.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_curve_by_seed.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_plotted_points.csv",
       "sha256": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
       "bytes": 23157,
       "columns": 16,
@@ -565,7 +1107,328 @@
         "window_end_training_step",
         "window_full_span_interactions"
       ],
-      "data_rows": 132
+      "data_rows": 132,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_plotted_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_plotted_points.csv"
+        }
+      ]
+    }
+  ],
+  "editable_source": {
+    "path": "plot.py",
+    "role": "portable public entry; exact current source is in support.json",
+    "current_plot_sha256": "8afcc30728d557b52a1bc29fde2d8e42d38f6e22020ca568fdebf0ccf28a78c5"
+  },
+  "external_files": [
+    {
+      "path": "native_parent/CONTENTS.json",
+      "sha256": "3d10217214aa3a74fd3c2471c13b59f9ac61d7d67ee1245f3403fcfafa066574",
+      "bytes": 20854
+    },
+    {
+      "path": "native_parent/LOCAL_REPRODUCTION.rst",
+      "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
+      "bytes": 669
+    },
+    {
+      "path": "native_parent/README.rst",
+      "sha256": "5763ec12859f58b0dd0db330fe64e766218372c0a81f3e5c79fa6f0be7dbab6e",
+      "bytes": 3431
+    },
+    {
+      "path": "native_parent/figure.pdf",
+      "sha256": "2fcca96a15b87e444ec29c52a9c67a8d5424ec5d08cdbd42589caf5e6c4c12a7",
+      "bytes": 84500
+    },
+    {
+      "path": "native_parent/figure.png",
+      "sha256": "27327a5f0b21e193e27b09ed9cd6574f417dde4dbf0de3011627e510e485f82e",
+      "bytes": 489033
+    },
+    {
+      "path": "native_parent/figure.svg",
+      "sha256": "678fd1bf58053b5ba1dbbbb98a2c7122b918ea8fa07af3ea12c99a6298fc672a",
+      "bytes": 202949
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/baseline_figures.json",
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
+      "bytes": 21351
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/current_display_points.csv",
+      "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+      "bytes": 302432
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/data.csv",
+      "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+      "bytes": 665943
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/main_chain/before/active_figures.json",
+      "sha256": "4d3d2f4a79465638778ffc2ec4e1d2037eaa621d5ac440aa502c9bcca7026e4e",
+      "bytes": 1629
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/main_chain/before/manifest.json",
+      "sha256": "d73ccf98afa17828354cebf8d4bfd03d7980355addbf45f95b3a196c937ad320",
+      "bytes": 65451
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/parent_numeric_artist_values_before_after.json",
+      "sha256": "11f4cf83bb5715ce6c5a468d59d60c418542466c210299764c9fd6901d6a269d",
+      "bytes": 1123217
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/parent_render_geometry.json",
+      "sha256": "4985321122833fc694bac853d1163b4752b1ff600614837ebcadfd5bd503813c",
+      "bytes": 7698
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/parent_source.json",
+      "sha256": "d85d355e1f1b5d33d4867840fc3acbb167127cdce6d555a756933d31f1c36f93",
+      "bytes": 3597
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/plotted_points.csv",
+      "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+      "bytes": 276521
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/accepted_inputs/scientific_input_manifest.json",
+      "sha256": "adbf26d87b284674e64a83ca30aeb3a3a320f9ccea479a6d740ff8cce45d557e",
+      "bytes": 1105
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/current_display_points.csv",
+      "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+      "bytes": 302432
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/data.csv",
+      "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+      "bytes": 665943
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/current_display_points.csv",
+      "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+      "bytes": 302432
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/data.csv",
+      "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+      "bytes": 665943
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/plotted_points.csv",
+      "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+      "bytes": 276521
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_curve_by_seed.csv",
+      "sha256": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+      "bytes": 92300
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/inputs/random_plotted_points.csv",
+      "sha256": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
+      "bytes": 23157
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/paper_revisions/focused_evidence_revision_20261110_160229/assets/figure44/plotted_points.csv",
+      "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+      "bytes": 276521
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure44/figure.pdf",
+      "sha256": "2d3a7e6defea5a4063d4f9b49c0344b2c85781a0fb4e408e5d0eff87e9ff4e28",
+      "bytes": 84575
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure44/figure.png",
+      "sha256": "2c3a5f0352be7a59ea92ee63fea0dd48373b5312b64e568d11e4c800b68419df",
+      "bytes": 487278
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/current_display_points.csv",
+      "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+      "bytes": 302432
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/data.csv",
+      "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+      "bytes": 665943
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/figure.pdf",
+      "sha256": "e1178cadd15960eda997df5134125147b4782e4f551996774b7da5bf12f25cd3",
+      "bytes": 84578
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/figure.png",
+      "sha256": "18e437ca61b070d147974dac9d9aa74f61c768ab5796c1f55fc844b32c8dfd87",
+      "bytes": 286450
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/current_display_points.csv",
+      "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+      "bytes": 302432
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/data.csv",
+      "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+      "bytes": 665943
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/plotted_points.csv",
+      "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+      "bytes": 276521
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_curve_by_seed.csv",
+      "sha256": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+      "bytes": 92300
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/inputs/random_plotted_points.csv",
+      "sha256": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
+      "bytes": 23157
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/numeric_artist_geometry.json",
+      "sha256": "86c08163ad0302663b28dd9a837ccc6b255c649f77637bc4d05854b29801fcb7",
+      "bytes": 1102533
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/plotted_points.csv",
+      "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+      "bytes": 276521
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/render_geometry.json",
+      "sha256": "1c99255cae95712d4e89f8d8522f79ddfda85d3298244e1ddc9da873aa7565b0",
+      "bytes": 15843
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/source.json",
+      "sha256": "4b2b36fe99a4238b9b30defccf48767d4a9011b80c78116a62f782ab97ec6465",
+      "bytes": 3635
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure4-4/style_proof.json",
+      "sha256": "91d6f948ffdb2aff980be935d70405742b3d13a172dd6448b00413f203254478",
+      "bytes": 669
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/figure.pdf",
+      "sha256": "96233c23d05516104323c689f90c3ef298c6fc845cdbf46d9c14745887319971",
+      "bytes": 81155
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/audit_aggregation_crosscheck.json",
+      "sha256": "a1e1c5b84d5870cdbbb7533f9e16dbd37d000a9e1cefc2b6774339b766cdd686",
+      "bytes": 2388
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/audit_independent_full_numeric.json",
+      "sha256": "48585daaf0e3920d81fbf40e692f93f3989c57dd9ead94fa1f9c5e7064279a04",
+      "bytes": 65951
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/audit_scientific_acceptance.json",
+      "sha256": "61ad30a625dbccf1a866f6e7e621cf1459fdd2acd70abe9bb2224f0cf423bd7b",
+      "bytes": 7739
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/current_display_points.csv",
+      "sha256": "438313641dbc35e8215d6f0e8abce5cd83f6c6b802fada3d226379f173e667f6",
+      "bytes": 302432
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/data.csv",
+      "sha256": "c8cfd4ffc38570737baa454e6148d69750676d1f5169c97526c1b86271f92b31",
+      "bytes": 665943
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/narrow_replacement_proof.json",
+      "sha256": "483f679e77975294ee686752608b91a5594220b0e0a2734c7c61fff2c0a53894",
+      "bytes": 406
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/original_presentation_geometry.json",
+      "sha256": "7fa4d9bd6dd18d45e621a28e99567e90b01e81f1695af1ed2c019a6720b5ec2c",
+      "bytes": 782
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/original_render_geometry.json",
+      "sha256": "b7d4c1e6b7897e0199bf732bf5a6283ae04a7fb67197e08e71791d8e259ae742",
+      "bytes": 24486
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/parent_binding.json",
+      "sha256": "366defb1299507796c0876710803894cf947783a4a96678e1a0c2f294f7aacfe",
+      "bytes": 2463
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/parent_reproduction_geometry.json",
+      "sha256": "b7d4c1e6b7897e0199bf732bf5a6283ae04a7fb67197e08e71791d8e259ae742",
+      "bytes": 24486
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/parent_source.json",
+      "sha256": "58f5b6d7c3ca1ac91203159efea781a34dbe0e6006414ee73599de20e514adbd",
+      "bytes": 4825
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/plotted_points.csv",
+      "sha256": "91c138e137b019dec9eecbcfc7e334d11f39630d49f346c788a252579bf18f63",
+      "bytes": 276521
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_aggregation_completion.json",
+      "sha256": "dc5e6186391f14d42ad85cb1699cd7b7029ef4e7479939f79159f57e57bc6327",
+      "bytes": 1462
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_aggregation_summary.json",
+      "sha256": "9fa181247d583d158b4de3d8b5805520fd49a47e6f5f4d43994f17768bd0ceff",
+      "bytes": 46732
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_curve_by_seed.csv",
+      "sha256": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+      "bytes": 92300
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/random_plotted_points.csv",
+      "sha256": "e37f0aa08068a6905bc556a5e436fffa01610e0d735045f3b9230767b4ce71f2",
+      "bytes": 23157
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/render_geometry.json",
+      "sha256": "0541ebb5f9f70d3defd4c182e06957e3e179638b266c6ed30fbd00b7a2998547",
+      "bytes": 24486
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-4/inputs/source.json",
+      "sha256": "a7b7bce4a4bad0eea3aec8b9503cd3ed6145f07b2d3fafa8c25983c93f465afb",
+      "bytes": 11750
+    },
+    {
+      "path": "native_parent/source.json",
+      "sha256": "4819ffd43b0d2931b874e3e731675865c0782538249d3ae06bc187e19aa1cb16",
+      "bytes": 28952
     }
   ]
 }

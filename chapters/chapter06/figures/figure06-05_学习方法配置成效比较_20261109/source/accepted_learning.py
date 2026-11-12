@@ -6,11 +6,18 @@ pointer operation. All generated data and figure assets remain on HY.
 from __future__ import annotations
 import argparse,csv,gzip,hashlib,json,os
 from pathlib import Path
+
+import sys
+_FIGURE_SHARED = next(p for p in Path(__file__).resolve().parents if p.name == "figures") / "shared"
+if str(_FIGURE_SHARED) not in sys.path:
+    sys.path.insert(0, str(_FIGURE_SHARED))
+from figure_paths import configure_fonts, fonts_root
+SHARED_DATA = _FIGURE_SHARED / "data"
 import numpy as np
 
 from pathlib import Path
 HERE=Path(__file__).resolve().parents[1]
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts').is_dir())
+FONT_ASSETS=fonts_root(__file__)
 REVISION=HERE/'generated'
 SEEDS=(6400,6401,6402)
 METHODS=('SeDVal','PASTA','COLA')
@@ -50,14 +57,14 @@ def generate(out):
     import matplotlib.pyplot as plt
     from matplotlib import font_manager
     from matplotlib.text import Text
-    fontroot=THESIS/'assets/fonts/windows'
+    fontroot=FONT_ASSETS/'windows'
     for name in('simsun.ttc','TIMES.TTF'):
         font_manager.fontManager.addfont(str(bind(fontroot/name)))
     plt.rcParams.update({'font.family':['Times New Roman','SimSun'],'font.size':10.5,'axes.labelsize':10.5,'axes.titlesize':10.5,'xtick.labelsize':10.5,'ytick.labelsize':10.5,'legend.fontsize':10.5,'axes.unicode_minus':False,'axes.spines.top':False,'axes.spines.right':False,'axes.linewidth':.6,'pdf.fonttype':42,'svg.fonttype':'none','svg.hashsalt':'c6-three-learning-comparison-v1','path.simplify':False,'savefig.facecolor':'white'})
     fig=plt.figure(figsize=(WIDTH/25.4,HEIGHT/25.4),dpi=200)
     axes=[fig.add_axes([17/WIDTH,22/HEIGHT,59.2/WIDTH,51/HEIGHT]),fig.add_axes([94/WIDTH,22/HEIGHT,59.2/WIDTH,51/HEIGHT])]
     styles=[]
-    for k,(ax,title,ylabel)in enumerate(zip(axes,['(a) 区域产量达标率','(b) 平均相对产量'],['区域产量达标率（%）','平均相对产量（%）'])):
+    for k,(ax,title,ylabel)in enumerate(zip(axes,['(a) 灌溉区域产量达标率','(b) 按面积加权的平均相对产量'],['灌溉区域产量达标率\n（%）','按面积加权的平均相对产量\n（%）'])):
         for i,method in enumerate(METHODS):
             mean=means[method][:,k];sd=sds[method][:,k]
             assert np.min(mean-sd)>=0 and np.max(mean+sd)<=100

@@ -1,10 +1,14 @@
 {
   "figure": "4.6",
   "caption": "不同轨迹利用方式达到比较得分的训练步数",
-  "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+  "active_figure_package": "chapters/chapter04_trajectory_reuse/figures/figure04-06_恢复绘图区与15bp间距_20261111",
+  "data_package": "chapters/chapter04_trajectory_reuse/figures/figure04-06_恢复绘图区与15bp间距_20261111",
+  "data_package_scope": "complete current figure package, supplied separately",
+  "previous_complete_bundle_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+  "attachment_download_url": null,
   "numerical_inputs": [
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_bar_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_bar_points.csv",
       "sha256": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908",
       "bytes": 907,
       "columns": 11,
@@ -21,10 +25,20 @@
         "target_score_x100",
         "values_steps"
       ],
-      "data_rows": 6
+      "data_rows": 6,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_bar_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/plotted_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_steps_per_seed.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_steps_per_seed.csv",
       "sha256": "7e5ac5a115bcbf940c40fd488f6f2f0259ed283432cfede154b3d923456c3c84",
       "bytes": 7386,
       "columns": 37,
@@ -67,10 +81,16 @@
         "endpoint_return",
         "endpoint_score_x100"
       ],
-      "data_rows": 24
+      "data_rows": 24,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_steps_per_seed.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/data.csv",
       "sha256": "94a2eef76b625a4dca465fbd8478b0add83835f2284fba62602f1e19a9da6ce4",
       "bytes": 278822,
       "columns": 9,
@@ -85,10 +105,16 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 2900
+      "data_rows": 2900,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/diesel_full_original_DEV.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/diesel_full_original_DEV.csv",
       "sha256": "4f526e54ddd67862267b5a80949ea47a7b6278967479e8745a800752142dced3",
       "bytes": 13833,
       "columns": 9,
@@ -103,10 +129,16 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 130
+      "data_rows": 130,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/diesel_full_original_DEV.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/fixed_new_DEV.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/fixed_new_DEV.csv",
       "sha256": "32c4173b99bd936496fc73496e5c0709d26b50a87424810aee7d51c378c6d9ad",
       "bytes": 29096,
       "columns": 9,
@@ -121,10 +153,16 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 260
+      "data_rows": 260,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/fixed_new_DEV.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/full_new_DEV.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/full_new_DEV.csv",
       "sha256": "c0c32de51a8d425cc728d87f20f4646aa4db6242c25f1d76daa9e3a5d5ecb2ee",
       "bytes": 27917,
       "columns": 9,
@@ -139,10 +177,16 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 260
+      "data_rows": 260,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/full_new_DEV.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_bar_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_bar_points.csv",
       "sha256": "fe4e8babd21b31dc79c4bbac392e155a8d6edcd1f8eeea9e3346cff858b39a02",
       "bytes": 1123,
       "columns": 11,
@@ -159,10 +203,16 @@
         "target_score_x100",
         "values_steps"
       ],
-      "data_rows": 8
+      "data_rows": 8,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_bar_points.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_steps_per_seed.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_steps_per_seed.csv",
       "sha256": "5f2ca13bc00a62e9a5bd59c86250ee238f5644a7a18ce5edf8024d2c0c3ce628",
       "bytes": 8307,
       "columns": 37,
@@ -205,10 +255,16 @@
         "endpoint_return",
         "endpoint_score_x100"
       ],
-      "data_rows": 28
+      "data_rows": 28,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_steps_per_seed.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_data.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_data.csv",
       "sha256": "1196792e018d514b453a72cdc2c1cb205f8cfed722aa7f008ae96d5af148ac1e",
       "bytes": 307674,
       "columns": 9,
@@ -223,10 +279,16 @@
         "scientific_origin",
         "execution_required_this_cohort"
       ],
-      "data_rows": 3160
+      "data_rows": 3160,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_data.csv"
+        }
+      ]
     },
     {
-      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/plotted_points.csv",
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/plotted_points.csv",
       "sha256": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908",
       "bytes": 907,
       "columns": 11,
@@ -243,7 +305,144 @@
         "target_score_x100",
         "values_steps"
       ],
-      "data_rows": 6
+      "data_rows": 6,
+      "same_bytes_in_previous_complete_bundle": [
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_bar_points.csv"
+        },
+        {
+          "data_package": "chapters/chapter04/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+          "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/plotted_points.csv"
+        }
+      ]
+    }
+  ],
+  "editable_source": {
+    "path": "plot.py",
+    "role": "portable public entry; exact current source is in support.json",
+    "current_plot_sha256": "8afcc30728d557b52a1bc29fde2d8e42d38f6e22020ca568fdebf0ccf28a78c5"
+  },
+  "external_files": [
+    {
+      "path": "native_parent/CONTENTS.json",
+      "sha256": "79c83eab67cf1e33278d5e74ee6651722b15318ab53a01cbe13ac2ace8318998",
+      "bytes": 8806
+    },
+    {
+      "path": "native_parent/LOCAL_REPRODUCTION.rst",
+      "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c",
+      "bytes": 669
+    },
+    {
+      "path": "native_parent/README.rst",
+      "sha256": "2cf3823629090d59537d1b23751daa1323f185d28cf11b3b26bdc28a16a245de",
+      "bytes": 3379
+    },
+    {
+      "path": "native_parent/figure.pdf",
+      "sha256": "380524affb281da611428fd511699d34e1d44b2ec966f02c748273ebb8c81fcf",
+      "bytes": 26055
+    },
+    {
+      "path": "native_parent/figure.png",
+      "sha256": "d8cf16f7854ed32f0eea9dbe819f35142d4e7c3937aef8ab32fa71ba0a6eaade",
+      "bytes": 125353
+    },
+    {
+      "path": "native_parent/figure.svg",
+      "sha256": "2135cd8e8b75213bd039ebad85c754aa1040382990021ea8096a0a31e1a7d7ed",
+      "bytes": 16806
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/experiments/lr_feedback_development_20261109_155109/completion_receipt.json",
+      "sha256": "4f8c63962f2a7adc2e4c1d8b0a072c1f978ceaefc0844a34267d7aa5873a86c6",
+      "bytes": 49320
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_bar_points.csv",
+      "sha256": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908",
+      "bytes": 907
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/confirmation_steps_per_seed.csv",
+      "sha256": "7e5ac5a115bcbf940c40fd488f6f2f0259ed283432cfede154b3d923456c3c84",
+      "bytes": 7386
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/data.csv",
+      "sha256": "94a2eef76b625a4dca465fbd8478b0add83835f2284fba62602f1e19a9da6ce4",
+      "bytes": 278822
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/diesel_full_original_DEV.csv",
+      "sha256": "4f526e54ddd67862267b5a80949ea47a7b6278967479e8745a800752142dced3",
+      "bytes": 13833
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/figure.pdf",
+      "sha256": "f69e38c06a4917f0ca5ecd9a255f5ae80eed7d2293c944b553f0dedabc3f4aa6",
+      "bytes": 26084
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/figure.png",
+      "sha256": "846d8b8b02775d91be556ae75dc43dbf2d9ee4bd9b04b6f831549af271d0a12a",
+      "bytes": 84924
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/fixed_new_DEV.csv",
+      "sha256": "32c4173b99bd936496fc73496e5c0709d26b50a87424810aee7d51c378c6d9ad",
+      "bytes": 29096
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/full_new_DEV.csv",
+      "sha256": "c0c32de51a8d425cc728d87f20f4646aa4db6242c25f1d76daa9e3a5d5ecb2ee",
+      "bytes": 27917
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_bar_points.csv",
+      "sha256": "fe4e8babd21b31dc79c4bbac392e155a8d6edcd1f8eeea9e3346cff858b39a02",
+      "bytes": 1123
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_confirmation_steps_per_seed.csv",
+      "sha256": "5f2ca13bc00a62e9a5bd59c86250ee238f5644a7a18ce5edf8024d2c0c3ce628",
+      "bytes": 8307
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/parent_data.csv",
+      "sha256": "1196792e018d514b453a72cdc2c1cb205f8cfed722aa7f008ae96d5af148ac1e",
+      "bytes": 307674
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/plotted_points.csv",
+      "sha256": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908",
+      "bytes": 907
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/presentation_geometry.json",
+      "sha256": "c4f168557ead109c4614991dd146fe68cc4fb70792f355f3d9e82bca6c30806a",
+      "bytes": 846
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/render_geometry.json",
+      "sha256": "59692338f20144601a6a0c2a2187820c78abda69bb71419d5bf1c9c138f65c42",
+      "bytes": 16282
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/source.json",
+      "sha256": "c0b3f21c46a852b31666b93aa4840be25ef512b235052b502e72a4009a2852cd",
+      "bytes": 2725
+    },
+    {
+      "path": "native_parent/render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
+      "bytes": 21351
+    },
+    {
+      "path": "native_parent/source.json",
+      "sha256": "54314cee302ac9387a3c466869fc9f64a26213a3098f9796fab5e7992367b45a",
+      "bytes": 15188
     }
   ]
 }

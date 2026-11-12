@@ -4,16 +4,22 @@ Preserves all numerical artists, physical axes sizes, maps, dates and labels.
 No policy/model/environment or training code is imported or executed.
 """
 from pathlib import Path
+
+import sys
+_FIGURE_SHARED = next(p for p in Path(__file__).resolve().parents if p.name == "figures") / "shared"
+if str(_FIGURE_SHARED) not in sys.path:
+    sys.path.insert(0, str(_FIGURE_SHARED))
+from figure_paths import configure_fonts, fonts_root
+SHARED_DATA = _FIGURE_SHARED / "data"
 import argparse,hashlib,importlib.util,io,json,os,shutil,sys
 sys.dont_write_bytecode=True
 from pathlib import Path
 HERE=Path(__file__).resolve().parents[1]
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts').is_dir())
 ROOT=HERE
 MAINTAINED=HERE/'plot.py'
 STYLE=HERE/'source/accepted_statistical.py'
 LEARNING=HERE/'source/accepted_learning.py'
-PARENTS={key:HERE for key in ['6.3','6.5','6.7','6.8']}
+PARENTS={key:HERE for key in ['6.5']}
 
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def dump(p,v):Path(p).write_text(json.dumps(v,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
@@ -147,8 +153,8 @@ def main():
  for f in ['manifest.json','source.json','render_geometry.json']:
   if(stage/f).exists():shutil.copyfile(stage/f,out/('inherited_parent_'+f))
  dump(out/'numeric_artist_values_before_after.json',values);dump(out/'render_geometry.json',proof)
- (out/'plot.py').write_text('import runpy,sys\nsys.argv=[__file__,"--number",'+repr(n)+']+sys.argv[1:]\nrunpy.run_path('+repr(str(MAINTAINED))+',run_name="__main__")\n')
- dump(out/'source.json',dict(schema='chapter6-spacing-derivative-v1',number=n,parent_directory=str(parent),parent_pdf_sha256=sha(parent/'figure.pdf'),renderer=str(MAINTAINED),renderer_sha256=sha(MAINTAINED),accepted_renderer=str(LEARNING if n=='6.5'else parent/'plot.py'if n=='6.7'else STYLE),source_csv_sha256=data,parent_files_sha256=protected,all_parent_files_unchanged=True,science_before_after_digest=values['before_sha256'],numeric_identity=True,output_sha256={f'figure.{e}':sha(out/f'figure.{e}')for e in ['pdf','png','svg']},environment_steps=0,model_loads=0,policy_inference=0,training_runs=0))
+ (out/'plot.py').write_text('import runpy,sys\nsys.argv=[__file__]+sys.argv[1:]\nrunpy.run_path('+repr(str(MAINTAINED))+',run_name="__main__")\n')
+ dump(out/'source.json',dict(schema='chapter6-spacing-derivative-v1',number=n,parent_directory=str(parent),parent_pdf_sha256=sha(parent/'figure.pdf') if (parent/'figure.pdf').is_file() else None,parent_pdf_reference_available=(parent/'figure.pdf').is_file(),renderer=str(MAINTAINED),renderer_sha256=sha(MAINTAINED),accepted_renderer=str(LEARNING if n=='6.5'else parent/'plot.py'if n=='6.7'else STYLE),source_csv_sha256=data,parent_files_sha256=protected,all_parent_files_unchanged=True,science_before_after_digest=values['before_sha256'],numeric_identity=True,output_sha256={f'figure.{e}':sha(out/f'figure.{e}')for e in ['pdf','png','svg']},environment_steps=0,model_loads=0,policy_inference=0,training_runs=0))
  assert protected=={p:sha(p)for p in protected}
  dump(out/'render_receipt.json',dict(status='PASS',number=n,numeric_identity=True,source_CSV_bytes_preserved=True,all_parent_files_unchanged=True,outputs_sha256={str(p.relative_to(out)):sha(p)for p in [out/'figure.pdf',out/'figure.png',out/'figure.svg',out/'source.json',out/'render_geometry.json',out/'numeric_artist_values_before_after.json',out/'plot.py']},scientific_execution=dict(environment_steps=0,model_loads=0,policy_inference=0,training_runs=0),thesis_builds=0))
  print(json.dumps(dict(status='PASS',number=n,native_mm=proof['native_mm'],axes_sizes_mm=proof['axes_sizes_mm'],spacing=proof['pdf_frames_after']),ensure_ascii=False))

@@ -6,16 +6,21 @@ asset. Only this explanatory legend is newly plotted. No science is imported.
 from __future__ import annotations
 import argparse,csv,hashlib,json,math,os
 from pathlib import Path
-SHARED_DATA = next(parent for parent in Path(__file__).resolve().parents if parent.name == "figures") / "shared/data"
 
+import sys
+_FIGURE_SHARED = next(p for p in Path(__file__).resolve().parents if p.name == "figures") / "shared"
+if str(_FIGURE_SHARED) not in sys.path:
+    sys.path.insert(0, str(_FIGURE_SHARED))
+from figure_paths import configure_fonts, fonts_root
+SHARED_DATA = _FIGURE_SHARED / "data"
 
 from pathlib import Path
 HERE=Path(__file__).resolve().parents[1]
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts').is_dir())
+FONT_ASSETS=fonts_root(__file__)
 REVISION=HERE/'.scene-output'
 PARENT=HERE/'.map-output/figures/scene'
 GEOMETRY=SHARED_DATA/'geometry/layout.json'
-FONTROOT=THESIS/'assets/fonts/windows'
+FONTROOT=FONT_ASSETS/'windows'
 EXPECTED_PARENT={}
 
 
@@ -69,11 +74,11 @@ def main():
     assert group.geom_type=='Polygon'
     boundary=list(group.exterior.coords)
     ax.add_collection(LineCollection([boundary],colors='#435c41',linewidths=.9,zorder=2))
-    ax.text(22.,20.8,'多个单元组成一个区域',ha='left',va='center',fontsize=10.5)
+    ax.text(22.,20.8,'多个六角形示意一个灌溉区域',ha='left',va='center',fontsize=10.5)
     # Separate categorical swatches have no value axis and no monotonic scale.
     for i,color in enumerate(palette):
         ax.add_patch(RegularPolygon((85.+3.2*i,20.8),numVertices=6,radius=1.15,orientation=math.pi/6,facecolor=color,edgecolor='#65563e',linewidth=.35))
-    ax.text(105.,20.8,'颜色辅助区分区域',ha='left',va='center',fontsize=10.5)
+    ax.text(105.,20.8,'颜色区分灌溉区域',ha='left',va='center',fontsize=10.5)
     # Retain the accepted gate/inlet glyph geometry and colour at native size.
     for x in(34.,38.):ax.add_patch(Rectangle((x,4.),1.5,5.,fc='#cf7627',ec='none'))
     ax.plot([36.75,36.75],[4.6,8.4],color='#cf7627',lw=2.)
@@ -81,7 +86,7 @@ def main():
     ax.add_patch(Rectangle((104.,4.),4.,5.,fc='#399bc1',ec='none'))
     for x in(104.,108.):ax.plot([x,x],[4.,9.],color='#a35f22',lw=.8)
     ax.plot([105.,107.],[6.5,6.5],color='#a35f22',lw=.7)
-    ax.text(112.,6.5,'区域入口',ha='left',va='center',fontsize=10.5)
+    ax.text(112.,6.5,'灌溉区域入口',ha='left',va='center',fontsize=10.5)
     fig.canvas.draw();renderer=fig.canvas.get_renderer();text_checks=[]
     for text in fig.findobj(Text):
         if not text.get_visible()or not text.get_text():continue

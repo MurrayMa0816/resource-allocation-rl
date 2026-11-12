@@ -7,7 +7,11 @@ from pathlib import Path
 import argparse,hashlib,importlib.util,io,json,os,shutil,sys
 sys.dont_write_bytecode=True
 HERE=Path(__file__).resolve().parent.parent
-THESIS=next(p for p in HERE.parents if (p/'assets/fonts/windows').is_dir())
+THESIS=next((p for p in HERE.parents if (p/'assets/fonts/windows').is_dir()),None)
+if THESIS is None:
+ _font_env=os.environ.get('THESIS_FIGURE_FONT_DIR')
+ if not _font_env:raise RuntimeError('Pass --font-dir when rendering outside the thesis')
+ THESIS=Path(_font_env).resolve().parents[2]
 ROOT=HERE
 MAINTAINED=Path(__file__)
 MAIN=HERE/'replot_sources'
@@ -25,11 +29,11 @@ def copy_checked(src,dst):
  else:dst.write_bytes(src.read_bytes())
 
 def main():
- ap=argparse.ArgumentParser(allow_abbrev=False);ap.add_argument('--number',choices=list(RECORDS),required=True);ap.add_argument('--output-dir',type=Path);a=ap.parse_args();n=a.number;parent=Path(RECORDS[n]['physical_directory']);out=(a.output_dir or ROOT/'assets'/('figure'+n.replace('.',''))).resolve();assert not(out/'figure.pdf').exists() and out!=HERE;out.mkdir(parents=True,exist_ok=True)
+ ap=argparse.ArgumentParser(allow_abbrev=False);ap.add_argument('--number',choices=list(RECORDS),required=True);ap.add_argument('--output-dir',type=Path);ap.add_argument('--font-dir',type=Path);a=ap.parse_args();n=a.number;parent=Path(RECORDS[n]['physical_directory']);out=(a.output_dir or ROOT/'assets'/('figure'+n.replace('.',''))).resolve();assert not(out/'figure.pdf').exists() and out!=HERE;out.mkdir(parents=True,exist_ok=True)
  for key,leaf in [('MPLCONFIGDIR','mpl'),('XDG_CACHE_HOME','xdg'),('TMPDIR','tmp')]:
   p=out/'runtime'/leaf;p.mkdir(parents=True,exist_ok=True);os.environ[key]=str(p)
  import numpy as np
- import matplotlib;matplotlib.use('Agg')
+ import matplotlib;matplotlib.use('Agg');matplotlib.rcParams['svg.hashsalt']='chapter2-even-spacing-15bp-20261111'
  from matplotlib.figure import Figure
  from matplotlib.text import Text
  from matplotlib.transforms import Bbox
@@ -80,7 +84,7 @@ def main():
    if regular:
     xb=boxes([ax.get_xlabel()for ax in rows[-1]]);lb=boxes([t.get_text()for t in legend.get_texts()]);tb=boxes([t.get_text()for ax in mainaxes for t in titles(ax)]);gaps=[]
     for upper,lower in zip(rows,rows[1:]):gaps.append(min(b.y0 for b in boxes([t.get_text()for ax in lower for t in titles(ax)]))-max(b.y1 for b in boxes([ax.get_xlabel()for ax in upper])))
-    result=dict(xlabel_to_legend_bp=min(b.y0 for b in lb)-max(b.y1 for b in xb),legend_to_file_bottom_mm=(page.rect.height-max(b.y1 for b in lb))*25.4/72,subtitle_to_file_top_mm=min(b.y0 for b in tb)*25.4/72,row_gaps_bp=gaps,native_mm=[page.rect.width*25.4/72,page.rect.height*25.4/72],xlabel_frames_bp=[list(b)for b in xb],legend_frames_bp=[list(b)for b in lb],subtitle_frames_bp=[list(b)for b in tb])
+    result=dict(xlabel_to_legend_target_bp=15,xlabel_to_legend_bp=min(b.y0 for b in lb)-max(b.y1 for b in xb),legend_to_file_bottom_mm=(page.rect.height-max(b.y1 for b in lb))*25.4/72,subtitle_to_file_top_mm=min(b.y0 for b in tb)*25.4/72,row_gaps_bp=gaps,native_mm=[page.rect.width*25.4/72,page.rect.height*25.4/72],xlabel_frames_bp=[list(b)for b in xb],legend_frames_bp=[list(b)for b in lb],subtitle_frames_bp=[list(b)for b in tb])
    else:
     assert items;tb=[b for s,b in items if s.startswith(tuple('('+x+')'for x in 'abcdef'))];assert len(tb)==6
     result=dict(xlabel_to_legend_bp=None,legend_to_file_bottom_mm=None,subtitle_to_file_top_mm=min(b.y0 for b in tb)*25.4/72,row_gaps_bp=[],native_mm=[page.rect.width*25.4/72,page.rect.height*25.4/72],all_text_to_bottom_mm=(page.rect.height-max(b.y1 for s,b in items))*25.4/72,all_text_to_top_mm=min(b.y0 for s,b in items)*25.4/72,subtitle_frames_bp=[list(b)for b in tb])
@@ -93,17 +97,17 @@ def main():
      if abs(delta)>.0001:
       for ax in upper:
        p=np.array(ax.get_position().bounds);p[1]+=delta/(old_height*72/25.4);ax.set_position(p)
-    delta=8-f['xlabel_to_legend_bp'];anchor=legend.get_bbox_to_anchor();anchor_y=anchor.y0/fig.dpi*72;legend.set_bbox_to_anchor((anchor.x0/fig.bbox.width,(anchor_y-delta)/(old_height*72/25.4)),transform=fig.transFigure)
+    delta=15-f['xlabel_to_legend_bp'];anchor=legend.get_bbox_to_anchor();anchor_y=anchor.y0/fig.dpi*72;legend.set_bbox_to_anchor((anchor.x0/fig.bbox.width,(anchor_y-delta)/(old_height*72/25.4)),transform=fig.transFigure)
     fig.canvas.draw();f=frame(crop);bottom_crop+=(f['legend_to_file_bottom_mm']-2)*72/25.4;top_crop+=(f['subtitle_to_file_top_mm']-1.5)*72/25.4
    else:
     bottom_crop+=(f['all_text_to_bottom_mm']-2)*72/25.4;top_crop+=(f['subtitle_to_file_top_mm']-1.5)*72/25.4
    crop=Bbox.from_bounds(0,bottom_crop/72,old_width/25.4,(old_height*72/25.4-top_crop-bottom_crop)/72);fig.canvas.draw()
    f=frame(crop)
    errors=[abs(f['subtitle_to_file_top_mm']-1.5),abs((f['legend_to_file_bottom_mm']if regular else f['all_text_to_bottom_mm'])-2)]
-   if regular:errors += [abs(f['xlabel_to_legend_bp']-8)]+[abs(g-12)for g in f['row_gaps_bp']]
+   if regular:errors += [abs(f['xlabel_to_legend_bp']-15)]+[abs(g-12)for g in f['row_gaps_bp']]
    if max(errors)<.002:break
   final=frame(crop);assert abs(final['subtitle_to_file_top_mm']-1.5)<.002
-  if regular:assert abs(final['xlabel_to_legend_bp']-8)<.002 and abs(final['legend_to_file_bottom_mm']-2)<.002 and all(abs(g-12)<.002 for g in final['row_gaps_bp'])
+  if regular:assert abs(final['xlabel_to_legend_bp']-15)<.002 and abs(final['legend_to_file_bottom_mm']-2)<.002 and all(abs(g-12)<.002 for g in final['row_gaps_bp'])
   else:assert abs(final['all_text_to_bottom_mm']-2)<.002
   assert final['all_text_inside_canvas'],(n,'text outside PDF canvas',final)
   after=numeric(fig);after_figure=fig_artists(fig);assert before==after,(n,'scientific data/style changed');assert before_figure==after_figure,(n,'figure-level allocation circle geometry changed')
@@ -129,7 +133,7 @@ def main():
   else:
    inp=out/'inputs';inp.mkdir(exist_ok=True)
    for name in ['plot.py','presentation_layout.py','data.csv']:copy_checked(parent/name,inp/name)
-   sys.path.insert(0,str(inp));sys.modules.pop('presentation_layout',None);m=module(inp/'plot.py','accepted_c2_'+n[-1]);sys.argv=['native','--data',str(inp/'data.csv'),'--output-dir',str(out),'--font-dir',str(THESIS/'assets/fonts/windows')]
+   sys.path.insert(0,str(inp));sys.modules.pop('presentation_layout',None);m=module(inp/'plot.py','accepted_c2_'+n[-1]);sys.argv=['native','--data',str(inp/'data.csv'),'--output-dir',str(out),'--font-dir',str((a.font_dir if a.font_dir is not None else THESIS/'assets/fonts/windows').resolve())]
    if n in ['2.6','2.7']:sys.argv+=['--kind','scale'if n=='2.6'else'conditions']
    m.main()
  finally:Figure.savefig=original_save;sys.argv=argv

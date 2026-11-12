@@ -24,6 +24,11 @@
   ],
   "stage_episodes": 960,
   "default_training_episodes": 960,
+  "stage_role": "960-episode resource and object-heterogeneity condition analyses; not the main-comparison training budget",
+  "main_comparison_and_structure": {
+    "radio": {"episodes": 4688, "training_steps": 150016},
+    "v5": {"episodes": 6256, "training_steps": 150144}
+  },
   "test_paths": 512,
   "source_views": [
     "chapter02.native",
