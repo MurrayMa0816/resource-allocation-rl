@@ -10,7 +10,7 @@
 | `algorithms/` | 供水分配策略与对比方法 |
 | `configs/` | 实验配置与依赖 |
 | `data/` | 灌区、气象、作物及表格输入 |
-| `models/` | 模型权重与索引 |
+| `models/` | 模型索引 |
 | `results/` | 供水情景与方法比较结果 |
 | `scripts/` | 运行、检查与绘图入口 |
 | `figures/` | 论文图件与绘图输入 |
@@ -19,7 +19,7 @@
 
 依赖文件：`configs/requirements.txt`。
 
-在完整资料根目录查看运行入口：
+在仓库根目录查看运行入口：
 
 ```bash
 python3 chapters/chapter06/scripts/run.py --help
