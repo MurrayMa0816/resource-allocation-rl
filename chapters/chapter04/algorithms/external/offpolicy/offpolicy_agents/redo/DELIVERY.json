@@ -91,6 +91,6 @@
     "Under40000 native iterations and every eight-update block crossing a recycle condition execute original eager function.",
     "Capture preparation rolls back all parameters, slots, gradients, counters and RNG; warmup work is separately reported.",
     "Local core acceleration is not a full training speedup promise.",
-    "Parent root is the only actual GPU gate/worker launcher; this agent did not execute GPU."
+    "GPU gate and worker execution records are identified by the recorded result paths and SHA256 values; this delivery file does not itself execute them."
   ]
 }

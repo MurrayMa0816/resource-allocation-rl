@@ -30,7 +30,7 @@ SOURCE_SHA256 = {
     'agent.py': '3259f50527eb1aec8fcdb91f233eed960c64f5a2310685161a0e70afbc2f38c1',
     '_native.py': 'e97972992b3383ccd275ddced04b721ca1586c20cf13f4c956e574dacf97f92d',
     'configs.json': 'e3e29b01953acfdd379050108d8d74056e9b43561b83bc6707f989f0be77aad7',
-    'README.rst': '1a09609a0cdcc5ceea83cdc2a32d2105e1287cecd3a93faa7f780fca02607b85',
+    'README.rst': 'bebc5cb25d81d0d716c02b7daff40469284eb9c4d718a1d61f67c317ab986eb5',
     'RELEASE.json': '0452723ed5e8a0ae61c52495cd5f9cb54ddf850e6a268f4e421b931ff1676a0b',
 }
 
@@ -119,7 +119,7 @@ class Agent(NativeAgent):
             actual_resolved_import_root=str(FORMAL_ROOT.resolve()),
             actual_frozen_source_sha256=verify_source(),
             source_recipe='actual C5 formal285 configs.json configurations.v5.current_recipe',
-            inherited_source_document_status='Frozen README/RELEASE retain their historical candidate labels; import identity is the formal285 frozen tree, not the mutable candidate directory.',
+            inherited_source_document_status='README describes the adopted configuration; RELEASE retains the original preparation record. Implementation files remain the frozen formal285 source.',
             configuration=configuration(engineering=self.config['engineering']),
             engineering=self.config['engineering'],
             registered_native_update_groups=self.total_steps // self.rollout_size,
@@ -201,7 +201,7 @@ def provenance():
         fixed64_precision='Native float32 mean/std are promoted without recomputation to float64, combined with float64 fixed standardized points; training sample_info and logp unchanged',
         no_teacher=True, no_future_weather=True, no_extra_action_selection=True,
         official_code_license_declared=False,
-        source_readme_historical_candidate_label_preserved=True,
+        source_readme_historical_candidate_label_preserved=False,
         new_environment_constructions=0, new_environment_steps=0,
         new_training_runs=0, new_model_loads=0,
     )

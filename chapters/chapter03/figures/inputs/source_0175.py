@@ -563,7 +563,7 @@ def render(number, output_dir=None):
     with (out / 'README.rst').open('a') as readme:
         readme.write('\n2026-11-12术语统一：当前活动renderer在父图复现后，仅将三处可见标签写明通信发射能量或柴油分配额度，并明确分母为初始发射能量或初始总额度。历史inputs和父图不变；画布、绘图区、科学图元、字体与间距保持。\n')
     if compact_layout is not None:
-        (out / 'README.rst').write_text('第三章柴油实例图紧凑图例\n==========================\n\n2026-11-13按用户要求前移图后小结。两方法图例移入曲线左上空区，数据无交叠，取消原独立图例带20bp。曲线125×26.135640mm、四地图58mm宽、色标与图内字体、数据和对象编号保持。地图内部间距保持，横轴标题至上排地图标题实际墨迹约16.7bp。画布宽156mm，高193.452503mm；没有缩小曲线或地图。\n\n活动入口plot.py和replot_sources/renderer.py只读本地CSV重绘，无训练、模型载入、推理或环境运行。父图精确复现与旧15/12bp校准仍作前置核验，随后明确执行本轮图例布局，不将旧外图例间距冒称为当前布局。scientific artist摘要、地图几何、字体、无裁切及图例不遮线的证据见presentation_proof.json与audit。\n')
+        (out / 'README.rst').write_text('第三章柴油实例图紧凑图例\n==========================\n\n两方法图例移入曲线左上空区，数据无交叠，取消原独立图例带20bp。曲线125×26.135640mm、四地图58mm宽、色标与图内字体、数据和对象编号保持。地图内部间距保持，横轴标题至上排地图标题实际墨迹约16.7bp。画布宽156mm，高193.452503mm；没有缩小曲线或地图。\n\n活动入口plot.py和replot_sources/renderer.py只读本地CSV重绘，无训练、模型载入、推理或环境运行。父图精确复现与旧15/12bp校准仍作前置核验，随后执行紧凑图例布局，不将旧外图例间距冒称为当前布局。scientific artist摘要、地图几何、字体、无裁切及图例不遮线的证据见presentation_proof.json与audit。\n')
     print(json.dumps(dict(number=number, output=str(out), size_mm=proof['figure_size_mm'], spacing=spacing,
                           scientific_exact=True, accepted_parent_pixels_exact=True), ensure_ascii=False))
 

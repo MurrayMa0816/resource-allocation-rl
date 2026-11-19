@@ -1,72 +1,70 @@
-BRO (Fast)：作者原生JAX核心的资源配置接口
-======================================
+BRO (Fast)：原生 JAX 核心的资源配置接口
+========================================
 
-来源与身份
+来源与实现
 ----------
-对应NeurIPS2024论文Bigger, Regularized, Optimistic: scaling for compute and
-sample-efficient continuous control。论文官方PDF为
+
+来源为 NeurIPS 2024 论文 Bigger, Regularized, Optimistic: scaling for compute
+and sample-efficient continuous control。论文：
 https://papers.neurips.cc/paper_files/paper/2024/file/cd3b5d2ed967e906af24b33d6a356cac-Paper-Conference.pdf。
-作者仓库https://github.com/naumix/BiggerRegularizedOptimistic，固定commit
-5870a13d4bf4f66eeddfc291a59df6d2009de600，MIT许可原文保留。vendor_manifest.json
-逐SHA绑定17份原文件，所有vendor字节不改。BRO(Fast)是论文和作者README明确给出的
-RR2正式配置；本实现没有把自创缩小网络版本重新命名成BRO。
+作者仓库为 https://github.com/naumix/BiggerRegularizedOptimistic，固定提交
+5870a13d4bf4f66eeddfc291a59df6d2009de600，MIT 许可。vendor_manifest.json
+登记保留的 17 个原文件及 SHA。Fast 对应作者的 RR2 配置。
 
-采用完整jaxrl/bro核心，不采用删去乐观策略和重置的bro_minimal。保留BroNet残差与
-LayerNorm、AdamW、两个100分位critic、部署actor与乐观采集actor、KL目标/自适应
-乐观系数/正则系数、温度学习以及完整状态重置。作者原网络没有缩小；本任务在线双critic
-参数量为通信2546888、应急2478280，target分别同量，另有独立双actor。
+实现使用完整 jaxrl/bro 核心，包括 BroNet 残差和 LayerNorm、AdamW、两个
+100 分位 critic、部署 actor、乐观采集 actor、KL 目标、自适应乐观/正则系数、
+温度学习和完整状态重置。保持作者网络尺寸；通信和应急的在线双 critic 参数量
+分别为 2546888 和 2478280，target 同量，另含独立双 actor。
 
-固定原生配置
-------------
-每环境步RR2、batch128、replay容量1000000，actor/critic/temp学习率3e-4，
-optimism/KL regularizer学习率3e-5，gamma=.99、tau=.005、初温1、目标熵-A/2、
-KL目标.05、乐观actor标准差乘数.75、pessimism=0。任务奖励缩放1，保持原终奖。
+固定配置
+--------
 
-作者循环从i=1开始，i<2500时uniform采集；i=2500以乐观策略采集并首次执行两次更新。
-每步先插入真实转移、抽取两批，再调用原生update。Fast只有env15001一个完整reset，
-发生在本步转移已经收集和插入之后、两次更新之前。reset归初态的对象包括部署actor、
-乐观actor、critic、target、温度、optimism、KL regularizer、所有Adam/AdamW和原生PRNG；
-历史replay保留。adapter只在原生reset外包一层哈希审计，不自行重复reset。
+每环境步 RR2，batch=128，replay 容量 1000000。actor/critic/temp 学习率为
+3e-4，optimism/KL regularizer 学习率为 3e-5；gamma=.99、tau=.005、初温=1、
+目标熵=-A/2、KL 目标=.05、乐观 actor 标准差乘数=.75、pessimism=0。
+任务奖励缩放为 1，原终奖保持。
 
-49152真实训练步的预期为93306次完整BRO迭代；reset前累计25002，reset后周期68304，
-最终native step68305。各完整迭代包含部署actor/乐观actor/critic/target/温度/乐观/KL
-参数各自原生更新，不能把这个计数与其他算法的一个SGD步直接等同。
+作者循环从 i=1 开始，i<2500 时均匀采集；i=2500 起使用乐观策略并执行每步两次
+更新。每步先插入真实转移、抽取两批，再执行原生 update。Fast 在 env=15001
+完成一次 reset，位于本步转移插入后、两次更新前。重置对象包括双 actor、
+critic/target、温度、optimism、KL regularizer、全部 Adam/AdamW 状态及原生
+PRNG；replay 保留。适配器仅记录 reset 指纹，不重复重置。
 
-评估与公共接口
---------------
-Agent(cfg, observation_dim, action_dim, device)提供act、policy_action、observe、
-n_updates、diagnostics、native_state_fingerprint、get_rng_state/set_rng_state和save/load。
-接口只接公开obs、执行的原生低维action、原reward、next_obs和真实done，不建立物理Env。
-输入305/19与244/13的原始公开向量，在原生SinglePrecision边界转float32。
+49152 个真实训练步对应预期 93306 次完整 BRO 迭代：reset 前累计 25002 次，
+reset 后 68304 次，最终 native step=68305。每次迭代更新部署/乐观 actor、
+critic、target、温度、乐观和 KL 参数；该计数不能直接等同其他算法的一步 SGD。
 
-act训练中先uniform、后使用乐观采集策略。policy_action始终消费部署用pessimistic actor，
-不会返回uniform warmup或采集策略。deterministic=True对应作者temperature=0评价；
-False显式保留随机部署策略的诊断能力。本轮root协议采用True，真DEV0与后续保持一致，
-不混入此前stochastic评价批次作同配方排名。DEV后须恢复原生JAX key与Box RNG；公共
-worker另行保存恢复全局Python/NumPy/Torch RNG，replay抽样继续用作者全局NumPy RNG。
+接口与依赖
+----------
 
-save只写一个部署actor的Flax msgpack推理终点、PRNG及必要元数据，不写critic、Adam、
-乐观actor或replay。文件名即使为.pt也不是Torch pickle。load仅建立已有部署actor，
-不会重新初始化大网络或分配学习回放；observe会拒绝，不能声称支持精确续训。
+Agent(cfg, observation_dim, action_dim, device) 提供 act、policy_action、
+observe、n_updates、diagnostics、native_state_fingerprint、get_rng_state、
+set_rng_state、save 和 load。输入为公开 obs、原生动作、reward、next_obs 和
+done，不创建物理环境；305/19 与 244/13 的公开向量在原生 SinglePrecision
+边界转为 float32。
 
-依赖与兼容边界
---------------
-原作者依赖JAX0.4.19/Flax0.7.5/TFP-nightly，当前准备复用本机JAX0.4.35、Flax0.8.5
-环境。不是2024原软件逐位复现。load_native仅跳过未使用的模拟器导入，并使用Flax
-支持的flax_return_frozendict=False维持BRO原Model.create的dict.pop语义；不能照搬
-旧SR-SAC的True开关。原生数学与模型定义不改。独立进程使用私有jaxrl包，若已有别的
-作者jaxrl模块在进程中加载会拒绝，防止混用SR/BRO源码。
+act 使用均匀预热和乐观采集策略；policy_action 使用部署 actor。
+deterministic=True 对应作者 temperature=0，评价协议采用此设置；False 保留
+随机部署策略诊断。两种评价结果应分别标记。评价需恢复 JAX key、Box RNG 以及
+公共 worker 的 Python/NumPy/Torch RNG；回放抽样沿用作者的 NumPy 全局 RNG。
 
-门禁与计算成本
---------------
-zero_env_gate.py为纯合成CPU/CUDA门禁，不调用环境：比较原生克隆与adapter完整7组
-参数/优化器/PRNG；独立NumPy量化Huber loss；终末下一状态扰动不变；真实首更新索引；
-完整reset/历史回放保持；DEV RNG恢复；推理保存重载与禁止训练。
+save 保存部署 actor 的 Flax msgpack、PRNG 和必要元数据，不含 critic、Adam、
+乐观 actor 或 replay；扩展名 .pt 也不表示 Torch pickle。load 只建立推理 actor，
+不分配学习回放，observe 会拒绝续训。
 
-reset采用明确的15000/25002计数fixture，不能冒称执行过15001个环境步或25002次更新。
-每域实际2501条合成转移、8次完整BRO迭代（含独立native参考）及2次单独critic更新；
-双域合计5002合成转移、16完整迭代、4critic更新、0真实环境步。临时推理fixture经过
-重载/哈希后由临时目录清理；真实工程与科学任务仍各保一个固定终点。
+作者软件依赖为 JAX 0.4.19、Flax 0.7.5 和 TFP-nightly；本适配使用 JAX 0.4.35、
+Flax 0.8.5，不保证与原软件栈逐位一致。load_native 跳过未使用的模拟器导入，
+使用 flax_return_frozendict=False 保持 Model.create 的 dict.pop 语义。
+独立进程使用私有 jaxrl 包，拒绝与其他已加载的 jaxrl 实现混用。
 
-CPU门禁由本实现代理执行；GPU门禁命令在gpu_gate_command.json，必须由root按当前
-资源统一准入后执行，不能把CPU检查说成真实CUDA验收。没有自行GPU或科学训练。
+检查范围
+--------
+
+zero_env_gate.py 使用合成转移比较原生实现和适配器的参数、优化器、PRNG、
+量化 Huber loss、终点处理、首更新索引、reset、replay 保留、评价 RNG 恢复和
+推理重载。reset 的 15000/25002 计数使用 fixture；每域记录为 2501 条合成转移、
+8 次完整 BRO 迭代及 2 次独立 critic 更新，两域合计 5002 条、16 次及 4 次，
+真实环境交互为零。这些计数不代表对应规模的真实训练。
+
+CUDA 检查命令见 gpu_gate_command.json。CPU 合成检查不能替代 CUDA 检查或
+真实环境中的学习效果验证。

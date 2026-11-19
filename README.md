@@ -28,7 +28,7 @@ chapters/
 
 ## 获取完整资料
 
-模型权重、数据和实验记录见 [Release 附件](https://github.com/MurrayMa0816/resource-allocation-rl/releases/tag/v2026.11.19)。GitHub 的源码 ZIP 不包含完整模型和数据。
+模型权重、数据和实验记录见 [Release 附件](https://github.com/MurrayMa0816/resource-allocation-rl/releases/tag/v2026.11.19.1)。GitHub 的源码 ZIP 不包含完整模型和数据。
 
 在本仓库根目录执行以下命令，下载并还原完整目录：
 

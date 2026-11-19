@@ -1,16 +1,28 @@
-capql 候选复核实现
-================================
+CAPQL
+=====
 
-入口：from baselines.capql import Agent, load_config。
-当前仅供候选复核，未加入正式外部对比名单，不恢复旧队列。
-代码实体位于HY，不导入旧日期包的训练器或环境。统一worker必须使用当前全额Env。
+本目录提供 CAPQL 的资源配置任务适配。第五章采用 ``fixed`` 配置；
+对应模型见章级 ``models/index.json``，实际运行参数见 ``configs/recorded/configs/``。
 
-配置：configs.json，按profiles→legacy_recipe/fixed→radio/v5读取。
-Agent自己管理train-only观察归一化，worker调用observe_training一次/真实步，勿再包第二层。
-自有RNG用rng_state_dict保存；CAPQL使用全局Torch抽样，worker仍须隔离全局Python/NumPy/Torch/CUDA状态。
+配置与接口
+----------
 
-CAPQL未发现必须改学习数学的证据，两个profile为同配方别名，只训练一组；本轮接当前全额环境重新验证。
+入口为 ``from baselines.capql import Agent, load_config``。
+``load_config(domain, profile='fixed')`` 从 ``configs.json`` 读取 ``radio`` 或 ``v5`` 参数。
+``fixed`` 与 ``legacy_recipe`` 使用相同的数值配方。
 
-历史五轮优化与真实增长、无线仍弱于同情景规则的边界见provenance.json和historical_review.json。
-CPU合成检查不等于物理训练已改善；真实GPU门禁与学习趋势由独立新scope验证。
-旧配方及源保留，不以新结果覆盖负结果。
+``Agent(obs_dim, action_dim, seed=0, device='cpu', config=None)`` 提供 ``act``、``update``
+和 ``observe_training``。观察归一化由 Agent 管理，``observe_training`` 每个真实训练步
+调用一次，不叠加第二层归一化；开发集评价不更新训练统计。
+
+自有随机状态通过 ``rng_state_dict`` 保存。训练程序还需保存和恢复公共
+Python、NumPy、Torch、CUDA 随机状态。紧凑检查点不包含优化器和回放，不能用于精确续训。
+
+来源与使用范围
+--------------
+
+来源为 CAPQL 作者仓库 ``https://github.com/haoyelu/CAPQL``，固定提交
+``0ef02f3d3b3d0c512d282cd5ec0f00475349beee``；文件来源记录见 ``provenance.json``
+和 ``SOURCE_RELEASE.json``。该上游快照未声明根代码许可证，本目录不另行指定许可证。
+
+工程接口检查不替代物理环境学习实验；学习表现以章级结果索引所列记录为准。

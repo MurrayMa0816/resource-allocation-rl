@@ -1,10 +1,10 @@
 {
   "schema": "complete-thesis-materials-release-v1",
   "repository": "MurrayMa0816/resource-allocation-rl",
-  "release_tag": "v2026.11.19",
+  "release_tag": "v2026.11.19.1",
   "package": {
-    "files": 20047,
-    "bytes": 9371663960,
+    "files": 20045,
+    "bytes": 9371631691,
     "model_entities": 498,
     "model_uses": 508,
     "numbered_figures": 41,
@@ -16,13 +16,8 @@
     {
       "name": "chapter02.part01.zip",
       "chapter": "chapter02",
-      "uncompressed_bytes": 516034441,
+      "uncompressed_bytes": 516028451,
       "files": [
-        {
-          "path": "INDEX.json",
-          "bytes": 2448,
-          "sha256": "57e5e1291debd29f2b5c59cf3cd7bcb19a9062ef129e373f509846b10e92afc0"
-        },
         {
           "path": "README.md",
           "bytes": 1161,
@@ -155,13 +150,8 @@
         },
         {
           "path": "chapters/chapter02/configs/files.json.gz",
-          "bytes": 117895,
-          "sha256": "459687aabacb7599db29fdb8115b897e0de5adf4ce369bf8d13c13bb9d1a5fd2"
-        },
-        {
-          "path": "chapters/chapter02/configs/package_cleanup.json",
-          "bytes": 3485,
-          "sha256": "213bda2c303e365dcec5dc8593ffb9e16c99d8dcd547737d6f71154ad7a2cbad"
+          "bytes": 117838,
+          "sha256": "114d1a16dd03bbdb8a1938686215fd1aaef281bf0a7e4113a59f8b881917b271"
         },
         {
           "path": "chapters/chapter02/configs/path_index.json",
@@ -1249,9 +1239,9 @@
           "sha256": "cc4d3156815340ba13dd5c37da7070037a34ddf32c6dd0dac91ac2fc1bbe004a"
         }
       ],
-      "asset_id": 767498309,
-      "bytes": 336881998,
-      "sha256": "9850917e8f605bbdf34c482e9626978ceb738aa78ea221c324b9f522e88512e6"
+      "asset_id": 767892369,
+      "bytes": 336879370,
+      "sha256": "a837211bab0dd0ec9a5412a8bb97f08d128ef1329982e3ce66a44ed22f4b7548"
     },
     {
       "name": "chapter02.part02.zip",
@@ -12051,7 +12041,7 @@
     {
       "name": "chapter03.part01.zip",
       "chapter": "chapter03",
-      "uncompressed_bytes": 516631698,
+      "uncompressed_bytes": 516631589,
       "files": [
         {
           "path": "chapters/chapter03/README.md",
@@ -12285,8 +12275,8 @@
         },
         {
           "path": "chapters/chapter03/configs/files.json.gz",
-          "bytes": 125043,
-          "sha256": "90cc84be0289a2a4379f00dcf066411380525598116c54a101926335d37fdc8e"
+          "bytes": 124986,
+          "sha256": "9ffeb4dcbbe0fe619b67b9e755d471df3fe5d68b641b237e1b8b58270284a1a5"
         },
         {
           "path": "chapters/chapter03/configs/path_index.json",
@@ -12506,7 +12496,7 @@
         {
           "path": "chapters/chapter03/figures/figure03_08/inputs.json",
           "bytes": 6438,
-          "sha256": "c8d2584622b5ff44b04c2e2b0db381e1daa79f388a6ccd7119e34cb69ddf022a"
+          "sha256": "53603a449d152509b248360702ece6b2ed2af68a78adb6ac95c89eeaed34e61c"
         },
         {
           "path": "chapters/chapter03/figures/inputs/input_0001.json",
@@ -13196,7 +13186,7 @@
         {
           "path": "chapters/chapter03/figures/inputs/input_0176.json",
           "bytes": 4826,
-          "sha256": "5ae259f3fce61cbd75d99c12ea3028dd71616724bcec88f029eb267960a42791"
+          "sha256": "8223981a715818328d29bf02b8365759c80590f13199304da62b1b14e9da9a64"
         },
         {
           "path": "chapters/chapter03/figures/inputs/input_0177.json",
@@ -13380,8 +13370,8 @@
         },
         {
           "path": "chapters/chapter03/figures/inputs/source_0175.py",
-          "bytes": 34526,
-          "sha256": "e1d409bf4b537d4b352cc904b29839cb31df5d6971fe99236850a0868f387ca4"
+          "bytes": 34474,
+          "sha256": "f6fe94df368659e70f9b2cfed0a3d9350487b2bdb2188a79d34950e49d6ee335"
         },
         {
           "path": "chapters/chapter03/models/A_RANDOM_OBJECT_ALLOCATION__radio__seed0/state.pt",
@@ -17404,9 +17394,9 @@
           "sha256": "17552bb429aaef16a0e04cca241e851b4c67ac6e4d6ca54ea2169909e0c2fe19"
         }
       ],
-      "asset_id": 767498316,
-      "bytes": 487393002,
-      "sha256": "bbbc9dfd416aa11b073ee5a027cb012fa942acb7461b61e654f948fe633a4f7e"
+      "asset_id": 767892372,
+      "bytes": 487392908,
+      "sha256": "f93e9a35dcc48ece94f21ddaca3054c155c02b51a80075651c80171ca3ee47c8"
     },
     {
       "name": "chapter03.part02.zip",
@@ -25551,7 +25541,7 @@
     {
       "name": "chapter04.part01.zip",
       "chapter": "chapter04",
-      "uncompressed_bytes": 501463215,
+      "uncompressed_bytes": 501444539,
       "files": [
         {
           "path": "chapters/chapter04/README.md",
@@ -25561,7 +25551,7 @@
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/agent_source_manifest.json",
           "bytes": 38192,
-          "sha256": "ce984ace9d647f51138c6edf6ee3b905bd4abb0d6329f255156aa479abee4c54"
+          "sha256": "a452488cc85af9593c1e75be2e42b7df4d269938f5b331e8191036e4bc57315b"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/__init__.py",
@@ -25585,8 +25575,8 @@
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/bro/README.rst",
-          "bytes": 5037,
-          "sha256": "1c372ea50b881b6fb058eabe318ff297783ab64a12486c576540e2db4300e926"
+          "bytes": 4049,
+          "sha256": "1f86a458ce1343891f2d32e76bdfab5a01ca6b3dd6e47b5da36d6e4a9a935b68"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/bro/__init__.py",
@@ -25715,8 +25705,8 @@
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/mrq/GPU_GATE.rst",
-          "bytes": 6418,
-          "sha256": "ff005a65923ebef74734ddb10cd47fed50d77b029c35beeb99c9d90c022479ac"
+          "bytes": 4138,
+          "sha256": "78e4cb29671643dc78c4c5a067838d6811231dff18af669aedf327dc837640f4"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/mrq/PROVENANCE.json",
@@ -25725,8 +25715,8 @@
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/mrq/README.rst",
-          "bytes": 6759,
-          "sha256": "a06675cb15378ccfecbffdefc5713f489d16ccc680a083aab746a014292d8d1d"
+          "bytes": 4982,
+          "sha256": "7c1147508ee6c19a224860b4263aa980d09e2a37515f262dbc168613ade3588a"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/mrq/__init__.py",
@@ -25815,8 +25805,8 @@
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/redo/DELIVERY.json",
-          "bytes": 4262,
-          "sha256": "9283a568122503285be5e1a5362dbc382d54d0dd10aaf9c5570b79a09eb4a9b5"
+          "bytes": 4323,
+          "sha256": "4ae504f58e17e83d1c8b2f82cc1b362fd539594923f3fc2f085cee711ca806df"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/redo/LICENSE",
@@ -25830,13 +25820,13 @@
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/redo/README.rst",
-          "bytes": 5444,
-          "sha256": "398717dc85ecb3b6595567939e88637822a60bb06069cded1e00fbc2d1a26808"
+          "bytes": 5133,
+          "sha256": "437e2f16edafbd3b517fa17bfcd2a86c83941df42acfbc7a92eadf07d07cb0e6"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/redo/README_eager_reference.rst",
-          "bytes": 3798,
-          "sha256": "ddbf2d955beb721fff16102e8ccafac1c659a523db1f00142552dfceeae759cf"
+          "bytes": 3513,
+          "sha256": "ca7469416bc93c0df7d1ab214d08659edc4f59c9609a4494ff41544c643f7e08"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/offpolicy_agents/redo/agent.py",
@@ -26045,8 +26035,8 @@
         },
         {
           "path": "chapters/chapter04/algorithms/mad_td/method/mad_td/README.rst",
-          "bytes": 4293,
-          "sha256": "88aca8c703fa39d716ecc5a590e2aabb3e32495e42e54557d770e0058a9437d7"
+          "bytes": 3602,
+          "sha256": "f33b51b14d40992970b37102531279aa1da155c940b44d110701f21c27b6aa02"
         },
         {
           "path": "chapters/chapter04/algorithms/mad_td/method/mad_td/__init__.py",
@@ -26415,8 +26405,8 @@
         },
         {
           "path": "chapters/chapter04/configs/files.json.gz",
-          "bytes": 143930,
-          "sha256": "dce632451e15f56a935874fafacb9c1a2ad4da6083786a0dc1c39f7bd4038288"
+          "bytes": 143897,
+          "sha256": "b55da9e62099b993a288b44a736cf9c236772d15f2692b4125ca8e570b9a194c"
         },
         {
           "path": "chapters/chapter04/configs/path_index.json",
@@ -26550,8 +26540,8 @@
         },
         {
           "path": "chapters/chapter04/configs/source_paths.json",
-          "bytes": 2190703,
-          "sha256": "eee0cb1d1fd364d0019dde2016589c84e48fd214ffaba846a3c8d398711d6664"
+          "bytes": 2190701,
+          "sha256": "c39bf2bb689ff63fe53d2ed72b677735a65040d145eb81b453a9c2bea26d327f"
         },
         {
           "path": "chapters/chapter04/data/tables/index.json",
@@ -26606,7 +26596,7 @@
         {
           "path": "chapters/chapter04/environment/offpolicy/native_copy_manifest.json",
           "bytes": 24655,
-          "sha256": "1df2a84d42c827953d770eb85b4e6a6a9cc24e78551b0f46a7967729bb347311"
+          "sha256": "22f45de135260fe489435fce469fd400b4e07e5152e67314bf6f1c6c1e1b671e"
         },
         {
           "path": "chapters/chapter04/environment/offpolicy/release/.runtime-python",
@@ -26631,12 +26621,12 @@
         {
           "path": "chapters/chapter04/environment/offpolicy/release/CHAPTER3_RELEASE.json",
           "bytes": 24303,
-          "sha256": "ca269d851c337813d13e20c01a5fa5292cc3ed795aea62dd1658acb492e98b1f"
+          "sha256": "fdb41aeab54c5156a9f261355e67424c42400e5e42a22996788f87c2531d8885"
         },
         {
           "path": "chapters/chapter04/environment/offpolicy/release/README.rst",
-          "bytes": 5529,
-          "sha256": "926913d21ba778a0370682a7dd4bf9690c4f992c04d11a5f7807999bda5e2caa"
+          "bytes": 604,
+          "sha256": "4b86958bbe265e5681172275f42a07fb998f8cc1b9d47c007d09933da535d2c4"
         },
         {
           "path": "chapters/chapter04/environment/offpolicy/release/allocation23/__init__.py",
@@ -27510,8 +27500,8 @@
         },
         {
           "path": "chapters/chapter04/environment/offpolicy/接口与验收说明.rst",
-          "bytes": 5107,
-          "sha256": "e06e7d8d4e57cb7e2a0202958eaa288237565468b2c1fe1f4fb4ea00e7f62fb1"
+          "bytes": 3854,
+          "sha256": "090036e803185e030e357a6d945eb568daca0c868b62fe9c6490e4b836bc4005"
         },
         {
           "path": "chapters/chapter04/environment/requirements-jax.txt",
@@ -27561,7 +27551,7 @@
         {
           "path": "chapters/chapter04/environment/troc_props/native_copy_manifest.json",
           "bytes": 25696,
-          "sha256": "b5c593fc838b2da49ce78f9d5daa2c0dc6f4f497e36cf1abd51021fdd4cedea1"
+          "sha256": "10c1e396b1806ed740d6c4738d73cb3c6618b3d183fca171f8316c6a5d6264b7"
         },
         {
           "path": "chapters/chapter04/environment/troc_props/release/.runtime-python",
@@ -27586,12 +27576,12 @@
         {
           "path": "chapters/chapter04/environment/troc_props/release/CHAPTER3_RELEASE.json",
           "bytes": 24303,
-          "sha256": "ca269d851c337813d13e20c01a5fa5292cc3ed795aea62dd1658acb492e98b1f"
+          "sha256": "c22f07d14f72236523a0b9920bf315ce10b79d9f9e1460912c5d928b1f156d22"
         },
         {
           "path": "chapters/chapter04/environment/troc_props/release/README.rst",
-          "bytes": 5529,
-          "sha256": "926913d21ba778a0370682a7dd4bf9690c4f992c04d11a5f7807999bda5e2caa"
+          "bytes": 605,
+          "sha256": "192e8bae249aa1e0c222c3020276d3c2ce7dff1c999d6dca1c67c69157323e33"
         },
         {
           "path": "chapters/chapter04/environment/troc_props/release/allocation23/__init__.py",
@@ -28465,8 +28455,8 @@
         },
         {
           "path": "chapters/chapter04/environment/troc_props/接口与验收说明.rst",
-          "bytes": 5107,
-          "sha256": "e06e7d8d4e57cb7e2a0202958eaa288237565468b2c1fe1f4fb4ea00e7f62fb1"
+          "bytes": 3854,
+          "sha256": "090036e803185e030e357a6d945eb568daca0c868b62fe9c6490e4b836bc4005"
         },
         {
           "path": "chapters/chapter04/figures/figure04_01/figure.pdf",
@@ -28476,7 +28466,7 @@
         {
           "path": "chapters/chapter04/figures/figure04_01/inputs.json",
           "bytes": 1706,
-          "sha256": "b6a7b6a33f43216d5265ffc337c71b4f7de56abba88f22b2b0ca46f8154e9066"
+          "sha256": "0c847d0f3a4b8bb3a647d8d7a09c4ceb5a09512b8b8727c68244ccdf8f5c62e1"
         },
         {
           "path": "chapters/chapter04/figures/figure04_01/source.drawio",
@@ -28580,8 +28570,8 @@
         },
         {
           "path": "chapters/chapter04/figures/inputs/input_0005.json",
-          "bytes": 11984,
-          "sha256": "8691086b791fa8e417aa420d49863535f41e1221d086950ba0e7e1d1380e62a7"
+          "bytes": 11969,
+          "sha256": "f7f56514915d36af6298a2a75f1c515f1c571391d2f359d7fd2180d67bb5feae"
         },
         {
           "path": "chapters/chapter04/figures/inputs/input_0006.png",
@@ -32209,9 +32199,9 @@
           "sha256": "8ac174d322e1e7b35a7dcbfa9517e588787427d486fbddcb519f1e5e823e5fb1"
         }
       ],
-      "asset_id": 767500104,
-      "bytes": 401369972,
-      "sha256": "7da0eacb6b21c6cb79cb891c67308fa14f3ce89756234bc6478a9ce2c953244b"
+      "asset_id": 767894459,
+      "bytes": 401359690,
+      "sha256": "d3e66a863cf124f911fbeaa331a567e99e937edb3e4f81e374c0b0c4d469abcc"
     },
     {
       "name": "chapter04.part02.zip",
@@ -41776,7 +41766,7 @@
     {
       "name": "chapter05.part01.zip",
       "chapter": "chapter05",
-      "uncompressed_bytes": 515820851,
+      "uncompressed_bytes": 515813404,
       "files": [
         {
           "path": "chapters/chapter05/README.md",
@@ -41820,8 +41810,8 @@
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/capql/README.rst",
-          "bytes": 1059,
-          "sha256": "48fee00cef288074e3f3855ddab5c95ba1ba672d2b68ca5f9158bd0f58e21440"
+          "bytes": 1385,
+          "sha256": "806788b27cb2c23be440d8b3874b134eeccbae4d71d3dfc98a02f325420a1efa"
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/capql/SOURCE_RELEASE.json",
@@ -41900,8 +41890,8 @@
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/cola/README.rst",
-          "bytes": 1995,
-          "sha256": "62f91ebaf112b1008dbb1935c7f382d3f16f272163e875193cded9b6098be83f"
+          "bytes": 1908,
+          "sha256": "4b61de060e9c52f022237f687aaf59c582f9b36c490b401de9b086f4a6f6e4dd"
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/cola/RELEASE.json",
@@ -41940,8 +41930,8 @@
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/morld/README.rst",
-          "bytes": 2320,
-          "sha256": "0cc9ee3aa4ae517532a43c8ce19e1afa6f1462abbbd822a05b20d8e00725822c"
+          "bytes": 1601,
+          "sha256": "f07fb70c33d3ff85a45f209c61ea2adae20e970b231982b03835ccff29b3232d"
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/morld/__init__.py",
@@ -41970,8 +41960,8 @@
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/morld/selected_implementation.json",
-          "bytes": 3653,
-          "sha256": "0ff7404784f8876dc3aa6a83d8eb71c99bce8cff9b155de6f1a00a6455761ecb"
+          "bytes": 3753,
+          "sha256": "93d3e259f114544d41a0440cc43b27d8b24d036386ec0d126974110596a7d919"
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/morld/source_manifest.json",
@@ -42010,8 +42000,8 @@
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/pasta/README.rst",
-          "bytes": 1939,
-          "sha256": "1a09609a0cdcc5ceea83cdc2a32d2105e1287cecd3a93faa7f780fca02607b85"
+          "bytes": 2267,
+          "sha256": "bebc5cb25d81d0d716c02b7daff40469284eb9c4d718a1d61f67c317ab986eb5"
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/pasta/RELEASE.json",
@@ -42040,8 +42030,8 @@
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/qpensieve/README.rst",
-          "bytes": 1080,
-          "sha256": "f2ead2794cc429d9853bb0db3f7eb1108243ae9c52dd1ed41ca36c47b34691d9"
+          "bytes": 1466,
+          "sha256": "a4ad08d69fc589150cef247d04c2b16a3f3871501bb5bf5530cf070e8f028a5b"
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/qpensieve/SOURCE_RELEASE.json",
@@ -42175,8 +42165,8 @@
         },
         {
           "path": "chapters/chapter05/algorithms/packages/chapter5_cross_server_20261103/README.rst",
-          "bytes": 4384,
-          "sha256": "35773e290fdeb482ab735637820111d5a07124fcedcf6a2e147c9195f1d17b26"
+          "bytes": 1606,
+          "sha256": "26be855cc56caab267ea4c78f6100e0dbeb5cf3e3b3acb5166ea5d3b0fa99d38"
         },
         {
           "path": "chapters/chapter05/algorithms/packages/chapter5_cross_server_20261103/__init__.py",
@@ -42250,8 +42240,8 @@
         },
         {
           "path": "chapters/chapter05/configs/files.json.gz",
-          "bytes": 510744,
-          "sha256": "1d3e2787ad416548a4aba2bbf13dcc19aeb196620f085568f0934c259075dde4"
+          "bytes": 510698,
+          "sha256": "3a5e3baa7e9946cf4ad6fb00881c7949bf6b51052128767a222fd41c0214daeb"
         },
         {
           "path": "chapters/chapter05/configs/original_development_source_manifest.json",
@@ -43801,12 +43791,12 @@
         {
           "path": "chapters/chapter05/configs/source_manifest.json",
           "bytes": 49398,
-          "sha256": "de5aa44735d47630df6a6c19227a32cee22605f51a4b9d3d8016686f161ce681"
+          "sha256": "3f739f770dfd01d3c8cc1f0bd6740aa2edb3aedbe3f2a764116e7cf779fae20a"
         },
         {
           "path": "chapters/chapter05/configs/source_paths.json",
-          "bytes": 1023990,
-          "sha256": "fb64c154215a04ce3acd3822da6631547c077be4edebf3f878967b475ee4ca1b"
+          "bytes": 1023989,
+          "sha256": "08947ce5b4b10a73efad584167020343a5394ab284e61f07597c5135ad70ecf2"
         },
         {
           "path": "chapters/chapter05/data/tables/index.json",
@@ -43841,7 +43831,7 @@
         {
           "path": "chapters/chapter05/environment/full_spend/development_source_manifest.json",
           "bytes": 4583,
-          "sha256": "d04ab7a4e7ea88dbb76b6400aff17363b49d8b0efc1d4b936015cee51aea6626"
+          "sha256": "aee7009bc80a3e81e3e8ed967655bf0f9f40ef32f4c6ece1b7d088ba92b6f3a0"
         },
         {
           "path": "chapters/chapter05/environment/full_spend/env.py",
@@ -43870,8 +43860,8 @@
         },
         {
           "path": "chapters/chapter05/environment/full_spend/native_source/README.rst",
-          "bytes": 5529,
-          "sha256": "926913d21ba778a0370682a7dd4bf9690c4f992c04d11a5f7807999bda5e2caa"
+          "bytes": 573,
+          "sha256": "57798d029982be3fb80dfd9d33e4cc27010b56a72753af22b75e8cffd5db7f6b"
         },
         {
           "path": "chapters/chapter05/environment/full_spend/native_source/allocation23/__init__.py",
@@ -44726,7 +44716,7 @@
         {
           "path": "chapters/chapter05/environment/full_spend/native_source_manifest.json",
           "bytes": 24462,
-          "sha256": "7b9d4745ee53ffc57ea9de75cb659ab315d343722d06d9f6b6ecadf426350c2c"
+          "sha256": "c3520ad394eb674fd8bf8dbda602d2231723f3a9099c4fca67c2c16bc3bbac70"
         },
         {
           "path": "chapters/chapter05/environment/full_spend/rollout.py",
@@ -49834,9 +49824,9 @@
           "sha256": "190e857917a1c01ecee49304fcdd0949332a39b3f0eb559e89906d6a47258f78"
         }
       ],
-      "asset_id": 767500440,
-      "bytes": 480551396,
-      "sha256": "622285d1b898f8e30c84e7373f1723d9ee86489d07858c84d456da3102d07bb9"
+      "asset_id": 767894897,
+      "bytes": 480547175,
+      "sha256": "aa1ecb49ebb2910ad49bcc9938a2a71b18a9cadc57cc2bf6b6dce53912b64a61"
     },
     {
       "name": "chapter05.part02.zip",
@@ -93896,7 +93886,7 @@
     {
       "name": "chapter06.part01.zip",
       "chapter": "chapter06",
-      "uncompressed_bytes": 520836475,
+      "uncompressed_bytes": 520836428,
       "files": [
         {
           "path": "chapters/chapter06/README.md",
@@ -93910,8 +93900,8 @@
         },
         {
           "path": "chapters/chapter06/algorithms/comparison/methods/pasta_adapter.py",
-          "bytes": 11082,
-          "sha256": "88205a685b6dffc5ec03da41c4646ef536a3ed63b32e50377023a17c3a9fa5dd"
+          "bytes": 11086,
+          "sha256": "f447e07ff0e6f49481e07bad9a5892054daf0556b434f7c8ba2a61220100a794"
         },
         {
           "path": "chapters/chapter06/algorithms/sedval/__init__.py",
@@ -93975,8 +93965,8 @@
         },
         {
           "path": "chapters/chapter06/configs/files.json.gz",
-          "bytes": 62684,
-          "sha256": "1e971ce956d4b6cf19cda0acf7a4c76b4550ab85d5a7f68b92044582bebc6af5"
+          "bytes": 62633,
+          "sha256": "f2f5afc00bf45a784588e2969d60032252ad3a03f769df65557bccb37defe398"
         },
         {
           "path": "chapters/chapter06/configs/licenses_and_sources/allocation23/assets/DroidSansFallback-LICENSE.txt",
@@ -94031,7 +94021,7 @@
         {
           "path": "chapters/chapter06/configs/source_views.json",
           "bytes": 43141,
-          "sha256": "892480527f109b0bd7628e743d5b9cf3d9d4d10e433b8d913fc1f3ec9826f815"
+          "sha256": "e6f9c32e9ded26e43094fe76026924779e0ede5a4557d41203508749a27fe796"
         },
         {
           "path": "chapters/chapter06/data/dependency_inputs/allocation23/eurosat_rgb/image_records.json",
@@ -98214,9 +98204,9 @@
           "sha256": "eb4cb5e0fe6a7f5ce930e42dae3d1610a64be924ab822251d23f36447a83bc63"
         }
       ],
-      "asset_id": 767502440,
-      "bytes": 426803677,
-      "sha256": "2a06c7a602836ff5b12d523802c94f535e787a9729c4d72c69757476003d4db5"
+      "asset_id": 767896789,
+      "bytes": 426803635,
+      "sha256": "743418d309b3212bc569a68eea053424b62e47189633b5532dee6652551543e9"
     },
     {
       "name": "chapter06.part02.zip",
