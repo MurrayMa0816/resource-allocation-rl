@@ -4,7 +4,7 @@
   "release_tag": "v2026.11.19",
   "package": {
     "files": 20047,
-    "bytes": 9371669434,
+    "bytes": 9371663960,
     "model_entities": 498,
     "model_uses": 508,
     "numbered_figures": 41,
@@ -16,7 +16,7 @@
     {
       "name": "chapter02.part01.zip",
       "chapter": "chapter02",
-      "uncompressed_bytes": 516035909,
+      "uncompressed_bytes": 516034441,
       "files": [
         {
           "path": "INDEX.json",
@@ -25,13 +25,13 @@
         },
         {
           "path": "README.md",
-          "bytes": 1802,
-          "sha256": "b26eb2b7d6b118f16daeaa51bff636431e5da3fed3dd8a5cc1f713949c887e6e"
+          "bytes": 1161,
+          "sha256": "870501ab809992a939e7c460084cca187cdc7fba4e1701d9a54ae998d4816589"
         },
         {
           "path": "chapters/chapter02/README.md",
-          "bytes": 1645,
-          "sha256": "2acc3711a95be9032a8f46496dd48fe30decd6ee36bc429a8bfd08467d8c11cc"
+          "bytes": 818,
+          "sha256": "f011be9712a9e5bd6f71da7edf08f593fea3baa413d87f3c7000eee1b40b8a56"
         },
         {
           "path": "chapters/chapter02/algorithms/allocation23/__init__.py",
@@ -156,7 +156,7 @@
         {
           "path": "chapters/chapter02/configs/files.json.gz",
           "bytes": 117895,
-          "sha256": "65e909e183eef4481fb3a0191126bb8a7ca90c3406265b45c8a6ca708a9623ad"
+          "sha256": "459687aabacb7599db29fdb8115b897e0de5adf4ce369bf8d13c13bb9d1a5fd2"
         },
         {
           "path": "chapters/chapter02/configs/package_cleanup.json",
@@ -1249,9 +1249,9 @@
           "sha256": "cc4d3156815340ba13dd5c37da7070037a34ddf32c6dd0dac91ac2fc1bbe004a"
         }
       ],
-      "bytes": 336882908,
-      "sha256": "e5a1726b51d5ad78c1351164663e5d69eae443e6109fa5739f0e09b10be2ea01",
-      "asset_id": 766783842
+      "asset_id": 767498309,
+      "bytes": 336881998,
+      "sha256": "9850917e8f605bbdf34c482e9626978ceb738aa78ea221c324b9f522e88512e6"
     },
     {
       "name": "chapter02.part02.zip",
@@ -12051,12 +12051,12 @@
     {
       "name": "chapter03.part01.zip",
       "chapter": "chapter03",
-      "uncompressed_bytes": 516632399,
+      "uncompressed_bytes": 516631698,
       "files": [
         {
           "path": "chapters/chapter03/README.md",
-          "bytes": 1555,
-          "sha256": "0acc0174b369405f1ad374831667e96a8528e72d9b063fc93a23239f9551ae1e"
+          "bytes": 855,
+          "sha256": "ad5230866778fe2a2cd91eaca79650f3405ed44360b3e1e8d1e681b7c5e0ec90"
         },
         {
           "path": "chapters/chapter03/algorithms/allocation23/baselines/__init__.py",
@@ -12285,8 +12285,8 @@
         },
         {
           "path": "chapters/chapter03/configs/files.json.gz",
-          "bytes": 125044,
-          "sha256": "4d8119c44f817a89a857d453d76443cc7e823574c7e5ff1fc1658396bbf27184"
+          "bytes": 125043,
+          "sha256": "90cc84be0289a2a4379f00dcf066411380525598116c54a101926335d37fdc8e"
         },
         {
           "path": "chapters/chapter03/configs/path_index.json",
@@ -17404,9 +17404,9 @@
           "sha256": "17552bb429aaef16a0e04cca241e851b4c67ac6e4d6ca54ea2169909e0c2fe19"
         }
       ],
-      "bytes": 487393404,
-      "sha256": "9e136077bb8035bfa64fc60fa391cad11644940acfb4947a93cf22873ee7b053",
-      "asset_id": 766792418
+      "asset_id": 767498316,
+      "bytes": 487393002,
+      "sha256": "bbbc9dfd416aa11b073ee5a027cb012fa942acb7461b61e654f948fe633a4f7e"
     },
     {
       "name": "chapter03.part02.zip",
@@ -25551,12 +25551,12 @@
     {
       "name": "chapter04.part01.zip",
       "chapter": "chapter04",
-      "uncompressed_bytes": 501463851,
+      "uncompressed_bytes": 501463215,
       "files": [
         {
           "path": "chapters/chapter04/README.md",
-          "bytes": 1486,
-          "sha256": "32029ee07710e5e7f2bbff86bbeede0c2939b38d0ab0e2d2cce533dbdcebad65"
+          "bytes": 850,
+          "sha256": "fe7776c8de679692f66f19d0452509125424003cde74638ae6b7520b36421d90"
         },
         {
           "path": "chapters/chapter04/algorithms/external/offpolicy/agent_source_manifest.json",
@@ -26416,7 +26416,7 @@
         {
           "path": "chapters/chapter04/configs/files.json.gz",
           "bytes": 143930,
-          "sha256": "01a0c873dd0bcd466f89cd98454da9c149802fa7d051a50308e80b125e162cb2"
+          "sha256": "dce632451e15f56a935874fafacb9c1a2ad4da6083786a0dc1c39f7bd4038288"
         },
         {
           "path": "chapters/chapter04/configs/path_index.json",
@@ -32209,9 +32209,9 @@
           "sha256": "8ac174d322e1e7b35a7dcbfa9517e588787427d486fbddcb519f1e5e823e5fb1"
         }
       ],
-      "bytes": 401370342,
-      "sha256": "f8301b3e2e07b6b473ae805c5c10816efbb626c4d0424b09f53217beebb22aaf",
-      "asset_id": 766795268
+      "asset_id": 767500104,
+      "bytes": 401369972,
+      "sha256": "7da0eacb6b21c6cb79cb891c67308fa14f3ce89756234bc6478a9ce2c953244b"
     },
     {
       "name": "chapter04.part02.zip",
@@ -41776,12 +41776,12 @@
     {
       "name": "chapter05.part01.zip",
       "chapter": "chapter05",
-      "uncompressed_bytes": 515821904,
+      "uncompressed_bytes": 515820851,
       "files": [
         {
           "path": "chapters/chapter05/README.md",
-          "bytes": 1843,
-          "sha256": "0c4a25e59a44f60a21842d51e6114d186c1398e5538e61390dfbac90021ff0c9"
+          "bytes": 791,
+          "sha256": "a290d0e3550e14d6d670acd1e8ce375eac379810ce2b493438c758e89ec7a1eb"
         },
         {
           "path": "chapters/chapter05/algorithms/baselines/__init__.py",
@@ -42250,8 +42250,8 @@
         },
         {
           "path": "chapters/chapter05/configs/files.json.gz",
-          "bytes": 510745,
-          "sha256": "7f4b07e4b8192d92e801fc3692b55a897bf04e8f1c85d5c1c8d8f93ccd837ee6"
+          "bytes": 510744,
+          "sha256": "1d3e2787ad416548a4aba2bbf13dcc19aeb196620f085568f0934c259075dde4"
         },
         {
           "path": "chapters/chapter05/configs/original_development_source_manifest.json",
@@ -49834,9 +49834,9 @@
           "sha256": "190e857917a1c01ecee49304fcdd0949332a39b3f0eb559e89906d6a47258f78"
         }
       ],
-      "bytes": 480552004,
-      "sha256": "85452c8cd6612eca2b1ad553c6cec10c5de36a01b6cafd8d273570daf86137f5",
-      "asset_id": 766797754
+      "asset_id": 767500440,
+      "bytes": 480551396,
+      "sha256": "622285d1b898f8e30c84e7373f1723d9ee86489d07858c84d456da3102d07bb9"
     },
     {
       "name": "chapter05.part02.zip",
@@ -93896,12 +93896,12 @@
     {
       "name": "chapter06.part01.zip",
       "chapter": "chapter06",
-      "uncompressed_bytes": 520838091,
+      "uncompressed_bytes": 520836475,
       "files": [
         {
           "path": "chapters/chapter06/README.md",
-          "bytes": 2526,
-          "sha256": "61bceb220fab326e9402276249b8b05c06f1aa1da07485bcc708d4969115a1b9"
+          "bytes": 907,
+          "sha256": "e4a8b1dbbe58426a78a768cd1d0bdaa11c10c4e19be50fe4b43eeaa413965c47"
         },
         {
           "path": "chapters/chapter06/algorithms/comparison/methods/cola_adapter.py",
@@ -93975,8 +93975,8 @@
         },
         {
           "path": "chapters/chapter06/configs/files.json.gz",
-          "bytes": 62681,
-          "sha256": "4f7fae83f1c73826c5a14b0e95e3b2747a9cfc81d57dcbd7c8cc1ec2fb9e3102"
+          "bytes": 62684,
+          "sha256": "1e971ce956d4b6cf19cda0acf7a4c76b4550ab85d5a7f68b92044582bebc6af5"
         },
         {
           "path": "chapters/chapter06/configs/licenses_and_sources/allocation23/assets/DroidSansFallback-LICENSE.txt",
@@ -98214,9 +98214,9 @@
           "sha256": "eb4cb5e0fe6a7f5ce930e42dae3d1610a64be924ab822251d23f36447a83bc63"
         }
       ],
-      "bytes": 426804640,
-      "sha256": "3351b2377c39a98a25b5d710c6b2eb5d0466dff22a030093cb063e12641c1bcb",
-      "asset_id": 766812700
+      "asset_id": 767502440,
+      "bytes": 426803677,
+      "sha256": "2a06c7a602836ff5b12d523802c94f535e787a9729c4d72c69757476003d4db5"
     },
     {
       "name": "chapter06.part02.zip",
