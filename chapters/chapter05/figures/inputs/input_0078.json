@@ -1,0 +1,46 @@
+{
+  "number": "5.4",
+  "kind": "c5shared",
+  "active": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-04_六种方法独立终点的达标数量与原始业务指标对照/figure.pdf",
+  "parent": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/joint_endpoint",
+  "parent_pdf_sha256": "8f19ae6066ac2949b1102c9580bab71ab99623ad2010946434f208c2d3129f39",
+  "parent_renderer": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/render_chapter5.py",
+  "parent_renderer_sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+  "asset": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4",
+  "mapping": {
+    "平均图像质量（SSIM）": "平均结构相似性指数"
+  },
+  "role": "joint_endpoint",
+  "data": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data",
+  "schema": "thesis-chinese-metric-figure-labels-v1",
+  "native_parent_renderer_byte_identical": true,
+  "changes": [
+    {
+      "old": "平均图像质量（SSIM）",
+      "new": "平均结构相似性指数"
+    }
+  ],
+  "nontext_equal": true,
+  "parent_native_reproduction_pixels_equal": true,
+  "outputs": {
+    "figure.pdf": "44158a64fe8638d39b52274fc2e660cfe836e8ae9434ae4132511103a5236ace",
+    "figure.svg": "12ebbb1cac565f1de615dfd5085a8c6c85c1468d1a2fb2dc4a5c6af31963387e",
+    "figure.png": "bb222cabe6f14507160a76b3db47f681a04963c26cc3352138cf4fa993d3b10c",
+    "checks/metric_display_proof.json": "6b4caf03ced321aba3c57034d44455a1c748eaa4fde8d58b75ba8a46cf8b5a03"
+  },
+  "parent_retained": true,
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_evaluations": 0,
+    "training_runs": 0
+  },
+  "checks": {
+    "checks/metric_display_proof.json": "6b4caf03ced321aba3c57034d44455a1c748eaa4fde8d58b75ba8a46cf8b5a03",
+    "checks/pdf_value_and_vector_check.json": "a553af24e0fb0e41347741bb13a117a312fb5af8bbbbbc54019596df35740ae8",
+    "checks/native_parent_reproduction.json": "eed9554b47fc5dbeb225acd619c319c18c6dec2d458dc67879822e9fd8fd7557"
+  },
+  "parent_source_metadata": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/joint_endpoint/source.json",
+  "parent_source_metadata_sha256": "244da7b46b502142623f0a7e27db3174975cafb9a7d4c3134969813fa4c358e5",
+  "native_parent_asset_directory_preserved": true
+}

@@ -1,0 +1,141 @@
+{
+  "schema": "chapter4-native-restored-axes-spacing15-v1",
+  "number": "4.8",
+  "caption": "自适应学习率调整与固定学习率下的单批密度比差异",
+  "label": "fig:ch4-tv-learning-rate",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter04_trajectory_reuse/section53_experiments.tex",
+  "current_references": [
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "native_parent/plotted_points.csv",
+    "native_parent/render_support/files/f0005_data.csv",
+    "native_parent/render_support/files/f0007_exceedance_summary.csv",
+    "native_parent/render_support/files/f0006_exceedance_per_seed.csv",
+    "native_parent/render_support/files/f0003_plotted_points.csv"
+  ],
+  "current_source_files": [
+    "plot.py",
+    "geometry_config.json",
+    "native_parent_sha256.json",
+    "wording_layer_20261119/label_export.py",
+    "wording_layer_20261119/svg_label_export.py",
+    "wording_layer_20261119/label_config.json"
+  ],
+  "historical_provenance": {
+    "original_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter04_trajectory_reuse/figures/figure04-08_TRoC与固定学习率变体的批后变化量及Actor学习率",
+    "original_pdf_sha256": "1bc3b0ba01a8afcc4357b6b2a2db451bec1d8534086761aa15576518a3358645",
+    "original_native_inputs_all_bytes_preserved": true,
+    "parent_source": "native_parent/source.json",
+    "native_parent_render_verified_exact": true,
+    "figure4_4_59_2mm_width_basis": "native_parent retained render_geometry.json in thesis_main_learning_style_20261109 assets figure4-4",
+    "figure4_7_56_05mm_height_basis": "thesis_print_format_implementation_20261109_160917 figures/assets/figure4-7/inputs/render_geometry.json:95mm canvas x .59 height",
+    "axes_dimensions_after_mm": [
+      [
+        59.199999999999996,
+        56.05
+      ],
+      [
+        59.20000000000002,
+        56.05
+      ]
+    ],
+    "no_axis_dimension_reduced": true,
+    "ylabel_reflow_only": true
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "7bb06848d37af437e1e42d7cae8cc1aae8eb9fbd1cdafa490f6fb464ec80ec79",
+    "figure.svg": "57f6765df4ec89e945808c337d5d83e27df6dbba34fbc90c12db032651264477",
+    "figure.png": "97fb55239ca7ba43e2e2e8bf586f9052ac022f74b3d7984591a538dbb620ce6c"
+  },
+  "ylabel_revision_20261112": {
+    "scope": "仅将两个子图的纵轴文字统一为单批策略密度比变化（样本估计）",
+    "plot_entry": "plot.py",
+    "plot_sha256": "888f5f6bcc013c26dc294c88435ec0e14562620f52f146696d5be1f98d02399b",
+    "validation": "/hy-tmp/resource_allocation_results/thesis_chapter4_writing_revision_20261112/figure48_label_revision/label_revision_validation.json",
+    "parent_data_sha_all_preserved": true,
+    "numeric_artists_curves_ticks_axes_fonts_and_spacing_preserved": true,
+    "axes_size_mm": [
+      59.2,
+      56.05
+    ],
+    "scientific_execution": 0
+  },
+  "writing_revision_20261112": {
+    "scope": "用户批准的语言明确度与图文称谓同步；几何、字号、科学值保持",
+    "review_record": "docs/chapter4_writing_revision_20261112/completion_receipt.json",
+    "scientific_data_changed": false
+  },
+  "lexical_precision_20261112": {
+    "scope": "按批准清单明确图中文字，科学值、字体、几何与连线保持；4.2预热说明分两行",
+    "review": "docs/chapter4_lexical_precision_20261112/completion_receipt.json",
+    "scientific_data_changed": false,
+    "plot_sha256": "430778b535fdde71cd660031cf54534b83579223a7bbfb7f8d25be06ae963e35"
+  },
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/plot.py",
+    "active_editable_source": "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/plot.py",
+    "active_program_sha256": "fd3fce66cae4785d477ff52fc7aae8067a6bf48a58c495b78383239ae94cdb14",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "ddbfbf062469520b3d3b54feb561b2e03aa434c5e02da0cfc43dc04c240def39",
+      "figure.svg": "229b49ab6e63e992ac7378d72ba0552e4f98dd16a7ace3c4260d6f7ced9e5581",
+      "figure.png": "319c9fa342b7246a09142e7769b86a12b69ba56c288ad9c220a0662d6c03d55e"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "21f56bd903a0fa2b4dc4b2567b28b024f00c1e05abb0c05850861c4530cff6df",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "4910fe5927755f0c1172e5ef6e2a8933bce5e7de363a1a5aafb3785c19d2baef",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "c7c8bb59ef43b30c29151919ade104590240d5ccae3bc9f43a118f5397d63426"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "9f5bcf57adebca0ae24f7530e4dbac509ac26f8eb58c4446457166784b34e263",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "b90a469a3415fa29eeb902f141df004429519e8d862dd543627efd5d925d18e0",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 2,
+    "legend_labels_changed": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "7bb06848d37af437e1e42d7cae8cc1aae8eb9fbd1cdafa490f6fb464ec80ec79",
+      "figure.svg": "57f6765df4ec89e945808c337d5d83e27df6dbba34fbc90c12db032651264477",
+      "figure.png": "97fb55239ca7ba43e2e2e8bf586f9052ac022f74b3d7984591a538dbb620ce6c"
+    },
+    "approved_review_pdf_sha256": "fb1882de2c5f3c9ccb79dc56dbdc73004e9314ced380775185e0404b22aae9bc",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json"
+  },
+  "path_storage_20261119": {
+    "mapping_files": [
+      "native_parent/render_support/paths.json"
+    ],
+    "helper": "scripts/restore_render_support.py",
+    "original_source_and_data_bytes_preserved": true,
+    "historical_render_tree_restored_only_in_temporary_workspace": true,
+    "figure_exports": 0,
+    "scientific_execution": 0
+  }
+}

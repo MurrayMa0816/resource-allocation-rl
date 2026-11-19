@@ -1,0 +1,183 @@
+{
+  "status": "ACTUALLY_LAUNCHED",
+  "controller_pid": 3837698,
+  "controller_start_ticks": 6205784456,
+  "controller_sha256": "d6197292aba5ee34321e3206ea077f0c62b5943cd3ac5f7c1d2bd13e93a32ed0",
+  "workers": [
+    {
+      "job_id": "budget_3500000__seed6400",
+      "pid": 3837700,
+      "start_ticks": 6205784461,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6400.json"
+      ],
+      "config_sha256": "c3bc7c6de8a6a91f113559627850b125d600bbfc148b3c30cdf73021540b9b3c",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        0
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_3500000__seed6401",
+      "pid": 3837701,
+      "start_ticks": 6205784461,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6401.json"
+      ],
+      "config_sha256": "6cd92a3ad5e81d98841f0670fe242215986afbbbe3da7e1c48826d3c8f6607e5",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        1
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_3500000__seed6402",
+      "pid": 3837702,
+      "start_ticks": 6205784461,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6402.json"
+      ],
+      "config_sha256": "fca5b70bab336e24afbe82fd5f1d584fe3e7bec14c529d82cfb15ffa6d2b728d",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        2
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_4000000__seed6400",
+      "pid": 3837703,
+      "start_ticks": 6205784462,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6400.json"
+      ],
+      "config_sha256": "222e17e9885240f7286d364c4dffc1437671816d633b469a55fe34f6a326d1d8",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        3
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_4000000__seed6401",
+      "pid": 3837704,
+      "start_ticks": 6205784462,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6401.json"
+      ],
+      "config_sha256": "64d1144ddbdc5c193fdc1609ce57a9fadfa71beaf0ba397477cb5c3c1f32f8d9",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        4
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_4000000__seed6402",
+      "pid": 3837705,
+      "start_ticks": 6205784462,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6402.json"
+      ],
+      "config_sha256": "603f240b80794a53012665b431a1b15cde20b14fe493967f68a5ff5ee078a61d",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        5
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_4500000__seed6400",
+      "pid": 3837706,
+      "start_ticks": 6205784463,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6400.json"
+      ],
+      "config_sha256": "d874f8308f11b9f1dee16c4d4a1c8cbe499477b895ee15aba45f91c9ccdea998",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        6
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_4500000__seed6401",
+      "pid": 3837707,
+      "start_ticks": 6205784463,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6401.json"
+      ],
+      "config_sha256": "d05af09b9f77889c2c07b2dfbf8276331bac2fa308261409c6812bb137a5ee9e",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        7
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    },
+    {
+      "job_id": "budget_4500000__seed6402",
+      "pid": 3837708,
+      "start_ticks": 6205784463,
+      "argv": [
+        "/usr/local/bin/python3",
+        "-B",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/execution/worker_train.py",
+        "--config",
+        "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6402.json"
+      ],
+      "config_sha256": "78c7112d62e94565be658969216841863875b8eaf0b44d04066ce8b52a53b848",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        8
+      ],
+      "CUDA_CACHE_PATH": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+    }
+  ],
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "registration_sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+  "formal_release_sha256": "c23020934e032135f4f1804b5d0c730cbc12a2d8d5e71b47f1e123a421a2529e",
+  "TEST_opened": false
+}

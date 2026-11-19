@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "3.3",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter03_intertemporal/figures/figure03-03_可行区间内的残差总量调整与空间配置",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter03/figures/figure03_03/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter03/figures/figure03_03/figure.pdf",
+      "sha256": "982dd52cd672f2bdec59018632928223e9f3c729074d2f2fa2574f101a856dcb",
+      "bytes": 68809
+    },
+    "figure.png": {
+      "path": "chapters/chapter03/figures/inputs/input_0010.png",
+      "sha256": "2c10c5d1ec5227adacae44a8885c4d227ba8e58a949b6dd9af3cd51cd76ec757",
+      "bytes": 187192
+    },
+    "figure.svg": {
+      "path": "chapters/chapter03/figures/inputs/input_0011.svg",
+      "sha256": "95286d0e807fcdf1e74824b8a8999374570a8f4d860b7702d0d9bca610e173b7",
+      "bytes": 450380
+    },
+    "source.drawio": {
+      "path": "chapters/chapter03/figures/figure03_03/source.drawio",
+      "sha256": "f483ba4de51850e8d6599377a7f56355561c1d5a20b09eb3aa79ff219b10456f",
+      "bytes": 15224
+    },
+    "source.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0013.json",
+      "sha256": "b69468365bb96386c11f691175082b25a713c45ec7620a01b9418a58a92906d7",
+      "bytes": 6874
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

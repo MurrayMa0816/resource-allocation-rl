@@ -1,0 +1,33 @@
+{
+  "tables": [
+    {
+      "number": "2.1",
+      "caption": "BLoAR主要训练参数表",
+      "file": "chapters/chapter02/data/tables/table02_01.tex",
+      "sha256": "4d672a1eb96d59d628ace7ac7caa14fc40cbc42cfb9027c9d4f6e147e0c75e9d",
+      "current_chapter_source": "chapters/chapter02_high_dimensional/chapter.tex"
+    },
+    {
+      "number": "2.2",
+      "caption": "对比方法主要训练参数表",
+      "file": "chapters/chapter02/data/tables/table02_02.tex",
+      "sha256": "b67a221298a9dfd741b3fb1057b7be04913a580911aa6ba5043a59a776619c16",
+      "current_chapter_source": "chapters/chapter02_high_dimensional/chapter.tex"
+    },
+    {
+      "number": "2.3",
+      "caption": "BLoAR与五种对比方法的测试结果对比表",
+      "file": "chapters/chapter02/data/tables/table02_03.tex",
+      "sha256": "87f1577323b019ff1a067b29a1d103d871da3c9ff698ca7bd1a2b1ac0a6e69e6",
+      "current_chapter_source": "chapters/chapter02_high_dimensional/chapter.tex"
+    },
+    {
+      "number": "2.4",
+      "caption": "BLoAR与三类消融对照的测试结果对比表",
+      "file": "chapters/chapter02/data/tables/table02_04.tex",
+      "sha256": "a7c2042abea2986d6ae36b0002e8fbf91bf921d8e0ef28faa55fc22db2b6de3c",
+      "current_chapter_source": "chapters/chapter02_high_dimensional/chapter.tex"
+    }
+  ],
+  "scope": "Exact currently included TeX table blocks, not an extra thesis or chapter PDF."
+}

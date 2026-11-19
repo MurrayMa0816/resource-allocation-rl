@@ -1,0 +1,223 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "5.5",
+  "caption": "各方法独立测试中的达标数量与平均成效",
+  "label": "fig:ch5-validation-tradeoff",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照_axes59p2x51_spacing15_20261111",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter05_dual_value/section63_experiments.tex",
+  "current_references": [
+    "chapters/chapter05_dual_value/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照_axes59p2x51_spacing15_20261111/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "accepted_metric_specification.json",
+    "render_support/files/f0002_costs_by_seed.csv",
+    "render_support/files/f0003_data_manifest.json",
+    "render_support/files/f0004_fixed_endpoints_by_seed.csv",
+    "render_support/files/f0005_learning_display.csv",
+    "render_support/files/f0006_learning_raw.csv",
+    "render_support/files/f0007_threshold_recounts_by_seed.csv"
+  ],
+  "current_source_files": [
+    "plot.py",
+    "render_support/files/f0008_plot.py",
+    "render_support/files/f0010_render_metric_labels.py",
+    "render_support/files/f0015_parent_renderer.py",
+    "render_support/files/f0016_plot.py",
+    "render_support/files/f0018_plot_chapter45.py"
+  ],
+  "historical_provenance": {
+    "schema": "chapter5-axes59p2x51-spacing15-20261111",
+    "parent_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
+    "parent_source_sha256": "65fac03e377309e6a848ce7e73824b9db7d16a934ac89c8669d80e31193cb52a",
+    "old_provenance_retained": "parent_source.json",
+    "proof": "axes_spacing15_proof.json",
+    "axis_dimensions_before_mm": [
+      [
+        51.99999971666667,
+        47.89678
+      ],
+      [
+        52.00000006944444,
+        47.89678
+      ]
+    ],
+    "axis_dimensions_after_mm": [
+      [
+        59.20000013333333,
+        50.99999995277777
+      ],
+      [
+        59.20000013333335,
+        50.99999995277777
+      ]
+    ],
+    "scientific_artist_values_and_styles_preserved": true,
+    "xlabel_to_legend_bp": 15.0,
+    "last_legend_to_bottom_mm": 2.0,
+    "new_scientific_execution": 0
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "a7f92d418e49566f32d48ca130984a318b44f907adfdc371310c162d46acd9b1"
+  },
+  "files": [
+    {
+      "path": "LOCAL_REPRODUCTION.rst",
+      "bytes": 984,
+      "sha256": "33577583779b411962f301442ce097eaf310204cc9c898e09b14020680c6d1fd"
+    },
+    {
+      "path": "README.rst",
+      "bytes": 3201,
+      "sha256": "874cf17acf289ece0317a8128fce23ea7353c72ddf86d3dea5d747fb845eb439"
+    },
+    {
+      "path": "accepted_metric_specification.json",
+      "bytes": 1056,
+      "sha256": "20f18e7143406e68e4f8e384fe6869ae8414503667b881b947664cfbc228b919"
+    },
+    {
+      "path": "axes_spacing15_proof.json",
+      "bytes": 2519,
+      "sha256": "437c30d1cf5ef363ca6a1a06726fdc16f6f7061c146aaaebd47a0eb4884d371a"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 35063,
+      "sha256": "a7f92d418e49566f32d48ca130984a318b44f907adfdc371310c162d46acd9b1"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 147346,
+      "sha256": "f8d4c20cb9d28fed6f3b06ea8eda5787db9744ea94b4d9e05d09dfd90748f9f8"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 101562,
+      "sha256": "ad39c9534cb97119698f74321f6efdc2d9d807e2f66ee73e16f67f3eefcaf75e"
+    },
+    {
+      "path": "numeric_artist_values_before_after.json",
+      "bytes": 93605,
+      "sha256": "e94779816826ed36cc7edee4584d130becbbac9fe3836b57fd25f17f8b217a19"
+    },
+    {
+      "path": "parent_source.json",
+      "bytes": 15138,
+      "sha256": "65fac03e377309e6a848ce7e73824b9db7d16a934ac89c8669d80e31193cb52a"
+    },
+    {
+      "path": "plot.py",
+      "bytes": 8033,
+      "sha256": "99e7f6e5984222af3364cab10cc4bf7a2be1a97b1527035798afb699a12befd0"
+    },
+    {
+      "path": "render_geometry.json",
+      "bytes": 8076,
+      "sha256": "538461adcd8980a15176eaead92417a5b811b1e13365e0fab7114e9271fa6580"
+    },
+    {
+      "path": "render_support/config.json",
+      "bytes": 233,
+      "sha256": "a28f7567c1dd0fcf4bdccd041fd5619c57d475d102c1d464fb3aadb439ef8050"
+    },
+    {
+      "path": "render_support/files/f0001_figure.png",
+      "bytes": 81062,
+      "sha256": "4f0a27e2230712e101343eb0b30cf466ed1429a5b134bc9720997f9661e931b4"
+    },
+    {
+      "path": "render_support/files/f0002_costs_by_seed.csv",
+      "bytes": 14491,
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76"
+    },
+    {
+      "path": "render_support/files/f0003_data_manifest.json",
+      "bytes": 1844,
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+    },
+    {
+      "path": "render_support/files/f0004_fixed_endpoints_by_seed.csv",
+      "bytes": 22143,
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b"
+    },
+    {
+      "path": "render_support/files/f0005_learning_display.csv",
+      "bytes": 2758404,
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f"
+    },
+    {
+      "path": "render_support/files/f0006_learning_raw.csv",
+      "bytes": 1877519,
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef"
+    },
+    {
+      "path": "render_support/files/f0007_threshold_recounts_by_seed.csv",
+      "bytes": 26645,
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59"
+    },
+    {
+      "path": "render_support/files/f0008_plot.py",
+      "bytes": 215,
+      "sha256": "b703088b12ace4e60a531157e12d5119f7942df06f5003a5855d132f06e93e04"
+    },
+    {
+      "path": "render_support/files/f0009_baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "path": "render_support/files/f0010_render_metric_labels.py",
+      "bytes": 9571,
+      "sha256": "56e1123adb73cefbe7c9112b7b10ccf44266dbc03e0196db00148a12789903ee"
+    },
+    {
+      "path": "render_support/files/f0011_specifications.json",
+      "bytes": 6943,
+      "sha256": "3a88eee6483ffd20eb455665f91b841efa6d34607393c32cb3d4497c6e5869c0"
+    },
+    {
+      "path": "render_support/files/f0012_figure.pdf",
+      "bytes": 35091,
+      "sha256": "44158a64fe8638d39b52274fc2e660cfe836e8ae9434ae4132511103a5236ace"
+    },
+    {
+      "path": "render_support/files/f0013_figure.png",
+      "bytes": 81591,
+      "sha256": "bb222cabe6f14507160a76b3db47f681a04963c26cc3352138cf4fa993d3b10c"
+    },
+    {
+      "path": "render_support/files/f0014_parent_presentation_proof.json",
+      "bytes": 44743,
+      "sha256": "1fa15fe07c95d38560514db8ef25eadc839221f9cb53fe01296cb96ecb234b04"
+    },
+    {
+      "path": "render_support/files/f0015_parent_renderer.py",
+      "bytes": 13693,
+      "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c"
+    },
+    {
+      "path": "render_support/files/f0016_plot.py",
+      "bytes": 233,
+      "sha256": "4f35cc031ab82a09e02c1465ac1116a1a4149420e5edef5cf35a59c7a3083b0d"
+    },
+    {
+      "path": "render_support/files/f0018_plot_chapter45.py",
+      "bytes": 23316,
+      "sha256": "b95a47784d00cce0d29a85bcfef8facfd3a8e9cd29e2f788393c252455e57bd7"
+    }
+  ],
+  "path_storage_20261119": {
+    "mapping_files": [
+      "render_support/paths.json"
+    ],
+    "helper": "scripts/restore_render_support.py",
+    "original_source_and_data_bytes_preserved": true,
+    "historical_render_tree_restored_only_in_temporary_workspace": true,
+    "figure_exports": 0,
+    "scientific_execution": 0
+  }
+}

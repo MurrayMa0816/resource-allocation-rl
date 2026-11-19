@@ -1,0 +1,218 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "6.8",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter06_irrigation/figures/figure06-08_天气与配水响应统一风格_20261109",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter06/figures/figure06_08/figure.pdf"
+  ],
+  "files": {
+    "equal.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0258.pdf",
+      "sha256": "b1d3fe33051bc99e8f9fe3dfaeec76e990a700525fc8408a225cdcc2e90e63f4",
+      "bytes": 17715
+    },
+    "equal.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0259.png",
+      "sha256": "275ecd84569f177902c3e2e73842cfe0a886ef84612e57e5046041a340d63595",
+      "bytes": 158165
+    },
+    "equal.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0260.svg",
+      "sha256": "fbbc0a172af3235250899a017f3c508626ca13ed523f6adae2ae1586b7475c6e",
+      "bytes": 25277
+    },
+    "equal_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0261.json",
+      "sha256": "d4e0bc0bd516cbf8e3613f180f8cfce95b0aecc239f290b079aebdcfe8e6f8aa",
+      "bytes": 13389
+    },
+    "equal_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0262.json",
+      "sha256": "f96753a0abb15f8fc24302cfa06d3256766d08ccd57af06d9a5a182bf733ff94",
+      "bytes": 21825
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0263.pdf",
+      "sha256": "1469040842041c063416d3b1dd32684bf139b2e7e4c3dd4b85ff892c989fcd67",
+      "bytes": 17721
+    },
+    "figure.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0264.png",
+      "sha256": "708094a0261a688765d928e0bb7749805b9da9c0d4c75b258cb2d424c95d821e",
+      "bytes": 157464
+    },
+    "figure.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0265.svg",
+      "sha256": "f361776f40794fdce0201370ff500aa73f3a20a5df0184c2a464618808530cb3",
+      "bytes": 25256
+    },
+    "flow.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0266.pdf",
+      "sha256": "7416c89191d571ff3ef5bc1f2789aa77a144dea1628b758c0f21f6eadfae3f5e",
+      "bytes": 17738
+    },
+    "flow.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0267.png",
+      "sha256": "203044c67ab37177362350cb50ef1d3763e83650fdc58bd43f7b4095841b933f",
+      "bytes": 165668
+    },
+    "flow.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0268.svg",
+      "sha256": "521d4d906dc267a2a6dfb95688d011e918460c33e015ca06973e49b274633d30",
+      "bytes": 25260
+    },
+    "flow_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0269.json",
+      "sha256": "2ec1466535ea1b3f5aea9e81d4d7a858accc5b4596a4e5525c342c679ec1b0e4",
+      "bytes": 13372
+    },
+    "flow_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0262.json",
+      "sha256": "f96753a0abb15f8fc24302cfa06d3256766d08ccd57af06d9a5a182bf733ff94",
+      "bytes": 21825
+    },
+    "inherited_parent_manifest.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0270.json",
+      "sha256": "2299509fc99918cc88dd945fe57d9ab35ae6d80b430c36fa68daee4db28ff3e6",
+      "bytes": 5578
+    },
+    "layout.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0271.pdf",
+      "sha256": "1f51cf563ade26e2e814c6e6ddc9d65349f174ce688854c66377fb8fc775cc9f",
+      "bytes": 17737
+    },
+    "layout.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0272.png",
+      "sha256": "e03e7a074dc72537471241b60e19a212a3cac1e460176de322842893fd5c64d5",
+      "bytes": 153844
+    },
+    "layout.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0273.svg",
+      "sha256": "9f9dc31335513f9cca5bbd8af78a432a580d74e2f3a7d3bf983f9cc59cae3227",
+      "bytes": 25249
+    },
+    "layout_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0274.json",
+      "sha256": "49699f731f238af8cfd25e22bc13329620c8d0dcffb15b02b6bd8508b5d96802",
+      "bytes": 13444
+    },
+    "layout_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0262.json",
+      "sha256": "f96753a0abb15f8fc24302cfa06d3256766d08ccd57af06d9a5a182bf733ff94",
+      "bytes": 21825
+    },
+    "local_source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0275.json",
+      "sha256": "4f296a529e48fb9a4fc96ad9ea9d53ef10e316de16992bb3a78e7aaab3aca1d1",
+      "bytes": 1119
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0276.json",
+      "sha256": "9bdc842073d87471e0a6c82a31afa0b2fd2e04b2becf71149c6e30669c3e332d",
+      "bytes": 21827
+    },
+    "plot.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0277.py",
+      "sha256": "d76ea7198a319fe2f7cc42039d6aa6614b447f55f9139829b2031a0f50a3c71f",
+      "bytes": 1461
+    },
+    "plot_equal.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0278.py",
+      "sha256": "71a2035fc0ebcc71d2f5e0f5570032d6cc50924424f1c1e00691d7ff9a5fe867",
+      "bytes": 4977
+    },
+    "plot_flow.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0279.py",
+      "sha256": "4cfd811dfb6b5754c6b370717b86990e688a8e0092f7f071b735b7254a937197",
+      "bytes": 4981
+    },
+    "plot_layout.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0280.py",
+      "sha256": "d811f8e2360d8a77a718b6644e99d1821e84bb484e2fdcdf2edd12d3f4ee4a31",
+      "bytes": 5895
+    },
+    "plot_template15.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0281.py",
+      "sha256": "9b32495f278ee983c8e9e5ae0bbd3b5a7ed6cf43500d661dfab2c83cba9eaa66",
+      "bytes": 16352
+    },
+    "render_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0282.json",
+      "sha256": "0bc5173df076b8f7b8fc8edb6908ec483adc4a0aa99d71ffc8cc75f6cb466d54",
+      "bytes": 10186
+    },
+    "render_receipt.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0283.json",
+      "sha256": "98b6cbdcde5efdfe3f07bf4006e6f411ba7af2a092f6a6b25b311b76b54d1c76",
+      "bytes": 966
+    },
+    "requirements.txt": {
+      "path": "chapters/chapter06/figures/inputs/input_0050.txt",
+      "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+      "bytes": 33
+    },
+    "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0284.json",
+      "sha256": "f95f26e2b025ecb979474b0deec7c337fa61f510770ee58c727ae502afc20e6f",
+      "bytes": 1049
+    },
+    "rl_wording_export_evidence_20261114/template15_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0285.json",
+      "sha256": "c7135527f1729d79a44456f01a62718ed5a20c101d9859354e78de6c0e2d4f04",
+      "bytes": 14472
+    },
+    "rl_wording_export_evidence_20261114/template15_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0286.json",
+      "sha256": "38c2d798a9327168a9d58ef303b4284a893243772d14b3259ceadaae3371792c",
+      "bytes": 21843
+    },
+    "seven_day_actual_weather_and_q.csv": {
+      "path": "chapters/chapter06/figures/inputs/input_0287.csv",
+      "sha256": "5e6d3e2b8ee570d139f584692c859c5b92b647b5fcfa594fc656fbf7239fed82",
+      "bytes": 1171
+    },
+    "source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0288.json",
+      "sha256": "8671d0443e63e636a7b51524c306b8a31deadc0467ca710360bbd83066296082",
+      "bytes": 4851
+    },
+    "source/accepted_statistical.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0289.py",
+      "sha256": "faf86431c9316200722be2e64774b5d07f06cac8f5accd0ee2fe60e5be019952",
+      "bytes": 16640
+    },
+    "source/spacing.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0087.py",
+      "sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+      "bytes": 14490
+    },
+    "template15.pdf": {
+      "path": "chapters/chapter06/figures/figure06_08/figure.pdf",
+      "sha256": "b51a4db8f975389453a213890d389bb3641610f9718b3b06519e0bdd03d54807",
+      "bytes": 19544
+    },
+    "template15.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0290.png",
+      "sha256": "1351084e8479fa782e400cb86a463a53fa65b6f3a3d11a27d51f63a2b1cb5f70",
+      "bytes": 182568
+    },
+    "template15.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0291.svg",
+      "sha256": "eec05275c0a0bc37d3e0a4b77a2ab5a6c9428d9fd6bd063805e6cd2b247e6025",
+      "bytes": 25414
+    },
+    "template15_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0292.json",
+      "sha256": "0a7bc30ee86c237719af392051ca626748b76784ff5dfc83836e35c107a06490",
+      "bytes": 14472
+    },
+    "template15_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0286.json",
+      "sha256": "38c2d798a9327168a9d58ef303b4284a893243772d14b3259ceadaae3371792c",
+      "bytes": 21843
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

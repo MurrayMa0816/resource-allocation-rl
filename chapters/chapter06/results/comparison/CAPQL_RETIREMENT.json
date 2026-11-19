@@ -1,0 +1,114 @@
+{
+  "schema": "C6-CAPQL-retirement-user-authorized-v1",
+  "status": "RETIRED_ENDPOINTS_REMOVED",
+  "authorized_by": "User requested stop/delete CAPQL in the C6 application and continue new COLA comparison",
+  "scope": "Only four C6 CAPQL endpoint files; no C5 CAPQL source/model or other method artifacts",
+  "retired_from_current_comparison": true,
+  "CAPQL_training_already_completed": true,
+  "CAPQL_running_jobs_found": 0,
+  "stopped_jobs": 0,
+  "active_methods": [
+    "SeDVal",
+    "PASTA",
+    "COLA"
+  ],
+  "historical_CAPQL_learning_steps": 777600,
+  "historical_CAPQL_DEV_physical_steps": 202176,
+  "historical_CAPQL_engineering_physical_steps": 5508,
+  "deletion_is_not_zeroing_previous_compute": true,
+  "endpoint_artifacts": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/endpoint.pt",
+      "size_bytes": 5464794,
+      "sha256": "68b5d0c0da2aa654da285cd04a182eefd0b399480fdb5ac48dc29075e271e3d7",
+      "deleted": true
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/endpoint.pt",
+      "size_bytes": 5464794,
+      "sha256": "6a4a301dab6abbef0a11ef5d04f7e9fc9e0b5e5f33e20d087c77b576552cd417",
+      "deleted": true
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/endpoint.pt",
+      "size_bytes": 5464794,
+      "sha256": "c76e4020593b577f23eb64d903fba318efdaf018a26b56ea4ffc1d1060e45616",
+      "deleted": true
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/engineering/capql__seed7900/attempt0/endpoint.pt",
+      "size_bytes": 5442458,
+      "sha256": "38239b6232810febeac84ee07d96d1bd6c366f469e68e7ab6f8f0f605a48db62",
+      "deleted": true
+    }
+  ],
+  "planned_freed_bytes": 21836840,
+  "retained_evidence": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/final_training_audit.json",
+      "sha256": "09d00d2f67841aefdca637724e1c77fd3e7544fee22b06d94d4112a10d65fa78"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/capql_terminal_readonly_diagnosis.json",
+      "sha256": "0d22c1c36debac6041dca49c3655cd0c99582768c9d29ca617308321ac40c8ae"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/training/controller_completed.json",
+      "sha256": "3bc21969fcce8a50faa8d54e40da5e817db9680b51ce9ae4f705f334831d07f8"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/completed.json",
+      "sha256": "88ceefa94b8a6eaca74c63cb63d5f3b93617731e7bbac1ac82ac1f9d45de8800"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/protocol.json",
+      "sha256": "3f8dd4ef3e6b00babc714da090bc2a3bea7506351a0255501b9c5a7975dcd52e"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/development.npz",
+      "sha256": "e320ee89672438c64d188aca7153eb8b5584a880be5146be8f7d4bb86f4c6a3a"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/completed.json",
+      "sha256": "09d3b99dc8afdb5ff9caccdaa20e4e64f969390d320e2a14616db0a2ccd7f57a"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/protocol.json",
+      "sha256": "1505c2c9d01e0070ea87725eeb9d2bc9a3edecc00015c067c1c2f18c14672a35"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/development.npz",
+      "sha256": "6a6ca55742f350d6a280aa504d82e9fcec16b50a985df9658bd8c739f088bba7"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/completed.json",
+      "sha256": "27f2c629b9d37abd2f9002aa4689fce1c3741d1132c71e4924ab7d68aa9d7077"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/protocol.json",
+      "sha256": "3be3f4737fd4c134722e9ba795e3a67a8bec9cc36ebe23ac144877f408da3f3a"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/development.npz",
+      "sha256": "8986763d11e6d9fa29e0ed205f60f3be4e4c73756a07198c98d2dd96f37ebbe7"
+    }
+  ],
+  "completed_receipts_describe_pre_deletion_validation": true,
+  "endpoint_reload_after_removal_available": false,
+  "original_CAPQL_curves_and_negative_results_retained": true,
+  "original_CAPQL_source_snapshots_retained": true,
+  "COLA_training_restarted": false,
+  "COLA_existing_three_processes_preserved": [
+    2891325,
+    2891326,
+    2891327
+  ],
+  "new_environment_steps_for_retirement": 0,
+  "new_TEST_paths": 0,
+  "paper_modified": false,
+  "prepared_utc": "2026-11-09T11:16:54.244975+00:00",
+  "completed_utc": "2026-11-09T11:17:26.982055+00:00",
+  "removed_files": 4,
+  "removed_bytes": 21836840,
+  "retained_evidence_hashes_verified": true
+}

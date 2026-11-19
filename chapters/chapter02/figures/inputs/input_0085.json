@@ -1,0 +1,27 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "176a1604499dece93a49896783c51a5938d0613c13cf79eb3c46a13af074344a",
+  "scientific_after_sha256": "176a1604499dece93a49896783c51a5938d0613c13cf79eb3c46a13af074344a",
+  "labels": [
+    {
+      "before": "(a) 终点配置成效",
+      "after": "(a) 最终配置成效",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        123.39911417322833,
+        296.5333333333333,
+        107.375,
+        15.796875
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

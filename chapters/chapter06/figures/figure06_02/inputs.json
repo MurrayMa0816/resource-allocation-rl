@@ -1,0 +1,63 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "6.2",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter06_irrigation/figures/figure06-02_强化学习环境交互_20261109",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter06/figures/figure06_02/figure.pdf"
+  ],
+  "files": {
+    "completion_receipt.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0054.json",
+      "sha256": "a3efc7b54df508afb19fb8e874a67ba7ef3907e3f972c4c1e002ccab7b489383",
+      "bytes": 2433
+    },
+    "create_drawio.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0055.py",
+      "sha256": "39758228172390b79cef264125ab72ab1585255b2c942dd2b6b55b0c010e8cf7",
+      "bytes": 10021
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter06/figures/figure06_02/figure.pdf",
+      "sha256": "fcac1de6c8e185bb2579257d6085e5e8822db46f1a2f0aa8a15f68a12a443433",
+      "bytes": 27562
+    },
+    "figure.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0056.png",
+      "sha256": "280b274a4cbb74daf74085fcabd8166b0789dd0017d303ecf347f6a0bbf1a112",
+      "bytes": 90721
+    },
+    "figure.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0057.svg",
+      "sha256": "1bea5c62243d5ea059d2bf269425e17ac3b17f5fe366632004e4c390a8363c51",
+      "bytes": 29233
+    },
+    "local_source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0058.json",
+      "sha256": "9a9260e7f007f59580b9163870444b70709601386dff77ce0aa05bc8394e0c3b",
+      "bytes": 814
+    },
+    "provenance/original_create_drawio.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0059.py",
+      "sha256": "a364a70d1155a79975697668d97b384894a95a3d806ec3eb80693fb30011dffd",
+      "bytes": 4128
+    },
+    "requirements.txt": {
+      "path": "chapters/chapter06/figures/inputs/input_0060.txt",
+      "sha256": "e682d65aab7f6a1e39184fcd4b378d8299c0c632e3ae846e49f6dc3cf0dc7ef5",
+      "bytes": 90
+    },
+    "source.drawio": {
+      "path": "chapters/chapter06/figures/figure06_02/source.drawio",
+      "sha256": "bb97b45bab3daf390c9896fd610f333d68283777e422df6a325333263fc999d1",
+      "bytes": 9275
+    },
+    "source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0062.json",
+      "sha256": "3016ae1ccbe60e5e48601da3d8e557a5651e19bc1f68fcfb28497ea0a075a311",
+      "bytes": 5722
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

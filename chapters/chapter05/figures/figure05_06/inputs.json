@@ -1,0 +1,168 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "5.6",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter05_dual_value/figures/figure05-06_不同价值监督方式下的回报预测误差_axes59p2x51_spacing15_20261111",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter05/figures/figure05_06/figure.pdf"
+  ],
+  "files": {
+    "axes_spacing15_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0081.json",
+      "sha256": "6e20a29146e0816a7261e0e497d69f769e6ad556974903d561083f09f20f58ea",
+      "bytes": 2635
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter05/figures/figure05_06/figure.pdf",
+      "sha256": "8822330658bfca6444da770544a0633518a07ad26e34f5be9f9d6627a49d8d94",
+      "bytes": 32172
+    },
+    "figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0082.png",
+      "sha256": "6be719c4752a1de610b7cf6e7305ab38b6823c3290fe8ff25e88a862e2b2545f",
+      "bytes": 141034
+    },
+    "figure.svg": {
+      "path": "chapters/chapter05/figures/inputs/input_0083.svg",
+      "sha256": "b250d87839fbe5d2afc0f344b28d2ff638f89381f01a738e10f7dde92cb62bb1",
+      "bytes": 93411
+    },
+    "language_label_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0084.json",
+      "sha256": "64c4675bb4cca8f6eff049b9761a93a6f48578f6b7aaf117e596a258e1197d9c",
+      "bytes": 92510
+    },
+    "math_font_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0085.json",
+      "sha256": "5405ef58aa9e583761545409f258a860a5d0ca116b4a368cd372759ea619ead3",
+      "bytes": 15922
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0086.json",
+      "sha256": "7f9c79fc617cde2043cf9e313f5c0f1f98e1cac3bffb0632354881dc906c4179",
+      "bytes": 138280
+    },
+    "parent_source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0087.json",
+      "sha256": "e58ad120a5b2e0503ba1f6c804217b0c6de68c4aa2c04edd82e9ead169ff1d62",
+      "bytes": 10060
+    },
+    "plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0088.py",
+      "sha256": "0179fc4e116a45f2dd379ee8bccfc6f4a827274b05a16b8e04b0288c56e18bdc",
+      "bytes": 15496
+    },
+    "plotted_values.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0089.json",
+      "sha256": "ab963b1e54607362b2a01c8bc593b5060d89b0597574bf229ebf98a7448263eb",
+      "bytes": 11476
+    },
+    "render_support/config.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0090.json",
+      "sha256": "6f3556b7bb855530995a1b9fa6c328824622df3cc89d8d8ea298318595fd84c4",
+      "bytes": 217
+    },
+    "render_support/files/f0001_per_seed_metrics.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0091.csv",
+      "sha256": "c2c98a75c9d99c3e0ad80e287744bdf2b3396cbc81e4a9919abe3d6573ab0d2c",
+      "bytes": 22615
+    },
+    "render_support/files/f0002_protocol.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0092.json",
+      "sha256": "61089c223238ff6f1adfd901d5e7e66753a16a2cc443c134ba600ab034eb33c5",
+      "bytes": 16478
+    },
+    "render_support/files/f0003_summary.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0093.json",
+      "sha256": "51fa064fc7bb40c4b015a0bce2a3b81fb44ea775cc98c64c685122152f08918d",
+      "bytes": 28231
+    },
+    "render_support/files/f0004_plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0094.py",
+      "sha256": "a284dfb1311ec37f1a59b5c97ecf1f38ee2f91d2c63efce51324746b4254e09c",
+      "bytes": 5304
+    },
+    "render_support/files/f0005_plotted_values.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0095.json",
+      "sha256": "912bf54f0e7aed13eba371625e3a45c848d59b1cdae4f88f5b13f70b270a4cb8",
+      "bytes": 11463
+    },
+    "render_support/files/f0006_source_binding.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0096.json",
+      "sha256": "2bd9c61dd2aabca6b2c362fb78e32431e3371871b11765e0b480da92505b57d8",
+      "bytes": 665
+    },
+    "render_support/files/f0007_value_supervision_boxplot.pdf": {
+      "path": "chapters/chapter05/figures/inputs/input_0097.pdf",
+      "sha256": "2e1a9c8d23ae9a22650c106c639c3fcab4f0307db3ecea8cd13632e46b553ee5",
+      "bytes": 31491
+    },
+    "render_support/files/f0008_value_supervision_boxplot.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0098.png",
+      "sha256": "99f2d22dfc8ae06119de778828288e7d30946585012c4556d0737fa75f89be81",
+      "bytes": 153971
+    },
+    "render_support/files/f0009_value_supervision_boxplot.svg": {
+      "path": "chapters/chapter05/figures/inputs/input_0099.svg",
+      "sha256": "5f1beed2593921fd4aab2865538c5ed2a3b732d5f07dbdfe538650a7e03a2dbe",
+      "bytes": 92877
+    },
+    "render_support/files/f0010_plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0100.py",
+      "sha256": "be197a61fa3be13ddaab1284347283f0c8a71a0095ea8e5d00f65d086514e28c",
+      "bytes": 334
+    },
+    "render_support/files/f0011_chapter05_supervision_boxplot_202.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0101.py",
+      "sha256": "60593a3b8c055319b2fe5dd5f83a79cdb2ad5189512213cd70907786364f2ff8",
+      "bytes": 28689
+    },
+    "render_support/files/f0012_figure_5_6_supervision_boxplot__p.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0102.py",
+      "sha256": "eb5ce2a1f42b7bfb902dee0428785a305a01ba5a778657519a265f7a6076ca11",
+      "bytes": 168
+    },
+    "render_support/paths.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0103.json",
+      "sha256": "d47bc478a3d718dc56f3069d96b4accff0bf5e1ae2408de5841e09ed264aeace",
+      "bytes": 4040
+    },
+    "rl_wording_export_evidence_20261114/language_label_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0104.json",
+      "sha256": "f377811e488b73d47c751fd177ef7a4e007040bd616f4eba2dd39d9d22763184",
+      "bytes": 91319
+    },
+    "rl_wording_export_evidence_20261114/local_replot_receipt.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0105.json",
+      "sha256": "5a8ecd62a1bb9af734c6b59ab3552e24d2d982cc57bf521b69c974ab7480cd56",
+      "bytes": 729
+    },
+    "rl_wording_export_evidence_20261114/math_font_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0106.json",
+      "sha256": "2b7b8e1dd71498c0914cea9fc3f524d8291530b761aaefd18e8426e24d02501b",
+      "bytes": 15904
+    },
+    "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0086.json",
+      "sha256": "7f9c79fc617cde2043cf9e313f5c0f1f98e1cac3bffb0632354881dc906c4179",
+      "bytes": 138280
+    },
+    "rl_wording_export_evidence_20261114/spacing_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0107.json",
+      "sha256": "6db647f8961eb09ba413dd36c878d4f8e6cdb4979a608f106969b2e6ac099500",
+      "bytes": 12157
+    },
+    "source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0108.json",
+      "sha256": "1522a69038de462c7f55b089adc2e32e507916f138428771b79e3878c2357e6e",
+      "bytes": 11514
+    },
+    "spacing_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0107.json",
+      "sha256": "6db647f8961eb09ba413dd36c878d4f8e6cdb4979a608f106969b2e6ac099500",
+      "bytes": 12157
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

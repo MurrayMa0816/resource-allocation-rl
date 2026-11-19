@@ -1,34 +1,17 @@
-# 第四章：TRoC 轨迹复用
+# 第4章实验资料
 
-`source/` 包含 TRoC、PROPS、SAC+ReDo、MR.Q、BRO(Fast)、MAD-TD 及本章消融；`figures/` 对应图4.1—4.8。
+- `environment/`：本章实际环境与原生实现依赖；不同原实验绑定的环境分别命名。
+- `algorithms/`：论文方法、采用的消融与比较方法。
+- `configs/`：注册配置、当前逻辑源码与物理文件对应、SHA。
+- `models/`：最终采用的种子/条件模型，实际登记见章级索引。
+- `results/`：已完成训练、DEV/TEST与论文采用诊断，数据不重算。
+- `scripts/run.py`：唯一章级入口；默认只检查元数据，显式执行需要新注册配置。
+- `figures/`：当前论文图源和对应数值输入。
 
-- `source/foundation/`：策略、完整轨迹采集与共享更新实现。
-- `source/troc_props/`：TRoC/消融和 PROPS 的正式执行源码与环境。
-- `source/offpolicy/`：SAC+ReDo、MR.Q、BRO(Fast) 的正式执行源码与其登记环境版本。
-- `source/mad_td/`：MAD-TD 的任务适配与正式执行源码，复用 TRoC/PROPS 的相同环境。
-- `provenance/`：原正式执行源的路径与校验登记。
-- `artifacts.json`：113条模型用途登记、8图2表的实际输入路径与SHA256。
+运行帮助：`python3 chapters/chapter04/scripts/run.py --help`；源检查：`python3 chapters/chapter04/scripts/capsule.py --check`。依赖清单在`environment/requirements*.txt`，Torch与JAX分环境。
 
-两套正式环境分别绑定不同原实验实现，内部日期与 `release` 目录是模型所校验的源版本，不能当作重复副本删除。`radio` 为图像通信，`v5` 为柴油配置。
+`configs/source_paths.json`记录当前唯一源码视图。程序需要原相对结构时，只在临时目录用普通文件组装，并逐SHA核验后清理；原结果中的旧绝对路径只作来源身份，实际位置由章级路径索引解析。不同随机种子、消融或条件模型保留各自身份。
 
-在仓库根目录执行：
+模型用途与唯一路径见 `models/index.json`；原结果分组见 `results/index.json`。`python3 chapters/chapter04/scripts/check.py` 核对全部登记文件，添加 `--hash` 才读取大文件逐SHA检查。图源输入由 `scripts/figure.py --number 4.1 --check` 检查，`figures/inputs/` 保存校验值唯一的当前复绘依赖。
 
-```bash
-python3 -m pip install -r chapters/chapter04/requirements-torch.txt
-python3 chapters/chapter04/run.py
-python3 chapters/chapter04/run.py --method f1 --config /path/to/config.json
-```
-
-最小配置检查示例（另存为上述JSON文件）：
-
-```json
-{"method":"f1","domain":"v5","seed":0,"steps":100608,"output":"runs/chapter04-new-run"}
-```
-
-不加 `--execute` 只检查字段，不构造环境或载入模型。开始新训练才加 `--execute`；复现原结果应使用原登记配置。方法名为 `f1`、`props`、`redo`、`mrq`、`bro`、`mad_td`、`no_history`、`no_offpolicy_correction`、`fixed_actor_lr`。固定策略评价另加 `--evaluation-only` 并给定模型。
-
-BRO/MAD-TD 使用独立环境安装 `requirements-jax.txt`，与Torch环境分开。完整资料根目录由 `RESOURCE_ALLOCATION_DATA_ROOT` 指定；通信任务还需完整包的 `datasets/eurosat_rgb/` 像素数据。
-
-113条模型登记包含100条正式端点、5条补充PROPS端点及8条学习率DEV诊断端点；其中10条ReJoP正式参照复用第三章的同一实体。权重、原配置、训练/DEV/TEST记录与数值图输入未发布，当前没有附件下载地址。`artifacts.json` 的 `full_package_path` 相对于原完整包，不能当成本仓库路径。
-
-图件的可编辑源按图号放在 `figures/`。数值图使用对应目录的 `plot.py --data-dir /path/to/current-figure-package --font-dir /path/to/assets/fonts/windows --output-dir /path/to/new/output`；加 `--check` 仅核验文件，不绘图。每图 `inputs.json`/`support.json` 列明当前图包、原数值输入、父图与版式校验附件；当前定稿图包与旧完整实验包不是同一目录，不能只补CSV。字体不会自动替换。
+完整权重、数组和原始记录已发布在本仓库 [Release v2026.11.19](https://github.com/MurrayMa0816/resource-allocation-rl/releases/tag/v2026.11.19)。此网页目录用于浏览源码；请用根目录 `download_materials.py` 下载并还原完整包后，再运行文件完整性检查。GitHub自动生成的源码ZIP不包含Release附件。

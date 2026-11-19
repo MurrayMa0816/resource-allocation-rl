@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "number": "4.7",
+  "native_parent_render_verified": true,
+  "outputs_sha256": {
+    "figure.pdf": "b58e12948a03fcc95c5978f918c0aa22e4688d710e53ea96ca5b979e312b30e1",
+    "figure.svg": "ae1f7c4db84e32a28ff62dd2e74871119d8a266c41c94e5508a38e2d0bf8483d",
+    "figure.png": "3a99dd0e9bad1f6b50ed5f154ec867ac1838a7dbab995f2f4b297c01f90b641d"
+  },
+  "scientific_values_and_styles_exact": true,
+  "fonts_exact": true,
+  "axes_positions_after_mm": [
+    [
+      17.0,
+      27.560253524780276,
+      59.2,
+      56.050000000000004
+    ],
+    [
+      94.0,
+      27.560253524780276,
+      59.2,
+      56.050000000000004
+    ]
+  ],
+  "scientific_execution": 0
+}

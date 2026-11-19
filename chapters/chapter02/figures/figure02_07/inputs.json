@@ -1,0 +1,118 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "2.7",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter02_high_dimensional/figures/figure02-07_图例与题注间距15bp_20261111",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter02/figures/figure02_07/figure.pdf"
+  ],
+  "files": {
+    "data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0088.csv",
+      "sha256": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91",
+      "bytes": 3383
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter02/figures/figure02_07/figure.pdf",
+      "sha256": "40d75a7f20fdecc3bee222da691ce37745f89ee5f20909192fdfab881584ca0c",
+      "bytes": 33961
+    },
+    "figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0089.png",
+      "sha256": "335d16b916633d82a1f5ce0e25200f56c639f87a4e860c290b6840b83ca4685c",
+      "bytes": 224350
+    },
+    "figure.svg": {
+      "path": "chapters/chapter02/figures/inputs/input_0090.svg",
+      "sha256": "22a6a7e92201435024a9fe3b176271c13f43876c07640a0cf5734c49ec453293",
+      "bytes": 38568
+    },
+    "inherited_parent_render_manifest.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0091.json",
+      "sha256": "789a946e5c8fc4f1b7742a92459c8f5522fcc8eeccace04f2c78cffd5adf721b",
+      "bytes": 4738
+    },
+    "inputs/data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0088.csv",
+      "sha256": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91",
+      "bytes": 3383
+    },
+    "local_inputs_sha256.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0092.json",
+      "sha256": "de4f9db443a6cb7e7f53c1b9b0be967d42bee3c9cb66e6bd9ca3a005e0976836",
+      "bytes": 599
+    },
+    "local_packaging.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0093.json",
+      "sha256": "5619da4b9f7a71ed372ff032b300f3753e7af0adce40fec77b52e2c66b7d6ce0",
+      "bytes": 388
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0094.json",
+      "sha256": "9443b8b783d8f3ce733514a7183d512367e631d6fa22e32d6ba560e40545d284",
+      "bytes": 48978
+    },
+    "plot.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0095.py",
+      "sha256": "d9bb862205edaae3afb1ec27e7cdd6bedd70bd8113a2782cf75267ca46213911",
+      "bytes": 1375
+    },
+    "render_geometry.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0096.json",
+      "sha256": "eb29d19b6539cf995c00e84819476c09621c234ad555ff9ee22241fcd49149bd",
+      "bytes": 4898
+    },
+    "render_receipt.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0097.json",
+      "sha256": "af387d6b396a61da28c574c98366d388194c162b8f5f08f991e0c208c26588dc",
+      "bytes": 900
+    },
+    "replot_sources/parent/data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0088.csv",
+      "sha256": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91",
+      "bytes": 3383
+    },
+    "replot_sources/parent/figure.pdf": {
+      "path": "chapters/chapter02/figures/inputs/input_0098.pdf",
+      "sha256": "f59a56c60c2bec3dc1f6628527c297f290fb3587fd854590c6e7e9039afacead",
+      "bytes": 33492
+    },
+    "replot_sources/parent/figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0099.png",
+      "sha256": "cfca3092beb7754eb7e018b5303e5ec640f9db7e494884e9db1eef29db1ea45b",
+      "bytes": 171074
+    },
+    "replot_sources/parent/plot.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0100.py",
+      "sha256": "ab9f3da9d1543cdf68ef67ea835bcc38fba9d6fa8255ed2b7dc323e8c73f5853",
+      "bytes": 8283
+    },
+    "replot_sources/parent/presentation_layout.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0032.py",
+      "sha256": "a664d7615400324ce1607bf615c4896416a759aa25a6a3e84a4bf6f2b90afcf8",
+      "bytes": 3094
+    },
+    "replot_sources/parent/source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0101.json",
+      "sha256": "18aac83684a853f04c352b6f145ef9cf1ae4975e92646643247ae0bd47ef0ffb",
+      "bytes": 1368
+    },
+    "replot_sources/renderer.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0102.py",
+      "sha256": "abfebc7e9ef217ed319f6ead8111abc591b20c3196a42637b5403ca7ac7d4254",
+      "bytes": 16253
+    },
+    "source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0103.json",
+      "sha256": "602229d2705bbd71a66d30f277185e4da2bbe72be75b7398284536c57cc68612",
+      "bytes": 1535
+    },
+    "spacing_preservation_proof.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0104.json",
+      "sha256": "a91237a376ed78d86fc5e1753e8b17e4df882cafb20338a4a511e2d76070aee6",
+      "bytes": 2791
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

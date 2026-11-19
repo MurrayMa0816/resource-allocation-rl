@@ -1,0 +1,3036 @@
+{
+  "schema": "adopted-model-uses-v3",
+  "paths_relative_to": "complete package root",
+  "count": 113,
+  "models": [
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_radio_seed0_current_100/checkpoint_final.pt",
+      "sha256": "3fd22bdcab627766be80a2b3c58b71b323c111af16026412828ac5cda3fe8ebc",
+      "size": 166882,
+      "method": "f1",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::radio::seed0::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__radio__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_radio_seed1_current_100/checkpoint_final.pt",
+      "sha256": "53348e16b2d6b75d2ff97ffa3189d4f9c5e61e44ec71217cc5ae759bc28608cf",
+      "size": 166818,
+      "method": "f1",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::radio::seed1::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__radio__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_radio_seed2_current_100/checkpoint_final.pt",
+      "sha256": "e90675a3bb48a1cea0283dee71ac8362d75af570289ae22638c68af9d3716e6b",
+      "size": 166882,
+      "method": "f1",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::radio::seed2::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__radio__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_radio_seed3_current_100/checkpoint_final.pt",
+      "sha256": "14e323484cfb74bbc833cea9449a3ab892c5c4abfab3e4249fbf7738c1068ef5",
+      "size": 166818,
+      "method": "f1",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::radio::seed3::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__radio__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_radio_seed4_current_100/checkpoint_final.pt",
+      "sha256": "6deaea4f559b2a0c6b148e273be445848a9efb05bf97d53a3aa096ea7ff663e4",
+      "size": 166818,
+      "method": "f1",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::radio::seed4::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__radio__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_v5_seed0_current_100/checkpoint_final.pt",
+      "sha256": "a6e5bd2eb72d3c568d7cea6f9c9381329f6d8fc0499dff62fabc941d6181986e",
+      "size": 192738,
+      "method": "f1",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::v5::seed0::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__v5__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_v5_seed1_current_100/checkpoint_final.pt",
+      "sha256": "b42130132bbf52c4361e9d9e8a82c1b7947b1a41f582c5153969707f3b6899ea",
+      "size": 192738,
+      "method": "f1",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::v5::seed1::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__v5__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_v5_seed2_current_100/checkpoint_final.pt",
+      "sha256": "c606fd4e2a906e7cd2b3189e5c44cdcc10070232aa13fd06fdc9869ac6472ab9",
+      "size": 192802,
+      "method": "f1",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::v5::seed2::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__v5__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_v5_seed3_current_100/checkpoint_final.pt",
+      "sha256": "761bf32b7b05bbe069e43d2f486ccac27e8c50ea0394ebc2e71366f6904fb59f",
+      "size": 192738,
+      "method": "f1",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::v5::seed3::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__v5__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_f1_v5_seed4_current_100/checkpoint_final.pt",
+      "sha256": "8539e4a410c90f3371eaeda538dd5cf93d8e011f18f04796057f65e20f950f54",
+      "size": 192738,
+      "method": "f1",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::f1::v5::seed4::current_100",
+      "paper_method": "TRoC",
+      "variant": "f1",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7",
+        "4.8"
+      ],
+      "paper_tables": [
+        "4.1",
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/f1__v5__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_radio_seed0_current_100/checkpoint.pt",
+      "sha256": "b474f7a162dc6fe1ba57c724546ad961f2b0a640005376b17b91d2a04d83e7fe",
+      "size": 139042,
+      "method": "props",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::radio::seed0::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__radio__seed0/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_radio_seed1_current_100/checkpoint.pt",
+      "sha256": "463992c7bc666e9ccdd28f142e577265c8d64c74793a7e8590804d851cdb2d63",
+      "size": 138786,
+      "method": "props",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::radio::seed1::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__radio__seed1/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_radio_seed2_current_100/checkpoint.pt",
+      "sha256": "f0c08443c8b6bd690d7cff6842038614e7e8802ade067b590170b701fbdfc669",
+      "size": 139042,
+      "method": "props",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::radio::seed2::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__radio__seed2/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_radio_seed3_current_100/checkpoint.pt",
+      "sha256": "e317c6a79818b0b427e25a3044d0e156fb31366e19c5836080dd73c43c1182d2",
+      "size": 138786,
+      "method": "props",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::radio::seed3::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__radio__seed3/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_radio_seed4_current_100/checkpoint.pt",
+      "sha256": "932cb98909ed588915dabf51cbdc2def0cf1cb148980d0ef047f82d2eb4d2801",
+      "size": 138786,
+      "method": "props",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::radio::seed4::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__radio__seed4/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed0_current_100/checkpoint.pt",
+      "sha256": "c2a147bcd4ed8d8c6d2d386d42e1c51b52a4153aef536b8f504657228c6caee8",
+      "size": 121762,
+      "method": "props",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::v5::seed0::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "当前柴油PROPS展示曲线/确认/积分改用独立随机曲线五模型；本正式端点仍用于表4.2独立TEST，不混用。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__v5__seed0/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed1_current_100/checkpoint.pt",
+      "sha256": "e6451373d68e34ea9b5aefe83e78178db76dd8bdc4ea25b7e4d1c4aa049f7752",
+      "size": 121762,
+      "method": "props",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::v5::seed1::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "当前柴油PROPS展示曲线/确认/积分改用独立随机曲线五模型；本正式端点仍用于表4.2独立TEST，不混用。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__v5__seed1/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed2_current_100/checkpoint.pt",
+      "sha256": "cd381a2f2f26f4853fcd4ed0581e68d7881103efb8adf3a62bb8cb11028c0f37",
+      "size": 122018,
+      "method": "props",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::v5::seed2::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "当前柴油PROPS展示曲线/确认/积分改用独立随机曲线五模型；本正式端点仍用于表4.2独立TEST，不混用。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__v5__seed2/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed3_current_100/checkpoint.pt",
+      "sha256": "918a5d3f8f446458ad13e2e47d5da9e43dbd6fdf8752ac15c650f7603412f6a1",
+      "size": 121762,
+      "method": "props",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::v5::seed3::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "当前柴油PROPS展示曲线/确认/积分改用独立随机曲线五模型；本正式端点仍用于表4.2独立TEST，不混用。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__v5__seed3/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed4_current_100/checkpoint.pt",
+      "sha256": "2871ddd4dd4d322c3f593c055d327d749d965c82eb15c97443fa681dd893f769",
+      "size": 121762,
+      "method": "props",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::props::v5::seed4::current_100",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "当前柴油PROPS展示曲线/确认/积分改用独立随机曲线五模型；本正式端点仍用于表4.2独立TEST，不混用。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/props__v5__seed4/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_radio_seed0_current_100/endpoint.pt",
+      "sha256": "f65bd2a85bcd7bc36b93dfd4d12b6a1d7209c333d3824c736ecc668d95e37991",
+      "size": 621010,
+      "method": "redo",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::radio::seed0::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__radio__seed0/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_radio_seed1_current_100/endpoint.pt",
+      "sha256": "e44311681258af6f32dc2d11c630ff2a11e4cf609e7a5c1eb962e817facdd12a",
+      "size": 621010,
+      "method": "redo",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::radio::seed1::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__radio__seed1/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_radio_seed2_current_100/endpoint.pt",
+      "sha256": "2d5aa03b3ab929e382ce8e2a65fd405cc93d308d111a96f61496e06bd2e79a8c",
+      "size": 621010,
+      "method": "redo",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::radio::seed2::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__radio__seed2/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_radio_seed3_current_100/endpoint.pt",
+      "sha256": "9ffa3fc2aee2d43349fb5b03b5449166fcc55d47ae55dadc886f758fa46857af",
+      "size": 620754,
+      "method": "redo",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::radio::seed3::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__radio__seed3/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_radio_seed4_current_100/endpoint.pt",
+      "sha256": "404421256437e78ac292cd354a1eadad5423865d99d9fd1c062433dfbb7feec8",
+      "size": 620754,
+      "method": "redo",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::radio::seed4::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__radio__seed4/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_v5_seed0_current_100/endpoint.pt",
+      "sha256": "b1ab318447a7d5a4dd49c11cc902ecb3226107c1db4988c9358e58dc0d8139bb",
+      "size": 546514,
+      "method": "redo",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::v5::seed0::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__v5__seed0/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_v5_seed1_current_100/endpoint.pt",
+      "sha256": "e7a91fc10fa5c09446efdda60d56c84cbdb716a368ec3637a8dd85ef74bb339c",
+      "size": 546450,
+      "method": "redo",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::v5::seed1::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__v5__seed1/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_v5_seed2_current_100/endpoint.pt",
+      "sha256": "94f423e342faf6f2ab91c858ed3b5ebdc50ac97d788894c7308668af7ac37eeb",
+      "size": 546322,
+      "method": "redo",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::v5::seed2::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__v5__seed2/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_v5_seed3_current_100/endpoint.pt",
+      "sha256": "d5cb9ebc03a8abe05a2a697a73021b7425e50a5447ba329175855ca7f049f11f",
+      "size": 546194,
+      "method": "redo",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::v5::seed3::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__v5__seed3/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_redo_v5_seed4_current_100/endpoint.pt",
+      "sha256": "34dd7895a5f8e43769a13ab2c9fc6af5f3a50aaf9b38c9d687e389575ad72d79",
+      "size": 547218,
+      "method": "redo",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::redo::v5::seed4::current_100",
+      "paper_method": "SAC+ReDo",
+      "variant": "redo",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/redo__v5__seed4/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_radio_seed0_current_100/endpoint.pt",
+      "sha256": "8a851264bd333b85843afa286cacf74f16ad4635f75099882e11d7b84d902bb8",
+      "size": 4875842,
+      "method": "mrq",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::radio::seed0::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__radio__seed0/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_radio_seed1_current_100/endpoint.pt",
+      "sha256": "7b57563c064821efb006fd3fc5ecbf844571ed703abbdd998d3952cecb8ef4c3",
+      "size": 4875842,
+      "method": "mrq",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::radio::seed1::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__radio__seed1/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_radio_seed2_current_100/endpoint.pt",
+      "sha256": "6f6de3a56c71463bbb79ba2a40a34367b0fa8c729a078c9ea2b24977939e198b",
+      "size": 4875842,
+      "method": "mrq",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::radio::seed2::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__radio__seed2/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_radio_seed3_current_100/endpoint.pt",
+      "sha256": "05b409b59084716709913621dfb9da28502e31587a271d82b90e600a3fc05889",
+      "size": 4875842,
+      "method": "mrq",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::radio::seed3::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__radio__seed3/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_radio_seed4_current_100/endpoint.pt",
+      "sha256": "c17b2f8d935af0c0fad2441a70884d3416cfe061826ef0806f2594ed30b6d4d1",
+      "size": 4875842,
+      "method": "mrq",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::radio::seed4::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__radio__seed4/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_v5_seed0_current_100/endpoint.pt",
+      "sha256": "9c61ae9a9080f3eaf6afd12a1b488e7515254fbb39857be1c0015ae67e77867a",
+      "size": 4738562,
+      "method": "mrq",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::v5::seed0::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__v5__seed0/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_v5_seed1_current_100/endpoint.pt",
+      "sha256": "0f9962835b82452e58ab0a9f66068842d47b6be59d6ee4a9fed75f5de5c9ca1d",
+      "size": 4738562,
+      "method": "mrq",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::v5::seed1::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__v5__seed1/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_v5_seed2_current_100/endpoint.pt",
+      "sha256": "9223f7e30a219315dec96b8d3f1e3b299e888a2c80bf137ad12ce807ae90003d",
+      "size": 4738562,
+      "method": "mrq",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::v5::seed2::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__v5__seed2/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_v5_seed3_current_100/endpoint.pt",
+      "sha256": "6d145934ae438857e01b33967049d8642f943d12241210efb72ce6d9029f04d1",
+      "size": 4738562,
+      "method": "mrq",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::v5::seed3::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__v5__seed3/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mrq_v5_seed4_current_100/endpoint.pt",
+      "sha256": "82db08b1831f81971b4cd7c66580d45d570ba22eb41b058f6e85e58456944a9d",
+      "size": 4738562,
+      "method": "mrq",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mrq::v5::seed4::current_100",
+      "paper_method": "MR.Q",
+      "variant": "mrq",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/mrq__v5__seed4/endpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_radio_seed0_current_100/endpoint.msgpack",
+      "sha256": "6d35d664c8331e16deb2e26f902876716e9298eec19af13a4ff1de17d64b9874",
+      "size": 886908,
+      "method": "bro",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::radio::seed0::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__radio__seed0/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_radio_seed1_current_100/endpoint.msgpack",
+      "sha256": "3e7bec1d15c5499244f32672f1a0dfa16be124005006ec1e5b26c4b24b3551f3",
+      "size": 886908,
+      "method": "bro",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::radio::seed1::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__radio__seed1/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_radio_seed2_current_100/endpoint.msgpack",
+      "sha256": "ff6a67e041c1859b24f78bc352e38e547e862a6acf6762e27b69f339932d9cd1",
+      "size": 886908,
+      "method": "bro",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::radio::seed2::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__radio__seed2/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_radio_seed3_current_100/endpoint.msgpack",
+      "sha256": "c2da65b2f7f02c0cd4e045377ae6141a6d4d46ba4845c282385c77e0040784f2",
+      "size": 886908,
+      "method": "bro",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::radio::seed3::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__radio__seed3/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_radio_seed4_current_100/endpoint.msgpack",
+      "sha256": "3976868806e40a5145bd5ef99e2b545cf77394dd5336f697daa50b30d14795a1",
+      "size": 886908,
+      "method": "bro",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::radio::seed4::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__radio__seed4/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_v5_seed0_current_100/endpoint.msgpack",
+      "sha256": "36dbbba5219fd106711815b36df34107cba09d456893f33fdb4fba45a3168458",
+      "size": 812107,
+      "method": "bro",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::v5::seed0::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__v5__seed0/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_v5_seed1_current_100/endpoint.msgpack",
+      "sha256": "14ba98db4e6093dcdc3a35cbd0e325a2b6903b45eafeb05008917a7feed1519f",
+      "size": 812107,
+      "method": "bro",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::v5::seed1::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__v5__seed1/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_v5_seed2_current_100/endpoint.msgpack",
+      "sha256": "c1ce03c72cc8ec0379a5ae39b4e9e66660112851738e9d319f3fecbfebab24ea",
+      "size": 812107,
+      "method": "bro",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::v5::seed2::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__v5__seed2/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_v5_seed3_current_100/endpoint.msgpack",
+      "sha256": "38c7d69f9bb85d9320818c17275e7a69822b32b0d28a9f894a3e83e5bff558c4",
+      "size": 812107,
+      "method": "bro",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::v5::seed3::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__v5__seed3/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_bro_v5_seed4_current_100/endpoint.msgpack",
+      "sha256": "3b0e842329c4389e2bf02c71ce4fadfd3ce7e91ac36791e14df7bc2f41819d2b",
+      "size": 812107,
+      "method": "bro",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::bro::v5::seed4::current_100",
+      "paper_method": "BRO(Fast)",
+      "variant": "bro",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/formal_100k_5seed_20261106/jobs/bro__v5__seed4/endpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_radio_seed0_current_100/checkpoint_final.pt",
+      "sha256": "bcbcb63e6949fa68a1795d2c8f173ce3fd02418957ed9efffc0cd42e5d7befdb",
+      "size": 166882,
+      "method": "no_history",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::radio::seed0::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__radio__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_radio_seed1_current_100/checkpoint_final.pt",
+      "sha256": "46d0c4573181e161fcccc8f4423cbf310a7212ac8234774481129af91a994ebf",
+      "size": 166818,
+      "method": "no_history",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::radio::seed1::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__radio__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_radio_seed2_current_100/checkpoint_final.pt",
+      "sha256": "2e4fc2483d3a7fe721a57e681ceedb577e581da7a6d9ee4ba6a9df1a668b3805",
+      "size": 166882,
+      "method": "no_history",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::radio::seed2::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__radio__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_radio_seed3_current_100/checkpoint_final.pt",
+      "sha256": "83599e0088cb6a254f129591de07b3b9c98752b4bffcebbdcc3c4ac48c075a43",
+      "size": 166818,
+      "method": "no_history",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::radio::seed3::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__radio__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_radio_seed4_current_100/checkpoint_final.pt",
+      "sha256": "9c7effaac55e087234fde3c44a4c8532bdfd8498dccc096847a6aac78c4812bb",
+      "size": 166818,
+      "method": "no_history",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::radio::seed4::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__radio__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_v5_seed0_current_100/checkpoint_final.pt",
+      "sha256": "7269a7f61edb461697d75d7178e14916fa8fcce5108097f5d61fc998e49751d2",
+      "size": 192738,
+      "method": "no_history",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::v5::seed0::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__v5__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_v5_seed1_current_100/checkpoint_final.pt",
+      "sha256": "1cde4ecb556efe8515df6e396731f4fd4a8b558d2bd823ea39e7e4b0603bcc20",
+      "size": 192738,
+      "method": "no_history",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::v5::seed1::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__v5__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_v5_seed2_current_100/checkpoint_final.pt",
+      "sha256": "6ba73127d3611974ac1e99ba32d71b16d83e0e44d483f60fe9576886cb6e1917",
+      "size": 192802,
+      "method": "no_history",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::v5::seed2::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__v5__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_v5_seed3_current_100/checkpoint_final.pt",
+      "sha256": "912d70323e2daa09d2ec2f0deef98c62ea2cda229c3053ae5c4f8656a0a681dd",
+      "size": 192738,
+      "method": "no_history",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::v5::seed3::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__v5__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_history_v5_seed4_current_100/checkpoint_final.pt",
+      "sha256": "1593c1907cb6a535ba6edc6c7a4ca4091143020560acc53e7d602941056317b9",
+      "size": 192738,
+      "method": "no_history",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_history::v5::seed4::current_100",
+      "paper_method": "仅用新轨迹",
+      "variant": "no_history",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_history__v5__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_radio_seed0_current_100/checkpoint_final.pt",
+      "sha256": "b0254193c63affad0e1310fe525c9befb950b577b3492c33665f069387c5771e",
+      "size": 167266,
+      "method": "no_offpolicy_correction",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::radio::seed0::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__radio__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_radio_seed1_current_100/checkpoint_final.pt",
+      "sha256": "5c57f992bc3c4962943d842d30a43324dcd9ed9d44a6384f9ea8c5eaeda610f6",
+      "size": 167266,
+      "method": "no_offpolicy_correction",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::radio::seed1::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__radio__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_radio_seed2_current_100/checkpoint_final.pt",
+      "sha256": "d68ebc84e2a3bda247851d742c46ff66ce03bb5b5d33326b9456c8c863617b2f",
+      "size": 167266,
+      "method": "no_offpolicy_correction",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::radio::seed2::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__radio__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_radio_seed3_current_100/checkpoint_final.pt",
+      "sha256": "aca3edd461feaf2d7d41a00e740e02393b8dd6350c4aea86a09c476dc6d8a243",
+      "size": 167266,
+      "method": "no_offpolicy_correction",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::radio::seed3::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__radio__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_radio_seed4_current_100/checkpoint_final.pt",
+      "sha256": "a56474d03ff2ff4f615a85bd13b275f89e927aa09b02fec7fe00545a1ac42658",
+      "size": 167266,
+      "method": "no_offpolicy_correction",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::radio::seed4::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__radio__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_v5_seed0_current_100/checkpoint_final.pt",
+      "sha256": "09db7e0949a55ef056607e996eb452eda8b676ec1ebea5727c9b37c8c3288062",
+      "size": 193186,
+      "method": "no_offpolicy_correction",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::v5::seed0::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__v5__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_v5_seed1_current_100/checkpoint_final.pt",
+      "sha256": "9b52368d2873509c427b037755be5be1f2ce30886c8818af67c56651354569ec",
+      "size": 193186,
+      "method": "no_offpolicy_correction",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::v5::seed1::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__v5__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_v5_seed2_current_100/checkpoint_final.pt",
+      "sha256": "0aa87c9515fc1ade8fb8ae207b5232936e06c5ea9e45b3fd84d54b76d1ee6b01",
+      "size": 193186,
+      "method": "no_offpolicy_correction",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::v5::seed2::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__v5__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_v5_seed3_current_100/checkpoint_final.pt",
+      "sha256": "c5283d747b76576223a247d0504425d8dd43d15f23f41ccb0d7bfd4202413fba",
+      "size": 193186,
+      "method": "no_offpolicy_correction",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::v5::seed3::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__v5__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_no_offpolicy_correction_v5_seed4_current_100/checkpoint_final.pt",
+      "sha256": "b0e305e54690c485c5e16657793a433503aa4705dd4cf5c93d7b233971e22989",
+      "size": 193186,
+      "method": "no_offpolicy_correction",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::no_offpolicy_correction::v5::seed4::current_100",
+      "paper_method": "旧轨迹不校正",
+      "variant": "no_offpolicy_correction",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/no_offpolicy_correction__v5__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_radio_seed0_current_100/checkpoint_final.pt",
+      "sha256": "68e5be4e29dc145f05d9c27bb6b7cf1926f718be84eb8ecd6166f68b3ae6bb9f",
+      "size": 166946,
+      "method": "fixed_actor_lr",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::radio::seed0::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__radio__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_radio_seed1_current_100/checkpoint_final.pt",
+      "sha256": "cbaeef970244fb989898ba303a172b853957dcb1902e7349f54268fecd139be6",
+      "size": 166946,
+      "method": "fixed_actor_lr",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::radio::seed1::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__radio__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_radio_seed2_current_100/checkpoint_final.pt",
+      "sha256": "cf086d4d2b8b45fa09a7d93f99fb623991af5d8dbb20ef7aa40929b18cfba2f0",
+      "size": 166946,
+      "method": "fixed_actor_lr",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::radio::seed2::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__radio__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_radio_seed3_current_100/checkpoint_final.pt",
+      "sha256": "0a2fe5190506c1f536f061c3ecaa84a4bb420c8fbe5b75b6dde751399113cb88",
+      "size": 166946,
+      "method": "fixed_actor_lr",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::radio::seed3::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__radio__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_radio_seed4_current_100/checkpoint_final.pt",
+      "sha256": "5ba1cc0b3027226bc17531b6fb8f86c19e0ab0f4df6681442b768fb6717799e6",
+      "size": 166946,
+      "method": "fixed_actor_lr",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::radio::seed4::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__radio__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_v5_seed0_current_100/checkpoint_final.pt",
+      "sha256": "d7a419219a5a1a69cdc0e692bad729d42ebb6b2afd4726e08114f9c13afcbd44",
+      "size": 192866,
+      "method": "fixed_actor_lr",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::v5::seed0::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__v5__seed0/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_v5_seed1_current_100/checkpoint_final.pt",
+      "sha256": "fb2a4646b3ac566f377be6c3adc1ccb723c26ed47f720d3c007ca213a75137cf",
+      "size": 192866,
+      "method": "fixed_actor_lr",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::v5::seed1::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__v5__seed1/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_v5_seed2_current_100/checkpoint_final.pt",
+      "sha256": "15712ebcf106c181e8b006efd64495c34c2cd0d2465ee2c1d9f9bf13603f5e31",
+      "size": 192866,
+      "method": "fixed_actor_lr",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::v5::seed2::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__v5__seed2/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_v5_seed3_current_100/checkpoint_final.pt",
+      "sha256": "6b1f202f0ae531d8ed640021e92b52917c214324d46f1d41aa9179be45cd7cbf",
+      "size": 192866,
+      "method": "fixed_actor_lr",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::v5::seed3::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__v5__seed3/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_actor_lr_v5_seed4_current_100/checkpoint_final.pt",
+      "sha256": "fb426ca397f23dcfa76154976aacd3f465ce4bc450d8222c6e6c4a2ac22310a2",
+      "size": 192866,
+      "method": "fixed_actor_lr",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::fixed_actor_lr::v5::seed4::current_100",
+      "paper_method": "固定Actor学习率（正式五种子）",
+      "variant": "fixed_actor_lr",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.3.2"
+      ],
+      "paper_figures": [
+        "4.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "此为正式seed0–4、100608步固定率模型；图4.8真实data.csv对应这一组，非seed7100/7101的DEV诊断。",
+      "original_model_path": "chapters/chapter04/formal/double_random_formal_20261107/jobs/fixed_actor_lr__v5__seed4/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_communication_0/state.pt",
+      "sha256": "75080a1c8ce184357603ecd3546bb8ec347d3104cb4ad439b0adc52140329e21",
+      "size": 143618,
+      "method": "A_inherited",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::radio::seed0::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/communication/seed_0/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_communication_1/state.pt",
+      "sha256": "8d70e44d5818ea0f55fffda8d8312ee129e0085f24d900ee62c5c188625dda0f",
+      "size": 143170,
+      "method": "A_inherited",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::radio::seed1::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/communication/seed_1/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_communication_2/state.pt",
+      "sha256": "519410e3e5dc52ef269b0a0c75604ed44c15b1164ad215d8074b0f78b7186816",
+      "size": 143170,
+      "method": "A_inherited",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::radio::seed2::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/communication/seed_2/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_communication_3/state.pt",
+      "sha256": "cd33027d70b4b3c0c4cae706d8949c9cf6c2d9b5f990893eb20f4701b7eb4216",
+      "size": 143170,
+      "method": "A_inherited",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::radio::seed3::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/communication/seed_3/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_communication_4/state.pt",
+      "sha256": "db559db5f1c9b83d44c94385d0363706aa9308c90a8b3d2da9867ef56a6ae0f1",
+      "size": 143170,
+      "method": "A_inherited",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::radio::seed4::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/communication/seed_4/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_emergency_diesel_0/state.pt",
+      "sha256": "da90cc5b9fd0eb35959d9d30f02b2de7ff07f1d1ce26f0edc7d2f1a788a09eac",
+      "size": 169474,
+      "method": "A_inherited",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::v5::seed0::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_0/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_emergency_diesel_1/state.pt",
+      "sha256": "3035046dc0bc72bab9a6dc62e911af5e450899b79fb00bdc841b431c2c0936ac",
+      "size": 169026,
+      "method": "A_inherited",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::v5::seed1::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_1/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_emergency_diesel_2/state.pt",
+      "sha256": "87b9d6c5101a6c7f797cc3d752b993052ea116fa54b3f8498ef1bdc8bbee2b14",
+      "size": 169026,
+      "method": "A_inherited",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::v5::seed2::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_2/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_emergency_diesel_3/state.pt",
+      "sha256": "6bc4666b12adb86931f63fb9d0bf3b604c23a6a01343b00a51cc9be859942180",
+      "size": 169026,
+      "method": "A_inherited",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::v5::seed3::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_3/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter03/models/ReJoP_emergency_diesel_4/state.pt",
+      "sha256": "9aec1348776f9c62dd66e2997dac97be37c7cdea99aea3afb73fcac00936d85e",
+      "size": 169026,
+      "method": "A_inherited",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::A_inherited::v5::seed4::current_100",
+      "paper_method": "第三章联合策略ReJoP（共用模型实体）",
+      "variant": "A_inherited",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "实体在第三章，仅登记共用；本章终测记录在第四章testing。 | 与第三章共用同一已保存模型实体；没有复制或文件系统链接。",
+      "original_model_path": "chapters/chapter03/training/ReJoP/emergency_diesel/seed_4/model/state.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_radio_seed0_current_100/checkpoint.msgpack",
+      "sha256": "fb05538fb81c873f58e94ebbfd7ec28a4a7370611a35fc2dd590e5e44bc6134c",
+      "size": 3838717,
+      "method": "mad_td",
+      "domain": "radio",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::radio::seed0::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__radio__seed0/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_radio_seed1_current_100/checkpoint.msgpack",
+      "sha256": "d15ca8709c5d5a62583bfc20e2fa676ef00432d564b176708772703814b02ded",
+      "size": 3838712,
+      "method": "mad_td",
+      "domain": "radio",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::radio::seed1::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__radio__seed1/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_radio_seed2_current_100/checkpoint.msgpack",
+      "sha256": "112e6ce0d0f97e60905abf3ca53eb833fdf098b8518854939bf1c9b5aa73fb68",
+      "size": 3838714,
+      "method": "mad_td",
+      "domain": "radio",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::radio::seed2::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__radio__seed2/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_radio_seed3_current_100/checkpoint.msgpack",
+      "sha256": "8e4486adce6267efa17d8b4a43cae5ef171d6646c33857f9775d75c2391f0a20",
+      "size": 3838717,
+      "method": "mad_td",
+      "domain": "radio",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::radio::seed3::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__radio__seed3/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_radio_seed4_current_100/checkpoint.msgpack",
+      "sha256": "e4af471a5b6bf94e1641e5e4f48623ddc2e919b0e7d2a7d81e167396103fb845",
+      "size": 3838710,
+      "method": "mad_td",
+      "domain": "radio",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::radio::seed4::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__radio__seed4/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_v5_seed0_current_100/checkpoint.msgpack",
+      "sha256": "6800d5edcb7f763c548314f9847de7651ea70d05c74d360634e6a7ecac103fdb",
+      "size": 3701465,
+      "method": "mad_td",
+      "domain": "v5",
+      "seed": 0,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::v5::seed0::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__v5__seed0/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_v5_seed1_current_100/checkpoint.msgpack",
+      "sha256": "cd8c39488e0375b023d3cce787e88c3c36b925e3499c3dbc3ec1d98bec12f9b6",
+      "size": 3701463,
+      "method": "mad_td",
+      "domain": "v5",
+      "seed": 1,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::v5::seed1::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__v5__seed1/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_v5_seed2_current_100/checkpoint.msgpack",
+      "sha256": "5a8567621f8e3c22b3dd8840c5a56e494b0a947cf9a5add19c45ea7b9926d238",
+      "size": 3701468,
+      "method": "mad_td",
+      "domain": "v5",
+      "seed": 2,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::v5::seed2::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__v5__seed2/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_v5_seed3_current_100/checkpoint.msgpack",
+      "sha256": "65c4794cf3c2b2f5b3fe9aeaddc00230f230a653606f048f069ad77ecbd0ca06",
+      "size": 3701460,
+      "method": "mad_td",
+      "domain": "v5",
+      "seed": 3,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::v5::seed3::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__v5__seed3/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_mad_td_v5_seed4_current_100/checkpoint.msgpack",
+      "sha256": "21f9717f53e2b50d091728f6f37af4776d6ec7c41be2eb5808408a2b8a4658cc",
+      "size": 3701463,
+      "method": "mad_td",
+      "domain": "v5",
+      "seed": 4,
+      "role": "current_100",
+      "paper_model_id": "chapter04::mad_td::v5::seed4::current_100",
+      "paper_method": "MAD-TD",
+      "variant": "mad_td",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [
+        "4.2"
+      ],
+      "paper_usage_status": "当前正文正式结果",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter04/formal/mad_td_formal_20261107/jobs/mad_td__v5__seed4/checkpoint.msgpack"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_3e4_radio_seed7100_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "63df14775126fba8f33cccfce6f771f00c5e94d420a8cb36783f7e7da6e6a2ec",
+      "size": 167778,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::fixed_3e4::radio::seed7100::current_PROPS_5_or_LR_8",
+      "paper_method": "固定3e-4（49152步DEV诊断）",
+      "variant": "fixed_3e4",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [],
+      "paper_tables": [],
+      "paper_usage_status": "已采用诊断来源保留_当前图4.6不绘制固定率",
+      "paper_usage_note": "图4.6已撤固定率柱，此4个模型仅保留开发诊断来源；不能映射为图4.8正式固定率模型。 | 49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/fixed_3e4__radio__seed7100/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_3e4_radio_seed7101_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "6d61156864b3c79add577dd70d94e96f222e45a4a4688fb43f3aab5138c71293",
+      "size": 167778,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::fixed_3e4::radio::seed7101::current_PROPS_5_or_LR_8",
+      "paper_method": "固定3e-4（49152步DEV诊断）",
+      "variant": "fixed_3e4",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [],
+      "paper_tables": [],
+      "paper_usage_status": "已采用诊断来源保留_当前图4.6不绘制固定率",
+      "paper_usage_note": "图4.6已撤固定率柱，此4个模型仅保留开发诊断来源；不能映射为图4.8正式固定率模型。 | 49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/fixed_3e4__radio__seed7101/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_3e4_v5_seed7100_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "b07e62487c68f635f69ab5e44bf088e629398d86ed3fca03ad92f922509163b0",
+      "size": 193698,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::fixed_3e4::v5::seed7100::current_PROPS_5_or_LR_8",
+      "paper_method": "固定3e-4（49152步DEV诊断）",
+      "variant": "fixed_3e4",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [],
+      "paper_tables": [],
+      "paper_usage_status": "已采用诊断来源保留_当前图4.6不绘制固定率",
+      "paper_usage_note": "图4.6已撤固定率柱，此4个模型仅保留开发诊断来源；不能映射为图4.8正式固定率模型。 | 49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/fixed_3e4__v5__seed7100/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_fixed_3e4_v5_seed7101_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "268513e8d100461322a3a7370da1880c444bde214b3cd0b76c7a9ee9e92c5c40",
+      "size": 193698,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::fixed_3e4::v5::seed7101::current_PROPS_5_or_LR_8",
+      "paper_method": "固定3e-4（49152步DEV诊断）",
+      "variant": "fixed_3e4",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [],
+      "paper_tables": [],
+      "paper_usage_status": "已采用诊断来源保留_当前图4.6不绘制固定率",
+      "paper_usage_note": "图4.6已撤固定率柱，此4个模型仅保留开发诊断来源；不能映射为图4.8正式固定率模型。 | 49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/fixed_3e4__v5__seed7101/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_original_feedback_v5_seed7100_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "cbd5eb54b4fd6939083d3c7c4303d7a9f6649667e573637eab3a34380aa29c22",
+      "size": 193762,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::original_feedback::v5::seed7100::current_PROPS_5_or_LR_8",
+      "paper_method": "TRoC原反馈（49152步DEV诊断）",
+      "variant": "original_feedback",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前图4.6两次开发训练来源",
+      "paper_usage_note": "49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/original_feedback__v5__seed7100/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_original_feedback_v5_seed7101_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "7295e42d39d496633d52e674b9e48ff1ae82fb3c5543973c36292645680c6dd4",
+      "size": 193762,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::original_feedback::v5::seed7101::current_PROPS_5_or_LR_8",
+      "paper_method": "TRoC原反馈（49152步DEV诊断）",
+      "variant": "original_feedback",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前图4.6两次开发训练来源",
+      "paper_usage_note": "49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/original_feedback__v5__seed7101/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_relaxed_feedback_radio_seed7100_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "f2eb387594e14b911db310e32da2da443ed9242324b049ca45826b709ede1ee6",
+      "size": 167842,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::relaxed_feedback::radio::seed7100::current_PROPS_5_or_LR_8",
+      "paper_method": "TRoC通信宽反馈（49152步DEV诊断）",
+      "variant": "relaxed_feedback",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前图4.6两次开发训练来源",
+      "paper_usage_note": "49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/relaxed_feedback__radio__seed7100/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_relaxed_feedback_radio_seed7101_current_PROPS_5_or_LR_8/checkpoint_final.pt",
+      "sha256": "fae5a6307d3afed3fe3281d3b69c31da326d35a4ed169d758e01092a916bb38f",
+      "size": 167842,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5_or_LR_8",
+      "paper_model_id": "chapter04::relaxed_feedback::radio::seed7101::current_PROPS_5_or_LR_8",
+      "paper_method": "TRoC通信宽反馈（49152步DEV诊断）",
+      "variant": "relaxed_feedback",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.2"
+      ],
+      "paper_figures": [
+        "4.6"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前图4.6两次开发训练来源",
+      "paper_usage_note": "49152步、seed7100/7101、DEV32；原registry no_TEST=true，reload也是DEV，不登记成TEST。",
+      "original_model_path": "chapters/chapter04/supplementary/lr_feedback_development_20261109_155109/jobs/relaxed_feedback__radio__seed7101/checkpoint_final.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed0_current_PROPS_5/checkpoint.pt",
+      "sha256": "3735aadd0a50c2a9cd3a749388464bc975f1713081cdb4fd99339ca9ddb0ab0d",
+      "size": 121698,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5",
+      "paper_model_id": "chapter04::props::v5::seed0::current_PROPS_5",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前随机曲线补充结果",
+      "paper_usage_note": "从头训练的柴油PROPS随机动作DEV曲线；原协议independent_TEST=false，无独立TEST，不替代表4.2原正式端点。",
+      "original_model_path": "chapters/chapter04/supplementary/props_stochastic_curve_20261109_113430/jobs/props__v5__seed0/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed1_current_PROPS_5/checkpoint.pt",
+      "sha256": "1f8bc1b68598d9ecb77ce6a339db6f0ac4a0623b1505149ba102b0c41eab7e86",
+      "size": 121698,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5",
+      "paper_model_id": "chapter04::props::v5::seed1::current_PROPS_5",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前随机曲线补充结果",
+      "paper_usage_note": "从头训练的柴油PROPS随机动作DEV曲线；原协议independent_TEST=false，无独立TEST，不替代表4.2原正式端点。",
+      "original_model_path": "chapters/chapter04/supplementary/props_stochastic_curve_20261109_113430/jobs/props__v5__seed1/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed2_current_PROPS_5/checkpoint.pt",
+      "sha256": "b1883c24a4d53162e9c2cd2c36d242cd2869a27b3eedf66d5c025d653270c1ca",
+      "size": 122018,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5",
+      "paper_model_id": "chapter04::props::v5::seed2::current_PROPS_5",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前随机曲线补充结果",
+      "paper_usage_note": "从头训练的柴油PROPS随机动作DEV曲线；原协议independent_TEST=false，无独立TEST，不替代表4.2原正式端点。",
+      "original_model_path": "chapters/chapter04/supplementary/props_stochastic_curve_20261109_113430/jobs/props__v5__seed2/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed3_current_PROPS_5/checkpoint.pt",
+      "sha256": "44231fad87c5a779524c1581d360e9f5ea0af3ca799455f79a300c4fc81da8a8",
+      "size": 121698,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5",
+      "paper_model_id": "chapter04::props::v5::seed3::current_PROPS_5",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前随机曲线补充结果",
+      "paper_usage_note": "从头训练的柴油PROPS随机动作DEV曲线；原协议independent_TEST=false，无独立TEST，不替代表4.2原正式端点。",
+      "original_model_path": "chapters/chapter04/supplementary/props_stochastic_curve_20261109_113430/jobs/props__v5__seed3/checkpoint.pt"
+    },
+    {
+      "chapter": "chapter04",
+      "model": "chapters/chapter04/models/chapter04_props_v5_seed4_current_PROPS_5/checkpoint.pt",
+      "sha256": "4df018ffa89bbce2385fc7881af87ee60ccf6c00a208910f2588186e0ec0d563",
+      "size": 121698,
+      "method": null,
+      "domain": null,
+      "seed": null,
+      "role": "current_PROPS_5",
+      "paper_model_id": "chapter04::props::v5::seed4::current_PROPS_5",
+      "paper_method": "PROPS",
+      "variant": "props",
+      "paper_sections": [
+        "4.3.1",
+        "4.3.2.1",
+        "4.3.3.1"
+      ],
+      "paper_figures": [
+        "4.4",
+        "4.5",
+        "4.7"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前随机曲线补充结果",
+      "paper_usage_note": "从头训练的柴油PROPS随机动作DEV曲线；原协议independent_TEST=false，无独立TEST，不替代表4.2原正式端点。",
+      "original_model_path": "chapters/chapter04/supplementary/props_stochastic_curve_20261109_113430/jobs/props__v5__seed4/checkpoint.pt"
+    }
+  ]
+}

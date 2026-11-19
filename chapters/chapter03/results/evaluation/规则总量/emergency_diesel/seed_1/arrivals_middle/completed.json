@@ -1,0 +1,29 @@
+{
+  "all_full_spend": true,
+  "all_native_replays_exact": true,
+  "artifacts_sha256": {
+    "evaluation_paths.csv.gz": "0511235947574b0a5f7fe6289ac77153b07f638d3e56d24a296e291877eb16b7",
+    "evaluation_steps.csv.gz": "a42197ebe1152b61c6a158a2f018a17809e5a6ca182b78eddcf99a0cb8db88fa",
+    "protocol.json": "59a087dc7f9060c63c2a851bba889a2af53d57c00402240a37279a11caa19147",
+    "terminal_diagnostics.npz": "366ba6aae4fec225ba60a5e86acfeda8e8633dd414e501fa19e5bc91c3ffbd76",
+    "trajectories.npz": "5d3680c2df2b276769f5bf76f7c2456e7138c4440c1771c0e5313c7e6ca3e2fd"
+  },
+  "condition": "arrivals_middle",
+  "domain": "v5",
+  "elapsed_seconds": 15.244323028251529,
+  "engineering_gate": false,
+  "evaluation_environment_steps": 3072,
+  "input_final_verification": null,
+  "learning_environment_steps": 0,
+  "method": "A_PACE",
+  "native_mean": 0.7613126203971187,
+  "native_path_sd": 0.07130883310825992,
+  "native_replay_environment_steps": 3072,
+  "paths": 128,
+  "policy_and_normalization_unchanged": true,
+  "protocol_sha256": "59a087dc7f9060c63c2a851bba889a2af53d57c00402240a37279a11caa19147",
+  "schema": "chapter3-frozen-conditions-rich-v1",
+  "seed": 1,
+  "source_unchanged": true,
+  "success": true
+}

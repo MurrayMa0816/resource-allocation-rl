@@ -1,0 +1,1720 @@
+{
+  "all_original_input_files_unchanged": true,
+  "input_files_sha256": {
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/mean_terminal_y.pdf": "320e162f4d59224b396fcc3987d41e29c8a16134b8b359fc42faf3f9469f9a58",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/mean_terminal_y.svg": "746a1633c7e3b630c5dc6d766ad14e2d3c25813d0819879dcb09779fa7375b95",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/mean_terminal_y.png": "cab83ca215976906eb22d91fc14c5dde9f01c9c45864b0528174e6491b43c7cb",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/mean_terminal_y_legend.pdf": "de6da3485c69eebbf21e24a0f617a8068e3bcd2904e66174248f4e5a1e9b56f8",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/mean_terminal_y_legend.svg": "5040e5085d9b13588b1d3b9b65d301999fbd2d7af1bd038ff2f9ac51d25757de",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/mean_terminal_y_legend.png": "48e1abca95b9319f9943b242c0c4c6065449b0444557fb0418177c0cc466a0c8",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/manifest.json": "3873c4e12f018d8e4fa1c5442c192ba6d28161b0062eb32c5cdbae685d8603b5",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/plot.py": "62c729d39e2853116bcd3bdcb3cfd6d1f4d7f7692b457a9c4d9be3240453f5ce",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/requirements.txt": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/README.local.rst": "e28f9c6e692564c86867a2904a1f90ddabeaa75f1cc6519a5f0617a6ab00b8e0",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/local_source.json": "753a7c82ed3368b989e384dc2e13586cc4652c9bdb64a9c14e957e45da9142c1",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/README.rst": "ee2cd019e273911f084857857558519360075db9da384f8637b7fb30907b039c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/CONTENTS.json": "74731bdb9bb550f1cf85a45f72b1dbf1cd05fb128fd1b1c2ed4acb4b284ed113",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/plot_native_map.py": "0ccf02775069bbc0fd2044bc91b9fb3b6ac424cef3832d6919bb97b669d1dbb5",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/README_NATIVE_MAP.rst": "470df6649e905a133555ef0ed8282af164723203fcbe6fc83968a06b3038d614",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_map.pdf": "66cdde207bf4d2f062b4639f2f6165990a65c294c6745080f7b9e8c297777d5c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_map.svg": "a5626a5397dbea533d38f97391e04f59d0927073bc59afbaa6be4fead12aaf21",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_map.png": "d2c17b30e24e69629249b7fc4735ca478641c9bb0a5af099ddd02f701922ab47",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_legend.pdf": "227b6ce07243da815e95eddda4dc7cf1364016875ca4a55866dd8775fabbe00c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_legend.svg": "b5d7adf76da1c5784950492628e484d79dde0952e4ceba658184ea06b89a3208",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_legend.png": "862c2fccc8443b09cccc2a9c3f3ce1e7a22fa8fe282743d18066c5d0c94ff57b",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_map_proof.json": "d0a30d0fc2411ca90f924673650b65702ae02d09a6da3672796b6822e3b4a221",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/README_FULLSIZE15.rst": "f61135dc4e760233ee6c6cec43815b01142d0b94efc3245edca934c9180118dc",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15.pdf": "143c9b4b40f78ef0e953366d4393b3a7dd08d956592d037790103a7484b4691e",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15.png": "7aaea5c343bf13700b8dc62ca3f768577f7602c8a7584f8e18faafb230c9578b",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15.svg": "77fd8204bcca9dee1305b2bb8c907dc2ad1db853890095a4d1647304af147df4",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15_geometry.json": "b2552a8577a07cc261f664fda31e4990cbb5a45dd0d48f8de88942b636717a8a",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15_science.json": "5ac82b524ab203656deee201b7da07734e86d3daaac6fd9f18d39ee91e7fb78a",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/plot_fullsize15.py": "9d2508c61e348da93482f5d51d0cd1846f6c2b05be56199b6a8c0dd501db781c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/provenance/original_static_scene_render.py": "983137583127d2bc239534bd7dbb2123d7866a02b03da634b08e3ae0c9e06284",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/source/display_helpers.py": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/source/map_family.py": "4e91b8f86a2c64b2668e3bbd9706092da52eb9567748026ca7cc6e9005dd9dd8",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/channel_style.json": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/mapping.json": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/visible_manifest.json": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/mean_terminal_y_all89.csv": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/palette.json": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/combined_water_geometry.json": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/water_hex_edges.json": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/style_overrides.json": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/data/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/data/water_band.json": "fe5549a2c52d64b10965212a5f8aa60df2e5a55ceb072fe6e5f98906200e1157",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/data/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/data/internal_hex_edges.json": "629694d376cadaaee127ae5d601e58846ca51be7f4482df53a5da6d2bb229f5c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/data/source_regions.json": "30a4c3e36e814b9406cae88c527b50b5d5e71ee145ca4eaaae9b91d0c9e52d65",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_map_20261110/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_map_20261110/origin.json": "096143e63af286afb1ea4bff48b183dc7d930e09f6730022a29babf9daf3cab6",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/native_map_20261110/source/render_maps.py": "5749c72af58f99fdd8a0b43b92678351ca9eeb36a5c4629c8de6f529ce4c86ed",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15_20261111/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15_20261111/origin.json": "253c2e3b2bd23a554606195a6a921556e38312eb1919a90c012583954400916a",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/fullsize15_20261111/source/render_maps.py": "77c897c927c703b9a34e6e754225e5048696e8ef7db194718a6f7db9e2eb4053",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/compact_labels_20261112/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/compact_labels_20261112/origin.json": "820467203721351a894b772b40bfe439aae24d1ed374860ad2d3f3b60688f154",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/compact_labels_20261112/source/render_maps.py": "f05bbb64d5ab465463ecf64296fb294cc1fad86d4e97031674347359302e8050"
+  },
+  "fixed89ID_world_positions_reuse_accepted_optimized_layout": true,
+  "fixed_ID_world_positions": [
+    [
+      7.269156599761611,
+      2.251619886466068
+    ],
+    [
+      11.49999991183751,
+      3.6675916932009636
+    ],
+    [
+      9.740000000000004,
+      -2.078507084146424
+    ],
+    [
+      14.90803117533135,
+      2.251619857971494
+    ],
+    [
+      14.500000000000004,
+      -2.078507084146424
+    ],
+    [
+      20.940000000000005,
+      1.0516199158535682
+    ],
+    [
+      25.02000000000001,
+      -2.078507084146424
+    ],
+    [
+      22.77999999999998,
+      2.0116199158535673
+    ],
+    [
+      25.921391158265244,
+      4.0399001711768365
+    ],
+    [
+      29.49999997061248,
+      3.752398264260396
+    ],
+    [
+      32.04743992531304,
+      -3.9947986938771387
+    ],
+    [
+      36.316873866282506,
+      -1.212481142921421
+    ],
+    [
+      35.61999991183745,
+      3.8915973394682575
+    ],
+    [
+      44.20000000000004,
+      -2.4124810841464255
+    ],
+    [
+      40.65423488068333,
+      -9.872736096663964
+    ],
+    [
+      38.21999991183753,
+      -4.130260762280517
+    ],
+    [
+      36.08831583998805,
+      -4.102608084146423
+    ],
+    [
+      34.06787628968059,
+      -4.978688805869831
+    ],
+    [
+      33.699999999999946,
+      -6.92315879610028
+    ],
+    [
+      27.9346959633135,
+      -5.542608142028497
+    ],
+    [
+      25.017637450093776,
+      -9.872736240922682
+    ],
+    [
+      22.836238257444336,
+      -6.88221600704411
+    ],
+    [
+      20.04362828561185,
+      -8.8312097534143
+    ],
+    [
+      18.798891330238643,
+      -12.13025714294976
+    ],
+    [
+      15.734715900174663,
+      -5.542608199910569
+    ],
+    [
+      21.003400525251156,
+      -11.66342537030977
+    ],
+    [
+      13.007478130344857,
+      -10.967995150778217
+    ],
+    [
+      7.740000000000001,
+      -3.0607958282365306
+    ],
+    [
+      10.987038510846812,
+      -11.193761756744546
+    ],
+    [
+      11.011596599511872,
+      -13.138230587503513
+    ],
+    [
+      10.07349754809494,
+      -5.782608142921422
+    ],
+    [
+      6.488118068459725,
+      -9.87273612605146
+    ],
+    [
+      2.4805480792340515,
+      -6.863774769346802
+    ],
+    [
+      8.991156194282668,
+      -13.576837142921454
+    ],
+    [
+      7.545906475296236,
+      -19.729632186296815
+    ],
+    [
+      6.513122300398838,
+      -16.660121178896492
+    ],
+    [
+      13.716599422854914,
+      -15.869815516452688
+    ],
+    [
+      15.027919828712474,
+      -12.045453155783743
+    ],
+    [
+      16.406827498875966,
+      -19.11367655359722
+    ],
+    [
+      18.597785048056135,
+      -14.074725393172244
+    ],
+    [
+      20.850218714092772,
+      -19.54250122964245
+    ],
+    [
+      27.424990468188806,
+      -13.576837142921454
+    ],
+    [
+      29.34319779035245,
+      -17.144409005459302
+    ],
+    [
+      32.98468108827562,
+      -13.336837199910605
+    ],
+    [
+      41.52152195718046,
+      -17.42696414292146
+    ],
+    [
+      44.93999987035785,
+      -18.583518121623943
+    ],
+    [
+      40.36288460399208,
+      -24.410443641368737
+    ],
+    [
+      39.06314299036697,
+      -21.371066142921453
+    ],
+    [
+      36.66038903297354,
+      -27.50613531413386
+    ],
+    [
+      34.73999999999995,
+      -22.293008251071175
+    ],
+    [
+      31.256030903420513,
+      -22.410046824600556
+    ],
+    [
+      30.79616864616913,
+      -27.052762191702612
+    ],
+    [
+      34.268004360627835,
+      -20.317093472899433
+    ],
+    [
+      25.969454255536558,
+      -22.47863126887012
+    ],
+    [
+      26.820000058774962,
+      -26.53451394309052
+    ],
+    [
+      23.949014271004692,
+      -22.95325425938472
+    ],
+    [
+      24.343877764700625,
+      -20.534162041796034
+    ],
+    [
+      23.21999999999997,
+      -18.58969328300444
+    ],
+    [
+      18.775917672395106,
+      -22.51535191369893
+    ],
+    [
+      18.829781546476028,
+      -20.570881254594006
+    ],
+    [
+      15.860000277259806,
+      -27.244200401184095
+    ],
+    [
+      16.755480939003583,
+      -21.371066706887053
+    ],
+    [
+      5.525470693073387,
+      -19.54682817840589
+    ],
+    [
+      6.963383236944926,
+      -21.674103365048826
+    ],
+    [
+      10.43078990374219,
+      -25.461193142921456
+    ],
+    [
+      0.4800002145664892,
+      -26.250848418211532
+    ],
+    [
+      6.139999941225003,
+      -27.07590913459164
+    ],
+    [
+      5.090011362013463,
+      -32.77542117166396
+    ],
+    [
+      11.5967014074692,
+      -32.38939569266157
+    ],
+    [
+      12.699999870357816,
+      -27.244610029593012
+    ],
+    [
+      13.617142475324346,
+      -32.285294084146415
+    ],
+    [
+      18.625190281135886,
+      -32.19397356184175
+    ],
+    [
+      18.580000000000005,
+      -35.4
+    ],
+    [
+      22.734780046666394,
+      -29.373524412624672
+    ],
+    [
+      24.487626891321433,
+      -33.255421142921385
+    ],
+    [
+      24.755219865171085,
+      -29.01185102677869
+    ],
+    [
+      24.303123476637634,
+      -35.4
+    ],
+    [
+      26.323562237223904,
+      -35.4
+    ],
+    [
+      28.34400010906964,
+      -35.4
+    ],
+    [
+      30.36443791172352,
+      -35.4
+    ],
+    [
+      32.161205861879274,
+      -28.997232301262656
+    ],
+    [
+      32.38487644167016,
+      -35.929464050976065
+    ],
+    [
+      36.72230311897344,
+      -29.450607091101347
+    ],
+    [
+      35.020000000000024,
+      -35.4
+    ],
+    [
+      38.75,
+      -29.01185102677869
+    ],
+    [
+      39.01213871101231,
+      -35.43071351985765
+    ],
+    [
+      43.01127130711669,
+      -26.285294142921362
+    ],
+    [
+      46.0751965845139,
+      -30.188316609512935
+    ],
+    [
+      46.54626523210804,
+      -33.255421142921385
+    ]
+  ],
+  "geographic_data_and_colours_source_files_unchanged": true,
+  "original_uncompressed_map_basis_mm": [
+    156.0,
+    131.21471879190491
+  ],
+  "actual_axes_mm": [
+    146.0,
+    109.21471879190491
+  ],
+  "raw_manifest": {
+    "source": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/compact_labels_20261112/source/render_maps.py",
+    "source_sha256": "f05bbb64d5ab465463ecf64296fb294cc1fad86d4e97031674347359302e8050",
+    "read_only_inputs_sha256": {
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/combined_water_geometry.json": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/geometry/water_hex_edges.json": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/source/display_helpers.py": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/channel_style.json": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/mapping.json": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/visible_manifest.json": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/palette.json": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/data/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/data/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/static_scene/style_overrides.json": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-06_区域终点统一尺度_20261109/data/mean_terminal_y_all89.csv": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+    },
+    "inputs_unchanged": true,
+    "original_uncompressed_canvas_width_mm": 156.0,
+    "canvas_width_mm": 156.0,
+    "canvas_height_mm": 117.21471879190491,
+    "scene_board_width_mm": 146.0,
+    "scene_board_height_mm": 109.21471879190491,
+    "scene_left_mm": 5.0,
+    "scene_right_mm": 151.0,
+    "scene_bottom_mm": 4.0,
+    "common_fixed_label_positions": [
+      [
+        7.269156599761611,
+        2.251619886466068
+      ],
+      [
+        11.49999991183751,
+        3.6675916932009636
+      ],
+      [
+        9.740000000000004,
+        -2.078507084146424
+      ],
+      [
+        14.90803117533135,
+        2.251619857971494
+      ],
+      [
+        14.500000000000004,
+        -2.078507084146424
+      ],
+      [
+        20.940000000000005,
+        1.0516199158535682
+      ],
+      [
+        25.02000000000001,
+        -2.078507084146424
+      ],
+      [
+        22.77999999999998,
+        2.0116199158535673
+      ],
+      [
+        25.921391158265244,
+        4.0399001711768365
+      ],
+      [
+        29.49999997061248,
+        3.752398264260396
+      ],
+      [
+        32.04743992531304,
+        -3.9947986938771387
+      ],
+      [
+        36.316873866282506,
+        -1.212481142921421
+      ],
+      [
+        35.61999991183745,
+        3.8915973394682575
+      ],
+      [
+        44.20000000000004,
+        -2.4124810841464255
+      ],
+      [
+        40.65423488068333,
+        -9.872736096663964
+      ],
+      [
+        38.21999991183753,
+        -4.130260762280517
+      ],
+      [
+        36.08831583998805,
+        -4.102608084146423
+      ],
+      [
+        34.06787628968059,
+        -4.978688805869831
+      ],
+      [
+        33.699999999999946,
+        -6.92315879610028
+      ],
+      [
+        27.9346959633135,
+        -5.542608142028497
+      ],
+      [
+        25.017637450093776,
+        -9.872736240922682
+      ],
+      [
+        22.836238257444336,
+        -6.88221600704411
+      ],
+      [
+        20.04362828561185,
+        -8.8312097534143
+      ],
+      [
+        18.798891330238643,
+        -12.13025714294976
+      ],
+      [
+        15.734715900174663,
+        -5.542608199910569
+      ],
+      [
+        21.003400525251156,
+        -11.66342537030977
+      ],
+      [
+        13.007478130344857,
+        -10.967995150778217
+      ],
+      [
+        7.740000000000001,
+        -3.0607958282365306
+      ],
+      [
+        10.987038510846812,
+        -11.193761756744546
+      ],
+      [
+        11.011596599511872,
+        -13.138230587503513
+      ],
+      [
+        10.07349754809494,
+        -5.782608142921422
+      ],
+      [
+        6.488118068459725,
+        -9.87273612605146
+      ],
+      [
+        2.4805480792340515,
+        -6.863774769346802
+      ],
+      [
+        8.991156194282668,
+        -13.576837142921454
+      ],
+      [
+        7.545906475296236,
+        -19.729632186296815
+      ],
+      [
+        6.513122300398838,
+        -16.660121178896492
+      ],
+      [
+        13.716599422854914,
+        -15.869815516452688
+      ],
+      [
+        15.027919828712474,
+        -12.045453155783743
+      ],
+      [
+        16.406827498875966,
+        -19.11367655359722
+      ],
+      [
+        18.597785048056135,
+        -14.074725393172244
+      ],
+      [
+        20.850218714092772,
+        -19.54250122964245
+      ],
+      [
+        27.424990468188806,
+        -13.576837142921454
+      ],
+      [
+        29.34319779035245,
+        -17.144409005459302
+      ],
+      [
+        32.98468108827562,
+        -13.336837199910605
+      ],
+      [
+        41.52152195718046,
+        -17.42696414292146
+      ],
+      [
+        44.93999987035785,
+        -18.583518121623943
+      ],
+      [
+        40.36288460399208,
+        -24.410443641368737
+      ],
+      [
+        39.06314299036697,
+        -21.371066142921453
+      ],
+      [
+        36.66038903297354,
+        -27.50613531413386
+      ],
+      [
+        34.73999999999995,
+        -22.293008251071175
+      ],
+      [
+        31.256030903420513,
+        -22.410046824600556
+      ],
+      [
+        30.79616864616913,
+        -27.052762191702612
+      ],
+      [
+        34.268004360627835,
+        -20.317093472899433
+      ],
+      [
+        25.969454255536558,
+        -22.47863126887012
+      ],
+      [
+        26.820000058774962,
+        -26.53451394309052
+      ],
+      [
+        23.949014271004692,
+        -22.95325425938472
+      ],
+      [
+        24.343877764700625,
+        -20.534162041796034
+      ],
+      [
+        23.21999999999997,
+        -18.58969328300444
+      ],
+      [
+        18.775917672395106,
+        -22.51535191369893
+      ],
+      [
+        18.829781546476028,
+        -20.570881254594006
+      ],
+      [
+        15.860000277259806,
+        -27.244200401184095
+      ],
+      [
+        16.755480939003583,
+        -21.371066706887053
+      ],
+      [
+        5.525470693073387,
+        -19.54682817840589
+      ],
+      [
+        6.963383236944926,
+        -21.674103365048826
+      ],
+      [
+        10.43078990374219,
+        -25.461193142921456
+      ],
+      [
+        0.4800002145664892,
+        -26.250848418211532
+      ],
+      [
+        6.139999941225003,
+        -27.07590913459164
+      ],
+      [
+        5.090011362013463,
+        -32.77542117166396
+      ],
+      [
+        11.5967014074692,
+        -32.38939569266157
+      ],
+      [
+        12.699999870357816,
+        -27.244610029593012
+      ],
+      [
+        13.617142475324346,
+        -32.285294084146415
+      ],
+      [
+        18.625190281135886,
+        -32.19397356184175
+      ],
+      [
+        18.580000000000005,
+        -35.4
+      ],
+      [
+        22.734780046666394,
+        -29.373524412624672
+      ],
+      [
+        24.487626891321433,
+        -33.255421142921385
+      ],
+      [
+        24.755219865171085,
+        -29.01185102677869
+      ],
+      [
+        24.303123476637634,
+        -35.4
+      ],
+      [
+        26.323562237223904,
+        -35.4
+      ],
+      [
+        28.34400010906964,
+        -35.4
+      ],
+      [
+        30.36443791172352,
+        -35.4
+      ],
+      [
+        32.161205861879274,
+        -28.997232301262656
+      ],
+      [
+        32.38487644167016,
+        -35.929464050976065
+      ],
+      [
+        36.72230311897344,
+        -29.450607091101347
+      ],
+      [
+        35.020000000000024,
+        -35.4
+      ],
+      [
+        38.75,
+        -29.01185102677869
+      ],
+      [
+        39.01213871101231,
+        -35.43071351985765
+      ],
+      [
+        43.01127130711669,
+        -26.285294142921362
+      ],
+      [
+        46.0751965845139,
+        -30.188316609512935
+      ],
+      [
+        46.54626523210804,
+        -33.255421142921385
+      ]
+    ],
+    "original_big_circle_mapping_sha256": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+    "region_ID_font_bp": 9.5,
+    "channel_fonts_bp": [
+      10.5
+    ],
+    "channel_name_callouts": true,
+    "channel_semantics": "One upstream 三分干渠 and one continuous serpentine 洪庙支渠; five old repeated tiny labels did not denote five separate channels",
+    "service_hex_grid_line_bp": 0.25,
+    "original_service_hex_grid_line_bp": 0.16,
+    "yield_palette": [
+      "#f2da5e",
+      "#beb051",
+      "#8e8b5a",
+      "#5c636e",
+      "#123570"
+    ],
+    "yield_palette_gray_luminance": [
+      0.8398023529411764,
+      0.6749701960784313,
+      0.5337254901960784,
+      0.385513725490196,
+      0.19536784313725492
+    ],
+    "ordinary_legend_font_bp": 10.5,
+    "quantitative_bar_left_mm": 5.0,
+    "quantitative_bar_right_mm": 151.0,
+    "quantitative_bar_length_mm": 146.0,
+    "scientific_execution": {
+      "environment_steps": 0,
+      "model_loads": 0,
+      "inference_calls": 0,
+      "training_steps": 0
+    },
+    "group": "regional",
+    "assets": {
+      "regional": {
+        "width_mm": 156.0,
+        "height_mm": 117.21471879190491,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.6/.fullsize15-fpl0p9n1/figures/regional/mean_terminal_y.pdf",
+            "sha256": "39e160b2b21de7064769066d27cf59344d48216a4dcea6d51a6f8f5c43634c47"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.6/.fullsize15-fpl0p9n1/figures/regional/mean_terminal_y.svg",
+            "sha256": "a80bca7b1386b0b81cbf6af8418d07c7364f8b780d9785f7ae3a4ad36eba3202"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.6/.fullsize15-fpl0p9n1/figures/regional/mean_terminal_y.png",
+            "sha256": "0f31ff67a9104ebc357e906ec5699681fa677a04754db8458aa01899f8c4fd48"
+          }
+        }
+      },
+      "regional_legend": {
+        "width_mm": 156.0,
+        "height_mm": 28.0,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.6/.fullsize15-fpl0p9n1/figures/regional/mean_terminal_y_legend.pdf",
+            "sha256": "4aa80b1a8c3f93ddf09d7880b5da82c79de5bf79530749b762b0de9c7b3911e5"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.6/.fullsize15-fpl0p9n1/figures/regional/mean_terminal_y_legend.svg",
+            "sha256": "172d797e05309adff864f88747ddeb6488678fc558fa6931536277a734f2e251"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.6/.fullsize15-fpl0p9n1/figures/regional/mean_terminal_y_legend.png",
+            "sha256": "0619ddc63ddf369ecf1e3eec8f93ec2381bdd3a7dc0213d4f9e179b18ba47042"
+          }
+        },
+        "yield_bar": {
+          "left_mm": 5.0,
+          "right_mm": 151.0,
+          "length_mm": 146.0,
+          "equals_scene_board": true
+        }
+      }
+    },
+    "statistic": "Within each policy128-weather mean, then mean over3 independent training seeds",
+    "low_mean_region_ids": [
+      "12",
+      "65",
+      "76",
+      "92"
+    ],
+    "range_percent": [
+      88.01502621127939,
+      93.75707178774866
+    ],
+    "threshold": 90.0
+  },
+  "restored_display_only_no_new_scientific_execution": true,
+  "scientific_CSV_columns_unchanged": true,
+  "scientific_rows": [
+    {
+      "region_id": "1",
+      "mean_relative_yield_percent": "91.56856577642479",
+      "training_sample_sd_percent": "0.9958809840411552",
+      "seed6400_weather128_mean_percent": "90.79073570983813",
+      "seed6401_weather128_mean_percent": "91.22398628007929",
+      "seed6402_weather128_mean_percent": "92.69097533935698",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "3",
+      "mean_relative_yield_percent": "93.5545846018206",
+      "training_sample_sd_percent": "0.8234804897937851",
+      "seed6400_weather128_mean_percent": "94.06222178189485",
+      "seed6401_weather128_mean_percent": "93.99707663724149",
+      "seed6402_weather128_mean_percent": "92.60445538632548",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "2",
+      "mean_relative_yield_percent": "92.17201686758717",
+      "training_sample_sd_percent": "1.0915828662605753",
+      "seed6400_weather128_mean_percent": "93.17233159617543",
+      "seed6401_weather128_mean_percent": "91.00772022065671",
+      "seed6402_weather128_mean_percent": "92.33599878592939",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "4",
+      "mean_relative_yield_percent": "91.89497392646966",
+      "training_sample_sd_percent": "0.9571716591741686",
+      "seed6400_weather128_mean_percent": "92.16418537842631",
+      "seed6401_weather128_mean_percent": "90.83202479381049",
+      "seed6402_weather128_mean_percent": "92.68871160717215",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "5",
+      "mean_relative_yield_percent": "93.05614127859364",
+      "training_sample_sd_percent": "0.795622382063818",
+      "seed6400_weather128_mean_percent": "93.9630994426162",
+      "seed6401_weather128_mean_percent": "92.7294894072886",
+      "seed6402_weather128_mean_percent": "92.47583498587612",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "6",
+      "mean_relative_yield_percent": "92.97450953571024",
+      "training_sample_sd_percent": "0.35629209248791355",
+      "seed6400_weather128_mean_percent": "92.95952751831253",
+      "seed6401_weather128_mean_percent": "93.33805631186054",
+      "seed6402_weather128_mean_percent": "92.62594477695765",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "7",
+      "mean_relative_yield_percent": "92.38137350123175",
+      "training_sample_sd_percent": "0.18813845518866967",
+      "seed6400_weather128_mean_percent": "92.18072316525294",
+      "seed6401_weather128_mean_percent": "92.40958306533076",
+      "seed6402_weather128_mean_percent": "92.55381427311153",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "8",
+      "mean_relative_yield_percent": "92.50807365155549",
+      "training_sample_sd_percent": "0.4611778841279017",
+      "seed6400_weather128_mean_percent": "92.66929191670307",
+      "seed6401_weather128_mean_percent": "91.9879289185512",
+      "seed6402_weather128_mean_percent": "92.86700011941218",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "9",
+      "mean_relative_yield_percent": "93.63049743669664",
+      "training_sample_sd_percent": "0.9619478005795769",
+      "seed6400_weather128_mean_percent": "94.35385650765656",
+      "seed6401_weather128_mean_percent": "93.99882290933986",
+      "seed6402_weather128_mean_percent": "92.53881289309354",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "11",
+      "mean_relative_yield_percent": "93.57761171284415",
+      "training_sample_sd_percent": "0.8164861379560515",
+      "seed6400_weather128_mean_percent": "94.1236510257809",
+      "seed6401_weather128_mean_percent": "93.97019735609929",
+      "seed6402_weather128_mean_percent": "92.63898675665223",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "12",
+      "mean_relative_yield_percent": "88.40876618127545",
+      "training_sample_sd_percent": "6.5234973799353115",
+      "seed6400_weather128_mean_percent": "92.76288860929054",
+      "seed6401_weather128_mean_percent": "91.55497759577518",
+      "seed6402_weather128_mean_percent": "80.90843233876062",
+      "mean_below_90": "True"
+    },
+    {
+      "region_id": "13",
+      "mean_relative_yield_percent": "93.00758239964563",
+      "training_sample_sd_percent": "0.33686164524606604",
+      "seed6400_weather128_mean_percent": "92.99038271108137",
+      "seed6401_weather128_mean_percent": "93.35271440594629",
+      "seed6402_weather128_mean_percent": "92.67965008190926",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "14",
+      "mean_relative_yield_percent": "91.62151937608242",
+      "training_sample_sd_percent": "1.0957066542579217",
+      "seed6400_weather128_mean_percent": "90.84399834731265",
+      "seed6401_weather128_mean_percent": "91.14589059185776",
+      "seed6402_weather128_mean_percent": "92.87466918907684",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "15",
+      "mean_relative_yield_percent": "93.35124999568512",
+      "training_sample_sd_percent": "0.6743301565122268",
+      "seed6400_weather128_mean_percent": "93.09695106503338",
+      "seed6401_weather128_mean_percent": "94.11575352303919",
+      "seed6402_weather128_mean_percent": "92.8410453989828",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "16",
+      "mean_relative_yield_percent": "91.84319030089756",
+      "training_sample_sd_percent": "0.8713097611356067",
+      "seed6400_weather128_mean_percent": "91.91127936036492",
+      "seed6401_weather128_mean_percent": "90.93983362363814",
+      "seed6402_weather128_mean_percent": "92.67845791868963",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "17",
+      "mean_relative_yield_percent": "93.48771263955352",
+      "training_sample_sd_percent": "0.7115613692996068",
+      "seed6400_weather128_mean_percent": "93.99921391506969",
+      "seed6401_weather128_mean_percent": "93.78882321981885",
+      "seed6402_weather128_mean_percent": "92.67510078377201",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "19",
+      "mean_relative_yield_percent": "92.88405637159065",
+      "training_sample_sd_percent": "0.1270408468008922",
+      "seed6400_weather128_mean_percent": "93.0303731518692",
+      "seed6401_weather128_mean_percent": "92.8200043864818",
+      "seed6402_weather128_mean_percent": "92.80179157642097",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "20",
+      "mean_relative_yield_percent": "92.57952432411984",
+      "training_sample_sd_percent": "0.4467443521049999",
+      "seed6400_weather128_mean_percent": "92.88348732099342",
+      "seed6401_weather128_mean_percent": "92.06659215240975",
+      "seed6402_weather128_mean_percent": "92.78849349895631",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "21",
+      "mean_relative_yield_percent": "91.4662094568814",
+      "training_sample_sd_percent": "2.53342447624194",
+      "seed6400_weather128_mean_percent": "93.07483324829914",
+      "seed6401_weather128_mean_percent": "92.77790481543357",
+      "seed6402_weather128_mean_percent": "88.54589030691149",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "22",
+      "mean_relative_yield_percent": "91.62102410306578",
+      "training_sample_sd_percent": "1.0744665383100689",
+      "seed6400_weather128_mean_percent": "91.53622098277798",
+      "seed6401_weather128_mean_percent": "90.59147199581535",
+      "seed6402_weather128_mean_percent": "92.73537933060398",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "23",
+      "mean_relative_yield_percent": "92.26566178532262",
+      "training_sample_sd_percent": "0.6082166798235511",
+      "seed6400_weather128_mean_percent": "92.56693238891825",
+      "seed6401_weather128_mean_percent": "91.56561357216175",
+      "seed6402_weather128_mean_percent": "92.66443939488786",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "24",
+      "mean_relative_yield_percent": "92.10160392472623",
+      "training_sample_sd_percent": "1.3207587070564302",
+      "seed6400_weather128_mean_percent": "93.4243050764079",
+      "seed6401_weather128_mean_percent": "90.78279627061309",
+      "seed6402_weather128_mean_percent": "92.09771042715771",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "25",
+      "mean_relative_yield_percent": "92.43696759422748",
+      "training_sample_sd_percent": "0.5820121408381369",
+      "seed6400_weather128_mean_percent": "92.62607836400505",
+      "seed6401_weather128_mean_percent": "91.78391783188393",
+      "seed6402_weather128_mean_percent": "92.90090658679347",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "27",
+      "mean_relative_yield_percent": "93.54674138471559",
+      "training_sample_sd_percent": "0.7019229381511192",
+      "seed6400_weather128_mean_percent": "93.77039054065389",
+      "seed6401_weather128_mean_percent": "94.10958828412544",
+      "seed6402_weather128_mean_percent": "92.76024532936744",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "26",
+      "mean_relative_yield_percent": "92.44520009786778",
+      "training_sample_sd_percent": "0.3041119439612678",
+      "seed6400_weather128_mean_percent": "92.51139165503936",
+      "seed6401_weather128_mean_percent": "92.11344383850275",
+      "seed6402_weather128_mean_percent": "92.71076480006128",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "28",
+      "mean_relative_yield_percent": "93.14363703864207",
+      "training_sample_sd_percent": "0.7308401447999175",
+      "seed6400_weather128_mean_percent": "93.90842964013349",
+      "seed6401_weather128_mean_percent": "93.07018494771287",
+      "seed6402_weather128_mean_percent": "92.45229652807984",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "29",
+      "mean_relative_yield_percent": "93.04986687950141",
+      "training_sample_sd_percent": "0.16857189498993777",
+      "seed6400_weather128_mean_percent": "92.9631992445847",
+      "seed6401_weather128_mean_percent": "93.24414116394578",
+      "seed6402_weather128_mean_percent": "92.94226022997375",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "31",
+      "mean_relative_yield_percent": "92.97387729328649",
+      "training_sample_sd_percent": "0.18063610650227702",
+      "seed6400_weather128_mean_percent": "92.89804726685182",
+      "seed6401_weather128_mean_percent": "93.18006814639325",
+      "seed6402_weather128_mean_percent": "92.84351646661442",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "30",
+      "mean_relative_yield_percent": "92.36698055072013",
+      "training_sample_sd_percent": "0.5551438938555767",
+      "seed6400_weather128_mean_percent": "92.47965050711385",
+      "seed6401_weather128_mean_percent": "91.76414410538908",
+      "seed6402_weather128_mean_percent": "92.85714703965743",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "33",
+      "mean_relative_yield_percent": "92.25152396064625",
+      "training_sample_sd_percent": "0.8629253545031043",
+      "seed6400_weather128_mean_percent": "92.59550539934324",
+      "seed6401_weather128_mean_percent": "91.26965809979862",
+      "seed6402_weather128_mean_percent": "92.88940838279693",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "34",
+      "mean_relative_yield_percent": "90.0206833809596",
+      "training_sample_sd_percent": "4.967581428204665",
+      "seed6400_weather128_mean_percent": "93.36685856574115",
+      "seed6401_weather128_mean_percent": "92.38234472380728",
+      "seed6402_weather128_mean_percent": "84.31284685333034",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "35",
+      "mean_relative_yield_percent": "92.0232072771127",
+      "training_sample_sd_percent": "0.731662668421768",
+      "seed6400_weather128_mean_percent": "91.98100832283058",
+      "seed6401_weather128_mean_percent": "91.31355734675817",
+      "seed6402_weather128_mean_percent": "92.77505616174939",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "36",
+      "mean_relative_yield_percent": "93.1910957495955",
+      "training_sample_sd_percent": "0.7557915597359963",
+      "seed6400_weather128_mean_percent": "93.98686805596283",
+      "seed6401_weather128_mean_percent": "93.103500925782",
+      "seed6402_weather128_mean_percent": "92.4829182670417",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "37",
+      "mean_relative_yield_percent": "92.67555583257729",
+      "training_sample_sd_percent": "0.21230883747506485",
+      "seed6400_weather128_mean_percent": "92.9179952516067",
+      "seed6401_weather128_mean_percent": "92.52283392400406",
+      "seed6402_weather128_mean_percent": "92.58583832212108",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "38",
+      "mean_relative_yield_percent": "92.88725848555504",
+      "training_sample_sd_percent": "0.3489724941953919",
+      "seed6400_weather128_mean_percent": "93.26154780370356",
+      "seed6401_weather128_mean_percent": "92.8293903960705",
+      "seed6402_weather128_mean_percent": "92.57083725689105",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "39",
+      "mean_relative_yield_percent": "92.94689337518071",
+      "training_sample_sd_percent": "0.4202441099991121",
+      "seed6400_weather128_mean_percent": "93.41308657003555",
+      "seed6401_weather128_mean_percent": "92.83042885221062",
+      "seed6402_weather128_mean_percent": "92.59716470329595",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "40",
+      "mean_relative_yield_percent": "92.77774050848734",
+      "training_sample_sd_percent": "0.3219493688876919",
+      "seed6400_weather128_mean_percent": "92.41616651665754",
+      "seed6401_weather128_mean_percent": "92.88369714658283",
+      "seed6402_weather128_mean_percent": "93.03335786222165",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "41",
+      "mean_relative_yield_percent": "91.81048201416611",
+      "training_sample_sd_percent": "0.8793299192761317",
+      "seed6400_weather128_mean_percent": "92.2975082952846",
+      "seed6401_weather128_mean_percent": "90.79539570270273",
+      "seed6402_weather128_mean_percent": "92.33854204451106",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "42",
+      "mean_relative_yield_percent": "92.7038515842783",
+      "training_sample_sd_percent": "0.24411958441902631",
+      "seed6400_weather128_mean_percent": "92.55810301248859",
+      "seed6401_weather128_mean_percent": "92.56777040395397",
+      "seed6402_weather128_mean_percent": "92.98568133639229",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "43",
+      "mean_relative_yield_percent": "92.32670464877715",
+      "training_sample_sd_percent": "0.6909425996872136",
+      "seed6400_weather128_mean_percent": "92.52479610690642",
+      "seed6401_weather128_mean_percent": "91.55835218380984",
+      "seed6402_weather128_mean_percent": "92.89696565561519",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "44",
+      "mean_relative_yield_percent": "91.90984220133357",
+      "training_sample_sd_percent": "0.7207908124796105",
+      "seed6400_weather128_mean_percent": "92.63002626288076",
+      "seed6401_weather128_mean_percent": "91.18844616632661",
+      "seed6402_weather128_mean_percent": "91.9110541747934",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "45",
+      "mean_relative_yield_percent": "92.04919088026877",
+      "training_sample_sd_percent": "0.8916853750717403",
+      "seed6400_weather128_mean_percent": "92.87621435633976",
+      "seed6401_weather128_mean_percent": "91.10452291696859",
+      "seed6402_weather128_mean_percent": "92.16683536749792",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "46",
+      "mean_relative_yield_percent": "91.39234729592044",
+      "training_sample_sd_percent": "1.0603836127217352",
+      "seed6400_weather128_mean_percent": "90.96229915501672",
+      "seed6401_weather128_mean_percent": "90.61454340871411",
+      "seed6402_weather128_mean_percent": "92.6001993240305",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "47",
+      "mean_relative_yield_percent": "91.36982454345464",
+      "training_sample_sd_percent": "0.8351572622514708",
+      "seed6400_weather128_mean_percent": "91.20143528172296",
+      "seed6401_weather128_mean_percent": "90.63169232622936",
+      "seed6402_weather128_mean_percent": "92.27634602241159",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "48",
+      "mean_relative_yield_percent": "92.4061481263205",
+      "training_sample_sd_percent": "0.9780548183544544",
+      "seed6400_weather128_mean_percent": "93.43816846928225",
+      "seed6401_weather128_mean_percent": "91.49290787479633",
+      "seed6402_weather128_mean_percent": "92.28736803488292",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "49",
+      "mean_relative_yield_percent": "93.08590432833476",
+      "training_sample_sd_percent": "0.8477544470409064",
+      "seed6400_weather128_mean_percent": "93.85072155199245",
+      "seed6401_weather128_mean_percent": "93.23262572252999",
+      "seed6402_weather128_mean_percent": "92.17436571048184",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "50",
+      "mean_relative_yield_percent": "92.94868794500111",
+      "training_sample_sd_percent": "0.39855908912456406",
+      "seed6400_weather128_mean_percent": "93.36873194789113",
+      "seed6401_weather128_mean_percent": "92.90152055433182",
+      "seed6402_weather128_mean_percent": "92.57581133278042",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "51",
+      "mean_relative_yield_percent": "92.72069973014224",
+      "training_sample_sd_percent": "0.12491306477072175",
+      "seed6400_weather128_mean_percent": "92.82651338895595",
+      "seed6401_weather128_mean_percent": "92.58290546964717",
+      "seed6402_weather128_mean_percent": "92.75268033182363",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "52",
+      "mean_relative_yield_percent": "90.75408793155452",
+      "training_sample_sd_percent": "3.6251530195816684",
+      "seed6400_weather128_mean_percent": "93.41631774924323",
+      "seed6401_weather128_mean_percent": "92.2204958043402",
+      "seed6402_weather128_mean_percent": "86.62545024108016",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "54",
+      "mean_relative_yield_percent": "93.70853669037048",
+      "training_sample_sd_percent": "0.8947114361750661",
+      "seed6400_weather128_mean_percent": "93.96051781291331",
+      "seed6401_weather128_mean_percent": "94.45023713944434",
+      "seed6402_weather128_mean_percent": "92.7148551187538",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "53",
+      "mean_relative_yield_percent": "92.74439013738447",
+      "training_sample_sd_percent": "0.2828499518204836",
+      "seed6400_weather128_mean_percent": "92.44109586991026",
+      "seed6401_weather128_mean_percent": "92.79109187706925",
+      "seed6402_weather128_mean_percent": "93.00098266517395",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "55",
+      "mean_relative_yield_percent": "93.2081778956608",
+      "training_sample_sd_percent": "0.5982045059099143",
+      "seed6400_weather128_mean_percent": "93.1446408186845",
+      "seed6401_weather128_mean_percent": "93.8356148912439",
+      "seed6402_weather128_mean_percent": "92.64427797705396",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "57",
+      "mean_relative_yield_percent": "93.00664405047281",
+      "training_sample_sd_percent": "0.4497731251530841",
+      "seed6400_weather128_mean_percent": "93.5141260028368",
+      "seed6401_weather128_mean_percent": "92.84851905166182",
+      "seed6402_weather128_mean_percent": "92.65728709691986",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "56",
+      "mean_relative_yield_percent": "91.7662939364496",
+      "training_sample_sd_percent": "0.7620591727500201",
+      "seed6400_weather128_mean_percent": "92.4554194422957",
+      "seed6401_weather128_mean_percent": "90.94784964699373",
+      "seed6402_weather128_mean_percent": "91.89561272005939",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "58",
+      "mean_relative_yield_percent": "92.52574223029842",
+      "training_sample_sd_percent": "0.9299051542698468",
+      "seed6400_weather128_mean_percent": "93.44401782700224",
+      "seed6401_weather128_mean_percent": "91.58462824756464",
+      "seed6402_weather128_mean_percent": "92.54858061632838",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "59",
+      "mean_relative_yield_percent": "92.63161928271262",
+      "training_sample_sd_percent": "0.3769723727186602",
+      "seed6400_weather128_mean_percent": "93.0593378466984",
+      "seed6401_weather128_mean_percent": "92.34775434159424",
+      "seed6402_weather128_mean_percent": "92.48776565984522",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "60",
+      "mean_relative_yield_percent": "93.3130586639705",
+      "training_sample_sd_percent": "0.46951530132066555",
+      "seed6400_weather128_mean_percent": "93.50977268874672",
+      "seed6401_weather128_mean_percent": "93.65222000835898",
+      "seed6402_weather128_mean_percent": "92.7771832948058",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "61",
+      "mean_relative_yield_percent": "92.89140054143463",
+      "training_sample_sd_percent": "0.15097477515327742",
+      "seed6400_weather128_mean_percent": "92.7496412805918",
+      "seed6401_weather128_mean_percent": "93.0501529020205",
+      "seed6402_weather128_mean_percent": "92.87440744169166",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "62",
+      "mean_relative_yield_percent": "92.77440766145776",
+      "training_sample_sd_percent": "0.30308559524247536",
+      "seed6400_weather128_mean_percent": "93.07892219779865",
+      "seed6401_weather128_mean_percent": "92.77152927704037",
+      "seed6402_weather128_mean_percent": "92.47277150953427",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "63",
+      "mean_relative_yield_percent": "93.75707178774866",
+      "training_sample_sd_percent": "0.9261152595299554",
+      "seed6400_weather128_mean_percent": "94.29171321760116",
+      "seed6401_weather128_mean_percent": "94.29181614502554",
+      "seed6402_weather128_mean_percent": "92.6876860006193",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "64",
+      "mean_relative_yield_percent": "91.64985952183258",
+      "training_sample_sd_percent": "0.934234151824237",
+      "seed6400_weather128_mean_percent": "92.12917251652746",
+      "seed6401_weather128_mean_percent": "90.5732515681436",
+      "seed6402_weather128_mean_percent": "92.24715448082668",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "65",
+      "mean_relative_yield_percent": "88.01502621127939",
+      "training_sample_sd_percent": "9.939442454536648",
+      "seed6400_weather128_mean_percent": "94.24371523195848",
+      "seed6401_weather128_mean_percent": "93.24904028929716",
+      "seed6402_weather128_mean_percent": "76.55232311258253",
+      "mean_below_90": "True"
+    },
+    {
+      "region_id": "66",
+      "mean_relative_yield_percent": "93.139021350605",
+      "training_sample_sd_percent": "0.929747069733148",
+      "seed6400_weather128_mean_percent": "94.13144906952854",
+      "seed6401_weather128_mean_percent": "92.99741294895733",
+      "seed6402_weather128_mean_percent": "92.28820203332914",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "68",
+      "mean_relative_yield_percent": "92.89353320294826",
+      "training_sample_sd_percent": "0.12464137211545658",
+      "seed6400_weather128_mean_percent": "93.01701135666974",
+      "seed6401_weather128_mean_percent": "92.89582795158606",
+      "seed6402_weather128_mean_percent": "92.767760300589",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "67",
+      "mean_relative_yield_percent": "91.93965730385834",
+      "training_sample_sd_percent": "1.0173496289052708",
+      "seed6400_weather128_mean_percent": "92.68676594064009",
+      "seed6401_weather128_mean_percent": "90.78100949990777",
+      "seed6402_weather128_mean_percent": "92.35119647102718",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "69",
+      "mean_relative_yield_percent": "93.0786064370972",
+      "training_sample_sd_percent": "0.408993909942444",
+      "seed6400_weather128_mean_percent": "93.30871990548155",
+      "seed6401_weather128_mean_percent": "93.32070773812347",
+      "seed6402_weather128_mean_percent": "92.60639166768658",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "70",
+      "mean_relative_yield_percent": "92.31475327889989",
+      "training_sample_sd_percent": "0.3793261237388831",
+      "seed6400_weather128_mean_percent": "92.35553294749846",
+      "seed6401_weather128_mean_percent": "91.91668491446879",
+      "seed6402_weather128_mean_percent": "92.67204197473237",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "71",
+      "mean_relative_yield_percent": "93.18293775489371",
+      "training_sample_sd_percent": "0.5630078830446837",
+      "seed6400_weather128_mean_percent": "93.77085733598362",
+      "seed6401_weather128_mean_percent": "93.12927112071984",
+      "seed6402_weather128_mean_percent": "92.64868480797772",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "72",
+      "mean_relative_yield_percent": "92.48463036433627",
+      "training_sample_sd_percent": "0.793950343813214",
+      "seed6400_weather128_mean_percent": "93.27042722960512",
+      "seed6401_weather128_mean_percent": "91.68277030350018",
+      "seed6402_weather128_mean_percent": "92.50069355990348",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "73",
+      "mean_relative_yield_percent": "92.12249350492549",
+      "training_sample_sd_percent": "0.7455850273129724",
+      "seed6400_weather128_mean_percent": "92.63741888722541",
+      "seed6401_weather128_mean_percent": "91.26750598504391",
+      "seed6402_weather128_mean_percent": "92.46255564250714",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "75",
+      "mean_relative_yield_percent": "93.33518749656481",
+      "training_sample_sd_percent": "0.5280070727012897",
+      "seed6400_weather128_mean_percent": "93.85173285246677",
+      "seed6401_weather128_mean_percent": "93.35740927541232",
+      "seed6402_weather128_mean_percent": "92.79642036181535",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "74",
+      "mean_relative_yield_percent": "93.1815083527793",
+      "training_sample_sd_percent": "0.5649269165742341",
+      "seed6400_weather128_mean_percent": "93.77053146029722",
+      "seed6401_weather128_mean_percent": "93.1297544048281",
+      "seed6402_weather128_mean_percent": "92.64423919321257",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "76",
+      "mean_relative_yield_percent": "88.68643349870233",
+      "training_sample_sd_percent": "8.874139520013832",
+      "seed6400_weather128_mean_percent": "94.39896506289563",
+      "seed6401_weather128_mean_percent": "93.19736457611353",
+      "seed6402_weather128_mean_percent": "78.46297085709779",
+      "mean_below_90": "True"
+    },
+    {
+      "region_id": "77",
+      "mean_relative_yield_percent": "92.45363793146633",
+      "training_sample_sd_percent": "0.7765021850486085",
+      "seed6400_weather128_mean_percent": "93.15488783898502",
+      "seed6401_weather128_mean_percent": "91.6191306895531",
+      "seed6402_weather128_mean_percent": "92.58689526586086",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "78",
+      "mean_relative_yield_percent": "92.36418106738547",
+      "training_sample_sd_percent": "0.5183294190508618",
+      "seed6400_weather128_mean_percent": "92.72155286248928",
+      "seed6401_weather128_mean_percent": "91.76970743949295",
+      "seed6402_weather128_mean_percent": "92.60128290017424",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "79",
+      "mean_relative_yield_percent": "92.643500138239",
+      "training_sample_sd_percent": "0.42825072545323445",
+      "seed6400_weather128_mean_percent": "93.1379446093559",
+      "seed6401_weather128_mean_percent": "92.40277271504772",
+      "seed6402_weather128_mean_percent": "92.38978309031344",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "80",
+      "mean_relative_yield_percent": "92.68135470749344",
+      "training_sample_sd_percent": "0.3591455323343201",
+      "seed6400_weather128_mean_percent": "93.08340225739441",
+      "seed6401_weather128_mean_percent": "92.56838681882927",
+      "seed6402_weather128_mean_percent": "92.39227504625663",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "81",
+      "mean_relative_yield_percent": "93.70433764235247",
+      "training_sample_sd_percent": "0.8788523449708148",
+      "seed6400_weather128_mean_percent": "94.4390913267305",
+      "seed6401_weather128_mean_percent": "93.94316556072742",
+      "seed6402_weather128_mean_percent": "92.73075603959953",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "82",
+      "mean_relative_yield_percent": "92.75398921692609",
+      "training_sample_sd_percent": "0.6070506572699559",
+      "seed6400_weather128_mean_percent": "93.39776998677999",
+      "seed6401_weather128_mean_percent": "92.1919525416538",
+      "seed6402_weather128_mean_percent": "92.67224512234449",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "83",
+      "mean_relative_yield_percent": "92.43822867335525",
+      "training_sample_sd_percent": "0.4068528055118127",
+      "seed6400_weather128_mean_percent": "92.42640522584361",
+      "seed6401_weather128_mean_percent": "92.0374164613518",
+      "seed6402_weather128_mean_percent": "92.8508643328704",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "84",
+      "mean_relative_yield_percent": "92.39920661149144",
+      "training_sample_sd_percent": "0.5534837175059347",
+      "seed6400_weather128_mean_percent": "92.43152539589865",
+      "seed6401_weather128_mean_percent": "91.83027163401383",
+      "seed6402_weather128_mean_percent": "92.93582280456184",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "85",
+      "mean_relative_yield_percent": "92.50221735049466",
+      "training_sample_sd_percent": "0.9496577193131231",
+      "seed6400_weather128_mean_percent": "93.58881000886306",
+      "seed6401_weather128_mean_percent": "92.0867376084027",
+      "seed6402_weather128_mean_percent": "91.8311044342182",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "86",
+      "mean_relative_yield_percent": "92.07865767137552",
+      "training_sample_sd_percent": "1.218782218045441",
+      "seed6400_weather128_mean_percent": "93.3149984823759",
+      "seed6401_weather128_mean_percent": "90.8782277495813",
+      "seed6402_weather128_mean_percent": "92.04274678216936",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "87",
+      "mean_relative_yield_percent": "92.88981268803947",
+      "training_sample_sd_percent": "0.6366481365976274",
+      "seed6400_weather128_mean_percent": "93.57491020513652",
+      "seed6401_weather128_mean_percent": "92.31639190025435",
+      "seed6402_weather128_mean_percent": "92.77813595872755",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "88",
+      "mean_relative_yield_percent": "93.15762086695285",
+      "training_sample_sd_percent": "0.8349126261872443",
+      "seed6400_weather128_mean_percent": "94.08327228197612",
+      "seed6401_weather128_mean_percent": "92.92815365353543",
+      "seed6402_weather128_mean_percent": "92.46143666534697",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "89",
+      "mean_relative_yield_percent": "93.65994138693914",
+      "training_sample_sd_percent": "0.9579858108928325",
+      "seed6400_weather128_mean_percent": "94.34550875693189",
+      "seed6401_weather128_mean_percent": "94.06897872437627",
+      "seed6402_weather128_mean_percent": "92.5653366795093",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "90",
+      "mean_relative_yield_percent": "92.54941271427542",
+      "training_sample_sd_percent": "0.8281228106949506",
+      "seed6400_weather128_mean_percent": "93.42771728783461",
+      "seed6401_weather128_mean_percent": "91.78281089452615",
+      "seed6402_weather128_mean_percent": "92.43770996046547",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "91",
+      "mean_relative_yield_percent": "93.03419829495078",
+      "training_sample_sd_percent": "0.16863343264426323",
+      "seed6400_weather128_mean_percent": "93.22857310531415",
+      "seed6401_weather128_mean_percent": "92.9470637215862",
+      "seed6402_weather128_mean_percent": "92.92695805795202",
+      "mean_below_90": "False"
+    },
+    {
+      "region_id": "92",
+      "mean_relative_yield_percent": "89.2665757804042",
+      "training_sample_sd_percent": "5.443650104833151",
+      "seed6400_weather128_mean_percent": "92.83212830049695",
+      "seed6401_weather128_mean_percent": "91.96692932928539",
+      "seed6402_weather128_mean_percent": "83.00066971143022",
+      "mean_below_90": "True"
+    }
+  ],
+  "low_mean_region_ids": [
+    "12",
+    "65",
+    "76",
+    "92"
+  ]
+}

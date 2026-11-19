@@ -1,0 +1,11 @@
+{
+  "CUDA_VISIBLE_DEVICES": "",
+  "JAX_PLATFORMS": "cpu",
+  "backend": "cpu",
+  "actual_device": "TFRT_CPU_0",
+  "platform": "cpu",
+  "cpu_affinity": [
+    5
+  ],
+  "jax_version": "0.4.35"
+}

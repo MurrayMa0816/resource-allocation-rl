@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" type="device" compressed="false">
+  <diagram id="fig-4-3" name="图4.3 完整轨迹的密度校正与终点回溯">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="588" pageHeight="650" math="1" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="records" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;完整轨迹记录&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(s_t,\ \boldsymbol z_t,\ \log\mu,\ F_T\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#E3EDE2;strokeColor=none;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frozenActor" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;批前固定Actor重算密度&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(p_{\theta_{\rm old}}(\boldsymbol z_t\mid s_t)\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="132" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frozenCritic" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;批前固定Critic预测价值&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(V_t=V_{\psi_{\rm old}}(s_t)\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="310" y="132" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rho" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;计算截断重要性权重&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(\rho_t=\begin{cases}\min\{1,p_{\theta_{\rm old}}/\mu\},&amp;U_t&gt;0\\1,&amp;U_t=0\end{cases}\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#BDD5EB;strokeColor=none;strokeWidth=1.0;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="224" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="terminal" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;设置任务终点目标&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(y_T=F_T\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#E3EDE2;strokeColor=none;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="310" y="234" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="trace" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;逆序计算回归目标&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(y_t=(1-\rho_t)V_t+\rho_t y_{t+1}\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=6;fillColor=#285F8A;strokeColor=none;strokeWidth=1.2;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="352" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fit" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;更新Critic&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;以 \(y_t\) 为监督目标&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="444" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="adv" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;计算优势估计&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(A_t=y_{t+1}-V_t\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="310" y="444" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" edge="1" parent="1" source="records" target="frozenActor" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.23214285714285715;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="" edge="1" parent="1" source="records" target="frozenCritic" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.7678571428571429;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="" edge="1" parent="1" source="frozenActor" target="rho" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="" edge="1" parent="1" source="records" target="rho" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="0" y="70" /><mxPoint x="0" y="264" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="" edge="1" parent="1" source="records" target="terminal" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="580" y="70" /><mxPoint x="580" y="264" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" edge="1" parent="1" source="rho" target="trace" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="" edge="1" parent="1" source="frozenCritic" target="trace" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="290" y="162" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="" edge="1" parent="1" source="terminal" target="trace" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="" edge="1" parent="1" source="trace" target="trace" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.96;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="560" y="382" /><mxPoint x="560" y="338" /><mxPoint x="520" y="338" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(y_t\)&lt;/span&gt;&lt;/div&gt;" edge="1" parent="1" source="trace" target="fit" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\((y_{t+1},V_t)\)&lt;/span&gt;&lt;/div&gt;" edge="1" parent="1" source="trace" target="adv" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="f43_reverse_label" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(t\leftarrow t-1\)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=SimHei;fontSize=14;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;spacing=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="438" y="314" width="86" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="f43_norm" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;优势估计标准化&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(A_t\mapsto A_{\mathrm{std},t}\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="310" y="536" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f43_actor_step" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;更新Actor&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(A_{\mathrm{std},t}\longrightarrow\theta\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="536" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f43_adv_norm" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="adv" target="f43_norm">
+          <mxGeometry relative="1" as="geometry">
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="f43_norm_actor" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f43_norm" target="f43_actor_step">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f43_loop_condition" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(t&gt;0\)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=SimHei;fontSize=14;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;spacing=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="526" y="314" width="44" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

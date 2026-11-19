@@ -1,0 +1,203 @@
+{
+  "iterations": [
+    {
+      "schema": "actual-raster-ink-spacing-v1",
+      "dpi": 720,
+      "threshold_min_rgb_less_than": 220,
+      "measurement_basis": "actual raster pixels in independent PDF text/key crops; not font layout boxes",
+      "xlabel_bbox_bp": [
+        208.18701171875,
+        108.26171875,
+        239.68701171875,
+        118.772216796875
+      ],
+      "legend_bbox_bp": [
+        129.90731811523438,
+        122.1536865234375,
+        300.008056640625,
+        133.79818725585938
+      ],
+      "xlabel_ink_bp": [
+        208.9,
+        108.8,
+        239.0,
+        118.5
+      ],
+      "legend_ink_bp": [
+        147.2,
+        122.9,
+        299.6,
+        132.6
+      ],
+      "top_map_title_ink_bp": [
+        [
+          84.5,
+          139.9,
+          162.1,
+          151.9
+        ],
+        [
+          277.8,
+          139.9,
+          360.0,
+          151.9
+        ]
+      ],
+      "bottom_scale_label_ink_bp": [
+        162.1,
+        485.0,
+        280.2,
+        494.7
+      ],
+      "top_visible_ink_bp": [
+        11.4,
+        6.0,
+        256.9,
+        30.0
+      ],
+      "top_visible_content_to_file_top_bp": 6.0,
+      "xlabel_to_first_legend_ink_bp": 4.400000000000006,
+      "last_legend_to_first_map_title_ink_bp": 7.300000000000011,
+      "scale_label_ink_to_file_bottom_bp": 7.032269287109386,
+      "native_canvas_bp": [
+        442.2047119140625,
+        501.7322692871094
+      ]
+    },
+    {
+      "schema": "actual-raster-ink-spacing-v1",
+      "dpi": 720,
+      "threshold_min_rgb_less_than": 220,
+      "measurement_basis": "actual raster pixels in independent PDF text/key crops; not font layout boxes",
+      "xlabel_bbox_bp": [
+        208.18701171875,
+        106.76171875,
+        239.68701171875,
+        117.272216796875
+      ],
+      "legend_bbox_bp": [
+        129.90731811523438,
+        131.25372314453125,
+        300.008056640625,
+        142.89822387695312
+      ],
+      "xlabel_ink_bp": [
+        208.9,
+        107.3,
+        239.0,
+        117.0
+      ],
+      "legend_ink_bp": [
+        147.2,
+        132.0,
+        299.6,
+        141.7
+      ],
+      "top_map_title_ink_bp": [
+        [
+          84.5,
+          153.7,
+          162.1,
+          165.7
+        ],
+        [
+          277.8,
+          153.7,
+          360.0,
+          165.7
+        ]
+      ],
+      "bottom_scale_label_ink_bp": [
+        162.1,
+        498.8,
+        280.2,
+        508.5
+      ],
+      "top_visible_ink_bp": [
+        10.8,
+        4.5,
+        256.9,
+        30.0
+      ],
+      "top_visible_content_to_file_top_bp": 4.5,
+      "xlabel_to_first_legend_ink_bp": 15.0,
+      "last_legend_to_first_map_title_ink_bp": 12.0,
+      "scale_label_ink_to_file_bottom_bp": 5.6693115234375,
+      "native_canvas_bp": [
+        442.2047119140625,
+        514.1693115234375
+      ]
+    }
+  ],
+  "final": {
+    "schema": "actual-raster-ink-spacing-v1",
+    "dpi": 720,
+    "threshold_min_rgb_less_than": 220,
+    "measurement_basis": "actual raster pixels in independent PDF text/key crops; not font layout boxes",
+    "xlabel_bbox_bp": [
+      208.18701171875,
+      106.76171875,
+      239.68701171875,
+      117.272216796875
+    ],
+    "legend_bbox_bp": [
+      129.90731811523438,
+      131.25372314453125,
+      300.008056640625,
+      142.89822387695312
+    ],
+    "xlabel_ink_bp": [
+      208.9,
+      107.3,
+      239.0,
+      117.0
+    ],
+    "legend_ink_bp": [
+      147.2,
+      132.0,
+      299.6,
+      141.7
+    ],
+    "top_map_title_ink_bp": [
+      [
+        84.5,
+        153.7,
+        162.1,
+        165.7
+      ],
+      [
+        277.8,
+        153.7,
+        360.0,
+        165.7
+      ]
+    ],
+    "bottom_scale_label_ink_bp": [
+      136.0,
+      498.7,
+      306.4,
+      508.4
+    ],
+    "top_visible_ink_bp": [
+      8.8,
+      4.5,
+      283.2,
+      30.0
+    ],
+    "top_visible_content_to_file_top_bp": 4.5,
+    "xlabel_to_first_legend_ink_bp": 15.0,
+    "last_legend_to_first_map_title_ink_bp": 12.0,
+    "scale_label_ink_to_file_bottom_bp": 5.769311523437523,
+    "native_canvas_bp": [
+      442.2047119140625,
+      514.1693115234375
+    ]
+  },
+  "targets": {
+    "xlabel_to_legend_ink_bp": 15,
+    "legend_to_top_map_title_ink_bp": 12,
+    "bottom_scale_label_to_file_bottom_mm": 2,
+    "top_visible_content_to_file_top_bp": 4.5
+  },
+  "wording_change_preserves_accepted_canvas_and_axes": true
+}

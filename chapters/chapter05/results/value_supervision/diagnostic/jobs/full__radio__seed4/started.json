@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-08T15:56:22.137269+00:00",
+  "pid": 3284263,
+  "job": {
+    "id": "full__radio__seed4",
+    "domain": "radio",
+    "seed": 4,
+    "arm": "full",
+    "endpoint": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/jobs/full__radio__seed4/native/checkpoint_endpoint.pt",
+    "endpoint_sha256": "5c771710f3e2a5859081841c73d2fe2020d10e01f951b7aa5ee10f5be3781ff0",
+    "config": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/configs/full__radio__seed4.json",
+    "config_sha256": "c6bc5d0c25695b5895d77706878154ddaba45d54dcecaee1b9cf5fb9cbd747c9",
+    "policy_rng_seed": 9056101,
+    "cases": 32,
+    "repeats": 8,
+    "horizon": 32,
+    "expected_physical_steps": 8192
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema": "C6-current-external-learning-comparison-v1",
+  "current_methods": [
+    "SeDVal",
+    "PASTA",
+    "COLA"
+  ],
+  "external_comparators": [
+    "PASTA",
+    "COLA"
+  ],
+  "retired_methods": [
+    "CAPQL"
+  ],
+  "CAPQL_retirement": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/CAPQL_RETIREMENT.json",
+  "selection_history": "COLA added after observing CAPQL DEV degradation; CAPQL original negative results retained in historical records",
+  "task": {
+    "regions": 89,
+    "days": 81,
+    "budget_m3": 4000000,
+    "coverage_threshold": 0.9,
+    "deployment_preference": [
+      0.2,
+      0.8
+    ],
+    "learning_episodes_per_model": 3200,
+    "learning_steps_per_model": 259200,
+    "DEV_weather_per_model": 32,
+    "DEV_points": 26,
+    "physical_execution": "same original C6 area-depth map and fixed64 feasible-water mean"
+  },
+  "methods": {
+    "SeDVal": {
+      "training": "reused_no_retraining",
+      "models": [
+        {
+          "seed": 6400,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6400/attempt0/model.pt",
+          "role": "existing_completed_readonly",
+          "exists_now": true,
+          "endpoint_file_sha256": "26063e51639ce94461cd62ce398d1e1882f6f1d16d73c7a667c1923adc86880d"
+        },
+        {
+          "seed": 6401,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6401/attempt0/model.pt",
+          "role": "existing_completed_readonly",
+          "exists_now": true,
+          "endpoint_file_sha256": "8f325252797e5138f182830166966e8a05fc967cb1502773a5066e4bf478fc38"
+        },
+        {
+          "seed": 6402,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6402/attempt0/model.pt",
+          "role": "existing_completed_readonly",
+          "exists_now": true,
+          "endpoint_file_sha256": "065e6328a016764911440401388e0b7b8658dc7b17b6500f4e940b3a2156e8c9"
+        }
+      ]
+    },
+    "PASTA": {
+      "training": "reused_no_retraining",
+      "models": [
+        {
+          "seed": 6400,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/pasta__seed6400/attempt0/endpoint.pt",
+          "role": "existing_completed_readonly",
+          "exists_now": true,
+          "endpoint_file_sha256": "0177aceba6948ffe7ebb4a47a1835a250c16d8415a78a259e11c41100d8f8141"
+        },
+        {
+          "seed": 6401,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/pasta__seed6401/attempt0/endpoint.pt",
+          "role": "existing_completed_readonly",
+          "exists_now": true,
+          "endpoint_file_sha256": "249962faa01ed20c989bd214a60fbdb15ac6c5931e8d1d21e9dd106a3be95084"
+        },
+        {
+          "seed": 6402,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/pasta__seed6402/attempt0/endpoint.pt",
+          "role": "existing_completed_readonly",
+          "exists_now": true,
+          "endpoint_file_sha256": "7f7a087da988ed3624fb6bc27c278a01fc22685c69eadb7aeabd501cf3a82104"
+        }
+      ]
+    },
+    "COLA": {
+      "training": "three_concurrent_jobs_naturally_completed_no_restart",
+      "models": [
+        {
+          "seed": 6400,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6400/attempt0/endpoint.pt",
+          "role": "new_fixed_endpoint_training_complete",
+          "exists_now": true,
+          "endpoint_file_sha256": "4bee447d2dd389b7d319f19967db17274f3ccfd25093ee5dacdd253657b266fe",
+          "completion_receipt": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6400/attempt0/completed.json"
+        },
+        {
+          "seed": 6401,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6401/attempt0/endpoint.pt",
+          "role": "new_fixed_endpoint_training_complete",
+          "exists_now": true,
+          "endpoint_file_sha256": "b469f85af1a8f22229b3adf69f678175a9c35fa2a1981d42e4bbf21fd3d09bc2",
+          "completion_receipt": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6401/attempt0/completed.json"
+        },
+        {
+          "seed": 6402,
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6402/attempt0/endpoint.pt",
+          "role": "new_fixed_endpoint_training_complete",
+          "exists_now": true,
+          "endpoint_file_sha256": "f5d6c63f6d4b9c7a444c9da0d5306ab732e2022bdde59889b4c170706e8b1e52",
+          "completion_receipt": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6402/attempt0/completed.json"
+        }
+      ]
+    }
+  },
+  "new_TEST_generated": false,
+  "no_rule_comparators": true,
+  "updated_utc": "2026-11-09T14:51:49.512824+00:00",
+  "status": "TRAINING_AND_DEV_COMPLETE_INDEPENDENT_OFFLINE_AUDIT_PASS_NO_NEW_JOINT_TEST",
+  "final_results": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/FINAL_RESULTS.json",
+  "COLA_completion_receipt": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/completion_receipt.json"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "FORMAL_SOURCE_AND9JOBS_PREPARED_NOT_LAUNCHED_TEST_CLOSED",
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "scientific_manifest": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/scientific_source_manifest.json",
+    "sha256": "a1642f89dd4169f9aa7893d2748aaa0c46be4b91eed34ec60118866c1f7a24cb"
+  },
+  "final_design": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/final_design.json",
+    "sha256": "07bda52f9462d30e8c12517631c7fb3e664b212390e1a43ed8b5f98df9a45bdd"
+  },
+  "selected_application": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/selected_application.json",
+    "sha256": "115a00d5c5f44820458d1203e3dfef35cf9c88fa0d64899a52122bea38272d4a"
+  },
+  "registration": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json",
+    "sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78"
+  },
+  "files": 140,
+  "models": 9,
+  "changed_from_engineering140": [
+    "execution/worker_train.py"
+  ],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "model_forwards": 0,
+  "learning_updates": 0,
+  "HOLD_preserved": true
+}

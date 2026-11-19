@@ -1,0 +1,23 @@
+{
+  "training_steps": 0,
+  "DEV_evaluation_steps": 69888,
+  "successful_DEV_evaluation_steps": 69120,
+  "numerical_gate_failure_steps": 768,
+  "new_independent_TEST_steps": 0,
+  "complete_episodes": 2912,
+  "successful_complete_episodes": 2880,
+  "model_loads": 11,
+  "numerical_gate_failures": 1,
+  "retried_model_count": 1,
+  "model_files_created": 0,
+  "optimization_updates": 0,
+  "thesis_builds": 0,
+  "episodes_by_method": {
+    "f1": 1440,
+    "props": 1472
+  },
+  "steps_by_method": {
+    "f1": 34560,
+    "props": 35328
+  }
+}

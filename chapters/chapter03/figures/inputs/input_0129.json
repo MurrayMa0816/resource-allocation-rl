@@ -1,0 +1,222 @@
+{
+  "schema": "chapter3-precise-wording-15bp-ink-v1",
+  "number": "3.6",
+  "parent_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-06_资源与时序条件下的配置成效/replot_sources/parent",
+  "parent_pdf_sha256": "054c78423426e2bd431c2c2baccdae70f412a350de48964140c9884b3ea0b40f",
+  "parent_source_sha256": "d03a8c0f3b60331dc0b288c3393dad33d5603ff567c5cc45d9c8aa197eb86ae8",
+  "accepted_renderer": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-06_资源与时序条件下的配置成效/replot_sources/conditions.py",
+  "accepted_renderer_sha256": "06773eb7e7d3edcc8cc0c48eb67808707066c8f3976b79643a0fdb93999f8078",
+  "renderer": "replot_sources/renderer.py",
+  "renderer_sha256": "1235e05109c3cb5a47eaea695311b755ec9d85241f680cb0a5689c88b0acecc3",
+  "scientific_data_sha256": {
+    "data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+    "display_aggregates.csv.gz": "29d14f20137484ccd82d2bc749b68890f1641ca177f643ffe7a43fd74c0c419e",
+    "display_aggregates.csv": "25bbac2f0af47bf8144c2e4383e204aad395ee11334a8ca1cd80c4e7d74fd8cd",
+    "display_seed_data.csv": "531f1aecc3c58b82c491571dacf1cfef32c2e3da8c91a965060b6cb480fc5e52",
+    "full_minus_pace.csv": "f33bbcb1dfd5600fa2bcf4f9a7a63dc537cf4f859cc9bf73ced5d44860acc629",
+    "full_minus_pace.json": "b6b80487139c9a7ef7490fce576e88ea4447f49866e9b1ce95fd1ee435c07763"
+  },
+  "native_mm": [
+    156.0,
+    160.15123879865095
+  ],
+  "science_before_after_digest": "a730f3180dda00c2f68fc730002b2c48acc2b7fa575f26ac127c3f61a04c59f5",
+  "scientific_artist_values_and_line_styles_exact": true,
+  "changes": [
+    "restored every axes to59.7128092395 x51.44177823mm without font scaling",
+    "xlabel glyph ink to first legend-row glyph ink15bp at720dpi",
+    "legend-to-file-bottom2mm",
+    "top subtitle-to-file-top1.5mm",
+    "four-panel inter-row PDF text-frame12bp"
+  ],
+  "category_wording": {
+    "old": [
+      "原顺序",
+      "后段提前",
+      "后段移至\\n中段"
+    ],
+    "new": [
+      "原始顺序",
+      "新增需求\n逆序",
+      "后期需求\n移至中期"
+    ],
+    "xlabel": "新增需求时序",
+    "title": "(d) 柴油需求时序变化"
+  },
+  "output_sha256": {
+    "figure.pdf": "85a7bd486a96042c6beb6cc5bb232c9649f2d0192aac4db4872f386d7ea95feb",
+    "figure.png": "ce07a744702c751b265af5935bfee1a8417b99471a121c57ba28db25eb6773d4",
+    "figure.svg": "2ed4937de67f988c9f843313fd3cb022b71f8b369eb7ca571637f5c10af0b644"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "portable_entrypoint": "plot.py",
+  "size_restoration": {
+    "historical_max_10_5bp_axis_height_mm": 51.44177823,
+    "aspect_ratio_preserved": "59.2:51",
+    "restored_axes_mm": [
+      59.71280923952941,
+      51.44177823
+    ],
+    "previous_axes_mm": [
+      59.2,
+      51
+    ],
+    "horizontal_centers_preserved": true,
+    "every_axes_no_smaller_than_verified_larger_baseline": true
+  },
+  "xlabel_to_legend_ink_bp": 15.0,
+  "xlabel_to_legend_PDF_text_frame_bp": 13.929931640625,
+  "ink_DPI": 720,
+  "all_fonts_scientific_values_unchanged": true,
+  "svg_hashsalt": "chapter3-restored-size-15bp-ink-v1",
+  "legend_wording_changes": [
+    {
+      "old": "去总量学习",
+      "new": "不学习各期\n资源分配总量"
+    },
+    {
+      "old": "C-PPO / Gradient PPO",
+      "new": "C-PPO（通信）\nGradient PPO（柴油）"
+    }
+  ],
+  "ordinary_font_bp": 10.5,
+  "legend_label_lines": 2,
+  "scientific_artists_match_previous_accepted_figure": true,
+  "language_revision": {
+    "date": "2026-11-12",
+    "legend_changes": [
+      {
+        "old": "去总量学习",
+        "new": "不学习各期\n资源分配总量"
+      },
+      {
+        "old": "C-PPO / Gradient PPO",
+        "new": "C-PPO（通信）\nGradient PPO（柴油）"
+      }
+    ],
+    "previous_native_mm": [
+      156.0,
+      151.86110631777532
+    ],
+    "current_native_mm": [
+      156.0,
+      156.02100111045922
+    ],
+    "width_axes_fonts_science_unchanged": true,
+    "canvas_height_change_only_to_fit_multiline_legend": true,
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_language_revision_20261112/statistics_figures_initial.json"
+  },
+  "diesel_quota_wording_followup_20261112": {
+    "reason": "Diesel resource is an equivalent allocation quota measured in litres, rather than measured physical fuel consumption.",
+    "changes": [
+      {
+        "old": "可用柴油总量（升）",
+        "new": "初始柴油额度（升）"
+      },
+      {
+        "old": "(c) 柴油可用总量变化",
+        "new": "(c) 初始柴油额度变化"
+      }
+    ],
+    "science_geometry_font_and_spacing_unchanged": true
+  },
+  "precise_wording_revision_20261112": {
+    "changes": [
+      {
+        "old": "(a) 通信可用能量变化",
+        "new": "(a) 初始发射能量变化"
+      },
+      {
+        "old": "可用发射能量（μJ）",
+        "new": "初始发射能量（μJ）"
+      },
+      {
+        "old": "(b) 通信干扰变化",
+        "new": "(b) 通信干扰持续性变化"
+      },
+      {
+        "old": "(c) 初始柴油额度变化",
+        "new": "(c) 初始柴油分配总额度变化"
+      },
+      {
+        "old": "初始柴油额度（升）",
+        "new": "初始柴油分配总额度（L）"
+      },
+      {
+        "old": "事件逆序",
+        "new": "新增需求\n逆序"
+      },
+      {
+        "old": "后段移中",
+        "new": "后期需求\n移至中期"
+      }
+    ],
+    "ordinary_font_bp": 10.5,
+    "width_mm": 156,
+    "previous_native_mm": [
+      156.0,
+      156.02100111045922
+    ],
+    "current_native_mm": [
+      156.0,
+      160.15123879865095
+    ],
+    "science_axes_fonts_preserved": true,
+    "height_added_for_multiline_categorical_ticks": true,
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_precise_wording_five_rounds_20261112/figure/figure36_initial.json"
+  },
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter03_intertemporal/figures/figure03-06_资源与时序条件下的配置成效/plot.py",
+    "active_editable_source": "chapters/chapter03_intertemporal/figures/figure03-06_资源与时序条件下的配置成效/replot_sources/renderer.py",
+    "active_program_sha256": "6d9d4638f39b769c811b99f5ea48225401fb1f739c7fead8b249514dc78347bc",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "f04358fc694017a0218842bbe0b83334c5ebfbbaf77958bcacde13a902d2ac35",
+      "figure.svg": "c7aa3c982777355c2bdfba02165ac4e91029e8f7d0e7b78183188f4a76e5627b",
+      "figure.png": "0ba3e66e39799c1963b53a3feb4bb7a1ad67325a6569ca42edb85f15b88a2d43"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "d04c9588ec608a02de971a4d9f2df6488f80b3ad4dbc9f403936b26f63399f8b",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "2601b480892d22590532df82d3e69da94df1b1f01b71f3b95c26c083f9cab9d6",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "7d01582d43f445abf35e6e6ef370cb5b85d4af4e249acd3df3603e07bc234e15",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": "a9afc6c08240fd9d98daa8774a99955532a128cb08af8337f15a6a24c9460110"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true,
+    "axis_formatter_label": "初始柴油总额度（万 L）",
+    "axis_unit_scale": 10000
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "f04358fc694017a0218842bbe0b83334c5ebfbbaf77958bcacde13a902d2ac35",
+    "figure.svg": "c7aa3c982777355c2bdfba02165ac4e91029e8f7d0e7b78183188f4a76e5627b",
+    "figure.png": "0ba3e66e39799c1963b53a3feb4bb7a1ad67325a6569ca42edb85f15b88a2d43"
+  },
+  "time_expression_revision_20261117": {
+    "scope": "final native text labels only",
+    "proof": "time_expression_native_proof_20261117.json",
+    "proof_sha256": "0871792c51f66998771a18e67401019ad8dff48d7017f5b37708235ccfd75c66",
+    "outputs": {
+      "figure.pdf": "85a7bd486a96042c6beb6cc5bb232c9649f2d0192aac4db4872f386d7ea95feb",
+      "figure.svg": "2ed4937de67f988c9f843313fd3cb022b71f8b369eb7ca571637f5c10af0b644",
+      "figure.png": "ce07a744702c751b265af5935bfee1a8417b99471a121c57ba28db25eb6773d4"
+    },
+    "scientific_artists_axes_canvas_fonts_unchanged": true,
+    "text_anchor_max_shift_bp": 0.07425000000000409,
+    "training_runs": 0,
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inferences": 0
+  }
+}

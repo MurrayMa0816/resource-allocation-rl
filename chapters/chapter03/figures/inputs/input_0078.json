@@ -1,0 +1,166 @@
+{
+  "schema": "chapter3-language-clearance-15bp-ink-v1",
+  "number": "3.5",
+  "parent_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/replot_sources/parent",
+  "parent_pdf_sha256": "df2c0d752d99b3e64c1b9a471553107b8dff26015a5162c2b958981ab72bf2c6",
+  "parent_source_sha256": "06a9723ef12ce1d72e229532545fcdf5e177461ff1e7ba82445dd68495ea6b26",
+  "accepted_renderer": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/replot_sources/ablation.py",
+  "accepted_renderer_sha256": "5729a6fcbe4661924f6765a82e83f92cd4c25912dcd1966cb6bd2ccd9b1052b7",
+  "renderer": "replot_sources/renderer.py",
+  "renderer_sha256": "c3d4c340c256aafd98b8a4572d6515244aa395713009b64ba602976ab94d45a3",
+  "scientific_data_sha256": {
+    "data.csv.gz": "e815cedff8353878916cf0c4a8d65a050cd999d9d5fab6da70b0de48fb2226f6"
+  },
+  "native_mm": [
+    156.0,
+    83.54539970153216
+  ],
+  "science_before_after_digest": "a47abcbad884c09fcb1768097d51b72859b632e3a829d95f88766f93bd966ea9",
+  "scientific_artist_values_and_line_styles_exact": true,
+  "changes": [
+    "restored every axes to59.7128092395 x51.44177823mm without font scaling",
+    "xlabel glyph ink to first legend-row glyph ink15bp at720dpi",
+    "legend-to-file-bottom2mm",
+    "top subtitle-to-file-top1.5mm",
+    "content-dependent total height"
+  ],
+  "category_wording": null,
+  "output_sha256": {
+    "figure.pdf": "e8852698af4009835a5053a9d9e5b88de43bd31c8533ba52f214c4625dc596cc",
+    "figure.png": "12bd9cd03b2085558095ff6764f6172387537c211110b5fa0bbbbf17d63858f3",
+    "figure.svg": "f0f9664f7d04c7c86346469a851c6892b7e84aa501adcf07e21a9b55ad602ce5"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "portable_entrypoint": "plot.py",
+  "size_restoration": {
+    "historical_max_10_5bp_axis_height_mm": 51.44177823,
+    "aspect_ratio_preserved": "59.2:51",
+    "restored_axes_mm": [
+      59.71280923952941,
+      51.44177823
+    ],
+    "previous_axes_mm": [
+      59.2,
+      51
+    ],
+    "horizontal_centers_preserved": true,
+    "every_axes_no_smaller_than_verified_larger_baseline": true
+  },
+  "xlabel_to_legend_ink_bp": 14.900000000000006,
+  "xlabel_to_legend_PDF_text_frame_bp": 13.282363891601562,
+  "ink_DPI": 720,
+  "all_fonts_scientific_values_unchanged": true,
+  "svg_hashsalt": "chapter3-restored-size-15bp-ink-v1",
+  "legend_wording_changes": [
+    {
+      "old": "去总量学习",
+      "new": "不学习各期\n资源分配总量"
+    },
+    {
+      "old": "随机对象分配",
+      "new": "随机生成\n资源分配权重"
+    }
+  ],
+  "ordinary_font_bp": 10.5,
+  "legend_label_lines": 2,
+  "scientific_artists_match_previous_accepted_figure": true,
+  "language_revision": {
+    "date": "2026-11-12",
+    "legend_changes": [
+      {
+        "old": "去总量学习",
+        "new": "不学习各期\n资源分配总量"
+      },
+      {
+        "old": "随机对象分配",
+        "new": "随机生成\n资源分配权重"
+      }
+    ],
+    "previous_native_mm": [
+      156.0,
+      79.68808014940728
+    ],
+    "current_native_mm": [
+      156.0,
+      83.54539970153216
+    ],
+    "width_axes_fonts_science_unchanged": true,
+    "canvas_height_change_only_to_fit_multiline_legend": true,
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_language_revision_20261112/statistics_figures_initial.json"
+  },
+  "required_qualifier_revision_20261112": {
+    "scope": "Only the two horizontal-axis labels qualify training interaction steps",
+    "before": "训练步数（×10³）",
+    "after": "训练交互步数（×10³）",
+    "baseline_pdf_sha256": "b5c3d7f4506f7231b6f82acf1ff231c70237396c4af91a931482037f9f60193c",
+    "renderer_sha256": "78c20b3ceb0b7da7ff876d0ae17f2b59a072c335d39be3a3cd9d2fba1bee673a",
+    "canvas_axes_text_baselines_legend_positions_preserved": true,
+    "all_data_and_scientific_artists_exact": true,
+    "original_xlabel_to_legend_ink_bp": 15.0,
+    "current_xlabel_to_legend_ink_bp": 14.900000000000006,
+    "ink_DPI": 720,
+    "layout_order": "Calibrate inherited original label first; replace xlabel text after geometry is fixed; no compensation or re-cropping",
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_required_qualifiers_five_rounds_20261112/figure_revision.json"
+  },
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/plot.py",
+    "active_editable_source": "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/replot_sources/renderer.py",
+    "active_program_sha256": "c3d4c340c256aafd98b8a4572d6515244aa395713009b64ba602976ab94d45a3",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "e7c09145dfd32157ee0c1807377555bacdf8fa5aa9f4f0c05e7fbd640852e87a",
+      "figure.svg": "8db864f402fb782d8569cf5cfc6edaf502493de72541907b4a67e39afed9f370",
+      "figure.png": "a55d5d62d8179cdc62c1b067691cc3c6f28d0dd09c87678e4c87e2fe61b56fd1"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "d56fb2a79c7a4ca18d994d1e77a53dca546368cf25ae1f3d312cff129bd1f60b",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "a03ad5dec3bb53df1113eb48f5c8fe9dc986067dfd9536db89e30661e6e43061",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "c2fd80d2498fd3c4d250152b4b8ae2676ce842a551ad3da979bc7a134bf6e22e",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": "5c916988ab3675839aee8acd29cd4f3a9715dc1fa65e7e1d3e2f35936833efd5"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "e8852698af4009835a5053a9d9e5b88de43bd31c8533ba52f214c4625dc596cc",
+    "figure.svg": "f0f9664f7d04c7c86346469a851c6892b7e84aa501adcf07e21a9b55ad602ce5",
+    "figure.png": "12bd9cd03b2085558095ff6764f6172387537c211110b5fa0bbbbf17d63858f3"
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "cd1e06b06767a413ad752d9a7cd24abbe5a0fd896883e2e099fd103cf40c4f83",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "dd6e20c9d86d09ab04aa5316db3714bc1499bd03b8737ef382060c02fe09934e",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 2,
+    "legend_labels_changed": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "e8852698af4009835a5053a9d9e5b88de43bd31c8533ba52f214c4625dc596cc",
+      "figure.svg": "f0f9664f7d04c7c86346469a851c6892b7e84aa501adcf07e21a9b55ad602ce5",
+      "figure.png": "12bd9cd03b2085558095ff6764f6172387537c211110b5fa0bbbbf17d63858f3"
+    },
+    "approved_review_pdf_sha256": "6ae84dd5cedfb2d2b3f8b6d58914903086251bcdf8a858d8f76672d6e200524e",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json"
+  }
+}

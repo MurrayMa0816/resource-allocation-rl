@@ -1,0 +1,37 @@
+{
+  "schema": "chapter3-conditions-style-derivative-v1",
+  "number": "3.6",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter03/paper_revisions/two_branch_random_adoption_20261109_202210/assets/figure36",
+  "parent_pdf_sha256": "c87682f2ace9f83e8ece918c74497871a82d17dd932f582004fce7fc9cc9d8a1",
+  "parent_renderer_sha256": "cee6d28c3a2e5bfe24e3d527e9ea76af2aed7415f605c15f614b868daeb6050a",
+  "maintained_renderer": "/hy-tmp/resource_allocation_project_code_20261105/chapter03/paper_figure_table_style_20261109/plot_conditions.py",
+  "maintained_renderer_sha256": "66412a8d86482bc559d141eb00b4cb842d2b040216928d8bf42e602f4c945f87",
+  "reference_geometry": "/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/assets/figure3-4/render_geometry.json",
+  "reference_geometry_sha256": "f6281c7311ce9032dde1dcc45e3b9412a18fd52e05a952436a24471829e3a59a",
+  "scientific_data_sha256": {
+    "data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+    "display_aggregates.csv": "25bbac2f0af47bf8144c2e4383e204aad395ee11334a8ca1cd80c4e7d74fd8cd",
+    "display_aggregates.csv.gz": "29d14f20137484ccd82d2bc749b68890f1641ca177f643ffe7a43fd74c0c419e",
+    "display_seed_data.csv": "531f1aecc3c58b82c491571dacf1cfef32c2e3da8c91a965060b6cb480fc5e52",
+    "full_minus_pace.csv": "f33bbcb1dfd5600fa2bcf4f9a7a63dc537cf4f859cc9bf73ced5d44860acc629",
+    "full_minus_pace.json": "b6b80487139c9a7ef7490fce576e88ea4447f49866e9b1ce95fd1ee435c07763"
+  },
+  "numeric_before_sha256": "250874001963e1dfcff90d8be2f76316ae4e4e19b4fa3eff1f82370c3b0a5cb2",
+  "numeric_after_sha256": "250874001963e1dfcff90d8be2f76316ae4e4e19b4fa3eff1f82370c3b0a5cb2",
+  "domain_reference": {
+    "radio": "C-PPO",
+    "diesel": "Gradient PPO"
+  },
+  "changes": [
+    "59.2x51mm axes in 156x164mm canvas",
+    "1.25bp solid means with filled distinct 4pt markers",
+    "one-row three-column legend bottom2mm",
+    "title, axis label and tick padding aligned to Figure3.4"
+  ],
+  "errorbar_numeric_values_and_widths_changed": false,
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_steps": 0,
+  "thesis_builds": 0
+}

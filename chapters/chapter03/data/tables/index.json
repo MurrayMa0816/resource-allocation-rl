@@ -1,0 +1,26 @@
+{
+  "tables": [
+    {
+      "number": "3.1",
+      "caption": "ReJoP主要训练参数表",
+      "file": "chapters/chapter03/data/tables/table03_01.tex",
+      "sha256": "bdc36df25cb4bdac065df3726686b101ad831ddfa7730cd8540a9ee919d88994",
+      "current_chapter_source": "chapters/chapter03_intertemporal/chapter.tex"
+    },
+    {
+      "number": "3.2",
+      "caption": "对比方法主要训练参数表",
+      "file": "chapters/chapter03/data/tables/table03_02.tex",
+      "sha256": "a61838284183d2be782384a7e953033be479a818d971b7412c42cc576cec422f",
+      "current_chapter_source": "chapters/chapter03_intertemporal/chapter.tex"
+    },
+    {
+      "number": "3.3",
+      "caption": "ReJoP与五种对比方法训练结束后的测试结果",
+      "file": "chapters/chapter03/data/tables/table03_03.tex",
+      "sha256": "1abf93964c2caff491244b8b78413153d5ca9739ee07c2272ce369d93008f713",
+      "current_chapter_source": "chapters/chapter03_intertemporal/chapter.tex"
+    }
+  ],
+  "scope": "Exact currently included TeX table blocks, not an extra thesis or chapter PDF."
+}

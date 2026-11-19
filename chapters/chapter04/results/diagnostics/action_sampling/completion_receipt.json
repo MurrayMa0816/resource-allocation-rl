@@ -1,0 +1,144 @@
+{
+  "schema": "chapter04-action-sampling-diagnostic-completion-v1",
+  "status": "COMPLETE",
+  "completed_at": "2026-11-09T09:57:45.074734+08:00",
+  "scope": "Current formal v5 endpoints, same DEV32, native stochastic versus mean actions; post hoc endpoint diagnostic.",
+  "root": "/hy-tmp/resource_allocation_results/chapter04/experiments/action_sampling_diagnostic_20261109",
+  "results": {
+    "f1": {
+      "mean": {
+        "mean_score_x100": 80.04634796419401,
+        "training_seed_sample_sd_x100": 0.9611325761287328,
+        "per_training_seed_scores_x100": [
+          79.44122385873084,
+          79.29751198984177,
+          81.09204347210037,
+          81.10247254437395,
+          79.29848795592312
+        ],
+        "independent_training_seeds": 5
+      },
+      "stochastic": {
+        "mean_score_x100": 76.66981520090154,
+        "training_seed_sample_sd_x100": 1.280095941797028,
+        "per_training_seed_scores_x100": [
+          77.27302082226298,
+          74.57174644715818,
+          77.5946909395098,
+          77.57569335457077,
+          76.33392444100593
+        ],
+        "independent_training_seeds": 5
+      },
+      "stochastic_minus_mean": {
+        "mean_score_points": -3.3765327632924764,
+        "training_seed_sample_sd": 0.9337263904178388,
+        "per_training_seed_changes": [
+          -2.168203036467858,
+          -4.72576554268359,
+          -3.4973525325905683,
+          -3.526779189803179,
+          -2.964563514917188
+        ]
+      }
+    },
+    "props": {
+      "mean": {
+        "mean_score_x100": 79.92067898830827,
+        "training_seed_sample_sd_x100": 0.9890092465739044,
+        "per_training_seed_scores_x100": [
+          79.75600882284161,
+          80.94915329726412,
+          79.657560292367,
+          78.48498641976047,
+          80.75568610930814
+        ],
+        "independent_training_seeds": 5
+      },
+      "stochastic": {
+        "mean_score_x100": 76.64613317669642,
+        "training_seed_sample_sd_x100": 0.8814335588418049,
+        "per_training_seed_scores_x100": [
+          77.35063450326363,
+          75.92240771815081,
+          77.11555414241477,
+          75.48137919034437,
+          77.36069032930855
+        ],
+        "independent_training_seeds": 5
+      },
+      "stochastic_minus_mean": {
+        "mean_score_points": -3.2745458116118416,
+        "training_seed_sample_sd": 1.0547740722434127,
+        "per_training_seed_changes": [
+          -2.405374319577973,
+          -5.02674557911331,
+          -2.542006149952229,
+          -3.0036072294161045,
+          -3.39499577999959
+        ]
+      }
+    }
+  },
+  "TRoC_minus_PROPS_score_points": {
+    "mean": 0.12566897588574477,
+    "stochastic": 0.023682024205115226
+  },
+  "computational_ledger": {
+    "training_steps": 0,
+    "DEV_evaluation_steps": 69888,
+    "successful_DEV_evaluation_steps": 69120,
+    "numerical_gate_failure_steps": 768,
+    "new_independent_TEST_steps": 0,
+    "complete_episodes": 2912,
+    "successful_complete_episodes": 2880,
+    "model_loads": 11,
+    "numerical_gate_failures": 1,
+    "retried_model_count": 1,
+    "model_files_created": 0,
+    "optimization_updates": 0,
+    "thesis_builds": 0,
+    "episodes_by_method": {
+      "f1": 1440,
+      "props": 1472
+    },
+    "steps_by_method": {
+      "f1": 34560,
+      "props": 35328
+    }
+  },
+  "successful_panels": 90,
+  "failed_numeric_gate_panels": 1,
+  "independent_postrun_status": "PASS",
+  "protected_inputs_SHA_unchanged": 24,
+  "original_models_modified": 0,
+  "new_models_saved": 0,
+  "formal_learning_curves_modified": 0,
+  "paper_sources_modified": 0,
+  "paper_builds": 0,
+  "scientific_navigation_modified": 0,
+  "recovery": {
+    "status": "complete",
+    "command": null
+  },
+  "artifacts_sha256": {
+    "protocol/PLAN.json": "01b549fc951c29f6e9c6d23361af63af176305b979f9f1f0600916b4419a0eee",
+    "protocol/plan_seal.json": "a803dde0a49223527bb36af3f4ae277dd33b347604ea0329e03a675352692917",
+    "protocol/ATTEMPT2_REPAIR.json": "98cb8987291a724565a3076cc3571ca6f2677732419e16170eb799fc4dfe5f57",
+    "protocol/final_source_seal.json": "c4595fd2c9efeab82a9c14fe3a0c019dbb4601c38b396c5faa21464539a30d44",
+    "protocol/historical_context.json": "93d5907308e577bd08347e0e4780a46f6aaadb0b73fd2abe5c4378cc703c1161",
+    "audit/preflight.json": "96624e0c1d556619071fcbb1d5df483c326d45df4aa7367a7e200ae005f2a253",
+    "audit/attempt2_preflight.json": "d69acddc4e619861cf9a58eb936d57f23a7e07784ef4adb64654b845fa3c3955",
+    "audit/independent_postrun.json": "ba8f4fab538899e260d95b8d9c053dcc538791b30a3cc9f52bbdbcc6ae15ee8d",
+    "results/summary.json": "876480199b2d4b6e9762ae9f49d073921c83e00c1bead1e99ea40c358b380d4f",
+    "results/per_training_seed.csv": "2b923fe624cacae95a6df541dd013e8ef5217385cbc8f8643e6c776ba1bc460d",
+    "results/computational_ledger.json": "fa50b38531d1999ddebd57194d523c1ee80ae081e9332f4e09e02414441f36c6",
+    "随机与均值动作评价结果.rst": "4f2a2aafbb0f5038462dc1c8fd1b72e14c37c03b6d2d71c4d4d6abf452817c67"
+  },
+  "limits": [
+    "Five original training seeds; eight action repetitions do not create additional independent training seeds.",
+    "No new TEST, training or full learning-curve reconstruction.",
+    "Historical 70.10% differs in multiple training and evaluation factors; current stochastic score alone does not reproduce it.",
+    "The preserved initial PROPS seed2 gate failure consumed 768 steps; repair restored original PLAN tolerance, CPU-vs-CUDA max native return difference 6.330659629849578e-08."
+  ]
+}

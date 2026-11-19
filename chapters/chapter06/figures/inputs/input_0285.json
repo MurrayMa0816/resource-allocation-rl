@@ -1,0 +1,623 @@
+{
+  "schema": "c6-restored-template15-v1",
+  "status": "PASS_REQUIRES_VISUAL_REVIEW",
+  "figure": "6.8",
+  "native_mm": [
+    144.0,
+    157.73891262478298
+  ],
+  "axes_sizes_mm": [
+    [
+      118.8,
+      52.79999999999999
+    ],
+    [
+      118.8,
+      52.80000000000001
+    ]
+  ],
+  "native_fonts_bp": 10.5,
+  "scientific_artists_exact_current_parent": true,
+  "parent_numeric_record_sha256": "f96753a0abb15f8fc24302cfa06d3256766d08ccd57af06d9a5a182bf733ff94",
+  "new_data_or_annotation_exceptions": [],
+  "retained_display_attributes": "6.3 last8/19 right alignment;6.8 first水量未变 offset(0,-9)bp",
+  "authorized_geometry_changes": [
+    {
+      "role": "temporary_native_canvas",
+      "after_mm": [
+        144,
+        240.0
+      ]
+    },
+    {
+      "role": "restore_clear_axes",
+      "before_fraction": [
+        0.16,
+        0.755,
+        0.825,
+        0.18
+      ],
+      "after_fraction": [
+        0.16,
+        0.755,
+        0.825,
+        0.22
+      ]
+    },
+    {
+      "role": "restore_clear_axes",
+      "before_fraction": [
+        0.16,
+        0.195,
+        0.825,
+        0.4
+      ],
+      "after_fraction": [
+        0.16,
+        0.195,
+        0.825,
+        0.22
+      ]
+    }
+  ],
+  "layout_only_in_memory_substitutions": [
+    {
+      "before": "move_axes([0],8-f['upper_axis_including_ticks_to_legend_bp'])",
+      "after": "move_axes([0],15-f['upper_axis_including_ticks_to_legend_bp'])"
+    },
+    {
+      "before": "move_legend(len(fig.legends)-1,8-f['xlabel_to_legend_bp'])",
+      "after": "move_legend(len(fig.legends)-1,15-f['xlabel_to_legend_bp'])"
+    },
+    {
+      "before": "abs(final['xlabel_to_legend_bp']-8)",
+      "after": "abs(final['xlabel_to_legend_bp']-15)"
+    },
+    {
+      "before": "abs(final['upper_axis_including_ticks_to_legend_bp']-8)",
+      "after": "abs(final['upper_axis_including_ticks_to_legend_bp']-15)"
+    }
+  ],
+  "unchanged_local_spacing_source_sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+  "entry_sha256": "9b32495f278ee983c8e9e5ae0bbd3b5a7ed6cf43500d661dfab2c83cba9eaa66",
+  "CSV_sha256": {
+    "seven_day_actual_weather_and_q.csv": "5e6d3e2b8ee570d139f584692c859c5b92b647b5fcfa594fc656fbf7239fed82"
+  },
+  "geometry": {
+    "schema": "chapter6-measured-content-spacing-v1",
+    "status": "PASS",
+    "number": "6.8",
+    "native_mm": [
+      144.0,
+      157.73891262478298
+    ],
+    "axes_sizes_mm": [
+      [
+        118.8,
+        52.79999999999999
+      ],
+      [
+        118.8,
+        52.80000000000001
+      ]
+    ],
+    "axes_positions_mm": [
+      [
+        23.04,
+        98.13665991889107,
+        118.8,
+        52.79999999999999
+      ],
+      [
+        23.04,
+        25.566814337836377,
+        118.8,
+        52.80000000000001
+      ]
+    ],
+    "ordinary_font_bp": 10.5,
+    "measurement_basis": "native PDF text frames; upper unlabeled axes use spine plus declared tick length, not pixel ink",
+    "pdf_frames_before": {
+      "native_mm": [
+        143.99999593098957,
+        239.99999321831598
+      ],
+      "xlabel_to_legend_bp": 67.12744140625,
+      "bottom_content_margin_mm": 4.843782721625434,
+      "top_content_margin_mm": 0.697749924659729,
+      "upper_axis_including_ticks_to_lower_title_bp": null,
+      "upper_axis_including_ticks_to_legend_bp": 32.60978013887188,
+      "upper_legend_to_lower_title_bp": 169.65679931640625,
+      "xlabel_frames_bp": [
+        [
+          223.1881866455078,
+          578.4359741210938,
+          244.1881866455078,
+          588.946533203125
+        ]
+      ],
+      "legend_frames_bp": [
+        [
+          [
+            183.28819274902344,
+            202.78692626953125,
+            214.78819274902344,
+            213.29742431640625
+          ],
+          [
+            255.73818969726562,
+            202.78692626953125,
+            308.2381896972656,
+            213.29742431640625
+          ]
+        ],
+        [
+          [
+            132.88818359375,
+            656.073974609375,
+            227.38818359375,
+            666.5845336914062
+          ],
+          [
+            264.13818359375,
+            656.073974609375,
+            358.63818359375,
+            666.5845336914062
+          ]
+        ]
+      ],
+      "title_frames_bp": [
+        [
+          188.4928741455078,
+          1.9778738021850586,
+          278.88739013671875,
+          12.488373756408691
+        ],
+        [
+          161.9538116455078,
+          382.9542236328125,
+          305.4258117675781,
+          393.4647216796875
+        ]
+      ]
+    },
+    "pdf_frames_after": {
+      "native_mm": [
+        143.99999593098957,
+        157.73890753851995
+      ],
+      "xlabel_to_legend_bp": 15.000030517578125,
+      "bottom_content_margin_mm": 2.0000178866916234,
+      "top_content_margin_mm": 1.4999942382176716,
+      "upper_axis_including_ticks_to_lower_title_bp": null,
+      "upper_axis_including_ticks_to_legend_bp": 15.000010332723377,
+      "upper_legend_to_lower_title_bp": 12.0,
+      "xlabel_frames_bp": [
+        [
+          223.1881866455078,
+          405.44354248046875,
+          244.1881866455078,
+          415.95404052734375
+        ]
+      ],
+      "legend_frames_bp": [
+        [
+          [
+            183.28819274902344,
+            187.45126342773438,
+            214.78819274902344,
+            197.96176147460938
+          ],
+          [
+            255.73818969726562,
+            187.45126342773438,
+            308.2381896972656,
+            197.96176147460938
+          ]
+        ],
+        [
+          [
+            132.88818359375,
+            430.9540710449219,
+            227.38818359375,
+            441.4645690917969
+          ],
+          [
+            264.13818359375,
+            430.9540710449219,
+            358.63818359375,
+            441.4645690917969
+          ]
+        ]
+      ],
+      "title_frames_bp": [
+        [
+          188.4928741455078,
+          4.251952171325684,
+          278.88739013671875,
+          14.762452125549316
+        ],
+        [
+          161.9538116455078,
+          209.96176147460938,
+          305.4258117675781,
+          220.47225952148438
+        ]
+      ]
+    },
+    "legend_count": 2,
+    "xlabel_to_legend_bp": 15.000030517578125,
+    "legend_to_file_bottom_mm": 2.0000178866916234,
+    "bottom_content_margin_mm": 2.0000178866916234,
+    "top_content_margin_mm": 1.4999942382176716,
+    "upper_axis_including_ticks_to_lower_title_bp": null,
+    "upper_axis_including_ticks_to_legend_bp": 15.000010332723377,
+    "upper_legend_to_lower_title_bp": 12.0,
+    "all_text_inside_canvas": true,
+    "all_scientific_artist_values_and_line_styles_exact": true,
+    "numeric_before_sha256": "c2f01faddac9e8587cac14575bcf3c983009a65310eaddb8681e4832bacb8db5",
+    "numeric_after_sha256": "c2f01faddac9e8587cac14575bcf3c983009a65310eaddb8681e4832bacb8db5",
+    "texts": [
+      {
+        "text": "7/31—8/2提高15%",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          144.13520247469037,
+          290.8378007543369,
+          82.89,
+          10.40625
+        ]
+      },
+      {
+        "text": "参考蒸散率（mm/d）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          38.84648622047245,
+          303.8773037070928,
+          10.65375,
+          98.28
+        ]
+      },
+      {
+        "text": "0",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.590236220472455,
+          272.0626580378015,
+          5.22,
+          10.08
+        ]
+      },
+      {
+        "text": "4",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.50023622047245,
+          340.0941541007936,
+          5.31,
+          10.08
+        ]
+      },
+      {
+        "text": "8",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.590236220472455,
+          408.12565016378574,
+          5.22,
+          10.08
+        ]
+      },
+      {
+        "text": "(a) 参考蒸散率变化",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          188.37318897637795,
+          431.50069937638415,
+          90.63,
+          11.61
+        ]
+      },
+      {
+        "text": "标注为同日较原安排增减水量（m³）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          227.72480314960632,
+          207.97166859544174,
+          169.29,
+          10.42875
+        ]
+      },
+      {
+        "text": "水量未变",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          68.30422947131606,
+          82.84562574095976,
+          42.12,
+          10.485
+        ]
+      },
+      {
+        "text": "水量未变",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          116.41221597300355,
+          203.40964438782197,
+          42.12,
+          10.485
+        ]
+      },
+      {
+        "text": "增加3541",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          164.52020247469036,
+          129.79302235101426,
+          42.12,
+          10.3725
+        ]
+      },
+      {
+        "text": "增加3411",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          212.62818897637786,
+          156.21901279103588,
+          42.12,
+          10.3725
+        ]
+      },
+      {
+        "text": "增加4212",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          260.69117547806536,
+          159.00478843649205,
+          42.21,
+          10.3725
+        ]
+      },
+      {
+        "text": "减少919",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          311.45416197975214,
+          93.20898836062977,
+          36.9,
+          10.27125
+        ]
+      },
+      {
+        "text": "减少958",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          359.60714848143965,
+          111.76470546495656,
+          36.81,
+          10.27125
+        ]
+      },
+      {
+        "text": "日期",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          223.15818897637794,
+          29.770859540323595,
+          21.06,
+          10.08
+        ]
+      },
+      {
+        "text": "7/30",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          80.00422947131607,
+          55.8928595403236,
+          18.72,
+          10.08
+        ]
+      },
+      {
+        "text": "7/31",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          128.11221597300354,
+          55.8928595403236,
+          18.72,
+          10.08
+        ]
+      },
+      {
+        "text": "8/1\n首次调整",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          164.52020247469036,
+          43.85085954032359,
+          42.12,
+          22.122000000000003
+        ]
+      },
+      {
+        "text": "8/2",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          226.98318897637785,
+          55.8928595403236,
+          13.41,
+          10.08
+        ]
+      },
+      {
+        "text": "8/3",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          275.09117547806534,
+          55.8928595403236,
+          13.41,
+          10.08
+        ]
+      },
+      {
+        "text": "8/4",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          323.19916197975215,
+          55.8928595403236,
+          13.41,
+          10.08
+        ]
+      },
+      {
+        "text": "8/5",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          371.35214848143966,
+          55.8928595403236,
+          13.32,
+          10.08
+        ]
+      },
+      {
+        "text": "每日分配灌溉总水量\n（万m³）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          22.02998622047245,
+          99.92250520961495,
+          22.25025,
+          94.77
+        ]
+      },
+      {
+        "text": "4",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.50023622047245,
+          66.35285954032359,
+          5.31,
+          10.08
+        ]
+      },
+      {
+        "text": "6",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.50023622047245,
+          99.61270206000863,
+          5.31,
+          10.08
+        ]
+      },
+      {
+        "text": "8",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.590236220472455,
+          132.87254457969368,
+          5.22,
+          10.08
+        ]
+      },
+      {
+        "text": "10",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.37023622047245,
+          166.13238709937872,
+          10.44,
+          10.08
+        ]
+      },
+      {
+        "text": "12",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.28023622047245,
+          199.39222961906376,
+          10.53,
+          10.08
+        ]
+      },
+      {
+        "text": "(b) 相同变化天气下的每日配水",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          161.73318897637793,
+          225.79090087890629,
+          143.91,
+          11.61
+        ]
+      },
+      {
+        "text": "原天气",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          183.16818897637796,
+          247.9420247908464,
+          31.59,
+          10.15875
+        ]
+      },
+      {
+        "text": "变化后天气",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          255.708188976378,
+          247.9420247908464,
+          52.65,
+          10.5075
+        ]
+      },
+      {
+        "text": "继续执行原配水安排",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          132.61818897637804,
+          4.790458426888538,
+          94.77,
+          10.5975
+        ]
+      },
+      {
+        "text": "依据新观测重新配水",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          264.13818897637805,
+          4.790458426888538,
+          94.77,
+          10.6425
+        ]
+      }
+    ],
+    "exceptions": [],
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0
+  },
+  "complete_visible_content": {
+    "measurement": "union of actual PDF text span/character frames and drawn path bounds, including legend handles/strokes; full-page white background excluded",
+    "bounds_bp": [
+      21.373985290527344,
+      4.251952171325684,
+      402.3661316037178,
+      441.4645690917969
+    ],
+    "top_white_bp": 4.251952171325684,
+    "bottom_white_bp": 5.669342041015625,
+    "last_complete_legend_or_xlabel_y_bp": 441.4645690917969,
+    "PDF_page_height_bp": 447.1339111328125
+  },
+  "output_sha256": {
+    "template15.pdf": "b51a4db8f975389453a213890d389bb3641610f9718b3b06519e0bdd03d54807",
+    "template15.svg": "eec05275c0a0bc37d3e0a4b77a2ab5a6c9428d9fd6bd063805e6cd2b247e6025",
+    "template15.png": "1351084e8479fa782e400cb86a463a53fa65b6f3a3d11a27d51f63a2b1cb5f70"
+  },
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0,
+    "new_TEST": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "A_RANDOM_OBJECT_ALLOCATION",
+  "domain": "v5",
+  "seed": 1,
+  "profile": "development_fixed100608_five_seed",
+  "arm_mapping": {
+    "variant": "A_FULL",
+    "temporal": "adaptive",
+    "quota_reference": "pace"
+  },
+  "training_steps": 100608,
+  "evaluation_only": true,
+  "optimizer_or_replay_saved": false
+}

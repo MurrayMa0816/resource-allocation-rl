@@ -1,0 +1,41 @@
+{
+  "all_full_spend": true,
+  "all_native_replays_exact": true,
+  "artifacts_sha256": {
+    "evaluation_paths.csv.gz": "998aa2fb1e5fa5aca0140eea969493df87bb94c5ce9fccb00bb14dc841efb85d",
+    "evaluation_steps.csv.gz": "85c2d6ba5764c5c4bd8b335b8e1d8ea7db58f1a4638408e515f889bd6a86eb3a",
+    "protocol.json": "9f1ed15ecfc5ccb0c14130c7a62467b377fb1020602f40000f86159e782dd846",
+    "terminal_diagnostics.npz": "53b0c556740dcdbbc690db05148552e7521d5879822c07381e7aa1ea68f39d4a",
+    "trajectories.npz": "a1c9d9ebf466f880426c4125a9e7ffdce0ae0768cd86c5a7827249431a6bde5c"
+  },
+  "condition": "default",
+  "domain": "radio",
+  "elapsed_seconds": 71.78678447473794,
+  "engineering_gate": false,
+  "evaluation_environment_steps": 4096,
+  "input_final_verification": {
+    "cache_hits": 1,
+    "filesystem_identity": [
+      66309,
+      5475901752,
+      331776128,
+      1793374930000000000,
+      1793797228833255592
+    ],
+    "final_full_rehash_passed": true,
+    "path": "/hy-tmp/resource_allocation_results/chapter4/baseline_completion_20261104/execution/portable_immutable/c3_source/allocation23/data/eurosat_rgb/images.npy",
+    "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef"
+  },
+  "learning_environment_steps": 0,
+  "method": "A_FULL",
+  "native_mean": 0.49297917837027705,
+  "native_path_sd": 0.13230779728538936,
+  "native_replay_environment_steps": 4096,
+  "paths": 128,
+  "policy_and_normalization_unchanged": true,
+  "protocol_sha256": "9f1ed15ecfc5ccb0c14130c7a62467b377fb1020602f40000f86159e782dd846",
+  "schema": "chapter3-frozen-conditions-rich-v1",
+  "seed": 0,
+  "source_unchanged": true,
+  "success": true
+}

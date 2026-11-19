@@ -1,0 +1,119 @@
+{
+  "status": "DERIVED_FROM_ALL_COMPLETE_RAW_NODES",
+  "source": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/results/curve_by_seed.csv",
+  "source_sha256": "685bab4c691af34587e089b67004627ab519cb30c4930965ac7dfea386c7de5b",
+  "threshold_score_x100": 75.59877076662723,
+  "rule": "first pair of consecutive raw development nodes meeting threshold; second node counts; original rule, no smoothing or threshold change",
+  "per_seed": [
+    {
+      "seed": 0,
+      "restricted_steps": 31488,
+      "censored": false
+    },
+    {
+      "seed": 1,
+      "restricted_steps": 31488,
+      "censored": false
+    },
+    {
+      "seed": 2,
+      "restricted_steps": 35328,
+      "censored": false
+    },
+    {
+      "seed": 3,
+      "restricted_steps": 39168,
+      "censored": false
+    },
+    {
+      "seed": 4,
+      "restricted_steps": 50688,
+      "censored": false
+    }
+  ],
+  "changed_rows": [
+    {
+      "before": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "0",
+        "restricted_steps": "6912",
+        "censored": "False"
+      },
+      "after": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "0",
+        "restricted_steps": "31488",
+        "censored": "False"
+      }
+    },
+    {
+      "before": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "1",
+        "restricted_steps": "7680",
+        "censored": "False"
+      },
+      "after": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "1",
+        "restricted_steps": "31488",
+        "censored": "False"
+      }
+    },
+    {
+      "before": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "2",
+        "restricted_steps": "6144",
+        "censored": "False"
+      },
+      "after": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "2",
+        "restricted_steps": "35328",
+        "censored": "False"
+      }
+    },
+    {
+      "before": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "3",
+        "restricted_steps": "13056",
+        "censored": "False"
+      },
+      "after": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "3",
+        "restricted_steps": "39168",
+        "censored": "False"
+      }
+    },
+    {
+      "before": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "4",
+        "restricted_steps": "6912",
+        "censored": "False"
+      },
+      "after": {
+        "domain": "v5",
+        "method": "props",
+        "seed": "4",
+        "restricted_steps": "50688",
+        "censored": "False"
+      }
+    }
+  ],
+  "other55_rows_cells_order_exact": true,
+  "physical_steps": 0,
+  "model_loads": 0
+}

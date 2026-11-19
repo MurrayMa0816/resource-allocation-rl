@@ -1,0 +1,38 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "e9bfee9e8136b640bae6126df6cea8496dbb1a7daca7428d1f6feb10842823df",
+  "scientific_after_sha256": "e9bfee9e8136b640bae6126df6cea8496dbb1a7daca7428d1f6feb10842823df",
+  "labels": [
+    {
+      "before": "达到45.27分所需训练步数\n（×10³）",
+      "after": "达到45.27分所需交互步数\n（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        77.0649606299212,
+        136.52038807839756,
+        65.75000000000004,
+        361.375
+      ]
+    },
+    {
+      "before": "达到75.60%所需训练步数\n（×10³）",
+      "after": "达到75.60%所需交互步数\n（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        1022.966631457653,
+        139.27038807839756,
+        65.75,
+        355.875
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

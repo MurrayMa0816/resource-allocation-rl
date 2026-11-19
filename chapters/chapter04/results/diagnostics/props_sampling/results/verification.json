@@ -1,0 +1,26 @@
+{
+  "case_records": 190080,
+  "evaluation_panels": 5940,
+  "original_mean_cases_exact": 21120,
+  "complete_native_training_records_exact": 41920,
+  "fixed_target_tensor_exact_seed_count": 5,
+  "same_DEV32_plan_identity_all_nodes_replicates_seeds": true,
+  "all_660_nodes_training_RNG_and_target_unmodified": true,
+  "aggregation_model_loads": 0,
+  "aggregation_environment_steps": 0,
+  "maximum_hierarchical_vs_worker_flat_mean_roundoff": 2.220446049250313e-16,
+  "source_protection": {
+    "status": "PASS",
+    "worker_sha256": "7a01c742960c2624c540e0673acf029c94c800dbb982bd4521a0d06267aec899",
+    "plan_sha256": "5f5965769674e6788005aba34cc3e493d633417cdb2227f57e3f132dbcc26afd",
+    "controller_sha256": "849bc398aa401a4b8aa715853dc4dbe00ca00aa671323c694d16543e336fae17",
+    "protected_original_files": 192,
+    "protected_original_roles": {
+      "original_scientific_source": 161,
+      "original_execution_source": 3,
+      "original_formal_evidence": 25,
+      "current_models_or_original_curves": 3
+    },
+    "protection_manifest_sha256": "97fa3a46c0759486a67049ac225a4b1cb95f8df59ac365f0a0a74f1528605337"
+  }
+}

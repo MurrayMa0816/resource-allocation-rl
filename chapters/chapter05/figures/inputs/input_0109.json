@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "number": "5.7",
+  "old_physical_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性",
+  "old_graphics_sha256": {
+    "figure.pdf": "90d0d5423848dfc0158f24fa41b6ca97b7a417a2e218dd91f46ecd3bec639c1e",
+    "figure.png": "be6fb99abcc838ed891de489c67ab3e5ccca01a2f19ebf777c8f6920ef69d367",
+    "figure.svg": "778a915665be2a6a020e65450d3b11776511035aa1be66c962dbe4299a8ddc49"
+  },
+  "before_axes_mm": [
+    [
+      51.99999971666667,
+      47.89678
+    ],
+    [
+      52.00000006944444,
+      47.89678
+    ]
+  ],
+  "after_axes_mm": [
+    [
+      59.20000013333333,
+      50.99999995277777
+    ],
+    [
+      59.20000013333335,
+      50.99999995277777
+    ]
+  ],
+  "all_axes_target_mm": [
+    59.2,
+    51.0
+  ],
+  "no_axis_dimension_reduced": true,
+  "scientific_artists_match_parent_exact": true,
+  "scientific_artists_sha256": "9cfbe7f67437fbd5ed5f7ca4dd91094495817184d316517e2255e71e73f750e7",
+  "labels_ticks_data_fonts_lines_markers_uncertainty_preserved": true,
+  "parent_PDF_PNG_byte_exact_reproduction": {
+    "status": "PASS",
+    "outputs": {
+      "figure.pdf": {
+        "sha256": "90d0d5423848dfc0158f24fa41b6ca97b7a417a2e218dd91f46ecd3bec639c1e",
+        "accepted_sha256": "90d0d5423848dfc0158f24fa41b6ca97b7a417a2e218dd91f46ecd3bec639c1e",
+        "bytes_equal": true
+      },
+      "figure.png": {
+        "sha256": "be6fb99abcc838ed891de489c67ab3e5ccca01a2f19ebf777c8f6920ef69d367",
+        "accepted_sha256": "be6fb99abcc838ed891de489c67ab3e5ccca01a2f19ebf777c8f6920ef69d367",
+        "bytes_equal": true
+      }
+    },
+    "historical_paths_rebased_locally": true,
+    "external_source_reads_forbidden": true,
+    "science_runs": 0
+  },
+  "PDF_visible_xlabel_to_first_legend_bp": 15.0,
+  "PDF_last_legend_to_canvas_bottom_mm": 1.9999963548448347,
+  "native_mm": [
+    155.99999559190536,
+    85.33771743774413
+  ],
+  "new_scientific_execution": 0,
+  "role_of_5_6": null,
+  "offline_render_calls_to_this_point": {
+    "old_parent_reproduction": 1,
+    "derived_generation": 1,
+    "final_strict_reproduction": 1
+  },
+  "final_PDF_PNG_reproduction_byte_exact": true,
+  "final_SVG_reproduction_byte_exact": false,
+  "final_SVG_structure_geometry_text_exact_after_ID_normalization": true,
+  "actual_native_PNG_visual_review": "PASS; five figures individually viewed through view_image, titles/labels/legends/markers and uncertainty complete without clipping"
+}

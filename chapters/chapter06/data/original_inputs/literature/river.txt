@@ -1,0 +1,776 @@
+Received: 8 May 2024    | Revised: 8 July 2024 | Accepted: 1 August 2024
+DOI: 10.1002/rvr2.96
+
+
+RESEARCH ARTICLE
+
+
+
+
+Modiﬁcation and testing of SWAT for paddy ﬁeld water
+consumption and yield
+
+Jialong Chen1                  | Yalong Li1 |                Wenbing Luo1 |                  Lei Yu1 | Zhike Zou1 |
+Wenjuan Wang2 | Shaozhe Huang3 | Chi Tang4 |                                                    Lei Ye4 |            Xue Xiao5
+
+1
+ Agricultural Water Conservancy Department,             Abstract
+Changjiang River Scientiﬁc Research lnstitute,
+Wuhan, China                                            SWAT model is one of the primary tools for assessing irrigation district water
+2                                                       management and water‐saving measures. However, its incapacity to consider the
+ Hanjiang Bureau of Hydrology and Water
+Resources Survey, Changjiang Water Resources            diverse growth and water requirements of paddy during various growth stages, as
+Commission, Xiangyang, China                            well as the insufﬁcient availability of external water sources. This study introduces
+3
+ College of Resources and Environment, Yangtze          the Penman‐Monteith equation and Jensen model into the SWAT framework,
+University, Wuhan, China                                setting crop coefﬁcients, crop base coefﬁcients, and growth stage sensitivity
+4
+ Zhanghe Engineering Management Bureau,                 indices based on the different growth stage. Additionally, modiﬁcations are made
+Jingmen, China                                          to the external water source available for irrigation and paddy ﬁeld leakage
+5
+ Water Resources Department, Changjiang River           modules, establishing a distributed agricultural hydrological model suitable for
+Scientiﬁc Research Institute, Wuhan, China
+                                                        accurately simulating water balance elements and paddy yield in multi‐source
+                                                        irrigation districts. The Yangshudang watershed in the Zhanghe irrigation district
+Correspondence
+                                                        is chosen for the evaluation of the modiﬁed model's simulation performance, with
+Yalong Li and Wenbing Luo, Agricultural Water
+Conservancy Department, Changjiang River                a quantitative assessment of water‐saving and yield‐increasing effects. The results
+Scientiﬁc Research lnstitute, Wuhan 430010, China.      demonstrate that the modiﬁed model effectively meets the requirements for
+Email: lyalong888@outlook.com and
+                                                        simulating paddy evapotranspiration of various growth stages, yield, agricultural
+luowenbing2005_0@126.com
+                                                        irrigation water consumptions, and runoff, exhibiting a notable enhancement in
+Funding information                                     performance. As two common water‐saving measures in irrigation areas, inter-
+Fundamental Research Funds for Central Public
+                                                        mittent irrigation and irrigation district renovation were used as two water‐saving
+Welfare Research Institutes, Grant/Award Number:
+CKSA2023479/NY; NSFC‐MWR‐CTGC Joint                     scenarios in the simulation of the modiﬁed SWAT model. Under intermittent
+Yangtze River Water Science Research Project,           irrigation, the watershed experiences a 6.58% reduction in net irrigation water
+Grant/Award Number: U2040213; Basic Scientiﬁc
+                                                        use. In the scenario with irrigation district renovation, the water resources in the
+Research Business Funding Projects of Central
+Public Welfare Research Institutes,                     watershed are utilized more efﬁciently. The modiﬁed model from this study can be
+Grant/Award Numbers: CKSF2019251/NY,                    applied for assessing the synergistic effects of irrigation district water‐saving and
+CKSF2021299/NY; Projects of International
+                                                        yield‐increasing measures, providing crucial insights for the formulation of irri-
+Cooperation and Exchanges NSFC,
+Grant/Award Number: 52211540722                         gation district water‐saving strategies and water resource optimization plans.
+
+                                                        KEYWORDS
+                                                        agricultural water consumption, irrigation system, modiﬁed SWAT, renovation, yield simulation
+
+
+
+1     | INTRODUCTION                                                                  emphasis on agricultural water conservation in China,
+                                                                                      leading to the development of efﬁcient irrigation technol-
+Agriculture is the primary water‐consuming sector in                                  ogies (Dhawan et al., 2011; Zhang et al., 2023). Paddy, as a
+China, accounting for over 60% of total water usage.                                  major global staple crop, accounts for one‐fourth of the
+Notably, irrigation water constitutes more than 90% of                                world's total grain production and one‐third of China's
+agricultural water consumption, making it a signiﬁcant                                total production (Song et al., 2022). Paddy cultivation is
+target for water resource management in irrigated districts                           widespread in irrigation districts across China, and its yield
+(Yao, 2017). In recent years, there has been a signiﬁcant                             has a critical impact on food security (Chen et al., 2020;
+
+
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the
+original work is properly cited.
+© 2024 The Author(s). River published by Wiley‐VCH GmbH on behalf of China Institute of Water Resources and Hydropower Research (IWHR).
+
+
+324   |    wileyonlinelibrary.com/journal/river                                                                                                 RIVER. 2024;3:324–336.
+CHEN ET AL.                                                                                                             |   325
+
+
+
+Lei et al., 2011; Xiao et al., 2009). However, challenges        real‐time irrigation management for ponds. Similarly,
+persist in the southern paddy‐growing regions of China,          Sakaguchi et al., 2014 introduced a potential percolation
+where large quantities of irrigation and drainage are            rate for paddy ﬁelds to simulate percolation processes and
+common, alongside issues such as nonmetering and non-            modiﬁed the irrigation process to prevent overﬂows. They
+payment of water fees for irrigation, which further com-         also incorporated an evaporation coefﬁcient to calculate
+pound the situation (Kang et al., 2004; Sakaguchi                evaporation from the water surface of the paddy ﬁeld.
+et al., 2014). The “melon‐on‐the‐vine” irrigation system is      Dai et al., 2016 revised the land surface hydrologic process
+one of the typical irrigation network system in the hilly        in SWAT and modiﬁed irrigation water movement, paddy
+regions of southern China. In this type of network, along        yield calculations, and water balance modules (e.g., ET,
+with water sources and destinations, there are many re-          seepage, and capillary rise) speciﬁcally for paddy paddy
+servoirs, ponds, and other water storage facilities con-         ﬁelds. Their modiﬁcations led to the development of the
+nected to the canal network. This allows the irrigation          Rice Irrigation System Soil and Water Assessment Tool
+return water to be reused to a high degree through diver-        (RIS‐SWAT), which could address irrigation canal seepage
+sion and lifting from the reservoirs. Moreover, the hydro-       as well. Wu et al., 2018 integrated a multi‐water source
+logical processes within such irrigation systems are inﬂu-       automatic irrigation model for paddy and conducted sta-
+enced not only by environmental but also by human                tistical analysis using a Yangshudang basin as the research
+factors, such as agricultural management practices and           area. They examined irrigation water usage from various
+engineering measures (Kong et al., 2010; Wu et al., 2019;        sources within a multi‐water source irrigation system,
+Xie and Cui, 2010). These factors pose signiﬁcant chal-          including internal rivers within the study area, internal
+lenges in accurately quantifying the hydrological cycle and      reservoirs and ponds within the study area, and external
+effectively managing water usage in the “melon‐on‐the‐           large‐scale irrigation reservoirs outside the study area. The
+vine” irrigation system, resulting in substantial difﬁculties    percent bias (PBIAS) between the total simulated AIWC
+in water cycle analysis and water management. This situ-         (agricultural irrigation water consumptions) by the mod-
+ation leads to water waste and low water‐use efﬁciency in        iﬁed SWAT and observed values was 2.75%, while the
+southern irrigation districts, highlighting the enormous         original SWAT model was −48.59%. These results indi-
+potential for water conservation. Furthermore, accurate          cated that the modiﬁed model signiﬁcantly enhanced the
+statistical estimation of crop yield in paddy‐growing dis-       simulation of AIWC compared to the original model. Jiang
+tricts is important for effective crop management and food       et al. (2022) modiﬁed the point source salt module and
+security. Therefore, to contribute to the protection of water    irrigation water salt module in the SWAT model to more
+resources, water ecosystems, and food security, it is es-        accurately depict water and salt transport processes in
+sential to conduct a thorough investigation into water cy-       paddy ﬁelds. The results demonstrated good applicability
+cling patterns, water‐saving, and yield‐enhancing effects        of the modiﬁed model. Additionally, other researchers
+within irrigation districts in southern China.                   also made modiﬁcations to the SWAT model to address
+    The soil and water assessment tool (SWAT) model, as          irrigation water quantity and quality in irrigated areas
+one of the representative physical models, is widely rec-        (Addab & Bailey, 2022; Rivas‐Tabares et al., 2019; Wu
+ognized and extensively applied in hydrological research         et al., 2019; Zhang et al., 2023).
+globally (Gassman et al., 2007; Zhou et al., 2021). Due to            Several studies have proposed enhancements to the
+its interdisciplinary nature, the model is recognized as a       SWAT model concerning water movement in paddy ﬁelds
+robust tool, particularly in simulating agricultural man-        and the calculation of irrigation water usage (Wu
+agement (Epelde et al., 2015; Panagopoulos et al., 2014).        et al., 2019; Xie and Cui, 2010). However, achieving an
+Moreover, the auto‐irrigation module integrated within the       accurate quantitative representation of speciﬁc paddy ﬁeld
+SWAT model enables the simulation of irrigation practices        water cycling processes and paddy yield remains chal-
+in crop systems (Neitsch et al., 2011; Uniyal &                  lenging. Previous studies have not adequately addressed
+Dietrich, 2019), making it a preferred and logical choice for    the issue of insufﬁcient external water sources within the
+studying anthropogenically‐impacted basins, such as irri-        context of multi‐source automated irrigation systems.
+gation systems. Consequently, the SWAT model has been            Additionally, there are still limitations in accurately simu-
+extensively utilized to investigate water cycles in such sys-    lating soil moisture content and dynamic shifts in water
+tems (Ahmadzadeh et al., 2016; Ni & Parajuli, 2018; Tong         stress sensitivity across different growth stages of paddy.
+et al., 2015), and these studies have demonstrated its ability   Therefore, further modiﬁcations to the SWAT model are
+in simulating large‐scale watershed hydrological processes       necessary to precisely simulate the various water balance
+and its potential in irrigation systems.                         components of paddy ﬁelds and paddy yield.
+    Given the open‐source nature of the SWAT model,                   The objectives of this study are (1) to advance the sim-
+studies have been undertaken to enhance its performance          ulation of paddy ﬁeld water balance elements based on prior
+and better simulate hydrological processes in irrigation         studies (Dai et al., 2016; Wu et al., 2018) to develop a
+systems (Melaku & Wang, 2019; Wang et al., 2016).                hydrological model with an enhanced capability to portray
+For instance, Xie and Cui (Xie and Cui, 2010) made               the process of water movement in paddy ﬁelds; (2) to address
+improvements to the SWAT model, including paddy ﬁeld             the notable differences in growth and water requirements
+evapotranspiration, irrigation and drainage control, and         across distinct growth stages of rice, enhancements have been
+326   |                                                                                                              CHEN ET AL.
+
+
+
+made to the SWAT model by incorporating the Penman‐               agricultural activity in the study area, and it is distributed
+Monteith equation and Jensen model; and (3) to evaluate the       in an interspersed pattern. The predominant soil type is
+modiﬁed model's simulation performance and quantitatively         yellow‐brown earth paddy soil. The main crops cultivated
+assess the watershed's potential for water‐saving and yield‐      in the region include paddy, cotton, and rapeseed, with the
+increasing.                                                       majority of paddy cultivation being focused on mid‐season
+                                                                  paddy. Flood irrigation is commonly applied for paddy
+                                                                  cultivation in this area. Information of ﬁeld management
+2     | M A T E R I A L S AN D M E T H O D S                      practices, including paddy cultivation methods and timing,
+                                                                  fertilization regime, as well as details of paddy growth
+2.1       | Study area                                            stages and critical depths of different paddy irrigation
+                                                                  modes (Wu et al., 2019) (Table 1), was gathered through
+Zhanghe irrigation district is situated within the latitude       interviews with farmers. Crop coefﬁcients at each growth
+range of 30°00′ N–31°42′ N and the longitude range of             stage of paddy were collected through ﬁeld experiments at
+111°28′ E–111°53′ E. It has a subtropical continental cli-        Tuanlin Experiment station.
+mate characterized by an average annual temperature of
+17°C, a maximum temperature of 40.9°C, and an average
+annual precipitation of 965 mm. Yangshudang Basin is              2.2 |     SWAT model modiﬁcation
+chosen as the study area, which is a closed subbasin within
+Zhanghe irrigation district, covering a total drainage area       2.2.1 |     Modiﬁcation of multi‐source irrigation
+of 40.12 km2. Figure 1 depicts the geographical boundaries        module
+of the study area, enclosed by the third main canal of
+Zhanghe irrigation district. In addition to Yangshudang           Wu et al. (2018) presented an improved multi‐source irri-
+reservoir at the outlet, there is also a small reservoir,         gation module for the SWAT model, assuming that ex-
+Honghe reservoir, within the study area. The distribution         ternal water sources would fully meet the irrigation
+of land use types and soil types in the study area is depicted    demands in the study region. However, in reality, external
+in Figure 2.                                                      water sources may not always fully meet the irrigation
+    The study area represents a typical hilly region in           needs of the research area. Consequently, Wu et al.'s model
+southern China, characterized by the “melon‐on‐the‐vine”          tends to overestimate the volume of irrigation water
+cropping system. The major land use types in the area             sourced from the external water supply when compared to
+include paddy ﬁelds, drylands, forests, and grasslands.           measured values. As an important source of irrigation
+Among these, paddy ﬁelds account for 48.11% of the total          water, the external water supply to the irrigation district
+land area. Consequently, paddy cultivation is the primary         affects not only the simulation of water quantities in rivers
+
+
+
+
+FIGURE 1      The location of study area and subbasin division.
+CHEN ET AL.                                                                                                                                                                  |   327
+
+
+
+
+F I G U R E 2 Spatial distributions of land use type (UTRN stands for built‐up land; PAST stands for grassland; FRST stands for forest land;
+BARR stands for bare land; and AGRL stands for dry land) and soil type of the study area.
+
+
+TABLE 1          Basic management information of paddy ﬁelds in different growing stages in Yangshudang.
+                                                            Tillering stage                                                                        Ripening stage
+                        Steeping         Recovering                                            Booting          Heading           Milky
+ Item                   stage            stage              Wet               Dry              stage            stage             stage            Wet              Dry
+ Beginning date         May 20           May 30             June 8            July 6           July 15          July 31           August 10        August 19        August 27
+
+ Ending date            May 29           June 7             July 5            July 14          July 30          August 9          August 18        August 26        September 3
+
+ Kc                     /                1.03               1.23              0.67             1.51             1.60              1.44             1.44             0.80
+
+ Kcb                    /                1.00               1.12              0.61             1.45             1.53              1.11             1.11             0.62
+
+ F‐Irr/mm               20–40–80         10–40–60           10–40–60          20–60–80         20–60–80         20–60–80          20–60–80         20–60–80         0–0–0
+
+ I‐Irr/mm               20–40–80         10–30–50           10–40–60          0–0–0            20–50–70         20–50–70          10–40–60         0–20–30          0–0–0
+
+Note: F‐Irr represents ﬂood irrigation. I‐Irr represents intermittent irrigation (Zhang et al., 2024). Kc is the crop coefﬁcient, Kcb is the base crop coefﬁcient. The irrigation and
+drainage of paddy ﬁelds are controlled by three depth parameters: the lower limit of the suitable water depth (Hmin), the upper limit of the suitable water depth (Hmax) and the
+maximum allowable depth of impoundment after rainfall (Hp). Irrigation is triggered when the water depth in the paddy ﬁeld falls below Hmin, and the irrigation water
+requirement is the difference between Hmax and the current water depth in the ﬁeld. Drainage occurs when the postrainwater storage depth exceeds Hp.
+
+
+
+
+and ponds within the study area, but also the simulation of                                  area, while the remaining water would be utilized for irri-
+watershed runoff and paddy yield.                                                            gation in the adjacent regions across the third main canal
+   In this study, based on Wu et al. (2018) improved                                         of Zhanghe irrigation district and downstream of the study
+module, a linkage was established between the external                                       area. The amount of irrigation water used in the study area
+water supply and available irrigation water. Speciﬁcally,                                    can be obtained by detecting the ﬂow at both ends
+based on on‐site observation and measurement data, it was                                    of the channel that ﬂows through the study area. 50% is
+determined that 50% of the water from the external source                                    the average value of daily measured ﬂow ratio during
+could be allocated for paddy irrigation within the study                                     rice growth period. This ratio could be adjusted based on
+328   |                                                                                                                 CHEN ET AL.
+
+
+
+the actual water supply conditions for different years. This                                            900
+                                                                                0.408Δ (R n − G ) + γ T + 273 U2 (es − ea)
+adjustment reﬂects the actual irrigation practices and aims             ET0 =                                                ,   (1)
+                                                                                          Δ + γ (1 + 0.34U2 )
+to enhance the realism of irrigation water estimation in the
+model.
+                                                                 where ET0 is the reference crop evapotranspiration (mm/
+                                                                 day); Δ is the slope of the temperature‐saturated vapor
+2.2.2     | Modiﬁcation of paddy ﬁeld inﬁltration                pressure curve (kPa/°C); Rn is net surface radiation
+                                                                 (MJ/m/d); G is soil heat ﬂux (MJ/m2/d); γ is the psy-
+Dai and Cui (2009) considered the blocking effect of paddy       chrometric constant (kPa/°C); T is daily average tem-
+ﬁeld plow layer on inﬁltration and restricted the inﬁltration    perature (°C); U2 is wind speed at 2 meters height (m/s); es
+rate of the plow layer. Due to the limitations of the sim-       is saturated vapor pressure (kPa); and ea is actual vapor
+ulation process of leakage operation of the SWAT model,          pressure (kPa).
+the model is simulated according to the daily time scale,            The dual crop coefﬁcient method is applied to calculate
+and only one round of leakage simulation is carried out          the improved potential evapotranspiration and crop tran-
+from top to bottom every day. If only the leakage intensity      spiration. The formula for these calculations is:
+of the plow bottom is limited, the plow bottom will only be
+saturated, while the upper layer can reach the ﬁeld capacity
+                                                                                         ET = ET0 ⋅ Kc,                          (2)
+at most. Therefore, it is necessary to limit the leakage
+intensity of each soil layer so that all soil layers can reach
+                                                                                        Tm = ET0 ⋅ K cb,                         (3)
+saturation. This inconsistency with the actual situation had
+implications for the paddy water quantity simulation.
+When there is a water layer on the surface of a paddy, the                               Kc = K cb + K e,                        (4)
+inﬁltration process is primarily characterized by stable
+inﬁltration, the soil's inﬁltration reaches a stable value. To   where ET is the crop evapotranspiration (mm), Tm is the
+address this issue, this study imposed a maximum seepage         crop transpiration (mm), Kc is the crop coefﬁcient, Kcb is
+intensity of 2 mm/d on the vertical seepage rate of each soil    the base crop coefﬁcient, and Ke is the soil evaporation
+layer above the plow layer in paddy ﬁelds (Dai &                 coefﬁcient. The speciﬁc values for each stage are shown in
+Cui, 2009). The determination of this maximum seepage            Table 1 (Peng et al., 2007).
+intensity was derived from measured data obtained by
+installing seepage cylinders in a typical ﬁeld at the Tuanlin
+Experimental Station. By incorporating this constraint, the      2.2.4 |     Modiﬁcation of the yield module
+model simulation aimed to better align with actual condi-
+tions and provide more accurate results regarding paddy          The original SWAT model utilized the EPIC model for
+growth and yield.                                                crop yield calculation, which employed a single plant
+                                                                 growth model to simulate all types of vegetation, greatly
+                                                                 simplifying the simulation of the plant growth process and
+2.2.3 | Modiﬁcation of the evapotranspiration                    encompassed a comprehensive array of factors. However,
+module                                                           it is very difﬁcult to collect an accurate and comprehen-
+                                                                 sive set of factors, and if certain factors are inaccurate,
+Given that evapotranspiration represents a predominant           this can affect the accuracy of the EPIC model simula-
+element of water consumption within paddy ﬁelds, its             tions. Consequently, this method has a higher demand for
+precise simulation signiﬁcantly affects the accurate repre-      data, posing challenges for irrigation districts to meet
+sentation of water balance elements and paddy yield. In the      these requirements. Furthermore, this model lacked the
+original SWAT model, evapotranspiration calculations             ability to account for variations in water demand and the
+were based on the Penman equation proposed in 1965,              inﬂuence of water deﬁcit on paddy yield during different
+which has limited applicability (Komlan et al., 2018;            growth stages. However, these factors play a critical
+Valiantzas, 2013). To enhance the accuracy and applica-          role in determining paddy yield (Ai‐Hua et al., 2012;
+bility of the simulation, the Penman‐Monteith equation           Majumdar et al., 2023). In this study, the Jensen model
+(Equation 1), introduced by the Food and Agriculture             was applied for simulating crop yield. The Jensen model
+Organization (FAO) in 1998, is applied for evapo-                serves as a water production function, notable for its
+transpiration calculations. This equation is widely used         simplicity that requires minimal considerations. It derives
+internationally. The improved equation reﬁnes the calcu-         the ﬁnal yield solely based on evapotranspiration at var-
+lation method for molecular dynamic parameters, molec-           ious crop growth stages. Since it relies solely on evapo-
+ular shape factors, and the applicable range compared to         transpiration data, the accuracy of yield simulation
+the original formula. In this study, the meteorological data     heavily hinges on the precision of evapotranspiration
+input during model construction were used to calculate           data, demanding high accuracy in evapotranspiration
+ET0 by Penman‐Monteith equation (1998) instead of                simulation. The speciﬁc calculation formula used is as
+Penman equation (1965).                                          follows:
+CHEN ET AL.                                                                                                                |   329
+
+
+
+                                 ETi  λ i
+                        = ∏           ,
+                                         
+                            n                                     coefﬁcient is considered to be 1.0. Additionally, based on
+                          i = 1  ETmi 
+                     Ya
+                                                            (5)   ﬁeld experiment data from the Tuanlin Experimental Sta-
+                     Ym
+                                                                  tion, the ﬁeld water use coefﬁcient is determined to be 0.90,
+                                                                  resulting in an irrigation efﬁciency (η1) of the local water
+where Ya is the actual crop yield (kg/hm2); Ym is the             source of 0.90. Furthermore, data provided by the
+potential crop yield (kg/hm2); i is the growth stage of the       Zhanghe management bureau indicates that the canal
+crop; ETi is the cumulative value of actual evapo-                system water use coefﬁcient from the Zhanghe Reservoir to
+transpiration for the i‐th growth stage of the crop (mm);         the study area is 0.72, resulting in an irrigation water use
+ETmi is the cumulative value of potential evapotranspira-         coefﬁcient (η2) of 0.65.
+tion for the i‐th growth stage of the crop (mm); and λi is the
+sensitivity index of the i‐th growth stage of the crop. In this
+study, the growth stages of paddy were divided into four          2.4 |     Model evaluation metrics
+stages, namely tillering stage, booting stage, heading stage
+and Milky stage (Peng et al., 2007), the calibrated λ of four     The percent bias (PBIAS), coefﬁcient of determination (R2)
+stages are 0.4782, 0.5236, 0.5923 and 0.1504, respectively.       and Nash‐Sutcliffe efﬁciency coefﬁcient (NSE) were used
+                                                                  assess the model performance. The formulas for calculating
+                                                                  these indicators are provided below (Xie and Cui, 2010):
+2.3    | Model setup
+                                                                                          ∑ ni = 1(Qm − Qs )
+                                                                               PBIAS =                         × 100%,         (6)
+Input data for the SWAT model consists of two types: time                                     ∑in= 1 Qs
+
+                                                                                   n                        2
+series data and spatial data. The time series data include
+
+                                                                                    ∑ (Q − Q¯ )(Q − Q¯ ) 
+                                                                                                               
+the precipitation, maximum temperature, minimum tem-
+                                                                                     
+perature, relative humidity and average wind speed of                                   i = 1 m   m     s    s
+Tuanlin Experimental Station located in subbasin 4 from                      R2 = n                                  ,         (7)
+                                                                                                    n
+                                                                                 ∑i = 1(Qm − Qm ) ∑i = 1(Qs − Q¯s )2
+                                                                                                ¯ 2
+2000 to 2022, which are all daily data. The spatial data
+comprises a digital elevation model (DEM), a land use
+map, and a soil type map. These datasets were acquired
+from Changjiang River Scientiﬁc Research Institute, the                                        ∑in= 1(Qm − Qs )2
+                                                                                  NSE = 1 −                       ,            (8)
+third national soil survey, and the Irrigation Experimental                                    ∑in= 1(Qs − Q¯s )2
+Center Station of Hubei Province, respectively. Utilizing
+these data, the study area was divided into 10 subbasins          where Qm is the simulated value, Qs is the observed value,
+and 98 hydrologic response units (HRUs), as shown in              Q̄m is the average simulated value, Q̄s is the average observed
+Figure 1.                                                         values, n is the number of observed values, PBIAS is the
+     Furthermore, considering the distribution character-         percent bias of the model simulation (%), and the smaller
+istics of water sources in the irrigation area, speciﬁc water     the absolute value, the higher the simulation accuracy; R2
+sources and the water intake sequence for each HRU                is the coefﬁcient of determination, which is used to evaluate
+within each subbasin were speciﬁed. Based on the irrigation       the consistency between simulated values and observed
+characteristics of paddy in the study area, the river and the     values. The value ranges from 0 to 1, and a higher value
+pond within the subbasin were designated as the ﬁrst and          indicates a greater degree of conformity between the data;
+second water sources, respectively. Rivers and ponds only         NSE is the Nash‐Sutcliffe efﬁciency coefﬁcient, which is
+irrigate the subbasins where they are located. Subse-             used to measure the goodness‐of‐ﬁt between the observed
+quently, HH reservoir, located within the study area, was         and simulated data, and the value ranges from negative
+assigned as the third water source for the irrigation of          inﬁnity to 1, with a larger value indicating a better simula-
+HRUs in subbasins 2, 3, and 4. Lastly, an external source,        tion performance. Generally, a simulation is considered
+the Zhanghe Reservoir, served as the last water source,           reliable when the absolute value of PBIAS is less than 20%,
+supplying water for the irrigation of HRUs in this sub-           and the values of R2 and NSE are both greater than 0.6 and
+basin. As an external water source, the Zhanghe Reservoir         0.5, respectively (Moriasi et al., 2007).
+is situated beyond the watershed and supplies water to the
+watershed through channels for irrigation purposes. The
+external water source Zhanghe Reservoir can be used for           3 |     RESULTS AND DISCUSSION
+irrigation across all 10 subbasins, following the sequence
+from subbasin 1 to subbasin 10. If the water supply is            3.1 | Estimation of agricultural irrigation
+insufﬁcient, the irrigation demands of downstream sub-            water consumption
+basins cannot be met.
+     According to ﬁeld investigations, farmers directly pump      By collecting water accounts of irrigation water discharge,
+water for irrigation from local water sources near their          investigating and studying the quantitative functions of
+ﬁelds, such as the river and the pond within a subbasin.          ponds, weirs and reservoirs in the region, as well as the
+As canal system is not required in this case, its water use       dimensions, lengths and slopes of ditches, evaluating their
+330     |                                                                                                                  CHEN ET AL.
+
+
+
+
+FIGURE 3     Comparison of the measured and simulated AIWC in 2021 and 2022.
+
+
+
+TABLE 2     Bias (%) between simulated values and observed values of AIWC.
+ Period      Item                      Local water sources (ponds, rivers and Honghe Reservoir)    Zhanghe Reservoir      Total AIWC
+ 2021        The original SWAT         /                                                           /                      −19.28
+
+             The modiﬁed SWAT          −1.75                                                       7.78                   −0.81
+
+ 2022        The original SWAT         /                                                           /                      −48.96
+
+             The modiﬁed SWAT          −1.59                                                       −8.19                  −2.68
+
+
+
+
+storage and water‐supply capacities, and calibrating the                simulation outcomes of the original model for the same crop
+water accounts; constructing a water‐measuring weir at the              over 2 years primarily arises from variations in meteoro-
+outlet of the irrigation area, observing the water level and            logical factors. Speciﬁcally, factors such as the concurrent
+calculating the ﬂow rate; and combining the data of water               occurrence of rainfall and irrigation, as well as inaccuracies
+inﬂow and outﬂow of the experimental ﬁelds with the                     in estimating crop water consumption, such as evapo-
+regional rainfall observation data to carry out water‐balance           transpiration simulated by the original model due to mete-
+calculations in the irrigation area, and to deduce the amount           orological factors, will inﬂuence the ﬁnal irrigation volume.
+of water used by the various sources of water for irrigation                The simulation results are consistent with the research
+in the irrigation area. The simulated irrigation volume was             results of Wu et al. (2018) in the Zhanghe irrigation dis-
+validated using measured irrigation data obtained from                  trict. However, the original model only used a single water
+various water sources during the paddy growing period in                source Zhanghe Reservoir for irrigation in the irrigation
+2021 and 2022. The simulation outcomes pertaining to                    area, resulting in a signiﬁcant underestimation of the sim-
+AIWCs (agricultural irrigation water consumptions) are                  ulated irrigation water consumption compared to the
+presented in Figure 3 and summarized in Table 2. Figure 3               measured value. Additionally, Wu et al. (2018) did not
+shows, for 2021 and 2022, three horizontal bars depicting               restricted the available water volume of external water
+the total water use (AIWC) evaluated with the unmodiﬁed                 sources, resulting in an overestimation of the simulated
+SWAT (gray, single water source Zhanghe Reservoir), with                irrigation water consumption of external water sources
+the modiﬁed SWAT (summing up all the water sources),                    compared to the measured value, with an average relative
+and the actual measurements of the water consumption in                 error of 15.59%. After this improvement, the average rel-
+the basin (yearly values provided by Zhanghe Reservoir                  ative error of the external water source is only −0.20%.
+together with ponds and rivers). As depicted in Figure 3, the
+modiﬁed model demonstrates good simulation effectiveness.
+Table 2 reveals that the PBIAS of simulated values for                  3.2 |       Evapotranspiration and yield veriﬁcation
+internal and external water sources, as well as the total
+irrigation water amount, in the modiﬁed model all within                3.2.1 |        Evapotranspiration veriﬁcation
+3%. The results show that the modiﬁed model has excellent
+effect on the water consumption simulation of each water                Since Tuanlin experimental station has instruments and
+source. Conversely, the PBIAS of simulated total irrigation             experimental conditions to monitor evapotranspiration,
+water amount in the original model were −19.27% and                     the validation of the model involved the utilization of
+−48.96% in 2021 and 2022, respectively, indicating less                 measured evapotranspiration data collected from repre-
+accuracy of the simulation performance. The disparity in the            sentative ﬁeld plots located at the Tuanlin Experimental
+CHEN ET AL.                                                                                                                                |     331
+
+
+
+Station in subbasin 4 of Yangshudang basin. Changes in                       and high temperatures, leading to a gradual increase in
+water depth in the ﬁeld can be observed by installing PVC                    transpiration with paddy growth. However, at the milky
+viewing tubes in the ﬁeld. The daily change in water depth                   stage, the temperature drops and rainfall decreases, along
+is the water consumption for that day. Subtracting the                       with the gradual wilting of plants, which results in a
+leakage from the water consumption gives the daily eva-                      decrease in crop transpiration, and then cause a gradual
+potranspiration from the ﬁeld. The simulated values of ET                    reduction in evapotranspiration (Valiantzas, 2013).
+were evaluated for the tillering stage, the booting stage, the
+heading stage, and the milky stage of rice because they are
+the most important for the growth and development of rice                    3.2.2 |        Yield veriﬁcation
+and the simulation of rice yield is based on the ET values of
+these four fertility stages. The validation period spanned                   The measured average yield data spanning from 2005 to
+from 2007 to 2009. The 3‐year average of observed and                        2022 within the study area were applied to validate the
+simulated evapotranspiration values during the four                          enhanced model. The average yield data is obtained from
+growth stages are presented in Table 3. The outcomes                         the Zhanghe Management Bureau. The simulated yields
+reveal that the PBIAS of the simulated values for each                       are graphically displayed in Figure 4. Examining Figure 4,
+growth stage, as determined by the modiﬁed model,                            it becomes evident that the PBIAS of the modiﬁed model is
+remains within the acceptable range of 20%. This signiﬁes a                  −2.96%, whereas that of the original model is −48.22%.
+substantial improvement in the simulation performance                        This stark contrast indicated that the modiﬁed model has
+when compared to the original model.                                         notably enhanced the accuracy of yield simulation in
+    During the whole paddy growth period, the measured                       comparison to the original model. The simulation results
+evapotranspiration was 336.65, 363.66, and 441.40 mm                         indicated that paddy yield in the study area exhibited a
+from 2007 to 2009, respectively, which showed an                             ﬂuctuating upward trend from 2005 to 2022. The simulated
+increasing trend. These results are consistent with the                      annual average yield was 9002.45 kg/ha, which was con-
+ﬁndings of Zhang et al. (Zhang et al., 2022) and Cui (Wang                   sistent with the ﬁndings of Yu et al. (2024) in the Zhanghe
+& Cui, 2009) in the Zhanghe irrigation district. Moreover,                   irrigation district.
+the daily averages evapotranspiration from 2007 to 2009                          When simulating crop growth, the EPIC model takes
+showed a pattern of increasing at ﬁrst then decreasing                       into consideration the impact of environmental stresses,
+across the four typical growth stages, with the minimum at                   such as the temperature, water availability, nutrient levels
+the tillering stage and the maximum at the heading stage.                    and aeration. Due to the lack of restrictions on the leakage
+The analysis for this trend is that during the tillering stage,              of water in the plow layer of paddy, the maximum soil
+paddy is at a growth phase with abundant precipitation                       moisture content can only reach the ﬁeld capacity, which
+
+
+
+TABLE 3        Veriﬁcation assessments for cumulative evapotranspiration for the four growth stages.
+                     Observation/mm    The simulation of the modiﬁed SWAT/mm      PBIAS/%      The simulation of the original SWAT/mm   PBIAS/%
+ Tillering stage     173.98            141.72                                     −18.54       122.98                                   −29.32
+
+ Booting stage        99.48             91.50                                      −8.02        64.23                                   −35.43
+
+ Heading stage        58.85             60.41                                       2.65        38.67                                   −34.30
+
+ Milky stage          48.26             42.09                                     −12.79        35.53                                   −26.37
+
+
+
+
+FIGURE 4           Comparison of observed and simulated paddy yields.
+332   |                                                                                                                              CHEN ET AL.
+
+
+
+causes water stress to paddy growth. Therefore, the simu-                      the 15 parameters listed in the table is arranged in
+lated yield using the original model are underestimated.                       descending order of parameter sensitivity as obtained by
+Besides, a signiﬁcant characteristic of paddy is that the                      SWAT‐CUP (Fang et al., 2024). The simulation perform-
+sensitivity to water requirements is different during dif-                     ance of the runoff process is depicted in Figure 5, and
+ferent growth stages, which cannot be considered by the                        the corresponding evaluation indicators are presented in
+EPIC model. In contrast, the modiﬁed model (Jensen                             Table 5.
+model) can effectively simulate paddy yield by reﬂecting                           The results depicted in Figure 5 indicate that the
+the growth characteristic.                                                     modiﬁed SWAT model displayed satisfactory performance
+                                                                               in simulating the runoff process. The occurrence dates and
+                                                                               magnitudes of the simulated and observed peak ﬂows ex-
+3.3       | Discharge calibration and validation                               hibited a high level of agreement. Table 5 reveals that the
+                                                                               evaluation indicators for the calibration period of the
+The calibration and validation of the modiﬁed SWAT                             modiﬁed model, including R2 and NSE, were 0.82 and 0.81,
+model were conducted using daily measured runoff data                          respectively, with a PBIAS of 1.7%. During the validation
+obtained from the Yangshudang reservoir, the outlet of the                     periods, the R2 and NSE values were 0.78 and 0.78,
+Yangshudang watershed. Due to the years of the project,                        respectively, with a PBIAS of 4.0%. All three evaluation
+only 2005–2007, 2015–2017 and 2021–2022 were monitored                         indicators met the speciﬁed requirements. Moreover, the
+in the study area, so only the measured runoff data of these                   evaluation indicators of the modiﬁed model surpassed
+years were available. The warm‐up period, for the deﬁni-                       those of the original model, indicating that the modiﬁed
+tion of the initial state of the hydrological model (Kim                       model can give more accurate simulation of the runoff
+et al., 2018), ranged from 2001 to 2002. The calibration                       process in Yangshudang basin and possesses greater
+period spanned from 2005 to 2007, and the validation                           applicability.
+periods were from 2015 to 2017 and from 2021 to 2022.
+The sensitivity analysis was performed using the SUFI‐2
+algorithm implemented in the SWAT Calibration and                              3.4 |       The impact of intermittent irrigation
+Uncertainty Programs (SWAT‐CUP) software. Fifteen
+parameters that exhibited sensitivity were selected for                        Since only measured data on irrigation water use were
+runoff calibration, as outlined in Table 4. The sequence of                    available for 2021 as well as 2022, the drier of the 2 years,
+
+
+TABLE 4        Sensitivity parameters and values for runoff simulation.
+ Sensitivity                                                                                              Final value of the   Final value of the
+ ranking         Variable name        Deﬁnition                                             Value range   modiﬁed model        original model
+ 1               MSK_X                weighting factor                                        0–0.5         0.16                 0.32
+
+ 2               CH_K2                Effective hydraulic conductivity of channel (mm/h)     15–25         17.00                22.76
+
+ 3               MSK_CO1              Weighting factor for inﬂuence of normal ﬂow on         0.1–0.6        0.51                 0.33
+                                      storage time constant value
+
+ 4               SURLAG               Surface runoff lag coefﬁcient                           1–10          9.44                 9.26
+
+ 5               GW_DELAY             Delay time for aquifer recharge (days)                   0–2          0.04                 1.51
+
+ 6               ESCO                 Soil evaporation compensation coefﬁcient               0.2–1          0.60                 0.79
+
+ 7               EPCO                 Plant uptake compensation factor                       0.2–1          0.60                 0.98
+
+ 8               CN2                  Moisture condition Il curve number                     50–80         56.17                62.13
+
+ 9               SOL_AWC(1)           Available water capacity (mm/mm)                       0.1–1          0.37                 0.55
+
+ 10              USLE_K(1)            USLE soil erodibility factor (0.013 metric             0.1–0.5        0.43                 0.37
+                                      ton m2 h/(m3‐metric ton cm))
+
+ 11              GWQMN                USLE soil erodibility factor (0.013 metric ton m)      100–1000     639.61               346.23
+
+ 12              REVAPMN              Threshold water level in shallow aquifer for revap     50–200       117.49               181.55
+                                      or percolation to deep aquifer (mm H2O)
+
+ 13              GW_REVAP             Revamp coefﬁcient                                     0.01–0.1        0.042                0.035
+
+ 14              OV_N                 Manning's “n” value for overland ﬂow                  0.01–0.3        0.18                 0.22
+
+ 15              CH_N2                Manning's “n” value for the main channel              0.01–0.2        0.03                 0.09
+CHEN ET AL.                                                                                                                             |   333
+
+
+
+
+F I G U R E 5 Comparison of observed and simulated daily discharge for the (a) calibration period from May 20 to September 10 in 2005–2007 and
+(b) validation period in 2015–2017and 2021–2022.
+
+
+
+TABLE 5       Calibration and validation evaluations for daily discharge.   compared to traditional ﬂooding irrigation, the net
+ Item                     Period          R2       NSE      PBIAS (%)       irrigation water consumption in paddy ﬁelds within the
+ The original SWAT        Calibration     0.8      0.72     28.7            watershed decreased by 6.58% under the intermittent irri-
+                                                                            gation mode. The main reason for this is due to a lower
+                          Validation      0.74     0.55     57.5            ﬁeld water layer, which leads to less leakage and a better
+ The modiﬁed SWAT         Calibration     0.82     0.81      1.70           utilization of rainfall.
+                                                                                Compared to the traditional ﬂooding irrigation, ﬁeld
+                          Validation      0.78     0.78      4.00
+                                                                            drainage increased by 25.12% under the intermittent irri-
+                                                                            gation mode, because a lower Hp (the maximum allowable
+                                                                            depth of impoundment after rainfall), resulted in more
+                                                                            surface runoff loss after rainfall (Ding et al., 2019). Because
+2021, which had a rainfall frequency of 65% during the                      rice does not need so much water for most of the growing
+2001−2022 rice growing season, was chosen as a typical                      time, moreover, the thick water retention layer will affect
+year. Intermittent irrigation is a simple water‐saving mea-                 the growth of rice, which is not conducive to the uptake of
+sure in rice irrigation, which can improve water produc-                    oxygen by rice, and excessive water retention may cause
+tivity by reducing deep water seepage and plant evapora-                    water and fertilizer loss, resulting in a waste of resources,
+tion, and has the effect of saving water, reducing emissions                so intermittent irrigation adopts a lower Hp. The lower
+and increasing production. However, intermittent irriga-                    ﬁeld water layer depth also led to reduce lateral and deep
+tion technology has not been widely used in                                 percolation (Liao et al., 2010) by 43.70% and 16.93%,
+the study area, and has only been tried in a small range.                   respectively. Overall, compared to traditional ﬂooding
+The traditional paddy ﬁeld ﬂooding irrigation model and                     irrigation, the amount of water entering the drains from
+intermittent irrigation mode are chosen to analyses the                     the ﬁeld (including the sum of water entering the drains
+variation of water quantity element and water‐saving                        from surface runoff as well as subsurface seepage) is
+potential in Yangshudang basin. Three control water                         reduced by 19.30% in the intermittent irrigation mode.
+depths for distinct growth stages in both modes are out-                    Simultaneously, intermittent irrigation reduced the amount
+lined in Table 1. The simulation results indicates that,                    of water entering the groundwater through seepage and
+334   |                                                                                                             CHEN ET AL.
+
+
+
+increased the amount of groundwater entering the upper          increased to 0.2. Under this method, expanding the irri-
+soil layer due to gross absorption, which in turn increased     gation scope of HH reservoir was achieved through the
+the utilization of groundwater and reduced the amount           excavation of channels, while increasing the converging
+of water entering the drainage ditch from groundwater           area of ponds was accomplished through sediment removal
+through lateral seepage by 27.55% throughout the rice           from the ponds, so the overall investment is small. After
+reproductive period. The total evapotranspiration of paddy      these renovations, the irrigation demands of all subbasins
+ﬁelds has no remarkable difference between the two modes        within the study area were met, and the average paddy
+(Liu et al., 2020).                                             yield of subbasin 1 and subbasin 5 increased by 2.32% and
+                                                                2.55%, respectively. Consequently, the utilization of water
+                                                                resources in the study area became more efﬁcient and
+3.5 | The impact of irrigation district                         rational, contributing to higher crop yields.
+renovation                                                          In conclusion, under the current water supply condi-
+                                                                tions, the irrigation demands of paddy have not been ade-
+The analysis of the simulated results from the modiﬁed          quately met, leading to reduced paddy yields in certain
+model indicates that, compared to the assumption that           regions due to water scarcity. To address this situation,
+external water sources can fully meet the irrigation            necessary renovations should be made in the water‐deﬁcient
+demands, considering the actual water supply conditions         subbasins within the study area, ensuring that the irrigation
+signiﬁcantly reduces the simulated irrigation volumes from      water demands should be met through proper water
+external water sources. This suggests that under the current    resource management and allocation (Chen et al., 2009).
+practical irrigation conditions, the available irrigation
+water in the study area cannot completely satisfy the water
+requirements of the paddy ﬁelds. In this study, the year        4 |     CONCLUSION
+2021 was selected as a representative year to explore the
+utilization of water resources in the study area.               Building upon the hydrological and paddy growth char-
+    By comparing the irrigation water volumes before and        acteristics of paddy irrigation areas in southern China,
+after imposing the additional external water source limi-       the Penman‐Monteith equation and Jensen model have
+tations on various subbasins within the study area, it was      been introduced into the SWAT framework to replace the
+found that subbasin 1 and subbasin 5 had unmet irrigation       original evapotranspiration and yield simulation module,
+demands in the representative year. When assuming sufﬁ-         so as to reﬂect the characteristics of different growth stages
+cient external water sources, the irrigation water volumes      of rice. Additionally, modiﬁcations were made to the ex-
+for subbasin 1 and subbasin 5 were 98.26 × 104 and              ternal water source available for irrigation and paddy ﬁeld
+149.50 × 104 m3, respectively. However, considering the         leakage modules to reﬂect the characteristics of water cir-
+actual water supply conditions, the irrigation water vol-       culation of paddy ﬁeld, establishing a distributed agricul-
+umes for subbasin 1 and subbasin 5 were reduced to              tural hydrological model suitable for accurately simulating
+74.37 × 104 and 90.03 × 104 m3, respectively.                   water balance elements and rice yield in multi‐source
+    Based on the above analysis, to solve the current           irrigation districts.
+problem of underutilization of water resources in the irri-         The simulation effect of the improved model has been
+gation area and the shortage of water resources in the          evaluated and compared with that of the original model.
+irrigation district in drought years, it was chosen to carry    The results showed that the modiﬁed SWAT model dem-
+out water conservation and renovation of the irrigation         onstrated a high level of agreement with the measured
+area by using engineering means, which has optimized the        values for runoff, evapotranspiration, yield, and irrigation
+allocation of water resources in the irrigation district, and   from different water sources. And the simulation effect is
+has made the utilization of water resources more reason-        improved to some extent compared with the original
+able and adequate. Zhanghe irrigation district, where the       model. This indicates that the modiﬁed SWAT model can
+research area is located, is one of the nine large irrigation   better simulate hydrological processes and yield, and is well
+districts in China and has been supported by various            suited for use in multi‐source irrigation districts in southern
+projects and funds for the construction of supplementary        China.
+facilities and water‐saving reconstruction (Wang &                  Based on the modiﬁed SWAT model, we conducted
+He, 2023). Through analysis of the simulation results and       scenario simulations for intermittent irrigation and water
+ﬁeld investigations, it was discovered that the water storage   resource optimization in the research area. Under the
+capacity of HH reservoir was underutilized. To solve the        intermittent irrigation scenario, there was a 6.58% reduc-
+water shortage problem in the subbasins of the study area       tion in net irrigation water consumption. In the water
+in the above analysis, the following solution was obtained      resource optimization scenario, the utilization of watershed
+after communication and discussion with the irrigation          engineering was more comprehensive, addressing water
+district management department. Expanding the irrigation        scarcity issues and contributing to an improvement in rice
+scope of HH reservoir from the current Subbasins 2, 3, and      yield.
+4 to subbasin 5 was proposed. Additionally, the current             Consequently, this study signiﬁcantly enhances the
+ratio of pond area to the total area in subbasin 1 (0.1) was    SWAT model's simulation accuracy of the hydrological
+CHEN ET AL.                                                                                                                                              |   335
+
+
+
+processes and yield in multi‐source irrigation systems. It                              statistical analysis to reveal key variables and thresholds. Water
+can be applied to optimize irrigation systems management.                               Research, 253, 121286.
+                                                                                  Gassman, P. W., Reyes, M. R., Green, C. H., & Arnold, J. G. (2007). The
+                                                                                        soil and water assessment tool: Historical development, applications,
+AC KNOWLE DGMENTS                                                                       and future research directions. Center for Agricultural and Rural
+This research was supported by the NSFC‐MWR‐CTGC                                        Development (CARD) Publications.
+Joint Yangtze River Water Science Research Project (No.                           Jiang, D., Ao, C., Bailey, R. T., Zeng, W., & Huang, J. (2022). Simulation
+U2040213), the basic scientiﬁc research business funding                                of water and salt transport in the Kaidu River Irrigation District
+                                                                                        using the modiﬁed SWAT‐Salt. Agricultural Water Management,
+projects of central public welfare research institutes
+                                                                                        272, 107845. https://doi.org/10.1016/j.agwat.2022.107845
+(CKSF2019251/NY, CKSF2021299/NY), the Fundamen-                                   Kang, S. Z., Cai, H. J., & Feng, S. Y. (2004). Technique innovation and
+tal Research Funds for Central Public Welfare Research                                  research ﬁelds of modern agricultural and ecological water‐saving
+Institutes (grant No. CKSA2023479/NY), and Projects                                     in the future. Transactions of The Chinese Society of Agricultural
+of International Cooperation and Exchanges NSFC (grant                                  Engineering, 20(1), 1002–6819.
+No. 52211540722).                                                                 Kim, K. B., Kwon, H. H., & Han, D. (2018). Exploration of warm‐up
+                                                                                        period in conceptual hydrological modelling. Journal of Hydrology,
+                                                                                        556, 194–210.
+DATA AVA IL ABI LI TY ST ATE MENT                                                 Kong, L. L., Zhang, Z. Y., & Zhu, L. (2010). Review of the trends in the study
+Research data are not shared.                                                           of non‐point source nitrogen in hydrological processes on farmland over
+                                                                                        irrigation district. Advances in Water Science, 21, 853–860.
+ET HI CS ST ATE MENT                                                              Koudahe, K., Djaman, K., & Adewumi, J. K. (2018). Evaluation of the
+                                                                                        Penman‐Monteith reference evapotranspiration under limited data
+None declared.                                                                          and its sensitivity to key climatic variables under humid and semiarid
+                                                                                        conditions. Modeling Earth Systems and Environment, 4, 1239–1257.
+ORCID                                                                             Lei, Y., Wang, J., & Luo, L. (2011). Drought risk assessment of China's mid‐
+Jialong Chen          http://orcid.org/0009-0003-6563-213X                              season paddy. International Journal of Disaster Risk Science, 2, 32–40.
+                                                                                  Liao, K., Xu, S., Cheng, G., & Lin, Q. (2010). Analysis on ﬁeld water
+                                                                                        balance and water‐saving irrigation modes in Chanzhi Reservior
+RE FER ENCES                                                                            irrigation area. Transactions of the Chinese Society of Agricultural
+Addab, H., & Bailey, R. T. (2022). Simulating the effect of subsurface tile             Engineering, 26, 45–51.
+     drainage on watershed salinity using SWAT. Agricultural Water                Liu, X., Xu, J., Wang, W., Lv, Y., & Li, Y. (2020). Modeling rice eva-
+     Management, 262, 107431.                                                           potranspiration under water‐saving irrigation condition: Improved
+Ahmadzadeh, H., Morid, S., Delavar, M., & Srinivasan, R. (2016). Using                  canopy‐resistance‐based. Journal of Hydrology, 590, 125435.
+     the SWAT model to assess the impacts of changing irrigation from             Majumdar, P., Bhattacharya, D., Mitra, S., Solgi, R., Oliva, D., &
+     surface to pressurized systems on water productivity and water saving              Bhusan, B. (2023). Demand prediction of rice growth stage‐wise
+     in the Zarrineh Rud catchment. Agricultural Water Management, 175,                 irrigation water requirement and fertilizer using Bayesian genetic
+     15–28.                                                                             algorithm and random forest for yield enhancement. Paddy and
+Ai‐Hua, S., Shi‐Jiang, Z., Ya‐Fen, G., & Zhong‐Xue, Z. (2012). Jensen                   Water Environment, 21, 275–293.
+     model and modiﬁed morgan model for rice water‐fertilizer produc-             Melaku, N. D., & Wang, J. (2019). A modiﬁed SWAT module for esti-
+     tion function. Procedia Engineering, 28, 264–269.                                  mating groundwater table at Lethbridge and Barons, Alberta,
+Chen, S., Wu, M., Cao, X., & Guo, X. (2020). Analysis of the char-                      Canada. Journal of Hydrology, 575, 420–431.
+     acteristics and driving forces of water footprint productivity in            Moriasi, D. N., Arnold, J. G., Van Liew, M. W., Bingner, R. L.,
+     paddy rice cultivation in China. Journal of the Science of Food and
+                                                                                        Harmel, R. D., & Veith, T. L. (2007). Model evaluation guidelines
+     Agriculture, 100, 1764–1774.
+                                                                                        for systematic quantiﬁcation of accuracy in watershed simulations.
+Chen, Y. X., Qu, Z. Y., & Gao, Z. Y. (2009). Prediction of farmland water
+                                                                                        Transactions of the ASABE, 50, 885–900.
+     environment after reconstruction of water‐saving in the large‐scale
+                                                                                  Neitsch, S. L., Arbold, J. G., Kinry, J. R., & Williams, J. R. (2011). Soil
+     irrigation district based on the ANN technology. Transactions of the
+                                                                                        and water assessment tool theoretical documentation version 2009.
+     Chinese Society of Agricultural Engineering, 25(1), 1–5.
+                                                                                        Computer Speech & Language.
+Dai, J., Cui, Y., Cai, X., Brown, L. C., & Shang, Y. (2016). Inﬂuence of
+                                                                                  Ni, X., & Parajuli, P. B. (2018). Evaluation of the impacts of BMPs and
+     water management on the water cycle in a small watershed irrigation
+     system based on a distributed hydrologic model. Agricultural Water                 tailwater recovery system on surface and groundwater using satellite
+                                                                                        imagery and SWAT reservoir function. Agricultural Water Management,
+     Management, 174, 52–60.
+Dai, J. F., & Cui, Y. L. (2009). Distributed hydrological model for irri-               210, 78–87.
+     gation area based on SWAT Ⅰ. Principle and method. Journal of                Panagopoulos, Y., Makropoulos, C., Gkiokas, A., Kossida, M., Evangelou,
+     Hydraulic Engineering, 40, 145–152.                                                L., Lourmas, G., Michas, S., Tsadilas, C., Papageorgiou, S.,
+Dhawan, H., Kulkarni, H., Phadnis, V., & Badrayani, U. (2011). Impact of                Perleros, V., Drakopoulou, S., & Mimikou, M. (2014). Assessing the
+     water conservation programmes on development agricultural crop-                    cost‐effectiveness of irrigation water management practices in water
+     ping patterns: A case study of Chikhalagaon Village, Maharashtra.                  stressed agricultural catchments: The case of Pinios. Agricultural Water
+Ding, C., Du, S., Ma, Y., Li, X., Zhang, T., & Wang, X. (2019). Changes                 Management, 139, 31–42.
+     in the pH of paddy soils after ﬂooding and drainage: modeling and            Peng, S. Z., Ding, J. L., Mao, Z., Xu, J. Z., & Li, D. X. (2007). Estimation
+     validation. Geoderma, 337, 511–513.                                                and veriﬁcation of crop coefﬁcient for water saving irrigation of late
+Epelde, A. M., Cerro, I., Sánchez‐Pérez, J. M., Sauvage, S.,                            rice using the FAO‐56 method. Transactions of the Chinese Society of
+     Srinivasan, R., & Antigüedad, I. (2015). Application of the SWAT                   Agricultural Engineering, 23(7), 30–34.
+     model to assess the impact of changes in agricultural management             Rivas‐Tabares, D., Tarquis, A. M., Willaarts, B., & De Miguel, Á. (2019).
+     practices on water quality. Hydrological Sciences Journal, 60(5),                  An accurate evaluation of water availability in sub‐arid mediterra-
+     1–19.                                                                              nean watersheds through SWAT: Cega‐Eresma‐Adaja. Agricultural
+Fang, S., Deitch, M. J., Gebremicael, T. G., Angelini, C., & Ortals, C. J.              Water Management, 212, 211–225.
+     (2024). Identifying critical source areas of non‐point source pollution to   Sakaguchi, A., Eguchi, S., Kato, T., Kasuya, M., Ono, K., Miyata, A., &
+     enhance water quality: Integrated SWAT modeling and multi‐variable                 Tase, N. (2014). Development and evaluation of a paddy module for
+336   |                                                                                                                                          CHEN ET AL.
+
+
+
+     improving hydrological simulation in SWAT. Agricultural Water              Xie, X., & Cui, Y. (2011). Development and test of SWAT for modeling
+     Management, 137, 116–122.                                                       hydrological processes in irrigation districts with paddy rice. Journal
+Song, Y., Wang, C., Linderholm, H. W., Fu, Y., Cai, W., Xu, J.,                      of Hydrology, 396, 61–71.
+     Zhuang, L., Wu, M., Shi, Y., Wang, G., & Chen, D. (2022). The              Yao, C. (2017). Analysis of agricultural water‐saving and supply‐demand
+     negative impact of increasing temperatures on rice yields in Southern           balance of regional agricultural water resources. Water Saving
+     China. Science of the Total Environment, 820, 153262.                           Irrigation.
+Tong, X., Cui, Y. L., Zhao, S., & Zhang, P. (2015). Numerical simulation        Yu, L., Zou, Z., Liu, F., Lou, W., & Wang, W. (2024). The variation
+     of agricultural non‐point source pollution changes based on an im-              features and yield estimation model for meteorological yield of
+     proved SWAT model‐taking the small watershed of Fangxi Lake in                  mid‐season rice in Zhanghe irrigated areas of Hubei province.
+     the Ganfu Plain Irrigation District as an example. Journal of                   Journal of Changjiang River Scientiﬁc Research Institute, 41,
+     Changjiang River Scientiﬁc Research Institute, 32, 89–94.                       82–90.
+Uniyal, B., & Dietrich, J. (2019). Modifying automatic irrigation in            Zhang, D., Wei, Z., Feng, T., Chen, Z., Wang, F., & Huang, K. (2022).
+     SWAT for plant water stress scheduling. Agricultural Water                      Analysis of evapotranspiration estimation and its spatial‐temporal
+     Management, 223, 105714.                                                        characteristics: Taking Zhanghe irrigation district as an example.
+Valiantzas, J. D. (2013). Simple ET0 forms of Penman's equation without              Bulletin of Surveying and Mapping, 12, 57–63. https://doi.org/10.
+     wind and/or humidity data. II: Comparisons with reduced Set‐FAO                 13474/j.cnki.11-2246.2022.0357
+     and other methodologies. Journal of Irrigation and Drainage                Zhang, L., Li, L., Tang, Q., Xu, H., Zheng, H., Wang, F., & Tang, J.
+     Engineering, 139, 9–19.                                                         (2024). Intermittent irrigation as a solution for reduced emis-
+Wang, C., Jiang, R., Boithias, L., Sauvage, S., Sánchez‐Pérez, J.‐M.,                sions and increased yields in ratoon rice systems. Plant and Soil,
+     Mao, X., Han, Y., Hayakawa, A., Kuramochi, K., & Hatano, R.                     501(1–2), 1–12. https://doi.org/10.1007/s11104-024-06528-7
+     (2016). Assessing potassium environmental losses from a dairy              Zhang, Y., Ge, M., Zhang, Q., Xue, S., Wei, F., & Sun, H. (2023). What did
+     farming watershed with the modiﬁed SWAT model. Agricultural                     irrigation modernization in China bring to the evolution of water‐energy‐
+     Water Management, 175, 91–104.                                                  greenhouse gas emissions. Agricultural Water Management, 282, 108283.
+Wang, J., & He, H. (2023). Construction management and sustainable              Zhou, W., Zhu, Z., Xie, Y., & Cai, Y. (2021). Impacts of rainfall spatial
+     development of large reservoir lrrigation districts a case                      and temporal variabilities on runoff quality and quantity at the
+     study of Zhanghe River Project and transformation of lrrigation                 watershed scale. Journal of Hydrology, 603, 127057.
+     district. Journal of China Agricultural University(Social
+     Sciences), 40, 101–118. https://doi.org/10.13240/j.cnki.caujsse.
+     2023.01.005
+                                                                                SUPPORTING INFORMATION
+Wang, J. P., & Cui, Y. L. (2009). Simulation of regional evapo-                 Additional supporting information can be found online in
+     transpiration in different irrigation methods based on adapted             the Supporting Information section at the end of this
+     SWAT distributed hydrological model, Engineering Journal of                article.
+     Wuhan University.
+Wu, D., Cui, Y., Xie, X., & Luo, Y. (2018). Improvement and testing of
+     SWAT for multi‐source irrigation systems with paddy rice. Journal
+     of Hydrology, 568, 1031–1041.
+                                                                                    How to cite this article: Chen, J., Li, Y., Luo, W.,
+Wu, D., Cui, Y., Wang, Y., Chen, M., Luo, Y., & Zhang, L. (2019).
+     Reuse of return ﬂows and its scale effect in irrigation systems based          Yu, L., Zou, Z., Wang, W., Huang, S., Tang, C.,
+     on modiﬁed SWAT model. Agricultural Water Management, 213,                     Ye, L., & Xiao, X. (2024). Modiﬁcation and
+     280–288.                                                                       testing of SWAT for paddy ﬁeld water
+Xiao, Q., Wang, J. C., Zuo, Q., Zhang, L., Liu, B. C., & Zhao, T. K. (2009).        consumption and yield. River, 3, 324–336.
+     Migration and transformation of coated controlled release nitrogen in
+                                                                                    https://doi.org/10.1002/rvr2.96
+     soil under co‐situs application mode. Agricultural Science & Technology,
+     10(6), 1009–4229.
+

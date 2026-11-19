@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "number": "2.6",
+  "parent_12bp_pdf_sha256": "067d736559a0ebf1ebbda63b6eb76b1fc15393d4e5121d1a81b0f2498c410880",
+  "new_pdf_sha256": "8e0e340dd5dcf5dcb2e9add1a1099ac84c512b6c597814b08e342fc728e19db3",
+  "all_scientific_artist_values_styles_equal": true,
+  "PDF_text_font_size_multiset_equal": true,
+  "axis_width_height_unchanged": true,
+  "all_map_axes_and_map_patches_unchanged": null,
+  "scale_group_further_down_from_12bp": null,
+  "raw_scale_group_translation_bp": null,
+  "measured_spacing": {
+    "xlabel_to_legend_target_bp": 15,
+    "xlabel_to_legend_bp": 15.000015258789062,
+    "legend_to_file_bottom_mm": 1.9999963548448347,
+    "subtitle_to_file_top_mm": 1.4999989483091565,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      81.38803927103679
+    ],
+    "xlabel_frames_bp": [
+      [
+        111.75236511230469,
+        187.8819580078125,
+        143.2523651123047,
+        198.3924560546875
+      ],
+      [
+        338.75079345703125,
+        187.8819580078125,
+        370.25079345703125,
+        198.3924560546875
+      ]
+    ],
+    "legend_frames_bp": [
+      [
+        161.0435028076172,
+        213.39247131347656,
+        236.2969207763672,
+        225.03697204589844
+      ],
+      [
+        284.593505859375,
+        213.7284698486328,
+        337.093505859375,
+        224.2389678955078
+      ]
+    ],
+    "subtitle_frames_bp": [
+      [
+        88.86174011230469,
+        4.251965522766113,
+        166.1403045654297,
+        15.896465301513672
+      ],
+      [
+        315.56329345703125,
+        4.251965522766113,
+        393.43145751953125,
+        15.896465301513672
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 27
+  },
+  "CSV_sha256": {
+    "data.csv": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244",
+    "inputs/data.csv": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244",
+    "replot_sources/parent/data.csv": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244"
+  },
+  "one_offline_render": true,
+  "second_replay_run": false,
+  "deterministic_export_settings_preserved": true,
+  "ROOT_edits": 0,
+  "thesis_builds": 0,
+  "scientific_execution": 0
+}

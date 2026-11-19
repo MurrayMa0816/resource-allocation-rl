@@ -1,0 +1,133 @@
+{
+  "schema": "chapter3-restored-size-15bp-ink-v1",
+  "number": "3.4",
+  "parent_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/replot_sources/parent",
+  "parent_pdf_sha256": "d2eb1358a7ee4e8b86140fed836b42d667fe48044e02f2771028fa0060ffb84a",
+  "parent_source_sha256": "293b6e25cb808613b6b70f67f0ea10abfe83cd791fc66d4a8fd3c469c0f6ee05",
+  "accepted_renderer": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/replot_sources/main_learning.py",
+  "accepted_renderer_sha256": "d28d7889d45e44aed67af95bb2e251c610492e950486f588d43b9959a408aceb",
+  "renderer": "replot_sources/renderer.py",
+  "renderer_sha256": "0fea9ddf91e7716f63c18bda035ad68b8125fa64f148f75c96f6ade108fda402",
+  "scientific_data_sha256": {
+    "data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b"
+  },
+  "native_mm": [
+    156.0,
+    85.03773936014217
+  ],
+  "science_before_after_digest": "5cc6de730ba6f62c259a75e02359d3bd2afa872f2ab4bce45e66600ed56a8d4e",
+  "scientific_artist_values_and_line_styles_exact": true,
+  "changes": [
+    "restored every axes to59.7128092395 x51.44177823mm without font scaling",
+    "xlabel glyph ink to first legend-row glyph ink15bp at720dpi",
+    "legend-to-file-bottom2mm",
+    "top subtitle-to-file-top1.5mm",
+    "content-dependent total height"
+  ],
+  "category_wording": null,
+  "output_sha256": {
+    "figure.pdf": "4db486897f82ab9ead8cba75b1bb9c262623e452a35ce867196d9df79627b12c",
+    "figure.png": "32aa1e33ad8530da54db5bfd14e27d2c88e765d0b6002353a92fcfbf876df709",
+    "figure.svg": "5e39924d05c4bfa41f79c17ec20f676ec18a4148e0c883c550570eea3983a988"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "portable_entrypoint": "plot.py",
+  "size_restoration": {
+    "historical_max_10_5bp_axis_height_mm": 51.44177823,
+    "aspect_ratio_preserved": "59.2:51",
+    "restored_axes_mm": [
+      59.71280923952941,
+      51.44177823
+    ],
+    "previous_axes_mm": [
+      59.2,
+      51
+    ],
+    "horizontal_centers_preserved": true,
+    "every_axes_no_smaller_than_verified_larger_baseline": true
+  },
+  "xlabel_to_legend_ink_bp": 14.900000000000006,
+  "xlabel_to_legend_PDF_text_frame_bp": 12.944244384765625,
+  "ink_DPI": 720,
+  "all_fonts_scientific_values_unchanged": true,
+  "svg_hashsalt": "chapter3-restored-size-15bp-ink-v1",
+  "ordinary_font_bp": 10.5,
+  "required_qualifier_revision_20261112": {
+    "scope": "Only the two horizontal-axis labels qualify training interaction steps",
+    "before": "训练步数（×10³）",
+    "after": "训练交互步数（×10³）",
+    "baseline_pdf_sha256": "63a0bb9237b5a4149980fa9d0dcbae86b195f6055a608c915b8d86eb56cb8933",
+    "renderer_sha256": "99e0ccd37b059a569cb7bd16c0de56151b8d9fe15a118201514d3cbe65a1652a",
+    "canvas_axes_text_baselines_legend_positions_preserved": true,
+    "all_data_and_scientific_artists_exact": true,
+    "original_xlabel_to_legend_ink_bp": 15.0,
+    "current_xlabel_to_legend_ink_bp": 14.900000000000006,
+    "ink_DPI": 720,
+    "layout_order": "Calibrate inherited original label first; replace xlabel text after geometry is fixed; no compensation or re-cropping",
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_required_qualifiers_five_rounds_20261112/figure_revision.json"
+  },
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/plot.py",
+    "active_editable_source": "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/replot_sources/renderer.py",
+    "active_program_sha256": "0fea9ddf91e7716f63c18bda035ad68b8125fa64f148f75c96f6ade108fda402",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "0c72f592ae6ad2ac59941cd90da2fd366cf73bff8e767a5481314e0e18542d39",
+      "figure.svg": "1b156c57e4ce5d4af96be71bc5a1cce42382df4632a2ede9d1acd970b6cad1c8",
+      "figure.png": "12e06115cdc7880a80762fd3f47c9ae844e339c3619d036b39b583171fbf1ca6"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_geometry.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "c870c294bf52bf82a4e7a66915cf367f284aa1d98430845d5aef75841ce15ac6",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "6cd3bc316c43594f41890ac83217d8bbec7466d0f8df3843f46005264452e7da",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "b0e0d349c636a991ef365c679e0edc1a960e63252052c0b054cbb6b2969d7651",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": "c88307c6abf7222b017b922a1b1117cb43e8adb7bdd561c2e7a6b0f32493bd78",
+      "rl_wording_export_evidence_20261114/numeric_artist_geometry.json": "3954f490c3b4edd329c56b4716bb5440dd48a8788f8842146f7632491f857d76"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "4db486897f82ab9ead8cba75b1bb9c262623e452a35ce867196d9df79627b12c",
+    "figure.svg": "5e39924d05c4bfa41f79c17ec20f676ec18a4148e0c883c550570eea3983a988",
+    "figure.png": "32aa1e33ad8530da54db5bfd14e27d2c88e765d0b6002353a92fcfbf876df709"
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "e29b418c0cf12992f87395c22016b19a7dcd4757824ee1a3dcc5fe0a95747380",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "dd4d2e2f0de7f27dde40403683a607fbf72063badf9830c05ea5dd8020497a81",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 2,
+    "legend_labels_changed": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "4db486897f82ab9ead8cba75b1bb9c262623e452a35ce867196d9df79627b12c",
+      "figure.svg": "5e39924d05c4bfa41f79c17ec20f676ec18a4148e0c883c550570eea3983a988",
+      "figure.png": "32aa1e33ad8530da54db5bfd14e27d2c88e765d0b6002353a92fcfbf876df709"
+    },
+    "approved_review_pdf_sha256": "a26e39dfa1ea4859982af6c8aca49875892ef8d40b8881ba62fdd974349d28aa",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json"
+  }
+}

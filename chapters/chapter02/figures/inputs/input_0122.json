@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "number": "2.8",
+  "output_sha256": {
+    "figure.pdf": "19d63daf8550e9554011b388ae8d4fde747e794d6b8445a4a9e3d813072f0397",
+    "figure.png": "95ed8a02ec7a84631adeb8da7437f9cd1230bb95bbacdd196c8ecc13a9e1e678",
+    "figure.svg": "35b629cb6473a3221e2c67b46c8ceb73b9e4a9b47c2663b68f02b383b35f4264",
+    "render_geometry.json": "d2890f07dfb0201f2c79df1a16e793eb27ecf73fb3cb0845f801bbed7f2ac951",
+    "numeric_artist_values_before_after.json": "9478cb82288e6d9d7c60d900c6cfc2ea6658ead082b788c47b426869fb429e70",
+    "source.json": "5e215805af4ca005771244b7c94469ea04a09c683eb350a3977a06b107ff11c4",
+    "plot.py": "61b7c191bb8019e9d2184dafd136dc760a0e91b63f9c74232cb7b3183a17e6bb"
+  },
+  "scientific_data_sha256": {
+    "data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+    "provenance.json": "eb43ff37c60306e2c942400da6b534fa88356873637060e290da9e2c6a740717"
+  },
+  "parent_png_pixel_exact": true,
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "thesis_builds": 0
+}

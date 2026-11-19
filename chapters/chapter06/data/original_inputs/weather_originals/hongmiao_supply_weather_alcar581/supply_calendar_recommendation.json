@@ -1,0 +1,247 @@
+{
+  "status": "research_environment_design_not_historical_reconstruction",
+  "sources": {
+    "calendar": "https://journal.hep.com.cn/river/EN/PDF/10.1002/rvr2.96",
+    "patent": "https://patents.google.com/patent/CN119514977A/zh",
+    "hierarchy": "https://patents.google.com/patent/CN118521431B/zh",
+    "measurement": "https://www.sljsygl.com/UpFiles/2021-1-22/637469226181052535.pdf",
+    "drought_three_main": "https://hb.people.com.cn/n2/2022/0822/c194063-40090296.html",
+    "drought_official": "https://nyt.hubei.gov.cn/bmdt/yw/mtksn/202208/t20220818_4267881.shtml",
+    "coordinate_irri": "https://books.irri.org/9712201821_content.pdf",
+    "coordinate_wur": "https://edepot.wur.nl/121681",
+    "nasa_daily": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+    "nasa_met": "https://power.larc.nasa.gov/docs/methodology/meteorology/"
+  },
+  "unit_definition": {
+    "n_records": 93,
+    "identity": "Hongmiao branch canal 1#-92# outlets plus terminal open channel, their documented service areas",
+    "area_total_mu": 19908,
+    "area_total_ha": 1327.2,
+    "warning": "service-area records, not 93 surveyed polygons; no invented geographic coordinates"
+  },
+  "calendar": {
+    "source_scope": "Yangshudang neighboring Zhanghe watershed, Chen et al2024 Table1, farmer interviews and Tuanlin crop coefficients; transferred parameter set, not observations for Hongmiao93",
+    "recommended_start_mm_dd": "05-30",
+    "recommended_end_mm_dd": "09-03",
+    "steps": 97,
+    "step_days": 1,
+    "optional_preparation_days": 10,
+    "stages": [
+      {
+        "stage_id": "soaking",
+        "name_zh": "泡田",
+        "start_mm_dd": "05-20",
+        "end_mm_dd": "05-29",
+        "kc": null,
+        "kcb": null,
+        "flood_hmin_hmax_hp_mm": [
+          20,
+          40,
+          80
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          20,
+          40,
+          80
+        ]
+      },
+      {
+        "stage_id": "recovering",
+        "name_zh": "返青",
+        "start_mm_dd": "05-30",
+        "end_mm_dd": "06-07",
+        "kc": 1.03,
+        "kcb": 1.0,
+        "flood_hmin_hmax_hp_mm": [
+          10,
+          40,
+          60
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          10,
+          30,
+          50
+        ]
+      },
+      {
+        "stage_id": "tillering_wet",
+        "name_zh": "分蘖湿期",
+        "start_mm_dd": "06-08",
+        "end_mm_dd": "07-05",
+        "kc": 1.23,
+        "kcb": 1.12,
+        "flood_hmin_hmax_hp_mm": [
+          10,
+          40,
+          60
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          10,
+          40,
+          60
+        ]
+      },
+      {
+        "stage_id": "tillering_dry",
+        "name_zh": "分蘖干期",
+        "start_mm_dd": "07-06",
+        "end_mm_dd": "07-14",
+        "kc": 0.67,
+        "kcb": 0.61,
+        "flood_hmin_hmax_hp_mm": [
+          20,
+          60,
+          80
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "stage_id": "booting",
+        "name_zh": "孕穗",
+        "start_mm_dd": "07-15",
+        "end_mm_dd": "07-30",
+        "kc": 1.51,
+        "kcb": 1.45,
+        "flood_hmin_hmax_hp_mm": [
+          20,
+          60,
+          80
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          20,
+          50,
+          70
+        ]
+      },
+      {
+        "stage_id": "heading",
+        "name_zh": "抽穗",
+        "start_mm_dd": "07-31",
+        "end_mm_dd": "08-09",
+        "kc": 1.6,
+        "kcb": 1.53,
+        "flood_hmin_hmax_hp_mm": [
+          20,
+          60,
+          80
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          20,
+          50,
+          70
+        ]
+      },
+      {
+        "stage_id": "milky",
+        "name_zh": "乳熟",
+        "start_mm_dd": "08-10",
+        "end_mm_dd": "08-18",
+        "kc": 1.44,
+        "kcb": 1.11,
+        "flood_hmin_hmax_hp_mm": [
+          20,
+          60,
+          80
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          10,
+          40,
+          60
+        ]
+      },
+      {
+        "stage_id": "ripening_wet",
+        "name_zh": "成熟湿期",
+        "start_mm_dd": "08-19",
+        "end_mm_dd": "08-26",
+        "kc": 1.44,
+        "kcb": 1.11,
+        "flood_hmin_hmax_hp_mm": [
+          20,
+          60,
+          80
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          0,
+          20,
+          30
+        ]
+      },
+      {
+        "stage_id": "ripening_dry",
+        "name_zh": "成熟干期",
+        "start_mm_dd": "08-27",
+        "end_mm_dd": "09-03",
+        "kc": 0.8,
+        "kcb": 0.62,
+        "flood_hmin_hmax_hp_mm": [
+          0,
+          0,
+          0
+        ],
+        "intermittent_hmin_hmax_hp_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "weather": {
+    "proxy_identity": "Tuanlin historical farmer-field experimental point, not Hongmiao outlet or current station",
+    "latitude": 30.86666667,
+    "longitude": 112.18333333,
+    "coordinate_basis": "IRRI2002 Belder et al experimental sites; repeated in Belder thesis2005; 30deg52minN112deg11minE",
+    "source_type": "NASA POWER reanalysis/radiation product, not local station observations nor historical forecast",
+    "test_years": [
+      2022,
+      2024
+    ],
+    "prior_reference_years": [
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "extra_downloaded_years": [
+      2010,
+      2021
+    ],
+    "time_standard": "LST",
+    "same_series_for_93": true,
+    "separate_spatial_weather_claim": false
+  },
+  "supply": {
+    "documented": "Water user requests and multilevel water allocation, daily measurement, channel volume accounting; 2022 drought response at third-main-canal scale",
+    "not_documented": [
+      "Hongmiao93 daily available quota 2022",
+      "Hongmiao seasonal guaranteed entitlement",
+      "2022 initial local pond/reservoir stocks per outlet",
+      "full head/outlet measured delivery histories"
+    ],
+    "recommendation": "Choose one gross or net resource boundary and apply efficiencies once; baseline controlled resource is upstream canal irrigation water, not rainfall, ET or all regional reservoir storage",
+    "carryover_interpretation": "A guaranteed unspent upstream allocation entitlement retained for later release is a research assumption; do not invent storage inside the canal",
+    "budget_calibration": "ROOT to simulate adequate irrigation with2018-2021priorweather, obtain reference budget Qref and prior-date weights; use fixed0.5/0.7/0.9fractions as study regimes, not historical supplies; hold fixed for2022/24tests",
+    "inequality": "sum(actions)<=available_budget, not force using all water every day"
+  },
+  "initial_state": {
+    "patent_example": {
+      "date": "2024-05-22",
+      "uniform_depth_mm": 3.75,
+      "evidence": "case setting, not93measuredwaterlevels"
+    },
+    "recommended_for_97days": {
+      "uniform_depth_mm": 20,
+      "identity": "research initial condition within referenced recovering water layer range, not recorded state",
+      "sensitivity_mm": [
+        10,
+        20,
+        30
+      ]
+    }
+  }
+}

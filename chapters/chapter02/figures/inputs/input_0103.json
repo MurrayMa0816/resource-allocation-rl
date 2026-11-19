@@ -1,0 +1,36 @@
+{
+  "schema": "chapter2-spacing15-preview-v1",
+  "number": "2.7",
+  "figure_directory": "chapters/chapter02_high_dimensional/figures/figure02-07_图例与题注间距15bp_20261111",
+  "parent_12bp_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter02_high_dimensional/figures/figure02-07_图例与题注间距_20261111",
+  "parent_12bp_pdf_sha256": "5f98d03fb9ad658c4f6657ee2f1085503bc4e94cbb1f52ed77344af78591cb0d",
+  "renderer": "replot_sources/renderer.py",
+  "renderer_sha256": "abfebc7e9ef217ed319f6ead8111abc591b20c3196a42637b5403ca7ac7d4254",
+  "portable_entrypoint": "plot.py",
+  "scientific_values_styles_fonts_unchanged": true,
+  "outputs_sha256": {
+    "figure.pdf": "40d75a7f20fdecc3bee222da691ce37745f89ee5f20909192fdfab881584ca0c",
+    "figure.svg": "22a6a7e92201435024a9fe3b176271c13f43876c07640a0cf5734c49ec453293",
+    "figure.png": "335d16b916633d82a1f5ce0e25200f56c639f87a4e860c290b6840b83ca4685c"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "wording_precision_revision_20261112": {
+    "audit": "docs/chapter2_wording_precision_five_rounds_20261112/initial_figure_changes.json",
+    "table_item": 29,
+    "old": [
+      "信道差异程度",
+      "需求差异程度"
+    ],
+    "new": [
+      "信道差异缩放倍数",
+      "需求差异缩放倍数"
+    ],
+    "data_and_numeric_artists_exact": true,
+    "axes_and_canvas_exact": true,
+    "label_frames_vertical_exact": true,
+    "historical_parent_unchanged": true
+  }
+}

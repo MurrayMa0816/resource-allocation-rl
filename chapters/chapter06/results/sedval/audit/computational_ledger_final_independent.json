@@ -1,0 +1,3492 @@
+{
+  "schema": "reasonable89-independent-final-computational-ledger-v1",
+  "status": "PASS_ALL_RECORDED_TRAINING_DEV_TEST_ENGINEERING_COMPLETE_BACKUP_UNPROMOTED",
+  "observed_at_utc": "2026-11-08T20:52:44.626710+00:00",
+  "observed_at_local": "2026-11-09T04:52:44.626710+08:00",
+  "study_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109",
+  "scope": "Actual completed work in the reasonable89 study only; independent receipt, registration, counts and byte-SHA accounting. Prior superseded Chapter6 experiments outside this root excluded. No model payload deserialization or backup quality read. Storage is a point-in-time measurement, may grow with plotting/publication.",
+  "preparation_ledger": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/computational_ledger_preparation.json",
+    "sha256": "3b0394e89317f5f3c60630eb1c4cd14d59ebd55ae2e1e594aa1c7b8c35d1b4c0",
+    "bytes": 55115
+  },
+  "completed_groups": [
+    {
+      "group": "D",
+      "status": "COMPLETED",
+      "purpose": "application development",
+      "jobs": 9,
+      "fixed_learning_episodes_per_job": 1536,
+      "totals": {
+        "train_episodes": 13824,
+        "train_physical_steps": 1119744,
+        "dev_episodes": 3744,
+        "dev_physical_steps": 303264,
+        "actor_optimizer_steps": 150199,
+        "critic_optimizer_steps": 150199,
+        "collection_seconds": 9652.086687296629,
+        "update_seconds": 9666.915074281394,
+        "seconds": 21607.038332358003,
+        "saved_model_count": 9
+      },
+      "physical_steps": {
+        "learning": 1119744,
+        "DEV": 303264,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "development_operator": "original native mean, no M64",
+      "M64_DEV_accounting": null,
+      "worker_elapsed_sum_seconds": 21607.038332358003,
+      "duration_note": "Summed per-worker elapsed; not parallel wall time, GPU kernel time or CPU process time."
+    },
+    {
+      "group": "Dpref",
+      "status": "COMPLETED",
+      "purpose": "application development",
+      "jobs": 12,
+      "fixed_learning_episodes_per_job": 1536,
+      "totals": {
+        "train_episodes": 18432,
+        "train_physical_steps": 1492992,
+        "dev_episodes": 4992,
+        "dev_physical_steps": 404352,
+        "actor_optimizer_steps": 200205,
+        "critic_optimizer_steps": 200205,
+        "collection_seconds": 12673.433399885893,
+        "update_seconds": 13183.156372509897,
+        "seconds": 28792.548083148897,
+        "saved_model_count": 12
+      },
+      "physical_steps": {
+        "learning": 1492992,
+        "DEV": 404352,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "development_operator": "original native mean, no M64",
+      "M64_DEV_accounting": null,
+      "worker_elapsed_sum_seconds": 28792.548083148897,
+      "duration_note": "Summed per-worker elapsed; not parallel wall time, GPU kernel time or CPU process time."
+    },
+    {
+      "group": "Dnoise",
+      "status": "COMPLETED",
+      "purpose": "application development",
+      "jobs": 9,
+      "fixed_learning_episodes_per_job": 1536,
+      "totals": {
+        "train_episodes": 13824,
+        "train_physical_steps": 1119744,
+        "dev_episodes": 3744,
+        "dev_physical_steps": 303264,
+        "actor_optimizer_steps": 138298,
+        "critic_optimizer_steps": 138298,
+        "collection_seconds": 9487.357974939048,
+        "update_seconds": 9132.05740442872,
+        "seconds": 20812.39000084251,
+        "saved_model_count": 9
+      },
+      "physical_steps": {
+        "learning": 1119744,
+        "DEV": 303264,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "development_operator": "original native mean, no M64",
+      "M64_DEV_accounting": null,
+      "worker_elapsed_sum_seconds": 20812.39000084251,
+      "duration_note": "Summed per-worker elapsed; not parallel wall time, GPU kernel time or CPU process time."
+    },
+    {
+      "group": "Dnoise05",
+      "status": "COMPLETED",
+      "purpose": "application development",
+      "jobs": 9,
+      "fixed_learning_episodes_per_job": 1536,
+      "totals": {
+        "train_episodes": 13824,
+        "train_physical_steps": 1119744,
+        "dev_episodes": 3744,
+        "dev_physical_steps": 303264,
+        "actor_optimizer_steps": 146167,
+        "critic_optimizer_steps": 146167,
+        "collection_seconds": 9554.495097525418,
+        "update_seconds": 9633.464613951743,
+        "seconds": 21390.618047706783,
+        "saved_model_count": 9
+      },
+      "physical_steps": {
+        "learning": 1119744,
+        "DEV": 303264,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "development_operator": "original native mean, no M64",
+      "M64_DEV_accounting": null,
+      "worker_elapsed_sum_seconds": 21390.618047706783,
+      "duration_note": "Summed per-worker elapsed; not parallel wall time, GPU kernel time or CPU process time."
+    },
+    {
+      "group": "formal9",
+      "status": "COMPLETED",
+      "purpose": "formal primary",
+      "jobs": 9,
+      "fixed_learning_episodes_per_job": 3200,
+      "totals": {
+        "train_episodes": 28800,
+        "train_physical_steps": 2332800,
+        "dev_episodes": 7488,
+        "dev_physical_steps": 606528,
+        "actor_optimizer_steps": 314394,
+        "critic_optimizer_steps": 314394,
+        "collection_seconds": 18801.968168094754,
+        "update_seconds": 12519.047843120992,
+        "seconds": 45323.60966848582,
+        "saved_model_count": 9
+      },
+      "physical_steps": {
+        "learning": 2332800,
+        "DEV": 606528,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "development_operator": "fixed64_antithetic_mean_feasible_actions",
+      "M64_DEV_accounting": {
+        "basis": "derived from actual completed DEV physical steps and registered fixed64 operator, not additional observed paths",
+        "parameter_evaluations": 606528,
+        "raw_feasible_action_vectors": 38817792
+      },
+      "worker_elapsed_sum_seconds": 45323.60966848582,
+      "duration_note": "Summed per-worker elapsed; not parallel wall time, GPU kernel time or CPU process time."
+    },
+    {
+      "group": "backup6_unpromoted",
+      "status": "COMPLETED",
+      "purpose": "blind unpromoted contingency development",
+      "jobs": 6,
+      "fixed_learning_episodes_per_job": 1536,
+      "totals": {
+        "train_episodes": 9216,
+        "train_physical_steps": 746496,
+        "dev_episodes": 2496,
+        "dev_physical_steps": 202176,
+        "actor_optimizer_steps": 99852,
+        "critic_optimizer_steps": 99852,
+        "collection_seconds": 5966.561756528914,
+        "update_seconds": 4297.878417916596,
+        "seconds": 14915.140923403203,
+        "saved_model_count": 6
+      },
+      "physical_steps": {
+        "learning": 746496,
+        "DEV": 202176,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "development_operator": "fixed64_antithetic_mean_feasible_actions",
+      "M64_DEV_accounting": {
+        "basis": "derived from actual completed DEV physical steps and registered fixed64 operator, not additional observed paths",
+        "parameter_evaluations": 202176,
+        "raw_feasible_action_vectors": 12939264
+      },
+      "worker_elapsed_sum_seconds": 14915.140923403203,
+      "duration_note": "Summed per-worker elapsed; not parallel wall time, GPU kernel time or CPU process time."
+    }
+  ],
+  "method_worker_engineering": {
+    "status": "COMPLETED_ENGINEERING_ONLY",
+    "jobs": 21,
+    "source_ledger": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/method_engineering_work_ledger.json",
+      "sha256": "e2024f557b265504e85a50d6876f6f455c4123a3b0f7bea3e7a62743c08789b9",
+      "bytes": 9357
+    },
+    "totals": {
+      "train_episodes": 712,
+      "train_physical_steps": 57672,
+      "dev_episodes": 220,
+      "dev_physical_steps": 17820,
+      "actor_optimizer_steps": 3260,
+      "critic_optimizer_steps": 3260,
+      "collection_seconds": 431.9042516127229,
+      "update_seconds": 138.0940624475479,
+      "seconds": 944.9313565194607,
+      "saved_model_count": 7
+    },
+    "physical_steps": {
+      "learning": 57672,
+      "DEV": 17820,
+      "TEST": 0,
+      "nonlearning_nondevelopment_engineering": 0
+    },
+    "purpose_engineering_physical_steps": 75492,
+    "purpose_engineering_physical_steps_is_a_subtotal_not_added_again": true,
+    "M64_DEV_steps": 10044,
+    "native_DEV_steps": 7776,
+    "M64_DEV_parameter_evaluations_derived": 10044,
+    "M64_DEV_raw_feasible_action_vectors_derived": 642816
+  },
+  "M64_DEV_diagnostics": [
+    {
+      "stage": "execution_conversion",
+      "status": "COMPLETED_DEV_ONLY",
+      "paths": 288,
+      "physical_steps": {
+        "learning": 0,
+        "DEV": 23328,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "parameter_evaluations": 23328,
+      "raw_feasible_action_vectors": 1492992,
+      "receipt": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion/completion_receipt.json",
+        "sha256": "2a4627c3d48a0573312b3030d9943908ad40d792402f6351541a8480ee0743f3",
+        "bytes": 1229
+      }
+    },
+    {
+      "stage": "execution_conversion_initial",
+      "status": "COMPLETED_DEV_ONLY",
+      "paths": 288,
+      "physical_steps": {
+        "learning": 0,
+        "DEV": 23328,
+        "TEST": 0,
+        "nonlearning_nondevelopment_engineering": 0
+      },
+      "parameter_evaluations": 23328,
+      "raw_feasible_action_vectors": 1492992,
+      "receipt": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion_initial/completion_receipt.json",
+        "sha256": "f5d17769315a0fde124fe860b238e279b09f0fc7da518265bffdc3abd4d559b4",
+        "bytes": 1176
+      }
+    }
+  ],
+  "diagnostic_engineering_fixtures": [
+    {
+      "stage": "execution_conversion_fixture",
+      "environment_steps": 1,
+      "complete_paths": 0,
+      "operator_parameter_evaluations": 3,
+      "native_baseline_sample_calls": 1,
+      "raw_feasible_action_vectors": 129,
+      "receipt": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion/completion_receipt.json",
+        "sha256": "2a4627c3d48a0573312b3030d9943908ad40d792402f6351541a8480ee0743f3",
+        "bytes": 1229
+      }
+    },
+    {
+      "stage": "execution_conversion_initial_fixture",
+      "environment_steps": 0,
+      "parameter_evaluations": 9,
+      "raw_feasible_action_vectors": 0,
+      "receipt": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion_initial/completion_receipt.json",
+        "sha256": "f5d17769315a0fde124fe860b238e279b09f0fc7da518265bffdc3abd4d559b4",
+        "bytes": 1176
+      }
+    }
+  ],
+  "evaluator_engineering": {
+    "original": {
+      "paths": 46,
+      "environment_steps": 3726,
+      "model_inferences": 3078,
+      "learning_updates": 0,
+      "successful_attempt_path_counts": [
+        14,
+        16,
+        16
+      ],
+      "failed_jobs": 2,
+      "failed_actual_work_zero": true,
+      "receipt": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/evaluation_readiness/readiness_audit.json",
+        "sha256": "96bbad986b07b4d6942a5ef01507d1e1f458a920386c0c9a7fdef731b361d469",
+        "bytes": 20240
+      }
+    },
+    "M64": {
+      "paths": 12,
+      "environment_steps": 972,
+      "parameter_evaluations": 729,
+      "raw_feasible_action_vectors": 46656,
+      "model_inferences": 729,
+      "learning_updates": 0,
+      "receipt": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_evaluation_readiness/readiness_audit.json",
+        "sha256": "ad7d95f0e84fb81f7e98878bde1379a0582355477103134d0e22f73ba72dc6c3",
+        "bytes": 3770
+      }
+    }
+  },
+  "formal_TEST": {
+    "status": "COMPLETED_INDEPENDENTLY_ACCEPTED",
+    "base_jobs": 36,
+    "base_paths": 2694,
+    "descriptive_jobs": 4,
+    "descriptive_paths": 4,
+    "descriptive_excluded_from192_pairs": true,
+    "actual_work": {
+      "paths": 2698,
+      "environment_steps": 218538,
+      "model_inferences": 202824,
+      "parameter_evaluations": 202824,
+      "raw_feasible_action_vectors": 12980736,
+      "policy_parameter_batch_calls": 202824
+    },
+    "failed_attempts": 0,
+    "retries": 0,
+    "learning_updates": 0,
+    "controller_elapsed_seconds": 347.264363527298,
+    "completion_receipt": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/TEST_COMPLETION_RECEIPT.json",
+      "sha256": "15f213d85adcf639a3ed5803442110ee6a50e132d33821e03288da0f0aefbf72",
+      "bytes": 2404
+    },
+    "source_acceptance": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/TEST_saved_source_acceptance.json",
+      "sha256": "746c07f9152768edbd13b48d27575d14013669a1fd94fb72b0a248fa10f54c45",
+      "bytes": 48177
+    },
+    "independent_acceptance": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/TEST_independent_output_acceptance.json",
+      "sha256": "fb39c0db9f9bb0150cc4868854e20de704b857c285078e163a7f0aeb180112b4",
+      "bytes": 84162
+    },
+    "per_job_receipts": [
+      {
+        "job_id": "trained_budget_3500000__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6400/attempt0/complete.json",
+          "sha256": "596d5c220949d87c83d8a31ae4502367365b7b83c263cd842adeecc27e1675ce",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "trained_budget_3500000__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6401/attempt0/complete.json",
+          "sha256": "5b3251f3c3dd98b79a501480efe68108615cef0f21a36e5db7c10e324ff8b68f",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "trained_budget_3500000__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6402/attempt0/complete.json",
+          "sha256": "10f5c37748e6b5ee6b6899f7e3b533e7209fe573821e9796428270bef4bc23a0",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "main__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6400/attempt0/complete.json",
+          "sha256": "af1d4b03cf81a922b212168e031c768b13d9427fc28b9c3be2efebabc0530d65",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "main__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6401/attempt0/complete.json",
+          "sha256": "9f7fbbbb39a0969ace5fc9807666d0d5b3f4a1d9263431a51d9d352043353118",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "main__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6402/attempt0/complete.json",
+          "sha256": "1e225216e0d253739d43b688a4d0ef433b12d02d1292e3142b0359322d936919",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "trained_budget_4500000__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6400/attempt0/complete.json",
+          "sha256": "19fd6d12deb6d3659cfa2aba6383bd5273522d1a58e5986d4d4598224c04dcec",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "trained_budget_4500000__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6401/attempt0/complete.json",
+          "sha256": "7a4ab264879f65d656b232f475ec6e12b0d9407b0cd22c73f882c4239b76d0d2",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "trained_budget_4500000__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6402/attempt0/complete.json",
+          "sha256": "fa880f971fabe0410c50ff4425e95b50e21fb92a31a06c6c420e8bac01a7dc1f",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "initial__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6400/attempt0/complete.json",
+          "sha256": "bcc3ba5e92962e9bd2350622d54d091a0ace0453095057a4338f1fd80ba24df0",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "fixed_budget_3500000__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6400/attempt0/complete.json",
+          "sha256": "bb031b3e2915ce5fa32b770b51e29ea675f653e9889f2eabfc99d063645d3206",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "fixed_budget_4500000__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6400/attempt0/complete.json",
+          "sha256": "4bd9da61f446c69ac3e1f774b5c0a090a2c7bd21bb95e92600f622438a539efe",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "feedback_low_feedback__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6400/attempt0/complete.json",
+          "sha256": "8870ecce9f32625921e2eeb96c49b0ad3d7b4988841e0328914dcd759d70b885",
+          "bytes": 618
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 2592,
+        "parameter_evaluations": 2592,
+        "raw_feasible_action_vectors": 165888,
+        "policy_parameter_batch_calls": 2592
+      },
+      {
+        "job_id": "feedback_low_replay__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6400/attempt0/complete.json",
+          "sha256": "91d1bf2ea0da593766b417bf13a4c2fa3d502399412d2b59aeb9d4612e36f641",
+          "bytes": 604
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      },
+      {
+        "job_id": "feedback_high_feedback__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6400/attempt0/complete.json",
+          "sha256": "ad8683d35c14a018c1e8532ce04f5ab874ea73cfbcb93423db64d0c812dd3d9e",
+          "bytes": 618
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 2592,
+        "parameter_evaluations": 2592,
+        "raw_feasible_action_vectors": 165888,
+        "policy_parameter_batch_calls": 2592
+      },
+      {
+        "job_id": "feedback_high_replay__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6400/attempt0/complete.json",
+          "sha256": "f99ed0cfc0ba29ee68b065df170d4e7a4a3276fc422447043e5b75fc5d9a1183",
+          "bytes": 604
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      },
+      {
+        "job_id": "history_2022__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6400/attempt0/complete.json",
+          "sha256": "6a387752143ab73953c65feff9d4eb1b6648b44666b227adbbdb7d4ab96400b7",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "history_2024__seed6400",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6400/attempt0/complete.json",
+          "sha256": "d534f96c06454dce0729977d89cce62287f74c67ee4fd1fa1df80de8fda85697",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "initial__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6401/attempt0/complete.json",
+          "sha256": "b2e90dbc7270f4ee36a035487903f57a2f88b9b3b48db6e2b6d873fd94e93d62",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "fixed_budget_3500000__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6401/attempt0/complete.json",
+          "sha256": "7a08485fdb409f7007884bd43dd7a368a9030ec5b2d244798988461908d5ec14",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "fixed_budget_4500000__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6401/attempt0/complete.json",
+          "sha256": "38aac415369023a7203195d886d1b7a3e37ed514f9f2b206f2349c90063ec45e",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "feedback_low_feedback__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6401/attempt0/complete.json",
+          "sha256": "4146f9180908da506b33b338d541445aaaf4aaf93cb18927f923a85138a8e4c7",
+          "bytes": 618
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 2592,
+        "parameter_evaluations": 2592,
+        "raw_feasible_action_vectors": 165888,
+        "policy_parameter_batch_calls": 2592
+      },
+      {
+        "job_id": "feedback_low_replay__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6401/attempt0/complete.json",
+          "sha256": "ea7b663b69abc8ed04e093ecca6a868b295da8496670fc67f2728435fe5615d6",
+          "bytes": 604
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      },
+      {
+        "job_id": "feedback_high_feedback__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6401/attempt0/complete.json",
+          "sha256": "032ae1777ca890c6e27a4256e150685ca0369e95150e812d1036fb3414af53d7",
+          "bytes": 618
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 2592,
+        "parameter_evaluations": 2592,
+        "raw_feasible_action_vectors": 165888,
+        "policy_parameter_batch_calls": 2592
+      },
+      {
+        "job_id": "feedback_high_replay__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6401/attempt0/complete.json",
+          "sha256": "21a26a84fbbb5d0bf229c7c57ccab4102802a362b867c8a49fc6983c7bacd4ca",
+          "bytes": 604
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      },
+      {
+        "job_id": "history_2022__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6401/attempt0/complete.json",
+          "sha256": "c59805139acab16970a4a52027e90b1306a2aef45b5b086126340a0a56bf74c9",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "history_2024__seed6401",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6401/attempt0/complete.json",
+          "sha256": "c34107f64b1c41e21f527a715b08315543ea718a6b9460559781ca1e9716e9db",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "initial__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6402/attempt0/complete.json",
+          "sha256": "7b5f42a9ae9409657677694c0e4c984cded06e4bebd37f077cc0ce73c5c20e83",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "fixed_budget_3500000__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6402/attempt0/complete.json",
+          "sha256": "8a0738f7f00a6180589993a57e255505ac581d38ad0e9673e07d8bbda67156c8",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "fixed_budget_4500000__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6402/attempt0/complete.json",
+          "sha256": "55d7e1c0cffbbb35c001b3a086b692ffe75053e7d742aa51dbbc8d7c1770800f",
+          "bytes": 623
+        },
+        "paths": 128,
+        "environment_steps": 10368,
+        "model_inferences": 10368,
+        "parameter_evaluations": 10368,
+        "raw_feasible_action_vectors": 663552,
+        "policy_parameter_batch_calls": 10368
+      },
+      {
+        "job_id": "feedback_low_feedback__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6402/attempt0/complete.json",
+          "sha256": "b8cda5d274bc341bd4c3f8d9e91a9053f17210180135e507ddac015ea94b1a9e",
+          "bytes": 618
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 2592,
+        "parameter_evaluations": 2592,
+        "raw_feasible_action_vectors": 165888,
+        "policy_parameter_batch_calls": 2592
+      },
+      {
+        "job_id": "feedback_low_replay__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6402/attempt0/complete.json",
+          "sha256": "2fdd096b1fa7881439c56cc10f514c479b66732e62d365d45275bcdcc94771b1",
+          "bytes": 604
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      },
+      {
+        "job_id": "feedback_high_feedback__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6402/attempt0/complete.json",
+          "sha256": "aa91419c0a1db651091e7a3a7c7ac5d7eb4da3e5b27e76bdfeca5f7a6f0ca0b8",
+          "bytes": 618
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 2592,
+        "parameter_evaluations": 2592,
+        "raw_feasible_action_vectors": 165888,
+        "policy_parameter_batch_calls": 2592
+      },
+      {
+        "job_id": "feedback_high_replay__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6402/attempt0/complete.json",
+          "sha256": "4de08e9e7e6e5aa67393666641603f90d23207a9ff4188f5a64a6376cfde1aac",
+          "bytes": 604
+        },
+        "paths": 32,
+        "environment_steps": 2592,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      },
+      {
+        "job_id": "history_2022__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6402/attempt0/complete.json",
+          "sha256": "c67c1605c8e7e303790158ed9953a12767f3ef00d885360e63e71e35b8b53baa",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "history_2024__seed6402",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6402/attempt0/complete.json",
+          "sha256": "c6d083427c50a22d2313a75a7dae9a9ee76605b69e74ab4a2283232aec0710ec",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "descriptive_feedback_high_feedback__seed6400__weather125",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_high_feedback__seed6400__weather125/attempt0/complete.json",
+          "sha256": "be3a221591a173f8eeb94ca017fa9f61935aea7b6c8c06b047292c695d49b8e5",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "descriptive_feedback_high_replay__seed6400__weather125",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_high_replay__seed6400__weather125/attempt0/complete.json",
+          "sha256": "3792025473963a91b90000878e19d1a7625535bea786bfefeb0c9ffc1f7b834e",
+          "bytes": 601
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      },
+      {
+        "job_id": "descriptive_feedback_low_feedback__seed6400__weather125",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_low_feedback__seed6400__weather125/attempt0/complete.json",
+          "sha256": "c40be5415ad8c2b1d143127b43249f929c082ef0eb49b1b798326816e43008b4",
+          "bytes": 607
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 81,
+        "parameter_evaluations": 81,
+        "raw_feasible_action_vectors": 5184,
+        "policy_parameter_batch_calls": 81
+      },
+      {
+        "job_id": "descriptive_feedback_low_replay__seed6400__weather125",
+        "complete_receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_low_replay__seed6400__weather125/attempt0/complete.json",
+          "sha256": "dd006ff86c1406abaf53288353b6089b3b587c14b2fda20e5db0fc6e86c26398",
+          "bytes": 601
+        },
+        "paths": 1,
+        "environment_steps": 81,
+        "model_inferences": 0,
+        "parameter_evaluations": 0,
+        "raw_feasible_action_vectors": 0,
+        "policy_parameter_batch_calls": 0
+      }
+    ]
+  },
+  "backup_disposition": {
+    "status": "COMPLETED_NONFORMAL_UNPROMOTED_QUALITY_STILL_LOCKED",
+    "models": 6,
+    "weights": [
+      0.1,
+      0.05
+    ],
+    "fixed_endpoint": 1536,
+    "quality_files_read_by_this_auditor": 0,
+    "backup_quality_readout": false,
+    "backup_promoted": false,
+    "primary_lambda": 0.2,
+    "primary_decision_at_utc": "2026-11-08T20:14:25.000018+00:00",
+    "primary_fixed_before_any_backup_quality_read": true,
+    "TEST_results_seen_before_primary_decision": false,
+    "primary_fixed_independently_of_any_backup_outcomes": true,
+    "decision_receipt": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/primary_fixed3200_decision.json",
+      "sha256": "4f1e6aa85e717bf9f01aad6cbdcadc09fdab0b77e668822370af3348f3545898",
+      "bytes": 3029
+    },
+    "test_release_receipt": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/test_release.json",
+      "sha256": "52258e195c63392971ed1ddd8f08e1f981fab40b2341146494f550641c08892c",
+      "bytes": 3408
+    },
+    "registration": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/protocol/training_registration.json",
+      "sha256": "1617db70acbf27f5801a6696dff904484f6b953e8002bf79fc7a8ce5bdecfaa7",
+      "bytes": 25429
+    },
+    "blind_completion": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/audit/blind_completion.json",
+      "sha256": "86c1947573b7e1acf7970d3378b153182e17ad017c6cfd5f15af1b45db4e03fe",
+      "bytes": 3807
+    },
+    "backup_payload_read_scope": "Read completed/protocol/blind count records and SHA256 of model containers only. No DEV report, diagnostic NPZ, tensor/model load or quality read."
+  },
+  "actual_total_complete_paths": {
+    "learning": 98632,
+    "DEV": 27004,
+    "TEST": 2698,
+    "evaluation_engineering": 58,
+    "total": 128392
+  },
+  "actual_total_physical_steps": {
+    "learning": 7989192,
+    "DEV": 2187324,
+    "TEST": 218538,
+    "nonlearning_nondevelopment_engineering": 4699,
+    "total": 10399753
+  },
+  "optimizer_work": {
+    "actor_optimizer_steps": 1052375,
+    "critic_optimizer_steps": 1052375,
+    "total_actor_plus_critic_optimizer_calls": 2104750,
+    "learning_paths_not_optimizer_steps": true,
+    "extra_pure_review_updates_not_added_as_training": true
+  },
+  "actor_and_M64_work": {
+    "learning_action_decision_positions": 7989192,
+    "learning_actor_forward_call_count": null,
+    "forward_count_reason": "Completion receipts count optimizer steps and physical collection steps, not every batch/autograd/critic forward. A decision position is not a claimed Python/GPU forward-call total.",
+    "native_DEV_decision_positions_before_M64": 1321920,
+    "original_evaluator_native_inferences_explicit": 3078,
+    "M64_entries": [
+      {
+        "stage": "formal9",
+        "parameter_evaluations": 606528,
+        "raw_feasible_action_vectors": 38817792,
+        "basis": "derived from completed DEV steps and registered fixed64 operator"
+      },
+      {
+        "stage": "backup6_unpromoted",
+        "parameter_evaluations": 202176,
+        "raw_feasible_action_vectors": 12939264,
+        "basis": "derived from completed DEV steps and registered fixed64 operator"
+      },
+      {
+        "stage": "method_engineering_M64_DEV",
+        "parameter_evaluations": 10044,
+        "raw_feasible_action_vectors": 642816,
+        "basis": "derived from actual completed DEV steps and M64 config"
+      },
+      {
+        "stage": "execution_conversion",
+        "parameter_evaluations": 23328,
+        "raw_feasible_action_vectors": 1492992,
+        "basis": "explicit saved work receipt"
+      },
+      {
+        "stage": "execution_conversion_initial",
+        "parameter_evaluations": 23328,
+        "raw_feasible_action_vectors": 1492992,
+        "basis": "explicit saved work receipt"
+      },
+      {
+        "stage": "M64_evaluator_engineering",
+        "parameter_evaluations": 729,
+        "raw_feasible_action_vectors": 46656,
+        "basis": "explicit saved work receipt"
+      },
+      {
+        "stage": "registered_TEST",
+        "parameter_evaluations": 202824,
+        "raw_feasible_action_vectors": 12980736,
+        "basis": "sum of40 unique complete receipts"
+      }
+    ],
+    "M64_regular_parameter_evaluations": 1068957,
+    "M64_regular_raw_feasible_action_vectors": 68413248,
+    "diagnostic_fixture_parameters_and_vectors_separate": [
+      {
+        "stage": "execution_conversion_fixture",
+        "environment_steps": 1,
+        "complete_paths": 0,
+        "operator_parameter_evaluations": 3,
+        "native_baseline_sample_calls": 1,
+        "raw_feasible_action_vectors": 129,
+        "receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion/completion_receipt.json",
+          "sha256": "2a4627c3d48a0573312b3030d9943908ad40d792402f6351541a8480ee0743f3",
+          "bytes": 1229
+        }
+      },
+      {
+        "stage": "execution_conversion_initial_fixture",
+        "environment_steps": 0,
+        "parameter_evaluations": 9,
+        "raw_feasible_action_vectors": 0,
+        "receipt": {
+          "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion_initial/completion_receipt.json",
+          "sha256": "f5d17769315a0fde124fe860b238e279b09f0fc7da518265bffdc3abd4d559b4",
+          "bytes": 1176
+        }
+      }
+    ],
+    "warning": "64 raw feasible action vectors are averaged before ONE physical transition; never multiply environment steps by64. Diagnostic fixture129 vectors use its exact receipt, not an assumed64 multiplier."
+  },
+  "deduplication": [
+    "39 development completed receipts,21 method engineering completed receipts,9 formal completed receipts and6 blind backup completed receipts counted once each.",
+    "Each40 TEST complete.json SHA is matched to source acceptance and summed once. Completion, independent acceptance, dispatch, fingerprint and publication readbacks do not add paths.",
+    "Original evaluator engineering46 includes14+16+16 real successful attempts; failed2 receipts have zero work. Subsequent readiness/native loader/namespace metadata adds no physical work.",
+    "Two288-path M64 DEV stages are separate endpoint and initialization diagnostics; their previously existing native baseline records are references, not rerun paths.",
+    "Training-worker engineering purpose subtotal overlaps its learning/DEV columns; do not add its75,492 steps again to the grand total.",
+    "Primaryfixed3200 lambda.2 decision preceded any backupquality read and TESTrelease. Backup6 stays development cost, not additional primary models or TEST."
+  ],
+  "source_identity": {
+    "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+    "source_files": 140,
+    "scientific_manifest": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/scientific_source_manifest.json",
+      "sha256": "a1642f89dd4169f9aa7893d2748aaa0c46be4b91eed34ec60118866c1f7a24cb",
+      "bytes": 37023
+    },
+    "formal_registration": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json",
+      "sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+      "bytes": 13792
+    },
+    "TEST_namespace_amendment_sha256": "a8213768eeb0de85f7e774030670dcd9614b7a7c260b5cdb5bcc5fb4766fb079",
+    "earlier_release_history_in_preparation_ledger": true
+  },
+  "storage": {
+    "method": "GNU du -B1 --max-depth=2, allocated blocks; no symlink following",
+    "allocated_bytes": 1232039936,
+    "GiB": 1.1474266052246094,
+    "du_rows": [
+      {
+        "allocated_bytes": 16384,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/history"
+      },
+      {
+        "allocated_bytes": 339968,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/review_seals"
+      },
+      {
+        "allocated_bytes": 1122304,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol"
+      },
+      {
+        "allocated_bytes": 53248,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/source"
+      },
+      {
+        "allocated_bytes": 1048576,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit"
+      },
+      {
+        "allocated_bytes": 7393280,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/frozen_code"
+      },
+      {
+        "allocated_bytes": 405504,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/configs"
+      },
+      {
+        "allocated_bytes": 36864,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/logs"
+      },
+      {
+        "allocated_bytes": 47636480,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training"
+      },
+      {
+        "allocated_bytes": 55631872,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/training"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/evaluation"
+      },
+      {
+        "allocated_bytes": 4399104,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source"
+      },
+      {
+        "allocated_bytes": 3420160,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-01_洪庙支渠89区灌溉推演场景"
+      },
+      {
+        "allocated_bytes": 282624,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-02_灌溉推演环境交互流程"
+      },
+      {
+        "allocated_bytes": 200704,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-03_全期用水安排与供水余额"
+      },
+      {
+        "allocated_bytes": 192512,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/source_versions"
+      },
+      {
+        "allocated_bytes": 8830976,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-04_区域配水过程"
+      },
+      {
+        "allocated_bytes": 339968,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-05_自身学习与终点成效"
+      },
+      {
+        "allocated_bytes": 409600,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-06_区域与面积保障"
+      },
+      {
+        "allocated_bytes": 258048,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-07_供水条件与配置成效"
+      },
+      {
+        "allocated_bytes": 393216,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/figure06-08_天气变化后的重新配置"
+      },
+      {
+        "allocated_bytes": 802816,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures/replay"
+      },
+      {
+        "allocated_bytes": 19771392,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/figures"
+      },
+      {
+        "allocated_bytes": 20480,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/source"
+      },
+      {
+        "allocated_bytes": 544768,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/layout_reference"
+      },
+      {
+        "allocated_bytes": 36864,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/candidate_sources"
+      },
+      {
+        "allocated_bytes": 90112,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/before_author_sources"
+      },
+      {
+        "allocated_bytes": 90112,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/installed_author_sources"
+      },
+      {
+        "allocated_bytes": 5328896,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication/review_round1"
+      },
+      {
+        "allocated_bytes": 6295552,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/publication"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/numba"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/tmp"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/matplotlib"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/xdg"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/evaluation"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda"
+      },
+      {
+        "allocated_bytes": 167936,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/plot_matplotlib"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/drawio"
+      },
+      {
+        "allocated_bytes": 167936,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache"
+      },
+      {
+        "allocated_bytes": 61440,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/configs"
+      },
+      {
+        "allocated_bytes": 12288,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/logs"
+      },
+      {
+        "allocated_bytes": 1277952,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_gate"
+      },
+      {
+        "allocated_bytes": 61440,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture_configs"
+      },
+      {
+        "allocated_bytes": 12288,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture_logs"
+      },
+      {
+        "allocated_bytes": 1679360,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8"
+      },
+      {
+        "allocated_bytes": 897024,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_benchmark"
+      },
+      {
+        "allocated_bytes": 12640256,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/evaluation_readiness"
+      },
+      {
+        "allocated_bytes": 671744,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise02540"
+      },
+      {
+        "allocated_bytes": 675840,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise0540"
+      },
+      {
+        "allocated_bytes": 4849664,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark"
+      },
+      {
+        "allocated_bytes": 569344,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/formal140_nonformal_prefix8"
+      },
+      {
+        "allocated_bytes": 3555328,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_evaluation_readiness"
+      },
+      {
+        "allocated_bytes": 27181056,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering"
+      },
+      {
+        "allocated_bytes": 2670592,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/history"
+      },
+      {
+        "allocated_bytes": 2936832,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution"
+      },
+      {
+        "allocated_bytes": 2170880,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs"
+      },
+      {
+        "allocated_bytes": 7405568,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code"
+      },
+      {
+        "allocated_bytes": 118784,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol"
+      },
+      {
+        "allocated_bytes": 94109696,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training"
+      },
+      {
+        "allocated_bytes": 40960,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs"
+      },
+      {
+        "allocated_bytes": 172032,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/audit"
+      },
+      {
+        "allocated_bytes": 0,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/runtime_cache"
+      },
+      {
+        "allocated_bytes": 1228800,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/dispatch"
+      },
+      {
+        "allocated_bytes": 678010880,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation"
+      },
+      {
+        "allocated_bytes": 783314944,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal"
+      },
+      {
+        "allocated_bytes": 544768,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/configs"
+      },
+      {
+        "allocated_bytes": 53248,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/logs"
+      },
+      {
+        "allocated_bytes": 64102400,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training"
+      },
+      {
+        "allocated_bytes": 12288,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/protocol"
+      },
+      {
+        "allocated_bytes": 64733184,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences"
+      },
+      {
+        "allocated_bytes": 7389184,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/frozen_code"
+      },
+      {
+        "allocated_bytes": 409600,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/configs"
+      },
+      {
+        "allocated_bytes": 40960,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/logs"
+      },
+      {
+        "allocated_bytes": 47788032,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training"
+      },
+      {
+        "allocated_bytes": 12288,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/protocol"
+      },
+      {
+        "allocated_bytes": 55656448,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise"
+      },
+      {
+        "allocated_bytes": 7393280,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/frozen_code"
+      },
+      {
+        "allocated_bytes": 409600,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/configs"
+      },
+      {
+        "allocated_bytes": 40960,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/logs"
+      },
+      {
+        "allocated_bytes": 48070656,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training"
+      },
+      {
+        "allocated_bytes": 12288,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/protocol"
+      },
+      {
+        "allocated_bytes": 55943168,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05"
+      },
+      {
+        "allocated_bytes": 61210624,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion"
+      },
+      {
+        "allocated_bytes": 56762368,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion_initial"
+      },
+      {
+        "allocated_bytes": 117972992,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics"
+      },
+      {
+        "allocated_bytes": 7401472,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/M64_integration/frozen_code"
+      },
+      {
+        "allocated_bytes": 7401472,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/M64_integration"
+      },
+      {
+        "allocated_bytes": 65536,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/maintenance_preparation"
+      },
+      {
+        "allocated_bytes": 270336,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/configs"
+      },
+      {
+        "allocated_bytes": 32768,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/protocol"
+      },
+      {
+        "allocated_bytes": 24576,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/audit"
+      },
+      {
+        "allocated_bytes": 32157696,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training"
+      },
+      {
+        "allocated_bytes": 24576,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/logs"
+      },
+      {
+        "allocated_bytes": 8192,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/execution"
+      },
+      {
+        "allocated_bytes": 32534528,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights"
+      },
+      {
+        "allocated_bytes": 77824,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/reports/plot_data"
+      },
+      {
+        "allocated_bytes": 77824,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/reports"
+      },
+      {
+        "allocated_bytes": 1232039936,
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109"
+      }
+    ],
+    "model_count": 61,
+    "model_counts_by_stage": {
+      "development": 9,
+      "engineering": 7,
+      "formal": 9,
+      "development_preferences": 12,
+      "development_noise": 9,
+      "development_noise05": 9,
+      "development_contingency_weights": 6
+    },
+    "model_allocated_bytes": 15740928,
+    "model_apparent_bytes": 15650846,
+    "model_container_sha256_index": [
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6300/attempt0/model.pt",
+        "sha256": "48b790a82c2209366c22e025c727841fbc442bb16d8d3bb71b33a1bc714b5729",
+        "apparent_bytes": 249078
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6301/attempt0/model.pt",
+        "sha256": "53510697023bad82a7d353305144cfc4f5a77aa3198b1b6c062824af1b6c5ea5",
+        "apparent_bytes": 249078
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6302/attempt0/model.pt",
+        "sha256": "5d2c447351c152e0099ce37b1ddbd18c74e21cf871dd4cbc83c2fc017f6faade",
+        "apparent_bytes": 249078
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6300/attempt0/model.pt",
+        "sha256": "294db8b54dc18b3f9e1c3b5fb8bd3b8426bb950e0ade93b4c8e4a441a7f92752",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6301/attempt0/model.pt",
+        "sha256": "ce0eb4b58fcd69e0bbc010b602e75643e4708623af4f1ac0c15b0ec103cfc6d3",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6302/attempt0/model.pt",
+        "sha256": "aa2ae485d0ba11ce6b7c8d619dd7811319e9b620bf6f924e1e3a9f9c3b7c8142",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6300/attempt0/model.pt",
+        "sha256": "c370c06a6c3dc8c127b95441b3d160e3d860b262afeb59adde32541ea89223af",
+        "apparent_bytes": 249078
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6301/attempt0/model.pt",
+        "sha256": "006967ca5139642e2048f5a6f2b6a7789996145d16c59417b326d4f8fd7cdc62",
+        "apparent_bytes": 249078
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6302/attempt0/model.pt",
+        "sha256": "5c916d928f8074a408d40c24ad5fa41d7085329c4dfe2c911aeead05d4c07ad6",
+        "apparent_bytes": 249078
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6400/attempt0/model.pt",
+        "sha256": "cd927d7656ce09bdee936829f1ce7546e93e904e87e46cba33bb026dd60be7e3",
+        "apparent_bytes": 259062
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6401/attempt0/model.pt",
+        "sha256": "8a3610f75fa27007e23ce1946e52fb88dcd1b376a6c58a7b6ff2f86126ca746b",
+        "apparent_bytes": 259062
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6402/attempt0/model.pt",
+        "sha256": "98eb3d4d1f9e8b358003a8229d8f8238f73934de9790225e57f619f69721daa6",
+        "apparent_bytes": 259062
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6400/attempt0/model.pt",
+        "sha256": "4248caf3a9c4b7118f44127ed46079be760356558172931f5f62939eaceb2ceb",
+        "apparent_bytes": 259062
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6401/attempt0/model.pt",
+        "sha256": "470c3ccea00929d504b4f28c01fe49ff88f559926b280020e0477545c4aaaf7f",
+        "apparent_bytes": 259062
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6402/attempt0/model.pt",
+        "sha256": "455e563d5044e04e2ea0772a8dc80e60ea5e2e72104b7d95e9dc78945e9ae600",
+        "apparent_bytes": 259062
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6300/attempt0/model.pt",
+        "sha256": "1db75ff06bd553dc3c16a1ce866a511fdf290dd02fcb0bb266e7a00ae0c0000c",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6301/attempt0/model.pt",
+        "sha256": "0c46756ede1d8d66d724fbccf8c34b508bd4d5c3214aab874da0782358e6657d",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6302/attempt0/model.pt",
+        "sha256": "06d44c2681e007e89de1b8e6e2618a9640e2fafa08835dc4810e259590813dc0",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6300/attempt0/model.pt",
+        "sha256": "90ee670db38a566768801be29d3c05490fd2466987b755ae5d558ec9821e4f41",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6301/attempt0/model.pt",
+        "sha256": "542d3f46451691689f329f574f07f365613384c946864665c9300af94373fb7d",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6302/attempt0/model.pt",
+        "sha256": "379b74b66359b8fb01e5e5533584ab33c7934415a33af5c128507e9889e360a5",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6300/attempt0/model.pt",
+        "sha256": "d1793c8beee63503ad3c1779343d502f7083a57c80792723dbe51bbdcc48702b",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6301/attempt0/model.pt",
+        "sha256": "4caeb6c05710372851352f678c43a22c914fd9393a11f6eedd49b6d3f21d3f1f",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6302/attempt0/model.pt",
+        "sha256": "a2833732267952e67bab6c9105172a8ba2a8fede56563ab83b9cdbe25981435b",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6300/attempt0/model.pt",
+        "sha256": "b11a3b44e8c6b47752e15a92a55a2618593cff2e681c5a1d7f53e10b92044cab",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6301/attempt0/model.pt",
+        "sha256": "d85ef33fadf8bd485ef9bf13902b5165daff39f335c3a72b856ee6ccf9d00cb9",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6302/attempt0/model.pt",
+        "sha256": "7a1bcec7e5a76aa0a38b771a516d93c71e929911230c2e41f96b3b929e49e804",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6300/attempt0/model.pt",
+        "sha256": "ade13f2aab5ee73f9f83aebbe76ed7d924a8d0bd0d4dd86d18ec89046a4edebd",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6301/attempt0/model.pt",
+        "sha256": "020edf0041d052c82999807dc4cb3b8118256be0c667b89fde02266099ece568",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6302/attempt0/model.pt",
+        "sha256": "4439dbd610a9cfe7d28b333ecce907112100e298589cd5884c71e157a3824c39",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6300/attempt0/model.pt",
+        "sha256": "101fc242e01a4ae4ecdd3d8baec4971811274fba1835dcb681c2e7b6319ac2ab",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6301/attempt0/model.pt",
+        "sha256": "8b62a6a9525a055c264018066ccbe928d46e32b30d39ecd7312b1a56d2345236",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6302/attempt0/model.pt",
+        "sha256": "eb3ad2393e8fef47388144331cfa601fd12733e0b72a7e1d7a37aea8d1bc047c",
+        "apparent_bytes": 257910
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6300/attempt0/model.pt",
+        "sha256": "abf0811e0e52cad44104453a410d35f6d5f2dd1a8409b196b6fa22de56aac63c",
+        "apparent_bytes": 249142
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6301/attempt0/model.pt",
+        "sha256": "02c1ccaa767af094faf35352663f5d2fca25dc68f055f4da0e1af07f03dbdca5",
+        "apparent_bytes": 249142
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6302/attempt0/model.pt",
+        "sha256": "244851297136b755bdea56808b957ae964450c3d13cbcdb19fa24b0d0122b5d9",
+        "apparent_bytes": 249142
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6300/attempt0/model.pt",
+        "sha256": "910594716710dd2a7b5f39990d9c3d4c76928d98c1999ba0b9e3e8b49a027095",
+        "apparent_bytes": 249142
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6301/attempt0/model.pt",
+        "sha256": "ce61634464c764c6b76a87255c949b1c3860c70d47e859b865bfee3715866a8e",
+        "apparent_bytes": 249142
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6302/attempt0/model.pt",
+        "sha256": "d5bf6a490ea6567cfd6021d3ecfa982e4648451dc6d33bfa6f0c42973083ad1b",
+        "apparent_bytes": 249142
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6300/attempt0/model.pt",
+        "sha256": "cc62a52a4bf6bc961c165735c6294e71cb3947667e2aeb1b623b88fa039063d6",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6301/attempt0/model.pt",
+        "sha256": "975cec24ac8a2f04b9b48a557d02513d069eb2a252c8d5752f379f7a8638cae9",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6302/attempt0/model.pt",
+        "sha256": "4501fd6b99853c0d27571969d145562df1f4e183c906a1b024550a7b27fb7e2e",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6300/attempt0/model.pt",
+        "sha256": "fe899d61141110fca9e32c7fa95c3b23bb8fd127b85a43ab91d8bd2a8e3b1516",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6301/attempt0/model.pt",
+        "sha256": "484d4066dc0fba25cbfb94d8a1ad946a3fa225f141351605b2e85c72db6ff335",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6302/attempt0/model.pt",
+        "sha256": "a184db29475e74d76472bd89e523f790e20ccb4701bbd8cc456ecc1535fd4675",
+        "apparent_bytes": 257206
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cpu__seed6309/model.pt",
+        "sha256": "20bfc41cdc623c240b723b9cc42c5a1baafedeef68ebdafc1fdcaaebf14c436a",
+        "apparent_bytes": 248182
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/depth_area/model.pt",
+        "sha256": "f5845ce18edf4114b1c0935ceb2ddf46a584c096ff796fdfc756fa9021dfed75",
+        "apparent_bytes": 238198
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/depth_area_physical/model.pt",
+        "sha256": "229eea21a30284b2562d3f685f088bac62f639f65c4aed556e666c38ee9e6e89",
+        "apparent_bytes": 246326
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/unit/model.pt",
+        "sha256": "20569699e9084bd0713574364be56fa8a67fc8a501519f8dd3096f72ad0ee2f5",
+        "apparent_bytes": 238198
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/formal140_nonformal_prefix8/model.pt",
+        "sha256": "1d886df4c43b7077ac6b795d993f1162abc6e1a391a13429709633739db7c882",
+        "apparent_bytes": 248182
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise02540/model.pt",
+        "sha256": "297297a783c38770edfc650298be12d9f39b4a4ee422dbaf80a477a80d5d1e88",
+        "apparent_bytes": 247222
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise0540/model.pt",
+        "sha256": "001f3c5dde07ca6fdd82fd0da7a0c404f8f845b00a72741fb34932ade29089d5",
+        "apparent_bytes": 247222
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6400/attempt0/model.pt",
+        "sha256": "01679df45fee1bd4816945e6dfe654398dd6d3aa8dfada7212a6a19a0e104875",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6401/attempt0/model.pt",
+        "sha256": "dd2f04f42ad1154ee5f48c07e6f599c726ff5059f5dfbff51cabf0144c8df74f",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6402/attempt0/model.pt",
+        "sha256": "6beafc4484298a2c857a934526cdceaf6e2be73de6abfb0d51403577a857b664",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6400/attempt0/model.pt",
+        "sha256": "26063e51639ce94461cd62ce398d1e1882f6f1d16d73c7a667c1923adc86880d",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6401/attempt0/model.pt",
+        "sha256": "8f325252797e5138f182830166966e8a05fc967cb1502773a5066e4bf478fc38",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6402/attempt0/model.pt",
+        "sha256": "065e6328a016764911440401388e0b7b8658dc7b17b6500f4e940b3a2156e8c9",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6400/attempt0/model.pt",
+        "sha256": "e6fd8bc437b48364333b11722fa2bfcef22e3d854d1874280183d4bfe135ee4f",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6401/attempt0/model.pt",
+        "sha256": "29a55731f88ebba1638071fb4a20d320b4d93b913edd61df43fd70e50703e3e8",
+        "apparent_bytes": 270710
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6402/attempt0/model.pt",
+        "sha256": "b8ad0fed85cb276349422ef85bc1afaa12a874a8d39ee20647c440a6af322db1",
+        "apparent_bytes": 270710
+      }
+    ],
+    "optimizer_replay_periodic_checkpoint_artifacts": 0,
+    "retention": "One fixed endpoint per completed development/formal/backup job where registered for saving;7 small engineering endpoints. Source/config/health/work logs and compact arrays needed for reproducible figures. No optimizer/replay/periodic-model backup; no deletion by this auditor.",
+    "ledger_is_snapshot_not_final_publication_size": true
+  },
+  "training_completion_index": [
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6300/attempt0/completed.json",
+        "sha256": "4889461400b807745e86f588498ee4d235c5a325b5b7b0ec3b560722bc622a50",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16681,
+      "critic_optimizer_steps": 16681,
+      "endpoint_sha256": "48b790a82c2209366c22e025c727841fbc442bb16d8d3bb71b33a1bc714b5729"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6301/attempt0/completed.json",
+        "sha256": "0dce7d50da725be4b7f4480a5c1c02f3bbaf70ea249ca1215371ce2073f173db",
+        "bytes": 1287
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16720,
+      "critic_optimizer_steps": 16720,
+      "endpoint_sha256": "53510697023bad82a7d353305144cfc4f5a77aa3198b1b6c062824af1b6c5ea5"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6302/attempt0/completed.json",
+        "sha256": "d50cc620065c43f66668ceb27ae6f78b3c6c7ff2155b498034113dabd7816ad4",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16684,
+      "critic_optimizer_steps": 16684,
+      "endpoint_sha256": "5d2c447351c152e0099ce37b1ddbd18c74e21cf871dd4cbc83c2fc017f6faade"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6300/attempt0/completed.json",
+        "sha256": "316480b3f4c7c0ba1ac1377deaa4a4a2b822d2a2d7c0de0edf4e6badf80c12cf",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16684,
+      "critic_optimizer_steps": 16684,
+      "endpoint_sha256": "294db8b54dc18b3f9e1c3b5fb8bd3b8426bb950e0ade93b4c8e4a441a7f92752"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6301/attempt0/completed.json",
+        "sha256": "fc3491969d5bb657ef11215ad8f7fab9a27f2ea56026445cf6349fd18220fee0",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16670,
+      "critic_optimizer_steps": 16670,
+      "endpoint_sha256": "ce0eb4b58fcd69e0bbc010b602e75643e4708623af4f1ac0c15b0ec103cfc6d3"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6302/attempt0/completed.json",
+        "sha256": "4cf0175c4947f2fb710654a34e7734e3fd3a303988e4b6ddbb3bad360af2098f",
+        "bytes": 1287
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16676,
+      "critic_optimizer_steps": 16676,
+      "endpoint_sha256": "aa2ae485d0ba11ce6b7c8d619dd7811319e9b620bf6f924e1e3a9f9c3b7c8142"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6300/attempt0/completed.json",
+        "sha256": "d5ba370ee89a1175ba2367d5acf337c326e3b0afa7834283a6f4f4379b0a1ee5",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16681,
+      "critic_optimizer_steps": 16681,
+      "endpoint_sha256": "c370c06a6c3dc8c127b95441b3d160e3d860b262afeb59adde32541ea89223af"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6301/attempt0/completed.json",
+        "sha256": "4bd1bff6c52cd2d30d17764510a9096197adfe0cb591a5c44669e5eb59262bbe",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16720,
+      "critic_optimizer_steps": 16720,
+      "endpoint_sha256": "006967ca5139642e2048f5a6f2b6a7789996145d16c59417b326d4f8fd7cdc62"
+    },
+    {
+      "group": "D",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6302/attempt0/completed.json",
+        "sha256": "ca13807ef3f7314a9d033cfe16f63dc16f6c721604b8a524d83f2fd935b38ecd",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16683,
+      "critic_optimizer_steps": 16683,
+      "endpoint_sha256": "5c916d928f8074a408d40c24ad5fa41d7085329c4dfe2c911aeead05d4c07ad6"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6300/attempt0/completed.json",
+        "sha256": "c8dd346dbf582e1c2b8f7b3c531783d9334ff7e8792b0b1dc01ad92b513b2e61",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16687,
+      "critic_optimizer_steps": 16687,
+      "endpoint_sha256": "abf0811e0e52cad44104453a410d35f6d5f2dd1a8409b196b6fa22de56aac63c"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6301/attempt0/completed.json",
+        "sha256": "9d7912bbab8b97325da69baa55a8e663a730ad05bc9b299eea6fdfbf12b3c051",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16709,
+      "critic_optimizer_steps": 16709,
+      "endpoint_sha256": "02c1ccaa767af094faf35352663f5d2fca25dc68f055f4da0e1af07f03dbdca5"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6302/attempt0/completed.json",
+        "sha256": "00cc7d3e5b5684bd058f80c87aee63192c6137e2810b19147b6818f7b40088d3",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16687,
+      "critic_optimizer_steps": 16687,
+      "endpoint_sha256": "244851297136b755bdea56808b957ae964450c3d13cbcdb19fa24b0d0122b5d9"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6300/attempt0/completed.json",
+        "sha256": "108db87c24bf3a114d01c61e6a07e642bc5fdcc8ae298930b77b921a78d134a7",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16681,
+      "critic_optimizer_steps": 16681,
+      "endpoint_sha256": "910594716710dd2a7b5f39990d9c3d4c76928d98c1999ba0b9e3e8b49a027095"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6301/attempt0/completed.json",
+        "sha256": "39063c54c624dc0755afa959a19a0b368caee678f0afa96909bd10c4bd305f9d",
+        "bytes": 1287
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16720,
+      "critic_optimizer_steps": 16720,
+      "endpoint_sha256": "ce61634464c764c6b76a87255c949b1c3860c70d47e859b865bfee3715866a8e"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6302/attempt0/completed.json",
+        "sha256": "a0b5843bafa1cccbd54731fdd0f49f087572ba0e94fb0e2c446c3ca3d49a2be8",
+        "bytes": 1288
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16673,
+      "critic_optimizer_steps": 16673,
+      "endpoint_sha256": "d5bf6a490ea6567cfd6021d3ecfa982e4648451dc6d33bfa6f0c42973083ad1b"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6300/attempt0/completed.json",
+        "sha256": "8fb45280931347e4ae047aade1215e4be75f5ed0e4e55edc9b8f22769b4e3e6e",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16665,
+      "critic_optimizer_steps": 16665,
+      "endpoint_sha256": "cc62a52a4bf6bc961c165735c6294e71cb3947667e2aeb1b623b88fa039063d6"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6301/attempt0/completed.json",
+        "sha256": "eebcb75077ce2e5b2955c2a5254bf9ee61ffbb28f9b698a9516aa56cae79430f",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16687,
+      "critic_optimizer_steps": 16687,
+      "endpoint_sha256": "975cec24ac8a2f04b9b48a557d02513d069eb2a252c8d5752f379f7a8638cae9"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6302/attempt0/completed.json",
+        "sha256": "9ab4f7e75af5f138c5204b3cd1d92b6aa956bc9fa3d13182826a636d1e186c55",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16666,
+      "critic_optimizer_steps": 16666,
+      "endpoint_sha256": "4501fd6b99853c0d27571969d145562df1f4e183c906a1b024550a7b27fb7e2e"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6300/attempt0/completed.json",
+        "sha256": "797dde522a69410f657af81c10cdfdba5eaa1a5a6be3cf6cd93eaf5dbebe998c",
+        "bytes": 1288
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16684,
+      "critic_optimizer_steps": 16684,
+      "endpoint_sha256": "fe899d61141110fca9e32c7fa95c3b23bb8fd127b85a43ab91d8bd2a8e3b1516"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6301/attempt0/completed.json",
+        "sha256": "c523ade9c08aac3129c749b199387ace3742de85bf4f9c9171715f83c8626326",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16687,
+      "critic_optimizer_steps": 16687,
+      "endpoint_sha256": "484d4066dc0fba25cbfb94d8a1ad946a3fa225f141351605b2e85c72db6ff335"
+    },
+    {
+      "group": "Dpref",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6302/attempt0/completed.json",
+        "sha256": "4f3da809365a8cf44a1de01da3bc06980cc060a9bfd46fb2d8cc450f6f9f77fb",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16659,
+      "critic_optimizer_steps": 16659,
+      "endpoint_sha256": "a184db29475e74d76472bd89e523f790e20ccb4701bbd8cc456ecc1535fd4675"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6300/attempt0/completed.json",
+        "sha256": "d861d6c53fe18fa899c202ef106d19f796a74087b7349c89b7678de6c20bde72",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15355,
+      "critic_optimizer_steps": 15355,
+      "endpoint_sha256": "1db75ff06bd553dc3c16a1ce866a511fdf290dd02fcb0bb266e7a00ae0c0000c"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6301/attempt0/completed.json",
+        "sha256": "988d5aeda51fec464109ea887fd7ecf5ca966607054da058e64ab83d9980e48b",
+        "bytes": 1288
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15341,
+      "critic_optimizer_steps": 15341,
+      "endpoint_sha256": "0c46756ede1d8d66d724fbccf8c34b508bd4d5c3214aab874da0782358e6657d"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6302/attempt0/completed.json",
+        "sha256": "987130f2e3cc4f7e476bf73a3b8e94db156c205d3a9645cf844eef5ddc9db085",
+        "bytes": 1287
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15459,
+      "critic_optimizer_steps": 15459,
+      "endpoint_sha256": "06d44c2681e007e89de1b8e6e2618a9640e2fafa08835dc4810e259590813dc0"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6300/attempt0/completed.json",
+        "sha256": "0b7ceda86a31c3220be64d571a09b7cc7c76864a1fbfdd68c486ebeaab1b386b",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15352,
+      "critic_optimizer_steps": 15352,
+      "endpoint_sha256": "90ee670db38a566768801be29d3c05490fd2466987b755ae5d558ec9821e4f41"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6301/attempt0/completed.json",
+        "sha256": "a1ab5ceb6ecb6ec63c297b23556a0103380a943ab0b480eda8a5cd8ed007fdaf",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15357,
+      "critic_optimizer_steps": 15357,
+      "endpoint_sha256": "542d3f46451691689f329f574f07f365613384c946864665c9300af94373fb7d"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6302/attempt0/completed.json",
+        "sha256": "c03843c6e5651e1ea9cffea9c384e172d1cc91ea9735897261e4645fe812b39c",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15380,
+      "critic_optimizer_steps": 15380,
+      "endpoint_sha256": "379b74b66359b8fb01e5e5533584ab33c7934415a33af5c128507e9889e360a5"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6300/attempt0/completed.json",
+        "sha256": "aa6aea2852bccba9ee98257eb3f16cd2663037b815cd356353dc1c2d6ba301e9",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15284,
+      "critic_optimizer_steps": 15284,
+      "endpoint_sha256": "d1793c8beee63503ad3c1779343d502f7083a57c80792723dbe51bbdcc48702b"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6301/attempt0/completed.json",
+        "sha256": "9f4775188e11598afe32b30486d8ab96e04345e4e286c3807a56d03472a20af4",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15320,
+      "critic_optimizer_steps": 15320,
+      "endpoint_sha256": "4caeb6c05710372851352f678c43a22c914fd9393a11f6eedd49b6d3f21d3f1f"
+    },
+    {
+      "group": "Dnoise",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6302/attempt0/completed.json",
+        "sha256": "3882489d82f16cf04c37f568ceeabb976dcebd4449d3f7af7524496182a6ba0d",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 15450,
+      "critic_optimizer_steps": 15450,
+      "endpoint_sha256": "a2833732267952e67bab6c9105172a8ba2a8fede56563ab83b9cdbe25981435b"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6300/attempt0/completed.json",
+        "sha256": "451f337cfb85f56d03bbb0204caf85c23a594a929611408c779be419838018dc",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16268,
+      "critic_optimizer_steps": 16268,
+      "endpoint_sha256": "b11a3b44e8c6b47752e15a92a55a2618593cff2e681c5a1d7f53e10b92044cab"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6301/attempt0/completed.json",
+        "sha256": "c1c3754b612570c8f730dbfd4698761015865c7706814ff4ffb1f26e4f659057",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16212,
+      "critic_optimizer_steps": 16212,
+      "endpoint_sha256": "d85ef33fadf8bd485ef9bf13902b5165daff39f335c3a72b856ee6ccf9d00cb9"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6302/attempt0/completed.json",
+        "sha256": "46099b8a36642fd9ee946840d4e4c60ac73255993c115e95fe2fdb673844e928",
+        "bytes": 1287
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16236,
+      "critic_optimizer_steps": 16236,
+      "endpoint_sha256": "7a1bcec7e5a76aa0a38b771a516d93c71e929911230c2e41f96b3b929e49e804"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6300/attempt0/completed.json",
+        "sha256": "68550ec5d6a625b12b5c568399b8d6a505982af06c3d2145692590fb215b777f",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16246,
+      "critic_optimizer_steps": 16246,
+      "endpoint_sha256": "ade13f2aab5ee73f9f83aebbe76ed7d924a8d0bd0d4dd86d18ec89046a4edebd"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6301/attempt0/completed.json",
+        "sha256": "40dbb8164bfcd0f13fb4d9abf658a43b8008ef4a37288a0d1d69360dd3cbfd0a",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16282,
+      "critic_optimizer_steps": 16282,
+      "endpoint_sha256": "020edf0041d052c82999807dc4cb3b8118256be0c667b89fde02266099ece568"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6302/attempt0/completed.json",
+        "sha256": "795c6bd03346cf5ffd453a05686c16a029f276e02c9f1c636c4e8070d5bc2740",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16245,
+      "critic_optimizer_steps": 16245,
+      "endpoint_sha256": "4439dbd610a9cfe7d28b333ecce907112100e298589cd5884c71e157a3824c39"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6300/attempt0/completed.json",
+        "sha256": "d50faf3c6a07f6133b44ec1e077881e0f8dc8941012c65d058e6a144b374e286",
+        "bytes": 1290
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16203,
+      "critic_optimizer_steps": 16203,
+      "endpoint_sha256": "101fc242e01a4ae4ecdd3d8baec4971811274fba1835dcb681c2e7b6319ac2ab"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6301/attempt0/completed.json",
+        "sha256": "1dde9d61d5af436d04ae0d6fdbb19763c20d09acc83f1d437d617a3bff167f5d",
+        "bytes": 1289
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16253,
+      "critic_optimizer_steps": 16253,
+      "endpoint_sha256": "8b62a6a9525a055c264018066ccbe928d46e32b30d39ecd7312b1a56d2345236"
+    },
+    {
+      "group": "Dnoise05",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6302/attempt0/completed.json",
+        "sha256": "e700f9c8d00fd2ecd1f2aa4196a04e95f512cc66a982952aaeaaf5e49ae7643c",
+        "bytes": 1288
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16222,
+      "critic_optimizer_steps": 16222,
+      "endpoint_sha256": "eb3ad2393e8fef47388144331cfa601fd12733e0b72a7e1d7a37aea8d1bc047c"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6400/attempt0/completed.json",
+        "sha256": "4d9f57a0a9b941b4e7452d8f06b2e08613c7f738e5569ac9d5126d0f894d9049",
+        "bytes": 1295
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34918,
+      "critic_optimizer_steps": 34918,
+      "endpoint_sha256": "01679df45fee1bd4816945e6dfe654398dd6d3aa8dfada7212a6a19a0e104875"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6401/attempt0/completed.json",
+        "sha256": "1232828fc825cc1326ee173535ca8ba05a6e2cbde90dbd6ed17215390b76f099",
+        "bytes": 1295
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34989,
+      "critic_optimizer_steps": 34989,
+      "endpoint_sha256": "dd2f04f42ad1154ee5f48c07e6f599c726ff5059f5dfbff51cabf0144c8df74f"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6402/attempt0/completed.json",
+        "sha256": "1d214486130e925b28c0e566a1cf8533693c62e8eba58e068cb6068d8aafd7cd",
+        "bytes": 1295
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34908,
+      "critic_optimizer_steps": 34908,
+      "endpoint_sha256": "6beafc4484298a2c857a934526cdceaf6e2be73de6abfb0d51403577a857b664"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6400/attempt0/completed.json",
+        "sha256": "e8c0302851a9d754d518e502c123d77bc34a902007dbf91692b3ef1bdec48d04",
+        "bytes": 1296
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34918,
+      "critic_optimizer_steps": 34918,
+      "endpoint_sha256": "26063e51639ce94461cd62ce398d1e1882f6f1d16d73c7a667c1923adc86880d"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6401/attempt0/completed.json",
+        "sha256": "24e839f99b87969a866dff41d3cc2930a637eeee88ddffbce0615981eb15c950",
+        "bytes": 1296
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34985,
+      "critic_optimizer_steps": 34985,
+      "endpoint_sha256": "8f325252797e5138f182830166966e8a05fc967cb1502773a5066e4bf478fc38"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6402/attempt0/completed.json",
+        "sha256": "0ba788a2442b1066652dcb10813c6006e428dbe0c46f2d33608c0c5990046c0a",
+        "bytes": 1295
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34952,
+      "critic_optimizer_steps": 34952,
+      "endpoint_sha256": "065e6328a016764911440401388e0b7b8658dc7b17b6500f4e940b3a2156e8c9"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6400/attempt0/completed.json",
+        "sha256": "dad7d4b41ceb304a781aec0db4d4ff5e7309f99dc1405e22a207459727504f85",
+        "bytes": 1296
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34907,
+      "critic_optimizer_steps": 34907,
+      "endpoint_sha256": "e6fd8bc437b48364333b11722fa2bfcef22e3d854d1874280183d4bfe135ee4f"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6401/attempt0/completed.json",
+        "sha256": "b803d2f80a5ed35d3402dd50ba18385a99cd31a7f59e2bf73679e5dc90daa916",
+        "bytes": 1295
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34898,
+      "critic_optimizer_steps": 34898,
+      "endpoint_sha256": "29a55731f88ebba1638071fb4a20d320b4d93b913edd61df43fd70e50703e3e8"
+    },
+    {
+      "group": "formal9",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6402/attempt0/completed.json",
+        "sha256": "034023bbaeed22c3b7412db14adcc9a1e26720baef2cd513a1d7a5ff87f5c137",
+        "bytes": 1296
+      },
+      "learning_paths": 3200,
+      "learning_steps": 259200,
+      "DEV_paths": 832,
+      "DEV_steps": 67392,
+      "actor_optimizer_steps": 34919,
+      "critic_optimizer_steps": 34919,
+      "endpoint_sha256": "b8ad0fed85cb276349422ef85bc1afaa12a874a8d39ee20647c440a6af322db1"
+    },
+    {
+      "group": "backup6_unpromoted",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6400/attempt0/completed.json",
+        "sha256": "a211f1b45e85ee2c36b236c87097b9f7720e144824be9dc2d4418930bcd7d9a2",
+        "bytes": 1297
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16611,
+      "critic_optimizer_steps": 16611,
+      "endpoint_sha256": "cd927d7656ce09bdee936829f1ce7546e93e904e87e46cba33bb026dd60be7e3"
+    },
+    {
+      "group": "backup6_unpromoted",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6401/attempt0/completed.json",
+        "sha256": "0663a4dd78cd78d00761c0095bc7ebb64cd5e1a8d12fd9da3bd79e4be2b8059a",
+        "bytes": 1296
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16641,
+      "critic_optimizer_steps": 16641,
+      "endpoint_sha256": "8a3610f75fa27007e23ce1946e52fb88dcd1b376a6c58a7b6ff2f86126ca746b"
+    },
+    {
+      "group": "backup6_unpromoted",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6402/attempt0/completed.json",
+        "sha256": "1f8a3c296b99602e8b4b74315fa88e93551e24280ae0de26574f7a263772cd64",
+        "bytes": 1296
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16662,
+      "critic_optimizer_steps": 16662,
+      "endpoint_sha256": "98eb3d4d1f9e8b358003a8229d8f8238f73934de9790225e57f619f69721daa6"
+    },
+    {
+      "group": "backup6_unpromoted",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6400/attempt0/completed.json",
+        "sha256": "e20370ea12c8df3be04ae9e069b904497f379967359646cab85f3c33b4ed596b",
+        "bytes": 1295
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16603,
+      "critic_optimizer_steps": 16603,
+      "endpoint_sha256": "4248caf3a9c4b7118f44127ed46079be760356558172931f5f62939eaceb2ceb"
+    },
+    {
+      "group": "backup6_unpromoted",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6401/attempt0/completed.json",
+        "sha256": "50cb062c80a2d6c3c077bbd258e3f2399ffde427e2888eb16905b2aae80ddcf9",
+        "bytes": 1296
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16654,
+      "critic_optimizer_steps": 16654,
+      "endpoint_sha256": "470c3ccea00929d504b4f28c01fe49ff88f559926b280020e0477545c4aaaf7f"
+    },
+    {
+      "group": "backup6_unpromoted",
+      "completion": {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6402/attempt0/completed.json",
+        "sha256": "e363ba09f302baa4bf18a8597d94fae11a1473fa9c86c21137845481c99387b5",
+        "bytes": 1296
+      },
+      "learning_paths": 1536,
+      "learning_steps": 124416,
+      "DEV_paths": 416,
+      "DEV_steps": 33696,
+      "actor_optimizer_steps": 16681,
+      "critic_optimizer_steps": 16681,
+      "endpoint_sha256": "455e563d5044e04e2ea0772a8dc80e60ea5e2e72104b7d95e9dc78945e9ae600"
+    }
+  ],
+  "auditor_operation_only": {
+    "new_environment_steps": 0,
+    "new_model_loads": 0,
+    "new_model_inferences": 0,
+    "new_learning_updates": 0,
+    "new_weather_draws": 0,
+    "backup_quality_files_read": 0,
+    "queue_actions": 0,
+    "active_thesis_or_source_written": false,
+    "models_or_scientific_arrays_written": false
+  },
+  "receipt_references_sha256": {
+    "audit/computational_ledger_preparation.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/computational_ledger_preparation.json",
+      "sha256": "3b0394e89317f5f3c60630eb1c4cd14d59ebd55ae2e1e594aa1c7b8c35d1b4c0",
+      "bytes": 55115
+    },
+    "development/training/depth_area__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6300/attempt0/completed.json",
+      "sha256": "4889461400b807745e86f588498ee4d235c5a325b5b7b0ec3b560722bc622a50",
+      "bytes": 1289
+    },
+    "development/training/depth_area__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6301/attempt0/completed.json",
+      "sha256": "0dce7d50da725be4b7f4480a5c1c02f3bbaf70ea249ca1215371ce2073f173db",
+      "bytes": 1287
+    },
+    "development/training/depth_area__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area__seed6302/attempt0/completed.json",
+      "sha256": "d50cc620065c43f66668ceb27ae6f78b3c6c7ff2155b498034113dabd7816ad4",
+      "bytes": 1290
+    },
+    "development/training/depth_area_physical__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6300/attempt0/completed.json",
+      "sha256": "316480b3f4c7c0ba1ac1377deaa4a4a2b822d2a2d7c0de0edf4e6badf80c12cf",
+      "bytes": 1289
+    },
+    "development/training/depth_area_physical__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6301/attempt0/completed.json",
+      "sha256": "fc3491969d5bb657ef11215ad8f7fab9a27f2ea56026445cf6349fd18220fee0",
+      "bytes": 1290
+    },
+    "development/training/depth_area_physical__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/depth_area_physical__seed6302/attempt0/completed.json",
+      "sha256": "4cf0175c4947f2fb710654a34e7734e3fd3a303988e4b6ddbb3bad360af2098f",
+      "bytes": 1287
+    },
+    "development/training/unit__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6300/attempt0/completed.json",
+      "sha256": "d5ba370ee89a1175ba2367d5acf337c326e3b0afa7834283a6f4f4379b0a1ee5",
+      "bytes": 1289
+    },
+    "development/training/unit__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6301/attempt0/completed.json",
+      "sha256": "4bd1bff6c52cd2d30d17764510a9096197adfe0cb591a5c44669e5eb59262bbe",
+      "bytes": 1289
+    },
+    "development/training/unit__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development/training/unit__seed6302/attempt0/completed.json",
+      "sha256": "ca13807ef3f7314a9d033cfe16f63dc16f6c721604b8a524d83f2fd935b38ecd",
+      "bytes": 1290
+    },
+    "development_preferences/training/depth_area__w02__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6300/attempt0/completed.json",
+      "sha256": "c8dd346dbf582e1c2b8f7b3c531783d9334ff7e8792b0b1dc01ad92b513b2e61",
+      "bytes": 1290
+    },
+    "development_preferences/training/depth_area__w02__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6301/attempt0/completed.json",
+      "sha256": "9d7912bbab8b97325da69baa55a8e663a730ad05bc9b299eea6fdfbf12b3c051",
+      "bytes": 1290
+    },
+    "development_preferences/training/depth_area__w02__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w02__seed6302/attempt0/completed.json",
+      "sha256": "00cc7d3e5b5684bd058f80c87aee63192c6137e2810b19147b6818f7b40088d3",
+      "bytes": 1289
+    },
+    "development_preferences/training/depth_area__w05__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6300/attempt0/completed.json",
+      "sha256": "108db87c24bf3a114d01c61e6a07e642bc5fdcc8ae298930b77b921a78d134a7",
+      "bytes": 1289
+    },
+    "development_preferences/training/depth_area__w05__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6301/attempt0/completed.json",
+      "sha256": "39063c54c624dc0755afa959a19a0b368caee678f0afa96909bd10c4bd305f9d",
+      "bytes": 1287
+    },
+    "development_preferences/training/depth_area__w05__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area__w05__seed6302/attempt0/completed.json",
+      "sha256": "a0b5843bafa1cccbd54731fdd0f49f087572ba0e94fb0e2c446c3ca3d49a2be8",
+      "bytes": 1288
+    },
+    "development_preferences/training/depth_area_physical__w02__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6300/attempt0/completed.json",
+      "sha256": "8fb45280931347e4ae047aade1215e4be75f5ed0e4e55edc9b8f22769b4e3e6e",
+      "bytes": 1289
+    },
+    "development_preferences/training/depth_area_physical__w02__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6301/attempt0/completed.json",
+      "sha256": "eebcb75077ce2e5b2955c2a5254bf9ee61ffbb28f9b698a9516aa56cae79430f",
+      "bytes": 1289
+    },
+    "development_preferences/training/depth_area_physical__w02__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w02__seed6302/attempt0/completed.json",
+      "sha256": "9ab4f7e75af5f138c5204b3cd1d92b6aa956bc9fa3d13182826a636d1e186c55",
+      "bytes": 1289
+    },
+    "development_preferences/training/depth_area_physical__w05__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6300/attempt0/completed.json",
+      "sha256": "797dde522a69410f657af81c10cdfdba5eaa1a5a6be3cf6cd93eaf5dbebe998c",
+      "bytes": 1288
+    },
+    "development_preferences/training/depth_area_physical__w05__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6301/attempt0/completed.json",
+      "sha256": "c523ade9c08aac3129c749b199387ace3742de85bf4f9c9171715f83c8626326",
+      "bytes": 1289
+    },
+    "development_preferences/training/depth_area_physical__w05__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_preferences/training/depth_area_physical__w05__seed6302/attempt0/completed.json",
+      "sha256": "4f3da809365a8cf44a1de01da3bc06980cc060a9bfd46fb2d8cc450f6f9f77fb",
+      "bytes": 1289
+    },
+    "development_noise/training/physical_noise025__w02__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6300/attempt0/completed.json",
+      "sha256": "d861d6c53fe18fa899c202ef106d19f796a74087b7349c89b7678de6c20bde72",
+      "bytes": 1289
+    },
+    "development_noise/training/physical_noise025__w02__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6301/attempt0/completed.json",
+      "sha256": "988d5aeda51fec464109ea887fd7ecf5ca966607054da058e64ab83d9980e48b",
+      "bytes": 1288
+    },
+    "development_noise/training/physical_noise025__w02__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w02__seed6302/attempt0/completed.json",
+      "sha256": "987130f2e3cc4f7e476bf73a3b8e94db156c205d3a9645cf844eef5ddc9db085",
+      "bytes": 1287
+    },
+    "development_noise/training/physical_noise025__w05__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6300/attempt0/completed.json",
+      "sha256": "0b7ceda86a31c3220be64d571a09b7cc7c76864a1fbfdd68c486ebeaab1b386b",
+      "bytes": 1289
+    },
+    "development_noise/training/physical_noise025__w05__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6301/attempt0/completed.json",
+      "sha256": "a1ab5ceb6ecb6ec63c297b23556a0103380a943ab0b480eda8a5cd8ed007fdaf",
+      "bytes": 1290
+    },
+    "development_noise/training/physical_noise025__w05__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w05__seed6302/attempt0/completed.json",
+      "sha256": "c03843c6e5651e1ea9cffea9c384e172d1cc91ea9735897261e4645fe812b39c",
+      "bytes": 1289
+    },
+    "development_noise/training/physical_noise025__w08__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6300/attempt0/completed.json",
+      "sha256": "aa6aea2852bccba9ee98257eb3f16cd2663037b815cd356353dc1c2d6ba301e9",
+      "bytes": 1290
+    },
+    "development_noise/training/physical_noise025__w08__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6301/attempt0/completed.json",
+      "sha256": "9f4775188e11598afe32b30486d8ab96e04345e4e286c3807a56d03472a20af4",
+      "bytes": 1290
+    },
+    "development_noise/training/physical_noise025__w08__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise/training/physical_noise025__w08__seed6302/attempt0/completed.json",
+      "sha256": "3882489d82f16cf04c37f568ceeabb976dcebd4449d3f7af7524496182a6ba0d",
+      "bytes": 1290
+    },
+    "development_noise05/training/physical_noise05__w02__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6300/attempt0/completed.json",
+      "sha256": "451f337cfb85f56d03bbb0204caf85c23a594a929611408c779be419838018dc",
+      "bytes": 1290
+    },
+    "development_noise05/training/physical_noise05__w02__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6301/attempt0/completed.json",
+      "sha256": "c1c3754b612570c8f730dbfd4698761015865c7706814ff4ffb1f26e4f659057",
+      "bytes": 1289
+    },
+    "development_noise05/training/physical_noise05__w02__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w02__seed6302/attempt0/completed.json",
+      "sha256": "46099b8a36642fd9ee946840d4e4c60ac73255993c115e95fe2fdb673844e928",
+      "bytes": 1287
+    },
+    "development_noise05/training/physical_noise05__w05__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6300/attempt0/completed.json",
+      "sha256": "68550ec5d6a625b12b5c568399b8d6a505982af06c3d2145692590fb215b777f",
+      "bytes": 1290
+    },
+    "development_noise05/training/physical_noise05__w05__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6301/attempt0/completed.json",
+      "sha256": "40dbb8164bfcd0f13fb4d9abf658a43b8008ef4a37288a0d1d69360dd3cbfd0a",
+      "bytes": 1290
+    },
+    "development_noise05/training/physical_noise05__w05__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w05__seed6302/attempt0/completed.json",
+      "sha256": "795c6bd03346cf5ffd453a05686c16a029f276e02c9f1c636c4e8070d5bc2740",
+      "bytes": 1289
+    },
+    "development_noise05/training/physical_noise05__w08__seed6300/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6300/attempt0/completed.json",
+      "sha256": "d50faf3c6a07f6133b44ec1e077881e0f8dc8941012c65d058e6a144b374e286",
+      "bytes": 1290
+    },
+    "development_noise05/training/physical_noise05__w08__seed6301/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6301/attempt0/completed.json",
+      "sha256": "1dde9d61d5af436d04ae0d6fdbb19763c20d09acc83f1d437d617a3bff167f5d",
+      "bytes": 1289
+    },
+    "development_noise05/training/physical_noise05__w08__seed6302/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_noise05/training/physical_noise05__w08__seed6302/attempt0/completed.json",
+      "sha256": "e700f9c8d00fd2ecd1f2aa4196a04e95f512cc66a982952aaeaaf5e49ae7643c",
+      "bytes": 1288
+    },
+    "formal/training/budget_3500000__seed6400/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6400/attempt0/completed.json",
+      "sha256": "4d9f57a0a9b941b4e7452d8f06b2e08613c7f738e5569ac9d5126d0f894d9049",
+      "bytes": 1295
+    },
+    "formal/configs/train/budget_3500000__seed6400.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6400.json",
+      "sha256": "c3bc7c6de8a6a91f113559627850b125d600bbfc148b3c30cdf73021540b9b3c",
+      "bytes": 71366
+    },
+    "formal/training/budget_3500000__seed6401/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6401/attempt0/completed.json",
+      "sha256": "1232828fc825cc1326ee173535ca8ba05a6e2cbde90dbd6ed17215390b76f099",
+      "bytes": 1295
+    },
+    "formal/configs/train/budget_3500000__seed6401.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6401.json",
+      "sha256": "6cd92a3ad5e81d98841f0670fe242215986afbbbe3da7e1c48826d3c8f6607e5",
+      "bytes": 71366
+    },
+    "formal/training/budget_3500000__seed6402/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6402/attempt0/completed.json",
+      "sha256": "1d214486130e925b28c0e566a1cf8533693c62e8eba58e068cb6068d8aafd7cd",
+      "bytes": 1295
+    },
+    "formal/configs/train/budget_3500000__seed6402.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6402.json",
+      "sha256": "fca5b70bab336e24afbe82fd5f1d584fe3e7bec14c529d82cfb15ffa6d2b728d",
+      "bytes": 71366
+    },
+    "formal/training/budget_4000000__seed6400/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6400/attempt0/completed.json",
+      "sha256": "e8c0302851a9d754d518e502c123d77bc34a902007dbf91692b3ef1bdec48d04",
+      "bytes": 1296
+    },
+    "formal/configs/train/budget_4000000__seed6400.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6400.json",
+      "sha256": "222e17e9885240f7286d364c4dffc1437671816d633b469a55fe34f6a326d1d8",
+      "bytes": 71366
+    },
+    "formal/training/budget_4000000__seed6401/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6401/attempt0/completed.json",
+      "sha256": "24e839f99b87969a866dff41d3cc2930a637eeee88ddffbce0615981eb15c950",
+      "bytes": 1296
+    },
+    "formal/configs/train/budget_4000000__seed6401.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6401.json",
+      "sha256": "64d1144ddbdc5c193fdc1609ce57a9fadfa71beaf0ba397477cb5c3c1f32f8d9",
+      "bytes": 71366
+    },
+    "formal/training/budget_4000000__seed6402/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6402/attempt0/completed.json",
+      "sha256": "0ba788a2442b1066652dcb10813c6006e428dbe0c46f2d33608c0c5990046c0a",
+      "bytes": 1295
+    },
+    "formal/configs/train/budget_4000000__seed6402.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6402.json",
+      "sha256": "603f240b80794a53012665b431a1b15cde20b14fe493967f68a5ff5ee078a61d",
+      "bytes": 71366
+    },
+    "formal/training/budget_4500000__seed6400/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6400/attempt0/completed.json",
+      "sha256": "dad7d4b41ceb304a781aec0db4d4ff5e7309f99dc1405e22a207459727504f85",
+      "bytes": 1296
+    },
+    "formal/configs/train/budget_4500000__seed6400.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6400.json",
+      "sha256": "d874f8308f11b9f1dee16c4d4a1c8cbe499477b895ee15aba45f91c9ccdea998",
+      "bytes": 71366
+    },
+    "formal/training/budget_4500000__seed6401/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6401/attempt0/completed.json",
+      "sha256": "b803d2f80a5ed35d3402dd50ba18385a99cd31a7f59e2bf73679e5dc90daa916",
+      "bytes": 1295
+    },
+    "formal/configs/train/budget_4500000__seed6401.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6401.json",
+      "sha256": "d05af09b9f77889c2c07b2dfbf8276331bac2fa308261409c6812bb137a5ee9e",
+      "bytes": 71366
+    },
+    "formal/training/budget_4500000__seed6402/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6402/attempt0/completed.json",
+      "sha256": "034023bbaeed22c3b7412db14adcc9a1e26720baef2cd513a1d7a5ff87f5c137",
+      "bytes": 1296
+    },
+    "formal/configs/train/budget_4500000__seed6402.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6402.json",
+      "sha256": "78c7112d62e94565be658969216841863875b8eaf0b44d04066ce8b52a53b848",
+      "bytes": 71366
+    },
+    "development_contingency_weights/training/physical8__w005__seed6400/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6400/attempt0/completed.json",
+      "sha256": "a211f1b45e85ee2c36b236c87097b9f7720e144824be9dc2d4418930bcd7d9a2",
+      "bytes": 1297
+    },
+    "development_contingency_weights/configs/train/physical8__w005__seed6400.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/configs/train/physical8__w005__seed6400.json",
+      "sha256": "ddfe3124e93537ce7d75dd117b7950b24665d1b9e6aec89486e9eef728f8c8f5",
+      "bytes": 44800
+    },
+    "development_contingency_weights/training/physical8__w005__seed6401/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6401/attempt0/completed.json",
+      "sha256": "0663a4dd78cd78d00761c0095bc7ebb64cd5e1a8d12fd9da3bd79e4be2b8059a",
+      "bytes": 1296
+    },
+    "development_contingency_weights/configs/train/physical8__w005__seed6401.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/configs/train/physical8__w005__seed6401.json",
+      "sha256": "8355b041865bd3d24df7ed36604966cec570620cbd5c9bef36bcd9ca2a079f06",
+      "bytes": 44800
+    },
+    "development_contingency_weights/training/physical8__w005__seed6402/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w005__seed6402/attempt0/completed.json",
+      "sha256": "1f8a3c296b99602e8b4b74315fa88e93551e24280ae0de26574f7a263772cd64",
+      "bytes": 1296
+    },
+    "development_contingency_weights/configs/train/physical8__w005__seed6402.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/configs/train/physical8__w005__seed6402.json",
+      "sha256": "518403fbdcf54eccbcab39816657645bfbf0da16724674c720eba0312a02dccc",
+      "bytes": 44800
+    },
+    "development_contingency_weights/training/physical8__w010__seed6400/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6400/attempt0/completed.json",
+      "sha256": "e20370ea12c8df3be04ae9e069b904497f379967359646cab85f3c33b4ed596b",
+      "bytes": 1295
+    },
+    "development_contingency_weights/configs/train/physical8__w010__seed6400.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/configs/train/physical8__w010__seed6400.json",
+      "sha256": "03e457c32ef3b1c6380ca1fc1fdf4cf6c75a894cedc2f9458af1a4858d93f4fd",
+      "bytes": 44799
+    },
+    "development_contingency_weights/training/physical8__w010__seed6401/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6401/attempt0/completed.json",
+      "sha256": "50cb062c80a2d6c3c077bbd258e3f2399ffde427e2888eb16905b2aae80ddcf9",
+      "bytes": 1296
+    },
+    "development_contingency_weights/configs/train/physical8__w010__seed6401.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/configs/train/physical8__w010__seed6401.json",
+      "sha256": "d506f58311a28d0339dad52e881348ae54ed7d1a167e24633abe932a25086e51",
+      "bytes": 44799
+    },
+    "development_contingency_weights/training/physical8__w010__seed6402/attempt0/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/training/physical8__w010__seed6402/attempt0/completed.json",
+      "sha256": "e363ba09f302baa4bf18a8597d94fae11a1473fa9c86c21137845481c99387b5",
+      "bytes": 1296
+    },
+    "development_contingency_weights/configs/train/physical8__w010__seed6402.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/configs/train/physical8__w010__seed6402.json",
+      "sha256": "b6ed496db985c10c1bd83989ffae1f67070c37460bce45cd5560e48f494344ef",
+      "bytes": 44799
+    },
+    "audit/method_engineering_work_ledger.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/method_engineering_work_ledger.json",
+      "sha256": "e2024f557b265504e85a50d6876f6f455c4123a3b0f7bea3e7a62743c08789b9",
+      "bytes": 9357
+    },
+    "engineering/M64_device_benchmark/cpu__seed6309/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cpu__seed6309/completed.json",
+      "sha256": "cf19f002d45c9fa7f2b6a93303fb92619ec26d1dccdfc20a5be0ff4fd6b3ee8e",
+      "bytes": 1263
+    },
+    "engineering/M64_device_benchmark/cpu__seed6309/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cpu__seed6309/config.json",
+      "sha256": "bc25a278ae7b9167d5679c43c23f1c02ba50982073c5796cf7593e82385ea991",
+      "bytes": 19235
+    },
+    "engineering/M64_device_benchmark/cuda__seed6309/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6309/completed.json",
+      "sha256": "53594410dafb00427e230199556623e0f9789e3cbcf27376500c0d3b36a17c65",
+      "bytes": 1212
+    },
+    "engineering/M64_device_benchmark/cuda__seed6309/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6309/config.json",
+      "sha256": "406974c68f975f779ce9ae2feb7085f2ebd2e375723165f490a8fd8c98a4ba38",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6310/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6310/completed.json",
+      "sha256": "efd8d7c7c350ce814e7b8985cdac0a8b396684c545bc6be11fd7896aa3a9086f",
+      "bytes": 1212
+    },
+    "engineering/M64_device_benchmark/cuda__seed6310/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6310/config.json",
+      "sha256": "a6ccd2ee10e4821ec119d0360837339ef8905b98f58ec7e4c35f33c5d155b233",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6311/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6311/completed.json",
+      "sha256": "53dca4225baf729f3ed8172c1323de637f67e99348e479a52341a0de37885228",
+      "bytes": 1211
+    },
+    "engineering/M64_device_benchmark/cuda__seed6311/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6311/config.json",
+      "sha256": "d82dea24c9f3922b7baa5430aabc793bd9139f1adc66a4ebe78531d97d611636",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6312/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6312/completed.json",
+      "sha256": "7061888e72bf4af0ed141f43b938f7d3d199d8f4e4a2e1074ad77c1bce1dd60e",
+      "bytes": 1213
+    },
+    "engineering/M64_device_benchmark/cuda__seed6312/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6312/config.json",
+      "sha256": "c9585080106bbf3dedee977e385043ef15d2747fbcc204670551f9d3f9bb798d",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6313/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6313/completed.json",
+      "sha256": "06011f7c860f4cdccb57131e9a12b2f363f4f57bf75333028353486b4e49895b",
+      "bytes": 1211
+    },
+    "engineering/M64_device_benchmark/cuda__seed6313/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6313/config.json",
+      "sha256": "74aac6fbf528bb4a53e244f46db5404f22c9b8d6679d2413fd3dcee5a392dab9",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6314/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6314/completed.json",
+      "sha256": "f29f5bb2479305ea4724bff345beaaf19e6b798614db9f80a082d86a3b1deb06",
+      "bytes": 1212
+    },
+    "engineering/M64_device_benchmark/cuda__seed6314/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6314/config.json",
+      "sha256": "6a7e8468d41c057ba76d4b8d7d8e7c549f7ecd8980d43e4d9b7b854316264d0f",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6315/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6315/completed.json",
+      "sha256": "1eedfc36b7e35cf2dbabfd3552ed2e802ef71d3cc82f8788f35ed4ab97abe34d",
+      "bytes": 1211
+    },
+    "engineering/M64_device_benchmark/cuda__seed6315/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6315/config.json",
+      "sha256": "11376583bad7b8b4ced284d0a911ef3b7419212fd59f7baaab716572f2996965",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6316/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6316/completed.json",
+      "sha256": "3c5ea9b664e92b6a4a65cdfeb00e5021c854ebd9cfc8bda036913ee14fbfbc44",
+      "bytes": 1211
+    },
+    "engineering/M64_device_benchmark/cuda__seed6316/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6316/config.json",
+      "sha256": "d32105c21ea65d4258d242d4985c3aa6632fe02ff0ef2e0f6eb8e8930f676073",
+      "bytes": 19239
+    },
+    "engineering/M64_device_benchmark/cuda__seed6317/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6317/completed.json",
+      "sha256": "c3680a98c0fc2ee975d36f625871ef36e5c1567d75d38a1d0389017ef3403d3e",
+      "bytes": 1210
+    },
+    "engineering/M64_device_benchmark/cuda__seed6317/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_device_benchmark/cuda__seed6317/config.json",
+      "sha256": "57587c214d90a7aab0bc0c4a051e336485a9dd25b1ade4d9c1089d7538efee18",
+      "bytes": 19239
+    },
+    "engineering/device_benchmark/cpu/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_benchmark/cpu/completed.json",
+      "sha256": "3d7221fbc882cc49eb5548d36d448169a00d49b5a763e569195ee816a0d1c93c",
+      "bytes": 1204
+    },
+    "engineering/device_benchmark/cpu/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_benchmark/cpu/config.json",
+      "sha256": "8b4f691e8291d7021649f5066fad2889a420ded87d240feaa7b794700366b3ee",
+      "bytes": 19008
+    },
+    "engineering/device_benchmark/cuda/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_benchmark/cuda/completed.json",
+      "sha256": "20c2fe545e6f9f2e80f77a6197d24d7186f5ad915d6caf97727b08572235d4e8",
+      "bytes": 1211
+    },
+    "engineering/device_benchmark/cuda/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_benchmark/cuda/config.json",
+      "sha256": "a7bdc28293edce9f14c8a40e64fd9abc2adf3fab484dd9953ae27be65a5b3112",
+      "bytes": 19011
+    },
+    "engineering/device_gate/depth_area/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_gate/depth_area/completed.json",
+      "sha256": "67cb721006b176a44ad3b7ff590f44ce1737d102e2c42f783de87750a83a6b75",
+      "bytes": 1202
+    },
+    "engineering/device_gate/depth_area/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_gate/depth_area/config.json",
+      "sha256": "b9fa20e7246aac4c1402903838f2b564327c8ae212b067660fd23c43a34c5063",
+      "bytes": 18708
+    },
+    "engineering/device_gate/depth_area_physical/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_gate/depth_area_physical/completed.json",
+      "sha256": "582a12e8f436a37ac8f4be39b7366cd5c506eee09fcd8110fe4dd418a724f3d0",
+      "bytes": 1204
+    },
+    "engineering/device_gate/depth_area_physical/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_gate/depth_area_physical/config.json",
+      "sha256": "19d1090999f1afb453b79fc6cb8f3cf2220a6f070b9382846d426e847b373b2d",
+      "bytes": 18735
+    },
+    "engineering/device_gate/unit/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_gate/unit/completed.json",
+      "sha256": "af84b65f47404af2f97477a778699c2d9dfc4ab32b4f2fd1c4435bb07a554067",
+      "bytes": 1204
+    },
+    "engineering/device_gate/unit/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/device_gate/unit/config.json",
+      "sha256": "7187318e7d4e0c702b6f7a3c4ff01933ef86f8b3b0611abcfb2bd2856ad14de3",
+      "bytes": 18690
+    },
+    "engineering/fixture8/depth_area/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/depth_area/completed.json",
+      "sha256": "2337be8320994755c84c07440a3f048c779815632cca8268eb6383c77971aa5c",
+      "bytes": 1255
+    },
+    "engineering/fixture8/depth_area/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/depth_area/config.json",
+      "sha256": "2126a41daa90869f5e6f68e0c92f2b775e71d548200461f89e9f47b084463d6d",
+      "bytes": 18452
+    },
+    "engineering/fixture8/depth_area_physical/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/depth_area_physical/completed.json",
+      "sha256": "c3bcdc36d78fee033736d9314cd3ceb8db7cf665b459e7a99fbef9ff811db6ee",
+      "bytes": 1253
+    },
+    "engineering/fixture8/depth_area_physical/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/depth_area_physical/config.json",
+      "sha256": "1474f6acabe965ffac7af6d443a57822af56a1272cba2c419dca4443dd1d99a2",
+      "bytes": 18479
+    },
+    "engineering/fixture8/unit/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/unit/completed.json",
+      "sha256": "ed01b354eb158c47247419e5816c14ef583ac584cc6bd9e91c292635bedf3e09",
+      "bytes": 1254
+    },
+    "engineering/fixture8/unit/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/fixture8/unit/config.json",
+      "sha256": "adafe1b4429417911a1e5bc94dbe3e40914a4ae19fcf70d6669128ed0e906ae3",
+      "bytes": 18434
+    },
+    "engineering/formal140_nonformal_prefix8/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/formal140_nonformal_prefix8/completed.json",
+      "sha256": "33fe7a7037ca7b6ea56ea46a22bf73c2c4edf2a2cad7369d294103640b59c6a6",
+      "bytes": 1253
+    },
+    "engineering/formal140_nonformal_prefix8/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/formal140_nonformal_prefix8/config.json",
+      "sha256": "0d27c10fcee37373019b7376d557824d04fd095641d58e3d93b6c9aef73201bc",
+      "bytes": 18697
+    },
+    "engineering/noise02540/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise02540/completed.json",
+      "sha256": "3995d08722548d86bf3159b7f26c38f49e4a8bd015cf6bddceaab2b712186fbc",
+      "bytes": 1262
+    },
+    "engineering/noise02540/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise02540/config.json",
+      "sha256": "e9eada2aa89ed9c6ba579fd8670022008447616654ea075210c2056e4557f9bf",
+      "bytes": 19028
+    },
+    "engineering/noise0540/completed.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise0540/completed.json",
+      "sha256": "f6fd22b42eb870909fcc0c7f20c1b6b01011ebfbfc06099e92b0de0a8ba49fae",
+      "bytes": 1262
+    },
+    "engineering/noise0540/config.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/noise0540/config.json",
+      "sha256": "fd042871fa3f30d2c67d4878be91bb2ece94d543fccf7e8fa896a74c006ef518",
+      "bytes": 19043
+    },
+    "diagnostics/execution_conversion/completion_receipt.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion/completion_receipt.json",
+      "sha256": "2a4627c3d48a0573312b3030d9943908ad40d792402f6351541a8480ee0743f3",
+      "bytes": 1229
+    },
+    "diagnostics/execution_conversion_initial/completion_receipt.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/diagnostics/execution_conversion_initial/completion_receipt.json",
+      "sha256": "f5d17769315a0fde124fe860b238e279b09f0fc7da518265bffdc3abd4d559b4",
+      "bytes": 1176
+    },
+    "engineering/evaluation_readiness/readiness_audit.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/evaluation_readiness/readiness_audit.json",
+      "sha256": "96bbad986b07b4d6942a5ef01507d1e1f458a920386c0c9a7fdef731b361d469",
+      "bytes": 20240
+    },
+    "engineering/M64_evaluation_readiness/readiness_audit.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/M64_evaluation_readiness/readiness_audit.json",
+      "sha256": "ad7d95f0e84fb81f7e98878bde1379a0582355477103134d0e22f73ba72dc6c3",
+      "bytes": 3770
+    },
+    "formal/evaluation/TEST_COMPLETION_RECEIPT.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/TEST_COMPLETION_RECEIPT.json",
+      "sha256": "15f213d85adcf639a3ed5803442110ee6a50e132d33821e03288da0f0aefbf72",
+      "bytes": 2404
+    },
+    "audit/TEST_saved_source_acceptance.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/TEST_saved_source_acceptance.json",
+      "sha256": "746c07f9152768edbd13b48d27575d14013669a1fd94fb72b0a248fa10f54c45",
+      "bytes": 48177
+    },
+    "audit/TEST_independent_output_acceptance.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/TEST_independent_output_acceptance.json",
+      "sha256": "fb39c0db9f9bb0150cc4868854e20de704b857c285078e163a7f0aeb180112b4",
+      "bytes": 84162
+    },
+    "formal/dispatch/evaluation/completion.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/dispatch/evaluation/completion.json",
+      "sha256": "dcc4fc659e1ee199cf719c6ca921d22bbd8d86c7b70b72e6b94e6cfa7c7af0a4",
+      "bytes": 1519
+    },
+    "formal/evaluation/trained_budget_3500000__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6400/attempt0/complete.json",
+      "sha256": "596d5c220949d87c83d8a31ae4502367365b7b83c263cd842adeecc27e1675ce",
+      "bytes": 623
+    },
+    "formal/evaluation/trained_budget_3500000__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6401/attempt0/complete.json",
+      "sha256": "5b3251f3c3dd98b79a501480efe68108615cef0f21a36e5db7c10e324ff8b68f",
+      "bytes": 623
+    },
+    "formal/evaluation/trained_budget_3500000__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6402/attempt0/complete.json",
+      "sha256": "10f5c37748e6b5ee6b6899f7e3b533e7209fe573821e9796428270bef4bc23a0",
+      "bytes": 623
+    },
+    "formal/evaluation/main__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6400/attempt0/complete.json",
+      "sha256": "af1d4b03cf81a922b212168e031c768b13d9427fc28b9c3be2efebabc0530d65",
+      "bytes": 623
+    },
+    "formal/evaluation/main__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6401/attempt0/complete.json",
+      "sha256": "9f7fbbbb39a0969ace5fc9807666d0d5b3f4a1d9263431a51d9d352043353118",
+      "bytes": 623
+    },
+    "formal/evaluation/main__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6402/attempt0/complete.json",
+      "sha256": "1e225216e0d253739d43b688a4d0ef433b12d02d1292e3142b0359322d936919",
+      "bytes": 623
+    },
+    "formal/evaluation/trained_budget_4500000__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6400/attempt0/complete.json",
+      "sha256": "19fd6d12deb6d3659cfa2aba6383bd5273522d1a58e5986d4d4598224c04dcec",
+      "bytes": 623
+    },
+    "formal/evaluation/trained_budget_4500000__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6401/attempt0/complete.json",
+      "sha256": "7a4ab264879f65d656b232f475ec6e12b0d9407b0cd22c73f882c4239b76d0d2",
+      "bytes": 623
+    },
+    "formal/evaluation/trained_budget_4500000__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6402/attempt0/complete.json",
+      "sha256": "fa880f971fabe0410c50ff4425e95b50e21fb92a31a06c6c420e8bac01a7dc1f",
+      "bytes": 623
+    },
+    "formal/evaluation/initial__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6400/attempt0/complete.json",
+      "sha256": "bcc3ba5e92962e9bd2350622d54d091a0ace0453095057a4338f1fd80ba24df0",
+      "bytes": 623
+    },
+    "formal/evaluation/fixed_budget_3500000__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6400/attempt0/complete.json",
+      "sha256": "bb031b3e2915ce5fa32b770b51e29ea675f653e9889f2eabfc99d063645d3206",
+      "bytes": 623
+    },
+    "formal/evaluation/fixed_budget_4500000__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6400/attempt0/complete.json",
+      "sha256": "4bd9da61f446c69ac3e1f774b5c0a090a2c7bd21bb95e92600f622438a539efe",
+      "bytes": 623
+    },
+    "formal/evaluation/feedback_low_feedback__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6400/attempt0/complete.json",
+      "sha256": "8870ecce9f32625921e2eeb96c49b0ad3d7b4988841e0328914dcd759d70b885",
+      "bytes": 618
+    },
+    "formal/evaluation/feedback_low_replay__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6400/attempt0/complete.json",
+      "sha256": "91d1bf2ea0da593766b417bf13a4c2fa3d502399412d2b59aeb9d4612e36f641",
+      "bytes": 604
+    },
+    "formal/evaluation/feedback_high_feedback__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6400/attempt0/complete.json",
+      "sha256": "ad8683d35c14a018c1e8532ce04f5ab874ea73cfbcb93423db64d0c812dd3d9e",
+      "bytes": 618
+    },
+    "formal/evaluation/feedback_high_replay__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6400/attempt0/complete.json",
+      "sha256": "f99ed0cfc0ba29ee68b065df170d4e7a4a3276fc422447043e5b75fc5d9a1183",
+      "bytes": 604
+    },
+    "formal/evaluation/history_2022__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6400/attempt0/complete.json",
+      "sha256": "6a387752143ab73953c65feff9d4eb1b6648b44666b227adbbdb7d4ab96400b7",
+      "bytes": 607
+    },
+    "formal/evaluation/history_2024__seed6400/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6400/attempt0/complete.json",
+      "sha256": "d534f96c06454dce0729977d89cce62287f74c67ee4fd1fa1df80de8fda85697",
+      "bytes": 607
+    },
+    "formal/evaluation/initial__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6401/attempt0/complete.json",
+      "sha256": "b2e90dbc7270f4ee36a035487903f57a2f88b9b3b48db6e2b6d873fd94e93d62",
+      "bytes": 623
+    },
+    "formal/evaluation/fixed_budget_3500000__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6401/attempt0/complete.json",
+      "sha256": "7a08485fdb409f7007884bd43dd7a368a9030ec5b2d244798988461908d5ec14",
+      "bytes": 623
+    },
+    "formal/evaluation/fixed_budget_4500000__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6401/attempt0/complete.json",
+      "sha256": "38aac415369023a7203195d886d1b7a3e37ed514f9f2b206f2349c90063ec45e",
+      "bytes": 623
+    },
+    "formal/evaluation/feedback_low_feedback__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6401/attempt0/complete.json",
+      "sha256": "4146f9180908da506b33b338d541445aaaf4aaf93cb18927f923a85138a8e4c7",
+      "bytes": 618
+    },
+    "formal/evaluation/feedback_low_replay__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6401/attempt0/complete.json",
+      "sha256": "ea7b663b69abc8ed04e093ecca6a868b295da8496670fc67f2728435fe5615d6",
+      "bytes": 604
+    },
+    "formal/evaluation/feedback_high_feedback__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6401/attempt0/complete.json",
+      "sha256": "032ae1777ca890c6e27a4256e150685ca0369e95150e812d1036fb3414af53d7",
+      "bytes": 618
+    },
+    "formal/evaluation/feedback_high_replay__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6401/attempt0/complete.json",
+      "sha256": "21a26a84fbbb5d0bf229c7c57ccab4102802a362b867c8a49fc6983c7bacd4ca",
+      "bytes": 604
+    },
+    "formal/evaluation/history_2022__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6401/attempt0/complete.json",
+      "sha256": "c59805139acab16970a4a52027e90b1306a2aef45b5b086126340a0a56bf74c9",
+      "bytes": 607
+    },
+    "formal/evaluation/history_2024__seed6401/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6401/attempt0/complete.json",
+      "sha256": "c34107f64b1c41e21f527a715b08315543ea718a6b9460559781ca1e9716e9db",
+      "bytes": 607
+    },
+    "formal/evaluation/initial__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6402/attempt0/complete.json",
+      "sha256": "7b5f42a9ae9409657677694c0e4c984cded06e4bebd37f077cc0ce73c5c20e83",
+      "bytes": 623
+    },
+    "formal/evaluation/fixed_budget_3500000__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6402/attempt0/complete.json",
+      "sha256": "8a0738f7f00a6180589993a57e255505ac581d38ad0e9673e07d8bbda67156c8",
+      "bytes": 623
+    },
+    "formal/evaluation/fixed_budget_4500000__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6402/attempt0/complete.json",
+      "sha256": "55d7e1c0cffbbb35c001b3a086b692ffe75053e7d742aa51dbbc8d7c1770800f",
+      "bytes": 623
+    },
+    "formal/evaluation/feedback_low_feedback__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6402/attempt0/complete.json",
+      "sha256": "b8cda5d274bc341bd4c3f8d9e91a9053f17210180135e507ddac015ea94b1a9e",
+      "bytes": 618
+    },
+    "formal/evaluation/feedback_low_replay__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6402/attempt0/complete.json",
+      "sha256": "2fdd096b1fa7881439c56cc10f514c479b66732e62d365d45275bcdcc94771b1",
+      "bytes": 604
+    },
+    "formal/evaluation/feedback_high_feedback__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6402/attempt0/complete.json",
+      "sha256": "aa91419c0a1db651091e7a3a7c7ac5d7eb4da3e5b27e76bdfeca5f7a6f0ca0b8",
+      "bytes": 618
+    },
+    "formal/evaluation/feedback_high_replay__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6402/attempt0/complete.json",
+      "sha256": "4de08e9e7e6e5aa67393666641603f90d23207a9ff4188f5a64a6376cfde1aac",
+      "bytes": 604
+    },
+    "formal/evaluation/history_2022__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6402/attempt0/complete.json",
+      "sha256": "c67c1605c8e7e303790158ed9953a12767f3ef00d885360e63e71e35b8b53baa",
+      "bytes": 607
+    },
+    "formal/evaluation/history_2024__seed6402/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6402/attempt0/complete.json",
+      "sha256": "c6d083427c50a22d2313a75a7dae9a9ee76605b69e74ab4a2283232aec0710ec",
+      "bytes": 607
+    },
+    "formal/evaluation/descriptive_feedback_high_feedback__seed6400__weather125/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_high_feedback__seed6400__weather125/attempt0/complete.json",
+      "sha256": "be3a221591a173f8eeb94ca017fa9f61935aea7b6c8c06b047292c695d49b8e5",
+      "bytes": 607
+    },
+    "formal/evaluation/descriptive_feedback_high_replay__seed6400__weather125/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_high_replay__seed6400__weather125/attempt0/complete.json",
+      "sha256": "3792025473963a91b90000878e19d1a7625535bea786bfefeb0c9ffc1f7b834e",
+      "bytes": 601
+    },
+    "formal/evaluation/descriptive_feedback_low_feedback__seed6400__weather125/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_low_feedback__seed6400__weather125/attempt0/complete.json",
+      "sha256": "c40be5415ad8c2b1d143127b43249f929c082ef0eb49b1b798326816e43008b4",
+      "bytes": 607
+    },
+    "formal/evaluation/descriptive_feedback_low_replay__seed6400__weather125/attempt0/complete.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_low_replay__seed6400__weather125/attempt0/complete.json",
+      "sha256": "dd006ff86c1406abaf53288353b6089b3b587c14b2fda20e5db0fc6e86c26398",
+      "bytes": 601
+    },
+    "development_contingency_weights/audit/blind_completion.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/audit/blind_completion.json",
+      "sha256": "86c1947573b7e1acf7970d3378b153182e17ad017c6cfd5f15af1b45db4e03fe",
+      "bytes": 3807
+    },
+    "development_contingency_weights/protocol/training_registration.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/protocol/training_registration.json",
+      "sha256": "1617db70acbf27f5801a6696dff904484f6b953e8002bf79fc7a8ce5bdecfaa7",
+      "bytes": 25429
+    },
+    "development_contingency_weights/launch_receipt.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/launch_receipt.json",
+      "sha256": "813fe27e59bc7a60dd945d8c0943c19c4bdca82aac88a9df8da219ee14eddce1",
+      "bytes": 598
+    },
+    "development_contingency_weights/status.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/status.json",
+      "sha256": "00cfa5ae4dd0cad69194ef073cb7247a1f2a38a3239198d57a7f7efc6f3e66a0",
+      "bytes": 4593
+    },
+    "protocol/conditional_weight_DEV_plan.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/conditional_weight_DEV_plan.json",
+      "sha256": "94687402578432ced26441f6f4d0ad8a5ed067c6b6737269efc0d76ddcfe225f",
+      "bytes": 3897
+    },
+    "protocol/primary_fixed3200_decision.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/primary_fixed3200_decision.json",
+      "sha256": "4f1e6aa85e717bf9f01aad6cbdcadc09fdab0b77e668822370af3348f3545898",
+      "bytes": 3029
+    },
+    "formal/protocol/test_release.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/test_release.json",
+      "sha256": "52258e195c63392971ed1ddd8f08e1f981fab40b2341146494f550641c08892c",
+      "bytes": 3408
+    },
+    "formal/protocol/training_registration.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json",
+      "sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+      "bytes": 13792
+    },
+    "formal/protocol/scientific_source_manifest.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/scientific_source_manifest.json",
+      "sha256": "a1642f89dd4169f9aa7893d2748aaa0c46be4b91eed34ec60118866c1f7a24cb",
+      "bytes": 37023
+    },
+    "formal/status.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/status.json",
+      "sha256": "9ea5240dada7e868b26835891d4e0633df32ed00033fdddd14ddc0ab6ee66213",
+      "bytes": 7153
+    }
+  }
+}

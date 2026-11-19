@@ -1,0 +1,155 @@
+{
+  "schema": "chapter3-local-sealed-remote-result-transfer-v1",
+  "status": "PASS",
+  "transferred_utc": "2026-11-06T04:58:23.163056+00:00",
+  "job_id": "main__pfo__v5__seed1",
+  "kind": "main",
+  "method": "pfo",
+  "domain": "v5",
+  "seed": 1,
+  "remote_output": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/main__pfo__v5__seed1/attempt0",
+  "remote_job_phase": "complete",
+  "remote_process_exited": true,
+  "completed_sha256": "b610fb7b87ec8ddbaf364e7d6d22ace7b14c6ac81ef333a8522e84e7d4e25ab9",
+  "remote_dispatch_receipt_sha256": "b610fb7b87ec8ddbaf364e7d6d22ace7b14c6ac81ef333a8522e84e7d4e25ab9",
+  "source_plan_sha256": "be34ccc89c0543dcd6fa099667c922d9f431272449642883e723028d42ba290c",
+  "remote_dispatch_state": {
+    "phase": "complete",
+    "attempt": 0,
+    "output": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/main__pfo__v5__seed1/attempt0",
+    "effective_overrides": {
+      "total_steps": 100608
+    },
+    "command": [
+      "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python",
+      "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/execution/worker.py",
+      "--job-id",
+      "main__pfo__v5__seed1",
+      "train",
+      "--method",
+      "pfo",
+      "--domain",
+      "v5",
+      "--seed",
+      "1",
+      "--steps",
+      "100608",
+      "--eval-every",
+      "512",
+      "--development-paths",
+      "8",
+      "--path-master",
+      "202611043101",
+      "--config",
+      "{\"total_steps\": 100608}",
+      "--storage-profile",
+      "lean",
+      "--device",
+      "cuda",
+      "--cpu-threads",
+      "1",
+      "--data-root",
+      "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/data/eurosat_rgb",
+      "--output",
+      "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/main__pfo__v5__seed1/attempt0"
+    ],
+    "spawn_requested": 1793940633.349414,
+    "pid": 591566,
+    "boot_id": "68b72e42-4325-436f-a678-5a4f78a1387d",
+    "start_ticks": "696078417",
+    "gpu_uuid": "GPU-71946e17-6e0d-6a7b-1fa4-b3de51c38fe3",
+    "reserve_mib": 1024,
+    "started": 1793940633.3514132,
+    "observed_child_exitcode": 0,
+    "finished": 1793941083.3994076,
+    "receipt_sha256": "b610fb7b87ec8ddbaf364e7d6d22ace7b14c6ac81ef333a8522e84e7d4e25ab9"
+  },
+  "files": [
+    {
+      "relative_path": "completed.json",
+      "sha256": "b610fb7b87ec8ddbaf364e7d6d22ace7b14c6ac81ef333a8522e84e7d4e25ab9",
+      "bytes": 4776
+    },
+    {
+      "relative_path": "config.json",
+      "sha256": "001d7a043181cdf34c83ab0db7c412c3d5135f1e0425bec00cd899672db06c61",
+      "bytes": 603
+    },
+    {
+      "relative_path": "development_arrays_step_100608.npz",
+      "sha256": "ae2e9561d4f398ca3bfb6d079d5ea6f6a9bbe3db0574d4ae8a5fbc2ed8172856",
+      "bytes": 48749
+    },
+    {
+      "relative_path": "development_curve.csv.gz",
+      "sha256": "27e37086d3e1659ff71ab6172b6765b753a701ddc7a63b96df769d01a7fbe49c",
+      "bytes": 12139
+    },
+    {
+      "relative_path": "development_paths.csv.gz",
+      "sha256": "2d0f8656bac3c939f967e72e6eb99e75b1a01a0040193348e95cb5c3a886e8b0",
+      "bytes": 155164
+    },
+    {
+      "relative_path": "development_steps.csv.gz",
+      "sha256": "9d0c392d712bcedccfc86edcffcc13eb8f9f99a9d15129422682ca5c06f28e16",
+      "bytes": 1164483
+    },
+    {
+      "relative_path": "endpoint_reload_gate.json",
+      "sha256": "2081d7041ce0bac874419dd8656e107f91ec684db518d71fbc6623a5e32dade5",
+      "bytes": 228
+    },
+    {
+      "relative_path": "optimizer_updates.csv.gz",
+      "sha256": "c5e2bc0ff0ef71c942c5734586f59356530e639816a20a17ada0a613a9992e64",
+      "bytes": 1397113
+    },
+    {
+      "relative_path": "progress.json",
+      "sha256": "d74750197fe1758608ecada7263ba1f47de915032c5777ca3aff378319781a04",
+      "bytes": 959
+    },
+    {
+      "relative_path": "protocol.json",
+      "sha256": "e0e8f15ad84dfe39ffca335946fceb653258b41fe6c066728696b15cfb3a452b",
+      "bytes": 128636
+    },
+    {
+      "relative_path": "training_episodes.csv.gz",
+      "sha256": "b9cd49acd125d482c1698b229cf20f65d2958a34cc2c7fed763c56bdb472cb76",
+      "bytes": 172952
+    },
+    {
+      "relative_path": "training_steps.csv.gz",
+      "sha256": "b43b77e111e820cd14186f4fe1f70ae264c5a12b8270e2d7e2d5458e88253908",
+      "bytes": 3792144
+    },
+    {
+      "relative_path": "update_metrics.csv.gz",
+      "sha256": "a89817b895825a37a166cc5f159c5a5e649590980c774f3a75fa8af66ed26868",
+      "bytes": 673316
+    },
+    {
+      "relative_path": "model/metadata.json",
+      "sha256": "8d159cff639e05a28b6cc1974b18a4e1b44470e4059fe4973e9f92e005a9750b",
+      "bytes": 994
+    },
+    {
+      "relative_path": "model/model.pt",
+      "sha256": "2f8a1aa99d75bdd6e9ecf9a5baf87165ea9743c3a6c4baeb919f5f95a0ba28a7",
+      "bytes": 32318
+    },
+    {
+      "relative_path": "_remote/runtime_statistics.json",
+      "sha256": "6a777e1098bcd0a6cee1801731de32cf13c47f08a3b76cfe70531d1d5cf98fe6",
+      "bytes": 303
+    }
+  ],
+  "archive_sha256": "674389e829f5aded091c8402bfa641a8768b54f249d263ea672909edec44a2ef",
+  "copied_runtime_dependencies": false,
+  "copied_images": false,
+  "remote_writes": 0,
+  "signals_sent": 0,
+  "training_control": false
+}

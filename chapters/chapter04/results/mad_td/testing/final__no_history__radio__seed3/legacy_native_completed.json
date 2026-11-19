@@ -1,0 +1,63 @@
+{
+  "schema": "chapter4-double-random-F1-family-evaluation-only-v1",
+  "status": "completed",
+  "success": true,
+  "method": "no_history",
+  "domain": "radio",
+  "seed": 3,
+  "phase": "final",
+  "paths": 256,
+  "path_master": 2026110694199,
+  "summary": {
+    "training_step": 100608,
+    "phase": "final",
+    "paths": 256,
+    "evaluation_environment_steps": 8192,
+    "native_mean": 0.4701660570288227,
+    "native_std": 0.09179718973767732,
+    "score_x100_mean": 47.016605702882266,
+    "minimum": 0.08074672461236507,
+    "maximum": 0.5920663226499404
+  },
+  "training_steps": 0,
+  "evaluation_steps": 8192,
+  "model_loaded_from": "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/jobs/no_history__radio__seed3/checkpoint_final.pt",
+  "checkpoint_sha256": "83599e0088cb6a254f129591de07b3b9c98752b4bffcebbdcc3c4ac48c075a43",
+  "deterministic": true,
+  "resource_audit_stream_sha256": "0372c1be01755d6f90d4a0832b4d76fd9f955c4c453f471d66efe486a147d3d9",
+  "elapsed_seconds": 61.8065235093236,
+  "data_digest_verification": {
+    "hits": 62,
+    "misses": 2,
+    "final_full_rereads": 2,
+    "records": {
+      "/hy-tmp/resource_allocation_results/chapter3/full_spend_revision_20261104/execution/source/allocation23/data/eurosat_rgb/split_manifest.json": {
+        "signature": [
+          66304,
+          106730542,
+          341975,
+          1793374931094393249,
+          1793761912241016680
+        ],
+        "sha256": "3da80902473649ff41d0b92110b03820827983434a45e11f5c1df3d4ac841731"
+      },
+      "/hy-tmp/resource_allocation_results/chapter3/two_seed_main_ablation_20261104/execution/shared_data/eurosat_rgb/images.npy": {
+        "signature": [
+          66304,
+          112561326,
+          331776128,
+          1793374930614390340,
+          1794027447133123837
+        ],
+        "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef"
+      }
+    },
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "4091b6dbd9dd44d2383c500d0d9b182aebb2d162386be297059a3ea37de5d11f",
+    "evaluation_paths.csv.gz": "eb2b14e6efa39faceed44d6406e8013f2dec06cbc1464a1498ecaa7bf2e8447e",
+    "protocol.json": "1ebde45ea375667eac5d388eacf8e3a8f82d0303c842d05b52d4475ef2fa5967",
+    "resource_episodes.csv.gz": "82f1ed95412fe5ed5773d7ccc0face8f93c9f631df92e5d561584c7732b3a64b"
+  }
+}

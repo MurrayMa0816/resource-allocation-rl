@@ -1,0 +1,14 @@
+{
+  "CUDA_VISIBLE_DEVICES": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+  "JAX_PLATFORMS": "cuda",
+  "backend": "gpu",
+  "actual_device": "cuda:0",
+  "platform": "gpu",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "jax_version": "0.4.35"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "3.2",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter03_intertemporal/figures/figure03-02_ReJoP的总体框架",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter03/figures/figure03_02/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter03/figures/figure03_02/figure.pdf",
+      "sha256": "9ebc37953f95b286cafddc738c4477030173368bef89d04316a8de99a8227697",
+      "bytes": 105927
+    },
+    "figure.png": {
+      "path": "chapters/chapter03/figures/inputs/input_0006.png",
+      "sha256": "97f53b372b71a8f5052e4ef0c7e5ce45fbf1c532fe4279156f666133405f0e6e",
+      "bytes": 209414
+    },
+    "figure.svg": {
+      "path": "chapters/chapter03/figures/inputs/input_0007.svg",
+      "sha256": "adfc0315e6920daa4e35f833f58b0bc50f8b7e696d53dd9a9add30f614623847",
+      "bytes": 536281
+    },
+    "source.drawio": {
+      "path": "chapters/chapter03/figures/figure03_02/source.drawio",
+      "sha256": "97495a90f6fb0a56291919ac14335fa6a5e5bd242604e19fa62ca054d80532cd",
+      "bytes": 20564
+    },
+    "source.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0009.json",
+      "sha256": "a7c51da9c5a16bf9d9e91990835c569dbc43ab4a020a242b6607f5a55778b9e1",
+      "bytes": 6626
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "chapter3-two-control-branch-conditions-adoption-v1",
+  "figure_number": "3.6",
+  "title": "资源与时序条件变化下的配置成效",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure3-6",
+  "parent_png": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure3-6/figure.png",
+  "parent_png_sha256": "13257c5eab2f76151b6bc4023aa8f3dd3f3866088787f6032522df8cd5881c34",
+  "parent_pdf_sha256": "5be9baee21c593682307fdf26933ce499b92bd537d39bbd26c4e98089bb67908",
+  "thesis": "/root/gamewar/latex_thesis_resource_allocation",
+  "scientific_scope": "/hy-tmp/resource_allocation_results/chapter3/double_random_formal_20261107",
+  "renderer_sha256": "cee6d28c3a2e5bfe24e3d527e9ea76af2aed7415f605c15f614b868daeb6050a",
+  "maintained_renderer": "/root/gamewar/resource_allocation_rl/chapters/chapter03/paper_two_branch_adoption_20261109/plot_conditions.py",
+  "editable_source": "plot.py",
+  "inherited_inputs_sha256": {
+    "artist_values.json": "96c4aba06ca39595a594a50b0eb0168f09a68d2ca95aacbbdb42c1fd88efba64",
+    "data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+    "layout_reference.json": "4e06e6c108caea83a833c0a35b9f0fab18f0914edb982cab621762c93287b5a5",
+    "plot_source.py": "7d4b8837f3e7193a7eceb2506a484ba289a4408403cca477343ff578f1b2a7b3",
+    "presentation.py": "f4b2da410d6a98464f3c9d2741c90eec5c4ca9969b1876fdf825ad61a46ebc55",
+    "source.json": "27069dec9da830602cedc01d4f2be7652475193d72ee038fe707c86a4ceaff48"
+  },
+  "displayed_methods": {
+    "radio": [
+      "A_FULL",
+      "A_PACE",
+      "c_ppo"
+    ],
+    "v5": [
+      "A_FULL",
+      "A_PACE",
+      "gradient_ppo"
+    ]
+  },
+  "removed_from_display_only": [
+    "A_DIRECT_TOTAL",
+    "A_BUDGET_ONLY"
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "paths_per_model": 128,
+  "panel_role": "existing common confirmation panel, not untouched holdout",
+  "uncertainty": "sample SD across five independently trained models",
+  "random_object_conditions_evaluated": false,
+  "original_scientific_data_changed": false,
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "thesis_builds": 0
+}

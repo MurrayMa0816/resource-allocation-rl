@@ -1,0 +1,13 @@
+{
+  "schema": "chapter5-formal-endpoint-DEV-control-adaptation-v1",
+  "regular_evaluation_interval": 512,
+  "transformed_grid_expressions": 2,
+  "all_other_native_ast_identical": true,
+  "native_source_file_unchanged": true,
+  "native_train_source_sha256": "8c814148c70569a62bc1db82c2aa77abfba2f5cdf52bf20bc408645f766fa307",
+  "original_ast_sha256": "2ed0740c560f715ecfe7e1dc44f15dee730f724c91b7d686d9df4894bd748696",
+  "adapted_ast_sha256": "28fd6f6d913b41bc52732c090051d9f8c43751729e1dd6fe1d826bc07572b6a3",
+  "learning_mathematics_modified": false,
+  "collector_modified": false,
+  "terminal_assessment_timing": "after final native due update"
+}

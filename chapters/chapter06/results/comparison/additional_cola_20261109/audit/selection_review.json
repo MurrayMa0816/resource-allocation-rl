@@ -1,0 +1,170 @@
+{
+  "schema": "chapter6-additional-COLA-independent-selection-review-v1",
+  "status": "POSTHOC_ADDITIONAL_DEV_CANDIDATE_SELECTED_NO_NEW_PERFORMANCE_OBSERVED",
+  "reviewer": "supplement_rule_eval independent of COLAadapter and worker authors",
+  "created_at_utc": "2026-11-09T11:05:23.930928+00:00",
+  "scope": "Read accepted formal285 source and originalC5registry/configs only. This review chooses no endpoint or hyperparameter by newCOLAoutcomes; no Env/model/learning execution.",
+  "authorization_and_timing": {
+    "root_direction": "Continue user-authorized externalcomparison objective with one additionalCOLAcandidate, engineering then fixed3seeds fullbudget.",
+    "trigger": "CAPQL completed fixed-budget training but its knownDEVendpointbusinessmetrics deteriorated; PASTA also completed. Existing results retained.",
+    "known_results_before_selection": "Prior6training knownDEVresults are already inspected; this is explicitly posthoc method supplementation, not a predeclared originalsix-job comparison.",
+    "prior_audit": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/final_training_audit.json",
+    "prior_audit_sha256": "09d00d2f67841aefdca637724e1c77fd3e7544fee22b06d94d4112a10d65fa78",
+    "CAPQL_retained": true,
+    "PASTA_retained": true,
+    "no_iterative_method_replacement_until_desired_ranking": true,
+    "no_new_TEST_run_or_reviewed_here": true
+  },
+  "selected": {
+    "method": "COLA",
+    "actual_formal_recipe": "v5/fixed_oadm",
+    "reason": "Single-policy latent temporal consistency plus cross-preference critic conflict regularization provides an additional learningmechanism given common controlrepresentation, with clearerphysicalcost than population+internalPSA.",
+    "not_reason": "Not selected to obtain a weakbaseline or because itsC6score is known; noC6COLAperformance existed at this review.",
+    "supporting_C5_evidence": "In the existingtwo tasks COLA has highermeanC andmeanJ thanQ-Pensieve. This is secondary evidence of a crediblecomparison, not prediction of灌溉ranking.",
+    "native_recipe_to_preserve": {
+      "gamma": 1.0,
+      "alpha": 0.001,
+      "entropy_tuning": false,
+      "actor_lr": 0.0001,
+      "critic_and_encoder_lr": 0.0001,
+      "tau": 0.002,
+      "n_step_TD": 8,
+      "oadm_one_step_target": true,
+      "latent_dim": 50,
+      "policy_hidden_dim": 128,
+      "critic_hidden_dim": 256,
+      "actor_gradient_clip": 1.0,
+      "observation_normalization": false,
+      "continuous_positive_training_preferences": "Original normalized independentUniformcoordinates with.02interiorfloor, oncepercollectedepisode; nativeupdateprefsamplingunchanged",
+      "deployment_preference": [
+        0.2,
+        0.8
+      ]
+    },
+    "remaining_risks": [
+      "StillvectorSACwith entropy and bootstrappedQ, so CAPQL-like businessmetric degradation cannot be ruled out.",
+      ".001alpha and8stepTD do not prove stability under49actioncoords/81dayundiscounted sparse terminalrewards.",
+      "OADM predicts latentrepresentation from publicobservedtransitions; stochasticweather limits exact one-step prediction. It is not a weatheroracle, extra densebusinessreward, or model-generated environmentalrollout."
+    ]
+  },
+  "other_candidates": {
+    "Q-Pensieve": {
+      "priority": "Secondchoice if independentlymotivated; not automatically next ifCOLAscore poor",
+      "mechanism": "Current/historical vectorQsnapshot sharing and maximum over preferenceconditions",
+      "actual_C5_profile": "legacy_recipe,legacy_torch_defaultinitialization; fixed/Xavierbranch notoriginalacceptedrun",
+      "config": {
+        "n_step": 16,
+        "alpha": 0.001,
+        "observation_normalization": true,
+        "snapshot_capacity": 4,
+        "preference_candidates": 4
+      },
+      "risk": "StillSACandQextrapolation/historymax; historymemoryneednotcorrectpoorQestimates. Requires training-onlywarmupnormalizer preserved and M64usingfrozenmap."
+    },
+    "MORL/D": {
+      "priority": "Notpreferredforcurrentfixedbudgetaddition",
+      "mechanism": "3genuineMOSACpolicies, sharedreplay, roundrobincollection,10crossupdatepasses, PSAinternal evaluation",
+      "actual_C5_profile": "critic_lr1e4",
+      "cost": "3policies do not imply3times physicalbudget. Allpolicycollection andPSAinternalrollouts must share the predeclaredtotal if followingC5chargedbudget. Optimizerupdates/compute separately reported.",
+      "each_PSA_81day_cost": 1215,
+      "deployment_adaptation": "Acceptedsourcehardcodeshorizon24forv5 andpopulationmiddle[.8,.2]; C6requires explicitdeclared81day/[.2,.8]memberadaptation in newadapterwithoutchangingfrozenauthority. Noarchive/DEVpeakmemberselection.",
+      "fairness": "If259200includesPSA, purelearningepisodes will be below3200; if259200purelearningplusPSA, totalphysicalcostexceeds259200 and mustnotbeclaimedidentical."
+    }
+  },
+  "accepted_C5_identity": {
+    "registry_path": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/model_registry.json",
+    "registry_sha256": "3c12657664f6d5824180ed3ccf4f6faf91024b692f6716eeb6bf3fd512fc9ec7",
+    "records": [
+      {
+        "method": "qpensieve",
+        "actual_formal_profile": "legacy_recipe",
+        "registry_model_id": "qpensieve__v5__seed0",
+        "config_path": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/configs/qpensieve__v5__seed0.json",
+        "config_sha256": "8d4c5803582f7615c48e631f8c52bbbf1f1a759f3b662df56661d6c934c105f8",
+        "original_learning_steps": 100608,
+        "n_step": 16,
+        "observation_normalization": true,
+        "original_internal_steps": 0
+      },
+      {
+        "method": "cola",
+        "actual_formal_profile": "fixed_oadm",
+        "registry_model_id": "cola__v5__seed0",
+        "config_path": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/configs/cola__v5__seed0.json",
+        "config_sha256": "9aae53014dc375ecc0f7e1716de449bc28e49d407a1989583ca5c7f7d3bba88b",
+        "original_learning_steps": 100608,
+        "n_step": 8,
+        "observation_normalization": false,
+        "original_internal_steps": 0
+      },
+      {
+        "method": "morld",
+        "actual_formal_profile": "critic_lr1e4",
+        "registry_model_id": "morld__v5__seed0",
+        "config_path": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/configs/morld__v5__seed0.json",
+        "config_sha256": "ff86cd144c868a936ef6dffa2b2a438b716c4b4f3df2c01313a80c953a7266a9",
+        "original_learning_steps": 100608,
+        "n_step": 1,
+        "observation_normalization": false,
+        "original_internal_steps": 10440
+      }
+    ],
+    "historical_candidate_labels_not_completion_status": true
+  },
+  "proposed_additional_fixed_budget": {
+    "training_seeds": [
+      6400,
+      6401,
+      6402
+    ],
+    "jobs": 3,
+    "learning_steps_each": 259200,
+    "complete_learning_episodes_each": 3200,
+    "DEV_points_including_zero": 26,
+    "DEV_paths": 32,
+    "DEV_steps_each": 67392,
+    "all3_learning_steps": 777600,
+    "all3_DEV_steps": 202176,
+    "all3_formal_physical_steps": 979776,
+    "engineering_if64episodes_and2DEVpaths_2points": 5508,
+    "no_automatic_extension_or_posthoc_hyperparameter_selection": true,
+    "new_independent_TEST": "Keep closed until addedfixedendpoints sealed; sameunopenedcommonpanel for allpredeclaredretainedmethods as decided in amendedprotocol, with posthocadditiondisclosed."
+  },
+  "I_O_contract": {
+    "base_observation_dim": 719,
+    "native_tanh_action_dim": 49,
+    "preference_passed_separately": true,
+    "decoder": "SamefrozenC6quota,Multiscale48features andarea-depthprojection; noauthoralgorithmreward/physicschange.",
+    "M64": "Currentencoder.encode(obs)+rawobs+pref -> actor.net -> nativepre-tanhmean/logstdclamp[-20,2], learnedfloat32parameterspromotedtofloat64 -> original64eps -> tanh -> commonbridgeatanhcliponce ->64feasiblephysicalvectorsmean.",
+    "replay": "8stepTDsuccessor and true terminalmask; oadm_next_obs is actualone-stepfirsttransition successor. Noextraenvironmentsteps tofilltails."
+  },
+  "scientific_source_bindings": {
+    "/root/gamewar/resource_allocation_rl/frozen/chapter05/formal285/baselines/cola/agent.py": "4b635496055da8ee06dbb0da10940dba0da28caae1cda35d0a6103392f0206af",
+    "/root/gamewar/resource_allocation_rl/frozen/chapter05/formal285/baselines/cola/native.py": "cf7050d489cdd6c6b3e06b384a70d2bfec0d9e307357d0390beec5582bf32d41",
+    "/root/gamewar/resource_allocation_rl/frozen/chapter05/formal285/baselines/cola/sac_base.py": "dbaaec6b733081cfb93165da80f8b652f4ccf0ce4c19b580fb7f1e3bbc6861c2",
+    "/root/gamewar/resource_allocation_rl/frozen/chapter05/formal285/baselines/cola/configs.json": "dae3e28bb2a2235e0823db7bd31838796170948ac460d53182be3ae6aff53807"
+  },
+  "reviewer_execution": {
+    "environment_steps": 0,
+    "environment_constructions": 0,
+    "model_loads": 0,
+    "model_inference": 0,
+    "training_updates": 0,
+    "author_source_edits": 0,
+    "builds": 0
+  },
+  "initial_unreviewed_scope": [
+    "NewCOLAadapter/worker/config/frozensnapshot notpresentatselectionreview; requirestaticbindingfollowup before engineering/formal claims."
+  ],
+  "implementation_followup": {
+    "static_review_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/audit/adapter_worker_preflight_review.json",
+    "static_review_sha256": "3fb1bfc07c6688924280c9094e9f8e1d16a77e751a6cbd0ebadd4f130167307e",
+    "status": "PASS_BOUND_FORMAL_RUNNING",
+    "reviewed_at_utc": "2026-11-09T11:14:12.160201+00:00"
+  },
+  "prior_CAPQL_diagnostic_evidence": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/capql_terminal_readonly_diagnosis.json",
+    "sha256": "0d22c1c36debac6041dca49c3655cd0c99582768c9d29ca617308321ac40c8ae",
+    "scope": "Savedlogs/arrays only, no model or environment reexecution; Q-scale and timing observations are diagnosticclues, not unique causalproof."
+  }
+}

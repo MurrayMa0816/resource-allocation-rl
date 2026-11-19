@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "2.2",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter02_high_dimensional/figures/figure02-02_BLoAR的总体框架",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter02/figures/figure02_02/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter02/figures/figure02_02/figure.pdf",
+      "sha256": "2a1eb69d70f836f91129c1361045b94780f629187d8ae074c14b65203de6957e",
+      "bytes": 105697
+    },
+    "figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0006.png",
+      "sha256": "d84212e3dda77eb452209b4f66ef04cfd416cf8fb7427116390a2190483ddb2d",
+      "bytes": 208700
+    },
+    "figure.svg": {
+      "path": "chapters/chapter02/figures/inputs/input_0007.svg",
+      "sha256": "90b8df1e3e873018315eb4c94060d93aac816ff17d81cc6465cc5efe8981d7a9",
+      "bytes": 466371
+    },
+    "source.drawio": {
+      "path": "chapters/chapter02/figures/figure02_02/source.drawio",
+      "sha256": "e387a6e6c27b6ffec42b9dca219cce6aa0abcb111c1309219ac6b1422b95517b",
+      "bytes": 20412
+    },
+    "source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0009.json",
+      "sha256": "75563ccfa29dd231f3440957f461563b80c31961870b2ba9bb5617491231180c",
+      "bytes": 7119
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

@@ -1,0 +1,14 @@
+{
+  "method": "A_PACE",
+  "domain": "v5",
+  "seed": 0,
+  "profile": "formal_100k_five_seed",
+  "arm_mapping": {
+    "variant": "A_FULL",
+    "temporal": "pace",
+    "quota_reference": "pace"
+  },
+  "training_steps": 100608,
+  "evaluation_only": true,
+  "optimizer_or_replay_saved": false
+}

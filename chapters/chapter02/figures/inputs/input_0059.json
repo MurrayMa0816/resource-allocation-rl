@@ -1,0 +1,27 @@
+{
+  "schema": "chapter2-measured-content-spacing-v1",
+  "number": "2.5",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter2/display120k_multitime_case_20261108_230003/assets/figure02-05_结构对照十五万步开发评估_默认随机输出头",
+  "parent_pdf_sha256": "968d15369b84367c5707d61abe149667cd48b869bda5b6c3172d4956aecbbdc9",
+  "parent_source_sha256": "29cfe782bb44cfc6d5e1ba79a5f458d600594428b85aecc437ea4c2f115d9b42",
+  "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter2.py",
+  "renderer_sha256": "c9e4d7fa88e3bee648798bc4ece5b01b816472e702d32767c0ba1911794510b8",
+  "scientific_data_sha256": {
+    "data.csv": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5"
+  },
+  "all_scientific_data_style_exact": true,
+  "geometry_proof_sha256": "caf2056ba21d90af061a04cd3191d193bdaa54a63bf7f32256d105234eba1682",
+  "native_mm": [
+    155.99999559190536,
+    77.63634105258517
+  ],
+  "outputs_sha256": {
+    "figure.pdf": "c861e629d78bfe5ad7a75ca0f9f1596a7a4346141997ce9eb6cf28d0c284e645",
+    "figure.png": "fa9482c10139e0aec227f655cf335552b4e17fdc42efa0762b025d19b6e35459",
+    "figure.svg": "c7c0543c039cc89321b6aeab57a32331f9fc11fbb35192ed7a950e9639674aa8"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "reasonable89-primary-fixed3200-decision-v1",
+  "status": "RETAIN_REGISTERED_PRIMARY_LAMBDA02",
+  "at_utc": "2026-11-08T20:14:25.000018+00:00",
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "training_barrier_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/all9_endpoints_verified.json",
+  "training_barrier_sha256": "3d89a7154b1d3a7fab85d8b0c909a8c47207600fbdabd990592b99c2a0016a98",
+  "independent_DEV_review_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/review_seals/fixed3200_DEV_review.json",
+  "independent_DEV_review_sha256": "347224f1a4f9765c413cd062cabf03559d3085aab3a2004cc0c5b507add2f9dd",
+  "review_supplement_clarification_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/formal9_endpoint_DEV_review_hash_clarification.json",
+  "review_supplement_clarification_sha256": "d53038ac153c95f92fee4484832b7a1432f3acadb4aadb6ad3832a503be03875",
+  "main_final_DEV32": {
+    "means_first_weather_then_training_seed": {
+      "C90": 0.9552902621722846,
+      "JA": 0.923394650462968,
+      "J": 0.9262363807253311,
+      "CA90": 0.937727849104454,
+      "top5_area_Y": 0.9202673413068467
+    },
+    "five_original_gates": {
+      "C90_mean_at_least_090": true,
+      "JA_mean_at_least_090": true,
+      "each_seed_JA_at_least_085": true,
+      "top5_area_Y_at_least_085": true,
+      "minimum_pooled_regional_Y_at_least_075": true
+    },
+    "all_gates_pass": true,
+    "minimum_pooled_regional_mean_Y": 0.8817121031578443,
+    "minimum_pooled_region_id": "65",
+    "per_seed_minimum_regions": [
+      {
+        "seed": 6400,
+        "minimum_Y": 0.910830213791311,
+        "region_id": "1"
+      },
+      {
+        "seed": 6401,
+        "minimum_Y": 0.9060211343896019,
+        "region_id": "46"
+      },
+      {
+        "seed": 6402,
+        "minimum_Y": 0.7674934536307708,
+        "region_id": "65"
+      }
+    ],
+    "between_training_seed_sample_SD": {
+      "C90": 0.03541013713075541,
+      "JA": 0.005039457387743941,
+      "J": 0.005936643845511621,
+      "CA90": 0.03742222132221716,
+      "top5_area_Y": 0.006642998245888588
+    }
+  },
+  "decision": "All5 previously registered mainDEV targets pass. Retain the original lambda.2 primary models regardless of any backup outcomes. Fixed3200 endpoints only.",
+  "conditional_backup_plan_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/conditional_weight_DEV_plan.json",
+  "conditional_backup_plan_sha256": "94687402578432ced26441f6f4d0ad8a5ed067c6b6737269efc0d76ddcfe225f",
+  "backup_quality_read_before_decision": false,
+  "backup_promoted": false,
+  "backup_disposition": "Finish registered1536 work and archive as unpromoted development records; do not use it to change currentmodels,settings or TEST selection.",
+  "TEST_outcomes_seen_before_decision": false
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "C6-COLA-training-DEV-completion-receipt-v1",
+  "status": "COMPLETE_FIXED_TRAINING_DEV_AUDITED_REPORT_VISUALLY_REVIEWED",
+  "scope": "COLA engineering, fixed3seed training, stored DEV numerical audit and current3method DEV report only",
+  "recorded_utc": "2026-11-09T14:53:39.574350+00:00",
+  "completed_jobs": 3,
+  "failed_jobs": 0,
+  "retried_jobs": 0,
+  "learning_steps_per_seed": 259200,
+  "complete_episodes_per_seed": 3200,
+  "DEV_points_per_seed": 26,
+  "DEV_weather_per_point": 32,
+  "accurate_endpoint_reload_original_execution": true,
+  "source_unchanged": true,
+  "independent_numeric_audit_PASS": true,
+  "report_one_page_actual_visual_review_PASS": true,
+  "review_scope": "Final one-page standalone DEV report; no whole-thesis review or publication build",
+  "actual_COLA_physical_steps_including_engineering": 985284,
+  "new_joint_TEST_environment_steps": 0,
+  "new_rule_environment_steps": 0,
+  "paper_builds": 0,
+  "original_scientific_CURRENT_changed": false,
+  "new_environment_steps_model_loads_in_completion_stage": 0,
+  "artifacts": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/FINAL_RESULTS.json",
+      "sha256": "f1d891adb169a2f5bf8faac7c089cd6f3d9e626e962177c035dc109c323c548a"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/audit/final_training_audit.json",
+      "sha256": "0a698f85bb6ff39582657a3046ada433c0ea1076c34ad3452eeef6cfaf3581c1"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/audit/computational_ledger_final.json",
+      "sha256": "f3195881b4d5217edb2fd5922ca39c7e92914d40d2590b1e62c27f8e2b713ba7"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/reports/aggregate_cola_final_review.json",
+      "sha256": "0313e3b78a0046f83e1ab36897436e7fec854573245673f70b102533f49e61f4"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/reports/DEV_学习比较进度.pdf",
+      "sha256": "58030c5142edfc9482c15fdc858193cef87ecbace89ef2ae9ee8b2063e904c3e"
+    }
+  ],
+  "recovery": {
+    "command": null
+  }
+}

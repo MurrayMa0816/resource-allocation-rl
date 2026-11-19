@@ -1,0 +1,132 @@
+{
+  "schema": "chapter3-integrated-online-candidates-v1",
+  "success": true,
+  "method": "ppo_plus",
+  "domain": "radio",
+  "seed": 1,
+  "storage_contract": {
+    "profile": "lean",
+    "version": 1,
+    "training_numeric_steps_episodes_update_metrics": "complete gzip CSV",
+    "evaluation_numeric_steps_and_path_summaries": "complete gzip CSV",
+    "native_replay_full_spend_policy_rng_gates": "every evaluated path; unchanged",
+    "per_step_array_sha256_saved": false,
+    "initial_development_arrays_saved": false,
+    "representative_path_indices": [
+      0
+    ],
+    "representative_capture_phases": [
+      "endpoint_development",
+      "independent_final"
+    ],
+    "representative_arrays": [
+      "public_observations",
+      "latent_actions",
+      "physical_actions"
+    ],
+    "model": "one fixed endpoint with the native save/load fields; no periodic checkpoints"
+  },
+  "training_steps": 100608,
+  "training_episodes": 3144,
+  "development_environment_steps": 50944,
+  "evaluation_validation": {
+    "evaluation_calls": 199,
+    "evaluated_paths": 1592,
+    "native_replayed_paths": 1592,
+    "full_spend_checked_paths": 1592,
+    "retained_path_summary_rows": 1592,
+    "retained_numeric_step_rows": 50944,
+    "policy_normalization_pending_private_rng_isolation_checks": 199,
+    "global_rng_preservation_scopes": 199,
+    "representative_path_indices": [
+      0
+    ]
+  },
+  "independent_holdout_paths": 0,
+  "engineering_gate": false,
+  "initial_development": {
+    "training_step": 0,
+    "evaluation_kind": "development",
+    "paths": 8,
+    "evaluation_environment_steps": 256,
+    "native_mean": 0.2832955337945363,
+    "native_std": 0.11690731715927133,
+    "min_return": 0.05647591807957415,
+    "max_return": 0.4301126017261984
+  },
+  "endpoint_development": {
+    "training_step": 100608,
+    "evaluation_kind": "development",
+    "paths": 8,
+    "evaluation_environment_steps": 256,
+    "native_mean": 0.3606154211891989,
+    "native_std": 0.12308843825755104,
+    "min_return": 0.09196861238815361,
+    "max_return": 0.491585629645942
+  },
+  "reloaded_development": {
+    "training_step": 100608,
+    "evaluation_kind": "endpoint_reload",
+    "paths": 8,
+    "evaluation_environment_steps": 256,
+    "native_mean": 0.3606154211891989,
+    "native_std": 0.12308843825755104,
+    "min_return": 0.09196861238815361,
+    "max_return": 0.491585629645942
+  },
+  "endpoint_reload_gate": {
+    "status": "PASS",
+    "paths": 8,
+    "max_native_return_error": 0.0,
+    "same_path_seeds": true,
+    "physical_actions_bitwise_equal": true,
+    "all_native_replay_errors_zero": true,
+    "all_resource_fraction_errors_below": 1e-10
+  },
+  "source_unchanged": true,
+  "config_sha256": "d68c4ade0585ed140b2f6be20794e1738e966fb0744acf6cb3d0740579a7fb03",
+  "protocol_sha256": "993c6d356903069a8ea73a109d0ab866cf72d058a4b1ddde9d0d4f64e2b235a9",
+  "accounting": {
+    "environment_steps": 100608,
+    "updates": 74700,
+    "actor_updates": 3930,
+    "temperature_updates": 3930,
+    "rollout_updates": 50,
+    "pending_transitions": 0
+  },
+  "model_files": {
+    "metadata.json": {
+      "sha256": "02abcf46f8dd6334cccf14c091f9287812f0c88815fa5b56c0ff3e07e8dbba85",
+      "bytes": 768
+    },
+    "model.pt": {
+      "sha256": "dbce7ba614b584b3d09a4d6f5ed533f3bf7bcc1925116726cb72a7a324c21973",
+      "bytes": 2083959
+    }
+  },
+  "data_final_verification": {
+    "path": "/hy-tmp/resource_allocation_results/chapter4/baseline_completion_20261104/execution/portable_immutable/c3_source/allocation23/data/eurosat_rgb/images.npy",
+    "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef",
+    "cache_hits": 1792,
+    "final_full_rehash_passed": true,
+    "filesystem_identity": [
+      66309,
+      5475901752,
+      331776128,
+      1793374930000000000,
+      1793797228833255592
+    ]
+  },
+  "optimizer_or_replay_saved": false,
+  "periodic_models_saved": false,
+  "elapsed_seconds": 2329.988101243973,
+  "artifacts_sha256": {
+    "development_curve.csv.gz": "3451378ae532871278bda91965e2f5db2a806c8d015ce3fcde1424fb45dce8d6",
+    "development_paths.csv.gz": "f6527a1dc34b3be909a550c15aa4d3703a5be6ab2c7a43d6559fc5ae13d4e0b8",
+    "development_steps.csv.gz": "c72c1e66bb7f6231b5fdf54a054036b14f73bf285f48421bedaef9109be5a1a1",
+    "training_episodes.csv.gz": "98f11000fad136be1f2979b5a7135ec0278e19aa618eb5555b76d08c4f53a409",
+    "training_steps.csv.gz": "8ea02f0ac46bec28252dd5e7c115035ac36901ff4af4e69d2117fd816fd2d984",
+    "update_metrics.csv.gz": "4722c06005fa42aea5db705eaef2d2c9583e7d7f7fe9053bc551b11db3db3b8d",
+    "development_arrays_step_100608.npz": "21643c489163719e4373be3265e2fcc0722947711807b113f813db3f031f55d8"
+  }
+}

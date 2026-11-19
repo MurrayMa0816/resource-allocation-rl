@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "review_scope": "Separate pure-array and PDF checks, performed by figure author; not a second agent review",
+  "parent_250_seed_rows_sha256": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+  "retained_150_seed_rows_exact": true,
+  "displayed_36_aggregate_rows_exact_parent_members": true,
+  "retained_12_series_and_all_36_mean_sd_errorbar_nodes_recomputed_exact": true,
+  "axes_position_xlim_ylim_exact_parent": true,
+  "axes_ticks_exact_before_after": true,
+  "pdf_pages": 1,
+  "pdf_dimensions_mm": [
+    155.9999955919054,
+    156.9999991522895
+  ],
+  "all_nonempty_pdf_text_font_bp": 10.5,
+  "fonts": [
+    "SimSun",
+    "Times New Roman"
+  ],
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "thesis_builds": 0
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "c9d05d81cab89a6a1e32782caba6e5bf4ad3d4b14aa88f4c27e62a345a537e82",
+  "scientific_after_sha256": "c9d05d81cab89a6a1e32782caba6e5bf4ad3d4b14aa88f4c27e62a345a537e82",
+  "labels": [
+    {
+      "before": "(b) 相同变化天气下的每日配水",
+      "after": "(b) 同一条扰动后的天气序列下的每日配水",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        188.06692913385825,
+        313.5984734429254,
+        273.0,
+        15.890625
+      ]
+    },
+    {
+      "before": "变化后天气",
+      "after": "蒸散率扰动后",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        695.8630249343834,
+        693.91534664124,
+        87.75,
+        14.875
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETE",
+  "method": "pasta",
+  "seed": 6401,
+  "learning_steps": 259200,
+  "episodes": 3200,
+  "updates": 50,
+  "counts": {
+    "train": {
+      "physical_steps": 259200,
+      "episodes": 3200
+    },
+    "development": {
+      "physical_steps": 67392,
+      "episodes": 832
+    }
+  },
+  "actual_pool_counters": {
+    "train": {
+      "step_attempts": 259200,
+      "physical_steps": 259200,
+      "episodes": 3200,
+      "reset_attempts": 3200,
+      "resets": 3200
+    },
+    "development": {
+      "step_attempts": 67392,
+      "physical_steps": 67392,
+      "episodes": 832,
+      "reset_attempts": 832,
+      "resets": 832
+    }
+  },
+  "seconds": 3735.036537863314,
+  "update_seconds": 584.9517694190145,
+  "initial_model_sha256": "e6eab7acb01019a8647fa7c11cc1da7cc5e0aa10ec6d0f5b323f4fc47290d2fe",
+  "model_sha256": "946de544eb852d1cd7a1c237728d9b2abd18d2aa579a47764dec6a43aa55aa70",
+  "endpoint_sha256": "249962faa01ed20c989bd214a60fbdb15ac6c5931e8d1d21e9dd106a3be95084",
+  "endpoint_reload_exact": true,
+  "source_unchanged": true,
+  "maximum_projection_mass_error_m3": 1.1641532182693481e-10,
+  "device_proof": {
+    "parameter_devices": [
+      "cuda:0"
+    ],
+    "cuda_optimizer_tensors": 38,
+    "peak_cuda_reserved": 69206016
+  },
+  "new_TEST_paths": 0,
+  "recovery": {
+    "command": null
+  },
+  "optimizer_backup": false,
+  "replay_backup": false
+}

@@ -1,0 +1,696 @@
+{
+  "status": "PASS",
+  "number": "4.5",
+  "native_mm": [
+    155.99999999999997,
+    75.06725429164038
+  ],
+  "axes_positions_before_mm": [
+    [
+      26.519999999999996,
+      12.780801179673938,
+      46.537815126050404,
+      54.99999999999999
+    ],
+    [
+      90.74218487394957,
+      12.780801179673938,
+      46.537815126050404,
+      54.99999999999999
+    ]
+  ],
+  "axes_positions_after_mm": [
+    [
+      26.519999999999996,
+      12.780801179673938,
+      46.537815126050404,
+      54.99999999999999
+    ],
+    [
+      90.74218487394957,
+      12.780801179673938,
+      46.537815126050404,
+      54.99999999999999
+    ]
+  ],
+  "all_axes_same_dimensions": true,
+  "no_axis_dimension_reduced": true,
+  "scientific_values_and_styles_exact": true,
+  "fonts_exact": true,
+  "fonts_before": [
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "2/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "达标运行数/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "TRoC（本文）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "PROPS",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "MAD-TD",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "SAC+ReDo",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "MR.Q",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "BRO (Fast)",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(a) 通信功率分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "达标运行数/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(b) 应急柴油分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ]
+  ],
+  "fonts_after": [
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "2/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "达标运行数/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "TRoC（本文）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "PROPS",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "MAD-TD",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "SAC+ReDo",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "MR.Q",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "BRO (Fast)",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(a) 通信功率分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "5/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "达标运行数/5",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(b) 应急柴油分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ]
+  ],
+  "pdf_frames_initial": {
+    "width_bp": 442.2047119140625,
+    "height_bp": 212.7890625,
+    "content_bbox_bp": [
+      4.502928256988525,
+      4.251965522766113,
+      433.9842224121094,
+      207.11976623535156
+    ],
+    "content_top_bp": 4.251965522766113,
+    "content_bottom_bp": 207.11976623535156,
+    "legend_box_bp": null,
+    "xlabel_bottom_bp": 207.11976623535156,
+    "xlabel_to_legend_bp": null,
+    "top_margin_mm": 1.4999989483091565,
+    "bottom_margin_mm": 2.000001737806532,
+    "all_text_exact": true,
+    "unmatched": []
+  },
+  "pdf_frames_final": {
+    "width_bp": 442.2047119140625,
+    "height_bp": 212.7890625,
+    "content_bbox_bp": [
+      4.502928256988525,
+      4.251965522766113,
+      433.9842224121094,
+      207.11976623535156
+    ],
+    "content_top_bp": 4.251965522766113,
+    "content_bottom_bp": 207.11976623535156,
+    "legend_box_bp": null,
+    "xlabel_bottom_bp": 207.11976623535156,
+    "xlabel_to_legend_bp": null,
+    "top_margin_mm": 1.4999989483091565,
+    "bottom_margin_mm": 2.000001737806532,
+    "all_text_exact": true,
+    "unmatched": []
+  },
+  "history_basis": "Preserved accepted readable horizontal-bar/vertical-bar axes dimensions; spacing derivatives never resized axes.",
+  "scientific_execution": 0
+}

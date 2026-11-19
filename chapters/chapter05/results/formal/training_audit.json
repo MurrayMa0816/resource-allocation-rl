@@ -1,0 +1,24 @@
+{
+  "schema": "chapter5-formal-five-seed-independent-training-audit-v1",
+  "status": "PASS",
+  "contract_sha256": "dc92009f55349840b002bcebc55f8a7e107d95f199562ae47df77485e4cc6f3a",
+  "plan_sha256": "0b5839433e748a9e6ec400a03f6f37fa06ffef4f7305d45d0b76539780acc6a6",
+  "source_manifest_sha256": "2341958df1d3a73298d025741f634c3ec84fcc2f2900cd832a7310b6c07d6cf7",
+  "training_jobs": 90,
+  "models": 90,
+  "learning_steps_per_model": 100608,
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "development_points": 198,
+  "training_holdout_steps": 0,
+  "total_charged_training_steps": 9054720,
+  "all_fixed_endpoints_fresh": true,
+  "no_test_opened_by_audit": true,
+  "auditor_sha256": "5b89fa66380231709c5dd7c9ce711c55f6e13b438763aede4e1d190832815ab6",
+  "utc": "2026-11-07T02:27:19.664788+00:00"
+}

@@ -1,0 +1,184 @@
+{
+  "number": "3.7",
+  "kind": "c3case",
+  "resize_IDs": true,
+  "method_line_patterns": true,
+  "active_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-09_不同方法在固定情景中的跨期资源配置",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter03/paper_revisions/reviewer_revision_20261108_232506/figures/figure_3_7",
+  "output_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure3-7",
+  "native_source": "plot_source.py",
+  "source_metadata": {
+    "editable_source": "plot.py",
+    "rerender_command": "python plot.py --output-dir regenerated",
+    "source_data": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/assets/c3_fig_formal_ch3_case/data/provenance.json",
+    "source_data_sha256": "9c445ac98d3f662eb50446e3124d787f050aee53ac9451e4533ede81074a3333",
+    "status": "formal figure asset; offline saved-data rendering",
+    "caption": "通信任务固定情景中的跨期总量与对象投入",
+    "caption_note": "既有训练种子0、默认测试情景0；两方法同外生情景。上方为完整周期本期总投入，下方为固定期限分位点的当期对象投入。四张地图共用同一线性色标，编号/位置固定，排列没有地理含义。地图值逐对象求和等于所示时点总量。单条情景不代替五种子总体评价。",
+    "raw_provenance": [
+      {
+        "method": "A_FULL",
+        "method_label": "ReJoP",
+        "trajectories_path": "/hy-tmp/resource_allocation_results/chapter3/double_random_formal_20261107/jobs/eval__A_FULL__radio__seed0__default/attempt0/trajectories.npz",
+        "trajectories_sha256": "a1c9d9ebf466f880426c4125a9e7ffdce0ae0768cd86c5a7827249431a6bde5c",
+        "path_index": 0,
+        "path_position": 0,
+        "path_seed": "2958041883",
+        "path0_actions_shape": [
+          32,
+          100
+        ],
+        "q_sum_max_error": 0.0,
+        "old_full_heatmap_max_error": 0.0,
+        "physical_energy_initial_J": 0.00048
+      },
+      {
+        "method": "c_ppo",
+        "method_label": "C-PPO",
+        "trajectories_path": "/hy-tmp/resource_allocation_results/chapter3/supplement_direct_conditions_20261106/jobs/eval__c_ppo__radio__seed0__default/trajectories.npz",
+        "trajectories_sha256": "7685d94b0b35e2faa423e6be4742991ac33bcb7bc322f51a09e4ae911e7cb0be",
+        "path_index": 0,
+        "path_position": 0,
+        "path_seed": "2958041883",
+        "path0_actions_shape": [
+          32,
+          100
+        ],
+        "q_sum_max_error": 0.0,
+        "old_full_heatmap_max_error": null,
+        "physical_energy_initial_J": 0.00048
+      }
+    ],
+    "checks_file": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/assets/c3_fig_formal_ch3_case/checks.json",
+    "checks_sha256": "54ed1352587c915497b2cecf371f793722bd8c9cb30af084d3059920debb833c",
+    "presentation_alignment": {
+      "schema": "axes-centered-subplot-title-v1",
+      "status": "PASS",
+      "parent_directory": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter3/assets/c3_radio",
+      "proof": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/proofs/c3_fig_formal_ch3_case/verification.json",
+      "proof_sha256": "b03aabba0a3d46a7667305082ff4a1de9ad86d1d97069b61f4de4bc50358c18d",
+      "editable_sources": {
+        "plot.py": "89750690b0d21dd52820b8cd9cd2d5371d6e685ec46ca76ea0b1ce057d766740"
+      },
+      "outputs_sha256": {
+        "pdf": "ef9a30855c8257136d909d043b811160eb7e3b0837c8db6d4cb17405542dd885",
+        "svg": "a44a3141057882513329cb1e35c23a66e2ec0f336cd5ecaf123721b8f8c5b44b",
+        "png": "15689bf766052cf334208426cacaaf0deb3a38f3515fe6cd70a091f410d4ea5d"
+      },
+      "data": [
+        {
+          "file": "data.csv",
+          "parent_sha256": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+          "new_sha256": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+          "decoded_sha256": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+          "exact_bytes": true,
+          "numeric_records_exact": true
+        },
+        {
+          "file": "period_totals.csv",
+          "parent_sha256": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+          "new_sha256": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+          "decoded_sha256": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+          "exact_bytes": true,
+          "numeric_records_exact": true
+        }
+      ],
+      "source_replacements": [
+        {
+          "file": "plot.py",
+          "old": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter3/cache/matplotlib",
+          "new": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/runtime/c3_fig_formal_ch3_case/mpl",
+          "count": 1,
+          "kind": "private_cache_root"
+        },
+        {
+          "file": "plot.py",
+          "old": "ax.text(0, 1.02, \"(a) 各期总量\", transform=ax.transAxes, ha=\"left\", va=\"bottom\", fontsize=10.5)",
+          "new": "ax.text(.5, 1.02, \"(a) 各期总量\", transform=ax.transAxes, ha=\"center\", va=\"bottom\", fontsize=10.5)",
+          "count": 1,
+          "kind": "title_position_or_diagnostic_title_binding"
+        }
+      ],
+      "title_rule": "Complete (letter)+short title centered on its own axes plotting rectangle; preserve y/titlepad/font/canvas",
+      "local_replot_command": "python -B /hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/assets/c3_fig_formal_ch3_case/plot.py --output-dir /hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/reproduced/c3_fig_formal_ch3_case",
+      "geometry_unchanged": true,
+      "title_exterior_pixel_differences": 0,
+      "model_loads": 0,
+      "new_environment_steps": 0,
+      "new_policy_inferences": 0,
+      "new_training_steps": 0
+    },
+    "schema": "chapter3-reviewer-presentation-revision-v1",
+    "role": "configuration_radio",
+    "number": "3.7",
+    "parent_directory": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/assets/c3_fig_formal_ch3_case",
+    "parent_source_sha256": "8601b5bdea1fbda41bdd683ca65b781da80c0c30f3f3c403f2acb3f1f62d62cf",
+    "local_render_engine": "../render_asset.py",
+    "render_source": "plot_source.py",
+    "plot_sha256": "be2f3c3afc8dc59810ddde7675f95fb48679a9d2a14940ccdae6856c71876448",
+    "plot_source_sha256": "addd52f3f7b74c35ba0cc06cceacb4c7490b785f8fb578be7eef3543660dc4c4",
+    "render_engine_sha256": "614b8ce8fb208f05733fbfd9c7a6e7853182be2552e32f348c4edae1eb1ab366",
+    "outputs": {
+      "figure.pdf": "41b19980034f64d41480e68beed10eb368eb67d0a23ce840469a607acd9847db",
+      "figure.svg": "a720bcfe8acea8f604eb2e9a94ebe1189337d8dbe5d29fa326243f720095eaab",
+      "figure.png": "e4d7e28412d2284c15d8af37f327e1a4bd655277378c0d3f5e7e5ba950908c0a"
+    },
+    "data_files_sha256": {
+      "data.csv": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+      "period_totals.csv": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+      "data/provenance.json": "9c445ac98d3f662eb50446e3124d787f050aee53ac9451e4533ede81074a3333"
+    },
+    "scientific_values_changed": false,
+    "display_x_conversion": "none",
+    "source_revision": "RPO original name, explicit ablation meanings, physical resource units, uniform decision periods",
+    "fonts_bp": {
+      "main": 10.5,
+      "object_ID": 7.5
+    },
+    "new_environment_steps": 0,
+    "model_loads": 0,
+    "new_policy_inferences": 0,
+    "new_learning_steps": 0
+  },
+  "cache_adaptations": [],
+  "parent_files_sha256": {
+    "plot.py": "be2f3c3afc8dc59810ddde7675f95fb48679a9d2a14940ccdae6856c71876448",
+    "data.csv": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+    "period_totals.csv": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+    "checks.json": "dbc50b995caee23dc6e148b8dbfa221fbc8eb2804c7c44a9da763f393022d881",
+    "source.json": "450366c08a4b016c151ac46969ae9c9b91c3852a25ca02cb2f2b6ebefc300a9b",
+    "README.rst": "f2572af6d72214fe455bfe9efa2edaa5ae2e17073ee97db2268fce9718293cbe",
+    "figure.pdf": "41b19980034f64d41480e68beed10eb368eb67d0a23ce840469a607acd9847db",
+    "figure.svg": "a720bcfe8acea8f604eb2e9a94ebe1189337d8dbe5d29fa326243f720095eaab",
+    "figure.png": "e4d7e28412d2284c15d8af37f327e1a4bd655277378c0d3f5e7e5ba950908c0a",
+    "figure_grayscale.png": "0435fb909b7b6a548dc5d4838a470a220f9f29dba01bb4ee80f4b3b416c2e982",
+    "title_alignment.diff": "cb5ccfcfafbfe2fc478c989d8a82094759d9effe785ab2cf03577bda1daacd0b",
+    "source_parent.json": "8601b5bdea1fbda41bdd683ca65b781da80c0c30f3f3c403f2acb3f1f62d62cf",
+    "plot_scientific_parent.py": "89750690b0d21dd52820b8cd9cd2d5371d6e685ec46ca76ea0b1ce057d766740",
+    "plot_source.py": "addd52f3f7b74c35ba0cc06cceacb4c7490b785f8fb578be7eef3543660dc4c4",
+    "artist_values.json": "ec04a127cf4cc2f328f001fb65050c92dfa4ddcab179cccae0caadba23b44600",
+    "data/provenance.json": "9c445ac98d3f662eb50446e3124d787f050aee53ac9451e4533ede81074a3333"
+  },
+  "input_files_sha256": {
+    "plot.py": "be2f3c3afc8dc59810ddde7675f95fb48679a9d2a14940ccdae6856c71876448",
+    "data.csv": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+    "period_totals.csv": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+    "checks.json": "dbc50b995caee23dc6e148b8dbfa221fbc8eb2804c7c44a9da763f393022d881",
+    "source.json": "450366c08a4b016c151ac46969ae9c9b91c3852a25ca02cb2f2b6ebefc300a9b",
+    "source_parent.json": "8601b5bdea1fbda41bdd683ca65b781da80c0c30f3f3c403f2acb3f1f62d62cf",
+    "plot_scientific_parent.py": "89750690b0d21dd52820b8cd9cd2d5371d6e685ec46ca76ea0b1ce057d766740",
+    "plot_source.py": "addd52f3f7b74c35ba0cc06cceacb4c7490b785f8fb578be7eef3543660dc4c4",
+    "artist_values.json": "ec04a127cf4cc2f328f001fb65050c92dfa4ddcab179cccae0caadba23b44600",
+    "data/provenance.json": "9c445ac98d3f662eb50446e3124d787f050aee53ac9451e4533ede81074a3333"
+  },
+  "index_row": {
+    "图号": "3.7",
+    "图题": "通信任务固定情景中的跨期资源配置",
+    "章节目录": "chapter03_intertemporal",
+    "图目录": "chapters/chapter03_intertemporal/figures/figure03-09_不同方法在固定情景中的跨期资源配置",
+    "正文PDF": "figure.pdf",
+    "可编辑图源": "figure.svg",
+    "绘图程序": "plot.py",
+    "绘图数据": "data.csv;period_totals.csv"
+  }
+}

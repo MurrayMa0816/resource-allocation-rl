@@ -1,0 +1,100 @@
+{
+  "schema": "chapter2-scale-structure-registered-render-v1",
+  "status": "pass",
+  "kind": "scale",
+  "data_sha256": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244",
+  "plot_sha256": "7c51bc12637c4c9affc3118f92ff4bb018354eb258bb30ca4e999d23e1b8a2f3",
+  "fonts_sha256": {
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+  },
+  "outputs_sha256": {
+    "figure.pdf": "ef5f3f2c7be7deb8a906afebfa67016b5bdf153c60512e2c58fcfdafe6eefd8a",
+    "figure.png": "db937620daa2e686a653021d8e05e245d26c239342a057a4f13a464a262a9c90",
+    "figure.svg": "5f00676c61e772f3aa616762dba20c2085e2a6583f546fca7c811c9b3d405630"
+  },
+  "evidence": {
+    "A_FULL/quality_mean": {
+      "regions": [
+        60,
+        120,
+        240
+      ],
+      "mean": [
+        68.72522775476638,
+        68.63956395933089,
+        68.3970732212379
+      ],
+      "sample_sd": [
+        0.7903272741325618,
+        0.8573033016584615,
+        0.7806391812769636
+      ],
+      "independent_training_seeds": 5,
+      "interpolated_conditions": 0
+    },
+    "A_FULL/latency_mean_ms": {
+      "regions": [
+        60,
+        120,
+        240
+      ],
+      "mean": [
+        2.4977528,
+        2.8529475,
+        3.6498604
+      ],
+      "sample_sd": [
+        0.024736650992505053,
+        0.01987029487388153,
+        0.12384746762974201
+      ],
+      "independent_training_seeds": 5,
+      "interpolated_conditions": 0
+    },
+    "A_DIRECT/quality_mean": {
+      "regions": [
+        60,
+        120,
+        240
+      ],
+      "mean": [
+        62.333194899335695,
+        60.944292441804,
+        59.410162764237604
+      ],
+      "sample_sd": [
+        2.9692740097613584,
+        1.5489504829558665,
+        1.6820380551331235
+      ],
+      "independent_training_seeds": 5,
+      "interpolated_conditions": 0
+    },
+    "A_DIRECT/latency_mean_ms": {
+      "regions": [
+        60,
+        120,
+        240
+      ],
+      "mean": [
+        2.5340341,
+        3.2866524,
+        4.9481735
+      ],
+      "sample_sd": [
+        0.007390817025201012,
+        0.012396703086909797,
+        0.009391121072587678
+      ],
+      "independent_training_seeds": 5,
+      "interpolated_conditions": 0
+    }
+  },
+  "markers_filled": true,
+  "new_training_or_policy_evaluation_performed": false
+}

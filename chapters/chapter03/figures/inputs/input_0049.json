@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "number": "3.4",
+  "outputs_sha256": {
+    "figure.pdf": "0c72f592ae6ad2ac59941cd90da2fd366cf73bff8e767a5481314e0e18542d39",
+    "figure.png": "12e06115cdc7880a80762fd3f47c9ae844e339c3619d036b39b583171fbf1ca6",
+    "figure.svg": "1b156c57e4ce5d4af96be71bc5a1cce42382df4632a2ede9d1acd970b6cad1c8",
+    "render_geometry.json": "b0e0d349c636a991ef365c679e0edc1a960e63252052c0b054cbb6b2969d7651",
+    "numeric_artist_values_before_after.json": "c88307c6abf7222b017b922a1b1117cb43e8adb7bdd561c2e7a6b0f32493bd78",
+    "source.json": "4436c47464507e7dacadf12b149097e59cbf82dec395b2352cbb638c33fc0151",
+    "plot.py": "804f85126b21952fc94a2f28289de7bd27d75f0c408fb5cde5628f9db536e40c"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "training_runs": 0,
+  "thesis_builds": 0
+}

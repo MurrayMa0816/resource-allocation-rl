@@ -1,0 +1,270 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "4.6",
+  "caption": "不同轨迹利用方式达到比较得分的训练步数",
+  "label": "fig:ch4-matched-development",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter04_trajectory_reuse/section53_experiments.tex",
+  "current_references": [
+    "chapters/chapter04_trajectory_reuse/figures/figure04-06_TRoC与三种消融变体的开发学习曲线/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "render_support/files/f0003_confirmation_steps_per_seed.csv",
+    "render_support/files/f0004_data.csv",
+    "render_support/files/f0005_diesel_full_original_DEV.csv",
+    "render_support/files/f0008_figure_config.json",
+    "render_support/files/f0009_fixed_new_DEV.csv",
+    "render_support/files/f0010_full_new_DEV.csv",
+    "render_support/files/f0011_parent_confirmation_bar_points.csv",
+    "render_support/files/f0012_parent_confirmation_steps_per_se.csv",
+    "render_support/files/f0013_parent_data.csv",
+    "render_support/files/f0015_plotted_points.csv"
+  ],
+  "current_source_files": [
+    "accepted_inputs/accepted_cache_adapter.py",
+    "plot.py",
+    "render_support/files/f0014_plot.py",
+    "render_support/files/f0017_presentation_style.py",
+    "render_support/files/f0020_plot.py",
+    "render_support/files/f0022_plot_chapter45.py"
+  ],
+  "historical_provenance": {
+    "schema": "chapters45-content-spacing-derivative-v1",
+    "number": "4.6",
+    "parent_directory": "/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6",
+    "parent_pdf_sha256": "f69e38c06a4917f0ca5ecd9a255f5ae80eed7d2293c944b553f0dedabc3f4aa6",
+    "parent_source_sha256": "c0b3f21c46a852b31666b93aa4840be25ef512b235052b502e72a4009a2852cd",
+    "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+    "renderer_sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
+    "scientific_data_sha256": {
+      "fixed_new_DEV.csv": "32c4173b99bd936496fc73496e5c0709d26b50a87424810aee7d51c378c6d9ad",
+      "parent_data.csv": "1196792e018d514b453a72cdc2c1cb205f8cfed722aa7f008ae96d5af148ac1e",
+      "parent_confirmation_steps_per_seed.csv": "5f2ca13bc00a62e9a5bd59c86250ee238f5644a7a18ce5edf8024d2c0c3ce628",
+      "parent_confirmation_bar_points.csv": "fe4e8babd21b31dc79c4bbac392e155a8d6edcd1f8eeea9e3346cff858b39a02",
+      "confirmation_steps_per_seed.csv": "7e5ac5a115bcbf940c40fd488f6f2f0259ed283432cfede154b3d923456c3c84",
+      "data.csv": "94a2eef76b625a4dca465fbd8478b0add83835f2284fba62602f1e19a9da6ce4",
+      "full_new_DEV.csv": "c0c32de51a8d425cc728d87f20f4646aa4db6242c25f1d76daa9e3a5d5ecb2ee",
+      "diesel_full_original_DEV.csv": "4f526e54ddd67862267b5a80949ea47a7b6278967479e8745a800752142dced3",
+      "plotted_points.csv": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908",
+      "confirmation_bar_points.csv": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908"
+    },
+    "input_copies_sha256": {
+      "plot.py": "c59da5f543e709d83b1ddc1c8b6fb63678a228158d8a841fc59c46365fbf4daf",
+      "presentation_style.py": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba",
+      "fixed_new_DEV.csv": "32c4173b99bd936496fc73496e5c0709d26b50a87424810aee7d51c378c6d9ad",
+      "parent_data.csv": "1196792e018d514b453a72cdc2c1cb205f8cfed722aa7f008ae96d5af148ac1e",
+      "parent_confirmation_steps_per_seed.csv": "5f2ca13bc00a62e9a5bd59c86250ee238f5644a7a18ce5edf8024d2c0c3ce628",
+      "parent_confirmation_bar_points.csv": "fe4e8babd21b31dc79c4bbac392e155a8d6edcd1f8eeea9e3346cff858b39a02",
+      "confirmation_steps_per_seed.csv": "7e5ac5a115bcbf940c40fd488f6f2f0259ed283432cfede154b3d923456c3c84",
+      "data.csv": "94a2eef76b625a4dca465fbd8478b0add83835f2284fba62602f1e19a9da6ce4",
+      "full_new_DEV.csv": "c0c32de51a8d425cc728d87f20f4646aa4db6242c25f1d76daa9e3a5d5ecb2ee",
+      "diesel_full_original_DEV.csv": "4f526e54ddd67862267b5a80949ea47a7b6278967479e8745a800752142dced3",
+      "figure_config.json": "cb2de91c37c5ef9904bf04e8064f1a413c7f76bab80b0534d2b6cd6c07064e17",
+      "render_geometry.json": "59692338f20144601a6a0c2a2187820c78abda69bb71419d5bf1c9c138f65c42",
+      "plotted_points.csv": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908",
+      "confirmation_bar_points.csv": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908",
+      "presentation_geometry.json": "c4f168557ead109c4614991dd146fe68cc4fb70792f355f3d9e82bca6c30806a",
+      "source.json": "c0b3f21c46a852b31666b93aa4840be25ef512b235052b502e72a4009a2852cd"
+    },
+    "scientific_values_styles_and_axes_physical_dimensions_preserved": true,
+    "pdf_character_frame_spacing": {
+      "width_bp": 442.2047119140625,
+      "height_bp": 194.86453247070312,
+      "content_top_bp": 4.251965522766113,
+      "content_bottom_bp": 189.1952362060547,
+      "legend_box_bp": null,
+      "xlabel_to_legend_bp": null,
+      "bottom_margin_mm": 2.000001737806532,
+      "top_margin_mm": 1.4999989483091565,
+      "row_metrics": [],
+      "all_pdf_text_exact": true,
+      "unmatched_texts": [],
+      "footer_below_legend": false
+    },
+    "output_sha256": {
+      "figure.pdf": "380524affb281da611428fd511699d34e1d44b2ec966f02c748273ebb8c81fcf",
+      "figure.png": "d8cf16f7854ed32f0eea9dbe819f35142d4e7c3937aef8ab32fa71ba0a6eaade",
+      "figure.svg": "2135cd8e8b75213bd039ebad85c754aa1040382990021ea8096a0a31e1a7d7ed"
+    },
+    "environment_steps": 0,
+    "model_loads": 0,
+    "training_runs": 0,
+    "external_scientific_data_sha256": {},
+    "retained_external_scientific_copies": {},
+    "external_data_files": []
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "380524affb281da611428fd511699d34e1d44b2ec966f02c748273ebb8c81fcf"
+  },
+  "files": [
+    {
+      "path": "LOCAL_REPRODUCTION.rst",
+      "bytes": 984,
+      "sha256": "33577583779b411962f301442ce097eaf310204cc9c898e09b14020680c6d1fd"
+    },
+    {
+      "path": "README.rst",
+      "bytes": 2279,
+      "sha256": "79c1bd34e97dd41ff5ae791e2958dc35e22f731be20ef09d3e2ddc129ec09531"
+    },
+    {
+      "path": "accepted_inputs/accepted_cache_adapter.py",
+      "bytes": 10510,
+      "sha256": "8673fcd692449421e160a57ab8bbcb6ad926397b0cebca4835a53e18b762eb08"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 26055,
+      "sha256": "380524affb281da611428fd511699d34e1d44b2ec966f02c748273ebb8c81fcf"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 125353,
+      "sha256": "d8cf16f7854ed32f0eea9dbe819f35142d4e7c3937aef8ab32fa71ba0a6eaade"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 16806,
+      "sha256": "2135cd8e8b75213bd039ebad85c754aa1040382990021ea8096a0a31e1a7d7ed"
+    },
+    {
+      "path": "plot.py",
+      "bytes": 7781,
+      "sha256": "96b46b353b408561528fc61d356a338559f3075c76f501c7598b07f53826b302"
+    },
+    {
+      "path": "render_support/config.json",
+      "bytes": 233,
+      "sha256": "8525414ea733aaae9eb68cc3f06be982b12ddff89686560def238985d33fc294"
+    },
+    {
+      "path": "render_support/files/f0001_completion_receipt.json",
+      "bytes": 49320,
+      "sha256": "4f8c63962f2a7adc2e4c1d8b0a072c1f978ceaefc0844a34267d7aa5873a86c6"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/chapter04/figures/figure46_remove_fixed_lr_20261109_204148/assets/figure4-6/__pycache__/presentation_style.cpython-311.pyc",
+      "bytes": 13896,
+      "sha256": "18f6fb8fedc9462dd9b6c6f36f842de1dc436a511e7780c3ebe3f04dc2a20079"
+    },
+    {
+      "path": "render_support/files/f0002_confirmation_bar_points.csv",
+      "bytes": 907,
+      "sha256": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908"
+    },
+    {
+      "path": "render_support/files/f0003_confirmation_steps_per_seed.csv",
+      "bytes": 7386,
+      "sha256": "7e5ac5a115bcbf940c40fd488f6f2f0259ed283432cfede154b3d923456c3c84"
+    },
+    {
+      "path": "render_support/files/f0004_data.csv",
+      "bytes": 278822,
+      "sha256": "94a2eef76b625a4dca465fbd8478b0add83835f2284fba62602f1e19a9da6ce4"
+    },
+    {
+      "path": "render_support/files/f0005_diesel_full_original_DEV.csv",
+      "bytes": 13833,
+      "sha256": "4f526e54ddd67862267b5a80949ea47a7b6278967479e8745a800752142dced3"
+    },
+    {
+      "path": "render_support/files/f0006_figure.pdf",
+      "bytes": 26084,
+      "sha256": "f69e38c06a4917f0ca5ecd9a255f5ae80eed7d2293c944b553f0dedabc3f4aa6"
+    },
+    {
+      "path": "render_support/files/f0007_figure.png",
+      "bytes": 84924,
+      "sha256": "846d8b8b02775d91be556ae75dc43dbf2d9ee4bd9b04b6f831549af271d0a12a"
+    },
+    {
+      "path": "render_support/files/f0008_figure_config.json",
+      "bytes": 2510,
+      "sha256": "cb2de91c37c5ef9904bf04e8064f1a413c7f76bab80b0534d2b6cd6c07064e17"
+    },
+    {
+      "path": "render_support/files/f0009_fixed_new_DEV.csv",
+      "bytes": 29096,
+      "sha256": "32c4173b99bd936496fc73496e5c0709d26b50a87424810aee7d51c378c6d9ad"
+    },
+    {
+      "path": "render_support/files/f0010_full_new_DEV.csv",
+      "bytes": 27917,
+      "sha256": "c0c32de51a8d425cc728d87f20f4646aa4db6242c25f1d76daa9e3a5d5ecb2ee"
+    },
+    {
+      "path": "render_support/files/f0011_parent_confirmation_bar_points.csv",
+      "bytes": 1123,
+      "sha256": "fe4e8babd21b31dc79c4bbac392e155a8d6edcd1f8eeea9e3346cff858b39a02"
+    },
+    {
+      "path": "render_support/files/f0012_parent_confirmation_steps_per_se.csv",
+      "bytes": 8307,
+      "sha256": "5f2ca13bc00a62e9a5bd59c86250ee238f5644a7a18ce5edf8024d2c0c3ce628"
+    },
+    {
+      "path": "render_support/files/f0013_parent_data.csv",
+      "bytes": 307674,
+      "sha256": "1196792e018d514b453a72cdc2c1cb205f8cfed722aa7f008ae96d5af148ac1e"
+    },
+    {
+      "path": "render_support/files/f0014_plot.py",
+      "bytes": 10344,
+      "sha256": "c59da5f543e709d83b1ddc1c8b6fb63678a228158d8a841fc59c46365fbf4daf"
+    },
+    {
+      "path": "render_support/files/f0015_plotted_points.csv",
+      "bytes": 907,
+      "sha256": "9bd736d1777663977b4b4d55423a45c6faf1e20da6864a35bd06c4f427b5d908"
+    },
+    {
+      "path": "render_support/files/f0016_presentation_geometry.json",
+      "bytes": 846,
+      "sha256": "c4f168557ead109c4614991dd146fe68cc4fb70792f355f3d9e82bca6c30806a"
+    },
+    {
+      "path": "render_support/files/f0017_presentation_style.py",
+      "bytes": 5412,
+      "sha256": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba"
+    },
+    {
+      "path": "render_support/files/f0018_render_geometry.json",
+      "bytes": 16282,
+      "sha256": "59692338f20144601a6a0c2a2187820c78abda69bb71419d5bf1c9c138f65c42"
+    },
+    {
+      "path": "render_support/files/f0019_source.json",
+      "bytes": 2725,
+      "sha256": "c0b3f21c46a852b31666b93aa4840be25ef512b235052b502e72a4009a2852cd"
+    },
+    {
+      "path": "render_support/files/f0020_plot.py",
+      "bytes": 215,
+      "sha256": "4a9517621a018b9b01fcacdc43aa1fe627c7fba305508f5098a99740b67ac03b"
+    },
+    {
+      "path": "render_support/files/f0021_baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "path": "render_support/files/f0022_plot_chapter45.py",
+      "bytes": 22348,
+      "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4"
+    }
+  ],
+  "path_storage_20261119": {
+    "mapping_files": [
+      "render_support/paths.json"
+    ],
+    "helper": "scripts/restore_render_support.py",
+    "original_source_and_data_bytes_preserved": true,
+    "historical_render_tree_restored_only_in_temporary_workspace": true,
+    "figure_exports": 0,
+    "scientific_execution": 0
+  }
+}

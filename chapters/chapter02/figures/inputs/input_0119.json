@@ -1,0 +1,70 @@
+{
+  "schema": "chapter2-six-retained-snapshots-presentation-v1",
+  "status": "RENDERED_PENDING_INDEPENDENT_REVIEW",
+  "editable_source": "plot.py",
+  "editable_source_sha256": "77c3832388bb41ea71dc5d2d0a1de93236237054fb358623adf4dffe8efcd54f",
+  "input_csv": "data.csv",
+  "input_csv_sha256": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+  "provenance": "provenance.json",
+  "provenance_sha256": "eb43ff37c60306e2c942400da6b534fa88356873637060e290da9e2c6a740717",
+  "required_runtime_data": [
+    "data.csv",
+    "provenance.json"
+  ],
+  "periods": {
+    "radio": [
+      1,
+      16,
+      32
+    ],
+    "v5": [
+      1,
+      12,
+      24
+    ]
+  },
+  "parent_midpoint_records_unchanged": true,
+  "source_values_unchanged": true,
+  "figure_size_cm": [
+    15.6,
+    20.0
+  ],
+  "scientific_values_unchanged": true,
+  "same_task_three_panels_share_state_and_area_scales": true,
+  "same_map_height_cm": 5.3,
+  "domain_palettes": {
+    "radio": {
+      "fill_points": [
+        "#F2F8FC",
+        "#BDD9EA",
+        "#6E9FBC"
+      ],
+      "circle_color": "#8B0000"
+    },
+    "v5": {
+      "fill_points": [
+        "#FFF8EE",
+        "#F0D2A8",
+        "#C9955A"
+      ],
+      "circle_color": "#003399"
+    }
+  },
+  "column_major_panel_labels": true,
+  "grid_columns": {
+    "radio": 10,
+    "v5": 12
+  },
+  "same_physical_hex_across_tasks": true,
+  "common_hex_unit_cm": 0.3419354838709679,
+  "outputs": {
+    "pdf": "dc7898b2c4ae0568ca8dc6e1d566c03eb38a59c0d4985df30e7c61d216882418",
+    "svg": "635458635422a02921787c95693d8c20afa06ae1634d3a6faa0d8f7996d90b3d",
+    "png": "81f96b2c1555a988dbc701e487502bddf41e7d80ea7655cafa50bb056dd0814d"
+  },
+  "checks_sha256": "7755fd60959c1320b4f04a7d8d39e56ef0f3c9f2351fc581fa5983e97a63cd96",
+  "model_loads": 0,
+  "new_environment_steps": 0,
+  "new_inference_calls": 0,
+  "training_updates": 0
+}

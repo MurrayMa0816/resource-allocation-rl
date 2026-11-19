@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Existing conditions display adoption only; no new scientific execution",
+  "renderer_sha256": "cee6d28c3a2e5bfe24e3d527e9ea76af2aed7415f605c15f614b868daeb6050a",
+  "source_sha256": "9fd4d39cb6259638793d8690a1d95b0ceec5f50e6bb72ebda538fc207cd61ca6",
+  "render_receipt_sha256": "edf5be34e3d2aa6186b46cc505c91d8226e8fe4f2a28efc11f6c76bf5a8ff1e6",
+  "author_numeric_review_sha256": "ecf42c75157d9f659bd21899fd7e0e39840a3bb2f9377d124e3baea28ec6aeed",
+  "author_visual_review_sha256": "0886301afd8b90e9402e177df8cb031d1c21512a0225bd59d923010743dc89a0",
+  "outputs_sha256": {
+    "figure.pdf": "c87682f2ace9f83e8ece918c74497871a82d17dd932f582004fce7fc9cc9d8a1",
+    "figure.png": "cf17d30032e56f1c6977023118d6f0b155986eaa998be30697db26c56cc3e026",
+    "figure.svg": "0d43bfc08a3f43f413866cb5714dd89485716755674381054ae40445ea88f707",
+    "data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+    "display_aggregates.csv": "25bbac2f0af47bf8144c2e4383e204aad395ee11334a8ca1cd80c4e7d74fd8cd",
+    "display_aggregates.csv.gz": "29d14f20137484ccd82d2bc749b68890f1641ca177f643ffe7a43fd74c0c419e",
+    "display_seed_data.csv": "531f1aecc3c58b82c491571dacf1cfef32c2e3da8c91a965060b6cb480fc5e52",
+    "full_minus_pace.csv": "f33bbcb1dfd5600fa2bcf4f9a7a63dc537cf4f859cc9bf73ced5d44860acc629",
+    "full_minus_pace.json": "b6b80487139c9a7ef7490fce576e88ea4447f49866e9b1ce95fd1ee435c07763",
+    "README.rst": "73757ccf468ad8f8d0346a674a5b516bc4c2842780b8cac7d3d271ef665cf196"
+  },
+  "external_review": "Root to review and bind separately",
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "thesis_builds": 0
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "chapter4-madtd-formal-postprocess-readiness-v1",
+  "status": "APPROVED_PIPELINE_WAITING_FOR_COMPLETE190",
+  "plan_sha256": "d19713b728f699cf9c04321065db39cfc9d0752d645ea51cd57d6041bc8a3962",
+  "training": 90,
+  "evaluation": 100,
+  "new_training": 10,
+  "retained_training": 80,
+  "new_TEST": 70,
+  "retained_TEST": 30,
+  "postprocess_capsule_sha256": "8e80c62cc08e4b69c0db9864f4913d75c41c15fbcd7353f4ed1faaa6d9699c61",
+  "independent_review_sha256": "f258e6e2d404744a7b1c221650eb863955d37596b67003c16105228818bf4c2a",
+  "scientific_completion_not_yet_claimed": true,
+  "publication_authorized_after_full_independent_PASS": true
+}

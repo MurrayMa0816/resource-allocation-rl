@@ -1,0 +1,48 @@
+{
+  "schema": "chapter2-retained-fixed-trace-three-timepoints-v1",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_hex_experiment_adoption_20261108_194130/assets/c2",
+  "parent_data_sha256": "dc6ac11f3e48a4963ceb8d0f960c58071536a3219e516cc705f1836067c16eda",
+  "case_source": {
+    "radio": {
+      "path": "/hy-tmp/resource_allocation_results/chapter2/random_head_formal_20261106/evaluation/jobs/c2_randomhead__radio__A_FULL__default__seed0__ep4688__endpoint/evaluation_4688_sample_traces.npz",
+      "sha256": "3f28b28ab74db00b1f4a3378c2171a47bf75483adfd717ec8886d8808ac2a32e",
+      "endpoint_id": "c2_randomhead__radio__A_FULL__default__seed0__ep4688__endpoint",
+      "training_seed": 0,
+      "test_path_index": 0,
+      "period_one_based": 16,
+      "model_sha256": "61aeffe6a820d2a93ca78bee325d353c102dfae5d3e127b039b5a70cfc866219"
+    },
+    "v5": {
+      "path": "/hy-tmp/resource_allocation_results/chapter2/random_head_formal_20261106/evaluation/jobs/c2_randomhead__v5__A_FULL__default__seed0__ep6256__endpoint/evaluation_6256_sample_traces.npz",
+      "sha256": "d2a20c7d820d276759c82ff47e4b98d9c8bf7720079f652c2120a73e876473d0",
+      "endpoint_id": "c2_randomhead__v5__A_FULL__default__seed0__ep6256__endpoint",
+      "training_seed": 0,
+      "test_path_index": 0,
+      "period_one_based": 12,
+      "model_sha256": "1cee36ed04e37abbb4433a856c27b45ab08445021a2dcdae00598e979b4f5932"
+    }
+  },
+  "periods": {
+    "radio": [
+      1,
+      16,
+      32
+    ],
+    "v5": [
+      1,
+      12,
+      24
+    ]
+  },
+  "selected_path_index": 0,
+  "training_seed": 0,
+  "records": 660,
+  "midpoint_records": 220,
+  "midpoint_parent_rows_exactly_preserved": true,
+  "data_sha256": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+  "model_loads": 0,
+  "environment_steps": 0,
+  "new_policy_inference": 0,
+  "training_updates": 0,
+  "state_timing": "decision-before-action state paired with that period actual action, as retained in the original trace"
+}

@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "number": "5.5",
+  "old_physical_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照",
+  "old_graphics_sha256": {
+    "figure.pdf": "f14f770f6f3f431c1c30d8c2e9d20db7a39561d47a2dc9baf25b59b5b344c214",
+    "figure.png": "a565bbafd0d494ea680d1b25bb5863cad5efc0cf8303679c62601480aaa909e2",
+    "figure.svg": "a25f57cb72587947ea9211abee839aef1e535886c0ba7583f1bf9a66f4842149"
+  },
+  "before_axes_mm": [
+    [
+      51.99999971666667,
+      47.89678
+    ],
+    [
+      52.00000006944444,
+      47.89678
+    ]
+  ],
+  "after_axes_mm": [
+    [
+      59.20000013333333,
+      50.99999995277777
+    ],
+    [
+      59.20000013333335,
+      50.99999995277777
+    ]
+  ],
+  "all_axes_target_mm": [
+    59.2,
+    51.0
+  ],
+  "no_axis_dimension_reduced": true,
+  "scientific_artists_match_parent_exact": true,
+  "scientific_artists_sha256": "2e80731d5059ccb2f7f19a16ef79c562f231bf725c7d784051f3b481bed0151b",
+  "labels_ticks_data_fonts_lines_markers_uncertainty_preserved": true,
+  "parent_PDF_PNG_byte_exact_reproduction": {
+    "status": "PASS",
+    "outputs": {
+      "figure.pdf": {
+        "sha256": "f14f770f6f3f431c1c30d8c2e9d20db7a39561d47a2dc9baf25b59b5b344c214",
+        "accepted_sha256": "f14f770f6f3f431c1c30d8c2e9d20db7a39561d47a2dc9baf25b59b5b344c214",
+        "bytes_equal": true
+      },
+      "figure.png": {
+        "sha256": "a565bbafd0d494ea680d1b25bb5863cad5efc0cf8303679c62601480aaa909e2",
+        "accepted_sha256": "a565bbafd0d494ea680d1b25bb5863cad5efc0cf8303679c62601480aaa909e2",
+        "bytes_equal": true
+      }
+    },
+    "historical_paths_rebased_locally": true,
+    "external_source_reads_forbidden": true,
+    "science_runs": 0
+  },
+  "PDF_visible_xlabel_to_first_legend_bp": 15.0,
+  "PDF_last_legend_to_canvas_bottom_mm": 1.9999963548448347,
+  "native_mm": [
+    155.99999559190536,
+    85.03966284857854
+  ],
+  "new_scientific_execution": 0,
+  "role_of_5_6": null,
+  "offline_render_calls_to_this_point": {
+    "old_parent_reproduction": 1,
+    "derived_generation": 1,
+    "final_strict_reproduction": 1
+  },
+  "final_PDF_PNG_reproduction_byte_exact": true,
+  "final_SVG_reproduction_byte_exact": false,
+  "final_SVG_structure_geometry_text_exact_after_ID_normalization": true,
+  "actual_native_PNG_visual_review": "PASS; five figures individually viewed through view_image, titles/labels/legends/markers and uncertainty complete without clipping"
+}

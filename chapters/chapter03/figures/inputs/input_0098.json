@@ -1,0 +1,50 @@
+{
+  "directory": "chapters/chapter03_intertemporal/figures/figure03-06_资源与时序条件下的配置成效",
+  "physical_directory": true,
+  "symlink_count": 0,
+  "figure_pdf_sha256": "3922399979c0173a6618f71e482e089446e7c952f71dd7cb35533585f78f1b86",
+  "all_original_pdfs_data_drawio_bytes_preserved": false,
+  "preserved_files": {
+    "figure.pdf": false,
+    "display_aggregates.csv.gz": true,
+    "display_aggregates.csv": true,
+    "display_seed_data.csv": true,
+    "full_minus_pace.csv": true,
+    "data.csv.gz": true
+  },
+  "current_entrypoint": "plot.py",
+  "local_renderer": "replot_sources/renderer.py",
+  "data_manifest": "local_inputs_sha256.json",
+  "shared_font_directory": "assets/fonts/windows (located by walking up from this figure)",
+  "runtime_project_dependencies": "only this figure directory and thesis assets/fonts/windows",
+  "script_files": {
+    "plot.py": "ccd5b03edb864fbb4ebd6f5ba18983d14c4ffe60d6afcab4cebe50bfcc8366c8",
+    "replot_sources/conditions.py": "06773eb7e7d3edcc8cc0c48eb67808707066c8f3976b79643a0fdb93999f8078",
+    "replot_sources/parent/plot.py": "c4966a416a93c9672ddf79300a5e8951c9a502f90eab419d8025595fa0075cda",
+    "replot_sources/renderer.py": "5f51e63a1d43d6e150264263e22ebd701a16bf23c11b19e3898d76aff54b793d",
+    "replot_sources/selection/audit/plot_initial_legend_bbox_rejected.py": "4680fd232f68fb9c1928798666136de15baadce004ccbe8f6ec7aa1eeb9c5850",
+    "replot_sources/selection/audit/verify_saved_values.py": "7c1de5656614706957bc7a0aa0c7f0f6a450f7b82ee1ba4284c2fcbd76366a88",
+    "replot_sources/selection/inputs/plot_source.py": "7d4b8837f3e7193a7eceb2506a484ba289a4408403cca477343ff578f1b2a7b3",
+    "replot_sources/selection/inputs/presentation.py": "f4b2da410d6a98464f3c9d2741c90eec5c4ca9969b1876fdf825ad61a46ebc55",
+    "replot_sources/selection/plot.py": "7aacdd93141c1b8bd1b1abcf670b4d606ced1ed631ecd738882a5b3488e93676"
+  },
+  "science_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inferences": 0,
+    "training_runs": 0
+  },
+  "cleanup_reaudit": "docs/figure_cleanup_reaudit_20261110/c1c2c3_deletion_receipt.json",
+  "obsolete_previews_wrappers_and_duplicate_sources_removed": true,
+  "presentation_revision_20261112": {
+    "active_figure_replaced_as_authorized": true,
+    "original_data_and_parent_sources_byte_exact": true,
+    "baseline_directory": "/hy-tmp/resource_allocation_results/chapter3_language_revision_20261112/figure_baseline/figure03-06_资源与时序条件下的配置成效",
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_language_revision_20261112/statistics_figures_initial.json",
+    "diesel_quota_label_clarified": true
+  },
+  "precise_wording_revision_20261112": {
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_precise_wording_five_rounds_20261112/figure/figure36_initial.json",
+    "data_and_parent_sources_preserved": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "number": "3.5",
+  "outputs_sha256": {
+    "figure.pdf": "8a3954d97eaa730aedd1e1acfa251c399a8136787c8ed2f3dc539519e91b9bc0",
+    "figure.png": "e15c5e0c5f9edc9e0a04fea8c5674c608723bf36d3bd32ca3da13f3002e9a2f5",
+    "figure.svg": "c5d791b2eeee72dd3d0f22e7919c42837499b90f7d40c74447d550d91e0136a2",
+    "render_geometry.json": "c2fd80d2498fd3c4d250152b4b8ae2676ce842a551ad3da979bc7a134bf6e22e",
+    "numeric_artist_values_before_after.json": "5c916988ab3675839aee8acd29cd4f3a9715dc1fa65e7e1d3e2f35936833efd5",
+    "source.json": "b89119b418a804461fb0e1d26e8e1ae419960beb1ab1b3564517bc35cf1a9506",
+    "plot.py": "f1451381a61640e3da35b8b88093f9ddbe15ee2d6362b2d504eba535059d2d28",
+    "artists.json": "77cba03d1d70489ff46c795fe8da03f8c0ba368aebe8ddb688b2bd673fcb169b"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "training_runs": 0,
+  "thesis_builds": 0,
+  "scope": "offline horizontal-axis wording only; original canvas axes fonts baselines legends data and scientific artists preserved",
+  "active_renderer_sha256": "78c20b3ceb0b7da7ff876d0ae17f2b59a072c335d39be3a3cd9d2fba1bee673a",
+  "xlabel_to_legend_ink_bp": 14.900000000000006,
+  "required_qualifier_revision_20261112": {
+    "scope": "Only the two horizontal-axis labels qualify training interaction steps",
+    "before": "训练步数（×10³）",
+    "after": "训练交互步数（×10³）",
+    "baseline_pdf_sha256": "b5c3d7f4506f7231b6f82acf1ff231c70237396c4af91a931482037f9f60193c",
+    "renderer_sha256": "78c20b3ceb0b7da7ff876d0ae17f2b59a072c335d39be3a3cd9d2fba1bee673a",
+    "canvas_axes_text_baselines_legend_positions_preserved": true,
+    "all_data_and_scientific_artists_exact": true,
+    "original_xlabel_to_legend_ink_bp": 15.0,
+    "current_xlabel_to_legend_ink_bp": 14.900000000000006,
+    "ink_DPI": 720,
+    "layout_order": "Calibrate inherited original label first; replace xlabel text after geometry is fixed; no compensation or re-cropping",
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_required_qualifiers_five_rounds_20261112/figure_revision.json"
+  }
+}

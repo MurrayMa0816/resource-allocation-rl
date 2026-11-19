@@ -1,0 +1,1767 @@
+{
+  "schema": "chapter3-random-object-ablation-final-v1",
+  "status": "PASS",
+  "root": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455",
+  "summary": {
+    "schema": "chapter3-random-object-ablation-analysis-v1",
+    "status": "PASS",
+    "scope": "Fixed100608 retrained random-object ablation DEV curves; three original controls reused",
+    "methods": [
+      "A_FULL",
+      "A_PACE",
+      "A_RANDOM_OBJECT_ALLOCATION",
+      "A_DIRECT_TOTAL"
+    ],
+    "domains": [
+      "radio",
+      "v5"
+    ],
+    "training_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 198,
+    "DEV_paths_per_node": 8,
+    "training_steps_per_model": 100608,
+    "new_training_models": 10,
+    "reused_training_models": 30,
+    "new_DEV_path_records": 15840,
+    "reused_DEV_path_records": 47520,
+    "total_curve_rows": 7920,
+    "statistical_unit": "Five independent original training seeds; eight fixed DEV cases at each node",
+    "random_object_execution": "Eta evaluated at its learned mean; independent normalized U(0,1) object weights still sampled from fixed case/period streams",
+    "no_new_TEST": true,
+    "new_independent_TEST_paths": 0,
+    "endpoint_confirmation_performed": false,
+    "smoothing": false,
+    "interpolation": false,
+    "initial_scores_preserved": true,
+    "native_DEV_task_seed_lists": {
+      "radio": [
+        1139193626,
+        1845673368,
+        4220902846,
+        2528972676,
+        2402611304,
+        1470716701,
+        948937346,
+        3904574747
+      ],
+      "v5": [
+        2640040333343898805,
+        3308091586573123552,
+        3435796573281747479,
+        3133248899802108598,
+        3116326048390173932,
+        2736918978776775738,
+        3114506687006995538,
+        3089282207016584719
+      ]
+    },
+    "settings": {
+      "radio": {
+        "A_FULL": {
+          "initial": {
+            "by_training_seed": [
+              19.958963747468385,
+              24.318603941327577,
+              23.15090032390777,
+              31.03535358796119,
+              29.34171394764793
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 25.56110710966257,
+            "training_seed_sample_SD": 4.555142250593933,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 19.958963747468385,
+            "maximum": 31.03535358796119
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              44.55603923003776,
+              45.98765015410312,
+              44.798892956285826,
+              45.65468466641258,
+              44.54243834550841
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 45.107941070469536,
+            "training_seed_sample_SD": 0.6694617878981444,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 44.54243834550841,
+            "maximum": 45.98765015410312
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              38.89621162910555,
+              41.7993138061978,
+              39.18731620736737,
+              42.356833493964714,
+              40.353539145362134
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 40.51864285639951,
+            "training_seed_sample_SD": 1.5371268547853882,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 38.89621162910555,
+            "maximum": 42.356833493964714
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              44.361228850303185,
+              45.90566208389679,
+              44.92506783020142,
+              46.62275118594877,
+              42.26085820658733
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 44.8151136313875,
+            "training_seed_sample_SD": 1.6732581653310807,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 42.26085820658733,
+            "maximum": 46.62275118594877
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              24.597075482569377,
+              21.669046212775545,
+              21.647992632378056,
+              14.619331078451388,
+              15.20072439786048
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 19.54683396080697,
+            "training_seed_sample_SD": 4.404331533343467,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 14.619331078451388,
+            "maximum": 24.597075482569377
+          }
+        },
+        "A_PACE": {
+          "initial": {
+            "by_training_seed": [
+              21.209087051588877,
+              24.41175325068263,
+              22.752454783875102,
+              30.92651865413285,
+              29.6732742883826
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 25.794617605732412,
+            "training_seed_sample_SD": 4.288780273999312,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 21.209087051588877,
+            "maximum": 30.92651865413285
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              35.61384699367232,
+              35.78895304863334,
+              35.50935669732109,
+              35.923497667289574,
+              35.04989035027861
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 35.57710895143899,
+            "training_seed_sample_SD": 0.33494871588028535,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 35.04989035027861,
+            "maximum": 35.923497667289574
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              31.628147762314022,
+              33.49824047458954,
+              32.08225827576287,
+              33.47797390918471,
+              33.89246218130109
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 32.91581652063044,
+            "training_seed_sample_SD": 0.9952368457921428,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 31.628147762314022,
+            "maximum": 33.89246218130109
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              35.31470702712756,
+              35.1804918964575,
+              35.13189350661718,
+              34.686033604647974,
+              34.26006648070313
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 34.91463850311067,
+            "training_seed_sample_SD": 0.4355046840538934,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 34.26006648070313,
+            "maximum": 35.31470702712756
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              14.404759942083441,
+              11.37719979795071,
+              12.756901913445986,
+              4.996979013156725,
+              5.376616061896009
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 9.782491345706575,
+            "training_seed_sample_SD": 4.3321024212173835,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 4.996979013156725,
+            "maximum": 14.404759942083441
+          }
+        },
+        "A_RANDOM_OBJECT_ALLOCATION": {
+          "initial": {
+            "by_training_seed": [
+              24.67793816068784,
+              25.060830839118488,
+              25.344109108314804,
+              25.305293762363934,
+              25.360521701639183
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 25.14973871442485,
+            "training_seed_sample_SD": 0.2902184795362384,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 24.67793816068784,
+            "maximum": 25.360521701639183
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              41.260835761845485,
+              41.24506823146897,
+              39.3310765863889,
+              40.48330450846675,
+              40.4827801110934
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 40.560613039852704,
+            "training_seed_sample_SD": 0.7878110868009671,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 39.3310765863889,
+            "maximum": 41.260835761845485
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              39.272475374710055,
+              38.86366487829147,
+              38.27713394848231,
+              37.432196842851106,
+              39.22243019503609
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 38.613580247874204,
+            "training_seed_sample_SD": 0.7707538891787177,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 37.432196842851106,
+            "maximum": 39.272475374710055
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              41.035217791227666,
+              40.72469224933797,
+              39.8144035313361,
+              39.87509173984542,
+              40.51388394319967
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 40.39265785098937,
+            "training_seed_sample_SD": 0.5338723212343653,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 39.8144035313361,
+            "maximum": 41.035217791227666
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              16.582897601157644,
+              16.184237392350482,
+              13.9869674780741,
+              15.178010746102817,
+              15.122258409454215
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 15.410874325427852,
+            "training_seed_sample_SD": 1.0169518542687555,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 13.9869674780741,
+            "maximum": 16.582897601157644
+          }
+        },
+        "A_DIRECT_TOTAL": {
+          "initial": {
+            "by_training_seed": [
+              14.738415080460356,
+              22.621633810300914,
+              20.227220640383976,
+              29.192438909138694,
+              27.217526384334175
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 22.799446964923625,
+            "training_seed_sample_SD": 5.744953711300964,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 14.738415080460356,
+            "maximum": 29.192438909138694
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              44.203367262022965,
+              46.13420919997804,
+              44.009446960177115,
+              45.297263594823164,
+              44.33427822709651
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 44.795713048819565,
+            "training_seed_sample_SD": 0.8979330271303534,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 44.009446960177115,
+            "maximum": 46.13420919997804
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              38.58305045629198,
+              40.7756759444617,
+              39.52590054402142,
+              41.77370857477369,
+              39.960470372633374
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 40.12376117843644,
+            "training_seed_sample_SD": 1.215031895426588,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 38.58305045629198,
+            "maximum": 41.77370857477369
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              43.910388259232974,
+              45.401538015013905,
+              44.62331853393951,
+              46.1023026872703,
+              41.875611718510896
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 44.382631842793515,
+            "training_seed_sample_SD": 1.6249255052308753,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 41.875611718510896,
+            "maximum": 46.1023026872703
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              29.46495218156261,
+              23.512575389677124,
+              23.78222631979314,
+              16.10482468568447,
+              17.116751842762337
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 21.99626608389594,
+            "training_seed_sample_SD": 5.472404884474227,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 16.10482468568447,
+            "maximum": 29.46495218156261
+          }
+        }
+      },
+      "v5": {
+        "A_FULL": {
+          "initial": {
+            "by_training_seed": [
+              65.48578331526282,
+              56.483153209306124,
+              57.91014303079491,
+              51.52375087827965,
+              57.82743807273486
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 57.84605370127567,
+            "training_seed_sample_SD": 5.004970861435927,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 51.52375087827965,
+            "maximum": 65.48578331526282
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              78.88384071212778,
+              80.47831815438666,
+              80.45856559194866,
+              78.40651955633555,
+              81.10016775438831
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 79.8654823538374,
+            "training_seed_sample_SD": 1.1558499298492122,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 78.40651955633555,
+            "maximum": 81.10016775438831
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              78.39434570214726,
+              77.65720620826839,
+              79.03051525861207,
+              77.92049604175054,
+              78.85068315440294
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 78.37064927303624,
+            "training_seed_sample_SD": 0.5869531721600234,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 77.65720620826839,
+            "maximum": 79.03051525861207
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              79.55430909803,
+              80.1645562018864,
+              80.40960605057252,
+              79.66677967394338,
+              80.32402277918632
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 80.02385476072372,
+            "training_seed_sample_SD": 0.38944753800309895,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 79.55430909803,
+            "maximum": 80.40960605057252
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              13.398057396864957,
+              23.995164945080532,
+              22.548422561153743,
+              26.882768678055903,
+              23.272729681653452
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 22.01942865256172,
+            "training_seed_sample_SD": 5.09250062480492,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 13.398057396864957,
+            "maximum": 26.882768678055903
+          }
+        },
+        "A_PACE": {
+          "initial": {
+            "by_training_seed": [
+              57.0907512604298,
+              58.47621667919929,
+              55.957142099297094,
+              55.72867660451257,
+              55.36181545707842
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 56.52292042010343,
+            "training_seed_sample_SD": 1.2685514594492904,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 55.36181545707842,
+            "maximum": 58.47621667919929
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              70.39045471116691,
+              70.6688318684247,
+              71.06285598046594,
+              71.03029639523785,
+              67.79966659836926
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 70.19042111073294,
+            "training_seed_sample_SD": 1.3648379508400756,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 67.79966659836926,
+            "maximum": 71.06285598046594
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              67.46382359994479,
+              68.54980833417638,
+              67.33504956139805,
+              67.70614237430482,
+              67.22798815268501
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 67.65656240450183,
+            "training_seed_sample_SD": 0.5302219131337615,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 67.22798815268501,
+            "maximum": 68.54980833417638
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              70.0629400522419,
+              70.68579789556541,
+              70.43746812332972,
+              70.4607825404208,
+              69.01031551088703
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 70.13146082448898,
+            "training_seed_sample_SD": 0.6654030279346953,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 69.01031551088703,
+            "maximum": 70.68579789556541
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              13.299703450737113,
+              12.192615189225414,
+              15.105713881168846,
+              15.301619790725283,
+              12.437851141290835
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 13.667500690629499,
+            "training_seed_sample_SD": 1.462993718446224,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 12.192615189225414,
+            "maximum": 15.301619790725283
+          }
+        },
+        "A_RANDOM_OBJECT_ALLOCATION": {
+          "initial": {
+            "by_training_seed": [
+              64.98990865430088,
+              54.44558237378955,
+              58.30479305215013,
+              52.082880398172016,
+              58.96387417456674
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 57.75740773059586,
+            "training_seed_sample_SD": 4.930332372733233,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 52.082880398172016,
+            "maximum": 64.98990865430088
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              72.86555465686094,
+              73.08910537165451,
+              72.87753473667999,
+              72.61316387436045,
+              71.78579203089555
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 72.64623013409029,
+            "training_seed_sample_SD": 0.5097035041269582,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 71.78579203089555,
+            "maximum": 73.08910537165451
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              72.35244954897348,
+              72.48572142929669,
+              72.39632768209835,
+              72.33708524014725,
+              72.60918037104787
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 72.43615285431272,
+            "training_seed_sample_SD": 0.11269676683087618,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 72.33708524014725,
+            "maximum": 72.60918037104787
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              72.48162418130522,
+              72.80628469679878,
+              72.6371044468929,
+              72.59085139665277,
+              72.75519173192546
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 72.65421129071504,
+            "training_seed_sample_SD": 0.12982372756986418,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 72.48162418130522,
+            "maximum": 72.80628469679878
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              7.87564600256006,
+              18.643522997864963,
+              14.57274168452986,
+              20.530283476188437,
+              12.82191785632881
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 14.888822403494425,
+            "training_seed_sample_SD": 4.986995694972728,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 7.87564600256006,
+            "maximum": 20.530283476188437
+          }
+        },
+        "A_DIRECT_TOTAL": {
+          "initial": {
+            "by_training_seed": [
+              55.42445425135853,
+              61.60662502631429,
+              64.01072947000151,
+              60.98150560533047,
+              62.862134858968034
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 60.97708984239457,
+            "training_seed_sample_SD": 3.316039058812896,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 55.42445425135853,
+            "maximum": 64.01072947000151
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              78.65423616224156,
+              78.86960314796947,
+              79.51256320897839,
+              75.53462948847123,
+              79.24318103868659
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 78.36284260926945,
+            "training_seed_sample_SD": 1.6153450955334745,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 75.53462948847123,
+            "maximum": 79.51256320897839
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              76.18501918388586,
+              76.42422327041392,
+              77.01022883110289,
+              76.56938014232138,
+              77.4893038122968
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 76.73563104800417,
+            "training_seed_sample_SD": 0.5174973841989722,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 76.18501918388586,
+            "maximum": 77.4893038122968
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              78.46766822605015,
+              78.93775046005278,
+              79.28131253516464,
+              77.38597987096627,
+              79.4149106242316
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 78.69752434329308,
+            "training_seed_sample_SD": 0.8194728570468222,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 77.38597987096627,
+            "maximum": 79.4149106242316
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              23.229781910883027,
+              17.26297812165518,
+              15.501833738976885,
+              14.553123883140756,
+              16.381046179718552
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 17.38575276687488,
+            "training_seed_sample_SD": 3.4187030754527985,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 14.553123883140756,
+            "maximum": 23.229781910883027
+          }
+        }
+      }
+    },
+    "full_minus_removed": {
+      "radio": {
+        "A_PACE": {
+          "initial": {
+            "by_training_seed": [
+              -1.2501233041204927,
+              -0.09314930935505217,
+              0.3984455400326681,
+              0.10883493382834075,
+              -0.3315603407346721
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": -0.23351049606984162,
+            "training_seed_sample_SD": 0.6283680174081864,
+            "positive_seed_count": 2,
+            "negative_seed_count": 3,
+            "zero_seed_count": 0,
+            "minimum": -1.2501233041204927,
+            "maximum": 0.3984455400326681
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              8.942192236365443,
+              10.198697105469783,
+              9.289536258964738,
+              9.731186999123004,
+              9.492547995229799
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 9.530832119030553,
+            "training_seed_sample_SD": 0.4723272159669663,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 8.942192236365443,
+            "maximum": 10.198697105469783
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              7.2680638667915325,
+              8.301073331608274,
+              7.105057931604499,
+              8.878859584780002,
+              6.46107696406104
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 7.602826335769071,
+            "training_seed_sample_SD": 0.9720134570051012,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 6.46107696406104,
+            "maximum": 8.878859584780002
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              9.046521823175643,
+              10.725170187439288,
+              9.79317432358423,
+              11.936717581300783,
+              8.0007917258842
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 9.900475128276828,
+            "training_seed_sample_SD": 1.5145916947655342,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 8.0007917258842,
+            "maximum": 11.936717581300783
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              10.192315540485936,
+              10.291846414824835,
+              8.89109071893207,
+              9.622352065294663,
+              9.824108335964471
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 9.764342615100395,
+            "training_seed_sample_SD": 0.5585076578196786,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 8.89109071893207,
+            "maximum": 10.291846414824835
+          }
+        },
+        "A_RANDOM_OBJECT_ALLOCATION": {
+          "initial": {
+            "by_training_seed": [
+              -4.718974413219456,
+              -0.7422268977909106,
+              -2.193208784407034,
+              5.730059825597255,
+              3.981192246008746
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 0.4113683952377201,
+            "training_seed_sample_SD": 4.343591330167524,
+            "positive_seed_count": 2,
+            "negative_seed_count": 3,
+            "zero_seed_count": 0,
+            "minimum": -4.718974413219456,
+            "maximum": 5.730059825597255
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              3.295203468192277,
+              4.742581922634152,
+              5.467816369896923,
+              5.171380157945826,
+              4.059658234415011
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 4.547328030616837,
+            "training_seed_sample_SD": 0.8775678994637371,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 3.295203468192277,
+            "maximum": 5.467816369896923
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              -0.37626374560450077,
+              2.935648927906332,
+              0.9101822588850589,
+              4.924636651113604,
+              1.1311089503260372
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 1.9050626085253064,
+            "training_seed_sample_SD": 2.0599257674462383,
+            "positive_seed_count": 4,
+            "negative_seed_count": 1,
+            "zero_seed_count": 0,
+            "minimum": -0.37626374560450077,
+            "maximum": 4.924636651113604
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              3.3260110590755243,
+              5.180969834558832,
+              5.110664298865321,
+              6.747659446103369,
+              1.7469742633876744
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 4.422455780398144,
+            "training_seed_sample_SD": 1.9245739136910258,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 1.7469742633876744,
+            "maximum": 6.747659446103369
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              8.014177881411733,
+              5.484808820425062,
+              7.661025154303957,
+              -0.558679667651429,
+              0.07846598840626484
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 4.135959635379118,
+            "training_seed_sample_SD": 4.116702280993746,
+            "positive_seed_count": 4,
+            "negative_seed_count": 1,
+            "zero_seed_count": 0,
+            "minimum": -0.558679667651429,
+            "maximum": 8.014177881411733
+          }
+        },
+        "A_DIRECT_TOTAL": {
+          "initial": {
+            "by_training_seed": [
+              5.220548667008028,
+              1.6969701310266636,
+              2.923679683523794,
+              1.8429146788224955,
+              2.124187563313754
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 2.761660144738947,
+            "training_seed_sample_SD": 1.4539955677721543,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 1.6969701310266636,
+            "maximum": 5.220548667008028
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              0.3526719680147963,
+              -0.1465590458749162,
+              0.7894459961087108,
+              0.35742107158941394,
+              0.20816011841189663
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 0.3122280216499803,
+            "training_seed_sample_SD": 0.3364263743820284,
+            "positive_seed_count": 4,
+            "negative_seed_count": 1,
+            "zero_seed_count": 0,
+            "minimum": -0.1465590458749162,
+            "maximum": 0.7894459961087108
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              0.31316117281357825,
+              1.0236378617361008,
+              -0.33858433665404514,
+              0.5831249191910114,
+              0.39306877272875346
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 0.3948816779630798,
+            "training_seed_sample_SD": 0.49381772413675507,
+            "positive_seed_count": 4,
+            "negative_seed_count": 1,
+            "zero_seed_count": 0,
+            "minimum": -0.33858433665404514,
+            "maximum": 1.0236378617361008
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              0.450840591070223,
+              0.5041240688828706,
+              0.3017492962619276,
+              0.5204484986784877,
+              0.3852464880764251
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 0.43248178859398684,
+            "training_seed_sample_SD": 0.09018032241401028,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 0.3017492962619276,
+            "maximum": 0.5204484986784877
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              -4.867876698993232,
+              -1.8435291769015798,
+              -2.134233687415083,
+              -1.4854936072330815,
+              -1.9160274449018573
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": -2.449432123088967,
+            "training_seed_sample_SD": 1.3719548656782519,
+            "positive_seed_count": 0,
+            "negative_seed_count": 5,
+            "zero_seed_count": 0,
+            "minimum": -4.867876698993232,
+            "maximum": -1.4854936072330815
+          }
+        }
+      },
+      "v5": {
+        "A_PACE": {
+          "initial": {
+            "by_training_seed": [
+              8.395032054833024,
+              -1.9930634698931655,
+              1.9530009314978187,
+              -4.204925726232922,
+              2.465622615656436
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 1.3231332811722383,
+            "training_seed_sample_SD": 4.828829171817217,
+            "positive_seed_count": 3,
+            "negative_seed_count": 2,
+            "zero_seed_count": 0,
+            "minimum": -4.204925726232922,
+            "maximum": 8.395032054833024
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              8.493386000960868,
+              9.809486285961952,
+              9.395709611482715,
+              7.376223161097698,
+              13.300501156019052
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 9.675061243104457,
+            "training_seed_sample_SD": 2.2316437268060274,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 7.376223161097698,
+            "maximum": 13.300501156019052
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              10.930522102202474,
+              9.10739787409205,
+              11.695465697214004,
+              10.214353667445714,
+              11.622695001717945
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 10.714086868534437,
+            "training_seed_sample_SD": 1.0801273249683705,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 9.10739787409205,
+            "maximum": 11.695465697214004
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              9.491369045788142,
+              9.47875830632099,
+              9.972137927242793,
+              9.205997133522597,
+              11.313707268299291
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 9.892393936234761,
+            "training_seed_sample_SD": 0.841062818681166,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 9.205997133522597,
+            "maximum": 11.313707268299291
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              0.09835394612784398,
+              11.802549755855118,
+              7.4427086799848965,
+              11.58114888733062,
+              10.834878540362617
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 8.351927961932219,
+            "training_seed_sample_SD": 4.935784280681248,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 0.09835394612784398,
+            "maximum": 11.802549755855118
+          }
+        },
+        "A_RANDOM_OBJECT_ALLOCATION": {
+          "initial": {
+            "by_training_seed": [
+              0.4958746609619453,
+              2.0375708355165756,
+              -0.3946500213552184,
+              -0.559129519892366,
+              -1.1364361018318831
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 0.08864597067981066,
+            "training_seed_sample_SD": 1.2367454792175916,
+            "positive_seed_count": 2,
+            "negative_seed_count": 3,
+            "zero_seed_count": 0,
+            "minimum": -1.1364361018318831,
+            "maximum": 2.0375708355165756
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              6.018286055266842,
+              7.3892127827321445,
+              7.581030855268665,
+              5.7933556819751,
+              9.314375723492759
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 7.219252219747102,
+            "training_seed_sample_SD": 1.4164050916575848,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 5.7933556819751,
+            "maximum": 9.314375723492759
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              6.041896153173781,
+              5.171484778971712,
+              6.63418757651371,
+              5.583410801603314,
+              6.2415027833550845
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 5.934496418723521,
+            "training_seed_sample_SD": 0.5702637986317101,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 5.171484778971712,
+            "maximum": 6.63418757651371
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              7.07268491672478,
+              7.358271505087617,
+              7.772501603679645,
+              7.075928277290637,
+              7.568831047260845
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 7.369643470008704,
+            "training_seed_sample_SD": 0.3068194441297969,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 7.07268491672478,
+            "maximum": 7.772501603679645
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              5.522411394304896,
+              5.351641947215569,
+              7.975680876623883,
+              6.3524852018674665,
+              10.450811825324642
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 7.1306062490672915,
+            "training_seed_sample_SD": 2.126875245341902,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 5.351641947215569,
+            "maximum": 10.450811825324642
+          }
+        },
+        "A_DIRECT_TOTAL": {
+          "initial": {
+            "by_training_seed": [
+              10.061329063904289,
+              -5.123471817008166,
+              -6.1005864392065945,
+              -9.457754727050819,
+              -5.034696786233177
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": -3.1310361411188934,
+            "training_seed_sample_SD": 7.590747995347179,
+            "positive_seed_count": 1,
+            "negative_seed_count": 4,
+            "zero_seed_count": 0,
+            "minimum": -9.457754727050819,
+            "maximum": 10.061329063904289
+          },
+          "DEV_fixed_endpoint": {
+            "by_training_seed": [
+              0.22960454988621848,
+              1.6087150064171851,
+              0.9460023829702635,
+              2.871890067864328,
+              1.8569867157017228
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 1.5026397445679436,
+            "training_seed_sample_SD": 0.9927391329297045,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 0.22960454988621848,
+            "maximum": 2.871890067864328
+          },
+          "normalized_AUC": {
+            "by_training_seed": [
+              2.2093265182614057,
+              1.2329829378544879,
+              2.020286427509178,
+              1.3511158994291548,
+              1.361379342106149
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 1.6350182250320748,
+            "training_seed_sample_SD": 0.4459183625899434,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 1.2329829378544879,
+            "maximum": 2.2093265182614057
+          },
+          "last_third_normalized_AUC": {
+            "by_training_seed": [
+              1.0866408719798852,
+              1.22680574183359,
+              1.1282935154078924,
+              2.2807998029771084,
+              0.9091121549547144
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 1.326330417430638,
+            "training_seed_sample_SD": 0.5458153855248902,
+            "positive_seed_count": 5,
+            "negative_seed_count": 0,
+            "zero_seed_count": 0,
+            "minimum": 0.9091121549547144,
+            "maximum": 2.2807998029771084
+          },
+          "endpoint_change_from_initial": {
+            "by_training_seed": [
+              -9.83172451401807,
+              6.7321868234253515,
+              7.046588822176858,
+              12.329644794915147,
+              6.891683501934899
+            ],
+            "training_seeds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "mean": 4.633675885686837,
+            "training_seed_sample_SD": 8.423185881326539,
+            "positive_seed_count": 4,
+            "negative_seed_count": 1,
+            "zero_seed_count": 0,
+            "minimum": -9.83172451401807,
+            "maximum": 12.329644794915147
+          }
+        }
+      }
+    },
+    "new_formal_training_and_DEV_work": {
+      "training_steps": 1006080,
+      "evaluation_steps": 443520,
+      "native_replay_environment_steps": 443520,
+      "total_physical_environment_steps": 1893120
+    },
+    "limits": [
+      "New random-object allocation is not the previous equal-object ablation.",
+      "DEV results describe finite fixed environmental and object-randomness scenarios, not an exact random-policy expectation.",
+      "No independent128 endpoint evaluation was performed in this experiment.",
+      "Random allocation retains no trainable object action event; eta and the remaining quota policy are trained.",
+      "New and reused training backend identities are retained; source package, task and PPO protocol are checked equal.",
+      "No outcome-based seed, checkpoint, distribution or smoothing selection was performed."
+    ]
+  },
+  "computational_ledger": {
+    "training_steps": 1006528,
+    "evaluation_steps": 443520,
+    "native_replay_environment_steps": 443520,
+    "total_physical_environment_steps": 1893568,
+    "new_scientific_training_steps": 1006080,
+    "engineering_learning_steps": 448,
+    "new_scientific_training_jobs": 10,
+    "engineering_jobs": 2,
+    "reused_original_control_models": 30,
+    "model_payload_loads": 12,
+    "strict_reload_receipts": 12,
+    "new_DEV_complete_paths": 15840,
+    "new_native_replayed_DEV_paths": 15840,
+    "reused_DEV_complete_paths": 47520,
+    "new_independent_TEST_paths": 0,
+    "failures": 0,
+    "retries": 0,
+    "synthetic_state_cases": 18,
+    "synthetic_actor_constructors": 8,
+    "synthetic_optimizer_updates": 0,
+    "independent_audit_model_loads": 0,
+    "independent_audit_environment_steps": 0,
+    "thesis_builds": 0
+  },
+  "old_uniform_DEV_endpoint": {
+    "radio": 45.14893964570464,
+    "v5": 74.22686103040994
+  },
+  "PDF": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/figures/figure35_random_object_preview.pdf",
+  "PNG": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/figures/figure35_random_object_preview.png",
+  "SVG": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/figures/figure35_random_object_preview.svg",
+  "human_conclusion": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/结果与图例说明.rst",
+  "thesis_updated": false,
+  "formal_scientific_pointers_modified": false,
+  "independent_TEST": false,
+  "random_allocation_confirmed": true,
+  "original_uniform_results_preserved": true
+}

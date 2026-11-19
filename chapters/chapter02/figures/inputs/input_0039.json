@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "number": "2.4",
+  "parent_12bp_pdf_sha256": "8dfb46b5ba35493066ca1a82fa8aca85f4fca9e7468fcfb41f08b4329e4031b7",
+  "new_pdf_sha256": "50f541bf20758ad1d7405d191212992058d5134424cb8434f80e54f695aaced9",
+  "all_scientific_artist_values_styles_equal": true,
+  "PDF_text_font_size_multiset_equal": true,
+  "axis_width_height_unchanged": true,
+  "all_map_axes_and_map_patches_unchanged": null,
+  "scale_group_further_down_from_12bp": null,
+  "raw_scale_group_translation_bp": null,
+  "measured_spacing": {
+    "xlabel_to_legend_target_bp": 15,
+    "xlabel_to_legend_bp": 15.0,
+    "legend_to_file_bottom_mm": 1.9999963548448347,
+    "subtitle_to_file_top_mm": 1.4999989483091565,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      86.23068618774414
+    ],
+    "xlabel_frames_bp": [
+      [
+        90.80542755126953,
+        182.60015869140625,
+        173.375,
+        194.24465942382812
+      ],
+      [
+        309.0731506347656,
+        182.60015869140625,
+        391.6427307128906,
+        194.24465942382812
+      ]
+    ],
+    "legend_frames_bp": [
+      [
+        102.55860900878906,
+        209.24465942382812,
+        177.81202697753906,
+        220.88916015625
+      ],
+      [
+        102.55860900878906,
+        227.11965942382812,
+        121.80510711669922,
+        238.76416015625
+      ],
+      [
+        215.0836181640625,
+        209.24465942382812,
+        246.80648803710938,
+        220.88916015625
+      ],
+      [
+        215.0836181640625,
+        227.11965942382812,
+        282.1786193847656,
+        238.76416015625
+      ],
+      [
+        319.4523620605469,
+        209.24465942382812,
+        363.79388427734375,
+        220.88916015625
+      ],
+      [
+        319.4523620605469,
+        227.11965942382812,
+        346.2798767089844,
+        238.76416015625
+      ]
+    ],
+    "subtitle_frames_bp": [
+      [
+        93.45386505126953,
+        4.251965522766113,
+        170.732421875,
+        15.896465301513672
+      ],
+      [
+        311.4247131347656,
+        4.251965522766113,
+        389.2928771972656,
+        15.896465301513672
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 30
+  },
+  "CSV_sha256": {
+    "data.csv": "3ee20326a336e59ec922bd534cea85cb63b45ecf6fd8f2754090b522c29bb7d6",
+    "inputs/data.csv": "3ee20326a336e59ec922bd534cea85cb63b45ecf6fd8f2754090b522c29bb7d6",
+    "replot_sources/parent/data.csv": "3ee20326a336e59ec922bd534cea85cb63b45ecf6fd8f2754090b522c29bb7d6",
+    "replot_sources/native_inputs/data.csv": "3ee20326a336e59ec922bd534cea85cb63b45ecf6fd8f2754090b522c29bb7d6"
+  },
+  "one_offline_render": true,
+  "second_replay_run": false,
+  "deterministic_export_settings_preserved": true,
+  "ROOT_edits": 0,
+  "thesis_builds": 0,
+  "scientific_execution": 0
+}

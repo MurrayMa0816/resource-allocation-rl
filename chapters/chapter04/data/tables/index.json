@@ -1,0 +1,19 @@
+{
+  "tables": [
+    {
+      "number": "4.1",
+      "caption": "TRoC主要更新参数表",
+      "file": "chapters/chapter04/data/tables/table04_01.tex",
+      "sha256": "b1eaa1b0864b5e18472f127966abaa9ee7ff673066adee5c6832f2916f6aa572",
+      "current_chapter_source": "chapters/chapter04_trajectory_reuse/chapter.tex"
+    },
+    {
+      "number": "4.2",
+      "caption": "TRoC与对比方法训练结束后的配置成效",
+      "file": "chapters/chapter04/data/tables/table04_02.tex",
+      "sha256": "7573650eae0f17f099774db9afc1d58ceb2caf2708a33ab86465f7f73b827833",
+      "current_chapter_source": "chapters/chapter04_trajectory_reuse/chapter.tex"
+    }
+  ],
+  "scope": "Exact currently included TeX table blocks, not an extra thesis or chapter PDF."
+}

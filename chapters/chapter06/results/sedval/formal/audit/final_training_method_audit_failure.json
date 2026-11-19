@@ -1,0 +1,5 @@
+{
+  "status": "FAIL",
+  "traceback": "Traceback (most recent call last):\n  File \"/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/audit_final_M64_training.py\", line 85, in <module>\n    try:run()\n        ^^^^^\n  File \"/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/audit_final_M64_training.py\", line 65, in run\n    assert all(v['fresh_mc_target_error']==v['fresh_C_mc_target_error']==v['fresh_JA_mc_target_error']==0 for v in updates)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "new_environment_steps": 0
+}

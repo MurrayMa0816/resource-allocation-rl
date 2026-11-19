@@ -1,0 +1,53 @@
+{
+  "schema": "chapter2-spacing15-preview-v1",
+  "number": "2.6",
+  "figure_directory": "chapters/chapter02_high_dimensional/figures/figure02-06_图例与题注间距15bp_20261111",
+  "parent_12bp_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter02_high_dimensional/figures/figure02-06_图例与题注间距_20261111",
+  "parent_12bp_pdf_sha256": "067d736559a0ebf1ebbda63b6eb76b1fc15393d4e5121d1a81b0f2498c410880",
+  "renderer": "replot_sources/renderer.py",
+  "renderer_sha256": "e47fa98274487a0a7b263a4639fd34d01e9288dfbb94ab4494e81fe2516f43db",
+  "portable_entrypoint": "plot.py",
+  "scientific_values_styles_fonts_unchanged": true,
+  "outputs_sha256": {
+    "figure.pdf": "9b68129cfe03c1017f662c5421c947dc71efdbce4abb10dd7f1077422e8e7f4a",
+    "figure.svg": "346906961598d601b96ec0fd5ec65d7d5d50cf31648c1f8893630ca8c9571898",
+    "figure.png": "b69609447a5dbba9fa184589dea740107078d5affb60eae4ad4024660c367c65"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter02_high_dimensional/figures/figure02-06_图例与题注间距15bp_20261111/plot.py",
+    "active_editable_source": "chapters/chapter02_high_dimensional/figures/figure02-06_图例与题注间距15bp_20261111/replot_sources/renderer.py",
+    "active_program_sha256": "e47fa98274487a0a7b263a4639fd34d01e9288dfbb94ab4494e81fe2516f43db",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "9b68129cfe03c1017f662c5421c947dc71efdbce4abb10dd7f1077422e8e7f4a",
+      "figure.svg": "346906961598d601b96ec0fd5ec65d7d5d50cf31648c1f8893630ca8c9571898",
+      "figure.png": "b69609447a5dbba9fa184589dea740107078d5affb60eae4ad4024660c367c65"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "9e54dc652f4a28bcbbd9cb23f96f8fa3e640cd26eeb6795097549809c42f4ad5",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "27cb78d09bf7577c0f6bfbbd0c6a9c4a909ed15aa923ae765116f4c14760e31b",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "5175e7bf2001acb55840f5d03efa492fd887679de52b21ad245adf0b9209ec55",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": "dd62e6b355a56a109e57550bd96bce7ea45cd6c716e93aeed1c5465b1bd03eb9"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "9b68129cfe03c1017f662c5421c947dc71efdbce4abb10dd7f1077422e8e7f4a",
+    "figure.svg": "346906961598d601b96ec0fd5ec65d7d5d50cf31648c1f8893630ca8c9571898",
+    "figure.png": "b69609447a5dbba9fa184589dea740107078d5affb60eae4ad4024660c367c65"
+  }
+}

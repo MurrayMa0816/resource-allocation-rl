@@ -1,0 +1,43 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "4.1",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter04_trajectory_reuse/figures/figure04-01_终点反馈下的配置策略学习与交互需求",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter04/figures/figure04_01/figure.pdf"
+  ],
+  "files": {
+    "export.json": {
+      "path": "chapters/chapter04/figures/inputs/input_0001.json",
+      "sha256": "665e148f9a1c87a960c3b8e397fafbce09db999253565fd42e4c294ce27ade4a",
+      "bytes": 1474
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter04/figures/figure04_01/figure.pdf",
+      "sha256": "4bd918ab2b04dd0d564dee645880f651bd7a980e677d7b7f9b5338a6d88cbdbd",
+      "bytes": 131157
+    },
+    "figure.png": {
+      "path": "chapters/chapter04/figures/inputs/input_0002.png",
+      "sha256": "703560c0a1a72f984dc02f230c9df0a5ae95d1ab10bc6d9b4dcdde841343f9cf",
+      "bytes": 151937
+    },
+    "figure.svg": {
+      "path": "chapters/chapter04/figures/inputs/input_0003.svg",
+      "sha256": "00e730ac5f1bf62cca12fff1b34ea44e68e5cf1539fb391fcb9252f055d68a03",
+      "bytes": 47881
+    },
+    "source.drawio": {
+      "path": "chapters/chapter04/figures/figure04_01/source.drawio",
+      "sha256": "f523684269f74efb0c42b135fb016480b035aadd7e38a18e42c22fdb200a37e7",
+      "bytes": 14488
+    },
+    "source.json": {
+      "path": "chapters/chapter04/figures/inputs/input_0005.json",
+      "sha256": "8691086b791fa8e417aa420d49863535f41e1221d086950ba0e7e1d1380e62a7",
+      "bytes": 11984
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

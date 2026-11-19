@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "formal_training": true,
+  "seed": 6402,
+  "tau": 0.9,
+  "weight": 0.2,
+  "episodes": 3200,
+  "train_episodes": 3200,
+  "train_physical_steps": 259200,
+  "dev_episodes": 832,
+  "dev_physical_steps": 67392,
+  "counts": {
+    "train": {
+      "episodes": 3200,
+      "physical_steps": 259200
+    },
+    "development": {
+      "episodes": 832,
+      "physical_steps": 67392
+    }
+  },
+  "total_episodes": 4032,
+  "total_physical_steps": 326592,
+  "source_unchanged": true,
+  "saved_model_count": 1,
+  "endpoint_retained": true,
+  "endpoint_sha256": "b8ad0fed85cb276349422ef85bc1afaa12a874a8d39ee20647c440a6af322db1",
+  "endpoint_actor_sha256": "446b2bdf9abcb9013cfdd45a98605d90366145d0572568bf22b0f919157f8611",
+  "endpoint_critic_sha256": "81354dc5f80739213bcce3d3fbbed1550c06efb33ac2af24e4a44849d502cd25",
+  "actor_changed": true,
+  "critic_changed": true,
+  "actor_optimizer_steps": 34919,
+  "critic_optimizer_steps": 34919,
+  "collection_seconds": 2018.5442345067859,
+  "update_seconds": 1054.1617497727275,
+  "seconds": 4592.204863585532,
+  "device": "cuda",
+  "cpu_sampling": true,
+  "gpu_peak_allocated_bytes": 82923008,
+  "optimizer_backup": false,
+  "replay_backup": false,
+  "resume_supported": false,
+  "model_selection": false,
+  "holdout_selection": false
+}

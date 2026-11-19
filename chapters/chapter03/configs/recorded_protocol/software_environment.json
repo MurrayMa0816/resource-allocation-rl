@@ -1,0 +1,21 @@
+{
+  "runtime_executable_chain": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python",
+      "is_symlink": true,
+      "target": "/usr/local/bin/python"
+    },
+    {
+      "path": "/usr/local/bin/python",
+      "is_symlink": true,
+      "target": "/usr/bin/python3.11"
+    },
+    {
+      "path": "/usr/bin/python3.11",
+      "is_symlink": false,
+      "target": null
+    }
+  ],
+  "pyvenv_cfg_path": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/pyvenv.cfg",
+  "pyvenv_cfg": "home = /usr/local/bin\ninclude-system-site-packages = false\nversion = 3.11.8\nexecutable = /usr/bin/python3.11\ncommand = /usr/local/bin/python -m venv --without-pip /hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python\n"
+}

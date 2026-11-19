@@ -1,0 +1,30 @@
+{
+  "schema": "chapter2-measured-content-spacing-v1",
+  "number": "2.8",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure2-8",
+  "parent_pdf_sha256": "652754979a65ee76ef5cf6569379d4c7f2e5d64118fad32ac78e13b0cbf05f02",
+  "parent_source_sha256": "84b94f58f3fddc202702a2e23d34128f9b03865272b720484a2ce78c2cd25257",
+  "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter2.py",
+  "renderer_sha256": "c9e4d7fa88e3bee648798bc4ece5b01b816472e702d32767c0ba1911794510b8",
+  "scientific_data_sha256": {
+    "data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+    "provenance.json": "eb43ff37c60306e2c942400da6b534fa88356873637060e290da9e2c6a740717",
+    "inputs/data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+    "inputs/provenance.json": "eb43ff37c60306e2c942400da6b534fa88356873637060e290da9e2c6a740717"
+  },
+  "all_scientific_data_style_exact": true,
+  "geometry_proof_sha256": "524409d6b30a5e5268c0f7f33f7ec702805f983a945de20414648451a9cd3d01",
+  "native_mm": [
+    155.99999559190536,
+    199.60790659586587
+  ],
+  "outputs_sha256": {
+    "figure.pdf": "e5c7ebbb6288d50c4ed0f7e7a03d0a0ef1cb1154c6f8b2598e6f3b3e4e5e0311",
+    "figure.png": "b3c1dd3bba1173b65ba242b7a9d8b9431fb10adcebf2a2e138ed4cb84b8fe2f2",
+    "figure.svg": "6cfb2d2001c5171170a5cdf127fd8464908f8587467da3316c952349a2df24e7"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

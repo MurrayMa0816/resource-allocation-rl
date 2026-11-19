@@ -1,0 +1,56 @@
+{
+  "method": "c_ccpo",
+  "domain": "v5",
+  "seed": 3,
+  "device": "cuda",
+  "profile": "formal",
+  "online_from_scratch": true,
+  "offline_data": false,
+  "environment_steps": 100608,
+  "episodes": 4192,
+  "condition_index": 0,
+  "algorithm": {
+    "revision": "ecai2023-conservative-ccpo-diagnostic-adaptation-v3",
+    "paper": "https://doi.org/10.3233/FAIA230566",
+    "implementation": "paper-derived C-PPO",
+    "online_from_scratch": true,
+    "pretrained_data": false,
+    "config": {
+      "hidden_sizes": [
+        64,
+        64
+      ],
+      "gamma": 1.0,
+      "cost_gamma": 1.0,
+      "gae_lambda": 1.0,
+      "cost_limit": 1.0,
+      "weighted_cost_normalizer": 1.4791666666666667,
+      "clip_ratio": 0.2,
+      "policy_lr": 0.0001,
+      "value_lr": 0.001,
+      "policy_iterations": 40,
+      "value_iterations": 40,
+      "target_kl": 0.03,
+      "initial_log_std": -0.5,
+      "max_grad_norm": 0.5,
+      "actor_architecture": "shared_objects",
+      "penalty_lr": 0.01,
+      "penalty_max": 1000.0,
+      "unsafe_reward": -1000.0,
+      "rollout_steps": 256,
+      "device": "cuda"
+    },
+    "observation_dim": 242,
+    "action_dim": 121,
+    "reward": "native terminal reward; Eq7 learning penalty logged separately",
+    "safety": "SPF cost normalized by its finite-horizon full-spend bound; common native decoder enforces the hard budget",
+    "counters": {
+      "steps": 100608,
+      "episodes": 4192,
+      "updates": 393,
+      "policy_updates": 15174,
+      "value_updates": 15720,
+      "early_stops": 16
+    }
+  }
+}

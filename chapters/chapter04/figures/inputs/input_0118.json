@@ -1,0 +1,114 @@
+{
+  "schema": "chapter4-native-restored-axes-spacing15-v1",
+  "number": "4.5",
+  "caption": "训练环境交互步数统计与达标训练次数",
+  "label": "fig:ch4-completed-development",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-05_恢复绘图区与15bp间距_20261111",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter04_trajectory_reuse/section53_experiments.tex",
+  "current_references": [
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_恢复绘图区与15bp间距_20261111/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "native_parent/render_support/files/f0001_data.csv",
+    "native_parent/render_support/files/f0006_plotted_points.csv"
+  ],
+  "current_source_files": [
+    "plot.py",
+    "geometry_config.json",
+    "native_parent_sha256.json",
+    "wording_layer_20261119/label_export.py",
+    "wording_layer_20261119/svg_label_export.py",
+    "wording_layer_20261119/label_config.json"
+  ],
+  "historical_provenance": {
+    "original_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter04_trajectory_reuse/figures/figure04-05_TRoC与外部方法的受限交互成本及确认次数",
+    "original_pdf_sha256": "21a444d1315c0a70f8c2f24f492b816383d18aa155072d85fb886157aab9509a",
+    "original_native_inputs_all_bytes_preserved": true,
+    "parent_source": "native_parent/source.json",
+    "native_parent_render_verified_exact": true,
+    "figure4_4_59_2mm_width_basis": null,
+    "figure4_7_56_05mm_height_basis": null,
+    "axes_dimensions_after_mm": [
+      [
+        46.537815126050404,
+        54.99999999999999
+      ],
+      [
+        46.537815126050404,
+        54.99999999999999
+      ]
+    ],
+    "no_axis_dimension_reduced": true,
+    "ylabel_reflow_only": false
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "ed368fb26135a7004e5ad113d6dde564c4f63cb33a1c5ede7421a0f91032b70d",
+    "figure.svg": "5889107698d684f01ba57cc22121f2031d1bdd56a3778f91ac1ab8135a9e3409",
+    "figure.png": "de12f74e09322d3a7f64476c533b3d00ef54181680c8e67277aebf9044779a30"
+  },
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/plot.py",
+    "active_editable_source": "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/plot.py",
+    "active_program_sha256": "28bb2d59a0a515b0b68ccb5721b043e25af80904cb168f277cb269558439e6ff",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "2aaa485a1c9e21d8d3fc687e1399db8a708336ecb41377155031c2d43add0be8",
+      "figure.svg": "7c4b5723e2c28fbdb3daccf6a05af6446f683425dbef85f743bb80f2ebcb3757",
+      "figure.png": "af319210bd390cec654cb5371afef320425c4f48c7fa71970d256ec7eaa0a476"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "b4fbcb37eadb74db24225e4a1f143d144026f402ede26da29d74789ae152b067",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "0b56f46fab827f4948381ee844ce4115cda26e83e02e876b82f60f617adcb668",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "9abf5418b74578d7d54a53c18bcb991cff0551f1df0cb13d86d220cef534a640"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "04207bdf6998aa785873276472836d72f160405515fa8afa4373d9b1754b1143",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "ce0864a5c052941a84eb20b8d1069fe19d0a45b47b251c4a3e7e7b0ad1e8f127",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 2,
+    "legend_labels_changed": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "ed368fb26135a7004e5ad113d6dde564c4f63cb33a1c5ede7421a0f91032b70d",
+      "figure.svg": "5889107698d684f01ba57cc22121f2031d1bdd56a3778f91ac1ab8135a9e3409",
+      "figure.png": "de12f74e09322d3a7f64476c533b3d00ef54181680c8e67277aebf9044779a30"
+    },
+    "approved_review_pdf_sha256": "8225d6b4d8b910c081fc83b1af4466cdb15f115c1b9420e73ae8416879214c9a",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json"
+  },
+  "path_storage_20261119": {
+    "mapping_files": [
+      "native_parent/render_support/paths.json"
+    ],
+    "helper": "scripts/restore_render_support.py",
+    "original_source_and_data_bytes_preserved": true,
+    "historical_render_tree_restored_only_in_temporary_workspace": true,
+    "figure_exports": 0,
+    "scientific_execution": 0
+  }
+}

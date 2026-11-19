@@ -1,0 +1,361 @@
+{
+  "schema": "C6-additional-COLA-independent-final-training-audit-v1",
+  "status": "PASS_FIXED_TRAINING_COMPLETION_AND_STORED_DEV_NUMERICS",
+  "reviewed_at_utc": "2026-11-09T14:52:25.631026+00:00",
+  "reviewer": "supplement_rule_eval independent of adapter/runner/report authors",
+  "scope": "Existing configs/receipts, all3DEVNPZ,78smallDEVpointrecords and byteSHAonly; no updates/traininglargegziplineparse, model loading, inference, Envstep or newTEST. Nativeupdate/replay/CUDA/exactreload assertions use sealed source + original executionreceipts; endpointfileSHAs independently recalculated.",
+  "source_binding": {
+    "formal_index_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_jobs.json",
+    "formal_index_sha256": "cad96dd0e721e3f504d02c4fc670c709e387ab34d542a2d6da47ac5fbe5ccb9a",
+    "source_manifest": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/source_manifest.json",
+    "source_release": "0286beddcbb2b8cbb7bc75ff2c9599bf7658b2f8fe4ad87c259a2e71c4228125",
+    "bound_source_count": 409,
+    "mismatches": []
+  },
+  "controller": {
+    "receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/training/controller_completed.json",
+    "receipt_sha256": "e9366d31a814f1b907feea57ac46f2d5ca5ad6bac8a2d9426ed63b7bf1ec729c",
+    "status": "COMPLETE",
+    "all3_exit_codes_zero": true,
+    "no_automatic_retry": true
+  },
+  "per_seed": [
+    {
+      "seed": 6400,
+      "status": "COMPLETE",
+      "config_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6400.json",
+      "config_sha256": "401da633ad4a8adb7ed772645e62f0739a0256803a350045dce4e6c9aeaef937",
+      "receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6400/attempt0/completed.json",
+      "receipt_sha256": "491e13be377bda1e4c3ccd80e1b8e0cbd7d399b1c58b541c2a55560fe3fd0e6a",
+      "protocol_sha256": "01a125fb2f2a5a8c1ceeb9c811f1776c8be3eed6da63156979de0ae2448f1830",
+      "endpoint_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6400/attempt0/endpoint.pt",
+      "endpoint_file_sha256": "4bee447d2dd389b7d319f19967db17274f3ccfd25093ee5dacdd253657b266fe",
+      "endpoint_file_SHA_independently_matches": true,
+      "original_exact_inference_reload_receipt": true,
+      "reviewer_independent_model_reload": false,
+      "model_tensor_digest_from_original_receipt": "0a57ace0c58ed6bf9de46889a054716a30c3f222318d5fa0304654c4a0817e58",
+      "model_tensor_digest_recomputed": false,
+      "learning_steps": 259200,
+      "learning_episodes": 3200,
+      "DEV_steps": 67392,
+      "DEV_points": 26,
+      "DEV_cases": 832,
+      "counts": {
+        "train": {
+          "physical_steps": 259200,
+          "episodes": 3200
+        },
+        "development": {
+          "physical_steps": 67392,
+          "episodes": 832
+        }
+      },
+      "actual_pool_counters": {
+        "train": {
+          "step_attempts": 259200,
+          "physical_steps": 259200,
+          "episodes": 3200,
+          "reset_attempts": 3200,
+          "resets": 3200
+        },
+        "development": {
+          "step_attempts": 67392,
+          "physical_steps": 67392,
+          "episodes": 832,
+          "reset_attempts": 832,
+          "resets": 832
+        }
+      },
+      "native_updates": 257153,
+      "replay_metadata": {
+        "n_step": 8,
+        "gamma": 1.0,
+        "native_reward_vectors_unchanged": true,
+        "original_transitions": 259200,
+        "emitted_transitions": 259200,
+        "single_step_auxiliary_label_retained": true,
+        "cross_episode_mixing": false,
+        "intermediate_soft_entropy_accumulated": false,
+        "importance_correction": false
+      },
+      "replay_pending": 0,
+      "device_proof": {
+        "parameter_devices": [
+          "cuda:0"
+        ],
+        "cuda_optimizer_tensors": 56,
+        "peak_cuda_reserved": 58720256
+      },
+      "seconds": 10423.077488653362,
+      "update_seconds": 7206.126864820719,
+      "development_npz_sha256": "1813bfff64a0a4f73481026373df1c848f5c5132c4f2f11b40b8ade2a748dca2",
+      "C_max_abs_error": 0.0,
+      "JA_max_abs_error": 5.551115123125783e-16,
+      "seasonal_water_max_abs_error_m3": 2.3283064365386963e-09,
+      "maximum_projection_mass_error_reported_m3": 5.820766091346741e-11,
+      "endpoint_C_mean": 0.7661516853932584,
+      "endpoint_JA_mean": 0.8109768330795175,
+      "new_TEST_paths": 0
+    },
+    {
+      "seed": 6401,
+      "status": "COMPLETE",
+      "config_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6401.json",
+      "config_sha256": "e635975b4c4171ece6140aaece1ea148529d22478f48cc9b39102887b10116bd",
+      "receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6401/attempt0/completed.json",
+      "receipt_sha256": "f253c32c0a6c303e7ae61cc54fe49002db065a3456e0db1b8066846076a1c393",
+      "protocol_sha256": "5e99468cc283d2fbab3324868f21b76f5e40ee2242f461f53060e0627269d700",
+      "endpoint_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6401/attempt0/endpoint.pt",
+      "endpoint_file_sha256": "b469f85af1a8f22229b3adf69f678175a9c35fa2a1981d42e4bbf21fd3d09bc2",
+      "endpoint_file_SHA_independently_matches": true,
+      "original_exact_inference_reload_receipt": true,
+      "reviewer_independent_model_reload": false,
+      "model_tensor_digest_from_original_receipt": "cc3c067248167670393978102812e8c756960cc417bfa21774b60f6f87ee5ccc",
+      "model_tensor_digest_recomputed": false,
+      "learning_steps": 259200,
+      "learning_episodes": 3200,
+      "DEV_steps": 67392,
+      "DEV_points": 26,
+      "DEV_cases": 832,
+      "counts": {
+        "train": {
+          "physical_steps": 259200,
+          "episodes": 3200
+        },
+        "development": {
+          "physical_steps": 67392,
+          "episodes": 832
+        }
+      },
+      "actual_pool_counters": {
+        "train": {
+          "step_attempts": 259200,
+          "physical_steps": 259200,
+          "episodes": 3200,
+          "reset_attempts": 3200,
+          "resets": 3200
+        },
+        "development": {
+          "step_attempts": 67392,
+          "physical_steps": 67392,
+          "episodes": 832,
+          "reset_attempts": 832,
+          "resets": 832
+        }
+      },
+      "native_updates": 257153,
+      "replay_metadata": {
+        "n_step": 8,
+        "gamma": 1.0,
+        "native_reward_vectors_unchanged": true,
+        "original_transitions": 259200,
+        "emitted_transitions": 259200,
+        "single_step_auxiliary_label_retained": true,
+        "cross_episode_mixing": false,
+        "intermediate_soft_entropy_accumulated": false,
+        "importance_correction": false
+      },
+      "replay_pending": 0,
+      "device_proof": {
+        "parameter_devices": [
+          "cuda:0"
+        ],
+        "cuda_optimizer_tensors": 56,
+        "peak_cuda_reserved": 58720256
+      },
+      "seconds": 10448.758540049195,
+      "update_seconds": 7226.522872105241,
+      "development_npz_sha256": "d891cfd44bbf57767be417f33055a6ec8fa4583d279a0952a4160feb7a5fbee8",
+      "C_max_abs_error": 0.0,
+      "JA_max_abs_error": 6.661338147750939e-16,
+      "seasonal_water_max_abs_error_m3": 3.259629011154175e-09,
+      "maximum_projection_mass_error_reported_m3": 5.820766091346741e-11,
+      "endpoint_C_mean": 0.7257724719101124,
+      "endpoint_JA_mean": 0.8154978426105034,
+      "new_TEST_paths": 0
+    },
+    {
+      "seed": 6402,
+      "status": "COMPLETE",
+      "config_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6402.json",
+      "config_sha256": "2047c6940beb2619b32c86a9a31113d23c32b1dd59efdfd212ea823906ffb815",
+      "receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6402/attempt0/completed.json",
+      "receipt_sha256": "0cab6e95403514cd3a9d3c441bcde105ad3e6aa05f013ad1a1ae5aeec46d210c",
+      "protocol_sha256": "2128fb3589a45158d6df5383b3af7946190cd516fa31c9f0a4f8d4845beb51bb",
+      "endpoint_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/formal/cola__seed6402/attempt0/endpoint.pt",
+      "endpoint_file_sha256": "f5d6c63f6d4b9c7a444c9da0d5306ab732e2022bdde59889b4c170706e8b1e52",
+      "endpoint_file_SHA_independently_matches": true,
+      "original_exact_inference_reload_receipt": true,
+      "reviewer_independent_model_reload": false,
+      "model_tensor_digest_from_original_receipt": "549e963f56345afce3c717972e2810e288a1f11db21c40ab7b1db611bdb95c96",
+      "model_tensor_digest_recomputed": false,
+      "learning_steps": 259200,
+      "learning_episodes": 3200,
+      "DEV_steps": 67392,
+      "DEV_points": 26,
+      "DEV_cases": 832,
+      "counts": {
+        "train": {
+          "physical_steps": 259200,
+          "episodes": 3200
+        },
+        "development": {
+          "physical_steps": 67392,
+          "episodes": 832
+        }
+      },
+      "actual_pool_counters": {
+        "train": {
+          "step_attempts": 259200,
+          "physical_steps": 259200,
+          "episodes": 3200,
+          "reset_attempts": 3200,
+          "resets": 3200
+        },
+        "development": {
+          "step_attempts": 67392,
+          "physical_steps": 67392,
+          "episodes": 832,
+          "reset_attempts": 832,
+          "resets": 832
+        }
+      },
+      "native_updates": 257153,
+      "replay_metadata": {
+        "n_step": 8,
+        "gamma": 1.0,
+        "native_reward_vectors_unchanged": true,
+        "original_transitions": 259200,
+        "emitted_transitions": 259200,
+        "single_step_auxiliary_label_retained": true,
+        "cross_episode_mixing": false,
+        "intermediate_soft_entropy_accumulated": false,
+        "importance_correction": false
+      },
+      "replay_pending": 0,
+      "device_proof": {
+        "parameter_devices": [
+          "cuda:0"
+        ],
+        "cuda_optimizer_tensors": 56,
+        "peak_cuda_reserved": 58720256
+      },
+      "seconds": 10474.346251770854,
+      "update_seconds": 7258.633528828621,
+      "development_npz_sha256": "0490d53ea565ebf4a03b861c9f04ecc41db999bc5eb9411d53ee2217c6d7f923",
+      "C_max_abs_error": 0.0,
+      "JA_max_abs_error": 5.551115123125783e-16,
+      "seasonal_water_max_abs_error_m3": 2.7939677238464355e-09,
+      "maximum_projection_mass_error_reported_m3": 2.9103830456733704e-11,
+      "endpoint_C_mean": 0.7528089887640449,
+      "endpoint_JA_mean": 0.8367225936023017,
+      "new_TEST_paths": 0
+    }
+  ],
+  "DEV_recomputation": {
+    "points": 78,
+    "weather_cases": 2496,
+    "regional_quality_values": 222144,
+    "daily_total_values": 202176,
+    "definition_C": "count(Y>=.90)/89",
+    "definition_JA": "sum(A_i*Y_i)/sum(A_i)",
+    "C_max_abs_error": 0.0,
+    "JA_max_abs_error": 6.661338147750939e-16,
+    "seasonal_mass_max_abs_error_m3": 3.259629011154175e-09,
+    "seasonal_total_m3": 4000000,
+    "all3same_DEV_weather_previousweather_regionorder_area": true,
+    "same_legacy_PASTA_DEV_weather_previousweather_regionorder_area": true,
+    "all78DEVrecordmeans_match_NPZ": true,
+    "all78DEV_RNGrestoration_and_trainingstateunchanged_flags_recorded": true
+  },
+  "final_DEV_metrics": {
+    "aggregation": "Mean32weather within eachseed first; then mean andsampleSD(ddof=1) over3trainingseedmeans. Valuespercent; SDpercentagepoints.",
+    "COLA": {
+      "C_mean_percent": 74.8244382022472,
+      "C_sample_SD_percent": 2.0572966397879524,
+      "JA_mean_percent": 82.10657564307743,
+      "JA_sample_SD_percent": 1.3746355679110391
+    },
+    "per_seed": [
+      {
+        "seed": 6400,
+        "C_mean_percent": 76.61516853932584,
+        "JA_mean_percent": 81.09768330795175
+      },
+      {
+        "seed": 6401,
+        "C_mean_percent": 72.57724719101124,
+        "JA_mean_percent": 81.54978426105033
+      },
+      {
+        "seed": 6402,
+        "C_mean_percent": 75.28089887640449,
+        "JA_mean_percent": 83.67225936023017
+      }
+    ],
+    "latest_endpoints_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/reports/latest_endpoints.json",
+    "latest_endpoints_sha256": "a52d04c8a16699b4fe127c5aeb1b4cfa1159d39d984b77a56eee79bc0dac6d0c",
+    "bothlatest_andfixed_endpoint_summary_max_abs_errors": {
+      "latest_method_complete_common_points": {
+        "C_mean_percent": 1.4210854715202004e-14,
+        "C_sample_SD_percent": 4.440892098500626e-16,
+        "JA_mean_percent": 1.4210854715202004e-14,
+        "JA_sample_SD_percent": 1.554312234475219e-14
+      },
+      "fixed_259200_DEV_endpoints": {
+        "C_mean_percent": 1.4210854715202004e-14,
+        "C_sample_SD_percent": 4.440892098500626e-16,
+        "JA_mean_percent": 1.4210854715202004e-14,
+        "JA_sample_SD_percent": 1.554312234475219e-14
+      }
+    },
+    "SeDVal_PASTA_context_matches_prior_independent_audit": true,
+    "prior_independent_audit_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/final_training_audit.json",
+    "prior_independent_audit_sha256": "09d00d2f67841aefdca637724e1c77fd3e7544fee22b06d94d4112a10d65fa78"
+  },
+  "physical_costs": {
+    "formal_learning": 777600,
+    "formal_DEV": 202176,
+    "formal_total": 979776,
+    "formal_learning_episodes": 9600,
+    "formal_DEV_episodes": 2496,
+    "engineering_learning": 5184,
+    "engineering_DEV": 324,
+    "engineering_total": 5508,
+    "engineering_plus_formal": 985284,
+    "new_TEST": 0,
+    "new_rule": 0,
+    "failed_attempts": 0,
+    "recovery_commands": [],
+    "prior_CAPQL_PASTA_newwork_including_engineering": 1970568,
+    "all3_external_method_newwork_including_retired_CAPQL": 2955852,
+    "existing_SeDVal_training_not_reexecuted_or_counted_as_newwork": true,
+    "COLA_author_tensor_check_optimizer_updates": 0,
+    "COLA_author_tensor_check_environment_steps": 0
+  },
+  "interpretation": {
+    "completion_is_not_independent_TEST_or_universal_superiority": true,
+    "current_evidence": "Known32weatherDEV perseed at fixed259200; COLAhas lowerC/JAmeans thanexistingSeDVal andhighermeans thanPASTA inthiscomparison. No statisticalsignificance or causalinference claimed.",
+    "posthoc_method_addition": "COLAselected afterknownCAPQLDEVresults; notoriginalsimultaneouslypredeclaredcompetitor.",
+    "CAPQL_retirement": "UserlaterauthorizedfourCAPQLendpointremoval. HistoricalrawDEV/curves/receiptsandcompute retained; frozenCOLAprotocolhistorystringsrefer tooriginalselectiontime, notcurrentmodelavailability.",
+    "no_performance_selection_extension_or_seedreplacement_certified_in_registeredattempts": true,
+    "limitations": [
+      "No independentnativeupdate count was obtained by parsing257153largeupdate rowsperseed inthisreview; count is originalcompletedreceipt andregisteredworker evidence.",
+      "Exactmodelreload andCUDAoptimizer tensors are originalexecutionproof, not a newindependentmodelrun.",
+      "Scientificcompletiondoesnot certifythePDFvisualreview, thesispublication, currentnavigation or freshjointTEST."
+    ]
+  },
+  "reviewer_actions": {
+    "environment_constructions": 0,
+    "environment_steps": 0,
+    "model_loads": 0,
+    "inference": 0,
+    "learning_updates": 0,
+    "training_runs": 0,
+    "author_source_edits": 0,
+    "builds": 0,
+    "new_files_written": [
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/audit/final_training_audit.json"
+    ]
+  }
+}

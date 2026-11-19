@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "outputs_sha256": {
+    "figure.pdf": "054c78423426e2bd431c2c2baccdae70f412a350de48964140c9884b3ea0b40f",
+    "figure.png": "b041f9474340b55caa02631ec9e7f8dfdcb0b69fa2f3de9754fd00a49eaea3ed",
+    "figure.svg": "799e6a89dce6b3453270621d1a93070169d44f0f22638d919702c6a376510b47",
+    "display_aggregates.csv": "25bbac2f0af47bf8144c2e4383e204aad395ee11334a8ca1cd80c4e7d74fd8cd",
+    "display_aggregates.csv.gz": "832d33858c952cc140ace455dcd88a0c800443779204cee2f34c83dd66bc701a",
+    "display_seed_data.csv": "531f1aecc3c58b82c491571dacf1cfef32c2e3da8c91a965060b6cb480fc5e52",
+    "full_minus_pace.csv": "f33bbcb1dfd5600fa2bcf4f9a7a63dc537cf4f859cc9bf73ced5d44860acc629",
+    "full_minus_pace.json": "b6b80487139c9a7ef7490fce576e88ea4447f49866e9b1ce95fd1ee435c07763",
+    "audit/retained_artists.json": "b7966b74f2a7f2ee94d7fba0147fb26e74936f8bafc7fa4c15b560551880ccab",
+    "audit/presentation_verification.json": "3b267950f8d5dd74470da7faecbb209453433fc50840c4db9e9411c8e8a2c5ef"
+  },
+  "renderer_sha256": "cee6d28c3a2e5bfe24e3d527e9ea76af2aed7415f605c15f614b868daeb6050a",
+  "input_asset": "/hy-tmp/resource_allocation_results/chapter03/paper_revisions/two_branch_random_adoption_20261109_202210/assets/figure36",
+  "original_250_seed_rows_preserved": true,
+  "displayed_aggregate_rows": 36,
+  "displayed_unique_seed_rows": 150,
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "thesis_builds": 0
+}

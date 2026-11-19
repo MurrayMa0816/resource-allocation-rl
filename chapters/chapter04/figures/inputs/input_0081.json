@@ -1,0 +1,136 @@
+{
+  "schema": "chapter4-native-restored-axes-spacing15-v1",
+  "number": "4.4",
+  "caption": "TRoC与对比算法的学习曲线",
+  "label": "fig:ch4-formal-main",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter04_trajectory_reuse/section53_experiments.tex",
+  "current_references": [
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "native_parent/render_support/files/f0014_data.csv",
+    "native_parent/render_support/files/f0013_current_display_points.csv",
+    "native_parent/render_support/files/f0021_plotted_points.csv",
+    "native_parent/render_support/files/f0003_data.csv",
+    "native_parent/render_support/files/f0002_current_display_points.csv",
+    "native_parent/render_support/files/f0010_plotted_points.csv",
+    "native_parent/render_support/files/f0016_data.csv",
+    "native_parent/render_support/files/f0017_plotted_points.csv",
+    "native_parent/render_support/files/f0018_random_curve_by_seed.csv",
+    "native_parent/render_support/files/f0019_random_plotted_points.csv",
+    "native_parent/render_support/files/f0015_current_display_points.csv",
+    "native_parent/render_support/files/f0025_data.csv",
+    "native_parent/render_support/files/f0024_current_display_points.csv",
+    "native_parent/render_support/files/f0039_plotted_points.csv",
+    "native_parent/render_support/files/f0032_data.csv",
+    "native_parent/render_support/files/f0034_plotted_points.csv",
+    "native_parent/render_support/files/f0035_random_curve_by_seed.csv",
+    "native_parent/render_support/files/f0036_random_plotted_points.csv",
+    "native_parent/render_support/files/f0031_current_display_points.csv",
+    "native_parent/render_support/files/f0048_data.csv",
+    "native_parent/render_support/files/f0058_plotted_points.csv",
+    "native_parent/render_support/files/f0062_random_curve_by_seed.csv",
+    "native_parent/render_support/files/f0064_random_plotted_points.csv",
+    "native_parent/render_support/files/f0047_current_display_points.csv"
+  ],
+  "current_source_files": [
+    "plot.py",
+    "geometry_config.json",
+    "native_parent_sha256.json",
+    "wording_layer_20261119/label_export.py",
+    "wording_layer_20261119/svg_label_export.py",
+    "wording_layer_20261119/label_config.json"
+  ],
+  "historical_provenance": {
+    "original_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter04_trajectory_reuse/figures/figure04-04_TRoC与外部方法的开发学习曲线",
+    "original_pdf_sha256": "2fcca96a15b87e444ec29c52a9c67a8d5424ec5d08cdbd42589caf5e6c4c12a7",
+    "original_native_inputs_all_bytes_preserved": true,
+    "parent_source": "native_parent/source.json",
+    "native_parent_render_verified_exact": true,
+    "figure4_4_59_2mm_width_basis": "native_parent retained render_geometry.json in thesis_main_learning_style_20261109 assets figure4-4",
+    "figure4_7_56_05mm_height_basis": "thesis_print_format_implementation_20261109_160917 figures/assets/figure4-7/inputs/render_geometry.json:95mm canvas x .59 height",
+    "axes_dimensions_after_mm": [
+      [
+        59.2,
+        56.05000000000001
+      ],
+      [
+        59.20000000000002,
+        56.05000000000001
+      ]
+    ],
+    "no_axis_dimension_reduced": true,
+    "ylabel_reflow_only": false
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "b4b1b58b5a44b5f0f875cda4058e77270a46a1162ad8cefe78fedf8cad2abf77",
+    "figure.svg": "891bb69c3dd4bea77d14555a503db2fa60d99bde10c63fc8b8fd051a86a96501",
+    "figure.png": "e4c517c906e8ac3b0e4396cac978605bc1437fa1d0e0098e0a1f82dc9aaf9645"
+  },
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/plot.py",
+    "active_editable_source": "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/plot.py",
+    "active_program_sha256": "858822108485debca3746be8756cd567a6875338d62e09269ecc694d25cf1e55",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "a31003b7d621bbd3abf98d353e23c3a5f97626372b0fb172285213158025f2ef",
+      "figure.svg": "dc5188f1faf73551bb8d26d44ed494d6ca4823b36d4651643995da7ebec6b4b2",
+      "figure.png": "28cf29a2075288c9f593e8229631a53d3b791c1f19ae8806a5e8a2831e536c5f"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "bf55f08ce07e8c327a6b3646e3aa7a21aee4609bd3ad233a2373a92111b86578",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "a47853fd567b33a569d45d34460d94a4d188c8d96d83cdfb92d3ab09cb14a97d",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "cc458a8213b114ffde1b31d79bcbee1ee59b7796f8225be5065a3cc57451f30c"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "fcf28a0496b753765682442504ef00a916fa53d9de9723077a52472fb1901c11",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "2ed86ba68c446b3e020947d65188c805a0183fdc0ca6ef03722a8fad26d09cd8",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 2,
+    "legend_labels_changed": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "b4b1b58b5a44b5f0f875cda4058e77270a46a1162ad8cefe78fedf8cad2abf77",
+      "figure.svg": "891bb69c3dd4bea77d14555a503db2fa60d99bde10c63fc8b8fd051a86a96501",
+      "figure.png": "e4c517c906e8ac3b0e4396cac978605bc1437fa1d0e0098e0a1f82dc9aaf9645"
+    },
+    "approved_review_pdf_sha256": "a51a6a29d54026c4dcfaf6ef7a3dde22496fb4fb6a752ae8d025120f6105ae38",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json"
+  },
+  "path_storage_20261119": {
+    "mapping_files": [
+      "native_parent/render_support/paths.json"
+    ],
+    "helper": "scripts/restore_render_support.py",
+    "original_source_and_data_bytes_preserved": true,
+    "historical_render_tree_restored_only_in_temporary_workspace": true,
+    "figure_exports": 0,
+    "scientific_execution": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "chapter4-preregistered-quality-targets-v1",
+  "created_utc": "2026-11-06T06:30:51.005131+00:00",
+  "primary_fraction": 0.95,
+  "secondary_fractions": [
+    0.9,
+    1.0
+  ],
+  "A_common32_endpoint_means": {
+    "radio": 0.47654112791771525,
+    "v5": 0.7957765343855497
+  },
+  "thresholds": {
+    "radio": {
+      "0.9": 0.42888701512594374,
+      "0.95": 0.45271407152182946,
+      "1.0": 0.47654112791771525
+    },
+    "v5": {
+      "0.9": 0.7161988809469948,
+      "0.95": 0.7559877076662722,
+      "1.0": 0.7957765343855497
+    }
+  },
+  "source": "existing A fixed endpoints, newly evaluated common32 DEV before new formal training; no test used",
+  "rule": "second of two consecutive unsmoothed DEV points >=q; no attainment is right-censored at100608",
+  "first8_old_A_reproduction_all10": true,
+  "reference_new_training_steps": 0,
+  "reference_dev_steps": 8960,
+  "reference_replay_steps": 8960
+}

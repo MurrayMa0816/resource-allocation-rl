@@ -1,0 +1,156 @@
+{
+  "figure": "4.8",
+  "native_pdf_sha256": "ddbfbf062469520b3d3b54feb561b2e03aa434c5e02da0cfc43dc04c240def39",
+  "approved_review_pdf_sha256": "fb1882de2c5f3c9ccb79dc56dbdc73004e9314ced380775185e0404b22aae9bc",
+  "rect_pt": [
+    0.0,
+    0.0,
+    442.2047119140625,
+    241.37339782714844
+  ],
+  "axis_count": 2,
+  "edits": [
+    {
+      "old": "训练环境交互步数（×10³）",
+      "new": "训练步数（×10³）",
+      "old_bbox": [
+        75.47471618652344,
+        197.4619903564453,
+        200.04429626464844,
+        209.1064910888672
+      ],
+      "font_size": 10.5,
+      "baseline": 206.82798767089844,
+      "anchor": "same_center",
+      "old_center_x": 137.75950622558594,
+      "new_left": 96.47471618652344,
+      "new_width": 82.569580078125,
+      "parts": [
+        {
+          "text": "训练步数（",
+          "font": "song",
+          "width": 52.5
+        },
+        {
+          "text": "×10³",
+          "font": "times",
+          "width": 19.569580078125
+        },
+        {
+          "text": "）",
+          "font": "song",
+          "width": 10.5
+        }
+      ],
+      "new_bbox": [
+        96.47471618652344,
+        197.4724884033203,
+        179.04429626464844,
+        209.0959930419922
+      ],
+      "new_center_x": 137.75950622558594,
+      "center_delta_pt": 0.0,
+      "new_baseline_delta_pt": 0.0,
+      "output_fonts": [
+        {
+          "name": "SimSun Regular",
+          "size": 10.5
+        },
+        {
+          "name": "Times New Roman Regular",
+          "size": 10.5
+        },
+        {
+          "name": "SimSun Regular",
+          "size": 10.5
+        }
+      ],
+      "allowed_diff_region_pt": [
+        73.47471618652344,
+        195.4619903564453,
+        202.04429626464844,
+        211.1064910888672
+      ]
+    },
+    {
+      "old": "训练环境交互步数（×10³）",
+      "new": "训练步数（×10³）",
+      "old_bbox": [
+        288.0731506347656,
+        197.4619903564453,
+        412.6427307128906,
+        209.1064910888672
+      ],
+      "font_size": 10.5,
+      "baseline": 206.82798767089844,
+      "anchor": "same_center",
+      "old_center_x": 350.3579406738281,
+      "new_left": 309.0731506347656,
+      "new_width": 82.569580078125,
+      "parts": [
+        {
+          "text": "训练步数（",
+          "font": "song",
+          "width": 52.5
+        },
+        {
+          "text": "×10³",
+          "font": "times",
+          "width": 19.569580078125
+        },
+        {
+          "text": "）",
+          "font": "song",
+          "width": 10.5
+        }
+      ],
+      "new_bbox": [
+        309.0731506347656,
+        197.4724884033203,
+        391.6427307128906,
+        209.0959930419922
+      ],
+      "new_center_x": 350.3579406738281,
+      "center_delta_pt": 0.0,
+      "new_baseline_delta_pt": 0.0,
+      "output_fonts": [
+        {
+          "name": "SimSun Regular",
+          "size": 10.5
+        },
+        {
+          "name": "Times New Roman Regular",
+          "size": 10.5
+        },
+        {
+          "name": "SimSun Regular",
+          "size": 10.5
+        }
+      ],
+      "allowed_diff_region_pt": [
+        286.0731506347656,
+        195.4619903564453,
+        414.6427307128906,
+        211.1064910888672
+      ]
+    }
+  ],
+  "font_sha256": {
+    "song": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+    "times": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5"
+  },
+  "png_size": [
+    1842,
+    1005
+  ],
+  "png_mode": "RGBA",
+  "png_dpi": 300,
+  "native_rgb_sha256": {
+    "2": "534e0b117952569c1315de1ba97e07b8c28eb0b476bd7a4ca076e6e4788be36d",
+    "4": "a533d67d87b93cad66fbab17b6db62192d7a6a820150b7d49bcdb0d5e3a72cf8"
+  },
+  "approved_rgb_sha256": {
+    "2": "153903caeac57f0cb9e5fd380e155f7b18e8a9df6742e67dd1d12567316508e9",
+    "4": "8df6a6b706e8870348f90c5d7b47d3018e9930d6c6ea7f015882c9b23d8d88ad"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "chapter2-spacing15-preview-v1",
+  "number": "2.5",
+  "figure_directory": "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111",
+  "parent_12bp_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距_20261111",
+  "parent_12bp_pdf_sha256": "058bb9626c07f690052c1bd979663569a2b230ce930715f4a09094bc3c6c15e5",
+  "renderer": "replot_sources/renderer.py",
+  "renderer_sha256": "79b475bfd130f67b9f452956b538daf52e854df0c0457771a73752a2ac79f68c",
+  "portable_entrypoint": "plot.py",
+  "scientific_values_styles_fonts_unchanged": true,
+  "outputs_sha256": {
+    "figure.pdf": "93c9220f5f0b24d0f5af3a73df4ff9152043741e47e71f30e13009b42530d9d3",
+    "figure.svg": "42135347433aabc5a7f5110a2543d224b6dcc6bff2be5e8da97510bb781bd254",
+    "figure.png": "ed85e722314286298437cfa0208966ceef9a2541e51ddb82761d3f71b7da873a"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/plot.py",
+    "active_editable_source": "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/replot_sources/renderer.py",
+    "active_program_sha256": "79b475bfd130f67b9f452956b538daf52e854df0c0457771a73752a2ac79f68c",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "b9dbb49bad2e8aeca289927f11f7fc7c9e54cc00993afc618b302be6c14d6f14",
+      "figure.svg": "fe18e7c4bbb6505fa559cc0e85b82394a1b1a07aa5592ee8bc9bacb8c2387353",
+      "figure.png": "52404a81f0dd6186f2ff1af144cb59636f5456060b3f8019030d5db863adf065"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "aa91514aa969aa4db4d908ad17a638e6e65f8dcf1f38f72dc1986e80d422e8f9",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "85b659cb07892f32bad48825af78795764013de6871e40c97f90b19c030935cc",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "8ec7c31ec792b1d4d0d02719be3835397e30a4155a6f9173163ab939c81a8935",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": "20743f7113bfddcf81d498541b6aeb40112d4dcd0d38805628c54b0d269220e1"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "93c9220f5f0b24d0f5af3a73df4ff9152043741e47e71f30e13009b42530d9d3",
+    "figure.svg": "42135347433aabc5a7f5110a2543d224b6dcc6bff2be5e8da97510bb781bd254",
+    "figure.png": "ed85e722314286298437cfa0208966ceef9a2541e51ddb82761d3f71b7da873a"
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "7e525aa908f383fe1d0721cbd963c76e0bfebb71eb951c5fb01e1c02d38fe741",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "55d801422e38d03077eac7f242a3c59fc3004aee0413133856bb1019d34323bf",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 2,
+    "legend_labels_changed": 1,
+    "selected_outputs_sha256": {
+      "figure.pdf": "93c9220f5f0b24d0f5af3a73df4ff9152043741e47e71f30e13009b42530d9d3",
+      "figure.svg": "42135347433aabc5a7f5110a2543d224b6dcc6bff2be5e8da97510bb781bd254",
+      "figure.png": "ed85e722314286298437cfa0208966ceef9a2541e51ddb82761d3f71b7da873a"
+    },
+    "approved_review_pdf_sha256": "076f4be1b543fa4d4f73f84ea3031db7d7f15224b7813b85d55c1392edd5a452",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json"
+  }
+}

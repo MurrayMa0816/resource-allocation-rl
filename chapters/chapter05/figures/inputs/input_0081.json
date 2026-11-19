@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "number": "5.6",
+  "old_physical_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-06_不同价值监督方式下的回报预测误差",
+  "old_graphics_sha256": {
+    "figure.pdf": "678d0793cb1eb7944ad37b5d3d19dc7ae7839e152d19ec9d121cb065744acc9f",
+    "figure.png": "743fa06cdb5bac8c32307e17ea551ffab9bb69bcaa7bcc73a729d03e3089bf94",
+    "figure.svg": "1d0a8e014dfab26ba06fd8266275e7e55ddee72a951a52fe23b52cf8992125ff"
+  },
+  "before_axes_mm": [
+    [
+      59.20000013333332,
+      51.00000030555556
+    ],
+    [
+      59.20000013333332,
+      51.00000030555556
+    ]
+  ],
+  "after_axes_mm": [
+    [
+      59.20000013333332,
+      51.00000030555556
+    ],
+    [
+      59.20000013333332,
+      51.00000030555556
+    ]
+  ],
+  "all_axes_target_mm": [
+    59.2,
+    51.0
+  ],
+  "no_axis_dimension_reduced": true,
+  "scientific_artists_match_parent_exact": true,
+  "scientific_artists_sha256": "f953d9c0b67121c243a9e84d3436e51e3aabfd05d5587e24433a27b5da9cfe62",
+  "labels_ticks_data_fonts_lines_markers_uncertainty_preserved": true,
+  "parent_PDF_PNG_byte_exact_reproduction": {
+    "status": "PASS",
+    "outputs": {
+      "figure.pdf": {
+        "sha256": "678d0793cb1eb7944ad37b5d3d19dc7ae7839e152d19ec9d121cb065744acc9f",
+        "accepted_sha256": "678d0793cb1eb7944ad37b5d3d19dc7ae7839e152d19ec9d121cb065744acc9f",
+        "bytes_equal": true
+      },
+      "figure.png": {
+        "sha256": "743fa06cdb5bac8c32307e17ea551ffab9bb69bcaa7bcc73a729d03e3089bf94",
+        "accepted_sha256": "743fa06cdb5bac8c32307e17ea551ffab9bb69bcaa7bcc73a729d03e3089bf94",
+        "bytes_equal": true
+      }
+    },
+    "historical_paths_rebased_locally": true,
+    "external_source_reads_forbidden": true,
+    "science_runs": 0
+  },
+  "PDF_visible_xlabel_to_first_legend_bp": 15.0,
+  "PDF_last_legend_to_canvas_bottom_mm": 2.000001737806532,
+  "native_mm": [
+    155.99999559190536,
+    79.85647900899251
+  ],
+  "new_scientific_execution": 0,
+  "role_of_5_6": "Independent log boxplot class; unchanged59.2x51 physical dimensions; no transformation of observations or quartile rules",
+  "offline_render_calls_to_this_point": {
+    "old_parent_reproduction": 1,
+    "derived_generation": 1,
+    "final_strict_reproduction": 1
+  },
+  "final_PDF_PNG_reproduction_byte_exact": true,
+  "final_SVG_reproduction_byte_exact": true,
+  "final_SVG_structure_geometry_text_exact_after_ID_normalization": true,
+  "actual_native_PNG_visual_review": "PASS; five figures individually viewed through view_image, titles/labels/legends/markers and uncertainty complete without clipping"
+}

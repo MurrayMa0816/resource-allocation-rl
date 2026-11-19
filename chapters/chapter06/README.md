@@ -1,31 +1,31 @@
-# 第六章：灌溉用水分配推演
+# 第六章：灌溉用水分配
 
-89个区域、81日灌溉任务的环境、SeDVal方法及PASTA/COLA对比代码。
+89个区域、81日任务。保留SeDVal三档供水各3种子共9个端点，以及PASTA、COLA在400万立方米供水下各3个端点；共15个模型。外法采用共同DEV比较，SeDVal独立TEST、供水条件和反馈实例分别登记。
 
-- `experiment/source/hongmiao89/`：89区任务、状态、动作与环境接口。
-- `experiment/method/`：SeDVal价值预测与学习器；`experiment/execution/`、`experiment/evaluation/`：原训练与评价程序。
-- `comparison/`：PASTA/COLA灌溉适配与执行程序；两法的公共实现引用 `../chapter05/source/baselines/`。
-- `figures/`：图6.1—6.8的当前绘图源码与固定数值输入；图6.4含四阶段续图，共11个图块，三张地图共用 `figures/shared/data/`。
-- `experiment/source/_frozen/`：原科学版本绑定的物理与学习依赖；这里只保留一份。
-- `data/`：五张表的固定参数、相邻日配水、同天气供水方案和天气响应对照输入；相同物理参数仍引用 `experiment/source/`。
-- `artifacts.json`：15个端点模型、8图5表的用途和输入索引。
-
-在仓库根目录执行：
+| 目录 | 内容 |
+|---|---|
+| `environment/` | 89区环境接口与模型绑定的物理依赖源码 |
+| `algorithms/` | SeDVal学习器及PASTA/COLA任务适配；两种外法公共实现归第五章 |
+| `configs/` | 训练/评价配置、协议、依赖签名与来源许可 |
+| `data/` | 区域、原始天气、物理模型固定输入及五张表的数值 |
+| `models/` | 15个已采用固定端点，身份与路径见模型索引 |
+| `results/` | 完整训练、DEV/TEST、轨迹与最终审计，按SeDVal/PASTA/COLA分组 |
+| `scripts/` | 唯一检查入口与显式执行程序 |
+| `figures/` | 当前图6.1—6.8；图6.4由两幅成对图展示四个阶段 |
 
 ```bash
-python chapters/chapter06/run.py --help
-python chapters/chapter06/run.py inspect
-python chapters/chapter06/run.py check
+python3 chapters/chapter06/scripts/run.py inspect
+python3 chapters/chapter06/scripts/run.py check
 ```
 
-以上仅用Python标准库检查目录和原依赖哈希。执行科学程序前，按本章 `requirements.txt` 配置独立环境；PyTorch版本对应CUDA 12.1。
+这两条命令只读小源码与元数据，不加载模型或运行环境。第三方依赖见 `configs/requirements.txt`；Torch环境独立配置。
 
-模型构成为SeDVal在350/400/450万立方米供水下分别独立训练3种子，共9个；PASTA、COLA在400万供水下各3个，共6个。外部方法只作共同DEV比较，没有三法共同的新增独立TEST；不要把全部评价和轨迹汇总当成同一评价。
+科学源码按职责单份存储，`configs/source_views.json` 保存模型绑定的原逻辑路径与SHA256。原93区物理文件是当前89区模型使用的底层输入，不是另一个待运行版本。`configs/source_identity/protocol/selected_application.json` 是原签名证据，其中历史状态不代表当前仍待训练。
 
-本章已带地图固定输入、逐日配水与余额、四阶段状态、学习曲线、供水条件和天气响应数值。模型权重、原训练配置/合同及完整训练/DEV/TEST记录未发布，目前没有附件下载地址。`artifacts.json` 标注哪些输入已包含，其 `full_package_path` 相对于原完整实验包。
+需要显式执行程序时，先用 `python3 chapters/chapter06/scripts/run.py capsule --output /hy-tmp/new-run/source` 在新目录重建原字节源码胶囊，再为新运行登记配置与输出；`train/evaluate/comparison --config ...` 默认只读取配置，只有加 `--execute --source-capsule ...` 才派发原程序。已完成的原配置保留为来源，不自动恢复或重放。临时胶囊全部是普通文件，运行结束后可清理；维护包不常驻多套副本。
 
-原训练与评价入口接受 `--config`，如 `python chapters/chapter06/run.py train --config /path/to/job.json`。不加 `--execute` 只读取JSON，不保证完整原运行资料齐全；添加后才运行原程序。科学执行需原合同、配置、源绑定和数据身份；原输出根限定在 `/hy-tmp`，不能用任意新JSON代替已登记配置。绘图需用户提供原字体，保留原版式参数。
+原始数值、模型权重及DEV/TEST身份保持，不因目录重组改变。已有结果未重新训练或评价。
 
-各数值/地图图目录统一由 `plot.py` 绘制；图6.2使用 `create_drawio.py`。`--font-dir` 或 `THESIS_FIGURE_FONT_DIR` 指向原 `assets/fonts/` 根目录（含 `windows/`、`figure/`），`--output-dir` 指向新目录。`--help` 不导入科学库，不绘图。
+模型用途与唯一路径见 `models/index.json`；原结果分组见 `results/index.json`。`python3 chapters/chapter06/scripts/check.py` 核对全部登记文件，添加 `--hash` 才读取大文件逐SHA检查。图源输入由 `scripts/figure.py --number 6.1 --check` 检查，`figures/inputs/` 保存校验值唯一的当前复绘依赖。
 
-原有软件许可见 `LICENSE`，外部气象及农业数据来源见 `THIRD_PARTY_NOTICES.rst`。
+完整权重、数组和原始记录已发布在本仓库 [Release v2026.11.19](https://github.com/MurrayMa0816/resource-allocation-rl/releases/tag/v2026.11.19)。此网页目录用于浏览源码；请用根目录 `download_materials.py` 下载并还原完整包后，再运行文件完整性检查。GitHub自动生成的源码ZIP不包含Release附件。

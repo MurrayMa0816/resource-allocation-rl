@@ -1,0 +1,209 @@
+{
+  "status": "PASS",
+  "scientific_technical_conclusion": "The exact registered9freshformal training jobs may now be released under the final source/config/device/forcing contract. This is training clearance only, not result completion or TEST release.",
+  "formal_training_science_and_technical_clearance": true,
+  "TEST_release_allowed": false,
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "scientific_source_manifest_sha256": "a1642f89dd4169f9aa7893d2748aaa0c46be4b91eed34ec60118866c1f7a24cb",
+  "source_files": 140,
+  "all140_SHA_verified": true,
+  "changed_from407d_engineering140": [
+    "execution/worker_train.py"
+  ],
+  "complete_private121_identical": true,
+  "native_training_while_AST_exact_to_407d": true,
+  "operator_models_density_learner_values_initialization_unchanged": true,
+  "formal_profile_review": {
+    "strict": "validate_formal_profile runs before make_pool. LocksC90/.2/physical8/sigma1/M64,phaseformal_fixed3200,fresh6400..2,3200/128/DEV32,oneendpoint,threebudgetsandexactforcinglists.",
+    "design_binding": "Exactfinal_designSHAandfullformal_profiledictionarychecked. Source mapisverifiedbyactualworkerbeforeenvconstruction. Old.8guardremoved explicitly, notbypassed.",
+    "output_storage": "All9output/cache/log/configandfrozenexecutionpaths resolveunderHY. Actualmodels/arrays/logscannotbeplacedunderROOTbytheseconfigs. NoAdam/replay/periodiccheckpoints requested.",
+    "GPU": "All9cuda:0 logicalworkers boundtooneapproved3090UUIDbyregisteredpolicy,distinctCPU0..8. NativeCPU sampler mirrors areupdatedinplaceafterlearning;M64DEVuses thatsamereference. Measured9concurrencyengineeringiscapacityevidence,notqualityorfullrunaccelerationguarantee.",
+    "seed_partition": "Trainweather exact3200perseed,andsharedacrossbudgets;DEV32fixed;newTEST128listnotintersectingTRAIN/DEV. Onlyseedlistmetadataread,notTESToutcomes."
+  },
+  "registration": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json",
+    "sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+    "jobs": [
+      {
+        "job_id": "budget_3500000__seed6400",
+        "seed": 6400,
+        "budget_m3": 3500000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          0
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_3500000__seed6401",
+        "seed": 6401,
+        "budget_m3": 3500000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          1
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_3500000__seed6402",
+        "seed": 6402,
+        "budget_m3": 3500000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          2
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_4000000__seed6400",
+        "seed": 6400,
+        "budget_m3": 4000000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          3
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_4000000__seed6401",
+        "seed": 6401,
+        "budget_m3": 4000000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          4
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_4000000__seed6402",
+        "seed": 6402,
+        "budget_m3": 4000000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          5
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_4500000__seed6400",
+        "seed": 6400,
+        "budget_m3": 4500000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          6
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_4500000__seed6401",
+        "seed": 6401,
+        "budget_m3": 4500000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          7
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      },
+      {
+        "job_id": "budget_4500000__seed6402",
+        "seed": 6402,
+        "budget_m3": 4500000,
+        "device": "cuda",
+        "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+        "cpu_affinity": [
+          8
+        ],
+        "source_and_config_and_forcing_checks": true,
+        "all_artifacts_HY_only": true
+      }
+    ],
+    "registered_learning_steps": 2332800,
+    "registered_DEV_steps": 606528,
+    "counts_are_future_registered_not_completed": true
+  },
+  "formal_profile_zero_step_gate": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/audit/formal_profile_zero_step_gate.json",
+    "sha256": "df12aba12a95d60f9e9652c30ea3b7d148fa484dfd391cd29812db8f708f315e",
+    "status": "PASS",
+    "positive_profiles": 9,
+    "negative_profiles": 14,
+    "new_environment_steps": 0,
+    "model_forwards": 0
+  },
+  "prefix_gate_independently_read": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/audit/formal140_nonformal_prefix_gate.json",
+    "sha256": "d29252e9a3763d3577c086fb79bb1440bfb170efa594166f4d94e0083db40787",
+    "status": "PASS",
+    "all22_arrays_exact_to_previous407d_CPU6309first8": true,
+    "all_nontiming_first_update_fields_exact": true,
+    "endpoint_file_sha_verified_without_loading": "1d886df4c43b7077ac6b795d993f1162abc6e1a391a13429709633739db7c882",
+    "actual_new_engineering_learning_steps": 648,
+    "actual_new_engineering_DEV_steps": 324,
+    "actual_optimizer_steps": 4,
+    "formal_training": false,
+    "not_added_by_this_review": true
+  },
+  "adaptive_provenance": {
+    "original39_selected": null,
+    "original39_allretained": true,
+    "original_tailgate_pass_not_claimed": true,
+    "new_adoption": "ExplicitseparateadaptiveDEVapplicationexecutiondecision;lambda.2/sigma1/physical8/M64frozenbeforefreshformal3200;initial/finalM64DEVsupportdoesnotconstituteheldoutconfirmation.",
+    "fixed_endpoint": "Do notselectbestDEV/TESTcheckpoint,extendafterTEST,resamplefailedseeds,orretuneapplicationontheconfirmationpanel.",
+    "TEST": "Remainsealeduntilall9fixed3200endpoints,source/config/numericauditsandregisteredDEVqualityreview,thenexplicitrootrelease. Negativeformalresultsretained;no successguarantee."
+  },
+  "critical_source_files_sha256": {
+    "execution/worker_train.py": "9ee6ba4cd27c34193ab13034bd2b8438d397d905bfecfcac05fa266281a91b7d",
+    "execution/common.py": "95f355a903f83ba8c4f5ed978e34a28988d65e9b4fa3280cf670cf3f5a4be961",
+    "source/hongmiao89/execution_operator.py": "98e101735afd12446aa6c107a84766e363a51c171074ae3e50b858db97eaf528",
+    "source/hongmiao89/models.py": "ce0d787f288b75cd8d163beb55ef5362eae778217ed872faea4c6e4c5b6d7848",
+    "source/hongmiao89/depth_decoder.py": "72a358570b9b7575cfb5d764391541d523194fa36ea939ce9a33c6db0010a4dd",
+    "source/hongmiao89/collection.py": "34e9e79eee4fdacccdd47c73a909fe4e9a641e722e755202cebf9a6f253efa2c",
+    "method/learner.py": "8f3fa0530d1759f7dd60e24dd560916def9554646fbbfd4cbf554af5e6f9fb6e",
+    "method/values.py": "48fa64b4a355926adb3e16d58bd45760501d00e936801c1e550b40ba7759c55a",
+    "method/initialization.py": "7a6be8b0c506f27f19a4fb99c6dc56b3a19be3af26550a5ae61445a83a04aa0a"
+  },
+  "bindings": {
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6400.json": "c3bc7c6de8a6a91f113559627850b125d600bbfc148b3c30cdf73021540b9b3c",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6401.json": "6cd92a3ad5e81d98841f0670fe242215986afbbbe3da7e1c48826d3c8f6607e5",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6402.json": "fca5b70bab336e24afbe82fd5f1d584fe3e7bec14c529d82cfb15ffa6d2b728d",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6400.json": "222e17e9885240f7286d364c4dffc1437671816d633b469a55fe34f6a326d1d8",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6401.json": "64d1144ddbdc5c193fdc1609ce57a9fadfa71beaf0ba397477cb5c3c1f32f8d9",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6402.json": "603f240b80794a53012665b431a1b15cde20b14fe493967f68a5ff5ee078a61d",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6400.json": "d874f8308f11b9f1dee16c4d4a1c8cbe499477b895ee15aba45f91c9ccdea998",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6401.json": "d05af09b9f77889c2c07b2dfbf8276331bac2fa308261409c6812bb137a5ee9e",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6402.json": "78c7112d62e94565be658969216841863875b8eaf0b44d04066ce8b52a53b848",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/scientific_source_manifest.json": "a1642f89dd4169f9aa7893d2748aaa0c46be4b91eed34ec60118866c1f7a24cb",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/audit/formal_profile_zero_step_gate.json": "df12aba12a95d60f9e9652c30ea3b7d148fa484dfd391cd29812db8f708f315e",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/audit/formal140_nonformal_prefix_gate.json": "d29252e9a3763d3577c086fb79bb1440bfb170efa594166f4d94e0083db40787",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/combined_development39_selection.json": "6604e20d2e2121254287f9749bbad032a44d4aece0fc72c6284ebad409c1bc35",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/M64_production_source_independent_review.json": "23a50139014f910786d87aef16c8b594e1ebba9710eb2f87ac7ed9bc1c60c4b9",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/final_design.json": "07bda52f9462d30e8c12517631c7fb3e664b212390e1a43ed8b5f98df9a45bdd",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/selected_application.json": "115a00d5c5f44820458d1203e3dfef35cf9c88fa0d64899a52122bea38272d4a",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/application_adoption_decision.json": "0f05b4fae56f451f9fa53f3dc238d0d38b249295d887b97da9eb30f6d3dcc7a5",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/final_device_policy_all9GPU.json": "c9b5ed33c88cdc3470cd1137a677783f4164cf6583e44d04eb722652bf790793",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/formal140_nonformal_prefix8/training.npz": "97bf48ac32ca30182ca8bc829486df425fffd3c0eecc5721cf669c8bbc8d93f9",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/formal140_nonformal_prefix8/development.npz": "7a20b33f58fbc9fcd52474f58a89b329af73dc300893e93c1f9ed544a44e2c5a",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/engineering/formal140_nonformal_prefix8/updates.jsonl.gz": "0856d3579a6963fcf47a50b42665317d21d7ba387167d1d9b0b2ebe15de1e725"
+  },
+  "reviewer_new_environment_steps": 0,
+  "reviewer_new_model_loads": 0,
+  "reviewer_new_model_inferences": 0,
+  "reviewer_new_learning_updates": 0
+}

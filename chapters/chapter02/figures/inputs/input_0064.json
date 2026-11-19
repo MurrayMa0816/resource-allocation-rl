@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "number": "2.5",
+  "parent_12bp_pdf_sha256": "058bb9626c07f690052c1bd979663569a2b230ce930715f4a09094bc3c6c15e5",
+  "new_pdf_sha256": "fef0a3456ed2aa21f7b3342dc2b275da2bae8e16b5af47b97b2fd7d13fba7098",
+  "all_scientific_artist_values_styles_equal": true,
+  "PDF_text_font_size_multiset_equal": true,
+  "axis_width_height_unchanged": true,
+  "all_map_axes_and_map_patches_unchanged": null,
+  "scale_group_further_down_from_12bp": null,
+  "raw_scale_group_translation_bp": null,
+  "measured_spacing": {
+    "xlabel_to_legend_target_bp": 15,
+    "xlabel_to_legend_bp": 15.0,
+    "legend_to_file_bottom_mm": 2.000001737806532,
+    "subtitle_to_file_top_mm": 1.4999989483091565,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      80.10578549702961
+    ],
+    "xlabel_frames_bp": [
+      [
+        86.89456939697266,
+        183.11322021484375,
+        169.46414184570312,
+        194.75772094726562
+      ],
+      [
+        312.53045654296875,
+        183.11322021484375,
+        395.10003662109375,
+        194.75772094726562
+      ]
+    ],
+    "legend_frames_bp": [
+      [
+        76.51850128173828,
+        209.75772094726562,
+        151.77191162109375,
+        221.4022216796875
+      ],
+      [
+        191.6685028076172,
+        210.09371948242188,
+        244.1685028076172,
+        220.60421752929688
+      ],
+      [
+        284.0685119628906,
+        210.09371948242188,
+        326.0685119628906,
+        220.60421752929688
+      ],
+      [
+        365.968505859375,
+        210.09371948242188,
+        418.468505859375,
+        220.60421752929688
+      ]
+    ],
+    "subtitle_frames_bp": [
+      [
+        89.54300689697266,
+        4.251965522766113,
+        166.82156372070312,
+        15.896465301513672
+      ],
+      [
+        314.88201904296875,
+        4.251965522766113,
+        392.75018310546875,
+        15.896465301513672
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 28
+  },
+  "CSV_sha256": {
+    "data.csv": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5",
+    "inputs/data.csv": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5",
+    "replot_sources/parent/data.csv": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5"
+  },
+  "one_offline_render": true,
+  "second_replay_run": false,
+  "deterministic_export_settings_preserved": true,
+  "ROOT_edits": 0,
+  "thesis_builds": 0,
+  "scientific_execution": 0
+}

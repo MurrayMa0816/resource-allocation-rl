@@ -1,0 +1,78 @@
+{
+  "directory": "chapters/chapter03_intertemporal/figures/figure03-07_通信任务固定情景中的跨期资源配置",
+  "physical_directory": true,
+  "symlink_count": 0,
+  "figure_pdf_sha256": "46e05c9507a76561e1174855ad41241c01b5e51bd8e5a63e5150912b60243878",
+  "all_original_pdfs_data_drawio_bytes_preserved": false,
+  "preserved_files": {
+    "data.csv": true,
+    "period_totals.csv": true,
+    "figure.pdf": true,
+    "inputs/data.csv": true,
+    "inputs/period_totals.csv": true
+  },
+  "current_entrypoint": "plot.py",
+  "local_renderer": "replot_sources/renderer.py",
+  "data_manifest": "local_inputs_sha256.json",
+  "shared_font_directory": "assets/fonts/windows (located by walking up from this figure)",
+  "runtime_project_dependencies": "only this figure directory and thesis assets/fonts/windows",
+  "script_files": {
+    "plot.py": "8841ff7f8a809310635db336092b9d344bd61109ee8742ea273ff9413dafb236",
+    "inputs/plot_source.py": "0b0c9e8af9fdfe8f807ed315dba4be765dd870607d8173b64ed1767bf9b0a9ba",
+    "replot_sources/renderer.py": "cf4f0c4b57c8303a0cd39438be80de37fab5ad56e4439bdcb87c8f3c80c0327c"
+  },
+  "science_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inferences": 0,
+    "training_runs": 0
+  },
+  "cleanup_reaudit": "docs/figure_cleanup_reaudit_20261110/c1c2c3_deletion_receipt.json",
+  "obsolete_previews_wrappers_and_duplicate_sources_removed": true,
+  "original_scientific_data_preserved": true,
+  "native_presentation_revision": {
+    "date": "2026-11-11",
+    "role": "size restoration and visible15bp spacing",
+    "native_curve_axes_mm": [
+      125,
+      26.13563961876694
+    ],
+    "data_changed": false,
+    "fonts_changed": false,
+    "actual_ink_measurement": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-07_通信任务固定情景中的跨期资源配置/audit/actual_ink_spacing_720dpi.json"
+  },
+  "allocation_terminology_revision": {
+    "date": "2026-11-12",
+    "scope": "three visible labels only",
+    "labels": [
+      {
+        "before": "(a) 各期总投入",
+        "after": "(a) 各期分配总量",
+        "font_bp": 10.5
+      },
+      {
+        "before": "本期投入占\n初始资源（%）",
+        "after": "本期分配总量占\n初始资源（%）",
+        "font_bp": 10.5
+      },
+      {
+        "before": "对象投入占初始资源（%）",
+        "after": "对象分配量占初始资源（%）",
+        "font_bp": 10.5
+      }
+    ],
+    "data_changed": false,
+    "scientific_artists_changed": false,
+    "geometry_changed": false,
+    "font_sizes_changed": false,
+    "inputs_and_parent_bytes_preserved": true,
+    "audit": "docs/chapter3_allocation_terms_20261112/figure_term_changes.json"
+  },
+  "language_clarity_revision_20261112": {
+    "scope": "explicit radio energy and equivalent diesel allocation quota labels",
+    "canvas_and_axes_exact": true,
+    "scientific_artists_exact": true,
+    "denominator": "initial total resource budget, never current-period or remaining budget",
+    "data_changed": false
+  }
+}

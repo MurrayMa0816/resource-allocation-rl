@@ -1,0 +1,100 @@
+{
+  "schema": "chapter3-local-sealed-remote-result-transfer-v1",
+  "status": "PASS",
+  "transferred_utc": "2026-11-06T05:00:32.939390+00:00",
+  "job_id": "final__pfo__v5__seed4",
+  "kind": "evaluate_external",
+  "method": "pfo",
+  "domain": "v5",
+  "seed": 4,
+  "remote_output": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/final__pfo__v5__seed4/attempt0",
+  "remote_job_phase": "complete",
+  "remote_process_exited": true,
+  "completed_sha256": "8614843fc202d55b46005f6156d16701ce936087e20751110c8d038fe7c64c60",
+  "remote_dispatch_receipt_sha256": "8614843fc202d55b46005f6156d16701ce936087e20751110c8d038fe7c64c60",
+  "source_plan_sha256": "be34ccc89c0543dcd6fa099667c922d9f431272449642883e723028d42ba290c",
+  "remote_dispatch_state": {
+    "phase": "complete",
+    "attempt": 0,
+    "parent_output": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/main__pfo__v5__seed4/attempt0",
+    "output": "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/final__pfo__v5__seed4/attempt0",
+    "command": [
+      "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python",
+      "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/execution/worker.py",
+      "--job-id",
+      "final__pfo__v5__seed4",
+      "evaluate",
+      "--run",
+      "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/main__pfo__v5__seed4/attempt0",
+      "--output",
+      "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/jobs/final__pfo__v5__seed4/attempt0",
+      "--paths",
+      "128",
+      "--phase",
+      "final",
+      "--path-master",
+      "202611058199",
+      "--storage-profile",
+      "lean",
+      "--device",
+      "cuda",
+      "--cpu-threads",
+      "1",
+      "--data-root",
+      "/hy-tmp/resource_allocation_results/chapter3/pfo_formal_100k_5seed_20261106/data/eurosat_rgb"
+    ],
+    "spawn_requested": 1793941173.5557125,
+    "pid": 594747,
+    "boot_id": "68b72e42-4325-436f-a678-5a4f78a1387d",
+    "start_ticks": "696132438",
+    "gpu_uuid": "GPU-c63f3af4-0bfd-7b90-9034-5e1728ae51de",
+    "reserve_mib": 1024,
+    "started": 1793941173.5578074,
+    "observed_child_exitcode": 0,
+    "finished": 1793941186.6511457,
+    "receipt_sha256": "8614843fc202d55b46005f6156d16701ce936087e20751110c8d038fe7c64c60"
+  },
+  "files": [
+    {
+      "relative_path": "completed.json",
+      "sha256": "8614843fc202d55b46005f6156d16701ce936087e20751110c8d038fe7c64c60",
+      "bytes": 127829
+    },
+    {
+      "relative_path": "evaluation_arrays.npz",
+      "sha256": "617db2caedb1e7f5ec298beecc551a5c12d166d16b6328332e95b161cfbc382d",
+      "bytes": 48805
+    },
+    {
+      "relative_path": "evaluation_curve.csv.gz",
+      "sha256": "5f67b2712f60ca0a1ad89a3926ff77c732742a6ed67be7f6584fe33353102db6",
+      "bytes": 193
+    },
+    {
+      "relative_path": "evaluation_paths.csv.gz",
+      "sha256": "9fc4df6528c2420579e3b7d1de9adc546e66d7f37dcb204cd7080fae803fcd7f",
+      "bytes": 13691
+    },
+    {
+      "relative_path": "evaluation_steps.csv.gz",
+      "sha256": "8366fc93f9f5ff88a3b872e9af5f7b9c09841fb5b88f1985a9884b2cb28b4b0e",
+      "bytes": 94270
+    },
+    {
+      "relative_path": "protocol.json",
+      "sha256": "8f9056983eb6d4a7fc91ab24493bbe92dcb377b8af76ef1bfeeab7b2109bdbc3",
+      "bytes": 128052
+    },
+    {
+      "relative_path": "_remote/runtime_statistics.json",
+      "sha256": "36f70c7c1f226cd4fe5be8794f1369c4ab4c2540621b6056ae80e5963d6a67d2",
+      "bytes": 302
+    }
+  ],
+  "archive_sha256": "6e09cfa55bd95db07650c58b0738190034c8cb557761578d01d4e53b2349bc30",
+  "copied_runtime_dependencies": false,
+  "copied_images": false,
+  "remote_writes": 0,
+  "signals_sent": 0,
+  "training_control": false
+}

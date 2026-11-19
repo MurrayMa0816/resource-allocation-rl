@@ -1,0 +1,40 @@
+{
+  "algorithm": "gradient_ppo",
+  "config": {
+    "horizon": 24,
+    "rollout_steps": 2048,
+    "shared_mean": true,
+    "initial_total_std": 1.0,
+    "normalize_observation": true,
+    "normalize_reward": true,
+    "actor_lr": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_epsilon": 0.2,
+    "max_grad_norm": 0.5,
+    "adam_epsilon": 1e-05,
+    "adam_epsilon_convention": "bias_corrected_torch",
+    "metric_interval": 1,
+    "reward_scale": 1.0,
+    "critic_lr": 0.003,
+    "h_lr": 0.003,
+    "epochs": 4,
+    "minibatches": 8,
+    "sequence_length": 32,
+    "h_regularization": 1.0,
+    "reflective_beta": 0.3,
+    "next_epsilon": 0.1,
+    "value_clip": true,
+    "normalizer_only_warmup": 0,
+    "complete_transition_windows": true
+  },
+  "saved_networks": [
+    "actor"
+  ],
+  "contains_optimizer": false,
+  "contains_replay": false,
+  "contains_critic": false,
+  "native_likelihood": "raw unbounded Gaussian latent; fixed physical clip[-1,1]",
+  "architecture": "generic public shared object mean (task adaptation); native constant logstd retained",
+  "interpretation": "online development screen, not author-default numerical replication"
+}

@@ -1,0 +1,2543 @@
+{
+  "schema": "adopted-model-uses-v3",
+  "paths_relative_to": "complete package root",
+  "count": 90,
+  "models": [
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_radio_seed0/endpoint.pt.gz",
+      "sha256": "dbb63bc0662ebfe2cd2faf686987fb44a10595ab85060cbd78b498f86a1e0886",
+      "size": 7282139,
+      "method": "qpensieve",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::radio::seed0",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__radio__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_v5_seed0/endpoint.pt.gz",
+      "sha256": "2bbd60d66002a791e7a0a55ce65bbe58cf48944fbaffc73af40b9cd16ff14667",
+      "size": 6444197,
+      "method": "qpensieve",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::v5::seed0",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__v5__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_radio_seed0/endpoint.pt.gz",
+      "sha256": "521ba8c2db7386877dcbd1ec438a2ef763e3198c574a95736c07b233a0cbb250",
+      "size": 5593299,
+      "method": "cola",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::radio::seed0",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__radio__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_v5_seed0/endpoint.pt.gz",
+      "sha256": "5b79b13f9ae221349ac6d53d1dc3fdf404c10d4b2ffc9614ef416fa44ce52eaf",
+      "size": 5029214,
+      "method": "cola",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::v5::seed0",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__v5__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_radio_seed0/endpoint.pt.gz",
+      "sha256": "b39d08266886716a912d8769e1f50d49824c81345a33e1a603ffe634fec75d98",
+      "size": 1729613,
+      "method": "morld",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::radio::seed0",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__radio__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_v5_seed0/endpoint.pt.gz",
+      "sha256": "356860899d1c20b9cab17b148f9d7afe3f80ccdba1ef233ce83f070bfd4ce102",
+      "size": 1519955,
+      "method": "morld",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::v5::seed0",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__v5__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_radio_seed0/checkpoint_endpoint.pt",
+      "sha256": "ad0b80216d67c79b2feb81ca9d87a79cf62e5768657969aca75372876ef5d685",
+      "size": 205570,
+      "method": "full",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::radio::seed0",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.9"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 图5.9采用本模型seed0在共同TEST case0的对象终点分布；其余seed仅用于总体对照统计。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__radio__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_radio_seed0/checkpoint_endpoint.pt",
+      "sha256": "443b686c2dad08cb699f053d949c275cd779cebf335fb70c340c0097a117e285",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::radio::seed0",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__radio__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_radio_seed0/checkpoint_endpoint.pt",
+      "sha256": "934faa3f4facd1a861099ccc90d50a7226379af9bdd5470bad1c0efdce1f5e24",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::radio::seed0",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.9"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.9采用本模型seed0在共同TEST case0的对象终点分布；其余seed仅用于总体对照统计。 | 目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__radio__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_radio_seed0/checkpoint_endpoint.pt",
+      "sha256": "edef0d3628258f2da591e1e0315b642a050cc6f7f96d1c86e40051e67beed681",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::radio::seed0",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__radio__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_v5_seed0/checkpoint_endpoint.pt",
+      "sha256": "3152d60417a61df86e67a5691cf9ba2bc8c75f04f429e1e087fcb871ef3befc5",
+      "size": 230658,
+      "method": "full",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::v5::seed0",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.9"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 图5.9采用本模型seed0在共同TEST case0的对象终点分布；其余seed仅用于总体对照统计。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__v5__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_v5_seed0/checkpoint_endpoint.pt",
+      "sha256": "7a590cee649c3517e2750da122d1a87462588b5b49362344e0b43d336da3c53f",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::v5::seed0",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__v5__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_v5_seed0/checkpoint_endpoint.pt",
+      "sha256": "f81b49f09266825c9b88b969bc2163fa7f135527a1c2980ba17661122732dbd2",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::v5::seed0",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.9"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.9采用本模型seed0在共同TEST case0的对象终点分布；其余seed仅用于总体对照统计。 | 目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__v5__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_v5_seed0/checkpoint_endpoint.pt",
+      "sha256": "e577bc56dbac9400e8dc3a7e0ba1876e3cbc5d37c42f1ad54c0da41e6aa704f1",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::v5::seed0",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__v5__seed0/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_radio_seed0/endpoint.pt.gz",
+      "sha256": "ba33440e95d8c7431ca632f67198f1bc7b2a90651a5bc048aceac4573bd5fc07",
+      "size": 2810388,
+      "method": "capql",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::radio::seed0",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__radio__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_v5_seed0/endpoint.pt.gz",
+      "sha256": "b840a2aabfae415324ff2948c51af563c8084cd07ba35e2bf44a3d97ce2ca053",
+      "size": 2474573,
+      "method": "capql",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::v5::seed0",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__v5__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_radio_seed0/endpoint.pt.gz",
+      "sha256": "edf900ef1f26335d2bbff24a415cdefa58ea31758703ba07aea02b7f6424ccd3",
+      "size": 96851,
+      "method": "pasta",
+      "domain": "radio",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::radio::seed0",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__radio__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_v5_seed0/endpoint.pt.gz",
+      "sha256": "81ef5c022b4f34ec83608fb7a39396a3f8e2ce25d465b526962c9a20b4fc2681",
+      "size": 80794,
+      "method": "pasta",
+      "domain": "v5",
+      "seed": "0",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::v5::seed0",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__v5__seed0/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_radio_seed1/endpoint.pt.gz",
+      "sha256": "22a10d12d173726e1ad3f6533f84941538dddce90265b2a1f84cb87aec01c7af",
+      "size": 7280881,
+      "method": "qpensieve",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::radio::seed1",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__radio__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_v5_seed1/endpoint.pt.gz",
+      "sha256": "fe0adde434d6dde36f644e4d94416f8c4377e29414937f9bf6b4258af64db9ca",
+      "size": 6445218,
+      "method": "qpensieve",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::v5::seed1",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__v5__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_radio_seed1/endpoint.pt.gz",
+      "sha256": "c353113effbc77f29c002672fff2248bfe0bc0179d8d23d7073f94dc95d27878",
+      "size": 5593046,
+      "method": "cola",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::radio::seed1",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__radio__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_v5_seed1/endpoint.pt.gz",
+      "sha256": "d19f4891c5c2cdf0850b832c6b3f0555fe1e64ae7063c3bb8abb3436b82c1474",
+      "size": 5029410,
+      "method": "cola",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::v5::seed1",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__v5__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_radio_seed1/endpoint.pt.gz",
+      "sha256": "1ff36c01b72f12173207d483459ed9b8989ab6f245f894c41989af280cf9f025",
+      "size": 1729431,
+      "method": "morld",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::radio::seed1",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__radio__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_v5_seed1/endpoint.pt.gz",
+      "sha256": "58129e2e4e2a496a888b668ced289c4615c98917d05d35dad212cbfe81c1845c",
+      "size": 1520182,
+      "method": "morld",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::v5::seed1",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__v5__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_radio_seed1/checkpoint_endpoint.pt",
+      "sha256": "e36ea6beee705b12cf878eee1e63fead211528a32b2472414544586d1ebd1d7a",
+      "size": 205570,
+      "method": "full",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::radio::seed1",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__radio__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_radio_seed1/checkpoint_endpoint.pt",
+      "sha256": "ac210953ade3d56929572aff8f6314f0706bdd7147f2458ffc98dfb75e77624d",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::radio::seed1",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__radio__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_radio_seed1/checkpoint_endpoint.pt",
+      "sha256": "d8f0909e4cdb0b4aa5537680900a9f15c816170cc2dea2b639760c151924f0c7",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::radio::seed1",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__radio__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_radio_seed1/checkpoint_endpoint.pt",
+      "sha256": "95f085cd945e1a2d1454f8fdd2c619a4d2f4d04a4eaf4551e8f7b528a13dda79",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::radio::seed1",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__radio__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_v5_seed1/checkpoint_endpoint.pt",
+      "sha256": "9d97767fbaf9327a7adcdbfea4b5e82df48c340c1124fffa40d7d3dc5aab69fa",
+      "size": 230658,
+      "method": "full",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::v5::seed1",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__v5__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_v5_seed1/checkpoint_endpoint.pt",
+      "sha256": "c5658b819ca061d77c3e783d7a359346eec0418a010984c8e606764f2f69c0b3",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::v5::seed1",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__v5__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_v5_seed1/checkpoint_endpoint.pt",
+      "sha256": "ae6ce409aabc70f479e800f548970ff93a6e489458cae55b614b69961a5251ae",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::v5::seed1",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__v5__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_v5_seed1/checkpoint_endpoint.pt",
+      "sha256": "73091c09b34d764b520125d114146ce431c45896a8eea171fac9b5ae8eb0ae72",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::v5::seed1",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__v5__seed1/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_radio_seed1/endpoint.pt.gz",
+      "sha256": "9f3afdd1b9adcfa0251c5245d88165c11f1767527a3db0b4d55ad88339f2992d",
+      "size": 2810057,
+      "method": "capql",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::radio::seed1",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__radio__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_v5_seed1/endpoint.pt.gz",
+      "sha256": "731c344cc803dbf7d9956b22c1b97deffb8f54863eea07d83f50ffe7fec1a7ad",
+      "size": 2474872,
+      "method": "capql",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::v5::seed1",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__v5__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_radio_seed1/endpoint.pt.gz",
+      "sha256": "34fde47ce40485d0685fbf9b20565dd3ac74e72e509c576012dee8ced3598fcc",
+      "size": 96853,
+      "method": "pasta",
+      "domain": "radio",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::radio::seed1",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__radio__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_v5_seed1/endpoint.pt.gz",
+      "sha256": "ec333b2e1d5f7aceb8adbccd134333f305dd496094e3272a3b2f677e7d2cb120",
+      "size": 80765,
+      "method": "pasta",
+      "domain": "v5",
+      "seed": "1",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::v5::seed1",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__v5__seed1/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_radio_seed2/endpoint.pt.gz",
+      "sha256": "e3902ef80a45d5a523f1e24098d48cf3aba6bd16019711d0dad97b1588bba2e6",
+      "size": 7281575,
+      "method": "qpensieve",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::radio::seed2",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__radio__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_v5_seed2/endpoint.pt.gz",
+      "sha256": "c00a5a2796ee253b6a47b8b5580cece822747ab2310eb4edb9047aeaee5dbb55",
+      "size": 6443702,
+      "method": "qpensieve",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::v5::seed2",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__v5__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_radio_seed2/endpoint.pt.gz",
+      "sha256": "eca2f3c077cca9dbb8edc6a0802b5416207a8cc4c21b9f6b414682e5cc3b6bac",
+      "size": 5592888,
+      "method": "cola",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::radio::seed2",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__radio__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_v5_seed2/endpoint.pt.gz",
+      "sha256": "fd23d9e9f53fc4737a1d6e51e7202b461afe0ed0ad3b80d69eadd3ddd7ab0b34",
+      "size": 5028984,
+      "method": "cola",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::v5::seed2",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__v5__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_radio_seed2/endpoint.pt.gz",
+      "sha256": "319f56a9021dfc8d8ee34992f167a7e5549f41ab72c5e913feea152e507c2fbc",
+      "size": 1729578,
+      "method": "morld",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::radio::seed2",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__radio__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_v5_seed2/endpoint.pt.gz",
+      "sha256": "52a81ababe5125074d632545eeee6490d4e4bde8633f6375998863b8ab29b78f",
+      "size": 1520217,
+      "method": "morld",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::v5::seed2",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__v5__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_radio_seed2/checkpoint_endpoint.pt",
+      "sha256": "359b603f10d2c655fa7f4d86de7031984285f0a0a704c713901858842f13705c",
+      "size": 205570,
+      "method": "full",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::radio::seed2",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__radio__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_radio_seed2/checkpoint_endpoint.pt",
+      "sha256": "529c587504469e9e9552d97cae63f2cecb3f28c1c2b2a26de810546d394d575d",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::radio::seed2",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__radio__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_radio_seed2/checkpoint_endpoint.pt",
+      "sha256": "9991f25a98f3025f4e532465c8575438fc4f13a7afde42edd9a52ce984b330ba",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::radio::seed2",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__radio__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_radio_seed2/checkpoint_endpoint.pt",
+      "sha256": "cc56c617ae42297e345232f995c2d8215e14f77e2a9666cf60068f4bcc4bd033",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::radio::seed2",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__radio__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_v5_seed2/checkpoint_endpoint.pt",
+      "sha256": "0d6df98ae5f8e1654443ed28835724ad2c57b38d0b65da4edd27adb7a70b96cd",
+      "size": 230658,
+      "method": "full",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::v5::seed2",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__v5__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_v5_seed2/checkpoint_endpoint.pt",
+      "sha256": "0ed5b3f832019d3d1ef7c43ca42f8308c7ac8f6c3b87d64954ce9a1009267c94",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::v5::seed2",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__v5__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_v5_seed2/checkpoint_endpoint.pt",
+      "sha256": "a1a9454d95e43a8119bec3703e053f8e8e2caeb75a1c8b7e31a4cd0164b4a8d0",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::v5::seed2",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__v5__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_v5_seed2/checkpoint_endpoint.pt",
+      "sha256": "1a49f194a0ac95499801f0750edc7f4fb507bccb043c0f070c9f129c136934cd",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::v5::seed2",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__v5__seed2/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_radio_seed2/endpoint.pt.gz",
+      "sha256": "5bbc24ebb194433dc132830aaf37f74e9c85c26378b6c7e560cb533015850d7a",
+      "size": 2810301,
+      "method": "capql",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::radio::seed2",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__radio__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_v5_seed2/endpoint.pt.gz",
+      "sha256": "2358eb5ccd3db2b912848cdbe70caa8b36e46c19ab2d194717cb582558299d2a",
+      "size": 2474545,
+      "method": "capql",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::v5::seed2",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__v5__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_radio_seed2/endpoint.pt.gz",
+      "sha256": "6491498a15f31ac16af1418173115046b8bfb4f9c7b29a8bf32fec143c0846e5",
+      "size": 96837,
+      "method": "pasta",
+      "domain": "radio",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::radio::seed2",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__radio__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_v5_seed2/endpoint.pt.gz",
+      "sha256": "e9441be6e455a81d22f8f98ca0739d28716c42712f0c96830b547c07883479b0",
+      "size": 80797,
+      "method": "pasta",
+      "domain": "v5",
+      "seed": "2",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::v5::seed2",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__v5__seed2/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_radio_seed3/endpoint.pt.gz",
+      "sha256": "303b8464ba4340351a52c11b05fcb1986efaff9311076f260f05b19d96e77887",
+      "size": 7281877,
+      "method": "qpensieve",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::radio::seed3",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__radio__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_v5_seed3/endpoint.pt.gz",
+      "sha256": "09aacee60432b50093d0e673ed8a1991d1f2c7c4bd2ea16001ee663297891ee2",
+      "size": 6445512,
+      "method": "qpensieve",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::v5::seed3",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__v5__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_radio_seed3/endpoint.pt.gz",
+      "sha256": "ccd2def371832fce405b0b069baa106af069ece2864a2885e300533224f37a66",
+      "size": 5593104,
+      "method": "cola",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::radio::seed3",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__radio__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_v5_seed3/endpoint.pt.gz",
+      "sha256": "af4bed87dc91bb1c9c12d9d43026dda76538591ec055031ac12060c16e01bdcf",
+      "size": 5028548,
+      "method": "cola",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::v5::seed3",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__v5__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_radio_seed3/endpoint.pt.gz",
+      "sha256": "46a9a9d3b6859b74713d292819952fdb1e5b310a67b19e1e6c9887bbb282f6b5",
+      "size": 1729422,
+      "method": "morld",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::radio::seed3",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__radio__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_v5_seed3/endpoint.pt.gz",
+      "sha256": "face4ea4e04ddccc0a9626b10022b54dd740b7d9f5f3272d7c8e89879dc2e998",
+      "size": 1520488,
+      "method": "morld",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::v5::seed3",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__v5__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_radio_seed3/checkpoint_endpoint.pt",
+      "sha256": "fcf8728aa512c1e1f6ad50abe89723db8313c65b02258481e370f375851dc510",
+      "size": 205570,
+      "method": "full",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::radio::seed3",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__radio__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_radio_seed3/checkpoint_endpoint.pt",
+      "sha256": "51d5449e26d16fbc787abbc745be95b746c743d0655118d9f4ccbaea900f4725",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::radio::seed3",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__radio__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_radio_seed3/checkpoint_endpoint.pt",
+      "sha256": "95f2e04e858d7164a551ba0bd3e1345c4c74035bc92b81bbd1535ae39514257e",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::radio::seed3",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__radio__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_radio_seed3/checkpoint_endpoint.pt",
+      "sha256": "b582fcf23c44d3023fa5465b0d9d73113535e9f5a55c3ad76e62235b4104964f",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::radio::seed3",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__radio__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_v5_seed3/checkpoint_endpoint.pt",
+      "sha256": "e7fe6d91b6030531165cd24e68f85a0c6b8363922f7b6399f6ceb815e8b568c8",
+      "size": 230658,
+      "method": "full",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::v5::seed3",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__v5__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_v5_seed3/checkpoint_endpoint.pt",
+      "sha256": "d1f180f507f887bc9bdec7908b92fe5adfa48ffa8e6f0af7e342b26f357e0c0c",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::v5::seed3",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__v5__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_v5_seed3/checkpoint_endpoint.pt",
+      "sha256": "fa2dbc3f817e5e2aca55d43d8b0693b98717077dc93f07a870101097c8a4f666",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::v5::seed3",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__v5__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_v5_seed3/checkpoint_endpoint.pt",
+      "sha256": "3459f1a5e1bca0a5c8415c66b1f289ac99c55a64102d5be0e0afcba3f7d3e34f",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::v5::seed3",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__v5__seed3/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_radio_seed3/endpoint.pt.gz",
+      "sha256": "b95ce2825b3ea3343453a3e527f45fa1480e42dacb0e7d3695a1455d76aaa5e5",
+      "size": 2809696,
+      "method": "capql",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::radio::seed3",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__radio__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_v5_seed3/endpoint.pt.gz",
+      "sha256": "3276c083640f063dad47cf1fabfb2632e78944f3152ff71857e97b552ec35b33",
+      "size": 2474121,
+      "method": "capql",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::v5::seed3",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__v5__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_radio_seed3/endpoint.pt.gz",
+      "sha256": "aebad21dac6b0d872c628ee95b9ccaea1cfe891c243fac4be5d59e26b04bde2d",
+      "size": 96844,
+      "method": "pasta",
+      "domain": "radio",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::radio::seed3",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__radio__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_v5_seed3/endpoint.pt.gz",
+      "sha256": "62402eb96690c6aec495809480bc2352873f1a95e9b0069f5295ece34865c3c5",
+      "size": 80810,
+      "method": "pasta",
+      "domain": "v5",
+      "seed": "3",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::v5::seed3",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__v5__seed3/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_radio_seed4/endpoint.pt.gz",
+      "sha256": "9d8e897d575c61d9c70b28b7af4a7a4ad493f950a59d4b22ab1d81f24875458f",
+      "size": 7281605,
+      "method": "qpensieve",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::radio::seed4",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__radio__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_qpensieve_v5_seed4/endpoint.pt.gz",
+      "sha256": "5a2a8c4d0e0e29269ae18a171c8ab1c14b4c4b86c04997eddb86d77f56ac6f03",
+      "size": 6444882,
+      "method": "qpensieve",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::qpensieve::v5::seed4",
+      "paper_method": "Q-Pensieve",
+      "variant": "legacy_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/qpensieve__v5__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_radio_seed4/endpoint.pt.gz",
+      "sha256": "0b33bf29c15880514d502c30be742b6fa629a4e294536645f40d9053cb2366e5",
+      "size": 5593576,
+      "method": "cola",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::radio::seed4",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__radio__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_cola_v5_seed4/endpoint.pt.gz",
+      "sha256": "f777544ca4b2a84ac456939ae4f7a45cf0a41f77c358feb277c76ec07c3ba26e",
+      "size": 5028525,
+      "method": "cola",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::cola::v5::seed4",
+      "paper_method": "COLA",
+      "variant": "fixed_oadm",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/cola__v5__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_radio_seed4/endpoint.pt.gz",
+      "sha256": "842b9cc189ff67ca0eb64f17400b3ccd73390c3cebe735a9e7a3c43a50f78b99",
+      "size": 1729635,
+      "method": "morld",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::radio::seed4",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__radio__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_morld_v5_seed4/endpoint.pt.gz",
+      "sha256": "e390d396072c67f002165f072992101b450e7d419e3009f3a7b8fa77cf308276",
+      "size": 1520343,
+      "method": "morld",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::morld::v5::seed4",
+      "paper_method": "MORL/D",
+      "variant": "critic_lr1e4",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/morld__v5__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_radio_seed4/checkpoint_endpoint.pt",
+      "sha256": "5c771710f3e2a5859081841c73d2fe2020d10e01f951b7aa5ee10f5be3781ff0",
+      "size": 205570,
+      "method": "full",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::radio::seed4",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__radio__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_radio_seed4/checkpoint_endpoint.pt",
+      "sha256": "4b349f4da18f03d8d2138ba447e8eba72cf369d581bf1491907cd601e1bb313f",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::radio::seed4",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__radio__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_radio_seed4/checkpoint_endpoint.pt",
+      "sha256": "4e3535ac9d3259b59a1f576301573e994615c4c4b9cd20f12a187e9fbe0fdc88",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::radio::seed4",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__radio__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_radio_seed4/checkpoint_endpoint.pt",
+      "sha256": "5c4c9e54def2b23707cd61f49faa11d54a151a7d3be4bdda90ebadad7c086833",
+      "size": 205954,
+      "method": "full",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::radio::seed4",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__radio__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_full_v5_seed4/checkpoint_endpoint.pt",
+      "sha256": "03d4fc08cbb07cef9919cc445c580248d91eec65ec0b682b976b266fb5449ae8",
+      "size": 230658,
+      "method": "full",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::full::v5::seed4",
+      "paper_method": "SeDVal / Full",
+      "variant": "full",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.2.2",
+        "5.3.3.1",
+        "5.3.3.2",
+        "5.3.3.3"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。",
+      "original_model_path": "chapters/chapter05/formal/jobs/full__v5__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_c_v5_seed4/checkpoint_endpoint.pt",
+      "sha256": "fe11aeb52b1b4d101c70eee132685ecc86703e8f1d82a7b63b9886566d0d337e",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_c::v5::seed4",
+      "paper_method": "OnlyC（仅达标）",
+      "variant": "only_c",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标C，同时冻结J价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_c__v5__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_only_j_v5_seed4/checkpoint_endpoint.pt",
+      "sha256": "364ac50074a3102cd160f79d60e694d4e9720b20bf0a7743a55cb2e2877b6ed7",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::only_j::v5::seed4",
+      "paper_method": "OnlyJ（仅平均成效）",
+      "variant": "only_j",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.3.3"
+      ],
+      "paper_figures": [],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "目标J，同时冻结C价值网络；与Full差异不归因于单一监督因素。",
+      "original_model_path": "chapters/chapter05/formal/jobs/only_j__v5__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_scalar_value_v5_seed4/checkpoint_endpoint.pt",
+      "sha256": "df11509a75fee212c55ab37e708a9b97a014dcb9e921f9772656e9b7f5436316",
+      "size": 231106,
+      "method": "full",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::scalar_value::v5::seed4",
+      "paper_method": "ScalarValue（标量监督）",
+      "variant": "scalar_value",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.2"
+      ],
+      "paper_figures": [
+        "5.6"
+      ],
+      "paper_tables": [
+        "5.1"
+      ],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "图5.6来源为各自随机策略访问状态上的DEV预测残差，32情景×8次动作运行；不能称公共同状态真价值或独立TEST。 | 与Full相同策略/价值网络结构及组合目标，改变为加权标量监督；当前正文不把接近结果解释为已证实额外配置收益。",
+      "original_model_path": "chapters/chapter05/formal/jobs/scalar_value__v5__seed4/native/checkpoint_endpoint.pt"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_radio_seed4/endpoint.pt.gz",
+      "sha256": "e47be61f43478e251316b126f45cc908aff017e2038944de53cad2bd45125883",
+      "size": 2809877,
+      "method": "capql",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::radio::seed4",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__radio__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_capql_v5_seed4/endpoint.pt.gz",
+      "sha256": "0179f2b0f18d7b1ac162ee75df911c72a7e05bd6ca91008983a8d6d3a59d437b",
+      "size": 2474530,
+      "method": "capql",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::capql::v5::seed4",
+      "paper_method": "CAPQL",
+      "variant": "fixed",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/capql__v5__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_radio_seed4/endpoint.pt.gz",
+      "sha256": "7921b9057448bdb9240e527014673c2c624f00099637330bbdd27f32d8327cd4",
+      "size": 96849,
+      "method": "pasta",
+      "domain": "radio",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::radio::seed4",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__radio__seed4/endpoint.pt.gz"
+    },
+    {
+      "chapter": "chapter05",
+      "model": "chapters/chapter05/models/chapter05_pasta_v5_seed4/endpoint.pt.gz",
+      "sha256": "bed6063cfe2d1f26b9c03447a7b149936e09582140c1353ea1d1deb6ae82819e",
+      "size": 80808,
+      "method": "pasta",
+      "domain": "v5",
+      "seed": "4",
+      "role": "current_90",
+      "paper_model_id": "chapter05::pasta::v5::seed4",
+      "paper_method": "PASTA",
+      "variant": "current_recipe",
+      "paper_sections": [
+        "5.3.1",
+        "5.3.2.1",
+        "5.3.3.1",
+        "5.3.3.2"
+      ],
+      "paper_figures": [
+        "5.4",
+        "5.5",
+        "5.7",
+        "5.8"
+      ],
+      "paper_tables": [],
+      "paper_usage_status": "当前正文正式模型_多用途共用单实体",
+      "paper_usage_note": "",
+      "original_model_path": "chapters/chapter05/formal/jobs/pasta__v5__seed4/endpoint.pt.gz"
+    }
+  ]
+}

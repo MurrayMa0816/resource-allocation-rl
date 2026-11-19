@@ -1,0 +1,23 @@
+\begin{table}[H]
+ \centering
+ \captionsetup{skip=8bp,belowskip=0pt}
+ \caption{ReJoP主要训练参数表}
+ \label{tab:formal-ch3-training}
+ \begingroup\small
+ \begin{tabular}{llll}
+  \toprule
+  参数 & 取值 & 参数 & 取值 \\
+  \midrule
+  策略学习率 & \(3\times10^{-4}\) & 价值学习率 & \(10^{-3}\) \\
+  每批回合数 & 8 & 小批量大小 & 64条记录 \\
+  每批更新轮数上限 & 4 & PPO裁剪宽度 & 0.2 \\
+  策略更新早停阈值 & 0.12 & 梯度范数上限 & 0.5 \\
+  折扣因子 & 1 & 熵正则项系数 & 0 \\
+  柴油组合系数维数 & 12 & 通信组合系数维数 & 18 \\
+  组合系数标准差 & \(1/\sqrt{d_w}\) & 优化器 & Adam \\
+  总量分支结构 & \(35\to32\to1\) & \(\eta_t\)初始标准差 & 0.8 \\
+  \(\eta_t\)标准差范围 & \([0.1,1.5]\) & 本次分配的总量范围 & \([L_t,U_t]\) \\
+  \bottomrule
+ \end{tabular}
+ \endgroup
+\end{table}

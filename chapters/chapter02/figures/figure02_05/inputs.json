@@ -1,0 +1,183 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "2.5",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter02/figures/figure02_05/figure.pdf"
+  ],
+  "files": {
+    "data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0046.csv",
+      "sha256": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5",
+      "bytes": 627717
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter02/figures/figure02_05/figure.pdf",
+      "sha256": "93c9220f5f0b24d0f5af3a73df4ff9152043741e47e71f30e13009b42530d9d3",
+      "bytes": 130713
+    },
+    "figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0047.png",
+      "sha256": "ed85e722314286298437cfa0208966ceef9a2541e51ddb82761d3f71b7da873a",
+      "bytes": 331419
+    },
+    "figure.svg": {
+      "path": "chapters/chapter02/figures/inputs/input_0048.svg",
+      "sha256": "42135347433aabc5a7f5110a2543d224b6dcc6bff2be5e8da97510bb781bd254",
+      "bytes": 236759
+    },
+    "inherited_parent_render_manifest.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0049.json",
+      "sha256": "5bf21ad66c7ca883412f8fb8de8db838d3d2e0fbe3708138313da7a12a3465c8",
+      "bytes": 234314
+    },
+    "inputs/data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0046.csv",
+      "sha256": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5",
+      "bytes": 627717
+    },
+    "local_inputs_sha256.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0050.json",
+      "sha256": "d4b3511363eea00f965e1058d59fc6499d6e805709f6ff227c9f8236f7de78d9",
+      "bytes": 599
+    },
+    "local_packaging.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0051.json",
+      "sha256": "6c60844b8da64667199143f8aca8c8a6edf45fb16a2c271dbfb4705da15823da",
+      "bytes": 388
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0052.json",
+      "sha256": "20743f7113bfddcf81d498541b6aeb40112d4dcd0d38805628c54b0d269220e1",
+      "bytes": 1608240
+    },
+    "plot.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0053.py",
+      "sha256": "7e525aa908f383fe1d0721cbd963c76e0bfebb71eb951c5fb01e1c02d38fe741",
+      "bytes": 1549
+    },
+    "render_geometry.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0054.json",
+      "sha256": "8ec7c31ec792b1d4d0d02719be3835397e30a4155a6f9173163ab939c81a8935",
+      "bytes": 4217
+    },
+    "render_receipt.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0055.json",
+      "sha256": "e8b16038a9c64df67f7c221088da78f7932517c5b569f64f2ccebf81e231be88",
+      "bytes": 355
+    },
+    "replot_sources/parent/data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0046.csv",
+      "sha256": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5",
+      "bytes": 627717
+    },
+    "replot_sources/parent/figure.pdf": {
+      "path": "chapters/chapter02/figures/inputs/input_0056.pdf",
+      "sha256": "968d15369b84367c5707d61abe149667cd48b869bda5b6c3172d4956aecbbdc9",
+      "bytes": 97984
+    },
+    "replot_sources/parent/figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0057.png",
+      "sha256": "42ff614e546d64dea656eb2476864b3aac1cc396609c07f152aa4abc0b166e31",
+      "bytes": 251080
+    },
+    "replot_sources/parent/plot.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0058.py",
+      "sha256": "78a2505620f4876e6143e796aeaa9f2233f99becff754f0634e932b825fa7a9b",
+      "bytes": 5792
+    },
+    "replot_sources/parent/presentation_layout.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0032.py",
+      "sha256": "a664d7615400324ce1607bf615c4896416a759aa25a6a3e84a4bf6f2b90afcf8",
+      "bytes": 3094
+    },
+    "replot_sources/parent/source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0059.json",
+      "sha256": "9489786c9758dfad34550fab2c6ce884e0acb48466c9094620fb3cc0774ee1f0",
+      "bytes": 1367
+    },
+    "replot_sources/renderer.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0060.py",
+      "sha256": "79b475bfd130f67b9f452956b538daf52e854df0c0457771a73752a2ac79f68c",
+      "bytes": 21490
+    },
+    "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0052.json",
+      "sha256": "20743f7113bfddcf81d498541b6aeb40112d4dcd0d38805628c54b0d269220e1",
+      "bytes": 1608240
+    },
+    "rl_wording_export_evidence_20261114/render_geometry.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0054.json",
+      "sha256": "8ec7c31ec792b1d4d0d02719be3835397e30a4155a6f9173163ab939c81a8935",
+      "bytes": 4217
+    },
+    "rl_wording_export_evidence_20261114/render_receipt.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0061.json",
+      "sha256": "85b659cb07892f32bad48825af78795764013de6871e40c97f90b19c030935cc",
+      "bytes": 974
+    },
+    "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0062.json",
+      "sha256": "aa91514aa969aa4db4d908ad17a638e6e65f8dcf1f38f72dc1986e80d422e8f9",
+      "bytes": 1045
+    },
+    "source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0063.json",
+      "sha256": "9b7741a05e0908389afe9a6b1a7d2868cc4578ca7afa6c201eaeaa0690183439",
+      "bytes": 4560
+    },
+    "spacing_preservation_proof.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0064.json",
+      "sha256": "a69ac33f8f8063a6fbf6ea9630af1eb7d9c0c5b9595fba29e653ab19cf27569d",
+      "bytes": 2455
+    },
+    "wording_layer_20261119/accepted_before_wording/plot.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0065.py",
+      "sha256": "15ce7ae0dad73e79296767d788220bb826d39ba481f16889dfd4784733298db5",
+      "bytes": 1375
+    },
+    "wording_layer_20261119/end_to_end_reproduction.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0066.json",
+      "sha256": "cd21e34735a56d7ca8eb982c3202ba7d3833e2b2819d0bdb72b518e4d5dd42b7",
+      "bytes": 1968
+    },
+    "wording_layer_20261119/label_config.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0067.json",
+      "sha256": "55d801422e38d03077eac7f242a3c59fc3004aee0413133856bb1019d34323bf",
+      "bytes": 4970
+    },
+    "wording_layer_20261119/label_export.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0042.py",
+      "sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+      "bytes": 4996
+    },
+    "wording_layer_20261119/native_render_geometry.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0054.json",
+      "sha256": "8ec7c31ec792b1d4d0d02719be3835397e30a4155a6f9173163ab939c81a8935",
+      "bytes": 4217
+    },
+    "wording_layer_20261119/native_render_receipt.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0061.json",
+      "sha256": "85b659cb07892f32bad48825af78795764013de6871e40c97f90b19c030935cc",
+      "bytes": 974
+    },
+    "wording_layer_20261119/native_rl_wording_label_proof.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0062.json",
+      "sha256": "aa91514aa969aa4db4d908ad17a638e6e65f8dcf1f38f72dc1986e80d422e8f9",
+      "bytes": 1045
+    },
+    "wording_layer_20261119/svg_label_export.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0044.py",
+      "sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+      "bytes": 8977
+    },
+    "wording_layer_20261119/wording_export_20261119.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0068.json",
+      "sha256": "e7f354ee41ae4c0844f61d1add05187ba2a44bbb80780e2c585a683cefceb007",
+      "bytes": 1689
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

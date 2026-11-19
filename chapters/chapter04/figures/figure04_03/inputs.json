@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "4.3",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter04_trajectory_reuse/figures/figure04-03_完整轨迹的密度校正与终点回溯",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter04/figures/figure04_03/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter04/figures/figure04_03/figure.pdf",
+      "sha256": "48932de1713505d74a1a53830c99529b07fedbcefae296ddafc0abe39db59697",
+      "bytes": 76077
+    },
+    "figure.png": {
+      "path": "chapters/chapter04/figures/inputs/input_0010.png",
+      "sha256": "d30a5bf01b667d950df5004da3d6be9b82e31019162857bb8fa7b1594622d9da",
+      "bytes": 175213
+    },
+    "figure.svg": {
+      "path": "chapters/chapter04/figures/inputs/input_0011.svg",
+      "sha256": "f31d1441a61a3f6725599dafbc66f07c61c4ef596041572eee36bff17a3971ca",
+      "bytes": 395804
+    },
+    "source.drawio": {
+      "path": "chapters/chapter04/figures/figure04_03/source.drawio",
+      "sha256": "65369ae3c8dc15ccfc97afd779b57fe79526a33c05d4e93020e42235abe8e49e",
+      "bytes": 15395
+    },
+    "source.json": {
+      "path": "chapters/chapter04/figures/inputs/input_0013.json",
+      "sha256": "b862e5f4df67e2b5a86eefbcfe7764b2c2fa0a9b4fb74dbf5e15a1a38680daeb",
+      "bytes": 11389
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

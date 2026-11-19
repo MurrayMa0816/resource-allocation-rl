@@ -1,0 +1,431 @@
+{
+  "completed_at": "2026-11-19T08:56:52.120683+08:00",
+  "status": "complete",
+  "package_count": 9,
+  "axis_edits": 20,
+  "legend_edits": 1,
+  "scientific_runs": 0,
+  "official_build_calls": 0,
+  "global_figure_registration_calls": 0,
+  "registered_assets_modified_by_this_agent": false,
+  "packages": [
+    {
+      "figure": "2.4",
+      "package": "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111",
+      "outputs_sha256": {
+        "figure.pdf": "ba1fd189f69b4bc0933b7f9057d029cf61a6f89ca7fca7b3bbe4eb2813197e7c",
+        "figure.svg": "6dbf395c71b1e20da7997960b5f41e9167c4dbbbb3e8cec7f21ccb42f60cd2e6",
+        "figure.png": "7105b87dd7cb8a19b492738f7fa32e204b5b622edb669bc42e9508818830f6a5"
+      },
+      "plot_sha256": "251d97480c2dcca18eb78ba746f107ba2db800515de8d3a1e22e9a9fc24ae61a",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 0,
+      "png_size": [
+        1842,
+        1018
+      ],
+      "png_dpi": 300,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": null,
+      "temporary_output_trees_removed": [
+        "native_probe"
+      ]
+    },
+    {
+      "figure": "2.5",
+      "package": "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111",
+      "outputs_sha256": {
+        "figure.pdf": "93c9220f5f0b24d0f5af3a73df4ff9152043741e47e71f30e13009b42530d9d3",
+        "figure.svg": "42135347433aabc5a7f5110a2543d224b6dcc6bff2be5e8da97510bb781bd254",
+        "figure.png": "ed85e722314286298437cfa0208966ceef9a2541e51ddb82761d3f71b7da873a"
+      },
+      "plot_sha256": "7e525aa908f383fe1d0721cbd963c76e0bfebb71eb951c5fb01e1c02d38fe741",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 1,
+      "png_size": [
+        1842,
+        946
+      ],
+      "png_dpi": 300,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": "wording_layer_20261119/end_to_end_reproduction.json",
+      "temporary_output_trees_removed": [
+        "verified_export",
+        "reproduction_final"
+      ]
+    },
+    {
+      "figure": "3.4",
+      "package": "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线",
+      "outputs_sha256": {
+        "figure.pdf": "4db486897f82ab9ead8cba75b1bb9c262623e452a35ce867196d9df79627b12c",
+        "figure.svg": "5e39924d05c4bfa41f79c17ec20f676ec18a4148e0c883c550570eea3983a988",
+        "figure.png": "32aa1e33ad8530da54db5bfd14e27d2c88e765d0b6002353a92fcfbf876df709"
+      },
+      "plot_sha256": "e29b418c0cf12992f87395c22016b19a7dcd4757824ee1a3dcc5fe0a95747380",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 0,
+      "png_size": [
+        3685,
+        2008
+      ],
+      "png_dpi": 600,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": null,
+      "temporary_output_trees_removed": [
+        "verified_export"
+      ]
+    },
+    {
+      "figure": "3.5",
+      "package": "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较",
+      "outputs_sha256": {
+        "figure.pdf": "e8852698af4009835a5053a9d9e5b88de43bd31c8533ba52f214c4625dc596cc",
+        "figure.svg": "f0f9664f7d04c7c86346469a851c6892b7e84aa501adcf07e21a9b55ad602ce5",
+        "figure.png": "12bd9cd03b2085558095ff6764f6172387537c211110b5fa0bbbbf17d63858f3"
+      },
+      "plot_sha256": "cd1e06b06767a413ad752d9a7cd24abbe5a0fd896883e2e099fd103cf40c4f83",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 0,
+      "png_size": [
+        3685,
+        1973
+      ],
+      "png_dpi": 600,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": null,
+      "temporary_output_trees_removed": [
+        "verified_export"
+      ]
+    },
+    {
+      "figure": "4.4",
+      "package": "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111",
+      "outputs_sha256": {
+        "figure.pdf": "b4b1b58b5a44b5f0f875cda4058e77270a46a1162ad8cefe78fedf8cad2abf77",
+        "figure.svg": "891bb69c3dd4bea77d14555a503db2fa60d99bde10c63fc8b8fd051a86a96501",
+        "figure.png": "e4c517c906e8ac3b0e4396cac978605bc1437fa1d0e0098e0a1f82dc9aaf9645"
+      },
+      "plot_sha256": "fcf28a0496b753765682442504ef00a916fa53d9de9723077a52472fb1901c11",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 0,
+      "png_size": [
+        1842,
+        1067
+      ],
+      "png_dpi": 300,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": null,
+      "temporary_output_trees_removed": [
+        "native_probe"
+      ]
+    },
+    {
+      "figure": "4.5",
+      "package": "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111",
+      "outputs_sha256": {
+        "figure.pdf": "ed368fb26135a7004e5ad113d6dde564c4f63cb33a1c5ede7421a0f91032b70d",
+        "figure.svg": "5889107698d684f01ba57cc22121f2031d1bdd56a3778f91ac1ab8135a9e3409",
+        "figure.png": "de12f74e09322d3a7f64476c533b3d00ef54181680c8e67277aebf9044779a30"
+      },
+      "plot_sha256": "04207bdf6998aa785873276472836d72f160405515fa8afa4373d9b1754b1143",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 0,
+      "png_size": [
+        1842,
+        886
+      ],
+      "png_dpi": 300,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": null,
+      "temporary_output_trees_removed": [
+        "verified_export"
+      ]
+    },
+    {
+      "figure": "4.7",
+      "package": "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111",
+      "outputs_sha256": {
+        "figure.pdf": "deadd1e35114c5fa93d675c6c2d1bcb5749c0b72fe22b3884b7d96dd42f45dd1",
+        "figure.svg": "1760a927def7363375da710de31c0c87a46fbf4f573fad3c48e7404bb2f6e7f0",
+        "figure.png": "8a5f4c007c04793e7f21a7f607b723ed01b2481a06bb215815fe1163bfd3ca45"
+      },
+      "plot_sha256": "83e3ef78035aaf7bf3e9d33fe48f481d8bb2957240936a5f55de6c7ef61e00f9",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 0,
+      "png_size": [
+        1842,
+        1069
+      ],
+      "png_dpi": 300,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": null,
+      "temporary_output_trees_removed": [
+        "verified_export"
+      ]
+    },
+    {
+      "figure": "4.8",
+      "package": "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111",
+      "outputs_sha256": {
+        "figure.pdf": "7bb06848d37af437e1e42d7cae8cc1aae8eb9fbd1cdafa490f6fb464ec80ec79",
+        "figure.svg": "57f6765df4ec89e945808c337d5d83e27df6dbba34fbc90c12db032651264477",
+        "figure.png": "97fb55239ca7ba43e2e2e8bf586f9052ac022f74b3d7984591a538dbb620ce6c"
+      },
+      "plot_sha256": "9f5bcf57adebca0ae24f7530e4dbac509ac26f8eb58c4446457166784b34e263",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 2,
+      "legend_count": 0,
+      "png_size": [
+        1842,
+        1005
+      ],
+      "png_dpi": 300,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": null,
+      "temporary_output_trees_removed": [
+        "verified_export"
+      ]
+    },
+    {
+      "figure": "5.4",
+      "package": "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111",
+      "outputs_sha256": {
+        "figure.pdf": "137600d3e9d2f888018158049a6084fd4ca0c9aa924f41f85780b192aaab59ec",
+        "figure.svg": "05470e837af9669bf7b296b1e0d1baa498f7c556851437835716c4339a065cea",
+        "figure.png": "09e5c691f23577ec9276575b72199c659f6eec10e82b2ebe80e03302d261c1ed"
+      },
+      "plot_sha256": "4c80d15e5576fc9ecaf2184ba9c10026a54dfa72534529797989424f3a287d24",
+      "native_non_adapter_inputs_unchanged": true,
+      "approved_review_rgb_exact_at_scales": [
+        2,
+        4
+      ],
+      "axis_count": 4,
+      "legend_count": 0,
+      "png_size": [
+        1842,
+        1861
+      ],
+      "png_dpi": 300,
+      "source_metadata": "source.json",
+      "proof": "wording_layer_20261119/wording_export_20261119.json",
+      "end_to_end_reproduction_proof": "wording_layer_20261119/end_to_end_reproduction.json",
+      "temporary_output_trees_removed": [
+        "native_probe",
+        "native_probe_repaired",
+        "reproduction_final"
+      ]
+    }
+  ],
+  "necessary_reproduction_repair": "Only C5.4: existing label emission was after the comparison against already-label-updated accepted output. Moved emission before that same comparison and fixed its accepted PDF/PNG inputs explicitly. Original checks retained.",
+  "execution_detail": "All nine native renderers and original checks ran. Six first finalization calls reached approved PDF/PNG and then waited for the new SVG helper; final SVG/receipt stage was completed in place. After all helpers were installed and official outputs promoted, complete plot.py CLI reruns for 2.5 and 5.4 passed with returncode 0. Other seven use unchanged native renderer + the same tested final export helper.",
+  "data_fonts_and_non_adapter_sources_unchanged": true,
+  "cleanup_scope": "Only four named output subtrees created in this promotion, below each authorized package wording_layer_20261119; no existing figure/data/proof trees removed.",
+  "modified_preexisting_files": [
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/CONTENTS.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/figure.pdf",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/figure.png",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/figure.svg",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/plot.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/source.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/CONTENTS.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/figure.pdf",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/figure.png",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/figure.svg",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/plot.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/source.json",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/CONTENTS.json",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/figure.pdf",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/figure.png",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/figure.svg",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/plot.py",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/source.json",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/CONTENTS.json",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/figure.pdf",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/figure.png",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/figure.svg",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/plot.py",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/source.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/CONTENTS.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/figure.pdf",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/figure.png",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/figure.svg",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/source.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/CONTENTS.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/figure.pdf",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/figure.png",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/figure.svg",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/source.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/CONTENTS.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/figure.pdf",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/figure.png",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/figure.svg",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/source.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/CONTENTS.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/figure.pdf",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/figure.png",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/figure.svg",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/source.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/CONTENTS.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/figure.pdf",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/figure.png",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/figure.svg",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/plot.py",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/source.json"
+  ],
+  "new_layer_files": [
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/README.rst",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/label_config.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/label_export.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/native_probe.log",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/promotion_summary.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/README.rst",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/end_to_end_reproduction.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/label_config.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/label_export.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/reproduction.log",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/reproduction_final.log",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/README.rst",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/label_config.json",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/label_export.py",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/reproduction.log",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/README.rst",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/label_config.json",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/label_export.py",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/reproduction.log",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/README.rst",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/label_config.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/native_probe.log",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-04_恢复绘图区与15bp间距_20261111/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/README.rst",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/label_config.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/reproduction.log",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-05_达标运行数标注_20261111/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/README.rst",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/label_config.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/reproduction.log",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/README.rst",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/label_config.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/native_render_receipt.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/reproduction.log",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter04_trajectory_reuse/figures/figure04-08_恢复绘图区与15bp间距_20261111/wording_layer_20261119/wording_export_20261119.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/README.rst",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/accepted_before_wording/figure.pdf",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/accepted_before_wording/figure.png",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/accepted_before_wording/plot.py",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/end_to_end_reproduction.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/label_config.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/label_export.py",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/native_local_replot_receipt.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/native_probe.log",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/native_probe_repaired.log",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/native_render_geometry.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/native_rl_wording_label_proof.json",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/reproduction_final.log",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/svg_label_export.py",
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/wording_export_20261119.json"
+  ],
+  "first_package_aggregate_proof": "wording_layer_20261119/promotion_summary.json",
+  "writes_and_cleanup_finished": true,
+  "no_further_package_writes_planned": true
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "experiment-wording-final-export-20261119",
+  "figure": "4.7",
+  "status": "PASS",
+  "native_renderer_guards_preserved": true,
+  "native_output_checked_before_final_text_layer": true,
+  "approved_review_rgb_exact_scales": [
+    2,
+    4
+  ],
+  "canvas_fonts_axes_data_unchanged": true,
+  "axis_count": 2,
+  "legend_count": 0,
+  "svg_proof": {
+    "svg": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter04_trajectory_reuse/figures/figure04-07_区间平均指标标注_20261111/wording_layer_20261119/verified_export/figure.svg",
+    "status": "updated",
+    "mode": "editable_text",
+    "axis_edits": 2,
+    "legend_edits": 0,
+    "changed_axis_labels": 2,
+    "axis_count": 2,
+    "changed_legend_labels": 0,
+    "sha256_before": "ae1f7c4db84e32a28ff62dd2e74871119d8a266c41c94e5508a38e2d0bf8483d",
+    "sha256_after": "1760a927def7363375da710de31c0c87a46fbf4f573fad3c48e7404bb2f6e7f0",
+    "target_group_ids": [
+      "text_18",
+      "text_6"
+    ],
+    "non_target_xml_unchanged": true,
+    "all_path_geometry_unchanged": true,
+    "page_geometry_unchanged": true,
+    "editable_text_attributes_unchanged": true,
+    "glyph_groups": []
+  },
+  "png_size": [
+    1842,
+    1069
+  ],
+  "png_dpi": 300,
+  "png_rendering": "Approved vector PDF, same DPI and canvas pixel dimensions; only unpainted fractional-edge pixels omitted",
+  "outputs_sha256": {
+    "figure.pdf": "deadd1e35114c5fa93d675c6c2d1bcb5749c0b72fe22b3884b7d96dd42f45dd1",
+    "figure.svg": "1760a927def7363375da710de31c0c87a46fbf4f573fad3c48e7404bb2f6e7f0",
+    "figure.png": "8a5f4c007c04793e7f21a7f607b723ed01b2481a06bb215815fe1163bfd3ca45"
+  },
+  "scientific_execution": 0
+}

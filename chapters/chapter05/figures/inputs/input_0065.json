@@ -1,0 +1,4356 @@
+{
+  "before": [
+    {
+      "xlim": [
+        39.2050876594029,
+        77.67892178075378
+      ],
+      "ylim": [
+        0.2709334249227783,
+        0.5247537327954617
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0
+      ],
+      "yticks": [
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55
+      ],
+      "xlabel": "达标终端数",
+      "ylabel": "平均结构相似性指数",
+      "title": "(a) 通信功率分配",
+      "xticklabels": [
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "yticklabels": [
+        "0.25",
+        "0.30",
+        "0.35",
+        "0.40",
+        "0.45",
+        "0.50",
+        "0.55"
+      ],
+      "lines": [
+        {
+          "x": [
+            74.471875
+          ],
+          "y": [
+            0.5040721036854545
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "o",
+          "markersize": 5.2,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            73.0136388611258
+          ],
+          "y": [
+            0.5040721036854545
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            75.9301111388742
+          ],
+          "y": [
+            0.5040721036854545
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            74.471875
+          ],
+          "y": [
+            0.4949277612969329
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            74.471875
+          ],
+          "y": [
+            0.5132164460739761
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            41.62578125
+          ],
+          "y": [
+            0.2848222887662053
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "s",
+          "markersize": 5.2,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            40.953898301282486
+          ],
+          "y": [
+            0.2848222887662053
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            42.29766419871752
+          ],
+          "y": [
+            0.2848222887662053
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            41.62578125
+          ],
+          "y": [
+            0.2824707116442639
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            41.62578125
+          ],
+          "y": [
+            0.2871738658881467
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.3484375
+          ],
+          "y": [
+            0.29685157095663006
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "^",
+          "markersize": 5.2,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            45.594530380011356
+          ],
+          "y": [
+            0.29685157095663006
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            49.10234461998865
+          ],
+          "y": [
+            0.29685157095663006
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.3484375
+          ],
+          "y": [
+            0.28588660101000474
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.3484375
+          ],
+          "y": [
+            0.3078165409032554
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.39296875
+          ],
+          "y": [
+            0.32815255550322603
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "D",
+          "markersize": 5.2,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            50.90653001191817
+          ],
+          "y": [
+            0.32815255550322603
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            53.87940748808183
+          ],
+          "y": [
+            0.32815255550322603
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.39296875
+          ],
+          "y": [
+            0.31855473511244364
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.39296875
+          ],
+          "y": [
+            0.3377503758940084
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            50.375
+          ],
+          "y": [
+            0.3386740831825599
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "P",
+          "markersize": 5.2,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            48.31838070553559
+          ],
+          "y": [
+            0.3386740831825599
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.43161929446441
+          ],
+          "y": [
+            0.3386740831825599
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            50.375
+          ],
+          "y": [
+            0.3248204159403714
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            50.375
+          ],
+          "y": [
+            0.35252775042474843
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            46.5015625
+          ],
+          "y": [
+            0.3432377265371488
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "X",
+          "markersize": 5.2,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            45.40088480237777
+          ],
+          "y": [
+            0.3432377265371488
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.60224019762223
+          ],
+          "y": [
+            0.3432377265371488
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            46.5015625
+          ],
+          "y": [
+            0.33683093288018423
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            46.5015625
+          ],
+          "y": [
+            0.34964452019411335
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  73.0136388611258,
+                  0.5040721036854545
+                ],
+                [
+                  75.9301111388742,
+                  0.5040721036854545
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  74.471875,
+                  0.4949277612969329
+                ],
+                [
+                  74.471875,
+                  0.5132164460739761
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  40.953898301282486,
+                  0.2848222887662053
+                ],
+                [
+                  42.29766419871752,
+                  0.2848222887662053
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  41.62578125,
+                  0.2824707116442639
+                ],
+                [
+                  41.62578125,
+                  0.2871738658881467
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  45.594530380011356,
+                  0.29685157095663006
+                ],
+                [
+                  49.10234461998865,
+                  0.29685157095663006
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  47.3484375,
+                  0.28588660101000474
+                ],
+                [
+                  47.3484375,
+                  0.3078165409032554
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  50.90653001191817,
+                  0.32815255550322603
+                ],
+                [
+                  53.87940748808183,
+                  0.32815255550322603
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  52.39296875,
+                  0.31855473511244364
+                ],
+                [
+                  52.39296875,
+                  0.3377503758940084
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  48.31838070553559,
+                  0.3386740831825599
+                ],
+                [
+                  52.43161929446441,
+                  0.3386740831825599
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  50.375,
+                  0.3248204159403714
+                ],
+                [
+                  50.375,
+                  0.35252775042474843
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  45.40088480237777,
+                  0.3432377265371488
+                ],
+                [
+                  47.60224019762223,
+                  0.3432377265371488
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  46.5015625,
+                  0.33683093288018423
+                ],
+                [
+                  46.5015625,
+                  0.34964452019411335
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": [],
+      "texts": []
+    },
+    {
+      "xlim": [
+        64.07476305387686,
+        97.5855675643825
+      ],
+      "ylim": [
+        65.22787295970164,
+        79.90739572379289
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0
+      ],
+      "yticks": [
+        65.0,
+        67.5,
+        70.0,
+        72.5,
+        75.0,
+        77.5,
+        80.0
+      ],
+      "xlabel": "达标区域数",
+      "ylabel": "平均需求完成比例（%）",
+      "title": "(b) 应急柴油分配",
+      "xticklabels": [
+        "60",
+        "70",
+        "80",
+        "90",
+        "100"
+      ],
+      "yticklabels": [
+        "65.0",
+        "67.5",
+        "70.0",
+        "72.5",
+        "75.0",
+        "77.5",
+        "80.0"
+      ],
+      "lines": [
+        {
+          "x": [
+            93.90546875
+          ],
+          "y": [
+            76.94456695090929
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "o",
+          "markersize": 5.2,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            91.74858832245866
+          ],
+          "y": [
+            76.94456695090929
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            96.06234917754134
+          ],
+          "y": [
+            76.94456695090929
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            93.90546875
+          ],
+          "y": [
+            76.55657131703374
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            93.90546875
+          ],
+          "y": [
+            77.33256258478484
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            82.57265625
+          ],
+          "y": [
+            77.16512434690428
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "s",
+          "markersize": 5.2,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            81.7617513027367
+          ],
+          "y": [
+            77.16512434690428
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            83.38356119726329
+          ],
+          "y": [
+            77.16512434690428
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            82.57265625
+          ],
+          "y": [
+            76.9340638583457
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            82.57265625
+          ],
+          "y": [
+            77.39618483546286
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.721875
+          ],
+          "y": [
+            70.03189827351412
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "^",
+          "markersize": 5.2,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            79.80476685231966
+          ],
+          "y": [
+            70.03189827351412
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            83.63898314768034
+          ],
+          "y": [
+            70.03189827351412
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.721875
+          ],
+          "y": [
+            68.35089618350996
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.721875
+          ],
+          "y": [
+            71.71290036351827
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            86.11171875
+          ],
+          "y": [
+            73.91540669031937
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "D",
+          "markersize": 5.2,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            84.04165943470305
+          ],
+          "y": [
+            73.91540669031937
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            88.18177806529694
+          ],
+          "y": [
+            73.91540669031937
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            86.11171875
+          ],
+          "y": [
+            73.19754307652681
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            86.11171875
+          ],
+          "y": [
+            74.63327030411193
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            76.8390625
+          ],
+          "y": [
+            72.56763434174727
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "P",
+          "markersize": 5.2,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            65.59798144071803
+          ],
+          "y": [
+            72.56763434174727
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            88.08014355928196
+          ],
+          "y": [
+            72.56763434174727
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            76.8390625
+          ],
+          "y": [
+            65.89512399443306
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            76.8390625
+          ],
+          "y": [
+            79.24014468906147
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.13984375
+          ],
+          "y": [
+            74.71540139450977
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "X",
+          "markersize": 5.2,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            79.08504225898426
+          ],
+          "y": [
+            74.71540139450977
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            83.19464524101573
+          ],
+          "y": [
+            74.71540139450977
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.13984375
+          ],
+          "y": [
+            73.3414154678652
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.13984375
+          ],
+          "y": [
+            76.08938732115433
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  91.74858832245866,
+                  76.94456695090929
+                ],
+                [
+                  96.06234917754134,
+                  76.94456695090929
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  93.90546875,
+                  76.55657131703374
+                ],
+                [
+                  93.90546875,
+                  77.33256258478484
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  81.7617513027367,
+                  77.16512434690428
+                ],
+                [
+                  83.38356119726329,
+                  77.16512434690428
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  82.57265625,
+                  76.9340638583457
+                ],
+                [
+                  82.57265625,
+                  77.39618483546286
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  79.80476685231966,
+                  70.03189827351412
+                ],
+                [
+                  83.63898314768034,
+                  70.03189827351412
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  81.721875,
+                  68.35089618350996
+                ],
+                [
+                  81.721875,
+                  71.71290036351827
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  84.04165943470305,
+                  73.91540669031937
+                ],
+                [
+                  88.18177806529694,
+                  73.91540669031937
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  86.11171875,
+                  73.19754307652681
+                ],
+                [
+                  86.11171875,
+                  74.63327030411193
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  65.59798144071803,
+                  72.56763434174727
+                ],
+                [
+                  88.08014355928196,
+                  72.56763434174727
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  76.8390625,
+                  65.89512399443306
+                ],
+                [
+                  76.8390625,
+                  79.24014468906147
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  79.08504225898426,
+                  74.71540139450977
+                ],
+                [
+                  83.19464524101573,
+                  74.71540139450977
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  81.13984375,
+                  73.3414154678652
+                ],
+                [
+                  81.13984375,
+                  76.08938732115433
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": [],
+      "texts": []
+    }
+  ],
+  "after": [
+    {
+      "xlim": [
+        39.2050876594029,
+        77.67892178075378
+      ],
+      "ylim": [
+        0.2709334249227783,
+        0.5247537327954617
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0
+      ],
+      "yticks": [
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55
+      ],
+      "xlabel": "达标终端数",
+      "ylabel": "平均结构相似性指数",
+      "title": "(a) 通信功率分配",
+      "xticklabels": [
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "yticklabels": [
+        "0.25",
+        "0.30",
+        "0.35",
+        "0.40",
+        "0.45",
+        "0.50",
+        "0.55"
+      ],
+      "lines": [
+        {
+          "x": [
+            74.471875
+          ],
+          "y": [
+            0.5040721036854545
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "o",
+          "markersize": 5.2,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            73.0136388611258
+          ],
+          "y": [
+            0.5040721036854545
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            75.9301111388742
+          ],
+          "y": [
+            0.5040721036854545
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            74.471875
+          ],
+          "y": [
+            0.4949277612969329
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            74.471875
+          ],
+          "y": [
+            0.5132164460739761
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            41.62578125
+          ],
+          "y": [
+            0.2848222887662053
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "s",
+          "markersize": 5.2,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            40.953898301282486
+          ],
+          "y": [
+            0.2848222887662053
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            42.29766419871752
+          ],
+          "y": [
+            0.2848222887662053
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            41.62578125
+          ],
+          "y": [
+            0.2824707116442639
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            41.62578125
+          ],
+          "y": [
+            0.2871738658881467
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.3484375
+          ],
+          "y": [
+            0.29685157095663006
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "^",
+          "markersize": 5.2,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            45.594530380011356
+          ],
+          "y": [
+            0.29685157095663006
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            49.10234461998865
+          ],
+          "y": [
+            0.29685157095663006
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.3484375
+          ],
+          "y": [
+            0.28588660101000474
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.3484375
+          ],
+          "y": [
+            0.3078165409032554
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.39296875
+          ],
+          "y": [
+            0.32815255550322603
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "D",
+          "markersize": 5.2,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            50.90653001191817
+          ],
+          "y": [
+            0.32815255550322603
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            53.87940748808183
+          ],
+          "y": [
+            0.32815255550322603
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.39296875
+          ],
+          "y": [
+            0.31855473511244364
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.39296875
+          ],
+          "y": [
+            0.3377503758940084
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            50.375
+          ],
+          "y": [
+            0.3386740831825599
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "P",
+          "markersize": 5.2,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            48.31838070553559
+          ],
+          "y": [
+            0.3386740831825599
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            52.43161929446441
+          ],
+          "y": [
+            0.3386740831825599
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            50.375
+          ],
+          "y": [
+            0.3248204159403714
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            50.375
+          ],
+          "y": [
+            0.35252775042474843
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            46.5015625
+          ],
+          "y": [
+            0.3432377265371488
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "X",
+          "markersize": 5.2,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            45.40088480237777
+          ],
+          "y": [
+            0.3432377265371488
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            47.60224019762223
+          ],
+          "y": [
+            0.3432377265371488
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            46.5015625
+          ],
+          "y": [
+            0.33683093288018423
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            46.5015625
+          ],
+          "y": [
+            0.34964452019411335
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  73.0136388611258,
+                  0.5040721036854545
+                ],
+                [
+                  75.9301111388742,
+                  0.5040721036854545
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  74.471875,
+                  0.4949277612969329
+                ],
+                [
+                  74.471875,
+                  0.5132164460739761
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  40.953898301282486,
+                  0.2848222887662053
+                ],
+                [
+                  42.29766419871752,
+                  0.2848222887662053
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  41.62578125,
+                  0.2824707116442639
+                ],
+                [
+                  41.62578125,
+                  0.2871738658881467
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  45.594530380011356,
+                  0.29685157095663006
+                ],
+                [
+                  49.10234461998865,
+                  0.29685157095663006
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  47.3484375,
+                  0.28588660101000474
+                ],
+                [
+                  47.3484375,
+                  0.3078165409032554
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  50.90653001191817,
+                  0.32815255550322603
+                ],
+                [
+                  53.87940748808183,
+                  0.32815255550322603
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  52.39296875,
+                  0.31855473511244364
+                ],
+                [
+                  52.39296875,
+                  0.3377503758940084
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  48.31838070553559,
+                  0.3386740831825599
+                ],
+                [
+                  52.43161929446441,
+                  0.3386740831825599
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  50.375,
+                  0.3248204159403714
+                ],
+                [
+                  50.375,
+                  0.35252775042474843
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  45.40088480237777,
+                  0.3432377265371488
+                ],
+                [
+                  47.60224019762223,
+                  0.3432377265371488
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  46.5015625,
+                  0.33683093288018423
+                ],
+                [
+                  46.5015625,
+                  0.34964452019411335
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": [],
+      "texts": []
+    },
+    {
+      "xlim": [
+        64.07476305387686,
+        97.5855675643825
+      ],
+      "ylim": [
+        65.22787295970164,
+        79.90739572379289
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0
+      ],
+      "yticks": [
+        65.0,
+        67.5,
+        70.0,
+        72.5,
+        75.0,
+        77.5,
+        80.0
+      ],
+      "xlabel": "达标区域数",
+      "ylabel": "平均需求完成比例（%）",
+      "title": "(b) 应急柴油分配",
+      "xticklabels": [
+        "60",
+        "70",
+        "80",
+        "90",
+        "100"
+      ],
+      "yticklabels": [
+        "65.0",
+        "67.5",
+        "70.0",
+        "72.5",
+        "75.0",
+        "77.5",
+        "80.0"
+      ],
+      "lines": [
+        {
+          "x": [
+            93.90546875
+          ],
+          "y": [
+            76.94456695090929
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "o",
+          "markersize": 5.2,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            91.74858832245866
+          ],
+          "y": [
+            76.94456695090929
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            96.06234917754134
+          ],
+          "y": [
+            76.94456695090929
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            93.90546875
+          ],
+          "y": [
+            76.55657131703374
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            93.90546875
+          ],
+          "y": [
+            77.33256258478484
+          ],
+          "color": "#154f80",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#154f80",
+          "mec": "#154f80",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            82.57265625
+          ],
+          "y": [
+            77.16512434690428
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "s",
+          "markersize": 5.2,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            81.7617513027367
+          ],
+          "y": [
+            77.16512434690428
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            83.38356119726329
+          ],
+          "y": [
+            77.16512434690428
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            82.57265625
+          ],
+          "y": [
+            76.9340638583457
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            82.57265625
+          ],
+          "y": [
+            77.39618483546286
+          ],
+          "color": "#dd873a",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#dd873a",
+          "mec": "#dd873a",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.721875
+          ],
+          "y": [
+            70.03189827351412
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "^",
+          "markersize": 5.2,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            79.80476685231966
+          ],
+          "y": [
+            70.03189827351412
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            83.63898314768034
+          ],
+          "y": [
+            70.03189827351412
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.721875
+          ],
+          "y": [
+            68.35089618350996
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.721875
+          ],
+          "y": [
+            71.71290036351827
+          ],
+          "color": "#319664",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#319664",
+          "mec": "#319664",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            86.11171875
+          ],
+          "y": [
+            73.91540669031937
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "D",
+          "markersize": 5.2,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            84.04165943470305
+          ],
+          "y": [
+            73.91540669031937
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            88.18177806529694
+          ],
+          "y": [
+            73.91540669031937
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            86.11171875
+          ],
+          "y": [
+            73.19754307652681
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            86.11171875
+          ],
+          "y": [
+            74.63327030411193
+          ],
+          "color": "#9368a6",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#9368a6",
+          "mec": "#9368a6",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            76.8390625
+          ],
+          "y": [
+            72.56763434174727
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "P",
+          "markersize": 5.2,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            65.59798144071803
+          ],
+          "y": [
+            72.56763434174727
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            88.08014355928196
+          ],
+          "y": [
+            72.56763434174727
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            76.8390625
+          ],
+          "y": [
+            65.89512399443306
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            76.8390625
+          ],
+          "y": [
+            79.24014468906147
+          ],
+          "color": "#c9494d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#c9494d",
+          "mec": "#c9494d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.13984375
+          ],
+          "y": [
+            74.71540139450977
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "X",
+          "markersize": 5.2,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3.1
+        },
+        {
+          "x": [
+            79.08504225898426
+          ],
+          "y": [
+            74.71540139450977
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            83.19464524101573
+          ],
+          "y": [
+            74.71540139450977
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "|",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.13984375
+          ],
+          "y": [
+            73.3414154678652
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        },
+        {
+          "x": [
+            81.13984375
+          ],
+          "y": [
+            76.08938732115433
+          ],
+          "color": "#498f9d",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 5.0,
+          "mfc": "#498f9d",
+          "mec": "#498f9d",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 3
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  91.74858832245866,
+                  76.94456695090929
+                ],
+                [
+                  96.06234917754134,
+                  76.94456695090929
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  93.90546875,
+                  76.55657131703374
+                ],
+                [
+                  93.90546875,
+                  77.33256258478484
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.08235294117647059,
+              0.30980392156862746,
+              0.5019607843137255,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  81.7617513027367,
+                  77.16512434690428
+                ],
+                [
+                  83.38356119726329,
+                  77.16512434690428
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  82.57265625,
+                  76.9340638583457
+                ],
+                [
+                  82.57265625,
+                  77.39618483546286
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.8666666666666667,
+              0.5294117647058824,
+              0.22745098039215686,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  79.80476685231966,
+                  70.03189827351412
+                ],
+                [
+                  83.63898314768034,
+                  70.03189827351412
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  81.721875,
+                  68.35089618350996
+                ],
+                [
+                  81.721875,
+                  71.71290036351827
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.19215686274509805,
+              0.5882352941176471,
+              0.39215686274509803,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  84.04165943470305,
+                  73.91540669031937
+                ],
+                [
+                  88.18177806529694,
+                  73.91540669031937
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  86.11171875,
+                  73.19754307652681
+                ],
+                [
+                  86.11171875,
+                  74.63327030411193
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.5764705882352941,
+              0.40784313725490196,
+              0.6509803921568628,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  65.59798144071803,
+                  72.56763434174727
+                ],
+                [
+                  88.08014355928196,
+                  72.56763434174727
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  76.8390625,
+                  65.89512399443306
+                ],
+                [
+                  76.8390625,
+                  79.24014468906147
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.788235294117647,
+              0.28627450980392155,
+              0.30196078431372547,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  79.08504225898426,
+                  74.71540139450977
+                ],
+                [
+                  83.19464524101573,
+                  74.71540139450977
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  81.13984375,
+                  73.3414154678652
+                ],
+                [
+                  81.13984375,
+                  76.08938732115433
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.28627450980392155,
+              0.5607843137254902,
+              0.615686274509804,
+              1.0
+            ]
+          ],
+          "lw": [
+            0.85
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": [],
+      "texts": []
+    }
+  ],
+  "before_sha256": "8f24bd88bea696641b57b5d235dc40aa27b362bd9ab13d0c43a4ccb8f9f70c68",
+  "after_sha256": "8f24bd88bea696641b57b5d235dc40aa27b362bd9ab13d0c43a4ccb8f9f70c68"
+}

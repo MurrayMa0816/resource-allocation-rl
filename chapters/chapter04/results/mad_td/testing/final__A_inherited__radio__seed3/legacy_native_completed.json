@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "method": "A_inherited",
+  "domain": "radio",
+  "seed": 3,
+  "phase": "final",
+  "cases": 256,
+  "mean": 0.4872962207898469,
+  "std": 0.10389184763882704,
+  "first8_mean": 0.5096580396112234,
+  "new_training_steps": 0,
+  "evaluation_steps": 8192,
+  "replay_environment_steps": 8192,
+  "physical_environment_steps": 16384,
+  "maximum_resource_fraction_error": 4.440892098500626e-16,
+  "strict_reload": true,
+  "deterministic": true,
+  "elapsed_seconds": 142.84168077260256,
+  "source_model": "/hy-tmp/resource_allocation_results/chapter3/double_random_formal_20261107/jobs/train__A_FULL__radio__seed3/attempt0/model/state.pt",
+  "source_model_sha256": "cd33027d70b4b3c0c4cae706d8949c9cf6c2d9b5f990893eb20f4701b7eb4216",
+  "worker_sha256": "9764cd1cecae9e5938118c4f7c52c84e8a0036fbbcbfa4aae37c8528b84081bd",
+  "artifacts_sha256": {
+    "protocol.json": "bc16f7048bf22d1e9e61fee3d460252e2517f661adb9b56034bddb9595d02473",
+    "evaluation_paths.csv.gz": "0412f89e0dc7a08cf2c94eb41d9a88ffcd1274f22f6a36f30a597c328ec32035",
+    "allocation_example.npz": "0f8b4a358e82054db0ad9d6592282b60512774604cf1dc405035d6a77e749a03"
+  }
+}

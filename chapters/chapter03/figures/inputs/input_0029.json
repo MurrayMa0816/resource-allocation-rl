@@ -1,0 +1,884 @@
+{
+  "figure_inches": [
+    6.141732283464567,
+    3.543307086614173
+  ],
+  "canvas_px": [
+    1474.015748031496,
+    850.3937007874016
+  ],
+  "dpi": 240,
+  "texts": [
+    {
+      "key": "ax0.xlabel",
+      "text": "训练步数（×10³）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        265.90914534120736,
+        641.5682086614173,
+        541.1591453412074,
+        674.2088336614173
+      ]
+    },
+    {
+      "key": "ax0.ylabel",
+      "text": "平均图像质量得分",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        36.19687500000003,
+        190.86952099737528,
+        69.21250000000003,
+        470.8695209973753
+      ]
+    },
+    {
+      "key": "ax0.title",
+      "text": "(a) 通信功率分配",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        274.78414534120736,
+        29.056249999999977,
+        532.2841453412074,
+        65.27499999999998
+      ]
+    },
+    {
+      "key": "ax0.xtick0.1",
+      "text": "0",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        132.1291666666667,
+        597.234875328084,
+        149.6291666666667,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax0.xtick1.1",
+      "text": "25",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        253.91301023504127,
+        597.234875328084,
+        288.91301023504127,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax0.xtick2.1",
+      "text": "50",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        384.44685380341593,
+        597.234875328084,
+        419.44685380341593,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax0.xtick3.1",
+      "text": "75",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        514.9806973717905,
+        597.234875328084,
+        549.9806973717905,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax0.xtick4.1",
+      "text": "100",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        636.7020409401651,
+        597.234875328084,
+        689.3270409401651,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax0.ytick0.1",
+      "text": "24",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        82.54583333333336,
+        490.25095989225696,
+        117.54583333333336,
+        521.250959892257
+      ]
+    },
+    {
+      "key": "ax0.ytick1.1",
+      "text": "30",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        82.54583333333336,
+        390.93997719669517,
+        117.54583333333336,
+        421.93997719669517
+      ]
+    },
+    {
+      "key": "ax0.ytick2.1",
+      "text": "36",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        82.54583333333336,
+        291.6289945011333,
+        117.54583333333336,
+        322.6289945011333
+      ]
+    },
+    {
+      "key": "ax0.ytick3.1",
+      "text": "42",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        82.54583333333336,
+        192.3180118055716,
+        117.54583333333336,
+        223.3180118055716
+      ]
+    },
+    {
+      "key": "ax0.ytick4.1",
+      "text": "48",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        82.54583333333336,
+        93.00702911000974,
+        117.54583333333336,
+        124.00702911000974
+      ]
+    },
+    {
+      "key": "ax1.xlabel",
+      "text": "训练步数（×10³）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        984.1857693569555,
+        641.5682086614173,
+        1259.4357693569555,
+        674.2088336614173
+      ]
+    },
+    {
+      "key": "ax1.ylabel",
+      "text": "平均需求完成比例（%）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        754.8016240157481,
+        141.24452099737528,
+        787.4891240157481,
+        520.4945209973753
+      ]
+    },
+    {
+      "key": "ax1.title",
+      "text": "(b) 应急柴油分配",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        992.0607693569555,
+        28.837499999999977,
+        1251.5607693569555,
+        65.27499999999998
+      ]
+    },
+    {
+      "key": "ax1.xtick0.1",
+      "text": "0",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        850.4057906824148,
+        597.234875328084,
+        867.9057906824148,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax1.xtick1.1",
+      "text": "25",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        972.1896342507894,
+        597.234875328084,
+        1007.1896342507894,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax1.xtick2.1",
+      "text": "50",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        1102.7234778191641,
+        597.234875328084,
+        1137.7234778191641,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax1.xtick3.1",
+      "text": "75",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        1233.2573213875387,
+        597.234875328084,
+        1268.2573213875387,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax1.xtick4.1",
+      "text": "100",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        1354.9786649559132,
+        597.234875328084,
+        1407.6036649559132,
+        628.234875328084
+      ]
+    },
+    {
+      "key": "ax1.ytick0.1",
+      "text": "56",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        800.8224573490814,
+        486.0591495310087,
+        835.8224573490814,
+        517.0591495310086
+      ]
+    },
+    {
+      "key": "ax1.ytick1.1",
+      "text": "64",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        800.8224573490814,
+        364.9950401941167,
+        835.8224573490814,
+        395.9950401941167
+      ]
+    },
+    {
+      "key": "ax1.ytick2.1",
+      "text": "72",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        800.8224573490814,
+        243.93093085722478,
+        835.8224573490814,
+        274.9309308572248
+      ]
+    },
+    {
+      "key": "ax1.ytick3.1",
+      "text": "80",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        800.8224573490814,
+        122.86682152033279,
+        835.8224573490814,
+        153.8668215203328
+      ]
+    },
+    {
+      "key": "legend0.0",
+      "text": "ReJoP（本文）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        297.07037401574803,
+        742.0903297244095,
+        526.445374015748,
+        774.3872047244095
+      ]
+    },
+    {
+      "key": "legend0.1",
+      "text": "C-PPO",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        297.07037401574803,
+        792.3872047244095,
+        396.32037401574803,
+        823.3872047244095
+      ]
+    },
+    {
+      "key": "legend0.2",
+      "text": "PFO",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        694.445374015748,
+        743.3872047244095,
+        758.695374015748,
+        774.3872047244095
+      ]
+    },
+    {
+      "key": "legend0.3",
+      "text": "Gradient PPO",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        694.445374015748,
+        792.3872047244095,
+        890.070374015748,
+        823.3872047244095
+      ]
+    },
+    {
+      "key": "legend0.4",
+      "text": "Reflective PPO",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        1058.070374015748,
+        743.3872047244095,
+        1274.945374015748,
+        774.3872047244095
+      ]
+    },
+    {
+      "key": "legend0.5",
+      "text": "PPO+",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "box": [
+        1058.070374015748,
+        792.3872047244095,
+        1141.945374015748,
+        823.3872047244095
+      ]
+    }
+  ],
+  "science": [
+    {
+      "position": [
+        0.0955750756766382,
+        0.3251342978395062,
+        0.3563801526887464,
+        0.5715753086419753
+      ],
+      "xlim": [
+        0.0,
+        100608.0
+      ],
+      "ylim": [
+        19.67113846881535,
+        49.03731905438755
+      ],
+      "lines": [
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "4d696610d99a002d9da95563baf6ab829576c436c32698922c20e03c7354ba33"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "85bf85fc423d54cf7b9aa18a581781e787b4bf28133eced7c8748d9a6f5cdd8c"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "34a0c91375e23eaf8bb9b375740dc02f577cfc31165720f652a4c982a6b0a5f8"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "917853f43d7fad209703106780657e4779b133dce3674cbe52730ce9db384f11"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "312bdf65b4f864a3c608924e67f5579fb7296bc920cb02f7872033ca832cc68c"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "936fa680f09300c95b1f6c6ababbba43ef0a3db9c95b8d6a4bbce476c60b7c23"
+        }
+      ],
+      "collections": [
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "0d32ca6172cf29e3f891dd7b194e6f6860b56e1c146c0b6e667e39f062ed0c06"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "b87753ef71c507034a6ac6363556b279a967dcc705705f8689a798ed19bebd21"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "760c6cb65f721db93543b5eeba5ba91951c1a9e8876e6c8a0071f903be13dc5b"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "b90bf903b2101af2541fd4c9bbbcf16473cfde72fc997d97743aaecb59098eb6"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "d5590c0e401461a00c0c7dd91f48684f0d2bdb629367afadd657d7d3256a2d01"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "bcee07be52543554654d7ecd2efcacd56f509cb4fd4a562ca9800b8c58694f4c"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ]
+      ],
+      "images": []
+    },
+    {
+      "position": [
+        0.5828674434650998,
+        0.3251342978395062,
+        0.35638015268874645,
+        0.5715753086419753
+      ],
+      "xlim": [
+        0.0,
+        100608.0
+      ],
+      "ylim": [
+        50.98828229907901,
+        83.10773006321546
+      ],
+      "lines": [
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "2bd0c90fa589dddf4c1b1902e3a56e7f3156817deeda5158f04b7c712c6a2d47"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "83b70c0c2cd149c7307e9747d81edd0623525b463a846bf6888ad2dac69f965a"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "9c5316f2c8173ed96d75f1bff48de3b2ccc3be5b34413b08994dfeee70ad641a"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "102d33a63cdb5aafa8c1bc9d20578d995ff51ae25aa057590aa4474414f7e779"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "954ee9e038fdf23d7c7f607a4ba7ea099aea3ed34eed971274d01bd57ac0bb78"
+        },
+        {
+          "shape": [
+            198,
+            2
+          ],
+          "dtype": "float64",
+          "sha256": "ef9a4dc28d771b6fa2a57f55714f8014fa4c21e587e291ba0e6494979104a2fe"
+        }
+      ],
+      "collections": [
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "f70f09859ae7a32b248cec5118175284178aad2116611bad690d4b1429953521"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "3a2c300ce5f518ca0a1d9c48c388ca8aa5e17d24a8d453069614765cfe32fb56"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "11d5bd18cb13e304f8b16cb7bd94554cdc162115f190a69c0244af85fe470ce6"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "2fc064d0dee61c838b76d13cd21f82265079d0a935aa6c9bc2b208117dd0cabb"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "8cd756120b6026bf1c96b9b196c5035e97ccd7e6edda7ce52b6c70d143923440"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ],
+        [
+          {
+            "vertices": {
+              "shape": [
+                399,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "fd2e4e7c4366dc07d451933d85a0554afdf72897908762ea6698c99cd96cbfc4"
+            },
+            "codes": {
+              "shape": [
+                399
+              ],
+              "dtype": "uint8",
+              "sha256": "6dce9baeb9edb917ba4e037a8f143feebc6c35d128cbe2d945886c07c21e17c7"
+            }
+          }
+        ]
+      ],
+      "images": []
+    }
+  ],
+  "science_geometry_sha256": "6f654416bafaacd804a0ad5f3a9fb50f2a1943d76d1de589703df39c116a61d7",
+  "spacing": {
+    "xlabel_to_legend_pt": 17.701948818897637,
+    "legend_ink_to_canvas_bottom_pt": 8.101948818897638,
+    "legend_to_caption_estimate_pt": 17.701948818897637,
+    "caption_extra_pt": 9.6
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "reasonable89-execution-stage-adoption-plan-v1",
+  "status": "PROSPECTIVE_CONDITIONAL_PLAN_BEFORE_INITIAL_M64_RESULTS_AND_FORMAL_TRAINING",
+  "scope": "Adaptive DEV application-design decision; all original39 native-mean-latent pilots and all positive/negative execution probes remain immutable. This is not a claim that the original tail-window selection accepted a candidate.",
+  "observed_evidence": "Fixed1536 endpoint, all9 physical8 sigma1 x lambda(.8,.5,.2) x seed6300..2, sameDEV32. Onlylambda.2 with fixed64-antithetic mean-feasible-actions passes all5 existing numeric work targets; independent saved-trajectory water/terminal audit PASS. Otherlambda results retained.",
+  "candidate": {
+    "adapter": "depth_area_physical",
+    "training_weight": 0.2,
+    "spatial_sigma_scale": 1,
+    "training_policy": "native joint Gaussian stochastic policy; unchanged likelihood and learner",
+    "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+    "point_generator": "torch CPU float64 Generator.manual_seed(2026110964),32positive49dimvectors then32negatives",
+    "main_budget_m3": 4000000
+  },
+  "adoption_conditions": [
+    "All39 originally registered DEV pilots finish and their complete combined report is retained; original selection not overwritten.",
+    "All9 same-operator initialization DEV32 probes finish; all9 original fixed1536 endpoints retained.",
+    "For thecandidate lambda.2 sigma1, same-operator initial-to-fixed1536 mean C90 and areaJA both increase; report all3 seed-paired changes, not only pooled gains.",
+    "Shared production operator exactly matches sealed probe; native training/log-density unchanged; formal source closure and engineering gates PASS."
+  ],
+  "formal_plan": {
+    "fresh_seeds": [
+      6400,
+      6401,
+      6402
+    ],
+    "budgets_m3": [
+      3500000,
+      4000000,
+      4500000
+    ],
+    "jobs": 9,
+    "fixed_training_episodes": 3200,
+    "development_interval": 128,
+    "development_weather_seeds": [
+      2611095000,
+      2611095031
+    ],
+    "development_paths_per_position": 32,
+    "training_source": "new immutable shared-operator release; exact source manifest registered before launch",
+    "initialization": "both quota and spatial output heads random, as native complete Chapter5 method; common paired seeds across budgets",
+    "development_and_deployment": "same fixed64 operator at episode0 and every128, fixed3200 endpoint; no best-checkpoint choice",
+    "main_quality_targets": "Unchanged original5 C90>=.90,areaJA>=.90,eachseedJA>=.85,largest5 area-weightedY>=.85,min pooled regional meanY>=.75, with separate per-seed weakest-region disclosure",
+    "source_change": "Application depth/area conversion, derived physical state coordinates, deterministic feasible-action integration; no teacher/no altered water physics/no rule action mixing/no reward shaping",
+    "device_selection": "Separate engineering throughput/capacity evidence only, prospectively registered before formal jobs; no model-quality device selection"
+  },
+  "new_TEST": "Remain closed until complete9 fixed endpoints,source/numeric integrity and registered DEV review. Frozen128 common TEST once after release; all initial/final/crossbudget/feedback same deployed operator. If formal DEV fails do not open TEST or fabricate final success.",
+  "paper_scope": "New main chapter compares the method's own initial/final learning and presents complete allocation, regional adequacy,resource conditions and feedback; no new rule-comparison claim. Existing unfavorable rule records retained. Application evidence does not prove algorithm superiority to all controls or that finite action integration equals the stochastic closed-loop expected return.",
+  "formal_training_authorized_now": false
+}

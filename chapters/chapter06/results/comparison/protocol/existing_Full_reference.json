@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "seed": 6400,
+      "model": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6400/attempt0/model.pt",
+      "sha256": "26063e51639ce94461cd62ce398d1e1882f6f1d16d73c7a667c1923adc86880d",
+      "protocol": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6400/attempt0/protocol.json",
+      "protocol_sha256": "6078c1f298d7e0b939e39e553ccdf4f0a71b3e4d7a44a5b2b04c2e3cb92f0923",
+      "loaded_for_new_training": false
+    },
+    {
+      "seed": 6401,
+      "model": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6401/attempt0/model.pt",
+      "sha256": "8f325252797e5138f182830166966e8a05fc967cb1502773a5066e4bf478fc38",
+      "protocol": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6401/attempt0/protocol.json",
+      "protocol_sha256": "17788015dbd969e1959eab42b7e8e89ed687f66f42f146131e09026bf11d77d6",
+      "loaded_for_new_training": false
+    },
+    {
+      "seed": 6402,
+      "model": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6402/attempt0/model.pt",
+      "sha256": "065e6328a016764911440401388e0b7b8658dc7b17b6500f4e940b3a2156e8c9",
+      "protocol": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6402/attempt0/protocol.json",
+      "protocol_sha256": "5df1dd9a28c7dd45a4677cf60e9701a06ec165681e0b4ae57e15551ac1c54820",
+      "loaded_for_new_training": false
+    }
+  ],
+  "retrained": false,
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "new_rule_tasks": 0
+}

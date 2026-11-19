@@ -1,0 +1,168 @@
+{
+  "schema": "chapter2-scale-structure-registered-render-v1",
+  "status": "pass",
+  "kind": "conditions",
+  "data_sha256": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91",
+  "plot_sha256": "ab9f3da9d1543cdf68ef67ea835bcc38fba9d6fa8255ed2b7dc323e8c73f5853",
+  "fonts_sha256": {
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+    "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+  },
+  "outputs_sha256": {
+    "figure.pdf": "cb63667d01a5f881d0ba2c11fefa153f43e427a0df243d4f24455b0fd67c4d8d",
+    "figure.png": "5e1881321312c6763037e69b758b78313e332f1f014620d2232ea768375beb93",
+    "figure.svg": "f2cda4643d506ebd3b2ca6fadd2c25f7ba51e8f1ba9ec802166d9ad4e976e7f8"
+  },
+  "evidence": {
+    "resource/radio/A_FULL": {
+      "conditions": [
+        "resource_low",
+        "default",
+        "resource_high"
+      ],
+      "mean": [
+        30.610304158921828,
+        36.802460798204116,
+        42.285530351896405
+      ],
+      "sample_sd": [
+        1.8851614282569695,
+        1.8705280505389128,
+        1.474298685655196
+      ],
+      "training_episodes": 960
+    },
+    "resource/radio/PASPO": {
+      "conditions": [
+        "resource_low",
+        "default",
+        "resource_high"
+      ],
+      "mean": [
+        6.138193266813233,
+        7.88704602016161,
+        9.776275776622748
+      ],
+      "sample_sd": [
+        0.17814075132149687,
+        0.38454895224350677,
+        0.3506844550743693
+      ],
+      "training_episodes": 960
+    },
+    "resource/v5/A_FULL": {
+      "conditions": [
+        "resource_low",
+        "default",
+        "resource_high"
+      ],
+      "mean": [
+        55.5226754937225,
+        63.5235570859327,
+        70.31938207717357
+      ],
+      "sample_sd": [
+        0.7420562187008063,
+        1.451957332787742,
+        2.0407302289803675
+      ],
+      "training_episodes": 960
+    },
+    "resource/v5/PASPO": {
+      "conditions": [
+        "resource_low",
+        "default",
+        "resource_high"
+      ],
+      "mean": [
+        11.51832882547538,
+        12.653711904441776,
+        16.985377902898843
+      ],
+      "sample_sd": [
+        1.9563615223194313,
+        1.1737854381898176,
+        2.016421042621552
+      ],
+      "training_episodes": 960
+    },
+    "heterogeneity/radio/A_FULL": {
+      "conditions": [
+        "heterogeneity_low",
+        "default",
+        "heterogeneity_high"
+      ],
+      "mean": [
+        40.08744475211118,
+        36.802460798204116,
+        34.29495668511998
+      ],
+      "sample_sd": [
+        3.4260993048409656,
+        1.8705280505389128,
+        1.2247107986275474
+      ],
+      "training_episodes": 960
+    },
+    "heterogeneity/radio/PASPO": {
+      "conditions": [
+        "heterogeneity_low",
+        "default",
+        "heterogeneity_high"
+      ],
+      "mean": [
+        8.203390495087824,
+        7.88704602016161,
+        7.418070287086105
+      ],
+      "sample_sd": [
+        0.5952109107955207,
+        0.38454895224350677,
+        0.506314989048571
+      ],
+      "training_episodes": 960
+    },
+    "heterogeneity/v5/A_FULL": {
+      "conditions": [
+        "heterogeneity_low",
+        "default",
+        "heterogeneity_high"
+      ],
+      "mean": [
+        60.35591595850208,
+        63.5235570859327,
+        68.40696695704715
+      ],
+      "sample_sd": [
+        1.7064931999505417,
+        1.451957332787742,
+        2.1263883849376324
+      ],
+      "training_episodes": 960
+    },
+    "heterogeneity/v5/PASPO": {
+      "conditions": [
+        "heterogeneity_low",
+        "default",
+        "heterogeneity_high"
+      ],
+      "mean": [
+        12.698383442624031,
+        12.653711904441776,
+        15.39409185262064
+      ],
+      "sample_sd": [
+        2.5208793240201604,
+        1.1737854381898176,
+        1.0945962608034352
+      ],
+      "training_episodes": 960
+    }
+  },
+  "markers_filled": true,
+  "new_training_or_policy_evaluation_performed": false
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "be5e9bd4b4515bf71b2bf66b451ceeeddff4a79223b869593125315e9493379a",
+  "scientific_after_sha256": "be5e9bd4b4515bf71b2bf66b451ceeeddff4a79223b869593125315e9493379a",
+  "labels": [
+    {
+      "before": "(b) 通信·仅平均成效目标",
+      "after": "(b) 通信·平均成效单目标",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        384.26722440944866,
+        566.9970271793875,
+        155.875,
+        16.109375
+      ]
+    },
+    {
+      "before": "(d) 柴油·仅平均成效目标",
+      "after": "(d) 柴油·平均成效单目标",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        384.32972440944866,
+        296.91828702190725,
+        155.75,
+        16.109375
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

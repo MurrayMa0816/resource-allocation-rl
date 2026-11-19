@@ -1,0 +1,192 @@
+{
+  "schema": "chapter3-reviewer-presentation-revision-v1",
+  "role": "main_development",
+  "title": "各方法训练过程中的配置效果对比",
+  "figure_number": "3.4",
+  "scientific_scope": "/hy-tmp/resource_allocation_results/chapter3/double_random_formal_20261107",
+  "source_report_completion": "/hy-tmp/resource_allocation_results/chapter3/double_random_formal_20261107/report/report_completion.json",
+  "source_report_completion_sha256": "b5a6153627a029b4eb9bed119416483d48ef8666831b6f31596efdb77903554e",
+  "reporter_audit_sha256": "3c68d951c3fa8138fb0dc0ef2c9563d8c26144ca6bc6ef8eaf25450e404d47ed",
+  "data_sha256": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+  "plot_sha256": "be2f3c3afc8dc59810ddde7675f95fb48679a9d2a14940ccdae6856c71876448",
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "development_paths_per_model": 8,
+  "terminal_paths_per_model": 128,
+  "panel_role": "existing common confirmation panel, not untouched holdout",
+  "presentation": {
+    "width_cm": 15.6,
+    "main_text_bp": 10.5,
+    "secondary_ticks_and_legend_bp": 10.5,
+    "Chinese": "SimSun",
+    "headings": "SimSun",
+    "Latin": "Times New Roman",
+    "development_smoothing": "none",
+    "training_smoothing": "within each seed trailing 16 complete episodes then five-seed mean",
+    "uncertainty": "five independent training-seed sample SD for development and condition plots"
+  },
+  "fonts_sha256": {
+    "times.ttf": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+    "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+    "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc"
+  },
+  "runtime": "/hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter3/cache/main_development",
+  "external_method_reference": null,
+  "rendered_files_sha256": {
+    "figure.pdf": "439c142e306930c6113d69e9a90d0b76c7c1c39c6d9a5b1b8da60c2afd5e9c9a",
+    "figure.svg": "18ba1377abc5e78888df24995ab3a60a9b32241d2add221ebd115a59dfa91058",
+    "figure.png": "a9bd93bd21c2381dd8a83344046e1398110fa296cbb3f33ca2f16c3a78647cfb"
+  },
+  "task_names": {
+    "radio": "无线通信功率分配任务",
+    "v5": "区域应急柴油分配任务"
+  },
+  "displayed_task_names": {
+    "radio": "通信功率分配",
+    "v5": "应急柴油分配"
+  },
+  "original_asset_before_revision": "/hy-tmp/resource_allocation_results/chapter3/double_random_formal_20261107/publication/figures/figure03-04_各方法在固定开发情景上的评价曲线",
+  "original_source_manifest": {
+    "path": "/hy-tmp/resource_allocation_results/thesis_task_names_20261108_021450/figure_relabel/assets/figure03-04_各方法在固定开发情景上的评价曲线/source_before.json",
+    "sha256": "77cc2f5dd5617dd819e6c05e77187f8da07e31126a4adc9dd7489f5335a94b98"
+  },
+  "render_manifest_sha256": "57813c25aaede1804fbb4ab8f49353f9cf2e5e655a8a0aa55c16ac86c2a3c702",
+  "task_name_revision_proof": {
+    "path": "/hy-tmp/resource_allocation_results/thesis_task_names_20261108_021450/figure_relabel/label_only_pixel_audit.json",
+    "sha256": "62b6dab19d887a16f042139a02af71422a890693a9c30324c97c43cf9611241f"
+  },
+  "replot_command": "python replot.py --output-dir regenerated",
+  "scientific_data_changed": false,
+  "training_or_evaluation_run": false,
+  "presentation_axis_revision": {
+    "number": "3.4",
+    "thesis_directory": "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线",
+    "parent_directory": "/hy-tmp/resource_allocation_results/thesis_task_names_20261108_021450/figure_relabel/assets/figure03-04_各方法在固定开发情景上的评价曲线",
+    "parent_files_sha256": {
+      "data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+      "plot.py": "e7045ef4ea183619718611aa0bca90d988d04e23d2dca330f5f2423d20eb73ee",
+      "source.json": "c5ec42aa4cd0d058ef5973b8247e906ad97f741cf3633596ee445e831a4d2c5d",
+      "figure.pdf": "41385fb187a6f9246c1a990719c67e2ef2ffd8be87c551665d354b6374e200b6",
+      "figure.svg": "bf68f73332f69a8d7608dffd4596651e3b0e868f2adf998d7c31aa757e4f3516",
+      "figure.png": "c8923d2c3f78272f7a05591766f93402ecd1b6f12984d2d15bbb8017a94d4093",
+      "display_aggregates.csv.gz": "21518101f850b8335dfecbe2894580c377e49219d700f3eacab1937c3d848ee4",
+      "README.rst": "34ece7ee668c82588a6951455ab491b6cad007e74e8c2a319d7b4766357ae381",
+      "layout_reference.json": "12d4c2acf82f97de5e57196464abf33ba217056eb3ed259818d1097a054d3039",
+      "source_before.json": "77cc2f5dd5617dd819e6c05e77187f8da07e31126a4adc9dd7489f5335a94b98",
+      "label_geometry.json": "51656fd1024fea5785e7a341bb5cd9198775532eae8030f01f999f738b66cff0",
+      "replot.py": "16d55acf660bf49a09d8131520b0dd296112063b2d67bab100ac5a2cebc048b2",
+      "render_manifest.json": "57813c25aaede1804fbb4ab8f49353f9cf2e5e655a8a0aa55c16ac86c2a3c702"
+    },
+    "data_files_sha256": {
+      "data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+      "display_aggregates.csv.gz": "21518101f850b8335dfecbe2894580c377e49219d700f3eacab1937c3d848ee4"
+    },
+    "source_changes": "plot_source_changes.diff",
+    "proof": "axis_presentation_proof.json",
+    "scientific_computation_unchanged": true,
+    "communication_y_axis_unchanged": true
+  },
+  "presentation_revision": {
+    "parent_directory": "/hy-tmp/resource_allocation_results/thesis_experiment_labels_and_c2_discussion_20261108_115454/assets_non_c2/figure03-04_各方法在固定开发情景上的评价曲线",
+    "parent_pdf_sha256": "0e329ea2663f14ed2c673878762dca2f35d72bd7189f18b708661049f1028e4e",
+    "parent_source_sha256": "75cd7eb09bc0669231859e2b5c8aad519373525e94b10d0fe55e304bd6e78c87",
+    "chapter_source_science_unchanged": true,
+    "new_scientific_execution": false
+  },
+  "plot_source_sha256": "69b69609d069ced43acebd5ba5e20baa7ee8c63fcede21da7059eb9a13ff1b3e",
+  "display_aggregates_sha256": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+  "presentation_alignment": {
+    "schema": "axes-centered-subplot-title-v1",
+    "status": "PASS",
+    "parent_directory": "/hy-tmp/resource_allocation_results/chapter03/figures/presentation/experiment_sections_alignment_20261108_171303/chapter3/assets/figure03-04_各方法在固定开发情景上的评价曲线",
+    "proof": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/proofs/c3_fig_formal_ch3_development/verification.json",
+    "proof_sha256": "3eabcfd45317fc0a801284c2df7256b640782f3d7275eb4db0e5832151a4be87",
+    "editable_sources": {
+      "plot.py": "e3bcfc20e821fe36435c1bc3f393bbee5c7456914f37e5047edc14567939331c",
+      "presentation.py": "583ac9ce9468d106393d67634aa9ada60994a212b03747e6708c50b321e50008",
+      "plot_source.py": "2a6f76a509b8ffae56053c98f612e7b6a95701541b78803a4b8b62fd1a0d602c"
+    },
+    "outputs_sha256": {
+      "pdf": "bdc81909d837f872a61430ccb74dde820acc60914e125dd363fb84143e084d5f",
+      "svg": "52594a66bce205e1ec3ff8edae546ba7c598820019c856f07b4fc9a702805f3c",
+      "png": "6be59531d4958be9a2c728e88e064508476ed4b90b2f305cfd776a2743bb4f0e"
+    },
+    "data": [
+      {
+        "file": "data.csv.gz",
+        "parent_sha256": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+        "new_sha256": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+        "decoded_sha256": "10d9b7a3d5aec69a29b47c140b70660dba3c0837f5197525341b72a6fcd2ce9b",
+        "exact_bytes": true,
+        "numeric_records_exact": true
+      },
+      {
+        "file": "display_aggregates.csv.gz",
+        "parent_sha256": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+        "new_sha256": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+        "decoded_sha256": "d56675b2b692ad4d9ffaa2882eef66740c2c0064c30a3d1bbac09c244d8ba1f0",
+        "exact_bytes": true,
+        "numeric_records_exact": true,
+        "asset_archive_retained_from_parent": true
+      }
+    ],
+    "source_replacements": [
+      {
+        "file": "plot.py",
+        "old": "root=next(p for p in HERE.parents if p.name=='experiment_sections_alignment_20261108_171303')/'chapter3'",
+        "new": "root=Path('/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34')",
+        "count": 1,
+        "kind": "private_output_root"
+      },
+      {
+        "file": "presentation.py",
+        "old": "loc='left',pad=9",
+        "new": "loc='center',pad=9",
+        "count": 1,
+        "kind": "title_position_or_diagnostic_title_binding"
+      }
+    ],
+    "title_rule": "Complete (letter)+short title centered on its own axes plotting rectangle; preserve y/titlepad/font/canvas",
+    "local_replot_command": "python -B /hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/assets/c3_fig_formal_ch3_development/plot.py --output-dir /hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/reproduced/c3_fig_formal_ch3_development",
+    "geometry_unchanged": true,
+    "title_exterior_pixel_differences": 0,
+    "model_loads": 0,
+    "new_environment_steps": 0,
+    "new_policy_inferences": 0,
+    "new_training_steps": 0,
+    "archive_reproduction_note": "Delivered archive preserves exact parent bytes; regenerated gzip header timestamp may differ, while decompressed CSV content is byte-identical."
+  },
+  "number": "3.4",
+  "parent_directory": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter34/assets/c3_fig_formal_ch3_development",
+  "parent_source_sha256": "4ccc88f950ee5cfbf8aac61a7d95816ebd314007ea6ebd831d9129b9b096b6ac",
+  "editable_source": "plot.py",
+  "local_render_engine": "../render_asset.py",
+  "render_source": "plot_source.py",
+  "rerender_command": "python plot.py --output-dir regenerated",
+  "render_engine_sha256": "614b8ce8fb208f05733fbfd9c7a6e7853182be2552e32f348c4edae1eb1ab366",
+  "outputs": {
+    "figure.pdf": "920b6630b973a2d690a3531f2b04d9b5db99cd5f9ef3b968bd27cf0a7783fa13",
+    "figure.svg": "c0ac6f29b0bf44618aa40058e73fae91ec982dcba5234ce2fbb668e20264a7a4",
+    "figure.png": "ac7b8040dbbbf71025fa8ff1eb52bfc772433d555d961475026e04bd009a97e5"
+  },
+  "data_files_sha256": {
+    "data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b"
+  },
+  "scientific_values_changed": false,
+  "display_x_conversion": "none",
+  "source_revision": "RPO original name, explicit ablation meanings, physical resource units, uniform decision periods",
+  "fonts_bp": {
+    "main": 10.5,
+    "object_ID": null
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "new_policy_inferences": 0,
+  "new_learning_steps": 0
+}

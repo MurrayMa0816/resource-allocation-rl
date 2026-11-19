@@ -1,0 +1,12 @@
+{
+  "training_master": 202611043101,
+  "development_master": 202611043101,
+  "evaluation_master": 2026110694199,
+  "development_cases": 32,
+  "development_interval": 768,
+  "deterministic": true,
+  "action_sampling_disabled": true,
+  "RNG_isolated": true,
+  "physical_contract": "fullspend terminal reward; exact inherited bridge",
+  "resource_storage": "complete per-episode physical assertions+scalar audit+SHA of round ledger; no uncompressed repeated rounds"
+}

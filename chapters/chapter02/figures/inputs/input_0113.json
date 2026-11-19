@@ -1,0 +1,33 @@
+{
+  "schema": "thesis-print-readability-derivative-v1",
+  "number": "2.8",
+  "scientific_values_changed": false,
+  "parent_directory": ".",
+  "parent_pdf_sha256": "dc7898b2c4ae0568ca8dc6e1d566c03eb38a59c0d4985df30e7c61d216882418",
+  "editable_source": "plot.py",
+  "render_engine": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter02_high_dimensional/figures/figure02-08_资源配置实例_未完成需求量_20261110/replot_sources/render_print_figures.py",
+  "native_source": "inputs/plot.py",
+  "input_files_sha256": {
+    "data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+    "provenance.json": "eb43ff37c60306e2c942400da6b534fa88356873637060e290da9e2c6a740717",
+    "extract_records.py": "de90f1ff6750797c2afa69a586b94a3fc09474a316c6fa56cff473543621a518",
+    "replot.py": "fb13852ae4c3ff4f8530f02114d01aa433f9ee93962c59b52986a850218ac5fb",
+    "plot.py": "77c3832388bb41ea71dc5d2d0a1de93236237054fb358623adf4dffe8efcd54f",
+    "checks.json": "7755fd60959c1320b4f04a7d8d39e56ef0f3c9f2351fc581fa5983e97a63cd96",
+    "source.json": "ca1ac71d16a0df1f56ccc8219538a75970ac1cfb642916799b77ec94b5cda4a1"
+  },
+  "changes": [
+    null,
+    "object IDs 7.5 -> 9bp, centered, no collisions"
+  ],
+  "proof_sha256": "ea615100c0e3bbbc90ad9811695e3b981ac52b9cf2fd5cbff2dbf80ff7625fd0",
+  "outputs": {
+    "figure.pdf": "19d63daf8550e9554011b388ae8d4fde747e794d6b8445a4a9e3d813072f0397",
+    "figure.svg": "35b629cb6473a3221e2c67b46c8ceb73b9e4a9b47c2663b68f02b383b35f4264",
+    "figure.png": "95ed8a02ec7a84631adeb8da7437f9cd1230bb95bbacdd196c8ecc13a9e1e678"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

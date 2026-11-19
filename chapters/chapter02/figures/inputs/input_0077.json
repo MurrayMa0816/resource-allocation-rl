@@ -1,0 +1,170 @@
+{
+  "schema": "thesis-measured-content-spacing-v1",
+  "status": "PASS",
+  "number": "2.6",
+  "parent_native_png_pixel_exact": true,
+  "native_mm": [
+    155.99999559190536,
+    81.38803927103679
+  ],
+  "original_native_mm": [
+    155.99999999999997,
+    85.09
+  ],
+  "axes_physical_mm_before": [
+    [
+      16.379999999999995,
+      21.2725,
+      57.199999999999996,
+      52.7558
+    ],
+    [
+      96.46,
+      21.2725,
+      57.199999999999996,
+      52.7558
+    ]
+  ],
+  "axes_physical_mm_after": [
+    [
+      16.379999999999995,
+      21.2725,
+      57.199999999999996,
+      52.7558
+    ],
+    [
+      96.46,
+      21.2725,
+      57.199999999999996,
+      52.7558
+    ]
+  ],
+  "axes_physical_width_height_unchanged": true,
+  "ordinary_font_bp": 10.5,
+  "object_ID_font_bp": null,
+  "object_ID_count": null,
+  "all_scientific_data_style_exact": true,
+  "PDF_text_frame_measurements": {
+    "xlabel_to_legend_target_bp": 15,
+    "xlabel_to_legend_bp": 15.000015258789062,
+    "legend_to_file_bottom_mm": 1.9999963548448347,
+    "subtitle_to_file_top_mm": 1.4999989483091565,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      81.38803927103679
+    ],
+    "xlabel_frames_bp": [
+      [
+        111.75236511230469,
+        187.8819580078125,
+        143.2523651123047,
+        198.3924560546875
+      ],
+      [
+        338.75079345703125,
+        187.8819580078125,
+        370.25079345703125,
+        198.3924560546875
+      ]
+    ],
+    "legend_frames_bp": [
+      [
+        161.0435028076172,
+        213.39247131347656,
+        236.2969207763672,
+        225.03697204589844
+      ],
+      [
+        284.593505859375,
+        213.7284698486328,
+        337.093505859375,
+        224.2389678955078
+      ]
+    ],
+    "subtitle_frames_bp": [
+      [
+        88.86174011230469,
+        4.251965522766113,
+        166.1403045654297,
+        15.896465301513672
+      ],
+      [
+        315.56329345703125,
+        4.251965522766113,
+        393.43145751953125,
+        15.896465301513672
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 27
+  },
+  "PDF_text_frame_initial": {
+    "xlabel_to_legend_target_bp": 15,
+    "xlabel_to_legend_bp": 14.712875366210938,
+    "legend_to_file_bottom_mm": 1.6623339335123697,
+    "subtitle_to_file_top_mm": 5.64091759522756,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      85.08999892340766
+    ],
+    "xlabel_frames_bp": [
+      [
+        111.75236511230469,
+        199.6199951171875,
+        143.2523651123047,
+        210.1304931640625
+      ],
+      [
+        338.75079345703125,
+        199.6199951171875,
+        370.25079345703125,
+        210.1304931640625
+      ]
+    ],
+    "legend_frames_bp": [
+      [
+        161.0435028076172,
+        224.84336853027344,
+        236.2969207763672,
+        236.4878692626953
+      ],
+      [
+        284.593505859375,
+        225.1793670654297,
+        337.093505859375,
+        235.6898651123047
+      ]
+    ],
+    "subtitle_frames_bp": [
+      [
+        88.86174011230469,
+        15.990002632141113,
+        166.1403045654297,
+        27.634502410888672
+      ],
+      [
+        315.56329345703125,
+        15.990002632141113,
+        393.43145751953125,
+        27.634502410888672
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 27
+  },
+  "measurement_basis": "native PDF text-line frames; not pixel ink",
+  "crop_bbox_inches": [
+    0.0,
+    -0.01728178176145646,
+    6.141732283464566,
+    3.2042535299808446
+  ],
+  "figure_internal_axes_and_figure_artist_geometry_unchanged": false,
+  "standard_target_exception": null,
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

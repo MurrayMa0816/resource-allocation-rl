@@ -1,0 +1,29 @@
+{
+  "schema": "subplot-centered-title-only-v1",
+  "status": "PASS",
+  "label": "fig:formal-ch2-training",
+  "parent_directory": "/hy-tmp/resource_allocation_results/experiments_consistency_five_rounds_20261108_205458/round1/chapter2_axes/assets/figure02-04_各方法十五万步开发评估_默认随机输出头",
+  "parent_plot_sha256": "2cb7a23b074fa2fa2652c7d4b10669ddc564721f1b75c044143a71741295dc60",
+  "editable_source": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter2/assets/figure02-04_各方法十五万步开发评估_默认随机输出头/plot.py",
+  "plot_sha256": "f8fd466037b933790868421f0c1ac72af43ba6762ae7a20bc0c5f8b5b328b552",
+  "source_literal_replacements": [
+    {
+      "file": "plot.py",
+      "old": "loc='left'",
+      "new": "loc='center'",
+      "count": 1
+    }
+  ],
+  "font_size_bp": 10.5,
+  "title_alignment": "whole numbered short title centered relative to its own plotting axes",
+  "unchanged_scientific_geometry": true,
+  "data_sha256": "3ee20326a336e59ec922bd534cea85cb63b45ecf6fd8f2754090b522c29bb7d6",
+  "proof": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter2/proofs/figure02-04_各方法十五万步开发评估_默认随机输出头/title_alignment.json",
+  "replot_entry": "python -B replot.py --output-dir NEW_HY_DIRECTORY",
+  "outputs_sha256": {
+    "figure.pdf": "f9c1cac014e9b231f51fc7ca787dd821d2221c57f0c536cdeb2b11177290dc4f",
+    "figure.svg": "ef86e0dfd2b30b6989d63cd5abff1d4e0e2dfa2bb35253927ed5c7f758ffc649",
+    "figure.png": "4192569915af9a9618cdeb9ca01b2a16356b1a26830891db8411b0e225fc0c21"
+  },
+  "new_training_or_inference": false
+}

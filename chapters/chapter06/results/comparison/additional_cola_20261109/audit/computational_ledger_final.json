@@ -1,0 +1,28 @@
+{
+  "schema": "C6-COLA-final-computational-ledger-v1",
+  "scope": "Additional COLA engineering and three fixed-budget training/DEV jobs; existing SeDVal/PASTA are reused and not reexecuted",
+  "formal_learning_steps": 777600,
+  "formal_DEV_physical_steps": 202176,
+  "engineering_learning_steps": 5184,
+  "engineering_DEV_physical_steps": 324,
+  "new_TEST_physical_steps": 0,
+  "new_rule_physical_steps": 0,
+  "training_jobs_complete": 3,
+  "training_jobs_failed": 0,
+  "attempts_retried": 0,
+  "formal_native_update_calls": 771459,
+  "engineering_native_update_calls": 3137,
+  "native_update_calls_not_environment_steps": true,
+  "formal_elapsed_seconds_by_seed": {
+    "6400": 10423.077488653362,
+    "6401": 10448.758540049195,
+    "6402": 10474.346251770854
+  },
+  "ended_beijing": "2026-11-09T22:07:59.732814+08:00",
+  "prior_CAPQL_PASTA_learning_DEV_and_engineering_physical_steps": 1970568,
+  "prior_CAPQL_cost_retained_after_model_deletion": true,
+  "existing_SeDVal_original_training_not_reexecuted_or_counted_here": true,
+  "evidence_scope": "Existing pool counts/completion receipts; independent final audit recorded separately; no new environments or model loads by ledger generation",
+  "additional_COLA_total_physical_steps": 985284,
+  "cumulative_new_comparison_physical_steps_including_retired_CAPQL": 2955852
+}

@@ -1,0 +1,242 @@
+{
+  "schema": "reasonable89-adopted-M64-final-training-registration-v1",
+  "status": "REGISTERED_NOT_STARTED_TEST_CLOSED",
+  "run_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal",
+  "frozen_code_root": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code",
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "scientific_manifest_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/scientific_source_manifest.json",
+  "scientific_manifest_sha256": "a1642f89dd4169f9aa7893d2748aaa0c46be4b91eed34ec60118866c1f7a24cb",
+  "experiment_design_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/final_design.json",
+  "experiment_design_sha256": "07bda52f9462d30e8c12517631c7fb3e664b212390e1a43ed8b5f98df9a45bdd",
+  "selected_application_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/frozen_code/protocol/selected_application.json",
+  "selected_application_sha256": "115a00d5c5f44820458d1203e3dfef35cf9c88fa0d64899a52122bea38272d4a",
+  "adapter": "depth_area_physical",
+  "selected_adapter": "depth_area_physical",
+  "training_weight": 0.2,
+  "spatial_sigma_scale": 1.0,
+  "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+  "execution_description": {
+    "operator": "fixed64_antithetic_mean_feasible_actions",
+    "training": false,
+    "point_count": 64,
+    "positive_points": 32,
+    "antithetic": true,
+    "seed": 2026110964,
+    "event_dim": 49,
+    "point_generation": "torch.randn CPU float64 using isolated generator; positive thennegative",
+    "points_array_sha256": "9b59078bcb00785b7febcfe2b78d35fd1bd227c0ec7a85af45ef25b1b6a6a500",
+    "source_sha256": "98e101735afd12446aa6c107a84766e363a51c171074ae3e50b858db97eaf528",
+    "averaging": "native feasible physical action vectors before one physical transition",
+    "meaning": "Finite-point conditional physical-action mean; not original latentmean or exact stochastic expectedreturn"
+  },
+  "development_provenance": {
+    "experiment_design.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/experiment_design.json",
+      "sha256": "dee62d67416b0c5af5d111da68e581659f1fe2c655cbffc1646f4747ceb35e69"
+    },
+    "preference_dev_amendment.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/preference_dev_amendment.json",
+      "sha256": "21814bcd3633103382daccbc36f4f8a42f0cff9326be61fc1ddd4af36339b185"
+    },
+    "noise_dev_amendment.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/noise_dev_amendment.json",
+      "sha256": "41a2a8283762b82e8c69f9083a9b3c3dd1ad39af94ce5072d761cb5042db6192"
+    },
+    "noise_midpoint_dev_amendment.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/noise_midpoint_dev_amendment.json",
+      "sha256": "761da1418ff05e5b90952946441c4db724f18a5193ff345e4b405a45a0f5924e"
+    },
+    "execution_conversion_DEV_probe.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/execution_conversion_DEV_probe.json",
+      "sha256": "6697878892590d48e5e71ea3ec529ef019eaf1fd4752efad26eed2a5e471d4d3"
+    },
+    "execution_stage_adoption_plan.json": {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/execution_stage_adoption_plan.json",
+      "sha256": "2aef519d663812069af71062e9581ff131a38e05288be7e4bdc0147fd55141f3"
+    }
+  },
+  "preference_dev_amendment_sha256": "21814bcd3633103382daccbc36f4f8a42f0cff9326be61fc1ddd4af36339b185",
+  "noise_dev_amendment_sha256": "41a2a8283762b82e8c69f9083a9b3c3dd1ad39af94ce5072d761cb5042db6192",
+  "noise_midpoint_dev_amendment_sha256": "761da1418ff05e5b90952946441c4db724f18a5193ff345e4b405a45a0f5924e",
+  "adoption_decision_sha256": "0f05b4fae56f451f9fa53f3dc238d0d38b249295d887b97da9eb30f6d3dcc7a5",
+  "device_policy_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/final_device_policy_all9GPU.json",
+  "device_policy_sha256": "c9b5ed33c88cdc3470cd1137a677783f4164cf6583e44d04eb722652bf790793",
+  "jobs": [
+    {
+      "job_id": "budget_3500000__seed6400",
+      "seed": 6400,
+      "budget_m3": 3500000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        0
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6400.json",
+      "config_sha256": "c3bc7c6de8a6a91f113559627850b125d600bbfc148b3c30cdf73021540b9b3c",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6400/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_3500000__seed6400.log"
+    },
+    {
+      "job_id": "budget_3500000__seed6401",
+      "seed": 6401,
+      "budget_m3": 3500000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        1
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6401.json",
+      "config_sha256": "6cd92a3ad5e81d98841f0670fe242215986afbbbe3da7e1c48826d3c8f6607e5",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6401/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_3500000__seed6401.log"
+    },
+    {
+      "job_id": "budget_3500000__seed6402",
+      "seed": 6402,
+      "budget_m3": 3500000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        2
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_3500000__seed6402.json",
+      "config_sha256": "fca5b70bab336e24afbe82fd5f1d584fe3e7bec14c529d82cfb15ffa6d2b728d",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_3500000__seed6402/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_3500000__seed6402.log"
+    },
+    {
+      "job_id": "budget_4000000__seed6400",
+      "seed": 6400,
+      "budget_m3": 4000000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        3
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6400.json",
+      "config_sha256": "222e17e9885240f7286d364c4dffc1437671816d633b469a55fe34f6a326d1d8",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6400/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_4000000__seed6400.log"
+    },
+    {
+      "job_id": "budget_4000000__seed6401",
+      "seed": 6401,
+      "budget_m3": 4000000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        4
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6401.json",
+      "config_sha256": "64d1144ddbdc5c193fdc1609ce57a9fadfa71beaf0ba397477cb5c3c1f32f8d9",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6401/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_4000000__seed6401.log"
+    },
+    {
+      "job_id": "budget_4000000__seed6402",
+      "seed": 6402,
+      "budget_m3": 4000000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        5
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4000000__seed6402.json",
+      "config_sha256": "603f240b80794a53012665b431a1b15cde20b14fe493967f68a5ff5ee078a61d",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4000000__seed6402/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_4000000__seed6402.log"
+    },
+    {
+      "job_id": "budget_4500000__seed6400",
+      "seed": 6400,
+      "budget_m3": 4500000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        6
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6400.json",
+      "config_sha256": "d874f8308f11b9f1dee16c4d4a1c8cbe499477b895ee15aba45f91c9ccdea998",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6400/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_4500000__seed6400.log"
+    },
+    {
+      "job_id": "budget_4500000__seed6401",
+      "seed": 6401,
+      "budget_m3": 4500000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        7
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6401.json",
+      "config_sha256": "d05af09b9f77889c2c07b2dfbf8276331bac2fa308261409c6812bb137a5ee9e",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6401/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_4500000__seed6401.log"
+    },
+    {
+      "job_id": "budget_4500000__seed6402",
+      "seed": 6402,
+      "budget_m3": 4500000,
+      "adapter": "depth_area_physical",
+      "training_weight": 0.2,
+      "spatial_sigma_scale": 1.0,
+      "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+      "device": "cuda",
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cpu_affinity": [
+        8
+      ],
+      "config": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/configs/train/budget_4500000__seed6402.json",
+      "config_sha256": "78c7112d62e94565be658969216841863875b8eaf0b44d04066ce8b52a53b848",
+      "output_dir": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/training/budget_4500000__seed6402/attempt0",
+      "log": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/logs/budget_4500000__seed6402.log"
+    }
+  ],
+  "models": 9,
+  "training_paths": 28800,
+  "learning_steps": 2332800,
+  "development_paths": 7488,
+  "development_steps": 606528,
+  "fixed_endpoint_episode": 3200,
+  "eval_every": 128,
+  "DEV_paths_per_position": 32,
+  "initialization_profile": "chapter5-both-heads-default-random-v1",
+  "training_operator": "native_stochastic_complete_joint_Gaussian",
+  "optimizer_backup": false,
+  "replay_backup": false,
+  "cpu_start_index": 0,
+  "TEST_opened": false
+}

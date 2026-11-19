@@ -1,0 +1,623 @@
+{
+  "status": "PASS",
+  "number": "4.8",
+  "native_mm": [
+    156.0,
+    85.1511706140306
+  ],
+  "axes_positions_before_mm": [
+    [
+      22.619999999999994,
+      19.710946061876086,
+      52.9512195121951,
+      38.16491228070175
+    ],
+    [
+      99.92878048780486,
+      19.710946061876086,
+      52.95121951219511,
+      38.16491228070175
+    ]
+  ],
+  "axes_positions_after_mm": [
+    [
+      19.0,
+      22.180387030707468,
+      59.199999999999996,
+      56.05
+    ],
+    [
+      94.0,
+      22.180387030707468,
+      59.20000000000002,
+      56.05
+    ]
+  ],
+  "all_axes_same_dimensions": true,
+  "no_axis_dimension_reduced": true,
+  "scientific_values_and_styles_exact": true,
+  "fonts_exact": true,
+  "fonts_before": [
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "单批策略更新幅度\n（样本估计）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.00",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.03",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.06",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.09",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.12",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(a) 通信功率分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "单批策略更新幅度\n（样本估计）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.00",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.03",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.06",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.09",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.12",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(b) 应急柴油分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "TRoC（本文）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "固定Actor学习率",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "学习率调节参考区间",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ]
+  ],
+  "fonts_after": [
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "单批策略密度比变化（样本估计）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.00",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.03",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.06",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.09",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.12",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(a) 通信功率分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "训练步数（×10³）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "25",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "50",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "75",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "100",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "单批策略密度比变化（样本估计）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.00",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.03",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.06",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.09",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "0.12",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "(b) 应急柴油分配",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "TRoC（本文）",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "固定Actor学习率",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ],
+    [
+      "学习率反馈阈值区间",
+      10.5,
+      [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "normal"
+    ]
+  ],
+  "pdf_frames_initial": {
+    "width_bp": 442.2047119140625,
+    "height_bp": 183.67552185058594,
+    "content_bbox_bp": [
+      7.221702575683594,
+      -46.29366683959961,
+      434.2677307128906,
+      178.0062255859375
+    ],
+    "content_top_bp": -46.29366683959961,
+    "content_bottom_bp": 178.0062255859375,
+    "legend_box_bp": [
+      75.03829956054688,
+      166.36172485351562,
+      394.4664306640625,
+      178.0062255859375
+    ],
+    "xlabel_bottom_bp": 158.36172485351562,
+    "xlabel_to_legend_bp": 8.0,
+    "top_margin_mm": -16.33137691285875,
+    "bottom_margin_mm": 2.000001737806532,
+    "all_text_exact": false,
+    "unmatched": [
+      "单批策略密度比变化（样本估计）",
+      "0.12",
+      "(a) 通信功率分配",
+      "单批策略密度比变化（样本估计）",
+      "0.12",
+      "(b) 应急柴油分配"
+    ]
+  },
+  "pdf_frames_final": {
+    "width_bp": 442.2047119140625,
+    "height_bp": 241.37339782714844,
+    "content_bbox_bp": [
+      13.593892097473145,
+      4.251965522766113,
+      434.2677307128906,
+      235.70411682128906
+    ],
+    "content_top_bp": 4.251965522766113,
+    "content_bottom_bp": 235.70411682128906,
+    "legend_box_bp": [
+      75.03829956054688,
+      224.0596160888672,
+      394.4664306640625,
+      235.70411682128906
+    ],
+    "xlabel_bottom_bp": 209.0596160888672,
+    "xlabel_to_legend_bp": 15.0,
+    "top_margin_mm": 1.4999989483091565,
+    "bottom_margin_mm": 1.9999963548448347,
+    "all_text_exact": true,
+    "unmatched": []
+  },
+  "history_basis": "4.4 preserved wider 59.2mm main-learning style and 4.7 preserved taller 56.05mm print-format baseline; same two-column curve layout restored together",
+  "scientific_execution": 0
+}

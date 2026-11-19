@@ -1,0 +1,2198 @@
+{
+  "status": "READ_ONLY_ENVIRONMENT_METADATA_CAPTURED",
+  "remote": {
+    "executable": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python",
+    "python": "3.11.8 (main, Feb 25 2024, 16:41:26) [GCC 9.4.0]",
+    "platform": "Linux-5.4.0-182-generic-x86_64-with-glibc2.31",
+    "packages": [
+      {
+        "name": "annotated-types",
+        "version": "0.7.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "anyio",
+        "version": "4.6.2.post1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "argon2-cffi",
+        "version": "23.1.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "argon2-cffi-bindings",
+        "version": "21.2.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "arrow",
+        "version": "1.3.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "asttokens",
+        "version": "2.4.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "async-lru",
+        "version": "2.0.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "attrs",
+        "version": "24.2.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "babel",
+        "version": "2.16.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "beautifulsoup4",
+        "version": "4.12.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "bleach",
+        "version": "6.1.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "build",
+        "version": "1.6.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "certifi",
+        "version": "2024.8.30",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "cffi",
+        "version": "1.17.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.4.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "clarabel",
+        "version": "0.11.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "click",
+        "version": "8.3.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "cloudpickle",
+        "version": "3.1.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "comm",
+        "version": "0.2.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "contourpy",
+        "version": "1.3.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "cycler",
+        "version": "0.12.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "debugpy",
+        "version": "1.8.7",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "decorator",
+        "version": "5.1.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "deep-translator",
+        "version": "1.11.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "defusedxml",
+        "version": "0.7.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "docutils",
+        "version": "0.23",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "drainage-thesis-experiments",
+        "version": "0.2.0.dev0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "executing",
+        "version": "2.1.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "Farama-Notifications",
+        "version": "0.0.6",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "fastjsonschema",
+        "version": "2.20.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "filelock",
+        "version": "3.13.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "flood-allocation-rl",
+        "version": "1.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "fonttools",
+        "version": "4.62.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "fqdn",
+        "version": "1.5.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "fsspec",
+        "version": "2024.2.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "geopandas",
+        "version": "1.1.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "gitdb",
+        "version": "4.0.12",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "GitPython",
+        "version": "3.1.50",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "greenlet",
+        "version": "3.5.6",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "gymnasium",
+        "version": "1.2.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "h11",
+        "version": "0.14.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "h5py",
+        "version": "3.16.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "hf-xet",
+        "version": "1.5.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "httpcore",
+        "version": "1.0.6",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "httpx",
+        "version": "0.27.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "huggingface_hub",
+        "version": "0.36.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "id",
+        "version": "1.6.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "idna",
+        "version": "3.10",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "ipykernel",
+        "version": "6.29.5",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "ipython",
+        "version": "8.28.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "isoduration",
+        "version": "20.11.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jedi",
+        "version": "0.19.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jiter",
+        "version": "0.15.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "joblib",
+        "version": "1.5.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "json5",
+        "version": "0.9.25",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jsonpointer",
+        "version": "3.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.23.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2024.10.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyter-events",
+        "version": "0.10.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyter-lsp",
+        "version": "2.2.5",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyter_client",
+        "version": "8.6.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyter_core",
+        "version": "5.7.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyter_server",
+        "version": "2.14.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyter_server_terminals",
+        "version": "0.5.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyterlab",
+        "version": "4.2.5",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyterlab-language-pack-zh-CN",
+        "version": "4.2.post3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyterlab_pygments",
+        "version": "0.3.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "jupyterlab_server",
+        "version": "2.27.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.5.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "lsed-rl",
+        "version": "1.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "markdown-it-py",
+        "version": "4.2.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.10.9",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "matplotlib-inline",
+        "version": "0.1.7",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "mdurl",
+        "version": "0.1.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "mistune",
+        "version": "3.0.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nbclient",
+        "version": "0.10.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nbconvert",
+        "version": "7.16.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nbformat",
+        "version": "5.10.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nest-asyncio",
+        "version": "1.6.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "networkx",
+        "version": "3.2.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nh3",
+        "version": "0.3.7",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "notebook_shim",
+        "version": "0.2.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "numpy",
+        "version": "2.1.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cublas-cu12",
+        "version": "12.1.3.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cuda-cupti-cu12",
+        "version": "12.1.105",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cuda-nvrtc-cu12",
+        "version": "12.1.105",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cuda-runtime-cu12",
+        "version": "12.1.105",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cudnn-cu12",
+        "version": "9.1.0.70",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cufft-cu12",
+        "version": "11.0.2.54",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-curand-cu12",
+        "version": "10.3.2.106",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cusolver-cu12",
+        "version": "11.4.5.107",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-cusparse-cu12",
+        "version": "12.1.0.106",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-ml-py",
+        "version": "13.595.45",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-nccl-cu12",
+        "version": "2.20.5",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-nvjitlink-cu12",
+        "version": "12.1.105",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvidia-nvtx-cu12",
+        "version": "12.1.105",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "nvitop",
+        "version": "1.7.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "openai",
+        "version": "2.43.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "opencv-contrib-python",
+        "version": "4.10.0.84",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "osmium",
+        "version": "4.3.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "osqp",
+        "version": "1.0.5",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "overrides",
+        "version": "7.7.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "packaging",
+        "version": "24.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pandas",
+        "version": "3.0.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pandocfilters",
+        "version": "1.5.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "parso",
+        "version": "0.8.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pexpect",
+        "version": "4.9.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pillow",
+        "version": "10.2.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pip",
+        "version": "24.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "platformdirs",
+        "version": "4.3.6",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "playwright",
+        "version": "1.63.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.6.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "prometheus_client",
+        "version": "0.21.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "prompt_toolkit",
+        "version": "3.0.48",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "protobuf",
+        "version": "7.34.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "psutil",
+        "version": "6.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "ptyprocess",
+        "version": "0.7.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pure_eval",
+        "version": "0.2.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "py-spy",
+        "version": "0.4.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "py3nvml",
+        "version": "0.2.7",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pyarrow",
+        "version": "25.0.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pycparser",
+        "version": "2.22",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pydantic",
+        "version": "2.13.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pydantic_core",
+        "version": "2.46.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pyee",
+        "version": "13.0.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pygame",
+        "version": "2.6.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.18.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pyogrio",
+        "version": "0.13.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pypandoc_binary",
+        "version": "1.17",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.3.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pyproj",
+        "version": "3.7.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pyproject_hooks",
+        "version": "1.3.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pytest",
+        "version": "9.1.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "python-json-logger",
+        "version": "2.0.7",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "python-pptx",
+        "version": "1.0.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "pyzmq",
+        "version": "26.2.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "rc-catd",
+        "version": "1.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "readme_renderer",
+        "version": "46.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "referencing",
+        "version": "0.35.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "regex",
+        "version": "2026.7.19",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "requests",
+        "version": "2.32.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "requests-toolbelt",
+        "version": "1.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "rfc3339-validator",
+        "version": "0.1.4",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "rfc3986",
+        "version": "2.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "rfc3986-validator",
+        "version": "0.1.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "rich",
+        "version": "15.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "rpds-py",
+        "version": "0.20.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "ruff",
+        "version": "0.15.21",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "sacremoses",
+        "version": "0.1.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "safetensors",
+        "version": "0.8.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "sb3_contrib",
+        "version": "2.8.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "scipy",
+        "version": "1.14.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "Send2Trash",
+        "version": "1.8.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "sentencepiece",
+        "version": "0.2.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "sentry-sdk",
+        "version": "2.59.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "setuptools",
+        "version": "75.1.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "shapely",
+        "version": "2.1.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "six",
+        "version": "1.16.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/os_dependency_payload"
+      },
+      {
+        "name": "smmap",
+        "version": "5.0.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "sniffio",
+        "version": "1.3.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "soupsieve",
+        "version": "2.6",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "stable_baselines3",
+        "version": "2.8.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "stack-data",
+        "version": "0.6.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "supervisor",
+        "version": "4.2.5",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "sympy",
+        "version": "1.12",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "terminado",
+        "version": "0.18.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "thesis-resource-methods",
+        "version": "0.1.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "tinycss2",
+        "version": "1.3.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "tokenizers",
+        "version": "0.20.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "torch",
+        "version": "2.4.0+cu121",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "torchaudio",
+        "version": "2.4.0+cu121",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "torchvision",
+        "version": "0.19.0+cu121",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "tornado",
+        "version": "6.4.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.68.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "traitlets",
+        "version": "5.14.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "transformers",
+        "version": "4.46.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "triton",
+        "version": "3.0.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "twine",
+        "version": "6.2.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "types-python-dateutil",
+        "version": "2.9.0.20241003",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "typing-inspection",
+        "version": "0.4.2",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.15.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "uri-template",
+        "version": "1.3.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.2.3",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "wandb",
+        "version": "0.26.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "wcwidth",
+        "version": "0.2.13",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "webcolors",
+        "version": "24.8.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "webencodings",
+        "version": "0.5.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "websocket-client",
+        "version": "1.8.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "wheel",
+        "version": "0.44.0",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "xlsxwriter",
+        "version": "3.2.9",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      },
+      {
+        "name": "xmltodict",
+        "version": "0.14.1",
+        "location": "/root/resource_allocation_envs/ch4_portable_20261104/base/site_payload"
+      }
+    ],
+    "hostname": "I2c215af830084013e4",
+    "launcher_path": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python",
+    "launcher_realpath": "/usr/bin/python3.11",
+    "launcher_sha256": "4f7f0c7c00e6491bf6ce94fae07226bc28b137ca515d7d6c73c5b2a86e141d1a",
+    "runtime_links": [
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/lib64",
+        "target": "lib",
+        "realpath": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/lib",
+        "exists": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python",
+        "target": "/usr/local/bin/python",
+        "realpath": "/usr/bin/python3.11",
+        "exists": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python3",
+        "target": "python",
+        "realpath": "/usr/bin/python3.11",
+        "exists": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter2/gpu0_five_seed_150k_20261104/runtime/python/bin/python3.11",
+        "target": "python",
+        "realpath": "/usr/bin/python3.11",
+        "exists": true
+      }
+    ]
+  },
+  "local": {
+    "executable": "/usr/local/bin/python3",
+    "python": "3.11.10 (main, Sep  7 2024, 18:35:41) [GCC 11.4.0]",
+    "platform": "Linux-5.4.0-42-generic-x86_64-with-glibc2.35",
+    "packages": [
+      {
+        "name": "annotated-types",
+        "version": "0.7.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "anyio",
+        "version": "4.6.2.post1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "argon2-cffi",
+        "version": "23.1.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "argon2-cffi-bindings",
+        "version": "21.2.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "arrow",
+        "version": "1.3.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "asttokens",
+        "version": "2.4.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "async-lru",
+        "version": "2.0.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "attrs",
+        "version": "24.2.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "babel",
+        "version": "2.16.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "beautifulsoup4",
+        "version": "4.12.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "bleach",
+        "version": "6.1.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "blinker",
+        "version": "1.4",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "build",
+        "version": "1.6.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "cairocffi",
+        "version": "1.7.1",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "CairoSVG",
+        "version": "2.9.0",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "certifi",
+        "version": "2024.8.30",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "cffi",
+        "version": "1.17.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "chardet",
+        "version": "4.0.0",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.4.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "clarabel",
+        "version": "0.11.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "click",
+        "version": "8.3.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "cloudpickle",
+        "version": "3.1.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "comm",
+        "version": "0.2.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "contourpy",
+        "version": "1.3.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "cryptography",
+        "version": "3.4.8",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "cssselect2",
+        "version": "0.9.0",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "cycler",
+        "version": "0.12.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "dbus-python",
+        "version": "1.2.18",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "debugpy",
+        "version": "1.8.7",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "decorator",
+        "version": "5.1.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "deep-translator",
+        "version": "1.11.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "defusedxml",
+        "version": "0.7.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "distro",
+        "version": "1.7.0",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "distro-info",
+        "version": "1.1+ubuntu0.2",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "docutils",
+        "version": "0.23",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "drainage-thesis-experiments",
+        "version": "0.2.0.dev0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "executing",
+        "version": "2.1.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "Farama-Notifications",
+        "version": "0.0.6",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "fastjsonschema",
+        "version": "2.20.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "filelock",
+        "version": "3.13.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "flood-allocation-rl",
+        "version": "1.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "flood-allocation-rl",
+        "version": "1.0.0",
+        "location": "/root/gamewar/latex_thesis/environment/src"
+      },
+      {
+        "name": "fonttools",
+        "version": "4.62.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "fqdn",
+        "version": "1.5.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "fsspec",
+        "version": "2024.2.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "geopandas",
+        "version": "1.1.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "gitdb",
+        "version": "4.0.12",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "GitPython",
+        "version": "3.1.50",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "greenlet",
+        "version": "3.5.6",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "gymnasium",
+        "version": "1.2.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "h11",
+        "version": "0.14.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "h5py",
+        "version": "3.16.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "hf-xet",
+        "version": "1.5.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "httpcore",
+        "version": "1.0.6",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "httplib2",
+        "version": "0.20.2",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "httpx",
+        "version": "0.27.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "huggingface_hub",
+        "version": "0.36.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "id",
+        "version": "1.6.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "idna",
+        "version": "3.10",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "importlib-metadata",
+        "version": "4.6.4",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "ipykernel",
+        "version": "6.29.5",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "ipython",
+        "version": "8.28.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "isoduration",
+        "version": "20.11.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jedi",
+        "version": "0.19.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jeepney",
+        "version": "0.7.1",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jiter",
+        "version": "0.15.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "joblib",
+        "version": "1.5.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "json5",
+        "version": "0.9.25",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jsonpointer",
+        "version": "3.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.23.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2024.10.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyter-events",
+        "version": "0.10.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyter-lsp",
+        "version": "2.2.5",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyter_client",
+        "version": "8.6.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyter_core",
+        "version": "5.7.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyter_server",
+        "version": "2.14.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyter_server_terminals",
+        "version": "0.5.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyterlab",
+        "version": "4.2.5",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyterlab-language-pack-zh-CN",
+        "version": "4.2.post3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyterlab_pygments",
+        "version": "0.3.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "jupyterlab_server",
+        "version": "2.27.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "keyring",
+        "version": "23.5.0",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.5.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "latex2mathml",
+        "version": "3.81.0",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "launchpadlib",
+        "version": "1.10.16",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "lazr.restfulclient",
+        "version": "0.14.4",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "lazr.uri",
+        "version": "1.0.6",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "lsed-rl",
+        "version": "1.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "lxml",
+        "version": "6.1.0",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "markdown-it-py",
+        "version": "4.2.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "mathml2omml",
+        "version": "0.0.2",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.10.9",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "matplotlib-inline",
+        "version": "0.1.7",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "mdurl",
+        "version": "0.1.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "mistune",
+        "version": "3.0.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "more-itertools",
+        "version": "8.10.0",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nbclient",
+        "version": "0.10.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nbconvert",
+        "version": "7.16.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nbformat",
+        "version": "5.10.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nest-asyncio",
+        "version": "1.6.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "networkx",
+        "version": "3.2.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nh3",
+        "version": "0.3.7",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "notebook_shim",
+        "version": "0.2.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "numpy",
+        "version": "2.1.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cublas-cu12",
+        "version": "12.1.3.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cuda-cupti-cu12",
+        "version": "12.1.105",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cuda-nvrtc-cu12",
+        "version": "12.1.105",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cuda-runtime-cu12",
+        "version": "12.1.105",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cudnn-cu12",
+        "version": "9.1.0.70",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cufft-cu12",
+        "version": "11.0.2.54",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-curand-cu12",
+        "version": "10.3.2.106",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cusolver-cu12",
+        "version": "11.4.5.107",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-cusparse-cu12",
+        "version": "12.1.0.106",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-ml-py",
+        "version": "13.595.45",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-nccl-cu12",
+        "version": "2.20.5",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-nvjitlink-cu12",
+        "version": "12.1.105",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvidia-nvtx-cu12",
+        "version": "12.1.105",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "nvitop",
+        "version": "1.7.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "oauthlib",
+        "version": "3.2.0",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "openai",
+        "version": "2.43.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "opencv-contrib-python",
+        "version": "4.10.0.84",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "osmium",
+        "version": "4.3.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "osqp",
+        "version": "1.0.5",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "overrides",
+        "version": "7.7.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "packaging",
+        "version": "24.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pandas",
+        "version": "3.0.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pandocfilters",
+        "version": "1.5.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "parso",
+        "version": "0.8.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pexpect",
+        "version": "4.9.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pillow",
+        "version": "10.2.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pip",
+        "version": "24.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "platformdirs",
+        "version": "4.3.6",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "playwright",
+        "version": "1.63.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.6.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "prometheus_client",
+        "version": "0.21.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "prompt_toolkit",
+        "version": "3.0.48",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "protobuf",
+        "version": "7.34.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "psutil",
+        "version": "6.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "ptyprocess",
+        "version": "0.7.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pure_eval",
+        "version": "0.2.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "py-spy",
+        "version": "0.4.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "py3nvml",
+        "version": "0.2.7",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pyarrow",
+        "version": "25.0.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pycparser",
+        "version": "2.22",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pydantic",
+        "version": "2.13.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pydantic_core",
+        "version": "2.46.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pyee",
+        "version": "13.0.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pygame",
+        "version": "2.6.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.18.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "PyGObject",
+        "version": "3.42.1",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "PyJWT",
+        "version": "2.3.0",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "pymupdf",
+        "version": "1.28.0",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "pyogrio",
+        "version": "0.13.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pypandoc_binary",
+        "version": "1.17",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.3.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pyproj",
+        "version": "3.7.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pyproject_hooks",
+        "version": "1.3.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "pytest",
+        "version": "9.1.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "python-apt",
+        "version": "2.4.0+ubuntu4",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "python-debian",
+        "version": "0.1.43+ubuntu1.1",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "python-docx",
+        "version": "1.2.0",
+        "location": "/root/.local/lib/python3.11/site-packages"
+      },
+      {
+        "name": "python-json-logger",
+        "version": "2.0.7",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "python-pptx",
+        "version": "1.0.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "PyYAML",
+        "version": "5.4.1",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "pyzmq",
+        "version": "26.2.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "rc-catd",
+        "version": "1.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "readme_renderer",
+        "version": "46.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "referencing",
+        "version": "0.35.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "regex",
+        "version": "2026.7.19",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "requests",
+        "version": "2.32.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "requests-toolbelt",
+        "version": "1.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "rfc3339-validator",
+        "version": "0.1.4",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "rfc3986",
+        "version": "2.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "rfc3986-validator",
+        "version": "0.1.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "rich",
+        "version": "15.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "rpds-py",
+        "version": "0.20.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "ruff",
+        "version": "0.15.21",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "sacremoses",
+        "version": "0.1.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "safetensors",
+        "version": "0.8.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "sb3_contrib",
+        "version": "2.8.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "scipy",
+        "version": "1.14.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "SecretStorage",
+        "version": "3.3.1",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "Send2Trash",
+        "version": "1.8.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "sentencepiece",
+        "version": "0.2.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "sentry-sdk",
+        "version": "2.59.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "setuptools",
+        "version": "75.1.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "shapely",
+        "version": "2.1.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "six",
+        "version": "1.16.0",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "smmap",
+        "version": "5.0.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "sniffio",
+        "version": "1.3.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "soupsieve",
+        "version": "2.6",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "ssh-import-id",
+        "version": "5.11",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "stable_baselines3",
+        "version": "2.8.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "stack-data",
+        "version": "0.6.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "supervisor",
+        "version": "4.2.5",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "sympy",
+        "version": "1.12",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "terminado",
+        "version": "0.18.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "thesis-resource-methods",
+        "version": "0.1.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "thesis-resource-methods",
+        "version": "0.1.0",
+        "location": "/root/gamewar/latex_thesis/methods/src"
+      },
+      {
+        "name": "tinycss2",
+        "version": "1.3.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "tokenizers",
+        "version": "0.20.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "torch",
+        "version": "2.4.0+cu121",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "torchaudio",
+        "version": "2.4.0+cu121",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "torchvision",
+        "version": "0.19.0+cu121",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "tornado",
+        "version": "6.4.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.68.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "traitlets",
+        "version": "5.14.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "transformers",
+        "version": "4.46.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "triton",
+        "version": "3.0.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "twine",
+        "version": "6.2.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "types-python-dateutil",
+        "version": "2.9.0.20241003",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "typing-inspection",
+        "version": "0.4.2",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.15.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "ubuntu-pro-client",
+        "version": "8001",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "unattended-upgrades",
+        "version": "0.1",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "uri-template",
+        "version": "1.3.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.2.3",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "wadllib",
+        "version": "1.3.6",
+        "location": "/usr/lib/python3/dist-packages"
+      },
+      {
+        "name": "wandb",
+        "version": "0.26.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "wcwidth",
+        "version": "0.2.13",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "webcolors",
+        "version": "24.8.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "webencodings",
+        "version": "0.5.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "websocket-client",
+        "version": "1.8.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "wheel",
+        "version": "0.44.0",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "xlsxwriter",
+        "version": "3.2.9",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "xmltodict",
+        "version": "0.14.1",
+        "location": "/usr/local/lib/python3.11/dist-packages"
+      },
+      {
+        "name": "zipp",
+        "version": "1.0.0",
+        "location": "/usr/lib/python3/dist-packages"
+      }
+    ]
+  },
+  "note": "仅软件版本/解释器/链接元数据；没有复制运行环境，没有加载策略或调用Torch训练，也不代表服务器可整体关闭。"
+}

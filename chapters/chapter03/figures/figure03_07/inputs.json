@@ -1,0 +1,153 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "3.7",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter03_intertemporal/figures/figure03-07_通信任务固定情景中的跨期资源配置",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter03/figures/figure03_07/figure.pdf"
+  ],
+  "files": {
+    "audit/actual_ink_spacing_720dpi.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0131.json",
+      "sha256": "e0e5d37c924e57141cad75eab73e0813588f53dfe83360e2000e5c1db521e878",
+      "bytes": 4388
+    },
+    "audit/scientific_after.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0132.json",
+      "sha256": "2b75a1c51641111fa86d1e982c6f2424775ba4525ea7e4ceced514ed309165d3",
+      "bytes": 657276
+    },
+    "audit/scientific_before.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0132.json",
+      "sha256": "2b75a1c51641111fa86d1e982c6f2424775ba4525ea7e4ceced514ed309165d3",
+      "bytes": 657276
+    },
+    "audit/text_and_hex_bboxes.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0133.json",
+      "sha256": "facd40decfbea26a85cb79fd29def488c99484b48b39e1f5a4bb98c5d45d7b8c",
+      "bytes": 470981
+    },
+    "data.csv": {
+      "path": "chapters/chapter03/figures/inputs/input_0134.csv",
+      "sha256": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+      "bytes": 33920
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter03/figures/figure03_07/figure.pdf",
+      "sha256": "fa380ba71f3ce5bd4e8e910530ea830ec505b55b2a6fdfe6f8460c4071cde891",
+      "bytes": 58318
+    },
+    "figure.png": {
+      "path": "chapters/chapter03/figures/inputs/input_0135.png",
+      "sha256": "4d4353788ccb99a3791d79362a89ae9d0d3d92acf8ba6068836d4c8e09b9061b",
+      "bytes": 657656
+    },
+    "figure.svg": {
+      "path": "chapters/chapter03/figures/inputs/input_0136.svg",
+      "sha256": "30431b637ffb02d639d6ab1d0e7e066a16a34763f4a224a118856a6f1ef1f8c8",
+      "bytes": 219406
+    },
+    "figure_grayscale.png": {
+      "path": "chapters/chapter03/figures/inputs/input_0137.png",
+      "sha256": "c1b0a51a7fdded287873cf8f950b8d22ce010c562525480c0b86e4a0cd6e3bca",
+      "bytes": 263147
+    },
+    "inputs/accepted_parent_files_sha256.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0138.json",
+      "sha256": "da1aa58abc7021532248165017f8e04d0c4746725a3e6fdb393d9fc45e5d4e23",
+      "bytes": 2225
+    },
+    "inputs/accepted_parent_print_presentation_proof.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0139.json",
+      "sha256": "c483079eee7309adbd53a4f16fce4fcae7eb0c55208825fbfa46e6519567de3d",
+      "bytes": 193630
+    },
+    "inputs/accepted_parent_source.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0140.json",
+      "sha256": "42d8bf6b317fc645aa0de0dfcabef32db10ac81c7568c2483c60dd5e65a958af",
+      "bytes": 2091
+    },
+    "inputs/accepted_parent_spec.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0141.json",
+      "sha256": "b160da44826021617be953bddcc05e1b7a9808ffcce6e4dd31c84cf65dc08b0b",
+      "bytes": 10810
+    },
+    "inputs/data.csv": {
+      "path": "chapters/chapter03/figures/inputs/input_0134.csv",
+      "sha256": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+      "bytes": 33920
+    },
+    "inputs/data/provenance.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0142.json",
+      "sha256": "9c445ac98d3f662eb50446e3124d787f050aee53ac9451e4533ede81074a3333",
+      "bytes": 2760
+    },
+    "inputs/period_totals.csv": {
+      "path": "chapters/chapter03/figures/inputs/input_0143.csv",
+      "sha256": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+      "bytes": 9765
+    },
+    "inputs/plot_source.py": {
+      "path": "chapters/chapter03/figures/inputs/source_0144.py",
+      "sha256": "0b0c9e8af9fdfe8f807ed315dba4be765dd870607d8173b64ed1767bf9b0a9ba",
+      "bytes": 14333
+    },
+    "local_inputs_sha256.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0145.json",
+      "sha256": "17d70dba321e2801d448e44ee686827929b550e99b72be0947abd463e1c43527",
+      "bytes": 464
+    },
+    "local_packaging.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0146.json",
+      "sha256": "33bd382e4406a01032fcb407efcbfc55f6ff5f9cc9da5eac531f048f86fc89e7",
+      "bytes": 3083
+    },
+    "period_totals.csv": {
+      "path": "chapters/chapter03/figures/inputs/input_0143.csv",
+      "sha256": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+      "bytes": 9765
+    },
+    "plot.py": {
+      "path": "chapters/chapter03/figures/inputs/source_0147.py",
+      "sha256": "8841ff7f8a809310635db336092b9d344bd61109ee8742ea273ff9413dafb236",
+      "bytes": 1196
+    },
+    "presentation_proof.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0148.json",
+      "sha256": "30e13939b721f3aa30e210884fa518f13ec3d7fe6ef4c8a9217f6523177202d6",
+      "bytes": 10751
+    },
+    "replot_sources/parent/figure.pdf": {
+      "path": "chapters/chapter03/figures/inputs/input_0149.pdf",
+      "sha256": "3084ec8b00a4fc3ff48a6acab65c8a44a967aa2e195ec4f13fb6d042f79484b8",
+      "bytes": 57857
+    },
+    "replot_sources/parent/figure.png": {
+      "path": "chapters/chapter03/figures/inputs/input_0150.png",
+      "sha256": "eaccdb505924d2cb50dd9fc247437916a9e35d6f04d1ce28f95f0355c1c423be",
+      "bytes": 644430
+    },
+    "replot_sources/renderer.py": {
+      "path": "chapters/chapter03/figures/inputs/source_0151.py",
+      "sha256": "95c7dc54a1bdc056666cba7354acd6edaf749384e14bdea5f4cecba4f56d9c3b",
+      "bytes": 30344
+    },
+    "source.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0152.json",
+      "sha256": "cfd6dc98ee8e4167d294f99f32b61feca54a104a8946acc7ffde2350b9b8378b",
+      "bytes": 4119
+    },
+    "spec.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0153.json",
+      "sha256": "ad32b716cf49db348d3a8f0bdbcb5d74e72b377f55074680e7b664b21c149a10",
+      "bytes": 2664
+    },
+    "time_expression_native_proof_20261117.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0154.json",
+      "sha256": "243b33f05e5335e851240ce7daf440b25ed205fa407ba4df8e46f68d09696bbb",
+      "bytes": 1349
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

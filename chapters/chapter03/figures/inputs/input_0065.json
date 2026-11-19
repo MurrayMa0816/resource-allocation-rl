@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "number": "3.5",
+  "restored_axes_mm": [
+    59.71280923952941,
+    51.44177823
+  ],
+  "canvas_mm": [
+    156.0,
+    79.68808014940728
+  ],
+  "all_original_CSV_arrays_SHA_exact": {
+    "data.csv.gz": "e815cedff8353878916cf0c4a8d65a050cd999d9d5fab6da70b0de48fb2226f6",
+    "replot_sources/parent/data.csv.gz": "e815cedff8353878916cf0c4a8d65a050cd999d9d5fab6da70b0de48fb2226f6",
+    "replot_sources/native_inputs/data.csv.gz": "e815cedff8353878916cf0c4a8d65a050cd999d9d5fab6da70b0de48fb2226f6"
+  },
+  "all_scientific_artist_arrays_styles_equal": true,
+  "all_original_PDF_text_font_sizes_equal": true,
+  "xlabel_to_legend_ink_bp": 15.0,
+  "xlabel_to_legend_text_frame_bp": 13.076751708984375,
+  "ink_DPI": 720,
+  "legend_to_file_bottom_mm": 1.9999963548448347,
+  "subtitle_to_file_top_mm": 1.4999989483091565,
+  "upper_xlabel_to_lower_subtitle_bp": null,
+  "source_restoration_phase_verified_before_spacing": "/hy-tmp/resource_allocation_results/chapter03/layout_restore_20261111/audit/stat_native_stage2_verified.json",
+  "scientific_execution": 0,
+  "builds": 0,
+  "legend_internal_row_spacing_exact_to_original": true,
+  "SVG_random_IDs_fixed_without_artist_geometry_changes": true
+}

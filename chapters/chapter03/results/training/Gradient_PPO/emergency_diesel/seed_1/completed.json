@@ -1,0 +1,128 @@
+{
+  "schema": "chapter3-integrated-online-candidates-v1",
+  "success": true,
+  "method": "gradient_ppo",
+  "domain": "v5",
+  "seed": 1,
+  "storage_contract": {
+    "profile": "lean",
+    "version": 1,
+    "training_numeric_steps_episodes_update_metrics": "complete gzip CSV",
+    "evaluation_numeric_steps_and_path_summaries": "complete gzip CSV",
+    "native_replay_full_spend_policy_rng_gates": "every evaluated path; unchanged",
+    "per_step_array_sha256_saved": false,
+    "initial_development_arrays_saved": false,
+    "representative_path_indices": [
+      0
+    ],
+    "representative_capture_phases": [
+      "endpoint_development",
+      "independent_final"
+    ],
+    "representative_arrays": [
+      "public_observations",
+      "latent_actions",
+      "physical_actions"
+    ],
+    "model": "one fixed endpoint with the native save/load fields; no periodic checkpoints"
+  },
+  "training_steps": 100608,
+  "training_episodes": 4192,
+  "development_environment_steps": 38208,
+  "evaluation_validation": {
+    "evaluation_calls": 199,
+    "evaluated_paths": 1592,
+    "native_replayed_paths": 1592,
+    "full_spend_checked_paths": 1592,
+    "retained_path_summary_rows": 1592,
+    "retained_numeric_step_rows": 38208,
+    "policy_normalization_pending_private_rng_isolation_checks": 199,
+    "global_rng_preservation_scopes": 199,
+    "representative_path_indices": [
+      0
+    ]
+  },
+  "independent_holdout_paths": 0,
+  "engineering_gate": false,
+  "initial_development": {
+    "training_step": 0,
+    "evaluation_kind": "development",
+    "paths": 8,
+    "evaluation_environment_steps": 192,
+    "native_mean": 0.6006596444588557,
+    "native_std": 0.0594454809140609,
+    "min_return": 0.506022097132431,
+    "max_return": 0.7104286931730787
+  },
+  "endpoint_development": {
+    "training_step": 100608,
+    "evaluation_kind": "development",
+    "paths": 8,
+    "evaluation_environment_steps": 192,
+    "native_mean": 0.7593007806453586,
+    "native_std": 0.0597562179763692,
+    "min_return": 0.6687969742447372,
+    "max_return": 0.8579217547908489
+  },
+  "reloaded_development": {
+    "training_step": 100608,
+    "evaluation_kind": "endpoint_reload",
+    "paths": 8,
+    "evaluation_environment_steps": 192,
+    "native_mean": 0.7593007806453586,
+    "native_std": 0.0597562179763692,
+    "min_return": 0.6687969742447372,
+    "max_return": 0.8579217547908489
+  },
+  "endpoint_reload_gate": {
+    "status": "PASS",
+    "paths": 8,
+    "max_native_return_error": 0.0,
+    "same_path_seeds": true,
+    "physical_actions_bitwise_equal": true,
+    "all_native_replay_errors_zero": true,
+    "all_resource_fraction_errors_below": 1e-10
+  },
+  "source_unchanged": true,
+  "config_sha256": "1ada6c02fce7f08fc9abc6b5119c59cf19f9d4b104556c188e2349db69314676",
+  "protocol_sha256": "8cfc18f70fb0d831c5b8e51fff475852c9d9162d74992008a8823f66c1aa1881",
+  "accounting": {
+    "environment_steps": 100608,
+    "updates": 1600,
+    "actor_updates": 1600,
+    "reward_model_updates": 0,
+    "h_updates": 1600,
+    "rollout_updates": 50,
+    "effective_td_positions": 402432,
+    "algorithm": "gradient_ppo",
+    "critic_terminal_positions": 16768,
+    "critic_nonzero_reward_positions": 16768,
+    "observation_moment_count": 104800.0001,
+    "return_moment_count": 100608.0001
+  },
+  "model_files": {
+    "metadata.json": {
+      "sha256": "acf923d81b1891520f187f3c9dc5bea775f7ff4f2d633a0dabfc17377bc04727",
+      "bytes": 1164
+    },
+    "model.pt": {
+      "sha256": "d259bb235f3a4ae2f8a541463688e0f845acb6b0763095600a1af24d2785392a",
+      "bytes": 114297
+    }
+  },
+  "data_final_verification": {
+    "images_opened": false
+  },
+  "optimizer_or_replay_saved": false,
+  "periodic_models_saved": false,
+  "elapsed_seconds": 598.2187898159027,
+  "artifacts_sha256": {
+    "development_curve.csv.gz": "48d3ad182e9bc74c8cd8f13bb8f96653965601a09bdac6a1b3fae573010aef6c",
+    "development_paths.csv.gz": "bdc3669accefce64fa0e6bd96e9d0624c005ebd997c7aeeff83db0f90facbc3c",
+    "development_steps.csv.gz": "c7cb83ade2839e5cf003e54fc22dc6987a43824ffa17da8e6ea6a2b4019e5229",
+    "training_episodes.csv.gz": "2ac1040b9bf0bc2bb71b9730aa3f8c7b14dfa877467d14436e8dcd3dc781bfaf",
+    "training_steps.csv.gz": "044fb304b9cf90b5067f402d2f6aff4ba806959e48bbb65d50999a0b7ec148a3",
+    "update_metrics.csv.gz": "33beb90fdaab8a9855e79454de4e0e4f62423667faa93751f2161953800a1984",
+    "development_arrays_step_100608.npz": "0b11a86e4409f653503381333d76823409fb29811c2d98782aa027bbb561b140"
+  }
+}

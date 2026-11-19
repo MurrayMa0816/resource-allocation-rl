@@ -1,0 +1,17 @@
+{
+  "schema": "chapter5-formal-210-independent-evaluation-audit-v1",
+  "status": "PASS",
+  "training_models": 90,
+  "evaluation_jobs": 210,
+  "test_paths_per_job": 256,
+  "formal_test_episodes": 53760,
+  "formal_test_physical_steps": 1505280,
+  "new_learning_steps": 0,
+  "optimizer_steps": 0,
+  "all_raw_task_and_full_spend_ledgers_verified": true,
+  "all_domain_scale_panels_common_across_methods_and_seeds": true,
+  "contract_sha256": "dc92009f55349840b002bcebc55f8a7e107d95f199562ae47df77485e4cc6f3a",
+  "model_registry_sha256": "3c12657664f6d5824180ed3ccf4f6faf91024b692f6716eeb6bf3fd512fc9ec7",
+  "report_bundle_sha256": "ebfaaa7876a3059c94ae3f6fc4e654f609d6566d2c785eafc888651bb8d0842e",
+  "auditor_sha256": "ec5e5bab213ae25e0da721250c8a9917dbfbe32f053887f8bb64bb7f6ddb354b"
+}

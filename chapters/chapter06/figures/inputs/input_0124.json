@@ -1,0 +1,5305 @@
+{
+  "all_original_input_files_unchanged": true,
+  "input_files_sha256": {
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day00.pdf": "97e4969050ccc32354c6dbdcaa123f6700f328eb679733f0d0e9af62b8c9dd4d",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day00.svg": "8c196a20814707c072a47caea9733fcb06e4b132bbb37d95b1ccb2eda41bfbf2",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day00.png": "62b1da71cc2148eedf52c734de9f268f177d64305ebecd8e8bce869febbda121",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day46.pdf": "a1e2a2823f56d36a15c6d92e4cacac8655870fda1cd38638f14c3ef113521b59",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day46.svg": "2fd26debecfda0476f03928f1d5fb584b5e4e737eb38e7b4e6c3711f4f8bd123",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day46.png": "21291026f441540a6aa5b21dd04e47a1834710487015dde8320209b9e17b2181",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day62.pdf": "06ffb1da045966c1137ffe30aca467dc74f8195e4760611b0fdc39e87fd5a3ff",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day62.svg": "d76a58c3a556362be7c05e20fb8e7c3f81586c35b087b83c5ac7560b1eaa6454",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day62.png": "1afcbd993afd412e598db63c1ec5fabaa1c5621b722c31fae7f404507c8b731b",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day72.pdf": "9eb3a44d027a1a85539c0b162e50221e7c953ab7dbcb3379d4b7f2bbe2bb887e",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day72.svg": "28f357969fd57c146890d1f842a8acbd6aca83870ef49041069599200a23b954",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/day72.png": "4d7b7989d65d2a76e9976c70a29520ebf272cfe985ae694751f4810e211da637",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/legend.pdf": "bcf64f9f99b295a386521522cb2a2598ee49fdb4cdc40726166dfc6f8ef7630f",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/legend.svg": "a61985e7148dcab2bcca68273c9816f1e687bfe0e89872612ad9e706f932968a",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/legend.png": "790c1d3697459bdbb03749005e6f90998fa57bdeab67c8adcebacfe737877d1d",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/all89_four_dates_state_action.csv": "2fc6be7f4fbc2652bc13dc97b11bba743b2a28ec12f6c9ebd90d17b16782d00d",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/manifest.json": "cb81fc9a1767b2eff7db12c8fa5c6a390f7b2e1064012d11cabfaca7918756e6",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/plot.py": "d51ec7d2f0df3442e95e6ca56e5c0f284a7fc10074824102010dde1b80f4248a",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/requirements.txt": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/README.local.rst": "e28f9c6e692564c86867a2904a1f90ddabeaa75f1cc6519a5f0617a6ab00b8e0",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/storage_depth_legend_geometry.json": "3b1d3757940ae9fa7cb6be8578ded7ac545273728e02ae76476156ece7c9283a",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/local_source.json": "73bf77f94de6903e93b0cefb806c71cdf0385984c786c2d8dee690a9c2323e5c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/README.rst": "a6a55549caddaee41ebc71cd044f2d0b44771df825ed8104e6794e45b177a411",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/CONTENTS.json": "b4899eda90ee45618391b2d57f82c8869b0a34ede5fbfc1af122516c1e2ba3d0",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/plot_pairs.py": "9e2415d06ae3ab1890cc3fb55054e5d0483613ca388c57be9198fd61b19c89eb",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/pair_ab.pdf": "8ac4967696531f6343bca4fe6fa103c71af6fe02e0e09a8ca3b6c426414a69cb",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/pair_ab.svg": "1cb368c538c7407d289c995753a6ee14e67b6552808f2441ece60c5a703427de",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/pair_ab.png": "264fe5ac4d1569857d8d81280a18af921de20c898076fed080add1be01391f2c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/pair_cd.pdf": "509072cf80c68fa89e3951761b77515553fe45cb3312bd4dcbcf96515312c3d0",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/pair_cd.svg": "4fee90d2cc295f03d000c32e47c7ec839c299662631603132d182eb970d8c884",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/pair_cd.png": "d8eea09bbe1588ef983c3601e2bcd3d8e7677968b59c5642e0f6290b3a2f4dc7",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/pairs_layout_proof.json": "62a548ceb59e022f977b1cb9b90ebe2062d62dbe503b660efab9bfd0ad07287d",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/README_PAIRS.rst": "34ccb0f453e4804a8fa4a90ccee77921859cfda6c493e035ab8fc5a991cb3139",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/README_FULLSIZE15.rst": "f61135dc4e760233ee6c6cec43815b01142d0b94efc3245edca934c9180118dc",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day00.pdf": "72f22ca673f0331f356ab5f65df9d099a9ef6c3b22009d57daa4aebfb91e7bb4",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day00.png": "702471c7bfca7b83712919b9ac1b7dcff59de494851f94566db3ef09fd83a959",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day00.svg": "d0a3c20573b9b684978db53ab3a17cd15c3933df5db0990d00b57d6d96a28181",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day46.pdf": "d85adfd25f8955a30b07a097f139786cccd7802d8e4eb3a574c34e032e33fa2f",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day46.png": "4b22cb3c229253f4d5f967b9a9e5dbe5da9997c750334b998ad946546d8ab006",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day46.svg": "84a16b866ca97c09d19ca22977608e4a103a342dcff4b826fc6c1a525a48e5d4",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day62.pdf": "ba26eb4be076cf232d33dbe837ec17cd5a3aa82ff2487ad2e046f5524a424d38",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day62.png": "ae02fdcc81dbfe5deb49d580a7062a9f57b087d70a7388e27f46538fffe2c75c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day62.svg": "abf427d2ff4c3d89bed2ebd97eef5c6743cbdab0a04efa6afce4555d178a0e9f",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day72.pdf": "15bef56486009f01f0d46b3b7b1c580750378c02ee756ebd28fc8d85b45c8572",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day72.png": "9b5bbae9f05ff1826408f30ed3a4b8278881eb1ed427c83b46407ac8f10f14f3",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_day72.svg": "425e0c690a0a94021b7b0545b8f610d8c7be91675251aa865da3216c13ff7fa8",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_geometry.json": "ed9833f864f5386a16d1c98c2507e8f0527a9b9ae3fc85a6d4da67e8d87684f8",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_science.json": "d62fae79f210e9c40f0ee9b54ab955224333cdda32c047b2b7634757c01689cf",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/plot_fullsize15.py": "c695bdf8221404c646e15e45dc758d0f96791c8e00885ed450b39dc9055cac6e",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/provenance/original_static_scene_render.py": "983137583127d2bc239534bd7dbb2123d7866a02b03da634b08e3ae0c9e06284",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/source/display_helpers.py": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/source/map_family.py": "4e91b8f86a2c64b2668e3bbd9706092da52eb9567748026ca7cc6e9005dd9dd8",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/source/storage_depth_legend.py": "25c1e01cca0113dae4aa49f46818ea60d4c0ca4160174a2395f8576c9bdef13f",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/channel_style.json": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/mapping.json": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/visible_manifest.json": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/mean_terminal_y_all89.csv": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/palette.json": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/combined_water_geometry.json": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/water_hex_edges.json": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/style_overrides.json": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/data/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/data/water_band.json": "fe5549a2c52d64b10965212a5f8aa60df2e5a55ceb072fe6e5f98906200e1157",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/data/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/data/internal_hex_edges.json": "629694d376cadaaee127ae5d601e58846ca51be7f4482df53a5da6d2bb229f5c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/data/source_regions.json": "30a4c3e36e814b9406cae88c527b50b5d5e71ee145ca4eaaae9b91d0c9e52d65",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/layout_pairs_20261110/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/layout_pairs_20261110/source/render_maps.py": "81ef4aac882fa7b421561d8784c4bc879d869ed284538298a72eeac38a446ab1",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/layout_pairs_20261110/source/compose_pairs.py": "d3a29cdd198ccde098b06b01c854c2a2dc8ab1498a7e2ba8e764965b5869ee60",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_20261111/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_20261111/origin.json": "e135c46bbfb61bd46058613ebf994a372259b5603b03badb73833e88a0c64bc4",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/fullsize15_20261111/source/render_maps.py": "e732ee25ce07a2ded804e15eb0e676beb25cb6f4e62ac5c3ada0def1f60c380f",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/compact_labels_20261112/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/compact_labels_20261112/origin.json": "7633acee79d8d34a19f6fd44774e591baf57662df98a19605670a1c6533b10ec",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/compact_labels_20261112/source/render_maps.py": "66a4f388db4692be1e59e8bb252bd1ebbe87df154eefdf57b34c179882d25405"
+  },
+  "fixed89ID_world_positions_reuse_accepted_optimized_layout": true,
+  "fixed_ID_world_positions": [
+    [
+      7.269156599761611,
+      2.251619886466068
+    ],
+    [
+      11.49999991183751,
+      3.6675916932009636
+    ],
+    [
+      9.740000000000004,
+      -2.078507084146424
+    ],
+    [
+      14.90803117533135,
+      2.251619857971494
+    ],
+    [
+      14.500000000000004,
+      -2.078507084146424
+    ],
+    [
+      20.940000000000005,
+      1.0516199158535682
+    ],
+    [
+      25.02000000000001,
+      -2.078507084146424
+    ],
+    [
+      22.77999999999998,
+      2.0116199158535673
+    ],
+    [
+      25.921391158265244,
+      4.0399001711768365
+    ],
+    [
+      29.49999997061248,
+      3.752398264260396
+    ],
+    [
+      32.04743992531304,
+      -3.9947986938771387
+    ],
+    [
+      36.316873866282506,
+      -1.212481142921421
+    ],
+    [
+      35.61999991183745,
+      3.8915973394682575
+    ],
+    [
+      44.20000000000004,
+      -2.4124810841464255
+    ],
+    [
+      40.65423488068333,
+      -9.872736096663964
+    ],
+    [
+      38.21999991183753,
+      -4.130260762280517
+    ],
+    [
+      36.08831583998805,
+      -4.102608084146423
+    ],
+    [
+      34.06787628968059,
+      -4.978688805869831
+    ],
+    [
+      33.699999999999946,
+      -6.92315879610028
+    ],
+    [
+      27.9346959633135,
+      -5.542608142028497
+    ],
+    [
+      25.017637450093776,
+      -9.872736240922682
+    ],
+    [
+      22.836238257444336,
+      -6.88221600704411
+    ],
+    [
+      20.04362828561185,
+      -8.8312097534143
+    ],
+    [
+      18.798891330238643,
+      -12.13025714294976
+    ],
+    [
+      15.734715900174663,
+      -5.542608199910569
+    ],
+    [
+      21.003400525251156,
+      -11.66342537030977
+    ],
+    [
+      13.007478130344857,
+      -10.967995150778217
+    ],
+    [
+      7.740000000000001,
+      -3.0607958282365306
+    ],
+    [
+      10.987038510846812,
+      -11.193761756744546
+    ],
+    [
+      11.011596599511872,
+      -13.138230587503513
+    ],
+    [
+      10.07349754809494,
+      -5.782608142921422
+    ],
+    [
+      6.488118068459725,
+      -9.87273612605146
+    ],
+    [
+      2.4805480792340515,
+      -6.863774769346802
+    ],
+    [
+      8.991156194282668,
+      -13.576837142921454
+    ],
+    [
+      7.545906475296236,
+      -19.729632186296815
+    ],
+    [
+      6.513122300398838,
+      -16.660121178896492
+    ],
+    [
+      13.716599422854914,
+      -15.869815516452688
+    ],
+    [
+      15.027919828712474,
+      -12.045453155783743
+    ],
+    [
+      16.406827498875966,
+      -19.11367655359722
+    ],
+    [
+      18.597785048056135,
+      -14.074725393172244
+    ],
+    [
+      20.850218714092772,
+      -19.54250122964245
+    ],
+    [
+      27.424990468188806,
+      -13.576837142921454
+    ],
+    [
+      29.34319779035245,
+      -17.144409005459302
+    ],
+    [
+      32.98468108827562,
+      -13.336837199910605
+    ],
+    [
+      41.52152195718046,
+      -17.42696414292146
+    ],
+    [
+      44.93999987035785,
+      -18.583518121623943
+    ],
+    [
+      40.36288460399208,
+      -24.410443641368737
+    ],
+    [
+      39.06314299036697,
+      -21.371066142921453
+    ],
+    [
+      36.66038903297354,
+      -27.50613531413386
+    ],
+    [
+      34.73999999999995,
+      -22.293008251071175
+    ],
+    [
+      31.256030903420513,
+      -22.410046824600556
+    ],
+    [
+      30.79616864616913,
+      -27.052762191702612
+    ],
+    [
+      34.268004360627835,
+      -20.317093472899433
+    ],
+    [
+      25.969454255536558,
+      -22.47863126887012
+    ],
+    [
+      26.820000058774962,
+      -26.53451394309052
+    ],
+    [
+      23.949014271004692,
+      -22.95325425938472
+    ],
+    [
+      24.343877764700625,
+      -20.534162041796034
+    ],
+    [
+      23.21999999999997,
+      -18.58969328300444
+    ],
+    [
+      18.775917672395106,
+      -22.51535191369893
+    ],
+    [
+      18.829781546476028,
+      -20.570881254594006
+    ],
+    [
+      15.860000277259806,
+      -27.244200401184095
+    ],
+    [
+      16.755480939003583,
+      -21.371066706887053
+    ],
+    [
+      5.525470693073387,
+      -19.54682817840589
+    ],
+    [
+      6.963383236944926,
+      -21.674103365048826
+    ],
+    [
+      10.43078990374219,
+      -25.461193142921456
+    ],
+    [
+      0.4800002145664892,
+      -26.250848418211532
+    ],
+    [
+      6.139999941225003,
+      -27.07590913459164
+    ],
+    [
+      5.090011362013463,
+      -32.77542117166396
+    ],
+    [
+      11.5967014074692,
+      -32.38939569266157
+    ],
+    [
+      12.699999870357816,
+      -27.244610029593012
+    ],
+    [
+      13.617142475324346,
+      -32.285294084146415
+    ],
+    [
+      18.625190281135886,
+      -32.19397356184175
+    ],
+    [
+      18.580000000000005,
+      -35.4
+    ],
+    [
+      22.734780046666394,
+      -29.373524412624672
+    ],
+    [
+      24.487626891321433,
+      -33.255421142921385
+    ],
+    [
+      24.755219865171085,
+      -29.01185102677869
+    ],
+    [
+      24.303123476637634,
+      -35.4
+    ],
+    [
+      26.323562237223904,
+      -35.4
+    ],
+    [
+      28.34400010906964,
+      -35.4
+    ],
+    [
+      30.36443791172352,
+      -35.4
+    ],
+    [
+      32.161205861879274,
+      -28.997232301262656
+    ],
+    [
+      32.38487644167016,
+      -35.929464050976065
+    ],
+    [
+      36.72230311897344,
+      -29.450607091101347
+    ],
+    [
+      35.020000000000024,
+      -35.4
+    ],
+    [
+      38.75,
+      -29.01185102677869
+    ],
+    [
+      39.01213871101231,
+      -35.43071351985765
+    ],
+    [
+      43.01127130711669,
+      -26.285294142921362
+    ],
+    [
+      46.0751965845139,
+      -30.188316609512935
+    ],
+    [
+      46.54626523210804,
+      -33.255421142921385
+    ]
+  ],
+  "geographic_data_and_colours_source_files_unchanged": true,
+  "original_uncompressed_map_basis_mm": [
+    156.0,
+    131.21471879190491
+  ],
+  "actual_axes_mm": [
+    146.0,
+    109.21471879190491
+  ],
+  "raw_manifest": {
+    "source": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/compact_labels_20261112/source/render_maps.py",
+    "source_sha256": "66a4f388db4692be1e59e8bb252bd1ebbe87df154eefdf57b34c179882d25405",
+    "read_only_inputs_sha256": {
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/combined_water_geometry.json": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/geometry/water_hex_edges.json": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/source/display_helpers.py": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/channel_style.json": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/mapping.json": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/visible_manifest.json": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/palette.json": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/data/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/data/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/static_scene/style_overrides.json": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109/data/mean_terminal_y_all89.csv": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+    },
+    "inputs_unchanged": true,
+    "original_uncompressed_canvas_width_mm": 156.0,
+    "canvas_width_mm": 156.0,
+    "canvas_height_mm": 117.21471879190491,
+    "scene_board_width_mm": 146.0,
+    "scene_board_height_mm": 109.21471879190491,
+    "scene_left_mm": 5.0,
+    "scene_right_mm": 151.0,
+    "scene_bottom_mm": 4.0,
+    "common_fixed_label_positions": [
+      [
+        7.269156599761611,
+        2.251619886466068
+      ],
+      [
+        11.49999991183751,
+        3.6675916932009636
+      ],
+      [
+        9.740000000000004,
+        -2.078507084146424
+      ],
+      [
+        14.90803117533135,
+        2.251619857971494
+      ],
+      [
+        14.500000000000004,
+        -2.078507084146424
+      ],
+      [
+        20.940000000000005,
+        1.0516199158535682
+      ],
+      [
+        25.02000000000001,
+        -2.078507084146424
+      ],
+      [
+        22.77999999999998,
+        2.0116199158535673
+      ],
+      [
+        25.921391158265244,
+        4.0399001711768365
+      ],
+      [
+        29.49999997061248,
+        3.752398264260396
+      ],
+      [
+        32.04743992531304,
+        -3.9947986938771387
+      ],
+      [
+        36.316873866282506,
+        -1.212481142921421
+      ],
+      [
+        35.61999991183745,
+        3.8915973394682575
+      ],
+      [
+        44.20000000000004,
+        -2.4124810841464255
+      ],
+      [
+        40.65423488068333,
+        -9.872736096663964
+      ],
+      [
+        38.21999991183753,
+        -4.130260762280517
+      ],
+      [
+        36.08831583998805,
+        -4.102608084146423
+      ],
+      [
+        34.06787628968059,
+        -4.978688805869831
+      ],
+      [
+        33.699999999999946,
+        -6.92315879610028
+      ],
+      [
+        27.9346959633135,
+        -5.542608142028497
+      ],
+      [
+        25.017637450093776,
+        -9.872736240922682
+      ],
+      [
+        22.836238257444336,
+        -6.88221600704411
+      ],
+      [
+        20.04362828561185,
+        -8.8312097534143
+      ],
+      [
+        18.798891330238643,
+        -12.13025714294976
+      ],
+      [
+        15.734715900174663,
+        -5.542608199910569
+      ],
+      [
+        21.003400525251156,
+        -11.66342537030977
+      ],
+      [
+        13.007478130344857,
+        -10.967995150778217
+      ],
+      [
+        7.740000000000001,
+        -3.0607958282365306
+      ],
+      [
+        10.987038510846812,
+        -11.193761756744546
+      ],
+      [
+        11.011596599511872,
+        -13.138230587503513
+      ],
+      [
+        10.07349754809494,
+        -5.782608142921422
+      ],
+      [
+        6.488118068459725,
+        -9.87273612605146
+      ],
+      [
+        2.4805480792340515,
+        -6.863774769346802
+      ],
+      [
+        8.991156194282668,
+        -13.576837142921454
+      ],
+      [
+        7.545906475296236,
+        -19.729632186296815
+      ],
+      [
+        6.513122300398838,
+        -16.660121178896492
+      ],
+      [
+        13.716599422854914,
+        -15.869815516452688
+      ],
+      [
+        15.027919828712474,
+        -12.045453155783743
+      ],
+      [
+        16.406827498875966,
+        -19.11367655359722
+      ],
+      [
+        18.597785048056135,
+        -14.074725393172244
+      ],
+      [
+        20.850218714092772,
+        -19.54250122964245
+      ],
+      [
+        27.424990468188806,
+        -13.576837142921454
+      ],
+      [
+        29.34319779035245,
+        -17.144409005459302
+      ],
+      [
+        32.98468108827562,
+        -13.336837199910605
+      ],
+      [
+        41.52152195718046,
+        -17.42696414292146
+      ],
+      [
+        44.93999987035785,
+        -18.583518121623943
+      ],
+      [
+        40.36288460399208,
+        -24.410443641368737
+      ],
+      [
+        39.06314299036697,
+        -21.371066142921453
+      ],
+      [
+        36.66038903297354,
+        -27.50613531413386
+      ],
+      [
+        34.73999999999995,
+        -22.293008251071175
+      ],
+      [
+        31.256030903420513,
+        -22.410046824600556
+      ],
+      [
+        30.79616864616913,
+        -27.052762191702612
+      ],
+      [
+        34.268004360627835,
+        -20.317093472899433
+      ],
+      [
+        25.969454255536558,
+        -22.47863126887012
+      ],
+      [
+        26.820000058774962,
+        -26.53451394309052
+      ],
+      [
+        23.949014271004692,
+        -22.95325425938472
+      ],
+      [
+        24.343877764700625,
+        -20.534162041796034
+      ],
+      [
+        23.21999999999997,
+        -18.58969328300444
+      ],
+      [
+        18.775917672395106,
+        -22.51535191369893
+      ],
+      [
+        18.829781546476028,
+        -20.570881254594006
+      ],
+      [
+        15.860000277259806,
+        -27.244200401184095
+      ],
+      [
+        16.755480939003583,
+        -21.371066706887053
+      ],
+      [
+        5.525470693073387,
+        -19.54682817840589
+      ],
+      [
+        6.963383236944926,
+        -21.674103365048826
+      ],
+      [
+        10.43078990374219,
+        -25.461193142921456
+      ],
+      [
+        0.4800002145664892,
+        -26.250848418211532
+      ],
+      [
+        6.139999941225003,
+        -27.07590913459164
+      ],
+      [
+        5.090011362013463,
+        -32.77542117166396
+      ],
+      [
+        11.5967014074692,
+        -32.38939569266157
+      ],
+      [
+        12.699999870357816,
+        -27.244610029593012
+      ],
+      [
+        13.617142475324346,
+        -32.285294084146415
+      ],
+      [
+        18.625190281135886,
+        -32.19397356184175
+      ],
+      [
+        18.580000000000005,
+        -35.4
+      ],
+      [
+        22.734780046666394,
+        -29.373524412624672
+      ],
+      [
+        24.487626891321433,
+        -33.255421142921385
+      ],
+      [
+        24.755219865171085,
+        -29.01185102677869
+      ],
+      [
+        24.303123476637634,
+        -35.4
+      ],
+      [
+        26.323562237223904,
+        -35.4
+      ],
+      [
+        28.34400010906964,
+        -35.4
+      ],
+      [
+        30.36443791172352,
+        -35.4
+      ],
+      [
+        32.161205861879274,
+        -28.997232301262656
+      ],
+      [
+        32.38487644167016,
+        -35.929464050976065
+      ],
+      [
+        36.72230311897344,
+        -29.450607091101347
+      ],
+      [
+        35.020000000000024,
+        -35.4
+      ],
+      [
+        38.75,
+        -29.01185102677869
+      ],
+      [
+        39.01213871101231,
+        -35.43071351985765
+      ],
+      [
+        43.01127130711669,
+        -26.285294142921362
+      ],
+      [
+        46.0751965845139,
+        -30.188316609512935
+      ],
+      [
+        46.54626523210804,
+        -33.255421142921385
+      ]
+    ],
+    "original_big_circle_mapping_sha256": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+    "region_ID_font_bp": 9.5,
+    "channel_fonts_bp": [
+      10.5
+    ],
+    "channel_name_callouts": true,
+    "channel_semantics": "One upstream 三分干渠 and one continuous serpentine 洪庙支渠; five old repeated tiny labels did not denote five separate channels",
+    "service_hex_grid_line_bp": 0.25,
+    "original_service_hex_grid_line_bp": 0.16,
+    "yield_palette": [
+      "#f2da5e",
+      "#beb051",
+      "#8e8b5a",
+      "#5c636e",
+      "#123570"
+    ],
+    "yield_palette_gray_luminance": [
+      0.8398023529411764,
+      0.6749701960784313,
+      0.5337254901960784,
+      0.385513725490196,
+      0.19536784313725492
+    ],
+    "ordinary_legend_font_bp": 10.5,
+    "quantitative_bar_left_mm": 5.0,
+    "quantitative_bar_right_mm": 151.0,
+    "quantitative_bar_length_mm": 146.0,
+    "scientific_execution": {
+      "environment_steps": 0,
+      "model_loads": 0,
+      "inference_calls": 0,
+      "training_steps": 0
+    },
+    "group": "stage_overlay",
+    "assets": {
+      "day00": {
+        "width_mm": 156.0,
+        "height_mm": 117.21471879190491,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day00.pdf",
+            "sha256": "e0a3fa696a4679736cbfea58f91c30fd735941ed143752eb6ffc51d300b2536d"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day00.svg",
+            "sha256": "6951b68fe4e061dc84a20c8f3948bbf7f9a766ccd520616cc611d0c593768afa"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day00.png",
+            "sha256": "ec4879e0ea500c3801f4b040b273d748eaf26aa5a8a8a7df78f9e611a371b5a2"
+          }
+        }
+      },
+      "day46": {
+        "width_mm": 156.0,
+        "height_mm": 117.21471879190491,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day46.pdf",
+            "sha256": "f1ccf630557ecb9d4d7467fb0c604345261d8742c1ba333bf6b81a273a0f1dd6"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day46.svg",
+            "sha256": "354ab4350bed755db8b44787d320f12fa50672f1a91d60c6f82055a86d57f098"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day46.png",
+            "sha256": "b6202db5a4d96b531b6ec48da3954e6c465e55ea9709fc0284817f14ae8fa692"
+          }
+        }
+      },
+      "day62": {
+        "width_mm": 156.0,
+        "height_mm": 117.21471879190491,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day62.pdf",
+            "sha256": "43f5a79665213ab7634c54e53a38ce040527b64e8c9a41654bd8c39f216deafe"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day62.svg",
+            "sha256": "f47117f020ead15d6fc8d282606275c7c963499fafe3290831a67ffcc8276e62"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day62.png",
+            "sha256": "d1565fd8c9a79b08726f58d812215a90bea1ec6e44d3b975227f896d91b17922"
+          }
+        }
+      },
+      "day72": {
+        "width_mm": 156.0,
+        "height_mm": 117.21471879190491,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day72.pdf",
+            "sha256": "1f00deeefdc9bff057ba0d30b78268bdfd031e7f3d6017bb0841a410e54eee8b"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day72.svg",
+            "sha256": "5af3b0f198de939245693f271a0c339327c5db123ed6c5aa8d5eb8c7ed3f716e"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/day72.png",
+            "sha256": "579a215f634a978a1b45f300012edb0fab431be69f814f73ac0bad2994ee7eee"
+          }
+        }
+      },
+      "allocation_legend": {
+        "width_mm": 156.0,
+        "height_mm": 28.0,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/legend.pdf",
+            "sha256": "9c0d7166ebfa543219e0b4a3b3880f9d9f70ae00b571215bfd6ca66ab47dc345"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/legend.svg",
+            "sha256": "25c85bf6db898198ffbd85a4ee75b8a4855333451f337fbd4f814e0b758c23e1"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.4/.fullsize15-f8rg1kfe/figures/stage_overlay/legend.png",
+            "sha256": "93c84d606afeb265035d1fd247607139e2466ce4b972413c5468c76648cbbcd0"
+          }
+        },
+        "storage_bar": {
+          "left_mm": 5.0,
+          "right_mm": 151.0,
+          "length_mm": 146.0,
+          "equals_scene_board": true
+        },
+        "circle_row_left_mm": 5.0,
+        "circle_row_right_mm": 151.0,
+        "circle_examples": [
+          {
+            "value_m3": 125.0,
+            "radius_mm": 0.5656854249492381
+          },
+          {
+            "value_m3": 1000.0,
+            "radius_mm": 1.6
+          },
+          {
+            "value_m3": 4000.0,
+            "radius_mm": 3.2
+          }
+        ]
+      }
+    },
+    "days": [
+      0,
+      46,
+      62,
+      72
+    ],
+    "dates": [
+      "2022-05-30",
+      "2022-07-15",
+      "2022-07-31",
+      "2022-08-10"
+    ],
+    "seed": 6400,
+    "weather_id": 125,
+    "radius1000_mm": 1.6,
+    "foreground_bp": 1.5,
+    "white_halo_bp": 3.0,
+    "zero_no_circle": true,
+    "positive_floor": false,
+    "mapping_unchanged": true
+  },
+  "restored_display_only_no_new_scientific_execution": true,
+  "circle_records": [
+    {
+      "day": 0,
+      "region_id": "1",
+      "allocation_m3": 73.6004988875886,
+      "beginning_storage_mm": 133.74311296188574,
+      "circle_x": 5.749999999999997,
+      "circle_y": 2.1928813992488,
+      "radius_geometry_units": 0.15623568155810216,
+      "drawn": true,
+      "actual_radius_mm": 0.4340705900567634,
+      "actual_enclosed_area_mm2": 0.5919303337108275
+    },
+    {
+      "day": 0,
+      "region_id": "3",
+      "allocation_m3": 380.3978816831063,
+      "beginning_storage_mm": 115.47832782288994,
+      "circle_x": 11.857144642180065,
+      "circle_y": 1.9738101245465969,
+      "radius_geometry_units": 0.35518849676186126,
+      "drawn": true,
+      "actual_radius_mm": 0.9868224648379019,
+      "actual_enclosed_area_mm2": 3.0593412877741213
+    },
+    {
+      "day": 0,
+      "region_id": "2",
+      "allocation_m3": 680.5661273495641,
+      "beginning_storage_mm": 93.9114485322869,
+      "circle_x": 11.249999999999998,
+      "circle_y": -2.17556899059423,
+      "radius_geometry_units": 0.47508904059985585,
+      "drawn": true,
+      "actual_radius_mm": 1.319942910134709,
+      "actual_enclosed_area_mm2": 5.473437557666425
+    },
+    {
+      "day": 0,
+      "region_id": "4",
+      "allocation_m3": 273.3143987646054,
+      "beginning_storage_mm": 138.99286288403474,
+      "circle_x": 16.250000000000004,
+      "circle_y": 2.1650635,
+      "radius_geometry_units": 0.30107250993760565,
+      "drawn": true,
+      "actual_radius_mm": 0.8364716736610929,
+      "actual_enclosed_area_mm2": 2.198124818634741
+    },
+    {
+      "day": 0,
+      "region_id": "5",
+      "allocation_m3": 1023.0606482460796,
+      "beginning_storage_mm": 122.60760736991013,
+      "circle_x": 16.25,
+      "circle_y": -2.3738415208133485,
+      "radius_geometry_units": 0.5824927673508,
+      "drawn": true,
+      "actual_radius_mm": 1.6183433688528412,
+      "actual_enclosed_area_mm2": 8.227941930769138
+    },
+    {
+      "day": 0,
+      "region_id": "6",
+      "allocation_m3": 182.46812787671612,
+      "beginning_storage_mm": 111.29130008457551,
+      "circle_x": 19.700641109233388,
+      "circle_y": 1.828978421083654,
+      "radius_geometry_units": 0.24599900774102693,
+      "drawn": true,
+      "actual_radius_mm": 0.6834606114213118,
+      "actual_enclosed_area_mm2": 1.4674957569325424
+    },
+    {
+      "day": 0,
+      "region_id": "7",
+      "allocation_m3": 406.95683620697923,
+      "beginning_storage_mm": 120.8562123492289,
+      "circle_x": 23.749999999999993,
+      "circle_y": -2.165063499999999,
+      "radius_geometry_units": 0.36737874090640643,
+      "drawn": true,
+      "actual_radius_mm": 1.0206906978560484,
+      "actual_enclosed_area_mm2": 3.2729410738073366
+    },
+    {
+      "day": 0,
+      "region_id": "8",
+      "allocation_m3": 350.29955335473875,
+      "beginning_storage_mm": 130.63508608099968,
+      "circle_x": 24.199999965358987,
+      "circle_y": 2.047572296995265,
+      "radius_geometry_units": 0.3408471280528554,
+      "drawn": true,
+      "actual_radius_mm": 0.9469777487291511,
+      "actual_enclosed_area_mm2": 2.8172761686400847
+    },
+    {
+      "day": 0,
+      "region_id": "9",
+      "allocation_m3": 801.4875289019918,
+      "beginning_storage_mm": 118.53691041102338,
+      "circle_x": 27.181818138874778,
+      "circle_y": 2.3131439228260273,
+      "radius_geometry_units": 0.515570704131795,
+      "drawn": true,
+      "actual_radius_mm": 1.4324133739912859,
+      "actual_enclosed_area_mm2": 6.4459451718203775
+    },
+    {
+      "day": 0,
+      "region_id": "11",
+      "allocation_m3": 439.2705101391709,
+      "beginning_storage_mm": 116.68215529915702,
+      "circle_x": 29.817405105070094,
+      "circle_y": 2.0182050886420804,
+      "radius_geometry_units": 0.381685684365961,
+      "drawn": true,
+      "actual_radius_mm": 1.0604397700747918,
+      "actual_enclosed_area_mm2": 3.5328230594351613
+    },
+    {
+      "day": 0,
+      "region_id": "12",
+      "allocation_m3": 422.5286799724876,
+      "beginning_storage_mm": 146.25,
+      "circle_x": 31.25,
+      "circle_y": -2.1650635,
+      "radius_geometry_units": 0.374341471923949,
+      "drawn": true,
+      "actual_radius_mm": 1.040035297828669,
+      "actual_enclosed_area_mm2": 3.3981772721473535
+    },
+    {
+      "day": 0,
+      "region_id": "13",
+      "allocation_m3": 218.3287928978026,
+      "beginning_storage_mm": 108.84413507516956,
+      "circle_x": 34.667416090400636,
+      "circle_y": -1.8896768729211588,
+      "radius_geometry_units": 0.26908863400771,
+      "drawn": true,
+      "actual_radius_mm": 0.7476106672716587,
+      "actual_enclosed_area_mm2": 1.7559043374972523
+    },
+    {
+      "day": 0,
+      "region_id": "14",
+      "allocation_m3": 66.05798413401418,
+      "beginning_storage_mm": 135.14301914767728,
+      "circle_x": 35.645161227841406,
+      "circle_y": 2.1231590234131152,
+      "radius_geometry_units": 0.1480139011820043,
+      "drawn": true,
+      "actual_radius_mm": 0.4112279652249787,
+      "actual_enclosed_area_mm2": 0.5312698308259073
+    },
+    {
+      "day": 0,
+      "region_id": "15",
+      "allocation_m3": 132.6210057104903,
+      "beginning_storage_mm": 115.27304853612803,
+      "circle_x": 42.54514171662313,
+      "circle_y": -0.9375978346294058,
+      "radius_geometry_units": 0.2097229730753414,
+      "drawn": true,
+      "actual_radius_mm": 0.5826746730542312,
+      "actual_enclosed_area_mm2": 1.0666014137645219
+    },
+    {
+      "day": 0,
+      "region_id": "16",
+      "allocation_m3": 184.96916748755018,
+      "beginning_storage_mm": 132.13481563850635,
+      "circle_x": 38.90909105223563,
+      "circle_y": -9.841197872819109,
+      "radius_geometry_units": 0.24767918969878175,
+      "drawn": true,
+      "actual_radius_mm": 0.6881286716655022,
+      "actual_enclosed_area_mm2": 1.4876103109619399
+    },
+    {
+      "day": 0,
+      "region_id": "17",
+      "allocation_m3": 651.9479594401363,
+      "beginning_storage_mm": 125.36498427338768,
+      "circle_x": 38.3181817179805,
+      "circle_y": -5.747259326446278,
+      "radius_geometry_units": 0.4649928900787269,
+      "drawn": true,
+      "actual_radius_mm": 1.2918927107800977,
+      "actual_enclosed_area_mm2": 5.243276594943971
+    },
+    {
+      "day": 0,
+      "region_id": "19",
+      "allocation_m3": 255.56751926292512,
+      "beginning_storage_mm": 139.94052007042623,
+      "circle_x": 35.77302843043501,
+      "circle_y": -5.820535190122804,
+      "radius_geometry_units": 0.29113383145248606,
+      "drawn": true,
+      "actual_radius_mm": 0.8088589798679918,
+      "actual_enclosed_area_mm2": 2.0553959449921884
+    },
+    {
+      "day": 0,
+      "region_id": "20",
+      "allocation_m3": 466.57512299407426,
+      "beginning_storage_mm": 130.5195602634176,
+      "circle_x": 33.86621044092318,
+      "circle_y": -9.839653066074,
+      "radius_geometry_units": 0.393369457505941,
+      "drawn": true,
+      "actual_radius_mm": 1.0929008714722623,
+      "actual_enclosed_area_mm2": 3.752419785589602
+    },
+    {
+      "day": 0,
+      "region_id": "21",
+      "allocation_m3": 272.51663716134414,
+      "beginning_storage_mm": 143.8226386447543,
+      "circle_x": 30.750000108253168,
+      "circle_y": -9.959292256944451,
+      "radius_geometry_units": 0.3006327972652609,
+      "drawn": true,
+      "actual_radius_mm": 0.8352500171404014,
+      "actual_enclosed_area_mm2": 2.191708839134909
+    },
+    {
+      "day": 0,
+      "region_id": "22",
+      "allocation_m3": 160.4106498622351,
+      "beginning_storage_mm": 137.29512149922147,
+      "circle_x": 29.749999927831205,
+      "circle_y": -5.629165000000002,
+      "radius_geometry_units": 0.23065158659760485,
+      "drawn": true,
+      "actual_radius_mm": 0.6408207734205578,
+      "actual_enclosed_area_mm2": 1.2900989930617917
+    },
+    {
+      "day": 0,
+      "region_id": "23",
+      "allocation_m3": 367.1724514777545,
+      "beginning_storage_mm": 130.95041507171868,
+      "circle_x": 26.75000010825318,
+      "circle_y": -9.959292256944453,
+      "radius_geometry_units": 0.34895939220284156,
+      "drawn": true,
+      "actual_radius_mm": 0.9695161039317768,
+      "actual_enclosed_area_mm2": 2.9529760669774556
+    },
+    {
+      "day": 0,
+      "region_id": "24",
+      "allocation_m3": 894.2092527347522,
+      "beginning_storage_mm": 103.27125231371497,
+      "circle_x": 24.7499999278312,
+      "circle_y": -5.520170589896618,
+      "radius_geometry_units": 0.5445771652564625,
+      "drawn": true,
+      "actual_radius_mm": 1.5130022098466895,
+      "actual_enclosed_area_mm2": 7.191657521058603
+    },
+    {
+      "day": 0,
+      "region_id": "25",
+      "allocation_m3": 368.5600031739026,
+      "beginning_storage_mm": 140.49323821311307,
+      "circle_x": 21.823047657498496,
+      "circle_y": -9.82437448205632,
+      "radius_geometry_units": 0.3496181325405366,
+      "drawn": true,
+      "actual_radius_mm": 0.9713462864113862,
+      "actual_enclosed_area_mm2": 2.9641354198480983
+    },
+    {
+      "day": 0,
+      "region_id": "27",
+      "allocation_m3": 364.7210943815063,
+      "beginning_storage_mm": 123.07818585972761,
+      "circle_x": 18.63548712103353,
+      "circle_y": -10.40021616169325,
+      "radius_geometry_units": 0.3477925608758903,
+      "drawn": true,
+      "actual_radius_mm": 0.9662742890176972,
+      "actual_enclosed_area_mm2": 2.9332610834385147
+    },
+    {
+      "day": 0,
+      "region_id": "26",
+      "allocation_m3": 585.3207777589103,
+      "beginning_storage_mm": 126.27774470249481,
+      "circle_x": 17.749999927831205,
+      "circle_y": -5.532981635774186,
+      "radius_geometry_units": 0.4405922135576526,
+      "drawn": true,
+      "actual_radius_mm": 1.2241001556501863,
+      "actual_enclosed_area_mm2": 4.707429005826192
+    },
+    {
+      "day": 0,
+      "region_id": "28",
+      "allocation_m3": 407.84369866940494,
+      "beginning_storage_mm": 98.52533498866367,
+      "circle_x": 16.580524962067702,
+      "circle_y": -10.52683676566511,
+      "radius_geometry_units": 0.36777882891435254,
+      "drawn": true,
+      "actual_radius_mm": 1.0218022649190386,
+      "actual_enclosed_area_mm2": 3.2800736449348924
+    },
+    {
+      "day": 0,
+      "region_id": "29",
+      "allocation_m3": 125.4989193117834,
+      "beginning_storage_mm": 134.8249769550756,
+      "circle_x": 14.791902523500084,
+      "circle_y": -9.518708995283706,
+      "radius_geometry_units": 0.20401393862191278,
+      "drawn": true,
+      "actual_radius_mm": 0.5668132262378548,
+      "actual_enclosed_area_mm2": 1.0093221963349939
+    },
+    {
+      "day": 0,
+      "region_id": "31",
+      "allocation_m3": 171.7489642271046,
+      "beginning_storage_mm": 134.79347700514674,
+      "circle_x": 11.830883966493465,
+      "circle_y": -5.92181295490133,
+      "radius_geometry_units": 0.2386639974933862,
+      "drawn": true,
+      "actual_radius_mm": 0.6630817056904736,
+      "actual_enclosed_area_mm2": 1.3812871277504721
+    },
+    {
+      "day": 0,
+      "region_id": "30",
+      "allocation_m3": 255.84338493130562,
+      "beginning_storage_mm": 138.61374114243137,
+      "circle_x": 12.166666794966737,
+      "circle_y": -9.5262795,
+      "radius_geometry_units": 0.2912909174698283,
+      "drawn": true,
+      "actual_radius_mm": 0.8092954129513785,
+      "actual_enclosed_area_mm2": 2.057614588338522
+    },
+    {
+      "day": 0,
+      "region_id": "33",
+      "allocation_m3": 371.6868220272445,
+      "beginning_storage_mm": 139.16630257875474,
+      "circle_x": 9.318447692397202,
+      "circle_y": -9.846607244403053,
+      "radius_geometry_units": 0.3510980594369598,
+      "drawn": true,
+      "actual_radius_mm": 0.9754579767420769,
+      "actual_enclosed_area_mm2": 2.989282789163337
+    },
+    {
+      "day": 0,
+      "region_id": "34",
+      "allocation_m3": 483.9015521630904,
+      "beginning_storage_mm": 145.20936308928668,
+      "circle_x": 8.2499999278312,
+      "circle_y": -5.629164999999999,
+      "radius_geometry_units": 0.4006068350243646,
+      "drawn": true,
+      "actual_radius_mm": 1.1130085235691196,
+      "actual_enclosed_area_mm2": 3.891767197020833
+    },
+    {
+      "day": 0,
+      "region_id": "35",
+      "allocation_m3": 150.32668947606666,
+      "beginning_storage_mm": 131.5140035224432,
+      "circle_x": 4.847826214650254,
+      "circle_y": -9.90281233448856,
+      "radius_geometry_units": 0.22328414924322268,
+      "drawn": true,
+      "actual_radius_mm": 0.6203517752523409,
+      "actual_enclosed_area_mm2": 1.2089989716390024
+    },
+    {
+      "day": 0,
+      "region_id": "36",
+      "allocation_m3": 921.9383588119522,
+      "beginning_storage_mm": 121.64072285698107,
+      "circle_x": 4.416222093474045,
+      "circle_y": -5.514526329555415,
+      "radius_geometry_units": 0.5529562735379479,
+      "drawn": true,
+      "actual_radius_mm": 1.536281939800959,
+      "actual_enclosed_area_mm2": 7.414668224272025
+    },
+    {
+      "day": 0,
+      "region_id": "37",
+      "allocation_m3": 587.2937773665672,
+      "beginning_storage_mm": 127.05221075934026,
+      "circle_x": 6.9991251005707165,
+      "circle_y": -13.373787114819713,
+      "radius_geometry_units": 0.4413341630836138,
+      "drawn": true,
+      "actual_radius_mm": 1.2261615187480042,
+      "actual_enclosed_area_mm2": 4.723296810172947
+    },
+    {
+      "day": 0,
+      "region_id": "38",
+      "allocation_m3": 418.0812013159704,
+      "beginning_storage_mm": 103.47169530966032,
+      "circle_x": 8.449786055697572,
+      "circle_y": -17.796685015801284,
+      "radius_geometry_units": 0.37236612674756037,
+      "drawn": true,
+      "actual_radius_mm": 1.034547183732518,
+      "actual_enclosed_area_mm2": 3.362408526485115
+    },
+    {
+      "day": 0,
+      "region_id": "39",
+      "allocation_m3": 468.75438914931357,
+      "beginning_storage_mm": 97.88606348003829,
+      "circle_x": 11.368213750312316,
+      "circle_y": -17.574155082088275,
+      "radius_geometry_units": 0.39428705686050936,
+      "drawn": true,
+      "actual_radius_mm": 1.0954502436086464,
+      "actual_enclosed_area_mm2": 3.7699464839410037
+    },
+    {
+      "day": 0,
+      "region_id": "40",
+      "allocation_m3": 79.56197171131151,
+      "beginning_storage_mm": 137.09548446456935,
+      "circle_x": 13.704056249574197,
+      "circle_y": -17.35397069517116,
+      "radius_geometry_units": 0.16243986350510167,
+      "drawn": true,
+      "actual_radius_mm": 0.4513077083110342,
+      "actual_enclosed_area_mm2": 0.6398753429334406
+    },
+    {
+      "day": 0,
+      "region_id": "41",
+      "allocation_m3": 440.4394974980328,
+      "beginning_storage_mm": 99.41185101065133,
+      "circle_x": 14.517241222787323,
+      "circle_y": -13.557777007993124,
+      "radius_geometry_units": 0.38219321819372254,
+      "drawn": true,
+      "actual_radius_mm": 1.0618498545439294,
+      "actual_enclosed_area_mm2": 3.542224613607936
+    },
+    {
+      "day": 0,
+      "region_id": "42",
+      "allocation_m3": 181.46856307334147,
+      "beginning_storage_mm": 131.5783019995475,
+      "circle_x": 15.714285855677613,
+      "circle_y": -17.56794394104308,
+      "radius_geometry_units": 0.24532428819216845,
+      "drawn": true,
+      "actual_radius_mm": 0.6815860337974614,
+      "actual_enclosed_area_mm2": 1.4594567797982865
+    },
+    {
+      "day": 0,
+      "region_id": "43",
+      "allocation_m3": 275.0412936784068,
+      "beginning_storage_mm": 133.64355491276018,
+      "circle_x": 20.391983569566165,
+      "circle_y": -13.561551206156295,
+      "radius_geometry_units": 0.30202215238823427,
+      "drawn": true,
+      "actual_radius_mm": 0.8391100713355321,
+      "actual_enclosed_area_mm2": 2.212013331594025
+    },
+    {
+      "day": 0,
+      "region_id": "44",
+      "allocation_m3": 622.0055919832532,
+      "beginning_storage_mm": 98.28401657869422,
+      "circle_x": 20.560695693918646,
+      "circle_y": -17.696937345907557,
+      "radius_geometry_units": 0.45418939736649583,
+      "drawn": true,
+      "actual_radius_mm": 1.261877298106725,
+      "actual_enclosed_area_mm2": 5.002465787561879
+    },
+    {
+      "day": 0,
+      "region_id": "45",
+      "allocation_m3": 802.3012656797371,
+      "beginning_storage_mm": 97.98736879910086,
+      "circle_x": 25.50167449067114,
+      "circle_y": -13.44457700449473,
+      "radius_geometry_units": 0.5158323628567903,
+      "drawn": true,
+      "actual_radius_mm": 1.4331403420949838,
+      "actual_enclosed_area_mm2": 6.452489631296653
+    },
+    {
+      "day": 0,
+      "region_id": "46",
+      "allocation_m3": 386.8732687164054,
+      "beginning_storage_mm": 114.57528008257529,
+      "circle_x": 31.77146295212027,
+      "circle_y": -18.286533304971165,
+      "radius_geometry_units": 0.35819886770150655,
+      "drawn": true,
+      "actual_radius_mm": 0.9951861976102752,
+      "actual_enclosed_area_mm2": 3.111419440306506
+    },
+    {
+      "day": 0,
+      "region_id": "47",
+      "allocation_m3": 337.0219372551853,
+      "beginning_storage_mm": 107.12536596624858,
+      "circle_x": 35.11614594445025,
+      "circle_y": -13.216133338771028,
+      "radius_geometry_units": 0.3343250610363131,
+      "drawn": true,
+      "actual_radius_mm": 0.9288574483596901,
+      "actual_enclosed_area_mm2": 2.7104912439794955
+    },
+    {
+      "day": 0,
+      "region_id": "48",
+      "allocation_m3": 765.4357160837338,
+      "beginning_storage_mm": 102.21856350431018,
+      "circle_x": 39.669897391684394,
+      "circle_y": -17.68128010911769,
+      "radius_geometry_units": 0.5038418161430174,
+      "drawn": true,
+      "actual_radius_mm": 1.3998269297217991,
+      "actual_enclosed_area_mm2": 6.155999289456387
+    },
+    {
+      "day": 0,
+      "region_id": "49",
+      "allocation_m3": 577.4713968306119,
+      "beginning_storage_mm": 105.30266067935824,
+      "circle_x": 44.703970174830914,
+      "circle_y": -20.532299314440486,
+      "radius_geometry_units": 0.437627985055751,
+      "drawn": true,
+      "actual_radius_mm": 1.215864620706749,
+      "actual_enclosed_area_mm2": 4.644300538729693
+    },
+    {
+      "day": 0,
+      "region_id": "50",
+      "allocation_m3": 609.384510474526,
+      "beginning_storage_mm": 112.25843330364164,
+      "circle_x": 38.34780548018217,
+      "circle_y": -25.730427914410487,
+      "radius_geometry_units": 0.4495578160350931,
+      "drawn": true,
+      "actual_radius_mm": 1.2490093461679086,
+      "actual_enclosed_area_mm2": 4.9009610273745485
+    },
+    {
+      "day": 0,
+      "region_id": "51",
+      "allocation_m3": 374.1590214481243,
+      "beginning_storage_mm": 134.6399145599244,
+      "circle_x": 37.31818173945225,
+      "circle_y": -21.33571688383838,
+      "radius_geometry_units": 0.3522637530295174,
+      "drawn": true,
+      "actual_radius_mm": 0.9786966306814376,
+      "actual_enclosed_area_mm2": 3.00916539662278
+    },
+    {
+      "day": 0,
+      "region_id": "52",
+      "allocation_m3": 531.6900849245451,
+      "beginning_storage_mm": 142.2437119861427,
+      "circle_x": 35.250000072168774,
+      "circle_y": -25.597941299137396,
+      "radius_geometry_units": 0.4199224832621252,
+      "drawn": true,
+      "actual_radius_mm": 1.1666733122030502,
+      "actual_enclosed_area_mm2": 4.27610538185084
+    },
+    {
+      "day": 0,
+      "region_id": "54",
+      "allocation_m3": 233.43031426694571,
+      "beginning_storage_mm": 121.89962722342145,
+      "circle_x": 32.80270798097118,
+      "circle_y": -25.24762018438452,
+      "radius_geometry_units": 0.27823930163065463,
+      "drawn": true,
+      "actual_radius_mm": 0.7730340254629036,
+      "actual_enclosed_area_mm2": 1.877357978691055
+    },
+    {
+      "day": 0,
+      "region_id": "53",
+      "allocation_m3": 103.43337928980498,
+      "beginning_storage_mm": 135.73728830032638,
+      "circle_x": 32.82467217826121,
+      "circle_y": -21.573338342338523,
+      "radius_geometry_units": 0.1852124617285585,
+      "drawn": true,
+      "actual_radius_mm": 0.5145769631278695,
+      "actual_enclosed_area_mm2": 0.8318605939528141
+    },
+    {
+      "day": 0,
+      "region_id": "55",
+      "allocation_m3": 326.5309041238277,
+      "beginning_storage_mm": 112.48594612856327,
+      "circle_x": 30.82506310713568,
+      "circle_y": -25.36217252040818,
+      "radius_geometry_units": 0.3290803819126188,
+      "drawn": true,
+      "actual_radius_mm": 0.9142861229161247,
+      "actual_enclosed_area_mm2": 2.626117349287553
+    },
+    {
+      "day": 0,
+      "region_id": "57",
+      "allocation_m3": 240.2626007662566,
+      "beginning_storage_mm": 88.82604356924439,
+      "circle_x": 28.8470821812556,
+      "circle_y": -25.447026839581575,
+      "radius_geometry_units": 0.28228183644505295,
+      "drawn": true,
+      "actual_radius_mm": 0.7842654257084251,
+      "actual_enclosed_area_mm2": 1.9323064870391025
+    },
+    {
+      "day": 0,
+      "region_id": "56",
+      "allocation_m3": 456.41682703827365,
+      "beginning_storage_mm": 107.79021404215658,
+      "circle_x": 27.85982297224709,
+      "circle_y": -21.152295237629353,
+      "radius_geometry_units": 0.38906366269232034,
+      "drawn": true,
+      "actual_radius_mm": 1.0809380542926503,
+      "actual_enclosed_area_mm2": 3.670721922043402
+    },
+    {
+      "day": 0,
+      "region_id": "58",
+      "allocation_m3": 338.36289792498985,
+      "beginning_storage_mm": 91.32811497184753,
+      "circle_x": 26.666666698741682,
+      "circle_y": -25.114736500000006,
+      "radius_geometry_units": 0.3349895158486784,
+      "drawn": true,
+      "actual_radius_mm": 0.9307035074007051,
+      "actual_enclosed_area_mm2": 2.7212758895833637
+    },
+    {
+      "day": 0,
+      "region_id": "59",
+      "allocation_m3": 272.61709892550675,
+      "beginning_storage_mm": 105.27887323679538,
+      "circle_x": 24.642918522309376,
+      "circle_y": -25.96876166150793,
+      "radius_geometry_units": 0.3006882054754645,
+      "drawn": true,
+      "actual_radius_mm": 0.8354039581240308,
+      "actual_enclosed_area_mm2": 2.1925168005819753
+    },
+    {
+      "day": 0,
+      "region_id": "60",
+      "allocation_m3": 337.8135395498373,
+      "beginning_storage_mm": 123.68071650252497,
+      "circle_x": 22.642932816121455,
+      "circle_y": -25.355710654202163,
+      "radius_geometry_units": 0.3347174646657583,
+      "drawn": true,
+      "actual_radius_mm": 0.9299476658649042,
+      "actual_enclosed_area_mm2": 2.716857687380311
+    },
+    {
+      "day": 0,
+      "region_id": "61",
+      "allocation_m3": 229.93350422032273,
+      "beginning_storage_mm": 128.9825530813777,
+      "circle_x": 22.785714203235685,
+      "circle_y": -21.403199388888883,
+      "radius_geometry_units": 0.276147411250193,
+      "drawn": true,
+      "actual_radius_mm": 0.7672221130833146,
+      "actual_enclosed_area_mm2": 1.8492349636421728
+    },
+    {
+      "day": 0,
+      "region_id": "62",
+      "allocation_m3": 238.16419757639974,
+      "beginning_storage_mm": 103.22212049493855,
+      "circle_x": 20.682637079590098,
+      "circle_y": -25.852294472406754,
+      "radius_geometry_units": 0.28104643790855766,
+      "drawn": true,
+      "actual_radius_mm": 0.7808331100789614,
+      "actual_enclosed_area_mm2": 1.9154301272425613
+    },
+    {
+      "day": 0,
+      "region_id": "63",
+      "allocation_m3": 357.5378009351937,
+      "beginning_storage_mm": 121.08953822641799,
+      "circle_x": 20.74654047354649,
+      "circle_y": -21.40765778056392,
+      "radius_geometry_units": 0.3443505885200339,
+      "drawn": true,
+      "actual_radius_mm": 0.9567114352792571,
+      "actual_enclosed_area_mm2": 2.875489609724556
+    },
+    {
+      "day": 0,
+      "region_id": "64",
+      "allocation_m3": 397.26963009071943,
+      "beginning_storage_mm": 106.91876893692051,
+      "circle_x": 15.933333523217401,
+      "circle_y": -25.461146913333337,
+      "radius_geometry_units": 0.36297986119591275,
+      "drawn": true,
+      "actual_radius_mm": 1.0084692623140488,
+      "actual_enclosed_area_mm2": 3.1950319395515874
+    },
+    {
+      "day": 0,
+      "region_id": "65",
+      "allocation_m3": 993.4063701243913,
+      "beginning_storage_mm": 113.27771123006578,
+      "circle_x": 14.489850106486916,
+      "circle_y": -20.89123690243205,
+      "radius_geometry_units": 0.5739886668156511,
+      "drawn": true,
+      "actual_radius_mm": 1.5947163721234074,
+      "actual_enclosed_area_mm2": 7.989448075294954
+    },
+    {
+      "day": 0,
+      "region_id": "66",
+      "allocation_m3": 853.8321593929534,
+      "beginning_storage_mm": 106.56032291615286,
+      "circle_x": 11.242703292513529,
+      "circle_y": -20.976090588623318,
+      "radius_geometry_units": 0.5321402403342876,
+      "drawn": true,
+      "actual_radius_mm": 1.4784486220514939,
+      "actual_enclosed_area_mm2": 6.866925668729886
+    },
+    {
+      "day": 0,
+      "region_id": "68",
+      "allocation_m3": 227.2183832523797,
+      "beginning_storage_mm": 140.91624657103068,
+      "circle_x": 8.647518904977593,
+      "circle_y": -21.456225730759808,
+      "radius_geometry_units": 0.2745121554832114,
+      "drawn": true,
+      "actual_radius_mm": 0.7626788715613486,
+      "actual_enclosed_area_mm2": 1.827398665180739
+    },
+    {
+      "day": 0,
+      "region_id": "67",
+      "allocation_m3": 499.9258179801355,
+      "beginning_storage_mm": 88.71817138554908,
+      "circle_x": 8.452058323449771,
+      "circle_y": -25.593521844770226,
+      "radius_geometry_units": 0.40718580558231665,
+      "drawn": true,
+      "actual_radius_mm": 1.1312869194104327,
+      "actual_enclosed_area_mm2": 4.02064198939203
+    },
+    {
+      "day": 0,
+      "region_id": "69",
+      "allocation_m3": 491.10827328731654,
+      "beginning_storage_mm": 115.24436250937791,
+      "circle_x": 0.448722352736338,
+      "circle_y": -24.380664053511442,
+      "radius_geometry_units": 0.40357891872425566,
+      "drawn": true,
+      "actual_radius_mm": 1.121265882659207,
+      "actual_enclosed_area_mm2": 3.949727087300102
+    },
+    {
+      "day": 0,
+      "region_id": "70",
+      "allocation_m3": 405.6639150680714,
+      "beginning_storage_mm": 124.34370469256248,
+      "circle_x": 6.63903339724598,
+      "circle_y": -28.987963334677815,
+      "radius_geometry_units": 0.36679468681747895,
+      "drawn": true,
+      "actual_radius_mm": 1.019068016657506,
+      "actual_enclosed_area_mm2": 3.2625427850350763
+    },
+    {
+      "day": 0,
+      "region_id": "71",
+      "allocation_m3": 747.599300404182,
+      "beginning_storage_mm": 118.96382934716836,
+      "circle_x": 7.25,
+      "circle_y": -33.58269424230988,
+      "radius_geometry_units": 0.4979368761379097,
+      "drawn": true,
+      "actual_radius_mm": 1.3834211972623183,
+      "actual_enclosed_area_mm2": 6.012550323145337
+    },
+    {
+      "day": 0,
+      "region_id": "72",
+      "allocation_m3": 333.3144407749535,
+      "beginning_storage_mm": 100.10375056737756,
+      "circle_x": 9.857838947374793,
+      "circle_y": -33.15777550047867,
+      "radius_geometry_units": 0.33248106126352023,
+      "drawn": true,
+      "actual_radius_mm": 0.9237342520356605,
+      "actual_enclosed_area_mm2": 2.6806737880934
+    },
+    {
+      "day": 0,
+      "region_id": "73",
+      "allocation_m3": 457.0646717443979,
+      "beginning_storage_mm": 139.99513035559843,
+      "circle_x": 12.625776595324192,
+      "circle_y": -29.07321919340334,
+      "radius_geometry_units": 0.3893396860999244,
+      "drawn": true,
+      "actual_radius_mm": 1.0817049318856131,
+      "actual_enclosed_area_mm2": 3.675932198317136
+    },
+    {
+      "day": 0,
+      "region_id": "75",
+      "allocation_m3": 479.4151446962986,
+      "beginning_storage_mm": 128.43397535238554,
+      "circle_x": 16.400886175016343,
+      "circle_y": -29.10525226994983,
+      "radius_geometry_units": 0.39874543293213244,
+      "drawn": true,
+      "actual_radius_mm": 1.1078369782700541,
+      "actual_enclosed_area_mm2": 3.855685367289803
+    },
+    {
+      "day": 0,
+      "region_id": "74",
+      "allocation_m3": 684.309502416226,
+      "beginning_storage_mm": 126.8805757196641,
+      "circle_x": 16.60678596053592,
+      "circle_y": -33.52263842316479,
+      "radius_geometry_units": 0.4763938349316486,
+      "drawn": true,
+      "actual_radius_mm": 1.3235680285446376,
+      "actual_enclosed_area_mm2": 5.5035435662656065
+    },
+    {
+      "day": 0,
+      "region_id": "76",
+      "allocation_m3": 1033.4432334657304,
+      "beginning_storage_mm": 114.3105699563313,
+      "circle_x": 19.600454861801015,
+      "circle_y": -28.742177782163132,
+      "radius_geometry_units": 0.585441035432855,
+      "drawn": true,
+      "actual_radius_mm": 1.626534560860073,
+      "actual_enclosed_area_mm2": 8.311443635604533
+    },
+    {
+      "day": 0,
+      "region_id": "77",
+      "allocation_m3": 404.4971869286353,
+      "beginning_storage_mm": 110.56408249197501,
+      "circle_x": 22.59021065023337,
+      "circle_y": -27.598206108836365,
+      "radius_geometry_units": 0.366266838744327,
+      "drawn": true,
+      "actual_radius_mm": 1.017601492990899,
+      "actual_enclosed_area_mm2": 3.2531594005830096
+    },
+    {
+      "day": 0,
+      "region_id": "78",
+      "allocation_m3": 523.0666012092312,
+      "beginning_storage_mm": 118.24565621078052,
+      "circle_x": 22.57167402630826,
+      "circle_y": -33.32058512532792,
+      "radius_geometry_units": 0.4165031999848482,
+      "drawn": true,
+      "actual_radius_mm": 1.1571734956762671,
+      "actual_enclosed_area_mm2": 4.206751210744583
+    },
+    {
+      "day": 0,
+      "region_id": "79",
+      "allocation_m3": 433.6720880679717,
+      "beginning_storage_mm": 106.91931942453515,
+      "circle_x": 28.824059964115136,
+      "circle_y": -27.611233585721685,
+      "radius_geometry_units": 0.3792456279025455,
+      "drawn": true,
+      "actual_radius_mm": 1.0536605456474148,
+      "actual_enclosed_area_mm2": 3.487797877609693
+    },
+    {
+      "day": 0,
+      "region_id": "80",
+      "allocation_m3": 379.7917857479219,
+      "beginning_storage_mm": 106.81726817954612,
+      "circle_x": 26.943689653462663,
+      "circle_y": -29.039699332944696,
+      "radius_geometry_units": 0.354905419312267,
+      "drawn": true,
+      "actual_radius_mm": 0.9860359889551091,
+      "actual_enclosed_area_mm2": 3.0544667750385157
+    },
+    {
+      "day": 0,
+      "region_id": "81",
+      "allocation_m3": 599.5220890888768,
+      "beginning_storage_mm": 121.78055978850969,
+      "circle_x": 26.979052292038265,
+      "circle_y": -33.30904529359886,
+      "radius_geometry_units": 0.4459051022572816,
+      "drawn": true,
+      "actual_radius_mm": 1.238860988193399,
+      "actual_enclosed_area_mm2": 4.821642728310838
+    },
+    {
+      "day": 0,
+      "region_id": "82",
+      "allocation_m3": 121.91311090081828,
+      "beginning_storage_mm": 89.78412979637788,
+      "circle_x": 29.337119172941915,
+      "circle_y": -30.310889000000003,
+      "radius_geometry_units": 0.20107823013353848,
+      "drawn": true,
+      "actual_radius_mm": 0.558656928629812,
+      "actual_enclosed_area_mm2": 0.9804834139706584
+    },
+    {
+      "day": 0,
+      "region_id": "83",
+      "allocation_m3": 153.28921635064066,
+      "beginning_storage_mm": 143.86524886519854,
+      "circle_x": 29.779679460830412,
+      "circle_y": -33.04718049279094,
+      "radius_geometry_units": 0.22547357416405886,
+      "drawn": true,
+      "actual_radius_mm": 0.6264346684672235,
+      "actual_enclosed_area_mm2": 1.2328250264619758
+    },
+    {
+      "day": 0,
+      "region_id": "84",
+      "allocation_m3": 125.30109448187243,
+      "beginning_storage_mm": 141.42471544167023,
+      "circle_x": 30.684309352335728,
+      "circle_y": -29.45875946864998,
+      "radius_geometry_units": 0.2038530809028613,
+      "drawn": true,
+      "actual_radius_mm": 0.5663663142115652,
+      "actual_enclosed_area_mm2": 1.0077311946521883
+    },
+    {
+      "day": 0,
+      "region_id": "85",
+      "allocation_m3": 800.8359628538741,
+      "beginning_storage_mm": 103.29949319051416,
+      "circle_x": 32.59033830096177,
+      "circle_y": -33.689634313297994,
+      "radius_geometry_units": 0.5153610959627546,
+      "drawn": true,
+      "actual_radius_mm": 1.431831018279014,
+      "actual_enclosed_area_mm2": 6.440704966738534
+    },
+    {
+      "day": 0,
+      "region_id": "86",
+      "allocation_m3": 884.6865269586326,
+      "beginning_storage_mm": 94.21999256473948,
+      "circle_x": 34.54103158870309,
+      "circle_y": -28.767239843145816,
+      "radius_geometry_units": 0.5416697140775163,
+      "drawn": true,
+      "actual_radius_mm": 1.5049244197015679,
+      "actual_enclosed_area_mm2": 7.115071216187162
+    },
+    {
+      "day": 0,
+      "region_id": "87",
+      "allocation_m3": 633.5450998314617,
+      "beginning_storage_mm": 132.06920047716608,
+      "circle_x": 36.61354407493312,
+      "circle_y": -33.454022136191156,
+      "radius_geometry_units": 0.45838311896406875,
+      "drawn": true,
+      "actual_radius_mm": 1.2735287415557381,
+      "actual_enclosed_area_mm2": 5.095272016251731
+    },
+    {
+      "day": 0,
+      "region_id": "88",
+      "allocation_m3": 567.9655317576828,
+      "beginning_storage_mm": 92.81009401449411,
+      "circle_x": 41.05314864314923,
+      "circle_y": -26.52742725348061,
+      "radius_geometry_units": 0.43401110052885583,
+      "drawn": true,
+      "actual_radius_mm": 1.2058158073684673,
+      "actual_enclosed_area_mm2": 4.567849835679123
+    },
+    {
+      "day": 0,
+      "region_id": "89",
+      "allocation_m3": 752.7838694146243,
+      "beginning_storage_mm": 119.07413234529135,
+      "circle_x": 40.20000001732051,
+      "circle_y": -33.46347892381162,
+      "radius_geometry_units": 0.4996604784392816,
+      "drawn": true,
+      "actual_radius_mm": 1.3882098925239794,
+      "actual_enclosed_area_mm2": 6.054247101168338
+    },
+    {
+      "day": 0,
+      "region_id": "90",
+      "allocation_m3": 543.584657993116,
+      "beginning_storage_mm": 97.43744657273174,
+      "circle_x": 41.20000001732053,
+      "circle_y": -29.25397418743365,
+      "radius_geometry_units": 0.4245935990063486,
+      "drawn": true,
+      "actual_radius_mm": 1.1796511028530332,
+      "actual_enclosed_area_mm2": 4.371767214477553
+    },
+    {
+      "day": 0,
+      "region_id": "91",
+      "allocation_m3": 494.8073137279127,
+      "beginning_storage_mm": 127.64735145685601,
+      "circle_x": 44.16494286712473,
+      "circle_y": -28.958607163013912,
+      "radius_geometry_units": 0.4050959510203669,
+      "drawn": true,
+      "actual_radius_mm": 1.1254806631583933,
+      "actual_enclosed_area_mm2": 3.9794765356802837
+    },
+    {
+      "day": 0,
+      "region_id": "92",
+      "allocation_m3": 434.78343299793414,
+      "beginning_storage_mm": 143.75727772693412,
+      "circle_x": 44.625270267018145,
+      "circle_y": -33.33496410995429,
+      "radius_geometry_units": 0.3797312517670026,
+      "drawn": true,
+      "actual_radius_mm": 1.0550097575258304,
+      "actual_enclosed_area_mm2": 3.4967358438626817
+    },
+    {
+      "day": 46,
+      "region_id": "1",
+      "allocation_m3": 1767.8413528149072,
+      "beginning_storage_mm": 139.22564847200252,
+      "circle_x": 5.749999999999997,
+      "circle_y": 2.1928813992488,
+      "radius_geometry_units": 0.7657050149935832,
+      "drawn": true,
+      "actual_radius_mm": 2.1273631244350746,
+      "actual_enclosed_area_mm2": 14.217823761191818
+    },
+    {
+      "day": 46,
+      "region_id": "3",
+      "allocation_m3": 429.90451743511176,
+      "beginning_storage_mm": 123.56975115333326,
+      "circle_x": 11.857144642180065,
+      "circle_y": 1.9738101245465969,
+      "radius_geometry_units": 0.3775946667612645,
+      "drawn": true,
+      "actual_radius_mm": 1.049073669783913,
+      "actual_enclosed_area_mm2": 3.4574972767211842
+    },
+    {
+      "day": 46,
+      "region_id": "2",
+      "allocation_m3": 1057.6672855179702,
+      "beginning_storage_mm": 99.77676637796343,
+      "circle_x": 11.249999999999998,
+      "circle_y": -2.17556899059423,
+      "radius_geometry_units": 0.5922627011299039,
+      "drawn": true,
+      "actual_radius_mm": 1.6454872381534913,
+      "actual_enclosed_area_mm2": 8.506265021761317
+    },
+    {
+      "day": 46,
+      "region_id": "4",
+      "allocation_m3": 1261.7327795848948,
+      "beginning_storage_mm": 145.54578591063105,
+      "circle_x": 16.250000000000004,
+      "circle_y": 2.1650635,
+      "radius_geometry_units": 0.6468797263713273,
+      "drawn": true,
+      "actual_radius_mm": 1.7972300675587782,
+      "actual_enclosed_area_mm2": 10.147457103711577
+    },
+    {
+      "day": 46,
+      "region_id": "5",
+      "allocation_m3": 301.7885639914442,
+      "beginning_storage_mm": 132.63777797691412,
+      "circle_x": 16.25,
+      "circle_y": -2.3738415208133485,
+      "radius_geometry_units": 0.31636704388818937,
+      "drawn": true,
+      "actual_radius_mm": 0.8789645748368344,
+      "actual_enclosed_area_mm2": 2.4271276430667115
+    },
+    {
+      "day": 46,
+      "region_id": "6",
+      "allocation_m3": 235.30862037823817,
+      "beginning_storage_mm": 118.68179287059631,
+      "circle_x": 19.700641109233388,
+      "circle_y": 1.828978421083654,
+      "radius_geometry_units": 0.2793564904439104,
+      "drawn": true,
+      "actual_radius_mm": 0.7761379182647179,
+      "actual_enclosed_area_mm2": 1.8924642127529543
+    },
+    {
+      "day": 46,
+      "region_id": "7",
+      "allocation_m3": 900.8767644212506,
+      "beginning_storage_mm": 127.78144197710866,
+      "circle_x": 23.749999999999993,
+      "circle_y": -2.165063499999999,
+      "radius_geometry_units": 0.5466036659277204,
+      "drawn": true,
+      "actual_radius_mm": 1.518632449580346,
+      "actual_enclosed_area_mm2": 7.245280831732593
+    },
+    {
+      "day": 46,
+      "region_id": "8",
+      "allocation_m3": 1388.4349333785492,
+      "beginning_storage_mm": 136.03097293682836,
+      "circle_x": 24.199999965358987,
+      "circle_y": 2.047572296995265,
+      "radius_geometry_units": 0.6785824341787401,
+      "drawn": true,
+      "actual_radius_mm": 1.8853099027611049,
+      "actual_enclosed_area_mm2": 11.166456285925083
+    },
+    {
+      "day": 46,
+      "region_id": "9",
+      "allocation_m3": 485.2823901269868,
+      "beginning_storage_mm": 127.80681357110508,
+      "circle_x": 27.181818138874778,
+      "circle_y": 2.3131439228260273,
+      "radius_geometry_units": 0.4011780039521954,
+      "drawn": true,
+      "actual_radius_mm": 1.1145954058424459,
+      "actual_enclosed_area_mm2": 3.9028725548529617
+    },
+    {
+      "day": 46,
+      "region_id": "11",
+      "allocation_m3": 448.81151048449124,
+      "beginning_storage_mm": 124.99149544991428,
+      "circle_x": 29.817405105070094,
+      "circle_y": 2.0182050886420804,
+      "radius_geometry_units": 0.3858085434207584,
+      "drawn": true,
+      "actual_radius_mm": 1.0718943356694715,
+      "actual_enclosed_area_mm2": 3.6095563371126174
+    },
+    {
+      "day": 46,
+      "region_id": "12",
+      "allocation_m3": 1673.2995127847687,
+      "beginning_storage_mm": 153.07312034841092,
+      "circle_x": 31.25,
+      "circle_y": -2.1650635,
+      "radius_geometry_units": 0.7449492539204199,
+      "drawn": true,
+      "actual_radius_mm": 2.0696972611299964,
+      "actual_enclosed_area_mm2": 13.457473168947226
+    },
+    {
+      "day": 46,
+      "region_id": "13",
+      "allocation_m3": 177.4098408211846,
+      "beginning_storage_mm": 116.57470042879126,
+      "circle_x": 34.667416090400636,
+      "circle_y": -1.8896768729211588,
+      "radius_geometry_units": 0.24256531510935944,
+      "drawn": true,
+      "actual_radius_mm": 0.6739207612933679,
+      "actual_enclosed_area_mm2": 1.4268145986518224
+    },
+    {
+      "day": 46,
+      "region_id": "14",
+      "allocation_m3": 1409.2900652680753,
+      "beginning_storage_mm": 140.69042540223614,
+      "circle_x": 35.645161227841406,
+      "circle_y": 2.1231590234131152,
+      "radius_geometry_units": 0.6836597981271162,
+      "drawn": true,
+      "actual_radius_mm": 1.8994163753864695,
+      "actual_enclosed_area_mm2": 11.334183208507563
+    },
+    {
+      "day": 46,
+      "region_id": "15",
+      "allocation_m3": 143.87572980020872,
+      "beginning_storage_mm": 123.26047440988832,
+      "circle_x": 42.54514171662313,
+      "circle_y": -0.9375978346294058,
+      "radius_geometry_units": 0.21844072889446361,
+      "drawn": true,
+      "actual_radius_mm": 0.6068952696211549,
+      "actual_enclosed_area_mm2": 1.1571172755717267
+    },
+    {
+      "day": 46,
+      "region_id": "16",
+      "allocation_m3": 1167.958005769024,
+      "beginning_storage_mm": 138.29264842735785,
+      "circle_x": 38.90909105223563,
+      "circle_y": -9.841197872819109,
+      "radius_geometry_units": 0.6223768943739352,
+      "drawn": true,
+      "actual_radius_mm": 1.729153693217784,
+      "actual_enclosed_area_mm2": 9.393275624000902
+    },
+    {
+      "day": 46,
+      "region_id": "17",
+      "allocation_m3": 772.9394766643775,
+      "beginning_storage_mm": 133.52961916639163,
+      "circle_x": 38.3181817179805,
+      "circle_y": -5.747259326446278,
+      "radius_geometry_units": 0.5063054375875699,
+      "drawn": true,
+      "actual_radius_mm": 1.406671624886493,
+      "actual_enclosed_area_mm2": 6.216348112789371
+    },
+    {
+      "day": 46,
+      "region_id": "19",
+      "allocation_m3": 1022.6790365286955,
+      "beginning_storage_mm": 145.83379920937418,
+      "circle_x": 35.77302843043501,
+      "circle_y": -5.820535190122804,
+      "radius_geometry_units": 0.5823841194430321,
+      "drawn": true,
+      "actual_radius_mm": 1.6180415116780724,
+      "actual_enclosed_area_mm2": 8.224872827235428
+    },
+    {
+      "day": 46,
+      "region_id": "20",
+      "allocation_m3": 1414.8735559841405,
+      "beginning_storage_mm": 136.68536093840635,
+      "circle_x": 33.86621044092318,
+      "circle_y": -9.839653066074,
+      "radius_geometry_units": 0.6850127611668979,
+      "drawn": true,
+      "actual_radius_mm": 1.9031753212248734,
+      "actual_enclosed_area_mm2": 11.379088305249901
+    },
+    {
+      "day": 46,
+      "region_id": "21",
+      "allocation_m3": 889.9675962671131,
+      "beginning_storage_mm": 150.6571643141562,
+      "circle_x": 30.750000108253168,
+      "circle_y": -9.959292256944451,
+      "radius_geometry_units": 0.5432840367121222,
+      "drawn": true,
+      "actual_radius_mm": 1.5094095025684082,
+      "actual_enclosed_area_mm2": 7.1575440956562675
+    },
+    {
+      "day": 46,
+      "region_id": "22",
+      "allocation_m3": 1058.3016935610185,
+      "beginning_storage_mm": 143.66646484421906,
+      "circle_x": 29.749999927831205,
+      "circle_y": -5.629165000000002,
+      "radius_geometry_units": 0.5924402994634619,
+      "drawn": true,
+      "actual_radius_mm": 1.6459806607357839,
+      "actual_enclosed_area_mm2": 8.511367233978707
+    },
+    {
+      "day": 46,
+      "region_id": "23",
+      "allocation_m3": 1120.4753220326445,
+      "beginning_storage_mm": 137.71276410735376,
+      "circle_x": 26.75000010825318,
+      "circle_y": -9.959292256944453,
+      "radius_geometry_units": 0.6095944370868042,
+      "drawn": true,
+      "actual_radius_mm": 1.693640110650303,
+      "actual_enclosed_area_mm2": 9.011397222979621
+    },
+    {
+      "day": 46,
+      "region_id": "24",
+      "allocation_m3": 2471.4110950634217,
+      "beginning_storage_mm": 107.86987547617015,
+      "circle_x": 24.7499999278312,
+      "circle_y": -5.520170589896618,
+      "radius_geometry_units": 0.905341322358477,
+      "drawn": true,
+      "actual_radius_mm": 2.5153155673518106,
+      "actual_enclosed_area_mm2": 19.876267367043976
+    },
+    {
+      "day": 46,
+      "region_id": "25",
+      "allocation_m3": 1110.6032652522765,
+      "beginning_storage_mm": 147.0394377836622,
+      "circle_x": 21.823047657498496,
+      "circle_y": -9.82437448205632,
+      "radius_geometry_units": 0.6069030502572988,
+      "drawn": true,
+      "actual_radius_mm": 1.6861626134646173,
+      "actual_enclosed_area_mm2": 8.932001431473635
+    },
+    {
+      "day": 46,
+      "region_id": "27",
+      "allocation_m3": 1100.889563449314,
+      "beginning_storage_mm": 128.94334149052366,
+      "circle_x": 18.63548712103353,
+      "circle_y": -10.40021616169325,
+      "radius_geometry_units": 0.604243134414584,
+      "drawn": true,
+      "actual_radius_mm": 1.6787725523221555,
+      "actual_enclosed_area_mm2": 8.853879206261862
+    },
+    {
+      "day": 46,
+      "region_id": "26",
+      "allocation_m3": 1632.192373940449,
+      "beginning_storage_mm": 132.96138246105477,
+      "circle_x": 17.749999927831205,
+      "circle_y": -5.532981635774186,
+      "radius_geometry_units": 0.7357419506601426,
+      "drawn": true,
+      "actual_radius_mm": 2.0441165517865048,
+      "actual_enclosed_area_mm2": 13.126869942314498
+    },
+    {
+      "day": 46,
+      "region_id": "28",
+      "allocation_m3": 609.4743232646595,
+      "beginning_storage_mm": 105.02079272475214,
+      "circle_x": 16.580524962067702,
+      "circle_y": -10.52683676566511,
+      "radius_geometry_units": 0.4495909433574295,
+      "drawn": true,
+      "actual_radius_mm": 1.2491013840187386,
+      "actual_enclosed_area_mm2": 4.901683344690855
+    },
+    {
+      "day": 46,
+      "region_id": "29",
+      "allocation_m3": 386.6546235805673,
+      "beginning_storage_mm": 141.39651911223288,
+      "circle_x": 14.791902523500084,
+      "circle_y": -9.518708995283706,
+      "radius_geometry_units": 0.35809763363449826,
+      "drawn": true,
+      "actual_radius_mm": 0.9949049383565509,
+      "actual_enclosed_area_mm2": 3.109660991788127
+    },
+    {
+      "day": 46,
+      "region_id": "31",
+      "allocation_m3": 782.1821909959599,
+      "beginning_storage_mm": 140.11372326567007,
+      "circle_x": 11.830883966493465,
+      "circle_y": -5.92181295490133,
+      "radius_geometry_units": 0.5093236104587997,
+      "drawn": true,
+      "actual_radius_mm": 1.415057033815124,
+      "actual_enclosed_area_mm2": 6.2906824320042904
+    },
+    {
+      "day": 46,
+      "region_id": "30",
+      "allocation_m3": 384.1335538098566,
+      "beginning_storage_mm": 147.30847857983923,
+      "circle_x": 12.166666794966737,
+      "circle_y": -9.5262795,
+      "radius_geometry_units": 0.35692828833888657,
+      "drawn": true,
+      "actual_radius_mm": 0.9916561388673157,
+      "actual_enclosed_area_mm2": 3.0893853456547458
+    },
+    {
+      "day": 46,
+      "region_id": "33",
+      "allocation_m3": 927.8567574795519,
+      "beginning_storage_mm": 146.0610636920976,
+      "circle_x": 9.318447692397202,
+      "circle_y": -9.846607244403053,
+      "radius_geometry_units": 0.5547282902239894,
+      "drawn": true,
+      "actual_radius_mm": 1.541205145056184,
+      "actual_enclosed_area_mm2": 7.4622668105764
+    },
+    {
+      "day": 46,
+      "region_id": "34",
+      "allocation_m3": 1480.54506137712,
+      "beginning_storage_mm": 152.2078248599273,
+      "circle_x": 8.2499999278312,
+      "circle_y": -5.629164999999999,
+      "radius_geometry_units": 0.7007299210971399,
+      "drawn": true,
+      "actual_radius_mm": 1.9468424068540902,
+      "actual_enclosed_area_mm2": 11.907249889615382
+    },
+    {
+      "day": 46,
+      "region_id": "35",
+      "allocation_m3": 807.5769103699287,
+      "beginning_storage_mm": 138.06676222524413,
+      "circle_x": 4.847826214650254,
+      "circle_y": -9.90281233448856,
+      "radius_geometry_units": 0.5175255480596458,
+      "drawn": true,
+      "actual_radius_mm": 1.4378445293379314,
+      "actual_enclosed_area_mm2": 6.494918883396892
+    },
+    {
+      "day": 46,
+      "region_id": "36",
+      "allocation_m3": 387.71928599259866,
+      "beginning_storage_mm": 130.78138191462622,
+      "circle_x": 4.416222093474045,
+      "circle_y": -5.514526329555415,
+      "radius_geometry_units": 0.35859030976009987,
+      "drawn": true,
+      "actual_radius_mm": 0.9962737435770616,
+      "actual_enclosed_area_mm2": 3.1182235149553352
+    },
+    {
+      "day": 46,
+      "region_id": "37",
+      "allocation_m3": 2278.3714752364626,
+      "beginning_storage_mm": 133.11743466150753,
+      "circle_x": 6.9991251005707165,
+      "circle_y": -13.373787114819713,
+      "radius_geometry_units": 0.8692648418834364,
+      "drawn": true,
+      "actual_radius_mm": 2.415084051664733,
+      "actual_enclosed_area_mm2": 18.32375062720361
+    },
+    {
+      "day": 46,
+      "region_id": "38",
+      "allocation_m3": 819.8812454361473,
+      "beginning_storage_mm": 109.43322796565215,
+      "circle_x": 8.449786055697572,
+      "circle_y": -17.796685015801284,
+      "radius_geometry_units": 0.5214531836444903,
+      "drawn": true,
+      "actual_radius_mm": 1.4487567043215146,
+      "actual_enclosed_area_mm2": 6.593876217544318
+    },
+    {
+      "day": 46,
+      "region_id": "39",
+      "allocation_m3": 1182.0334762813302,
+      "beginning_storage_mm": 102.63846107270531,
+      "circle_x": 11.368213750312316,
+      "circle_y": -17.574155082088275,
+      "radius_geometry_units": 0.626115903922213,
+      "drawn": true,
+      "actual_radius_mm": 1.7395418072815052,
+      "actual_enclosed_area_mm2": 9.506477274579538
+    },
+    {
+      "day": 46,
+      "region_id": "40",
+      "allocation_m3": 480.93971798931295,
+      "beginning_storage_mm": 142.4854377261072,
+      "circle_x": 13.704056249574197,
+      "circle_y": -17.35397069517116,
+      "radius_geometry_units": 0.39937894869315477,
+      "drawn": true,
+      "actual_radius_mm": 1.10959707914749,
+      "actual_enclosed_area_mm2": 3.8679467132282177
+    },
+    {
+      "day": 46,
+      "region_id": "41",
+      "allocation_m3": 551.1752652230582,
+      "beginning_storage_mm": 105.13434380851072,
+      "circle_x": 14.517241222787323,
+      "circle_y": -13.557777007993124,
+      "radius_geometry_units": 0.427547830569258,
+      "drawn": true,
+      "actual_radius_mm": 1.1878588632371394,
+      "actual_enclosed_area_mm2": 4.432814500006824
+    },
+    {
+      "day": 46,
+      "region_id": "42",
+      "allocation_m3": 640.6467670853085,
+      "beginning_storage_mm": 137.62357745298885,
+      "circle_x": 15.714285855677613,
+      "circle_y": -17.56794394104308,
+      "radius_geometry_units": 0.4609450618350946,
+      "drawn": true,
+      "actual_radius_mm": 1.2806466037663904,
+      "actual_enclosed_area_mm2": 5.152387013174418
+    },
+    {
+      "day": 46,
+      "region_id": "43",
+      "allocation_m3": 774.1454368294686,
+      "beginning_storage_mm": 140.09599935224975,
+      "circle_x": 20.391983569566165,
+      "circle_y": -13.561551206156295,
+      "radius_geometry_units": 0.5067002590650771,
+      "drawn": true,
+      "actual_radius_mm": 1.4077685599143912,
+      "actual_enclosed_area_mm2": 6.226047019913009
+    },
+    {
+      "day": 46,
+      "region_id": "44",
+      "allocation_m3": 1619.3989387581212,
+      "beginning_storage_mm": 103.09721912738445,
+      "circle_x": 20.560695693918646,
+      "circle_y": -17.696937345907557,
+      "radius_geometry_units": 0.7328528352840509,
+      "drawn": true,
+      "actual_radius_mm": 2.0360897041193424,
+      "actual_enclosed_area_mm2": 13.023979031638072
+    },
+    {
+      "day": 46,
+      "region_id": "45",
+      "allocation_m3": 1932.3966878812464,
+      "beginning_storage_mm": 103.25978952282681,
+      "circle_x": 25.50167449067114,
+      "circle_y": -13.44457700449473,
+      "radius_geometry_units": 0.8005491291994868,
+      "drawn": true,
+      "actual_radius_mm": 2.2241707490604203,
+      "actual_enclosed_area_mm2": 15.54125629048057
+    },
+    {
+      "day": 46,
+      "region_id": "46",
+      "allocation_m3": 3173.840859724734,
+      "beginning_storage_mm": 119.184630541853,
+      "circle_x": 31.77146295212027,
+      "circle_y": -18.286533304971165,
+      "radius_geometry_units": 1.0259647053646004,
+      "drawn": true,
+      "actual_radius_mm": 2.850444281317444,
+      "actual_enclosed_area_mm2": 25.525542729150306
+    },
+    {
+      "day": 46,
+      "region_id": "47",
+      "allocation_m3": 3067.9068738613873,
+      "beginning_storage_mm": 111.14327336725758,
+      "circle_x": 35.11614594445025,
+      "circle_y": -13.216133338771028,
+      "radius_geometry_units": 1.00869747451392,
+      "drawn": true,
+      "actual_radius_mm": 2.802470623768455,
+      "actual_enclosed_area_mm2": 24.67357106386065
+    },
+    {
+      "day": 46,
+      "region_id": "48",
+      "allocation_m3": 1601.7890664706158,
+      "beginning_storage_mm": 107.74345487508725,
+      "circle_x": 39.669897391684394,
+      "circle_y": -17.68128010911769,
+      "radius_geometry_units": 0.7288573030232949,
+      "drawn": true,
+      "actual_radius_mm": 2.024988891368241,
+      "actual_enclosed_area_mm2": 12.882352035390825
+    },
+    {
+      "day": 46,
+      "region_id": "49",
+      "allocation_m3": 947.5904229537464,
+      "beginning_storage_mm": 111.78236863761856,
+      "circle_x": 44.703970174830914,
+      "circle_y": -20.532299314440486,
+      "radius_geometry_units": 0.560596237501206,
+      "drawn": true,
+      "actual_radius_mm": 1.5575081003839408,
+      "actual_enclosed_area_mm2": 7.620974365090652
+    },
+    {
+      "day": 46,
+      "region_id": "50",
+      "allocation_m3": 670.4213828263621,
+      "beginning_storage_mm": 119.94941703203415,
+      "circle_x": 38.34780548018217,
+      "circle_y": -25.730427914410487,
+      "radius_geometry_units": 0.47153482836008986,
+      "drawn": true,
+      "actual_radius_mm": 1.310068219611287,
+      "actual_enclosed_area_mm2": 5.391848681207834
+    },
+    {
+      "day": 46,
+      "region_id": "51",
+      "allocation_m3": 942.8809951897068,
+      "beginning_storage_mm": 141.52309628813018,
+      "circle_x": 37.31818173945225,
+      "circle_y": -21.33571688383838,
+      "radius_geometry_units": 0.559201449289283,
+      "drawn": true,
+      "actual_radius_mm": 1.553632951403146,
+      "actual_enclosed_area_mm2": 7.583098899705387
+    },
+    {
+      "day": 46,
+      "region_id": "52",
+      "allocation_m3": 2160.4347185667225,
+      "beginning_storage_mm": 147.99370769016372,
+      "circle_x": 35.250000072168774,
+      "circle_y": -25.597941299137396,
+      "radius_geometry_units": 0.8464677593677274,
+      "drawn": true,
+      "actual_radius_mm": 2.3517467719826493,
+      "actual_enclosed_area_mm2": 17.375246951448446
+    },
+    {
+      "day": 46,
+      "region_id": "54",
+      "allocation_m3": 366.62675366113865,
+      "beginning_storage_mm": 129.79112035828317,
+      "circle_x": 32.80270798097118,
+      "circle_y": -25.24762018438452,
+      "radius_geometry_units": 0.34869998114955186,
+      "drawn": true,
+      "actual_radius_mm": 0.9687953805487075,
+      "actual_enclosed_area_mm2": 2.9485873047329485
+    },
+    {
+      "day": 46,
+      "region_id": "53",
+      "allocation_m3": 597.1152885896099,
+      "beginning_storage_mm": 141.12043778348797,
+      "circle_x": 32.82467217826121,
+      "circle_y": -21.573338342338523,
+      "radius_geometry_units": 0.44500915203852537,
+      "drawn": true,
+      "actual_radius_mm": 1.2363717639890526,
+      "actual_enclosed_area_mm2": 4.802286090186926
+    },
+    {
+      "day": 46,
+      "region_id": "55",
+      "allocation_m3": 494.17366374694456,
+      "beginning_storage_mm": 119.77172004277784,
+      "circle_x": 30.82506310713568,
+      "circle_y": -25.36217252040818,
+      "radius_geometry_units": 0.4048364850968102,
+      "drawn": true,
+      "actual_radius_mm": 1.1247597873289115,
+      "actual_enclosed_area_mm2": 3.9743804201598816
+    },
+    {
+      "day": 46,
+      "region_id": "57",
+      "allocation_m3": 467.5857106670454,
+      "beginning_storage_mm": 93.84290133492803,
+      "circle_x": 28.8470821812556,
+      "circle_y": -25.447026839581575,
+      "radius_geometry_units": 0.3937952402749557,
+      "drawn": true,
+      "actual_radius_mm": 1.0940838264537305,
+      "actual_enclosed_area_mm2": 3.7605474139011914
+    },
+    {
+      "day": 46,
+      "region_id": "56",
+      "allocation_m3": 2276.168158655594,
+      "beginning_storage_mm": 111.94005568081391,
+      "circle_x": 27.85982297224709,
+      "circle_y": -21.152295237629353,
+      "radius_geometry_units": 0.8688444256064565,
+      "drawn": true,
+      "actual_radius_mm": 2.413916006442296,
+      "actual_enclosed_area_mm2": 18.306030503852604
+    },
+    {
+      "day": 46,
+      "region_id": "58",
+      "allocation_m3": 202.87298798642075,
+      "beginning_storage_mm": 98.79717797093453,
+      "circle_x": 26.666666698741682,
+      "circle_y": -25.114736500000006,
+      "radius_geometry_units": 0.2593892420257159,
+      "drawn": true,
+      "actual_radius_mm": 0.7206627846956142,
+      "actual_enclosed_area_mm2": 1.6316013789950714
+    },
+    {
+      "day": 46,
+      "region_id": "59",
+      "allocation_m3": 1041.7855885545828,
+      "beginning_storage_mm": 109.22626328369806,
+      "circle_x": 24.642918522309376,
+      "circle_y": -25.96876166150793,
+      "radius_geometry_units": 0.5877992396023338,
+      "drawn": true,
+      "actual_radius_mm": 1.6330863745374071,
+      "actual_enclosed_area_mm2": 8.37853683614412
+    },
+    {
+      "day": 46,
+      "region_id": "60",
+      "allocation_m3": 415.5848628014038,
+      "beginning_storage_mm": 132.1095262346767,
+      "circle_x": 22.642932816121455,
+      "circle_y": -25.355710654202163,
+      "radius_geometry_units": 0.37125277408549995,
+      "drawn": true,
+      "actual_radius_mm": 1.0314539489340246,
+      "actual_enclosed_area_mm2": 3.342331780915231
+    },
+    {
+      "day": 46,
+      "region_id": "61",
+      "allocation_m3": 229.86964908741007,
+      "beginning_storage_mm": 137.4340116663872,
+      "circle_x": 22.785714203235685,
+      "circle_y": -21.403199388888883,
+      "radius_geometry_units": 0.2761090639590286,
+      "drawn": true,
+      "actual_radius_mm": 0.7671155725598132,
+      "actual_enclosed_area_mm2": 1.8487214101920553
+    },
+    {
+      "day": 46,
+      "region_id": "62",
+      "allocation_m3": 484.8358192155791,
+      "beginning_storage_mm": 109.02805781498206,
+      "circle_x": 20.682637079590098,
+      "circle_y": -25.852294472406754,
+      "radius_geometry_units": 0.4009933736572831,
+      "drawn": true,
+      "actual_radius_mm": 1.1140824463170949,
+      "actual_enclosed_area_mm2": 3.899281018482822
+    },
+    {
+      "day": 46,
+      "region_id": "63",
+      "allocation_m3": 326.9432971946332,
+      "beginning_storage_mm": 129.92366825625547,
+      "circle_x": 20.74654047354649,
+      "circle_y": -21.40765778056392,
+      "radius_geometry_units": 0.32928812281185377,
+      "drawn": true,
+      "actual_radius_mm": 0.9148632907807926,
+      "actual_enclosed_area_mm2": 2.629434011154136
+    },
+    {
+      "day": 46,
+      "region_id": "64",
+      "allocation_m3": 1470.1615767376063,
+      "beginning_storage_mm": 111.71618905571209,
+      "circle_x": 15.933333523217401,
+      "circle_y": -25.461146913333337,
+      "radius_geometry_units": 0.6982683882832714,
+      "drawn": true,
+      "actual_radius_mm": 1.9400035145453405,
+      "actual_enclosed_area_mm2": 11.82374095121626
+    },
+    {
+      "day": 46,
+      "region_id": "65",
+      "allocation_m3": 471.96496938784344,
+      "beginning_storage_mm": 122.97382241126816,
+      "circle_x": 14.489850106486916,
+      "circle_y": -20.89123690243205,
+      "radius_geometry_units": 0.3956350229576994,
+      "drawn": true,
+      "actual_radius_mm": 1.0991953064095932,
+      "actual_enclosed_area_mm2": 3.795767502286287
+    },
+    {
+      "day": 46,
+      "region_id": "66",
+      "allocation_m3": 628.2686402823066,
+      "beginning_storage_mm": 114.46040510792105,
+      "circle_x": 11.242703292513529,
+      "circle_y": -20.976090588623318,
+      "radius_geometry_units": 0.4564703135795647,
+      "drawn": true,
+      "actual_radius_mm": 1.2682143821620637,
+      "actual_enclosed_area_mm2": 5.052836210666862
+    },
+    {
+      "day": 46,
+      "region_id": "68",
+      "allocation_m3": 950.1970651238616,
+      "beginning_storage_mm": 146.76154650505774,
+      "circle_x": 8.647518904977593,
+      "circle_y": -21.456225730759808,
+      "radius_geometry_units": 0.5613667551296556,
+      "drawn": true,
+      "actual_radius_mm": 1.5596488344230206,
+      "actual_enclosed_area_mm2": 7.64193822529461
+    },
+    {
+      "day": 46,
+      "region_id": "67",
+      "allocation_m3": 2209.1843419037987,
+      "beginning_storage_mm": 92.5450059434958,
+      "circle_x": 8.452058323449771,
+      "circle_y": -25.593521844770226,
+      "radius_geometry_units": 0.8559646422567806,
+      "drawn": true,
+      "actual_radius_mm": 2.3781320222548046,
+      "actual_enclosed_area_mm2": 17.76731468531348
+    },
+    {
+      "day": 46,
+      "region_id": "69",
+      "allocation_m3": 1859.9440325723715,
+      "beginning_storage_mm": 119.4315043821449,
+      "circle_x": 0.448722352736338,
+      "circle_y": -24.380664053511442,
+      "radius_geometry_units": 0.7853979896356801,
+      "drawn": true,
+      "actual_radius_mm": 2.1820762414235833,
+      "actual_enclosed_area_mm2": 14.9585574625729
+    },
+    {
+      "day": 46,
+      "region_id": "70",
+      "allocation_m3": 1512.9190059883022,
+      "beginning_storage_mm": 130.35627869743533,
+      "circle_x": 6.63903339724598,
+      "circle_y": -28.987963334677815,
+      "radius_geometry_units": 0.708349654801419,
+      "drawn": true,
+      "actual_radius_mm": 1.9680123615795848,
+      "actual_enclosed_area_mm2": 12.167616600804413
+    },
+    {
+      "day": 46,
+      "region_id": "71",
+      "allocation_m3": 1662.8962614998143,
+      "beginning_storage_mm": 124.93233195252216,
+      "circle_x": 7.25,
+      "circle_y": -33.58269424230988,
+      "radius_geometry_units": 0.7426298910414122,
+      "drawn": true,
+      "actual_radius_mm": 2.063253360457587,
+      "actual_enclosed_area_mm2": 13.373805257752956
+    },
+    {
+      "day": 46,
+      "region_id": "72",
+      "allocation_m3": 201.50226235237406,
+      "beginning_storage_mm": 107.91032191367005,
+      "circle_x": 9.857838947374793,
+      "circle_y": -33.15777550047867,
+      "radius_geometry_units": 0.25851146598104485,
+      "drawn": true,
+      "actual_radius_mm": 0.7182240539149867,
+      "actual_enclosed_area_mm2": 1.6205773493451303
+    },
+    {
+      "day": 46,
+      "region_id": "73",
+      "allocation_m3": 1525.4435921094048,
+      "beginning_storage_mm": 146.0933937172538,
+      "circle_x": 12.625776595324192,
+      "circle_y": -29.07321919340334,
+      "radius_geometry_units": 0.7112756213357212,
+      "drawn": true,
+      "actual_radius_mm": 1.9761415930545252,
+      "actual_enclosed_area_mm2": 12.26834529903752
+    },
+    {
+      "day": 46,
+      "region_id": "75",
+      "allocation_m3": 1418.0387265242582,
+      "beginning_storage_mm": 134.77298005270362,
+      "circle_x": 16.400886175016343,
+      "circle_y": -29.10525226994983,
+      "radius_geometry_units": 0.6857785437214315,
+      "drawn": true,
+      "actual_radius_mm": 1.9053028997779071,
+      "actual_enclosed_area_mm2": 11.404544117131357
+    },
+    {
+      "day": 46,
+      "region_id": "74",
+      "allocation_m3": 1504.642734319342,
+      "beginning_storage_mm": 133.96333414090864,
+      "circle_x": 16.60678596053592,
+      "circle_y": -33.52263842316479,
+      "radius_geometry_units": 0.7064095199667167,
+      "drawn": true,
+      "actual_radius_mm": 1.9626220726002028,
+      "actual_enclosed_area_mm2": 12.101054874662154
+    },
+    {
+      "day": 46,
+      "region_id": "76",
+      "allocation_m3": 377.2030304161639,
+      "beginning_storage_mm": 127.74252247072901,
+      "circle_x": 19.600454861801015,
+      "circle_y": -28.742177782163132,
+      "radius_geometry_units": 0.35369378925657063,
+      "drawn": true,
+      "actual_radius_mm": 0.9826697094473704,
+      "actual_enclosed_area_mm2": 3.0336467693241027
+    },
+    {
+      "day": 46,
+      "region_id": "77",
+      "allocation_m3": 870.1575712214708,
+      "beginning_storage_mm": 116.50773436373814,
+      "circle_x": 22.59021065023337,
+      "circle_y": -27.598206108836365,
+      "radius_geometry_units": 0.5372034571617921,
+      "drawn": true,
+      "actual_radius_mm": 1.4925157896407546,
+      "actual_enclosed_area_mm2": 6.998222421030169
+    },
+    {
+      "day": 46,
+      "region_id": "78",
+      "allocation_m3": 1897.0224130671363,
+      "beginning_storage_mm": 123.5564284495328,
+      "circle_x": 22.57167402630826,
+      "circle_y": -33.32058512532792,
+      "radius_geometry_units": 0.7931878959726657,
+      "drawn": true,
+      "actual_radius_mm": 2.203718987859357,
+      "actual_enclosed_area_mm2": 15.256759492062455
+    },
+    {
+      "day": 46,
+      "region_id": "79",
+      "allocation_m3": 1659.6506915038967,
+      "beginning_storage_mm": 110.75915338821328,
+      "circle_x": 28.824059964115136,
+      "circle_y": -27.611233585721685,
+      "radius_geometry_units": 0.741904820405106,
+      "drawn": true,
+      "actual_radius_mm": 2.0612388920864984,
+      "actual_enclosed_area_mm2": 13.347702835081884
+    },
+    {
+      "day": 46,
+      "region_id": "80",
+      "allocation_m3": 183.10030978467506,
+      "beginning_storage_mm": 115.06636346551912,
+      "circle_x": 26.943689653462663,
+      "circle_y": -29.039699332944696,
+      "radius_geometry_units": 0.2464247852612563,
+      "drawn": true,
+      "actual_radius_mm": 0.6846435518200461,
+      "actual_enclosed_area_mm2": 1.4725800655092494
+    },
+    {
+      "day": 46,
+      "region_id": "81",
+      "allocation_m3": 361.24784581539086,
+      "beginning_storage_mm": 131.4165894083603,
+      "circle_x": 26.979052292038265,
+      "circle_y": -33.30904529359886,
+      "radius_geometry_units": 0.34613258056467644,
+      "drawn": true,
+      "actual_radius_mm": 0.9616623551368747,
+      "actual_enclosed_area_mm2": 2.9053275610592517
+    },
+    {
+      "day": 46,
+      "region_id": "82",
+      "allocation_m3": 111.42393687219479,
+      "beginning_storage_mm": 96.45191566681575,
+      "circle_x": 29.337119172941915,
+      "circle_y": -30.310889000000003,
+      "radius_geometry_units": 0.19223351041751932,
+      "drawn": true,
+      "actual_radius_mm": 0.5340835874587597,
+      "actual_enclosed_area_mm2": 0.8961244710700543
+    },
+    {
+      "day": 46,
+      "region_id": "83",
+      "allocation_m3": 632.5705099219471,
+      "beginning_storage_mm": 150.37231764505296,
+      "circle_x": 29.779679460830412,
+      "circle_y": -33.04718049279094,
+      "radius_geometry_units": 0.4580304151869637,
+      "drawn": true,
+      "actual_radius_mm": 1.2725488224033625,
+      "actual_enclosed_area_mm2": 5.087433899131747
+    },
+    {
+      "day": 46,
+      "region_id": "84",
+      "allocation_m3": 241.7854118500259,
+      "beginning_storage_mm": 149.98145738756708,
+      "circle_x": 30.684309352335728,
+      "circle_y": -29.45875946864998,
+      "radius_geometry_units": 0.2831749902896169,
+      "drawn": true,
+      "actual_radius_mm": 0.7867468807285266,
+      "actual_enclosed_area_mm2": 1.9445536604498537
+    },
+    {
+      "day": 46,
+      "region_id": "85",
+      "allocation_m3": 1392.160509192194,
+      "beginning_storage_mm": 109.44209962429859,
+      "circle_x": 32.59033830096177,
+      "circle_y": -33.689634313297994,
+      "radius_geometry_units": 0.6794922415455878,
+      "drawn": true,
+      "actual_radius_mm": 1.8878376263683319,
+      "actual_enclosed_area_mm2": 11.196419144437819
+    },
+    {
+      "day": 46,
+      "region_id": "86",
+      "allocation_m3": 2578.633795898101,
+      "beginning_storage_mm": 98.96975720365214,
+      "circle_x": 34.54103158870309,
+      "circle_y": -28.767239843145816,
+      "radius_geometry_units": 0.924772022474113,
+      "drawn": true,
+      "actual_radius_mm": 2.5693000053514847,
+      "actual_enclosed_area_mm2": 20.738603493099106
+    },
+    {
+      "day": 46,
+      "region_id": "87",
+      "allocation_m3": 2541.039689624092,
+      "beginning_storage_mm": 137.5481436049718,
+      "circle_x": 36.61354407493312,
+      "circle_y": -33.454022136191156,
+      "radius_geometry_units": 0.9180061094695231,
+      "drawn": true,
+      "actual_radius_mm": 2.5505022261189416,
+      "actual_enclosed_area_mm2": 20.43625375079203
+    },
+    {
+      "day": 46,
+      "region_id": "88",
+      "allocation_m3": 540.6327167049142,
+      "beginning_storage_mm": 99.60737307589537,
+      "circle_x": 41.05314864314923,
+      "circle_y": -26.52742725348061,
+      "radius_geometry_units": 0.4234391499157294,
+      "drawn": true,
+      "actual_radius_mm": 1.1764436895850903,
+      "actual_enclosed_area_mm2": 4.348026293991553
+    },
+    {
+      "day": 46,
+      "region_id": "89",
+      "allocation_m3": 480.24783932360657,
+      "beginning_storage_mm": 128.27447500871645,
+      "circle_x": 40.20000001732051,
+      "circle_y": -33.46347892381162,
+      "radius_geometry_units": 0.3990915725269815,
+      "drawn": true,
+      "actual_radius_mm": 1.108798660113022,
+      "actual_enclosed_area_mm2": 3.8623822948388193
+    },
+    {
+      "day": 46,
+      "region_id": "90",
+      "allocation_m3": 367.75223518607675,
+      "beginning_storage_mm": 104.72067714572621,
+      "circle_x": 41.20000001732053,
+      "circle_y": -29.25397418743365,
+      "radius_geometry_units": 0.3492347957140644,
+      "drawn": true,
+      "actual_radius_mm": 0.970281259262672,
+      "actual_enclosed_area_mm2": 2.9576389642286194
+    },
+    {
+      "day": 46,
+      "region_id": "91",
+      "allocation_m3": 2180.805095814261,
+      "beginning_storage_mm": 132.58779398655287,
+      "circle_x": 44.16494286712473,
+      "circle_y": -28.958607163013912,
+      "radius_geometry_units": 0.8504489981680134,
+      "drawn": true,
+      "actual_radius_mm": 2.3628078731214077,
+      "actual_enclosed_area_mm2": 17.53907524587845
+    },
+    {
+      "day": 46,
+      "region_id": "92",
+      "allocation_m3": 1921.205988440709,
+      "beginning_storage_mm": 149.51516974013936,
+      "circle_x": 44.625270267018145,
+      "circle_y": -33.33496410995429,
+      "radius_geometry_units": 0.7982277340568639,
+      "drawn": true,
+      "actual_radius_mm": 2.217721202137053,
+      "actual_enclosed_area_mm2": 15.451255345454204
+    },
+    {
+      "day": 62,
+      "region_id": "1",
+      "allocation_m3": 15.443424587575807,
+      "beginning_storage_mm": 150.38725315238935,
+      "circle_x": 5.749999999999997,
+      "circle_y": 2.1928813992488,
+      "radius_geometry_units": 0.07156680894083234,
+      "drawn": true,
+      "actual_radius_mm": 0.19883452151020975,
+      "actual_enclosed_area_mm2": 0.1242033900303261
+    },
+    {
+      "day": 62,
+      "region_id": "3",
+      "allocation_m3": 1118.3028838413911,
+      "beginning_storage_mm": 125.77426340604976,
+      "circle_x": 11.857144642180065,
+      "circle_y": 1.9738101245465969,
+      "radius_geometry_units": 0.6090031930217015,
+      "drawn": true,
+      "actual_radius_mm": 1.6919974534951174,
+      "actual_enclosed_area_mm2": 8.993925438372852
+    },
+    {
+      "day": 62,
+      "region_id": "2",
+      "allocation_m3": 166.4993100447084,
+      "beginning_storage_mm": 108.27919898350406,
+      "circle_x": 11.249999999999998,
+      "circle_y": -2.17556899059423,
+      "radius_geometry_units": 0.23498820634516865,
+      "drawn": true,
+      "actual_radius_mm": 0.6528692317106494,
+      "actual_enclosed_area_mm2": 1.3390669037164167
+    },
+    {
+      "day": 62,
+      "region_id": "4",
+      "allocation_m3": 995.75105413456,
+      "beginning_storage_mm": 151.82661284380114,
+      "circle_x": 16.250000000000004,
+      "circle_y": 2.1650635,
+      "radius_geometry_units": 0.5746656449926328,
+      "drawn": true,
+      "actual_radius_mm": 1.5965972249081712,
+      "actual_enclosed_area_mm2": 8.00830514297197
+    },
+    {
+      "day": 62,
+      "region_id": "5",
+      "allocation_m3": 3046.9425636479905,
+      "beginning_storage_mm": 133.61328591352796,
+      "circle_x": 16.25,
+      "circle_y": -2.3738415208133485,
+      "radius_geometry_units": 1.0052451375291465,
+      "drawn": true,
+      "actual_radius_mm": 2.7928789739154216,
+      "actual_enclosed_area_mm2": 24.504966077098448
+    },
+    {
+      "day": 62,
+      "region_id": "6",
+      "allocation_m3": 645.7914494982707,
+      "beginning_storage_mm": 120.5704893449962,
+      "circle_x": 19.700641109233388,
+      "circle_y": 1.828978421083654,
+      "radius_geometry_units": 0.46279215933899814,
+      "drawn": true,
+      "actual_radius_mm": 1.2857784065365125,
+      "actual_enclosed_area_mm2": 5.193763004146871
+    },
+    {
+      "day": 62,
+      "region_id": "7",
+      "allocation_m3": 204.08430146528266,
+      "beginning_storage_mm": 134.08600915562585,
+      "circle_x": 23.749999999999993,
+      "circle_y": -2.165063499999999,
+      "radius_geometry_units": 0.2601624698333861,
+      "drawn": true,
+      "actual_radius_mm": 0.7228110484428996,
+      "actual_enclosed_area_mm2": 1.6413433400226223
+    },
+    {
+      "day": 62,
+      "region_id": "8",
+      "allocation_m3": 939.2284962302402,
+      "beginning_storage_mm": 142.52922865746208,
+      "circle_x": 24.199999965358987,
+      "circle_y": 2.047572296995265,
+      "radius_geometry_units": 0.5581172909560121,
+      "drawn": true,
+      "actual_radius_mm": 1.5506208273944393,
+      "actual_enclosed_area_mm2": 7.5537237601257265
+    },
+    {
+      "day": 62,
+      "region_id": "9",
+      "allocation_m3": 2689.680105238693,
+      "beginning_storage_mm": 127.93137497059585,
+      "circle_x": 27.181818138874778,
+      "circle_y": 2.3131439228260273,
+      "radius_geometry_units": 0.9444743384528912,
+      "drawn": true,
+      "actual_radius_mm": 2.624039075435245,
+      "actual_enclosed_area_mm2": 21.63169090335872
+    },
+    {
+      "day": 62,
+      "region_id": "11",
+      "allocation_m3": 1271.6421518865434,
+      "beginning_storage_mm": 127.14601496172449,
+      "circle_x": 29.817405105070094,
+      "circle_y": 2.0182050886420804,
+      "radius_geometry_units": 0.6494149839583988,
+      "drawn": true,
+      "actual_radius_mm": 1.8042737898749046,
+      "actual_enclosed_area_mm2": 10.227153004446416
+    },
+    {
+      "day": 62,
+      "region_id": "12",
+      "allocation_m3": 1127.552143225367,
+      "beginning_storage_mm": 160.76243125049098,
+      "circle_x": 31.25,
+      "circle_y": -2.1650635,
+      "radius_geometry_units": 0.6115164787769545,
+      "drawn": true,
+      "actual_radius_mm": 1.6989801313308346,
+      "actual_enclosed_area_mm2": 9.068312396022375
+    },
+    {
+      "day": 62,
+      "region_id": "13",
+      "allocation_m3": 836.4291848529342,
+      "beginning_storage_mm": 117.80553839474915,
+      "circle_x": 34.667416090400636,
+      "circle_y": -1.8896768729211588,
+      "radius_geometry_units": 0.5266892280643064,
+      "drawn": true,
+      "actual_radius_mm": 1.46330403991225,
+      "actual_enclosed_area_mm2": 6.726962642898118
+    },
+    {
+      "day": 62,
+      "region_id": "14",
+      "allocation_m3": 136.47113213584007,
+      "beginning_storage_mm": 148.9265922205982,
+      "circle_x": 35.645161227841406,
+      "circle_y": 2.1231590234131152,
+      "radius_geometry_units": 0.2127454322927298,
+      "drawn": true,
+      "actual_radius_mm": 0.5910719907657194,
+      "actual_enclosed_area_mm2": 1.0975659677312952
+    },
+    {
+      "day": 62,
+      "region_id": "15",
+      "allocation_m3": 393.8181819103706,
+      "beginning_storage_mm": 125.81953051563364,
+      "circle_x": 42.54514171662313,
+      "circle_y": -0.9375978346294058,
+      "radius_geometry_units": 0.3613996508775048,
+      "drawn": true,
+      "actual_radius_mm": 1.0040789539127633,
+      "actual_enclosed_area_mm2": 3.167273746277656
+    },
+    {
+      "day": 62,
+      "region_id": "16",
+      "allocation_m3": 41.86206725437849,
+      "beginning_storage_mm": 149.6437543630974,
+      "circle_x": 38.90909105223563,
+      "circle_y": -9.841197872819109,
+      "radius_geometry_units": 0.1178284549059112,
+      "drawn": true,
+      "actual_radius_mm": 0.3273635474074793,
+      "actual_enclosed_area_mm2": 0.3366747211531195
+    },
+    {
+      "day": 62,
+      "region_id": "17",
+      "allocation_m3": 854.0905739578421,
+      "beginning_storage_mm": 138.4312218883045,
+      "circle_x": 38.3181817179805,
+      "circle_y": -5.747259326446278,
+      "radius_geometry_units": 0.5322207610689982,
+      "drawn": true,
+      "actual_radius_mm": 1.4786723333220502,
+      "actual_enclosed_area_mm2": 6.869003961974393
+    },
+    {
+      "day": 62,
+      "region_id": "19",
+      "allocation_m3": 712.7710730352345,
+      "beginning_storage_mm": 153.64340551767927,
+      "circle_x": 35.77302843043501,
+      "circle_y": -5.820535190122804,
+      "radius_geometry_units": 0.4861999168866364,
+      "drawn": true,
+      "actual_radius_mm": 1.3508123285527862,
+      "actual_enclosed_area_mm2": 5.732445098851345
+    },
+    {
+      "day": 62,
+      "region_id": "20",
+      "allocation_m3": 584.4195968571466,
+      "beginning_storage_mm": 144.02122950583023,
+      "circle_x": 33.86621044092318,
+      "circle_y": -9.839653066074,
+      "radius_geometry_units": 0.440252907103347,
+      "drawn": true,
+      "actual_radius_mm": 1.2231574583651508,
+      "actual_enclosed_area_mm2": 4.700181278976821
+    },
+    {
+      "day": 62,
+      "region_id": "21",
+      "allocation_m3": 725.2351149343235,
+      "beginning_storage_mm": 158.1692506066794,
+      "circle_x": 30.750000108253168,
+      "circle_y": -9.959292256944451,
+      "radius_geometry_units": 0.49043251906125646,
+      "drawn": true,
+      "actual_radius_mm": 1.3625717941568687,
+      "actual_enclosed_area_mm2": 5.832686871559732
+    },
+    {
+      "day": 62,
+      "region_id": "22",
+      "allocation_m3": 1446.121646836053,
+      "beginning_storage_mm": 148.52325749494025,
+      "circle_x": 29.749999927831205,
+      "circle_y": -5.629165000000002,
+      "radius_geometry_units": 0.692535851030694,
+      "drawn": true,
+      "actual_radius_mm": 1.9240767697522614,
+      "actual_enclosed_area_mm2": 11.630400363257136
+    },
+    {
+      "day": 62,
+      "region_id": "23",
+      "allocation_m3": 148.22642259601804,
+      "beginning_storage_mm": 145.51050830958485,
+      "circle_x": 26.75000010825318,
+      "circle_y": -9.959292256944453,
+      "radius_geometry_units": 0.22171887218987907,
+      "drawn": true,
+      "actual_radius_mm": 0.6160029560365813,
+      "actual_enclosed_area_mm2": 1.192107623156599
+    },
+    {
+      "day": 62,
+      "region_id": "24",
+      "allocation_m3": 244.56265474610512,
+      "beginning_storage_mm": 116.21856286121739,
+      "circle_x": 24.7499999278312,
+      "circle_y": -5.520170589896618,
+      "radius_geometry_units": 0.2847966767372184,
+      "drawn": true,
+      "actual_radius_mm": 0.7912524225239561,
+      "actual_enclosed_area_mm2": 1.9668895731015192
+    },
+    {
+      "day": 62,
+      "region_id": "25",
+      "allocation_m3": 1335.3504641578338,
+      "beginning_storage_mm": 152.52498562694797,
+      "circle_x": 21.823047657498496,
+      "circle_y": -9.82437448205632,
+      "radius_geometry_units": 0.6654837850847182,
+      "drawn": true,
+      "actual_radius_mm": 1.8489178424808537,
+      "actual_enclosed_area_mm2": 10.739525652904888
+    },
+    {
+      "day": 62,
+      "region_id": "27",
+      "allocation_m3": 1255.4011662696598,
+      "beginning_storage_mm": 134.1216543074646,
+      "circle_x": 18.63548712103353,
+      "circle_y": -10.40021616169325,
+      "radius_geometry_units": 0.6452546027107627,
+      "drawn": true,
+      "actual_radius_mm": 1.7927149761326617,
+      "actual_enclosed_area_mm2": 10.096535248027706
+    },
+    {
+      "day": 62,
+      "region_id": "26",
+      "allocation_m3": 2401.8793268524532,
+      "beginning_storage_mm": 137.53343574494718,
+      "circle_x": 17.749999927831205,
+      "circle_y": -5.532981635774186,
+      "radius_geometry_units": 0.8925148264047985,
+      "drawn": true,
+      "actual_radius_mm": 2.4796796318763197,
+      "actual_enclosed_area_mm2": 19.317059707005093
+    },
+    {
+      "day": 62,
+      "region_id": "28",
+      "allocation_m3": 1478.377386127864,
+      "beginning_storage_mm": 106.55504322442323,
+      "circle_x": 16.580524962067702,
+      "circle_y": -10.52683676566511,
+      "radius_geometry_units": 0.70021676167659,
+      "drawn": true,
+      "actual_radius_mm": 1.945416692764646,
+      "actual_enclosed_area_mm2": 11.889816410861002
+    },
+    {
+      "day": 62,
+      "region_id": "29",
+      "allocation_m3": 334.03089733504453,
+      "beginning_storage_mm": 148.2213269523004,
+      "circle_x": 14.791902523500084,
+      "circle_y": -9.518708995283706,
+      "radius_geometry_units": 0.33283820205771875,
+      "drawn": true,
+      "actual_radius_mm": 0.9247264985809123,
+      "actual_enclosed_area_mm2": 2.6864358736378424
+    },
+    {
+      "day": 62,
+      "region_id": "31",
+      "allocation_m3": 544.5857130558874,
+      "beginning_storage_mm": 147.48826915086406,
+      "circle_x": 11.830883966493465,
+      "circle_y": -5.92181295490133,
+      "radius_geometry_units": 0.42498438088230833,
+      "drawn": true,
+      "actual_radius_mm": 1.1807368146302002,
+      "actual_enclosed_area_mm2": 4.379818176989017
+    },
+    {
+      "day": 62,
+      "region_id": "30",
+      "allocation_m3": 322.61542017743886,
+      "beginning_storage_mm": 153.2419972504595,
+      "circle_x": 12.166666794966737,
+      "circle_y": -9.5262795,
+      "radius_geometry_units": 0.32710140389086223,
+      "drawn": true,
+      "actual_radius_mm": 0.9087879156625288,
+      "actual_enclosed_area_mm2": 2.5946271589484193
+    },
+    {
+      "day": 62,
+      "region_id": "33",
+      "allocation_m3": 1409.0373557017328,
+      "beginning_storage_mm": 150.52718835876667,
+      "circle_x": 9.318447692397202,
+      "circle_y": -9.846607244403053,
+      "radius_geometry_units": 0.6835984994913378,
+      "drawn": true,
+      "actual_radius_mm": 1.8992460689959147,
+      "actual_enclosed_area_mm2": 11.332150797583747
+    },
+    {
+      "day": 62,
+      "region_id": "34",
+      "allocation_m3": 1116.1157340006482,
+      "beginning_storage_mm": 159.98452010636802,
+      "circle_x": 8.2499999278312,
+      "circle_y": -5.629164999999999,
+      "radius_geometry_units": 0.6084073646653001,
+      "drawn": true,
+      "actual_radius_mm": 1.6903420597741927,
+      "actual_enclosed_area_mm2": 8.976335335660588
+    },
+    {
+      "day": 62,
+      "region_id": "35",
+      "allocation_m3": 389.55010928144594,
+      "beginning_storage_mm": 144.52263143106742,
+      "circle_x": 4.847826214650254,
+      "circle_y": -9.90281233448856,
+      "radius_geometry_units": 0.359435950300109,
+      "drawn": true,
+      "actual_radius_mm": 0.9986231920802268,
+      "actual_enclosed_area_mm2": 3.13294786950065
+    },
+    {
+      "day": 62,
+      "region_id": "36",
+      "allocation_m3": 2549.7997704082522,
+      "beginning_storage_mm": 132.36969365334357,
+      "circle_x": 4.416222093474045,
+      "circle_y": -5.514526329555415,
+      "radius_geometry_units": 0.9195871333161548,
+      "drawn": true,
+      "actual_radius_mm": 2.5548947947508776,
+      "actual_enclosed_area_mm2": 20.506706500709146
+    },
+    {
+      "day": 62,
+      "region_id": "37",
+      "allocation_m3": 1679.2254213220742,
+      "beginning_storage_mm": 139.15125206995404,
+      "circle_x": 6.9991251005707165,
+      "circle_y": -13.373787114819713,
+      "radius_geometry_units": 0.7462671888090575,
+      "drawn": true,
+      "actual_radius_mm": 2.0733588880327765,
+      "actual_enclosed_area_mm2": 13.505132153207436
+    },
+    {
+      "day": 62,
+      "region_id": "38",
+      "allocation_m3": 2169.078205069909,
+      "beginning_storage_mm": 110.96961265301267,
+      "circle_x": 8.449786055697572,
+      "circle_y": -17.796685015801284,
+      "radius_geometry_units": 0.8481593470099462,
+      "drawn": true,
+      "actual_radius_mm": 2.3564465207126957,
+      "actual_enclosed_area_mm2": 17.44476199451997
+    },
+    {
+      "day": 62,
+      "region_id": "39",
+      "allocation_m3": 473.06933197147066,
+      "beginning_storage_mm": 108.65466708719185,
+      "circle_x": 11.368213750312316,
+      "circle_y": -17.574155082088275,
+      "radius_geometry_units": 0.39609763061971714,
+      "drawn": true,
+      "actual_radius_mm": 1.1004805722260458,
+      "actual_enclosed_area_mm2": 3.804649313178121
+    },
+    {
+      "day": 62,
+      "region_id": "40",
+      "allocation_m3": 439.14457169322833,
+      "beginning_storage_mm": 148.62945488053782,
+      "circle_x": 13.704056249574197,
+      "circle_y": -17.35397069517116,
+      "radius_geometry_units": 0.38163096597872664,
+      "drawn": true,
+      "actual_radius_mm": 1.0602877456307154,
+      "actual_enclosed_area_mm2": 3.531810202355923
+    },
+    {
+      "day": 62,
+      "region_id": "41",
+      "allocation_m3": 327.13318532200833,
+      "beginning_storage_mm": 109.57669940992724,
+      "circle_x": 14.517241222787323,
+      "circle_y": -13.557777007993124,
+      "radius_geometry_units": 0.32938373393028564,
+      "drawn": true,
+      "actual_radius_mm": 0.9151289277606415,
+      "actual_enclosed_area_mm2": 2.630961182087807
+    },
+    {
+      "day": 62,
+      "region_id": "42",
+      "allocation_m3": 81.80709712616398,
+      "beginning_storage_mm": 146.949903103484,
+      "circle_x": 15.714285855677613,
+      "circle_y": -17.56794394104308,
+      "radius_geometry_units": 0.16471582975768517,
+      "drawn": true,
+      "actual_radius_mm": 0.4576310398596011,
+      "actual_enclosed_area_mm2": 0.6579317128782424
+    },
+    {
+      "day": 62,
+      "region_id": "43",
+      "allocation_m3": 1359.3212819815237,
+      "beginning_storage_mm": 144.24130095263678,
+      "circle_x": 20.391983569566165,
+      "circle_y": -13.561551206156295,
+      "radius_geometry_units": 0.6714302527583793,
+      "drawn": true,
+      "actual_radius_mm": 1.8654389515266105,
+      "actual_enclosed_area_mm2": 10.93231040855402
+    },
+    {
+      "day": 62,
+      "region_id": "44",
+      "allocation_m3": 728.7564100201204,
+      "beginning_storage_mm": 108.33472294477573,
+      "circle_x": 20.560695693918646,
+      "circle_y": -17.696937345907557,
+      "radius_geometry_units": 0.49162169647199216,
+      "drawn": true,
+      "actual_radius_mm": 1.3658756933379803,
+      "actual_enclosed_area_mm2": 5.861006806977745
+    },
+    {
+      "day": 62,
+      "region_id": "45",
+      "allocation_m3": 774.3464331996454,
+      "beginning_storage_mm": 108.57469480502029,
+      "circle_x": 25.50167449067114,
+      "circle_y": -13.44457700449473,
+      "radius_geometry_units": 0.5067660337232939,
+      "drawn": true,
+      "actual_radius_mm": 1.4079513020666206,
+      "actual_enclosed_area_mm2": 6.227663528636071
+    },
+    {
+      "day": 62,
+      "region_id": "46",
+      "allocation_m3": 5332.601460488305,
+      "beginning_storage_mm": 122.26328925841183,
+      "circle_x": 31.77146295212027,
+      "circle_y": -18.286533304971165,
+      "radius_geometry_units": 1.3298706792489892,
+      "drawn": true,
+      "actual_radius_mm": 3.69478818592488,
+      "actual_enclosed_area_mm2": 42.8873256263482
+    },
+    {
+      "day": 62,
+      "region_id": "47",
+      "allocation_m3": 17.583600496856636,
+      "beginning_storage_mm": 120.9487224535752,
+      "circle_x": 35.11614594445025,
+      "circle_y": -13.216133338771028,
+      "radius_geometry_units": 0.07636489363755425,
+      "drawn": true,
+      "actual_radius_mm": 0.2121650708103315,
+      "actual_enclosed_area_mm2": 0.14141570597013153
+    },
+    {
+      "day": 62,
+      "region_id": "48",
+      "allocation_m3": 243.52202877829262,
+      "beginning_storage_mm": 116.59445226834144,
+      "circle_x": 39.669897391684394,
+      "circle_y": -17.68128010911769,
+      "radius_geometry_units": 0.2841901189739603,
+      "drawn": true,
+      "actual_radius_mm": 0.7895672192235624,
+      "actual_enclosed_area_mm2": 1.9585203624887457
+    },
+    {
+      "day": 62,
+      "region_id": "49",
+      "allocation_m3": 2250.8754454293266,
+      "beginning_storage_mm": 113.38459507295197,
+      "circle_x": 44.703970174830914,
+      "circle_y": -20.532299314440486,
+      "radius_geometry_units": 0.8640036536373682,
+      "drawn": true,
+      "actual_radius_mm": 2.4004668588212326,
+      "actual_enclosed_area_mm2": 18.102614434576445
+    },
+    {
+      "day": 62,
+      "region_id": "50",
+      "allocation_m3": 2899.7678896528096,
+      "beginning_storage_mm": 120.32602185204045,
+      "circle_x": 38.34780548018217,
+      "circle_y": -25.730427914410487,
+      "radius_geometry_units": 0.9806667835802353,
+      "drawn": true,
+      "actual_radius_mm": 2.7245927764550784,
+      "actual_enclosed_area_mm2": 23.321317118077044
+    },
+    {
+      "day": 62,
+      "region_id": "51",
+      "allocation_m3": 1167.2753823534135,
+      "beginning_storage_mm": 146.80059560498097,
+      "circle_x": 37.31818173945225,
+      "circle_y": -21.33571688383838,
+      "radius_geometry_units": 0.622194990943255,
+      "drawn": true,
+      "actual_radius_mm": 1.7286483097567125,
+      "actual_enclosed_area_mm2": 9.387785640749314
+    },
+    {
+      "day": 62,
+      "region_id": "52",
+      "allocation_m3": 1210.283483540816,
+      "beginning_storage_mm": 156.75593010020233,
+      "circle_x": 35.250000072168774,
+      "circle_y": -25.597941299137396,
+      "radius_geometry_units": 0.6335536547329349,
+      "drawn": true,
+      "actual_radius_mm": 1.760206157773711,
+      "actual_enclosed_area_mm2": 9.733677313671404
+    },
+    {
+      "day": 62,
+      "region_id": "54",
+      "allocation_m3": 750.6093923619097,
+      "beginning_storage_mm": 132.79858657768762,
+      "circle_x": 32.80270798097118,
+      "circle_y": -25.24762018438452,
+      "radius_geometry_units": 0.4989383017064299,
+      "drawn": true,
+      "actual_radius_mm": 1.3862034643033068,
+      "actual_enclosed_area_mm2": 6.036758919064766
+    },
+    {
+      "day": 62,
+      "region_id": "53",
+      "allocation_m3": 599.4381664366647,
+      "beginning_storage_mm": 146.94468496786976,
+      "circle_x": 32.82467217826121,
+      "circle_y": -21.573338342338523,
+      "radius_geometry_units": 0.44587389169041497,
+      "drawn": true,
+      "actual_radius_mm": 1.2387742756765099,
+      "actual_enclosed_area_mm2": 4.82096778229443
+    },
+    {
+      "day": 62,
+      "region_id": "55",
+      "allocation_m3": 1106.5875250561146,
+      "beginning_storage_mm": 122.35043541829812,
+      "circle_x": 30.82506310713568,
+      "circle_y": -25.36217252040818,
+      "radius_geometry_units": 0.6058048308799714,
+      "drawn": true,
+      "actual_radius_mm": 1.6831114235675706,
+      "actual_enclosed_area_mm2": 8.899704932532227
+    },
+    {
+      "day": 62,
+      "region_id": "57",
+      "allocation_m3": 1485.0502912601578,
+      "beginning_storage_mm": 92.91700110337946,
+      "circle_x": 28.8470821812556,
+      "circle_y": -25.447026839581575,
+      "radius_geometry_units": 0.7017952555801027,
+      "drawn": true,
+      "actual_radius_mm": 1.9498022324394864,
+      "actual_enclosed_area_mm2": 11.943483098199795
+    },
+    {
+      "day": 62,
+      "region_id": "56",
+      "allocation_m3": 1.917636517009252,
+      "beginning_storage_mm": 120.89716746927269,
+      "circle_x": 27.85982297224709,
+      "circle_y": -21.152295237629353,
+      "radius_geometry_units": 0.025218717276153994,
+      "drawn": true,
+      "actual_radius_mm": 0.0700653229746619,
+      "actual_enclosed_area_mm2": 0.01542254795287497
+    },
+    {
+      "day": 62,
+      "region_id": "58",
+      "allocation_m3": 176.8110736029423,
+      "beginning_storage_mm": 103.75979758264725,
+      "circle_x": 26.666666698741682,
+      "circle_y": -25.114736500000006,
+      "radius_geometry_units": 0.24215563401792445,
+      "drawn": true,
+      "actual_radius_mm": 0.6727825417053658,
+      "actual_enclosed_area_mm2": 1.4219990269550788
+    },
+    {
+      "day": 62,
+      "region_id": "59",
+      "allocation_m3": 1226.6507583860646,
+      "beginning_storage_mm": 113.37403917327455,
+      "circle_x": 24.642918522309376,
+      "circle_y": -25.96876166150793,
+      "radius_geometry_units": 0.6378232014349166,
+      "drawn": true,
+      "actual_radius_mm": 1.7720682665936789,
+      "actual_enclosed_area_mm2": 9.865310748328984
+    },
+    {
+      "day": 62,
+      "region_id": "60",
+      "allocation_m3": 1115.4029425804945,
+      "beginning_storage_mm": 135.00385416415094,
+      "circle_x": 22.642932816121455,
+      "circle_y": -25.355710654202163,
+      "radius_geometry_units": 0.6082130582877006,
+      "drawn": true,
+      "actual_radius_mm": 1.6898022171266278,
+      "actual_enclosed_area_mm2": 8.970602726920502
+    },
+    {
+      "day": 62,
+      "region_id": "61",
+      "allocation_m3": 571.6015474749265,
+      "beginning_storage_mm": 141.25197826083723,
+      "circle_x": 22.785714203235685,
+      "circle_y": -21.403199388888883,
+      "radius_geometry_units": 0.4353981156849536,
+      "drawn": true,
+      "actual_radius_mm": 1.2096693604187105,
+      "actual_enclosed_area_mm2": 4.597092409159135
+    },
+    {
+      "day": 62,
+      "region_id": "62",
+      "allocation_m3": 1078.6353636953158,
+      "beginning_storage_mm": 111.19589374775867,
+      "circle_x": 20.682637079590098,
+      "circle_y": -25.852294472406754,
+      "radius_geometry_units": 0.5981046441541955,
+      "drawn": true,
+      "actual_radius_mm": 1.6617179456995728,
+      "actual_enclosed_area_mm2": 8.674900312287637
+    },
+    {
+      "day": 62,
+      "region_id": "63",
+      "allocation_m3": 1107.1207486845562,
+      "beginning_storage_mm": 131.68667910689004,
+      "circle_x": 20.74654047354649,
+      "circle_y": -21.40765778056392,
+      "radius_geometry_units": 0.6059507707799434,
+      "drawn": true,
+      "actual_radius_mm": 1.6835168893220123,
+      "actual_enclosed_area_mm2": 8.903993371402839
+    },
+    {
+      "day": 62,
+      "region_id": "64",
+      "allocation_m3": 91.82586285418795,
+      "beginning_storage_mm": 118.28915082975739,
+      "circle_x": 15.933333523217401,
+      "circle_y": -25.461146913333337,
+      "radius_geometry_units": 0.17451081879472183,
+      "drawn": true,
+      "actual_radius_mm": 0.48484452034309017,
+      "actual_enclosed_area_mm2": 0.7385074077497876
+    },
+    {
+      "day": 62,
+      "region_id": "65",
+      "allocation_m3": 3938.308922881217,
+      "beginning_storage_mm": 121.38071285419569,
+      "circle_x": 14.489850106486916,
+      "circle_y": -20.89123690243205,
+      "radius_geometry_units": 1.1428644847407854,
+      "drawn": true,
+      "actual_radius_mm": 3.1752276835804887,
+      "actual_enclosed_area_mm2": 31.673759692008353
+    },
+    {
+      "day": 62,
+      "region_id": "66",
+      "allocation_m3": 3248.980994455449,
+      "beginning_storage_mm": 114.39755391531729,
+      "circle_x": 11.242703292513529,
+      "circle_y": -20.976090588623318,
+      "radius_geometry_units": 1.0380384312307631,
+      "drawn": true,
+      "actual_radius_mm": 2.88398879085997,
+      "actual_enclosed_area_mm2": 26.1298555490153
+    },
+    {
+      "day": 62,
+      "region_id": "68",
+      "allocation_m3": 633.2074608984676,
+      "beginning_storage_mm": 154.7983736550032,
+      "circle_x": 8.647518904977593,
+      "circle_y": -21.456225730759808,
+      "radius_geometry_units": 0.4582609582741024,
+      "drawn": true,
+      "actual_radius_mm": 1.2731893417320448,
+      "actual_enclosed_area_mm2": 5.092556562833594
+    },
+    {
+      "day": 62,
+      "region_id": "67",
+      "allocation_m3": 200.1152667967273,
+      "beginning_storage_mm": 98.59522669551839,
+      "circle_x": 8.452058323449771,
+      "circle_y": -25.593521844770226,
+      "radius_geometry_units": 0.2576202268708342,
+      "drawn": true,
+      "actual_radius_mm": 0.7157479186135451,
+      "actual_enclosed_area_mm2": 1.6094224692217858
+    },
+    {
+      "day": 62,
+      "region_id": "69",
+      "allocation_m3": 1605.9909840060375,
+      "beginning_storage_mm": 125.02334546085028,
+      "circle_x": 0.448722352736338,
+      "circle_y": -24.380664053511442,
+      "radius_geometry_units": 0.729812669892342,
+      "drawn": true,
+      "actual_radius_mm": 2.0276431932308645,
+      "actual_enclosed_area_mm2": 12.916145861337117
+    },
+    {
+      "day": 62,
+      "region_id": "70",
+      "allocation_m3": 1651.839042727327,
+      "beginning_storage_mm": 135.1885372668153,
+      "circle_x": 6.63903339724598,
+      "circle_y": -28.987963334677815,
+      "radius_geometry_units": 0.7401567611364009,
+      "drawn": true,
+      "actual_radius_mm": 2.056382247876585,
+      "actual_enclosed_area_mm2": 13.284877827955116
+    },
+    {
+      "day": 62,
+      "region_id": "71",
+      "allocation_m3": 3243.8712695069526,
+      "beginning_storage_mm": 127.28830700078328,
+      "circle_x": 7.25,
+      "circle_y": -33.58269424230988,
+      "radius_geometry_units": 1.0372218401245803,
+      "drawn": true,
+      "actual_radius_mm": 2.8817200505839913,
+      "actual_enclosed_area_mm2": 26.088760702653545
+    },
+    {
+      "day": 62,
+      "region_id": "72",
+      "allocation_m3": 1144.5059146852216,
+      "beginning_storage_mm": 108.60057327488124,
+      "circle_x": 9.857838947374793,
+      "circle_y": -33.15777550047867,
+      "radius_geometry_units": 0.6160966792181685,
+      "drawn": true,
+      "actual_radius_mm": 1.7117053314148925,
+      "actual_enclosed_area_mm2": 9.204662716326805
+    },
+    {
+      "day": 62,
+      "region_id": "73",
+      "allocation_m3": 1668.2842856581844,
+      "beginning_storage_mm": 151.68710747322763,
+      "circle_x": 12.625776595324192,
+      "circle_y": -29.07321919340334,
+      "radius_geometry_units": 0.743832032125841,
+      "drawn": true,
+      "actual_radius_mm": 2.066593276695962,
+      "actual_enclosed_area_mm2": 13.417138319163003
+    },
+    {
+      "day": 62,
+      "region_id": "75",
+      "allocation_m3": 1550.607734717627,
+      "beginning_storage_mm": 140.39963914508192,
+      "circle_x": 16.400886175016343,
+      "circle_y": -29.10525226994983,
+      "radius_geometry_units": 0.7171183246158832,
+      "drawn": true,
+      "actual_radius_mm": 1.992374412824338,
+      "actual_enclosed_area_mm2": 12.470727342050324
+    },
+    {
+      "day": 62,
+      "region_id": "74",
+      "allocation_m3": 2937.5661676846207,
+      "beginning_storage_mm": 137.25092997016455,
+      "circle_x": 16.60678596053592,
+      "circle_y": -33.52263842316479,
+      "radius_geometry_units": 0.9870375527104727,
+      "drawn": true,
+      "actual_radius_mm": 2.742292724942512,
+      "actual_enclosed_area_mm2": 23.625308907089735
+    },
+    {
+      "day": 62,
+      "region_id": "76",
+      "allocation_m3": 3489.7833345578792,
+      "beginning_storage_mm": 123.19086453628319,
+      "circle_x": 19.600454861801015,
+      "circle_y": -28.742177782163132,
+      "radius_geometry_units": 1.0758186763219222,
+      "drawn": true,
+      "actual_radius_mm": 2.9889538866413066,
+      "actual_enclosed_area_mm2": 28.06650287735584
+    },
+    {
+      "day": 62,
+      "region_id": "77",
+      "allocation_m3": 1437.7611962413505,
+      "beginning_storage_mm": 119.5806956897812,
+      "circle_x": 22.59021065023337,
+      "circle_y": -27.598206108836365,
+      "radius_geometry_units": 0.6905310735109236,
+      "drawn": true,
+      "actual_radius_mm": 1.918506883588865,
+      "actual_enclosed_area_mm2": 11.563161630024451
+    },
+    {
+      "day": 62,
+      "region_id": "78",
+      "allocation_m3": 1789.8113965142404,
+      "beginning_storage_mm": 128.43231782191495,
+      "circle_x": 22.57167402630826,
+      "circle_y": -33.32058512532792,
+      "radius_geometry_units": 0.7704482655089772,
+      "drawn": true,
+      "actual_radius_mm": 2.140541327579651,
+      "actual_enclosed_area_mm2": 14.39451733657709
+    },
+    {
+      "day": 62,
+      "region_id": "79",
+      "allocation_m3": 2175.11741321623,
+      "beginning_storage_mm": 114.50097123741031,
+      "circle_x": 28.824059964115136,
+      "circle_y": -27.611233585721685,
+      "radius_geometry_units": 0.8493392607700854,
+      "drawn": true,
+      "actual_radius_mm": 2.3597246826343,
+      "actual_enclosed_area_mm2": 17.493332188301675
+    },
+    {
+      "day": 62,
+      "region_id": "80",
+      "allocation_m3": 1653.0036121268326,
+      "beginning_storage_mm": 115.0811699597944,
+      "circle_x": 26.943689653462663,
+      "circle_y": -29.039699332944696,
+      "radius_geometry_units": 0.7404176255493283,
+      "drawn": true,
+      "actual_radius_mm": 2.057107009138001,
+      "actual_enclosed_area_mm2": 13.294243850790524
+    },
+    {
+      "day": 62,
+      "region_id": "81",
+      "allocation_m3": 1816.561661262083,
+      "beginning_storage_mm": 132.34706480468785,
+      "circle_x": 26.979052292038265,
+      "circle_y": -33.30904529359886,
+      "radius_geometry_units": 0.7761844167816833,
+      "drawn": true,
+      "actual_radius_mm": 2.1564781132278927,
+      "actual_enclosed_area_mm2": 14.609655730723405
+    },
+    {
+      "day": 62,
+      "region_id": "82",
+      "allocation_m3": 241.61166181918193,
+      "beginning_storage_mm": 99.11122462999518,
+      "circle_x": 29.337119172941915,
+      "circle_y": -30.310889000000003,
+      "radius_geometry_units": 0.2830732254533286,
+      "drawn": true,
+      "actual_radius_mm": 0.786464146835128,
+      "actual_enclosed_area_mm2": 1.9431562797894746
+    },
+    {
+      "day": 62,
+      "region_id": "83",
+      "allocation_m3": 757.0136254657646,
+      "beginning_storage_mm": 156.0245317463298,
+      "circle_x": 29.779679460830412,
+      "circle_y": -33.04718049279094,
+      "radius_geometry_units": 0.501062262913879,
+      "drawn": true,
+      "actual_radius_mm": 1.3921044792659627,
+      "actual_enclosed_area_mm2": 6.08826481774239
+    },
+    {
+      "day": 62,
+      "region_id": "84",
+      "allocation_m3": 378.1332924384535,
+      "beginning_storage_mm": 154.77079850884934,
+      "circle_x": 30.684309352335728,
+      "circle_y": -29.45875946864998,
+      "radius_geometry_units": 0.35412966232745363,
+      "drawn": true,
+      "actual_radius_mm": 0.9838806983788436,
+      "actual_enclosed_area_mm2": 3.041128380422058
+    },
+    {
+      "day": 62,
+      "region_id": "85",
+      "allocation_m3": 4022.6962323034195,
+      "beginning_storage_mm": 110.27173280995432,
+      "circle_x": 32.59033830096177,
+      "circle_y": -33.689634313297994,
+      "radius_geometry_units": 1.1550438354700379,
+      "drawn": true,
+      "actual_radius_mm": 3.2090656513534834,
+      "actual_enclosed_area_mm2": 32.35244270343108
+    },
+    {
+      "day": 62,
+      "region_id": "86",
+      "allocation_m3": 3378.35368481626,
+      "beginning_storage_mm": 102.4388895184482,
+      "circle_x": 34.54103158870309,
+      "circle_y": -28.767239843145816,
+      "radius_geometry_units": 1.058503758672498,
+      "drawn": true,
+      "actual_radius_mm": 2.94084774055537,
+      "actual_enclosed_area_mm2": 27.170332460663733
+    },
+    {
+      "day": 62,
+      "region_id": "87",
+      "allocation_m3": 1773.380851528745,
+      "beginning_storage_mm": 145.02833821936133,
+      "circle_x": 36.61354407493312,
+      "circle_y": -33.454022136191156,
+      "radius_geometry_units": 0.7669037380502146,
+      "drawn": true,
+      "actual_radius_mm": 2.1306935443450303,
+      "actual_enclosed_area_mm2": 14.262375053259564
+    },
+    {
+      "day": 62,
+      "region_id": "88",
+      "allocation_m3": 2104.066216508251,
+      "beginning_storage_mm": 100.14123466966053,
+      "circle_x": 41.05314864314923,
+      "circle_y": -26.52742725348061,
+      "radius_geometry_units": 0.8353520618059426,
+      "drawn": true,
+      "actual_radius_mm": 2.3208639585854924,
+      "actual_enclosed_area_mm2": 16.921904559228906
+    },
+    {
+      "day": 62,
+      "region_id": "89",
+      "allocation_m3": 2540.2461049454123,
+      "beginning_storage_mm": 128.54503254499798,
+      "circle_x": 40.20000001732051,
+      "circle_y": -33.46347892381162,
+      "radius_geometry_units": 0.9178627483729981,
+      "drawn": true,
+      "actual_radius_mm": 2.550103925070556,
+      "actual_enclosed_area_mm2": 20.429871364112884
+    },
+    {
+      "day": 62,
+      "region_id": "90",
+      "allocation_m3": 270.5306456930879,
+      "beginning_storage_mm": 109.18916680249231,
+      "circle_x": 41.20000001732053,
+      "circle_y": -29.25397418743365,
+      "radius_geometry_units": 0.2995353488103425,
+      "drawn": true,
+      "actual_radius_mm": 0.8322009691019983,
+      "actual_enclosed_area_mm2": 2.175736548045589
+    },
+    {
+      "day": 62,
+      "region_id": "91",
+      "allocation_m3": 1009.0313871703929,
+      "beginning_storage_mm": 140.38057138799348,
+      "circle_x": 44.16494286712473,
+      "circle_y": -28.958607163013912,
+      "radius_geometry_units": 0.5784851103278489,
+      "drawn": true,
+      "actual_radius_mm": 1.6072088697976392,
+      "actual_enclosed_area_mm2": 8.11511191853062
+    },
+    {
+      "day": 62,
+      "region_id": "92",
+      "allocation_m3": 1317.5635080830293,
+      "beginning_storage_mm": 156.9203806231698,
+      "circle_x": 44.625270267018145,
+      "circle_y": -33.33496410995429,
+      "radius_geometry_units": 0.6610367829407696,
+      "drawn": true,
+      "actual_radius_mm": 1.8365627080752116,
+      "actual_enclosed_area_mm2": 10.596474464337001
+    },
+    {
+      "day": 72,
+      "region_id": "1",
+      "allocation_m3": 2047.5999880840027,
+      "beginning_storage_mm": 139.80922347081997,
+      "circle_x": 5.749999999999997,
+      "circle_y": 2.1928813992488,
+      "radius_geometry_units": 0.8240667786967094,
+      "drawn": true,
+      "actual_radius_mm": 2.2895099845807723,
+      "actual_enclosed_area_mm2": 16.467776204941444
+    },
+    {
+      "day": 72,
+      "region_id": "3",
+      "allocation_m3": 419.33191341427624,
+      "beginning_storage_mm": 123.58171680544196,
+      "circle_x": 11.857144642180065,
+      "circle_y": 1.9738101245465969,
+      "radius_geometry_units": 0.3729226873267559,
+      "drawn": true,
+      "actual_radius_mm": 1.0360934795377044,
+      "actual_enclosed_area_mm2": 3.3724673500109867
+    },
+    {
+      "day": 72,
+      "region_id": "2",
+      "allocation_m3": 1962.368118049396,
+      "beginning_storage_mm": 98.68182380983504,
+      "circle_x": 11.249999999999998,
+      "circle_y": -2.17556899059423,
+      "radius_geometry_units": 0.8067334913384081,
+      "drawn": true,
+      "actual_radius_mm": 2.2413528018155584,
+      "actual_enclosed_area_mm2": 15.782300834055196
+    },
+    {
+      "day": 72,
+      "region_id": "4",
+      "allocation_m3": 264.00240208597415,
+      "beginning_storage_mm": 148.85332016463187,
+      "circle_x": 16.250000000000004,
+      "circle_y": 2.1650635,
+      "radius_geometry_units": 0.2958991968997813,
+      "drawn": true,
+      "actual_radius_mm": 0.8220986250688501,
+      "actual_enclosed_area_mm2": 2.123233297723789
+    },
+    {
+      "day": 72,
+      "region_id": "5",
+      "allocation_m3": 1729.998269257739,
+      "beginning_storage_mm": 129.85615093074674,
+      "circle_x": 16.25,
+      "circle_y": -2.3738415208133485,
+      "radius_geometry_units": 0.7574651940526863,
+      "drawn": true,
+      "actual_radius_mm": 2.104470377387102,
+      "actual_enclosed_area_mm2": 13.913471624763314
+    },
+    {
+      "day": 72,
+      "region_id": "6",
+      "allocation_m3": 311.7661304787407,
+      "beginning_storage_mm": 117.71117432797661,
+      "circle_x": 19.700641109233388,
+      "circle_y": 1.828978421083654,
+      "radius_geometry_units": 0.3215542940837048,
+      "drawn": true,
+      "actual_radius_mm": 0.893376345123138,
+      "actual_enclosed_area_mm2": 2.5073719939843295
+    },
+    {
+      "day": 72,
+      "region_id": "7",
+      "allocation_m3": 108.41118060451467,
+      "beginning_storage_mm": 130.1714116914664,
+      "circle_x": 23.749999999999993,
+      "circle_y": -2.165063499999999,
+      "radius_geometry_units": 0.1896168310513477,
+      "drawn": true,
+      "actual_radius_mm": 0.5268136504947053,
+      "actual_enclosed_area_mm2": 0.8718944474985971
+    },
+    {
+      "day": 72,
+      "region_id": "8",
+      "allocation_m3": 321.4493526068459,
+      "beginning_storage_mm": 139.63226304675038,
+      "circle_x": 24.199999965358987,
+      "circle_y": 2.047572296995265,
+      "radius_geometry_units": 0.3265097278659629,
+      "drawn": true,
+      "actual_radius_mm": 0.9071440583906867,
+      "actual_enclosed_area_mm2": 2.5852490871062073
+    },
+    {
+      "day": 72,
+      "region_id": "9",
+      "allocation_m3": 980.4772021054688,
+      "beginning_storage_mm": 126.00873354392013,
+      "circle_x": 27.181818138874778,
+      "circle_y": 2.3131439228260273,
+      "radius_geometry_units": 0.5702412069397218,
+      "drawn": true,
+      "actual_radius_mm": 1.5843047804605022,
+      "actual_enclosed_area_mm2": 7.885465536375848
+    },
+    {
+      "day": 72,
+      "region_id": "11",
+      "allocation_m3": 473.15239963929383,
+      "beginning_storage_mm": 124.94944469669473,
+      "circle_x": 29.817405105070094,
+      "circle_y": 2.0182050886420804,
+      "radius_geometry_units": 0.3961324050808045,
+      "drawn": true,
+      "actual_radius_mm": 1.1005771863329679,
+      "actual_enclosed_area_mm2": 3.80531738300208
+    },
+    {
+      "day": 72,
+      "region_id": "12",
+      "allocation_m3": 541.3737187549146,
+      "beginning_storage_mm": 156.6639593906942,
+      "circle_x": 31.25,
+      "circle_y": -2.1650635,
+      "radius_geometry_units": 0.42372923764760984,
+      "drawn": true,
+      "actual_radius_mm": 1.1772496421798486,
+      "actual_enclosed_area_mm2": 4.3539857860787885
+    },
+    {
+      "day": 72,
+      "region_id": "13",
+      "allocation_m3": 408.4759693097875,
+      "beginning_storage_mm": 115.00210725869466,
+      "circle_x": 34.667416090400636,
+      "circle_y": -1.8896768729211588,
+      "radius_geometry_units": 0.36806379801222844,
+      "drawn": true,
+      "actual_radius_mm": 1.0225939963803112,
+      "actual_enclosed_area_mm2": 3.2851586671400916
+    },
+    {
+      "day": 72,
+      "region_id": "14",
+      "allocation_m3": 1283.270159839848,
+      "beginning_storage_mm": 141.67730930383883,
+      "circle_x": 35.645161227841406,
+      "circle_y": 2.1231590234131152,
+      "radius_geometry_units": 0.6523773811988505,
+      "drawn": true,
+      "actual_radius_mm": 1.8125042370129816,
+      "actual_enclosed_area_mm2": 10.320670993213096
+    },
+    {
+      "day": 72,
+      "region_id": "15",
+      "allocation_m3": 177.59997880493404,
+      "beginning_storage_mm": 122.84112937597217,
+      "circle_x": 42.54514171662313,
+      "circle_y": -0.9375978346294058,
+      "radius_geometry_units": 0.24269526429622298,
+      "drawn": true,
+      "actual_radius_mm": 0.6742817999476415,
+      "actual_enclosed_area_mm2": 1.4283437790496867
+    },
+    {
+      "day": 72,
+      "region_id": "16",
+      "allocation_m3": 14.987128193837425,
+      "beginning_storage_mm": 143.58465039738914,
+      "circle_x": 38.90909105223563,
+      "circle_y": -9.841197872819109,
+      "radius_geometry_units": 0.07050161381147027,
+      "drawn": true,
+      "actual_radius_mm": 0.19587508309181084,
+      "actual_enclosed_area_mm2": 0.12053363669035036
+    },
+    {
+      "day": 72,
+      "region_id": "17",
+      "allocation_m3": 829.2891011167535,
+      "beginning_storage_mm": 133.5016394261676,
+      "circle_x": 38.3181817179805,
+      "circle_y": -5.747259326446278,
+      "radius_geometry_units": 0.5244363983007744,
+      "drawn": true,
+      "actual_radius_mm": 1.4570449886187073,
+      "actual_enclosed_area_mm2": 6.669538682292418
+    },
+    {
+      "day": 72,
+      "region_id": "19",
+      "allocation_m3": 259.9922953997745,
+      "beginning_storage_mm": 150.51635967253142,
+      "circle_x": 35.77302843043501,
+      "circle_y": -5.820535190122804,
+      "radius_geometry_units": 0.2936432934430658,
+      "drawn": true,
+      "actual_radius_mm": 0.8158310341139412,
+      "actual_enclosed_area_mm2": 2.09098210615777
+    },
+    {
+      "day": 72,
+      "region_id": "20",
+      "allocation_m3": 629.8283307066705,
+      "beginning_storage_mm": 138.92906012671156,
+      "circle_x": 33.86621044092318,
+      "circle_y": -9.839653066074,
+      "radius_geometry_units": 0.4570365610570086,
+      "drawn": true,
+      "actual_radius_mm": 1.2697875911384064,
+      "actual_enclosed_area_mm2": 5.065379985333246
+    },
+    {
+      "day": 72,
+      "region_id": "21",
+      "allocation_m3": 259.55545892692504,
+      "beginning_storage_mm": 154.89238546111957,
+      "circle_x": 30.750000108253168,
+      "circle_y": -9.959292256944451,
+      "radius_geometry_units": 0.293396501462333,
+      "drawn": true,
+      "actual_radius_mm": 0.8151453703806018,
+      "actual_enclosed_area_mm2": 2.0874688587877257
+    },
+    {
+      "day": 72,
+      "region_id": "22",
+      "allocation_m3": 101.01404179367606,
+      "beginning_storage_mm": 147.48833093412097,
+      "circle_x": 29.749999927831205,
+      "circle_y": -5.629165000000002,
+      "radius_geometry_units": 0.18303355776046887,
+      "drawn": true,
+      "actual_radius_mm": 0.5085233003430725,
+      "actual_enclosed_area_mm2": 0.8124031273175679
+    },
+    {
+      "day": 72,
+      "region_id": "23",
+      "allocation_m3": 65.01408893450385,
+      "beginning_storage_mm": 141.7645958379408,
+      "circle_x": 26.75000010825318,
+      "circle_y": -9.959292256944453,
+      "radius_geometry_units": 0.14683973353646632,
+      "drawn": true,
+      "actual_radius_mm": 0.40796576777020144,
+      "actual_enclosed_area_mm2": 0.5228743274917654
+    },
+    {
+      "day": 72,
+      "region_id": "24",
+      "allocation_m3": 844.1759696634793,
+      "beginning_storage_mm": 110.38315096288405,
+      "circle_x": 24.7499999278312,
+      "circle_y": -5.520170589896618,
+      "radius_geometry_units": 0.5291226344849208,
+      "drawn": true,
+      "actual_radius_mm": 1.4700647884833196,
+      "actual_enclosed_area_mm2": 6.789265983057476
+    },
+    {
+      "day": 72,
+      "region_id": "25",
+      "allocation_m3": 612.8544154969607,
+      "beginning_storage_mm": 148.93237371873056,
+      "circle_x": 21.823047657498496,
+      "circle_y": -9.82437448205632,
+      "radius_geometry_units": 0.45083591598830364,
+      "drawn": true,
+      "actual_radius_mm": 1.2525602994156486,
+      "actual_enclosed_area_mm2": 4.928867659380015
+    },
+    {
+      "day": 72,
+      "region_id": "27",
+      "allocation_m3": 478.5975454742371,
+      "beginning_storage_mm": 131.6766871100098,
+      "circle_x": 18.63548712103353,
+      "circle_y": -10.40021616169325,
+      "radius_geometry_units": 0.3984052756854729,
+      "drawn": true,
+      "actual_radius_mm": 1.106891917223198,
+      "actual_enclosed_area_mm2": 3.8491098441932032
+    },
+    {
+      "day": 72,
+      "region_id": "26",
+      "allocation_m3": 15.824126994791257,
+      "beginning_storage_mm": 138.18347011877793,
+      "circle_x": 17.749999927831205,
+      "circle_y": -5.532981635774186,
+      "radius_geometry_units": 0.07244355047916219,
+      "drawn": true,
+      "actual_radius_mm": 0.20127037811527462,
+      "actual_enclosed_area_mm2": 0.12726518045774884
+    },
+    {
+      "day": 72,
+      "region_id": "28",
+      "allocation_m3": 577.0262213251261,
+      "beginning_storage_mm": 104.74644331076313,
+      "circle_x": 16.580524962067702,
+      "circle_y": -10.52683676566511,
+      "radius_geometry_units": 0.4374592677632801,
+      "drawn": true,
+      "actual_radius_mm": 1.2153958723775242,
+      "actual_enclosed_area_mm2": 4.640720224879859
+    },
+    {
+      "day": 72,
+      "region_id": "29",
+      "allocation_m3": 137.6291921614057,
+      "beginning_storage_mm": 144.8409105455433,
+      "circle_x": 14.791902523500084,
+      "circle_y": -9.518708995283706,
+      "radius_geometry_units": 0.21364617782038198,
+      "drawn": true,
+      "actual_radius_mm": 0.593574537807341,
+      "actual_enclosed_area_mm2": 1.1068796390752513
+    },
+    {
+      "day": 72,
+      "region_id": "31",
+      "allocation_m3": 215.63702831526126,
+      "beginning_storage_mm": 144.42231575542965,
+      "circle_x": 11.830883966493465,
+      "circle_y": -5.92181295490133,
+      "radius_geometry_units": 0.26742469941972596,
+      "drawn": true,
+      "actual_radius_mm": 0.7429877471984775,
+      "actual_enclosed_area_mm2": 1.7342558822327265
+    },
+    {
+      "day": 72,
+      "region_id": "30",
+      "allocation_m3": 324.14088512072914,
+      "beginning_storage_mm": 147.88683385612273,
+      "circle_x": 12.166666794966737,
+      "circle_y": -9.5262795,
+      "radius_geometry_units": 0.32787383018166244,
+      "drawn": true,
+      "actual_radius_mm": 0.9109339525503848,
+      "actual_enclosed_area_mm2": 2.6068956759638424
+    },
+    {
+      "day": 72,
+      "region_id": "33",
+      "allocation_m3": 582.2552468417557,
+      "beginning_storage_mm": 147.35769877315616,
+      "circle_x": 9.318447692397202,
+      "circle_y": -9.846607244403053,
+      "radius_geometry_units": 0.4394369306715424,
+      "drawn": true,
+      "actual_radius_mm": 1.2208904258429152,
+      "actual_enclosed_area_mm2": 4.682774543339959
+    },
+    {
+      "day": 72,
+      "region_id": "34",
+      "allocation_m3": 391.25083486106735,
+      "beginning_storage_mm": 156.5942743035413,
+      "circle_x": 8.2499999278312,
+      "circle_y": -5.629164999999999,
+      "radius_geometry_units": 0.3602197212920084,
+      "drawn": true,
+      "actual_radius_mm": 1.0008007480234677,
+      "actual_enclosed_area_mm2": 3.1466259161866312
+    },
+    {
+      "day": 72,
+      "region_id": "35",
+      "allocation_m3": 48.984706011117055,
+      "beginning_storage_mm": 141.86672603954054,
+      "circle_x": 4.847826214650254,
+      "circle_y": -9.90281233448856,
+      "radius_geometry_units": 0.12745888065749195,
+      "drawn": true,
+      "actual_radius_mm": 0.35411982066591485,
+      "actual_enclosed_area_mm2": 0.3939583809095198
+    },
+    {
+      "day": 72,
+      "region_id": "36",
+      "allocation_m3": 1341.9103799141517,
+      "beginning_storage_mm": 128.89895122560242,
+      "circle_x": 4.416222093474045,
+      "circle_y": -5.514526329555415,
+      "radius_geometry_units": 0.667116378702049,
+      "drawn": true,
+      "actual_radius_mm": 1.8534536877354741,
+      "actual_enclosed_area_mm2": 10.79228362576432
+    },
+    {
+      "day": 72,
+      "region_id": "37",
+      "allocation_m3": 609.7978966139707,
+      "beginning_storage_mm": 135.9352649942303,
+      "circle_x": 6.9991251005707165,
+      "circle_y": -13.373787114819713,
+      "radius_geometry_units": 0.4497102727027962,
+      "drawn": true,
+      "actual_radius_mm": 1.2494329174996812,
+      "actual_enclosed_area_mm2": 4.904285675973014
+    },
+    {
+      "day": 72,
+      "region_id": "38",
+      "allocation_m3": 458.5468518513185,
+      "beginning_storage_mm": 110.7119612390833,
+      "circle_x": 8.449786055697572,
+      "circle_y": -17.796685015801284,
+      "radius_geometry_units": 0.3899704551080497,
+      "drawn": true,
+      "actual_radius_mm": 1.083457401441965,
+      "actual_enclosed_area_mm2": 3.6878525980232424
+    },
+    {
+      "day": 72,
+      "region_id": "39",
+      "allocation_m3": 738.4251779076549,
+      "beginning_storage_mm": 103.72149901053622,
+      "circle_x": 11.368213750312316,
+      "circle_y": -17.574155082088275,
+      "radius_geometry_units": 0.49487224315366507,
+      "drawn": true,
+      "actual_radius_mm": 1.3749067079055206,
+      "actual_enclosed_area_mm2": 5.938767652199488
+    },
+    {
+      "day": 72,
+      "region_id": "40",
+      "allocation_m3": 203.85175467734757,
+      "beginning_storage_mm": 145.18096827506784,
+      "circle_x": 13.704056249574197,
+      "circle_y": -17.35397069517116,
+      "radius_geometry_units": 0.2600142046545464,
+      "drawn": true,
+      "actual_radius_mm": 0.7223991223513564,
+      "actual_enclosed_area_mm2": 1.639473087784305
+    },
+    {
+      "day": 72,
+      "region_id": "41",
+      "allocation_m3": 0.0,
+      "beginning_storage_mm": 109.18913627907176,
+      "circle_x": 14.517241222787323,
+      "circle_y": -13.557777007993124,
+      "radius_geometry_units": 0.0,
+      "drawn": false
+    },
+    {
+      "day": 72,
+      "region_id": "42",
+      "allocation_m3": 139.98352991044868,
+      "beginning_storage_mm": 141.32742501106867,
+      "circle_x": 15.714285855677613,
+      "circle_y": -17.56794394104308,
+      "radius_geometry_units": 0.2154657858210481,
+      "drawn": true,
+      "actual_radius_mm": 0.5986299663153763,
+      "actual_enclosed_area_mm2": 1.1258143467269954
+    },
+    {
+      "day": 72,
+      "region_id": "43",
+      "allocation_m3": 633.7484996819849,
+      "beginning_storage_mm": 140.97585742795545,
+      "circle_x": 20.391983569566165,
+      "circle_y": -13.561551206156295,
+      "radius_geometry_units": 0.4584566950802911,
+      "drawn": true,
+      "actual_radius_mm": 1.2737331585484777,
+      "actual_enclosed_area_mm2": 5.096907854910662
+    },
+    {
+      "day": 72,
+      "region_id": "44",
+      "allocation_m3": 1745.15593608011,
+      "beginning_storage_mm": 103.34403954185198,
+      "circle_x": 20.560695693918646,
+      "circle_y": -17.696937345907557,
+      "radius_geometry_units": 0.7607762856763124,
+      "drawn": true,
+      "actual_radius_mm": 2.113669604352838,
+      "actual_enclosed_area_mm2": 14.035376814484206
+    },
+    {
+      "day": 72,
+      "region_id": "45",
+      "allocation_m3": 1700.2619975704083,
+      "beginning_storage_mm": 103.50530809504417,
+      "circle_x": 25.50167449067114,
+      "circle_y": -13.44457700449473,
+      "radius_geometry_units": 0.7509270887851073,
+      "drawn": true,
+      "actual_radius_mm": 2.086305517842544,
+      "actual_enclosed_area_mm2": 13.674318337907458
+    },
+    {
+      "day": 72,
+      "region_id": "46",
+      "allocation_m3": 2833.1183331414095,
+      "beginning_storage_mm": 119.23778787489849,
+      "circle_x": 31.77146295212027,
+      "circle_y": -18.286533304971165,
+      "radius_geometry_units": 0.9693312285458932,
+      "drawn": true,
+      "actual_radius_mm": 2.6930991316403503,
+      "actual_enclosed_area_mm2": 22.78528957989789
+    },
+    {
+      "day": 72,
+      "region_id": "47",
+      "allocation_m3": 2545.6183026713256,
+      "beginning_storage_mm": 111.35915832160453,
+      "circle_x": 35.11614594445025,
+      "circle_y": -13.216133338771028,
+      "radius_geometry_units": 0.9188327992439645,
+      "drawn": true,
+      "actual_radius_mm": 2.5527990235893214,
+      "actual_enclosed_area_mm2": 20.47307714180084
+    },
+    {
+      "day": 72,
+      "region_id": "48",
+      "allocation_m3": 1018.2454558893337,
+      "beginning_storage_mm": 108.57138099532271,
+      "circle_x": 39.669897391684394,
+      "circle_y": -17.68128010911769,
+      "radius_geometry_units": 0.5811203546601659,
+      "drawn": true,
+      "actual_radius_mm": 1.6145303859254847,
+      "actual_enclosed_area_mm2": 8.189215856059189
+    },
+    {
+      "day": 72,
+      "region_id": "49",
+      "allocation_m3": 979.8363513894495,
+      "beginning_storage_mm": 111.12174407755532,
+      "circle_x": 44.703970174830914,
+      "circle_y": -20.532299314440486,
+      "radius_geometry_units": 0.5700548185064525,
+      "drawn": true,
+      "actual_radius_mm": 1.5837869362881458,
+      "actual_enclosed_area_mm2": 7.880311509108025
+    },
+    {
+      "day": 72,
+      "region_id": "50",
+      "allocation_m3": 975.504693454484,
+      "beginning_storage_mm": 118.82781356162133,
+      "circle_x": 38.34780548018217,
+      "circle_y": -25.730427914410487,
+      "radius_geometry_units": 0.5687933744026481,
+      "drawn": true,
+      "actual_radius_mm": 1.58028225809299,
+      "actual_enclosed_area_mm2": 7.845474248957366
+    },
+    {
+      "day": 72,
+      "region_id": "51",
+      "allocation_m3": 475.4151363231484,
+      "beginning_storage_mm": 143.59539586213037,
+      "circle_x": 37.31818173945225,
+      "circle_y": -21.33571688383838,
+      "radius_geometry_units": 0.39707847895037424,
+      "drawn": true,
+      "actual_radius_mm": 1.1032056693959018,
+      "actual_enclosed_area_mm2": 3.823515391176174
+    },
+    {
+      "day": 72,
+      "region_id": "52",
+      "allocation_m3": 430.80119921256113,
+      "beginning_storage_mm": 153.38417851529124,
+      "circle_x": 35.250000072168774,
+      "circle_y": -25.597941299137396,
+      "radius_geometry_units": 0.3779882493778223,
+      "drawn": true,
+      "actual_radius_mm": 1.0501671628765379,
+      "actual_enclosed_area_mm2": 3.46470881946587
+    },
+    {
+      "day": 72,
+      "region_id": "54",
+      "allocation_m3": 281.9622560973008,
+      "beginning_storage_mm": 130.45442496716495,
+      "circle_x": 32.80270798097118,
+      "circle_y": -25.24762018438452,
+      "radius_geometry_units": 0.3057984893619136,
+      "drawn": true,
+      "actual_radius_mm": 0.8496018924232044,
+      "actual_enclosed_area_mm2": 2.2676750140029034
+    },
+    {
+      "day": 72,
+      "region_id": "53",
+      "allocation_m3": 259.24671037025433,
+      "beginning_storage_mm": 143.72809545090547,
+      "circle_x": 32.82467217826121,
+      "circle_y": -21.573338342338523,
+      "radius_geometry_units": 0.29322194782099564,
+      "drawn": true,
+      "actual_radius_mm": 0.8146604068861155,
+      "actual_enclosed_area_mm2": 2.084985755562271
+    },
+    {
+      "day": 72,
+      "region_id": "55",
+      "allocation_m3": 497.9464245639555,
+      "beginning_storage_mm": 119.58886140910617,
+      "circle_x": 30.82506310713568,
+      "circle_y": -25.36217252040818,
+      "radius_geometry_units": 0.406378905586328,
+      "drawn": true,
+      "actual_radius_mm": 1.1290451040076859,
+      "actual_enclosed_area_mm2": 4.004722762986053
+    },
+    {
+      "day": 72,
+      "region_id": "57",
+      "allocation_m3": 686.4114098442027,
+      "beginning_storage_mm": 92.6307770235003,
+      "circle_x": 28.8470821812556,
+      "circle_y": -25.447026839581575,
+      "radius_geometry_units": 0.4771249134831844,
+      "drawn": true,
+      "actual_radius_mm": 1.3255991887449083,
+      "actual_enclosed_area_mm2": 5.520448108817305
+    },
+    {
+      "day": 72,
+      "region_id": "56",
+      "allocation_m3": 1.1007560886431538,
+      "beginning_storage_mm": 118.46043234184795,
+      "circle_x": 27.85982297224709,
+      "circle_y": -21.152295237629353,
+      "radius_geometry_units": 0.019106687274329022,
+      "drawn": true,
+      "actual_radius_mm": 0.05308423105712726,
+      "actual_enclosed_area_mm2": 0.008852805738177453
+    },
+    {
+      "day": 72,
+      "region_id": "58",
+      "allocation_m3": 304.80168193171266,
+      "beginning_storage_mm": 98.17924502456606,
+      "circle_x": 26.666666698741682,
+      "circle_y": -25.114736500000006,
+      "radius_geometry_units": 0.3179424575558725,
+      "drawn": true,
+      "actual_radius_mm": 0.8833415566728333,
+      "actual_enclosed_area_mm2": 2.451360575381712
+    },
+    {
+      "day": 72,
+      "region_id": "59",
+      "allocation_m3": 69.73496971659019,
+      "beginning_storage_mm": 114.305880579122,
+      "circle_x": 24.642918522309376,
+      "circle_y": -25.96876166150793,
+      "radius_geometry_units": 0.15207756688309818,
+      "drawn": true,
+      "actual_radius_mm": 0.4225180735477133,
+      "actual_enclosed_area_mm2": 0.5608419035134629
+    },
+    {
+      "day": 72,
+      "region_id": "60",
+      "allocation_m3": 422.51976648633996,
+      "beginning_storage_mm": 132.51120455977951,
+      "circle_x": 22.642932816121455,
+      "circle_y": -25.355710654202163,
+      "radius_geometry_units": 0.37433752342852117,
+      "drawn": true,
+      "actual_radius_mm": 1.0400243276986507,
+      "actual_enclosed_area_mm2": 3.398105585638299
+    },
+    {
+      "day": 72,
+      "region_id": "61",
+      "allocation_m3": 456.8675180685899,
+      "beginning_storage_mm": 136.60809633341862,
+      "circle_x": 22.785714203235685,
+      "circle_y": -21.403199388888883,
+      "radius_geometry_units": 0.3892557067045407,
+      "drawn": true,
+      "actual_radius_mm": 1.0814716113960599,
+      "actual_enclosed_area_mm2": 3.6743465943758955
+    },
+    {
+      "day": 72,
+      "region_id": "62",
+      "allocation_m3": 104.82817480185322,
+      "beginning_storage_mm": 111.57585061037369,
+      "circle_x": 20.682637079590098,
+      "circle_y": -25.852294472406754,
+      "radius_geometry_units": 0.1864570716919917,
+      "drawn": true,
+      "actual_radius_mm": 0.5180348709235164,
+      "actual_enclosed_area_mm2": 0.8430782050476259
+    },
+    {
+      "day": 72,
+      "region_id": "63",
+      "allocation_m3": 398.9889882336916,
+      "beginning_storage_mm": 129.66250111515748,
+      "circle_x": 20.74654047354649,
+      "circle_y": -21.40765778056392,
+      "radius_geometry_units": 0.3637644902386963,
+      "drawn": true,
+      "actual_radius_mm": 1.0106492021855311,
+      "actual_enclosed_area_mm2": 3.2088598382033666
+    },
+    {
+      "day": 72,
+      "region_id": "64",
+      "allocation_m3": 0.0,
+      "beginning_storage_mm": 117.32651492272011,
+      "circle_x": 15.933333523217401,
+      "circle_y": -25.461146913333337,
+      "radius_geometry_units": 0.0,
+      "drawn": false
+    },
+    {
+      "day": 72,
+      "region_id": "65",
+      "allocation_m3": 1575.0308158345817,
+      "beginning_storage_mm": 119.43310733362013,
+      "circle_x": 14.489850106486916,
+      "circle_y": -20.89123690243205,
+      "radius_geometry_units": 0.7227438001280363,
+      "drawn": true,
+      "actual_radius_mm": 2.0080037073014902,
+      "actual_enclosed_area_mm2": 12.667149414920857
+    },
+    {
+      "day": 72,
+      "region_id": "66",
+      "allocation_m3": 1342.0902722865576,
+      "beginning_storage_mm": 112.37338198688954,
+      "circle_x": 11.242703292513529,
+      "circle_y": -20.976090588623318,
+      "radius_geometry_units": 0.6671610929870293,
+      "drawn": true,
+      "actual_radius_mm": 1.853577917718483,
+      "actual_enclosed_area_mm2": 10.793730406066622
+    },
+    {
+      "day": 72,
+      "region_id": "68",
+      "allocation_m3": 228.27572709947424,
+      "beginning_storage_mm": 151.6328542773471,
+      "circle_x": 8.647518904977593,
+      "circle_y": -21.456225730759808,
+      "radius_geometry_units": 0.27515012510793313,
+      "drawn": true,
+      "actual_radius_mm": 0.7644513466366935,
+      "actual_enclosed_area_mm2": 1.8359023289563563
+    },
+    {
+      "day": 72,
+      "region_id": "67",
+      "allocation_m3": 21.942823398898593,
+      "beginning_storage_mm": 98.22517969876738,
+      "circle_x": 8.452058323449771,
+      "circle_y": -25.593521844770226,
+      "radius_geometry_units": 0.08530728124382772,
+      "drawn": true,
+      "actual_radius_mm": 0.23700976330349854,
+      "actual_enclosed_area_mm2": 0.176474656739835
+    },
+    {
+      "day": 72,
+      "region_id": "69",
+      "allocation_m3": 658.2808703839808,
+      "beginning_storage_mm": 122.56463564000438,
+      "circle_x": 0.448722352736338,
+      "circle_y": -24.380664053511442,
+      "radius_geometry_units": 0.4672458627455251,
+      "drawn": true,
+      "actual_radius_mm": 1.2981521591026959,
+      "actual_enclosed_area_mm2": 5.294208886776344
+    },
+    {
+      "day": 72,
+      "region_id": "70",
+      "allocation_m3": 2063.5812564922426,
+      "beginning_storage_mm": 130.4852816640667,
+      "circle_x": 6.63903339724598,
+      "circle_y": -28.987963334677815,
+      "radius_geometry_units": 0.8272763985939092,
+      "drawn": true,
+      "actual_radius_mm": 2.2984272920021076,
+      "actual_enclosed_area_mm2": 16.596305191632958
+    },
+    {
+      "day": 72,
+      "region_id": "71",
+      "allocation_m3": 1404.8119422491689,
+      "beginning_storage_mm": 125.10516314368279,
+      "circle_x": 7.25,
+      "circle_y": -33.58269424230988,
+      "radius_geometry_units": 0.6825727442012334,
+      "drawn": true,
+      "actual_radius_mm": 1.8963962065343498,
+      "actual_enclosed_area_mm2": 11.298168006259706
+    },
+    {
+      "day": 72,
+      "region_id": "72",
+      "allocation_m3": 759.298271745932,
+      "beginning_storage_mm": 105.30484351493224,
+      "circle_x": 9.857838947374793,
+      "circle_y": -33.15777550047867,
+      "radius_geometry_units": 0.501817789361134,
+      "drawn": true,
+      "actual_radius_mm": 1.3942035632107626,
+      "actual_enclosed_area_mm2": 6.106639033345146
+    },
+    {
+      "day": 72,
+      "region_id": "73",
+      "allocation_m3": 698.3210492491684,
+      "beginning_storage_mm": 148.43678692625065,
+      "circle_x": 12.625776595324192,
+      "circle_y": -29.07321919340334,
+      "radius_geometry_units": 0.48124631134316403,
+      "drawn": true,
+      "actual_radius_mm": 1.3370496946927108,
+      "actual_enclosed_area_mm2": 5.6162311121108575
+    },
+    {
+      "day": 72,
+      "region_id": "75",
+      "allocation_m3": 849.9418479852311,
+      "beginning_storage_mm": 136.60035025280393,
+      "circle_x": 16.400886175016343,
+      "circle_y": -29.10525226994983,
+      "radius_geometry_units": 0.5309265622637424,
+      "drawn": true,
+      "actual_radius_mm": 1.4750766525310446,
+      "actual_enclosed_area_mm2": 6.835637927958874
+    },
+    {
+      "day": 72,
+      "region_id": "74",
+      "allocation_m3": 149.50811752853133,
+      "beginning_storage_mm": 137.47278689766728,
+      "circle_x": 16.60678596053592,
+      "circle_y": -33.52263842316479,
+      "radius_geometry_units": 0.2226753962809507,
+      "drawn": true,
+      "actual_radius_mm": 0.6186604730165329,
+      "actual_enclosed_area_mm2": 1.2024156254199643
+    },
+    {
+      "day": 72,
+      "region_id": "76",
+      "allocation_m3": 1356.5268618380373,
+      "beginning_storage_mm": 121.06153983442604,
+      "circle_x": 19.600454861801015,
+      "circle_y": -28.742177782163132,
+      "radius_geometry_units": 0.6707397524629569,
+      "drawn": true,
+      "actual_radius_mm": 1.8635205301539812,
+      "actual_enclosed_area_mm2": 10.90983634828184
+    },
+    {
+      "day": 72,
+      "region_id": "77",
+      "allocation_m3": 660.201352120589,
+      "beginning_storage_mm": 116.92932674356182,
+      "circle_x": 22.59021065023337,
+      "circle_y": -27.598206108836365,
+      "radius_geometry_units": 0.46792694255650347,
+      "drawn": true,
+      "actual_radius_mm": 1.30004440748334,
+      "actual_enclosed_area_mm2": 5.309654317342954
+    },
+    {
+      "day": 72,
+      "region_id": "78",
+      "allocation_m3": 1125.5506341787107,
+      "beginning_storage_mm": 124.78248077172316,
+      "circle_x": 22.57167402630826,
+      "circle_y": -33.32058512532792,
+      "radius_geometry_units": 0.6109734886309937,
+      "drawn": true,
+      "actual_radius_mm": 1.6974715383468142,
+      "actual_enclosed_area_mm2": 9.052215305162678
+    },
+    {
+      "day": 72,
+      "region_id": "79",
+      "allocation_m3": 1191.085140803459,
+      "beginning_storage_mm": 111.78211375564129,
+      "circle_x": 28.824059964115136,
+      "circle_y": -27.611233585721685,
+      "radius_geometry_units": 0.6285086376175627,
+      "drawn": true,
+      "actual_radius_mm": 1.7461895545606883,
+      "actual_enclosed_area_mm2": 9.579275080059164
+    },
+    {
+      "day": 72,
+      "region_id": "80",
+      "allocation_m3": 67.77900053073002,
+      "beginning_storage_mm": 116.45034411614037,
+      "circle_x": 26.943689653462663,
+      "circle_y": -29.039699332944696,
+      "radius_geometry_units": 0.14992961557809628,
+      "drawn": true,
+      "actual_radius_mm": 0.4165504067440925,
+      "actual_enclosed_area_mm2": 0.5451110659456004
+    },
+    {
+      "day": 72,
+      "region_id": "81",
+      "allocation_m3": 634.7017693158809,
+      "beginning_storage_mm": 130.47331878869664,
+      "circle_x": 26.979052292038265,
+      "circle_y": -33.30904529359886,
+      "radius_geometry_units": 0.45880136542344807,
+      "drawn": true,
+      "actual_radius_mm": 1.2746907583601033,
+      "actual_enclosed_area_mm2": 5.10457450420023
+    },
+    {
+      "day": 72,
+      "region_id": "82",
+      "allocation_m3": 170.78698830883152,
+      "beginning_storage_mm": 95.62563920292408,
+      "circle_x": 29.337119172941915,
+      "circle_y": -30.310889000000003,
+      "radius_geometry_units": 0.23799467349475328,
+      "drawn": true,
+      "actual_radius_mm": 0.6612221185582109,
+      "actual_enclosed_area_mm2": 1.3735504583673623
+    },
+    {
+      "day": 72,
+      "region_id": "83",
+      "allocation_m3": 320.0575265798882,
+      "beginning_storage_mm": 152.67185286355388,
+      "circle_x": 29.779679460830412,
+      "circle_y": -33.04718049279094,
+      "radius_geometry_units": 0.3258020927123383,
+      "drawn": true,
+      "actual_radius_mm": 0.9051780311322816,
+      "actual_enclosed_area_mm2": 2.574055358027511
+    },
+    {
+      "day": 72,
+      "region_id": "84",
+      "allocation_m3": 238.0830751048925,
+      "beginning_storage_mm": 150.11452968417953,
+      "circle_x": 30.684309352335728,
+      "circle_y": -29.45875946864998,
+      "radius_geometry_units": 0.2809985694135148,
+      "drawn": true,
+      "actual_radius_mm": 0.780700116734028,
+      "actual_enclosed_area_mm2": 1.9147777016156093
+    },
+    {
+      "day": 72,
+      "region_id": "85",
+      "allocation_m3": 633.4091872930005,
+      "beginning_storage_mm": 110.84986018562131,
+      "circle_x": 32.59033830096177,
+      "circle_y": -33.689634313297994,
+      "radius_geometry_units": 0.45833394854595627,
+      "drawn": true,
+      "actual_radius_mm": 1.2733921310696408,
+      "actual_enclosed_area_mm2": 5.0941789427608875
+    },
+    {
+      "day": 72,
+      "region_id": "86",
+      "allocation_m3": 1536.1724241307174,
+      "beginning_storage_mm": 100.07054594486887,
+      "circle_x": 34.54103158870309,
+      "circle_y": -28.767239843145816,
+      "radius_geometry_units": 0.7137725296827904,
+      "drawn": true,
+      "actual_radius_mm": 1.9830787694326812,
+      "actual_enclosed_area_mm2": 12.354631685878493
+    },
+    {
+      "day": 72,
+      "region_id": "87",
+      "allocation_m3": 1057.9497105197165,
+      "beginning_storage_mm": 140.76086462402492,
+      "circle_x": 36.61354407493312,
+      "circle_y": -33.454022136191156,
+      "radius_geometry_units": 0.5923417707162577,
+      "drawn": true,
+      "actual_radius_mm": 1.6457069176893175,
+      "actual_enclosed_area_mm2": 8.508536418396645
+    },
+    {
+      "day": 72,
+      "region_id": "88",
+      "allocation_m3": 886.8027439712855,
+      "beginning_storage_mm": 98.24081051479611,
+      "circle_x": 41.05314864314923,
+      "circle_y": -26.52742725348061,
+      "radius_geometry_units": 0.5423171784340532,
+      "drawn": true,
+      "actual_radius_mm": 1.5067232740508427,
+      "actual_enclosed_area_mm2": 7.132090843247259
+    },
+    {
+      "day": 72,
+      "region_id": "89",
+      "allocation_m3": 920.4736261514971,
+      "beginning_storage_mm": 126.64902856774431,
+      "circle_x": 40.20000001732051,
+      "circle_y": -33.46347892381162,
+      "radius_geometry_units": 0.5525168433647157,
+      "drawn": true,
+      "actual_radius_mm": 1.535061068149353,
+      "actual_enclosed_area_mm2": 7.402888145256195
+    },
+    {
+      "day": 72,
+      "region_id": "90",
+      "allocation_m3": 924.7545804791586,
+      "beginning_storage_mm": 103.00293820985337,
+      "circle_x": 41.20000001732053,
+      "circle_y": -29.25397418743365,
+      "radius_geometry_units": 0.5538001803000014,
+      "drawn": true,
+      "actual_radius_mm": 1.5386265713377778,
+      "actual_enclosed_area_mm2": 7.437317622801499
+    },
+    {
+      "day": 72,
+      "region_id": "91",
+      "allocation_m3": 548.6673175517943,
+      "beginning_storage_mm": 136.5681758380022,
+      "circle_x": 44.16494286712473,
+      "circle_y": -28.958607163013912,
+      "radius_geometry_units": 0.4265740113597903,
+      "drawn": true,
+      "actual_radius_mm": 1.1851532951194936,
+      "actual_enclosed_area_mm2": 4.41264438805897
+    },
+    {
+      "day": 72,
+      "region_id": "92",
+      "allocation_m3": 532.0613185191777,
+      "beginning_storage_mm": 153.54665234869123,
+      "circle_x": 44.625270267018145,
+      "circle_y": -33.33496410995429,
+      "radius_geometry_units": 0.42006905561301594,
+      "drawn": true,
+      "actual_radius_mm": 1.1670805350999112,
+      "actual_enclosed_area_mm2": 4.279091019569018
+    }
+  ],
+  "circle_legend_examples": [
+    {
+      "value_m3": 125.0,
+      "radius_mm": 0.5656854249492381,
+      "enclosed_area_mm2": 1.005309649148734
+    },
+    {
+      "value_m3": 1000.0,
+      "radius_mm": 1.6,
+      "enclosed_area_mm2": 8.042477193189871
+    },
+    {
+      "value_m3": 4000.0,
+      "radius_mm": 3.2,
+      "enclosed_area_mm2": 32.169908772759484
+    }
+  ],
+  "circle_world_centres_and_radii_exact_original": true,
+  "physical_radius1000_mm": 1.6,
+  "foreground_line_bp": 1.5,
+  "white_halo_bp": 3.0,
+  "area_to_q_ratio_mm2_per_m3": 0.008042477193189871,
+  "original_mapping_function_unchanged": true,
+  "radius_factor_relative_to_filling110_version": 1.4181818181818182,
+  "area_factor_relative_to_filling110_version": 2.011239669421488,
+  "note": "Restore original uncompressed map and paper circle marker scale together; no q or area-ratio mapping function change. All fourdates each retain89records and complete own legend."
+}

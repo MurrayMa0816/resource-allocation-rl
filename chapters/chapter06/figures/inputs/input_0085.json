@@ -1,0 +1,65 @@
+{
+  "schema": "chapter6-spacing-derivative-v1",
+  "number": "6.3",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview",
+  "parent_pdf_sha256": "1e865d284ad09b834f6a20585ec5842e2c1f2c21cd2111a4ea8216b6f10d070b",
+  "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter6.py",
+  "renderer_sha256": "f585c53280987141914c275d122d87aec5475fbe5042e717244bc8fd0583859d",
+  "accepted_renderer": "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/source/statistical_style.py",
+  "source_csv_sha256": {
+    "daily_allocation81.csv": "8fa44fca3853f6bc3b105473c7a6eba1e37f2f79da5d17eec14b12755c9746b6",
+    "beginning_balance82.csv": "97aae56771bff74d4c0a8ea7d3ea61b11f10e3980eaefb9884779d246f6db0ab"
+  },
+  "parent_files_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview/daily_allocation81.csv": "8fa44fca3853f6bc3b105473c7a6eba1e37f2f79da5d17eec14b12755c9746b6",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview/beginning_balance82.csv": "97aae56771bff74d4c0a8ea7d3ea61b11f10e3980eaefb9884779d246f6db0ab",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview/figure.pdf": "1e865d284ad09b834f6a20585ec5842e2c1f2c21cd2111a4ea8216b6f10d070b",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview/figure.svg": "9f66048c283e3b895b5a7ff87a01d0393b8d724b8f289dbb03c06dff02a7da95",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview/figure.png": "e23ba77da4c612c4f91b6e379552062866483f8adf4ecadd62cb31eb84afb0f9",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview/manifest.json": "51155c5757217da11e938344f463731b5f919369b79460dfbeb95ee5341c03c5",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/chapter6_style_unification_20261109/figures/overview/plot.py": "335ef4daa0f911ac3b6f26cf0c7654a5c8e3bdc5299278982febc3b89f5172ef"
+  },
+  "all_parent_files_unchanged": true,
+  "science_before_after_digest": "d339ec2757f14de6d95c0679491dc77965a68c777ba8e391127008550e6a2408",
+  "numeric_identity": true,
+  "output_sha256": {
+    "figure.pdf": "fa2c24fcf5ec83d75a85ddcaf4b59d8216d68867367f35833b0269c9bb38eb56",
+    "figure.png": "e884f33b82068f90812b52e19686797631ae86a68b42c64e9583bd8887b79428",
+    "figure.svg": "96c2f7c1b3d62cea964a773707aa37ba59715b99dfdf73b400af5a1e6e97fd34"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inference": 0,
+  "training_runs": 0,
+  "subplot_height_revision_20261112": {
+    "authorization": "User requested lower heights for both subplots; width and typography retained",
+    "active_entry": "plot_template15.py",
+    "entry_sha256": "f859a064d9476425302511a216c15d273b1d90b68b3610cbd57ddb9cfe965d74",
+    "axes_before_mm": [
+      118.8,
+      52.8
+    ],
+    "axes_after_mm": [
+      118.8,
+      39.6
+    ],
+    "height_reduction_percent": 25,
+    "native_mm": [
+      144.0,
+      114.23276358710396
+    ],
+    "font_bp": 10.5,
+    "between_panels_bp": 11.999979815145167,
+    "all_numeric_artists_identical": true,
+    "CSV_sha256": {
+      "daily_allocation81.csv": "8fa44fca3853f6bc3b105473c7a6eba1e37f2f79da5d17eec14b12755c9746b6",
+      "beginning_balance82.csv": "97aae56771bff74d4c0a8ea7d3ea61b11f10e3980eaefb9884779d246f6db0ab"
+    },
+    "output_sha256": {
+      "template15.pdf": "23f8ae960eac2a4213464d604cf77a9a5670863ee7f2fbb9325af2e7b57c85f0",
+      "template15.svg": "1b5c5e7153c84ee110b31674426da39f86ecb9b57f4059e0c527ed760f4726d3",
+      "template15.png": "f29cb4c8baf5267d4ad7414d2d7233563027439a11d84e2a4f4f5c97fdd65183"
+    },
+    "completion_receipt": "docs/figure63_subplot_height_20261112/completion_receipt.json"
+  }
+}

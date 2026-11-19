@@ -1,0 +1,7 @@
+{
+  "horizon": 32,
+  "shared_mean": true,
+  "complete_transition_windows": true,
+  "rollout_steps": 1024,
+  "initial_total_std": 1.0
+}

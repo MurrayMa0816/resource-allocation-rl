@@ -1,0 +1,27 @@
+{
+  "schema": "chapter2-measured-content-spacing-v1",
+  "number": "2.6",
+  "parent_directory": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter2/assets/figure02-06_十五万步对象规模与完整策略接口开销_默认随机输出头",
+  "parent_pdf_sha256": "4cc49aca9d084da0de7803ab7729104799bf7c44f565c3eb95f01cc324815e46",
+  "parent_source_sha256": "6ca5362ea816bb34cad819e39ad13b076e92b896447fd9dc9db4df07b2159376",
+  "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter2.py",
+  "renderer_sha256": "c9e4d7fa88e3bee648798bc4ece5b01b816472e702d32767c0ba1911794510b8",
+  "scientific_data_sha256": {
+    "data.csv": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244"
+  },
+  "all_scientific_data_style_exact": true,
+  "geometry_proof_sha256": "928e3b8cda09526c9bd0422056661f52f7d1eadc01199746545187d1cd469686",
+  "native_mm": [
+    155.99999559190536,
+    78.91859482659234
+  ],
+  "outputs_sha256": {
+    "figure.pdf": "ef5f3f2c7be7deb8a906afebfa67016b5bdf153c60512e2c58fcfdafe6eefd8a",
+    "figure.png": "db937620daa2e686a653021d8e05e245d26c239342a057a4f13a464a262a9c90",
+    "figure.svg": "5f00676c61e772f3aa616762dba20c2085e2a6583f546fca7c811c9b3d405630"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

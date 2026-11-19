@@ -1,0 +1,77 @@
+{
+  "schema": "chapter3-case-native-restoration-spacing15-v1",
+  "number": "3.7",
+  "parent_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-07_通信任务固定情景中的跨期资源配置/replot_sources/parent",
+  "parent_pdf_sha256": "3084ec8b00a4fc3ff48a6acab65c8a44a967aa2e195ec4f13fb6d042f79484b8",
+  "editable_source": "plot.py",
+  "renderer": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-07_通信任务固定情景中的跨期资源配置/replot_sources/renderer.py",
+  "renderer_sha256": "95c7dc54a1bdc056666cba7354acd6edaf749384e14bdea5f4cecba4f56d9c3b",
+  "inherited_native_source": "inputs/plot_source.py",
+  "input_files_sha256": {
+    "accepted_parent_files_sha256.json": "da1aa58abc7021532248165017f8e04d0c4746725a3e6fdb393d9fc45e5d4e23",
+    "accepted_parent_print_presentation_proof.json": "c483079eee7309adbd53a4f16fce4fcae7eb0c55208825fbfa46e6519567de3d",
+    "accepted_parent_source.json": "42d8bf6b317fc645aa0de0dfcabef32db10ac81c7568c2483c60dd5e65a958af",
+    "accepted_parent_spec.json": "b160da44826021617be953bddcc05e1b7a9808ffcce6e4dd31c84cf65dc08b0b",
+    "data/provenance.json": "9c445ac98d3f662eb50446e3124d787f050aee53ac9451e4533ede81074a3333",
+    "data.csv": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+    "period_totals.csv": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+    "plot_source.py": "0b0c9e8af9fdfe8f807ed315dba4be765dd870607d8173b64ed1767bf9b0a9ba"
+  },
+  "scientific_values_changed": false,
+  "changes": [
+    "equal solid 1.25bp method lines with filled 4bp markers",
+    "restore common125x26.1356396188mm curve axes,58mm wide maps at original equal-hex scale; actual720dpi xlabel-to-legend15bp and legend-to-map-title12bp",
+    "replace three labels with explicit transmitter-energy or diesel-quota quantities; initial-budget denominators, saved inputs and scientific artists unchanged"
+  ],
+  "allocation_term_label_changes": [
+    {
+      "before": "(a) 各期总投入",
+      "after": "(a) 各期发射能量分配总量",
+      "font_bp": 10.5
+    },
+    {
+      "before": "本期投入占\n初始资源（%）",
+      "after": "本期发射能量占\n初始发射能量（%）",
+      "font_bp": 10.5
+    },
+    {
+      "before": "对象投入占初始资源（%）",
+      "after": "各终端发射能量占初始发射能量（%）",
+      "font_bp": 10.5
+    }
+  ],
+  "figure_size_mm": [
+    156.0,
+    181.38750500149195
+  ],
+  "scientific_before_sha256": "30c8d23f2937d083c54f1f6b44a04303d07490bacaecc8adc31b504de84c88d2",
+  "scientific_after_sha256": "30c8d23f2937d083c54f1f6b44a04303d07490bacaecc8adc31b504de84c88d2",
+  "outputs": {
+    "figure.pdf": "fa380ba71f3ce5bd4e8e910530ea830ec505b55b2a6fdfe6f8460c4071cde891",
+    "figure.svg": "30431b637ffb02d639d6ab1d0e7e066a16a34763f4a224a118856a6f1ef1f8c8",
+    "figure.png": "4d4353788ccb99a3791d79362a89ae9d0d3d92acf8ba6068836d4c8e09b9061b",
+    "figure_grayscale.png": "c1b0a51a7fdded287873cf8f950b8d22ce010c562525480c0b86e4a0cd6e3bca"
+  },
+  "proof_sha256": "30e13939b721f3aa30e210884fa518f13ec3d7fe6ef4c8a9217f6523177202d6",
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "time_expression_revision_20261117": {
+    "scope": "final native text labels only",
+    "proof": "time_expression_native_proof_20261117.json",
+    "proof_sha256": "243b33f05e5335e851240ce7daf440b25ed205fa407ba4df8e46f68d09696bbb",
+    "outputs": {
+      "figure.pdf": "fa380ba71f3ce5bd4e8e910530ea830ec505b55b2a6fdfe6f8460c4071cde891",
+      "figure.svg": "30431b637ffb02d639d6ab1d0e7e066a16a34763f4a224a118856a6f1ef1f8c8",
+      "figure.png": "4d4353788ccb99a3791d79362a89ae9d0d3d92acf8ba6068836d4c8e09b9061b",
+      "figure_grayscale.png": "c1b0a51a7fdded287873cf8f950b8d22ce010c562525480c0b86e4a0cd6e3bca"
+    },
+    "scientific_artists_axes_canvas_fonts_unchanged": true,
+    "text_anchor_max_shift_bp": 0,
+    "training_runs": 0,
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inferences": 0
+  }
+}

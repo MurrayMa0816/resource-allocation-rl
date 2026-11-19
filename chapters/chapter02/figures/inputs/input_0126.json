@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "number": "2.8",
+  "outputs_sha256": {
+    "figure.pdf": "bd2ccd040ab9512ad16504d680859ce5c99446ad111e33aa55fd1997d1db0b3a",
+    "figure.svg": "8e463e565e4493fd528a7b4f731a38d71a34f3c941718d6eb8cd9debb42e3e79",
+    "figure.png": "44e1c5139af8bac324a88afb504939b793e7534e6c855ac789643ceb881bc7d5"
+  },
+  "scientific_execution": 0,
+  "allocation_wording_revision_20261112": {
+    "proof": "allocation_native_text_proof.json",
+    "proof_sha256": "8244d9d64ebba9d9bd1cb8df3ed96c1a44b57b663de6e3621606ce0778d3da64",
+    "native_ordinary_font_bp": 10.5,
+    "whole_canvas_size_unchanged": true
+  }
+}

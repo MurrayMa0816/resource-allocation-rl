@@ -1,0 +1,4964 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Chapter 4 - Determination of ETo</title>
+<link REL="stylesheet" TYPE="text/css" HREF="fao.css">
+</head>
+
+<body bgcolor="#FFFFFF">
+<p><a NAME="TopOfPage"></a>
+<p align="center">
+<a href="x0490e07.htm#TopOfPage"><img src="back.gif" width="43" height="35" alt="Previous Page" border="0"></a>
+<a href="x0490e00.htm#Contents"><img src="toc.gif" width="43" height="35" alt="Table of Contents" border="0"></a>
+<a href="x0490e09.htm#TopOfPage"><img src="next.gif" width="43" height="35" alt="Next Page" border="0"></a>
+<hr>
+<H1><a name="chapter 4   determination of eto">Chapter 4 - Determination of ET<sub>o</sub></a></H1>
+<hr>
+<blockquote>
+  <p><a href="x0490e08.htm#penman monteith equation">Penman-Monteith equation</a><br>
+    <a href="x0490e08.htm#calculation procedures with missing data">Calculation procedures 
+    with missing data</a><br>
+    <a href="x0490e08.htm#pan evaporation method">Pan evaporation method</a></p>
+</blockquote>
+<hr>
+<p>This chapter demonstrates how the crop reference evapotranspiration (ET<SUB>o</SUB>) is determined either from meteorological data or from pan evaporation.
+<p>The FAO Penman-Monteith method is maintained as the sole standard method for the computation of ET<SUB>o</SUB> from meteorological data. The method itself is introduced in Chapter 2, and the computation of all data required for the calculation of ET<SUB>o</SUB> is discussed in Chapter 3. This chapter presents guidelines to calculate ET<SUB>o</SUB> with different time steps, ranging from hours to months, and with missing climatic data. The ET<SUB>o</SUB> calculation can be done by hand with the help of a calculation sheet, or by means of a computer.
+<p>ET<SUB>o</SUB> can also be estimated from the evaporation loss from a water surface. The procedure to obtain ET<SUB>o</SUB> from pan evaporation and the coefficients for different types of pans are presented in this chapter.
+<H2><a name="penman monteith equation">Penman-Monteith equation</a></H2>
+<hr>
+<blockquote>
+  <p><a href="x0490e08.htm#calculation procedure">Calculation procedure</a><br>
+    <a href="x0490e08.htm#eto calculated with different time steps">ET<sub>o</sub> 
+    calculated with different time steps</a></p>
+</blockquote>
+<hr>
+<p>From the original Penman-Monteith equation and the equations of the aerodynamic and canopy resistance, the FAO Penman-Monteith equation has been derived in Chapter 2:
+<p>
+<blockquote><SUB><IMG SRC="x0490e1o.gif" align="absmiddle"></SUB> (6)</blockquote>
+<p>where
+<p><blockquote>ET<SUB>o</SUB> reference evapotranspiration [mm day<SUP>-1</SUP>],<BR>R<SUB>n</SUB> net radiation at the crop surface [MJ m<SUP>-2</SUP> day<SUP>-1</SUP>],<BR>G soil heat flux density [MJ m<SUP>-2</SUP> day<SUP>-1</SUP>],<BR>T air temperature at 2 m height [&#176;C],<BR>u<SUB>2</SUB> wind speed at 2 m height [m s<SUP>-1</SUP>],<BR>e<SUB>s</SUB> saturation vapour pressure [kPa],<BR>e<SUB>a</SUB> actual vapour pressure [kPa],<BR>e<SUB>s</SUB> - e<SUB>a</SUB> saturation vapour pressure deficit [kPa],<BR><font FACE="Symbol">&#68;</font> slope vapour pressure curve [kPa &#176;C<SUP>-1</SUP>],<BR><font FACE="Symbol">&#103;</font> psychrometric constant [kPa &#176;C<SUP>-1</SUP>].</blockquote>
+<p>The FAO Penman-Monteith equation determines the evapotranspiration from the hypothetical grass reference surface and provides a standard to which evapotranspiration in different periods of the year or in other regions can be compared and to which the evapotranspiration from other crops can be related.<H3><a name="calculation procedure">Calculation procedure</a></H3>
+<p><B><I>Calculation sheet</I></B>
+<p>ET<SUB>o</SUB> can be estimated by means of the calculation sheet presented in Box 11. The calculation sheet refers to tables in Annex II for the determination of some of the climatic parameters. The calculation procedure consists of the following steps:
+<p><blockquote>1. Derivation of some climatic parameters from the daily maximum (T<SUB>max</SUB>) and minimum (T<SUB>min</SUB>) air temperature, altitude (z) and mean wind speed (u<SUB>2</SUB>).
+<p>2. Calculation of the vapour pressure deficit (e<SUB>s</SUB> - e<SUB>a</SUB>). The saturation vapour pressure (e<SUB>s</SUB>) is derived from T<SUB>max</SUB> and T<SUB>min</SUB>, while the actual vapour pressure (e<SUB>a</SUB>) can be derived from the dewpoint temperature (T<SUB>dew</SUB>), from maximum (RH<SUB>max</SUB>) and minimum (RH<SUB>min</SUB>) relative humidity, from the maximum (RH<SUB>max</SUB>), or from mean relative humidity (RH<SUB>mean</SUB>).
+<p>3. Determination of the net radiation (R<SUB>n</SUB>) as the difference between the net shortwave radiation (R<SUB>ns</SUB>) and the net longwave radiation (R<SUB>nl</SUB>). In the calculation sheet, the effect of soil heat flux (G) is ignored for daily calculations as the magnitude of the flux in this case is relatively small. The net radiation, expressed in MJ m<SUP>-2</SUP> day<SUP>-1</SUP>, is converted to mm/day (equivalent evaporation) in the FAO Penman-Monteith equation by using 0.408 as the conversion factor within the equation.
+<p>4. ET<SUB>o</SUB> is obtained by combining the results of the previous steps.</blockquote>
+<p>Examples 17 and 20 present typical examples using the calculation sheet.
+<p><B><I>Computerized calculations</I></B>
+<p>Calculations of the reference crop evapotranspiration ET<SUB>o</SUB> are often computerized. The calculation procedures of all data required for the calculation of ET<SUB>o</SUB> by means of the FAO Penman-Monteith equation are presented in Chapter 3. Typical sequences in which the calculations can be executed are given in the calculation sheets. The procedures presented in Boxes 7 (vapour pressure deficit), 9 (extraterrestrial radiation and daylight hours), 10 (net radiation) and 11 (ET<SUB>o</SUB>) can be used when developing a spreadsheet or computer program to calculate ET<SUB>o</SUB>.
+<p>Many software packages already use the FAO Penman-Monteith equation to assess the reference evapotranspiration. As an example, the output of CROPWAT, the FAO software for irrigation scheduling, is presented in Figure 18.<H3><a name="eto calculated with different time steps">ET<sub>o</sub> calculated with different time steps</a></H3>
+<p>The selection of the time step with which ET<SUB>o</SUB> is calculated depends on the purpose of the calculation, the accuracy required and the time step of the climatic data available.
+<p><TABLE BORDER><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>BOX 11. Calculation sheet for ET</B><SUB><B>o</B></SUB><B> (FAO Penman-Monteith) using meteorological tables of Annex 2</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>Parameters</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>max</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>min</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>T<SUB>mean</SUB> - (T<SUB>max</SUB> + T<SUB>min</SUB>)/2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>mean</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><font FACE="Symbol">&#68;</font> (Table 2.4 of Annex 2)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa/&#176;C</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Altitude</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>m</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><font FACE="Symbol">&#103;</font> (Table 2.2 of Annex 2)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa/&#176;C</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>u<SUB>2</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>m/s</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER> (1 + 0.34 u<SUB>2</SUB>)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> + <font FACE="Symbol">&#103;</font> (1 + 0.34 u<SUB>2</SUB>)]</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> + <font FACE="Symbol">&#103;</font> (1 + 0.34 u<SUB>2</SUB>)]</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER> [900/(T<SUB>mean</SUB> + 273)] u<SUB>2</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>Vapour pressure deficit</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>max</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e&#176;(T<SUB>max</SUB>) (Table 2.3)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>min</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e&#176;(T<SUB>min</SUB>) (Table 2.3)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p><B>Saturation vapour pressure</B> e<SUB>s</SUB> = [(e&#176;(T<SUB>max</SUB>) + e&#176;(T<SUB>min</SUB>)]/2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>e</B><SUB><B>a</B></SUB><B> derived from dewpoint temperature:</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>dew</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e<SUB>a</SUB> = e&#176;(T<SUB>dew</SUB>) (Table 2.3)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>OR e</B><SUB><B>a</B></SUB><B> derived from maximum and minimum relative humidity:</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>RH<SUB>max</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>%</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e&#176;(T<SUB>min</SUB>) RH<SUB>max</SUB>/100</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>RH<SUB>min</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>%</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e&#176;(T<SUB>max</SUB>) RH<SUB>min</SUB>/100</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e<SUB>a</SUB>: (average)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>OR e</B><SUB><B>a</B></SUB><B> derived from maximum relative humidity:</B> (recommended if there are errors in RH<SUB>min</SUB>)</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>RH<SUB>max</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>%</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e<SUB>a</SUB> = e&#176;(T<SUB>min</SUB>) RH<SUB>max</SUB>/100</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>OR e</B><SUB><B>a</B></SUB><B> derived from mean relative humidity:</B> (less recommended due to non-linearities)</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>RH<SUB>mean</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>%</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>e<SUB>a</SUB> = e<SUB>s</SUB> RH<SUB>mean</SUB>/100</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p><B>Vapour pressure deficit (e</B><SUB><B>s</B></SUB><B> - e</B><SUB><B>a</B></SUB><B>)</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>Radiation</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Latitude</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Day</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>R<SUB>a</SUB> (Table 2.6)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Month</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>N (Table 2.7)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>hours</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>n</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>hours</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>n/N</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>If no R<SUB>s</SUB> data available: R<SUB>s</SUB> = (0.25 + 0.50 n/N) R<SUB>a</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>R<SUB>so</SUB> = [0.75 + 2 (Altitude)/100000] R<SUB>a</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>R<SUB>s</SUB>/R<SUB>so</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>R<SUB>ns</SUB> = 0.77 R<SUB>s</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>max</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+      <p ALIGN=CENTER><SUB><IMG SRC="x0490e1p.gif" align="absmiddle"></SUB> (Table 2.8)
+    </TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>min</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+      <p ALIGN=CENTER><SUB><IMG SRC="x0490e1q.gif" align="absmiddle"></SUB> (Table 2.8)
+    </TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><SUB><IMG SRC="x0490e1r.gif"></SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>e<SUB>a</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>kPa</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER> (0.34-0.14 <font FACE="Symbol">&#214;</font> e<SUB>a</SUB>)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>R<SUB>s</SUB>/R<SUB>so</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER> (1.35 R<SUB>s</SUB>/R<SUB>so</SUB> - 0.35)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><SUB><IMG SRC="x0490e1s.gif"></SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>R<SUB>n</SUB> = R<SUB>ns</SUB> - R<SUB>nl</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>month</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>G<SUB>day</SUB> (assume)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>T<SUB>month-1</SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>G<SUB>month</SUB> = 0.14 (T<SUB>month</SUB> - T<SUB>month-1</SUB>)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>R<SUB>n</SUB> - G</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>MJ m<SUP>-2</SUP> d<SUP>-1</SUP></TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.408 (R<SUB>n</SUB> - G)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>mm/day</TD></TR><TR VALIGN="TOP"><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p><B>Grass reference evapotranspiration</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><SUB><IMG SRC="x0490e1t.gif"></SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>mm/day</TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><SUB><IMG SRC="x0490e1u.gif"></SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>mm/day</TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><SUB><IMG SRC="x0490e1v.gif"></SUB></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>mm/day</TD></TR></TABLE>
+<p><B>FIGURE 18. ET</B><SUB><B>o</B></SUB><B> computed by CROPWAT</B>
+<p><TABLE BORDER><TR VALIGN="TOP"><TD COLSPAN=8 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>MONTHLY REFERENCE EVAPOTRANSPIRATION PENMAN MONTEITH</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Mateostation: CABINDA</B></TD><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Country: Angola</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Altitude: 20 m.</B></TD><TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Coordinates: -5.33</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>South</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>12.11 East</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>Month</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>MinTemp</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>MaxTemp</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>Humid.</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>Wind</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>Sunshine</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>Radiation</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>ETo-PenMon</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>&#176;C</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>%</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>km/day</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>Hours</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>MJ/m<SUP>2</SUP>/day</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>mm/day</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>January</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>22.8</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>29.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>81</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>78</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>4.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>15.7</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.4</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>February</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>22.7</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>30.3</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>82</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>69</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>4.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>16.9</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.7</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>March</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>23.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>30.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>80</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>78</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>5.1</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>17.4</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.8</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>April</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>23.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>30.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>82</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>69</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>5.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>16.4</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.5</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>May</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>22.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>28.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>84</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>69</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.8</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>13.5</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.9</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>June</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>19.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>26.5</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>81</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>69</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.3</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>12.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.6</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>July</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>17.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>25.1</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>78</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>78</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>12.3</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.6</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>August</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>18.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>25.3</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>78</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>78</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>12.4</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.6</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>September</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>20.5</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>26.5</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>78</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>104</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>12.4</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.8</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>October</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>22.5</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>28.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>79</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>130</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>12.9</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.1</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>November</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>23.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>28.7</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>80</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>104</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>14.4</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.3</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>December</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>23.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>29.1</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>82</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>95</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.8</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>15.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.4</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Year</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>21.5</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>28.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>80</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>85</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>14.3</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>3.1</TD></TR></TABLE>
+<p><blockquote>CROPWAT 7.0 Climate file: C:\PROF-P~1\CROPWAT\CROPWAT\CLI\CABINDA.PEN 03/07/98</blockquote>
+<p><B><I>Ten-day or monthly time step</I></B>
+<p>Notwithstanding the non-linearity in the Penman-Monteith equation and some weather parameter methods, mean ten-day or monthly weather data can be used to compute the mean ten-day or monthly values for the reference evapotranspiration. The value of the reference evapotranspiration calculated with mean monthly weather data is indeed very similar to the average of the daily ET<SUB>o</SUB> values calculated with daily average weather data for that month.
+<p>The meteorological data consist of:
+<p><blockquote><font FACE="Symbol">&#183;</font> Air temperature: ten-day or monthly average daily maximum (T<SUB>max</SUB>) and average daily minimum temperature (T<SUB>min</SUB>).
+<p><font FACE="Symbol">&#183;</font> Air humidity: ten-day or monthly average of the daily actual vapour pressure (e<SUB>a</SUB>) derived from psychrometric, dewpoint or relative humidity data.
+<p><font FACE="Symbol">&#183;</font> Wind speed: ten-day or monthly average of daily wind speed data measured at 2 m height (u<SUB>2</SUB>).
+<p><font FACE="Symbol">&#183;</font> Radiation: ten-day or monthly average of daily net radiation (R<SUB>n</SUB>) computed from the mean ten-day or monthly measured shortwave radiation or from actual duration of daily sunshine hours (n). The extraterrestrial radiation (R<SUB>a</SUB>) and daylight hours (N) for a specific day of the month can be computed using Equations 21 and 34 or can be selected from Tables 2.5 and 2.6 in Annex 2.</blockquote>
+<p>When the soil is warming (spring) or cooling (autumn), the soil heat flux (G) for monthly periods may become significant relative to the mean monthly R<SUB>n</SUB>. In these cases G cannot be ignored and its value should be determined from the mean monthly air temperatures of the previous and next month. Chapter 3 outlines the calculation procedure (Equations 43 and 44).
+<p><B>EXAMPLE 17. Determination of ET</B><SUB><B>o</B></SUB><B> with mean monthly data</B>
+<p>
+<TABLE BORDER>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Given</B> the monthly average climatic data of April of Bangkok (Thailand) 
+        located at 13&#176;44'N and at an elevation of 2 m:
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Monthly average daily maximum temperature (T<SUB>max</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>34.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Monthly average daily minimum temperature (T<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>25.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Monthly average daily vapour pressure (e<SUB>a</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Measured at 2 m
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Monthly average daily wind speed (u<SUB>2</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m/s
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Monthly average sunshine duration (n) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>8.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>hours/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For April
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Mean monthly average temperature (T<SUB>month, i</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>30.2
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For March
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Mean monthly average temperature (T<SUB>month, i-1</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>29.2
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Determination according to outline of Box 11 (calculation sheet ET</B><SUB><B>o</B></SUB><B>)</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Parameters</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>mean</SUB> = [(T<SUB>max</SUB> = 34.8) + (T<SUB>min</SUB> = 25.6)]/2 
+        =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>30.2
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.4 or Eq.13:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.246
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa/&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>From Table 2.1 and Table 2.2 or Eq. 7 and Eq. 8:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Altitude =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>P=
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>101.3
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.0674
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa/&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (1 + 0.34 u<SUB>2</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.68
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1 + 0.34u<SUB>2</SUB>)] = 0.246/[(0.246 
+        + 0.0674 (1.68)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.685
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1 + 0.34u<SUB>2</SUB>)] = 0.0667/[0.246 
+        + 0.0674 (1.68)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.188
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>900/(T<SUB>mean</SUB> + 273) u<SUB>2</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>5.94
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Vapour pressure deficit</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.3 or
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>34.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Eq. 11:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e&#176;(T<SUB>max</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>5.56
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.3 or
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>25.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Eq. 11:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e&#176;(T<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.28
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>s</SUB> = (5.56 + 3.28)/2 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>4.42
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Given
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Vapour pressure deficit (e<SUB>s</SUB> - e<SUB>a</SUB>) = (4.42 - 2.85) 
+        =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.57
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Radiation </B> (for month = April)
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>From Table 2.6 or 2.5 or Eq. 21:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>J = (for 15 April)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>105
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Latitude = 13&#176;44'N = (13 + 44/60) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>13.73
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;N
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>38.06
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>N (Table 2.7 or Eq. 34):
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Daylength N =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>12.31
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>hours
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>n/N = (8.5/12.31) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.69
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB> = [0.25 + 0.50 (0.69)] 38.06 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>22.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>so</SUB> = (0.75 + 2 (2)/100000) 38.06 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>28.54
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB>/R<SUB>so</SUB> = (22.65/28.54) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.79
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>ns</SUB> = 0.77 (22.65) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>17.44
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>From Table 2.8:
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>34.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e1w.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>44.10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>From Table 2.8:
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>25.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e1x.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>39.06
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e1y.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>41.58
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (0.34-0.14<font FACE="Symbol">&#214;</font> e<SUB>a</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB>/R<SUB>so</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.79
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (1.35 R<SUB>s</SUB>/R<SUB>so</SUB>-0.35) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.72
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>nl</SUB> = 41.58 (0.10)0.72 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.11
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>n</SUB> = (17.44-3.11) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.33
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>G =0.14 (30.2-29.2) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.14
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (R<SUB>n</SUB> - G) = (14.33-0.14) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.19
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408 (R<SUB>n</SUB> - G) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>5.79
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Grass reference evapotranspiration </B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408 (R<SUB>n</SUB> - G) <font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> 
+        + <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (5.79) 0.685 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.97
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>900 u<SUB>2</SUB>/(T + 273) (e<SUB>s</SUB> - e<SUB>a</SUB>) <font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> 
+        + <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] = 5.94(1.57)0.188 
+        =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> = (3.97+1.75) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>5.72
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p>The grass reference evapotranspiration is 5.7 mm/day.
+    </TD>
+  </TR>
+</TABLE>
+<p><B><I>Daily time step</I></B>
+<p>Calculation of ET<SUB>o</SUB> with the Penman-Monteith equation on 24-hour time scales will generally provide accurate results. The required meteorological data consist of:
+<p><blockquote><font FACE="Symbol">&#183;</font> Air temperature: maximum (T<SUB>max</SUB>) and minimum (T<SUB>min</SUB>) daily air temperatures.
+<p><font FACE="Symbol">&#183;</font> Air humidity: mean daily actual vapour pressure (e<SUB>a</SUB>) derived from psychrometric, dewpoint temperature or relative humidity data.
+<p><font FACE="Symbol">&#183;</font> Wind speed: daily average for 24 hours of wind speed measured at 2 m height (u<SUB>2</SUB>).
+<p><font FACE="Symbol">&#183;</font> Radiation: net radiation (R<SUB>n</SUB>) measured or computed from solar and longwave radiation or from the actual duration of sunshine (n). The extraterrestrial radiation (R<SUB>a</SUB>) and daylight hours (N) for a specific day of the month should be computed using Equations 21 and 34. As the magnitude of daily soil heat flux (G) beneath the reference grass surface is relatively small, it may be ignored for 24-hour time steps.</blockquote>
+<p><B>EXAMPLE 18. Determination of ET</B><SUB><B>o</B></SUB><B> with daily data</B>
+<p>
+<TABLE BORDER>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Given</B> the meteorological data as measured on 6 July in Uccle (Brussels, 
+        Belgium) located at 50&#176;48'N and at 100 m above sea level:
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Maximum air temperature (T<SUB>max</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>21.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Minimum air temperature (T<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>12.3
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Maximum relative humidity (RH<SUB>max</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>84
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Minimum relative humidity (RH<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>63
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Wind speed measured at 10 m height =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>km/h
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Actual hours of sunshine (n) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>9.25
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>hours
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Conversion of wind speed</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>At 10 m height
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Wind speed = 10 km/h or u<SUB>z</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.78
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m/s
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 47, with z = 10 m:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>At standard height, u<SUB>2</SUB> = 0.748 (2.78) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2,078
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m/s
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Parameters</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 7, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>altitude =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>P =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>100.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>mean</SUB> = (21.5 + 12.3)/2 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>16.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>From Eq. 13, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>mean</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>16.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.122
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa/&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>From Eq. 8, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>P =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>100.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.0666
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa/&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (1 + 0.34 u<SUB>2</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.71
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] = 0.122/[(0.122 
+        + 0.0666 (1.71)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.518
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] = 0.0666/[0.122 
+        + 0.0666 (1.71)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.282
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>900/(T<SUB>mean</SUB> + 273) u<SUB>2</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>6.450
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Vapour pressure deficit</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 11, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>21.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e&#176;(T<SUB>max</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.564
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 11, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>12.3
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e&#176;(T<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.431
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>s</SUB> = (2.564 + 1.431) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.997
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Given relative
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>RH<SUB>max</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>84
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>humidity data
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>RH<SUB>min</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>63
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 17:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>a</SUB> = [1.431 (0.84) + 2.564 (0.63)]/2 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.409
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Vapour pressure deficit (e<SUB>s</SUB> - e<SUB>a</SUB>) = (1.997-1.409) 
+        =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.589
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Radiation</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>From Table 2.5:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Month 7, Day = 6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>J =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>187
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>From Eq. 21:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Latitude = 50&#176;48'N =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>50.80
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;N
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>J =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>187
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>41.09
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=4 VALIGN=TOP> 
+      <p>From Eq. 34:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Latitude = 50&#176;48'N =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>50.80
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;N
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>J =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>187
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>N = 16.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>16.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>hours
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>n/N = 9.25/16.3 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.57
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 35
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB> = [0.25 + 0.50 (0.57)] 41.09
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>22.07
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 37
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>so</SUB> = (0.75 +2(100)/100000) 41.09 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>30.90
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB>/R<SUB>so</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.71
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 38
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>ns</SUB> = 0.77 (22.07) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>17.00
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>21.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max, K</SUB> = 21.5+273.16 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>294.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e1z.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>36.96
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>12.3
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>Then:
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min, K</SUB> = 12.3 +273.16 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>285.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e20.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>32.56
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e21.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>34.76
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (0.34 - 0.14<font FACE="Symbol">&#214;</font> e<SUB>a</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.17
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (1.35(R<SUB>s</SUB>/R<SUB>so</SUB>) - 0.35) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.61
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 39
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>nl</SUB> = 34.76(0.17)0.61 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.71
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 40
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>n</SUB> = (17.00 - 3.71) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>13.28
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 42
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>G =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (R<SUB>n</SUB> - G) = (13.28 - 0) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>13.28
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408 (R<SUB>n</SUB> - G) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>5.42
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Grass reference evapotranspiration</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408 (R<SUB>n</SUB> - G) <font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> 
+        + <font FACE="Symbol">&#103;</font> (1 + 0.34 u<SUB>2</SUB>)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.81
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>900/(T+273) u<SUB>2</SUB> (e<SUB>s</SUB> - e<SUB>a</SUB>) <font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> 
+        + <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.07
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> (Eq. 6) = 2.81 + 1.07 = 3.88 <font FACE="Symbol">&#187;</font> 
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p>The grass reference evapotranspiration is 3.9 mm/day.
+    </TD>
+  </TR>
+</TABLE>
+<p><B><I>Hourly time step</I></B>
+<p>In areas where substantial changes in wind speed, dewpoint or cloudiness occur during the day, calculation of the ET<SUB>o</SUB> equation using hourly time steps is generally better than using 24-hour calculation time steps. Such weather changes can cause 24-hour means to misrepresent evaporative power of the environment during parts of the day and may introduce error into the calculations. However, under most conditions, application of the FAO Penman-Monteith equation with 24-hour data produces accurate results.
+<p>With the advent of electronic, automated weather stations, weather data are increasingly reported for hourly or shorter periods. Therefore, in situations where calculations are computerized, the FAO Penman-Monteith equation can be applied on an hourly basis with good results. When applying the FAO Penman-Monteith equation on an hourly or shorter time scale, the equation and some of the procedures for calculating meteorological data should be adjusted for the smaller time step. The FAO Penman-Monteith equation for hourly time steps is:
+<p>
+<blockquote><sub><img src="x0490e22.gif" align="absmiddle"></sub> (53)</blockquote>
+<p>where
+<p><blockquote>ET<SUB>o</SUB> reference evapotranspiration [mm hour<SUP>-1</SUP>],<BR>R<SUB>n</SUB> net radiation at the grass surface [MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>] (Equation 40),<BR>G soil heat flux density [MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>] (Equations 45 and 46),<BR>T<SUB>hr</SUB> mean hourly air temperature [&#176;C],<BR><font FACE="Symbol">&#68;</font> saturation slope vapour pressure curve at T<SUB>hr</SUB> [kPa &#176;C<SUP>-1</SUP>] (Equation 13),<BR><font FACE="Symbol">&#103;</font> psychrometric constant [kPa &#176;C<SUP>-1</SUP>] (Equation 8),<BR>e&#176;(T<SUB>hr</SUB>) saturation vapour pressure at air temperature T<SUB>hr</SUB> [kPa] (Equation 11),<BR>e<SUB>a</SUB> average hourly actual vapour pressure [kPa] (Equation 54),<BR>u<SUB>2</SUB> average hourly wind speed [m s<SUP>-1</SUP>].</blockquote>
+<p>Given relative humidity measurements, the actual vapour pressure is determined as:
+<p>
+<blockquote><SUB><IMG SRC="x0490e23.gif" align="absmiddle"></SUB> (54)</blockquote>
+<p>where
+<p><blockquote>e<SUB>a</SUB> average hourly actual vapour pressure [kPa],<BR>e&#176;(T<SUB>hr</SUB>) saturation vapour pressure at air temperature T<SUB>hr</SUB> [kPa] (Equation 11),<BR>RH<SUB>hr</SUB> average hourly relative humidity [%].</blockquote>
+<p>The net radiation is the difference between the net shortwave radiation (R<SUB>ns</SUB>) and the net longwave radiation (R<SUB>nl</SUB>) at the hourly time steps. Consequently:
+<p><blockquote><font FACE="Symbol">&#183;</font> If R<SUB>ns</SUB> and R<SUB>nl</SUB> need to be calculated, the extraterrestrial radiation value (R<SUB>a</SUB>) for the hourly period (Equation 28) should be used.
+  <p><font FACE="Symbol">&#183;</font> In the computation of R<SUB>nl</SUB> by 
+    means of Equation 39, <SUB><IMG SRC="x0490e24.gif" align="absmiddle"></SUB> is 
+    replaced by <SUB><IMG SRC="x0490e25.gif" align="absmiddle"></SUB> and the Stefan-Boltzman 
+    constant becomes: 
+  <p><blockquote><font FACE="Symbol">&#115;</font> = (4.903/24) 10<SUP>-9</SUP> = 2.043 10<SUP>-10</SUP> MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>.</blockquote></blockquote>
+<p>Since the ratio R<SUB>s</SUB>/R<SUB>so</SUB> is used to represent cloud cover, when calculating R<SUB>nl</SUB> for hourly periods during the nighttime, the ratio R<SUB>s</SUB>/R<SUB>so</SUB> can be set equal to the R<SUB>s</SUB>/R<SUB>so</SUB> calculated for a time period occurring 2-3 hours before sunset, before the sun angle becomes small. This will generally serve as a good approximation of cloudiness occurring during the subsequent nighttime. The hourly period that is 2 to 3 hours before sunset can be identified during computation of R<SUB>a</SUB> as the period where <font FACE="Symbol">&#119;</font>, calculated from Equation 31, is within the range (<font FACE="Symbol">&#119;</font> <SUB>s</SUB> - 0.79) <font FACE="Symbol">&#163;</font> <font FACE="Symbol">&#119;</font> <font FACE="Symbol">&#163;</font> (<font FACE="Symbol">&#119;</font> <SUB>s</SUB> - 0.52), where <font FACE="Symbol">&#119;</font> <SUB>s</SUB> is calculated using Equation 25. As a more approximate alternative, one can assume R<SUB>s</SUB>/R<SUB>so</SUB> = 0.4 to 0.6 during nighttime periods in humid and subhumid climates and R<SUB>s</SUB>/R<SUB>so</SUB> = 0.7 to 0.8 in arid and semiarid climates. A value of R<SUB>s</SUB>/R<SUB>so</SUB> = 0.3 presumes total cloud cover.
+<p>Soil heat flux is important for hourly calculations. Equations 45 and 46 can be used to derive G for the hourly periods.
+<p>The required meteorological data consist of:
+<p><blockquote><font FACE="Symbol">&#183;</font> Air temperature: mean hourly temperature (T<SUB>hr</SUB>).<BR><font FACE="Symbol">&#183;</font> Air humidity: average hourly relative humidity (RH<SUB>hr</SUB>).<BR><font FACE="Symbol">&#183;</font> Wind speed: average hourly wind speed data measured at 2 m height (u<SUB>2</SUB>)<I>.</I><BR><font FACE="Symbol">&#183;</font> Radiation: total hourly solar (R<SUB>s</SUB>) or net radiation (R<SUB>n</SUB>).</blockquote>
+<p>Because of the need for standardization, the constants in Equation 53 presume a constant surface resistance (r<SUB>s</SUB>) of 70 s/m during all periods. This constant resistance may cause some underprediction of hourly ET<SUB>o</SUB> during some daytime periods when actual r<SUB>s</SUB> may be somewhat lower. The constant resistance may cause some overprediction of hourly ET<SUB>o</SUB> during evening periods when actual r<SUB>s</SUB> may be somewhat higher. However, when the calculations of hourly ET<SUB>o</SUB> from Equation 53 are summed over 24 hour periods to produce an equivalent 24-hour ET<SUB>o</SUB>, the hourly differences tend to compensate one another and the results are generally equivalent to calculations of ET<SUB>o</SUB> made on a 24-hour time step. Precise estimates of ET<SUB>o</SUB> for specific hourly periods may require the use of aerodynamic stability functions and functions for modifying the value for r<SUB>s</SUB> based on levels of radiation, humidity and temperature. Application of these functions are not normally required when hourly calculations are to be summed to 24-hour totals. Therefore, these functions are not described here.
+<p><B>EXAMPLE 19. Determination of ET</B><SUB><B>o</B></SUB><B> with hourly data</B>
+<p>
+<TABLE BORDER>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Given</B> mean average hourly data between 02.00 and 03.00 hours and 
+        14.00 and 15.00 hours on 1 October in N'Diaye (Senegal) at 16&#176;13'N 
+        and 16&#176;15'W and 8 m above sea level. In the absence of calibrated 
+        coefficients, indicative values for a<SUB>s</SUB> and b<SUB>s</SUB> (Eq. 
+        35 Angstrom formula) and for the coefficients of the net longwave radiation 
+        (Eq. 39) are used.
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP> 
+      <p>Measured climatic data
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>02.00-03.00 h
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.00-15.00h
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Units
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>hr</SUB>: mean hourly temperature =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>28
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>38
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP> 
+      <p>RH<SUB>hr</SUB>: mean hourly relative humidity =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>90
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>52
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP> 
+      <p>u<SUB>2</SUB>: mean hourly wind speed =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.3
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m/s
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB>: total solar radiation =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.450
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Parameters</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 13
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.220
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.358
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa &#176;C<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.0673
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.0673
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa &#176;C<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Vapour pressure deficit</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 11
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e&#176;(T) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.780
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>6.625
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 54
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.402
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.445
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>s</SUB> - e<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.378
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.180
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Extraterrestrial radiation</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>02.00-03.00 h
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.00-15.00h
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Units
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.5
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>for 1 October:
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p>J = 274
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 22:
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#106;</font> = <font FACE="Symbol">&#112;</font> /180 
+        (16.22) = 0.2830
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>rad
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 23:
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p>d<SUB>r</SUB> = 1.0001
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 24:
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#100;</font> = - 0.0753
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>rad
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 33:
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p>b = 3.3315
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 32:
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p>S<SUB>c</SUB> = 0.1889
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>hour
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p>L<SUB>z</SUB> = 15
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>degrees
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP> 
+      <p>L<SUB>m</SUB> = 16.25
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>degrees
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>t =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>hour
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 31:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#119;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-2.46
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.682
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>rad
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>t<SUB>l</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>hour
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 29:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#119;</font> <SUB>1</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.5512
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>rad
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 30:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#119;</font> <SUB>2</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.8130
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>rad
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 28:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.543
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Radiation</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Given
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.450
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 37:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>so</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.658
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 38:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>ns</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.887
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e26.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.681
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.915
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (0.34-0.14 <font FACE="Symbol">&#214;</font> e<SUB>a</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.082
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.080
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB>/R<SUB>so</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.8 <SUB> (assumed)</SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.922
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (1.35 R<SUB>s</SUB>/R<SUB>so</SUB> - 0.35) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.730
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.894
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 39:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>nl</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.137
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 40:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>n</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-0.100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.749
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 46, 45:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>G =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-0.050
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.175
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (R<SUB>n</SUB> - G) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-0.050
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.574
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> hour<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408(R<SUB>n</SUB> - G) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-0.020
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.642
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/hour
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Grass reference evapotranspiration</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408(R<SUB>n</SUB> - G)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-0.01
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.46
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/hour
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>37/(T + 273) u<SUB>2</SUB> (e<SUB>s</SUB> - e<SUB>a</SUB>)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>From Eq. 53:
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1 +0.34 u<SUB>2</SUB>)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.01
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.17
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/hour
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.00
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.63
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/hour
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p>The grass reference evapotranspiration is 0.00 mm/hour between 02.00 
+        and 03.00 hours and 0.63 mm/hour between 14.00 and 15.00 hours.
+    </TD>
+  </TR>
+</TABLE>
+<p><H2><a name="calculation procedures with missing data">Calculation procedures with missing data</a></H2>
+<p>The meteorological data, required to estimate ET<SUB>o</SUB> by means of the FAO Penman-Monteith equation, consist of air temperature, air humidity, wind speed and radiation. Where some of these data are missing or cannot be calculated, it is strongly recommended that the user estimate the missing climatic data with one of the procedures presented in Chapter 3 and that the FAO Penman-Monteith method be used for the calculation of ET<SUB>o</SUB>. The use of an alternative ET<SUB>o</SUB> calculation procedure, requiring only limited meteorological parameters, is less recommended.
+<p>Example 20 illustrates the estimation of monthly ET<SUB>o</SUB> with the FAO Penman-Monteith for a data set containing only maximum and minimum air temperature. The procedures given in Chapter 3 to estimate missing humidity, radiation and wind speed data should be validated by comparing ET<SUB>o</SUB> calculated with full and with limited data sets for weather stations in the region with complete data sets.
+<p><B>EXAMPLE 20. Determination of ET</B><SUB><B>o</B></SUB><B> with missing data</B>
+<p>
+<TABLE BORDER>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Given</B> the monthly average daily maximum and average daily minimum 
+        air temperature of July from a station near Lyon, France (45&#176;43'N, 
+        altitude 200 m). No other climatic data were recorded.
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Monthly average daily maximum temperature (T<SUB>max</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>26.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Monthly average daily minimum temperature (T<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>14.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Determination according to Box 11 (calculation sheet ET</B><SUB><B>o</B></SUB><B>)</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Estimation of wind speed:</B><BR>
+        2 m/s is used as a temporary estimate. Due to the relatively small crop 
+        height of 0.12 m of the reference crop and the appearance of u<SUB>2</SUB> 
+        in both the nominator and denominator of the FAO Penman-Monteith equation, 
+        ET<SUB>o</SUB> is not highly sensitive to normal ranges of wind speed.
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Parameters:</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>mean</SUB> = (26.6+14.8)/2 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>20.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.4 or
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>mean</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>20.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Eq. 13:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.150
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa/&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.2 or
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Altitude =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>200
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Eq. 8:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.066
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa/&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (1 + 0.34 u<SUB>2</SUB>) = (1 + 0.34 (2)) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.68
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1 + 0.34 u<SUB>2</SUB>)] = 0.150/[(0.150 
+        + 0.066(1.68)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.576
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> + 
+        <font FACE="Symbol">&#103;</font> (1 + 0.34 u<SUB>2</SUB>)] = 0.0658/[0.150 
+        + 0.066(1.68)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.252
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>900/(T<SUB>mean</SUB> + 273) u<SUB>2</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>6.13
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Estimation of humidity data:</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Assume (Eq. 48):
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>dew</SUB> <font FACE="Symbol">&#187;</font> T<SUB>min</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Consequently(Eq. 14 or Table 2.3) for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>dew</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.68
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.3 or Eq. 11, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>26.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e&#176;(T<SUB>max</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.48
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Table 2.3 or Eq. 11, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e&#176;(T<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.68
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>s</SUB> = (3.48+1.68)/2 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>2.58
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (e<SUB>s</SUB> - e<SUB>a</SUB>) = (2.58-1.68) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.90
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p>This corresponds with:
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>RH<SUB>max</SUB> = 100e<SUB>a</SUB>/e&#176;(T<SUB>min</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>RH<SUB>min</SUB> = 100 e<SUB>a</SUB>/e&#176;(T<SUB>max</SUB>) = 100 (1.68/3.48) 
+        =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>48
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>RH<SUB>mean</SUB> = (RH<SUB>max</SUB> + RH<SUB>min</SUB>)/2 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>74
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Estimation of radiation data:</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB> can be derived from the difference between T<SUB>max</SUB> 
+        and T<SUB>min</SUB>:
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>From Eq. 50
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB> = 0.16 <font FACE="Symbol">&#214;</font> (26.6-14.8) R<SUB>a</SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB> = 0.55 R<SUB>a</SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>Table 2.6 or Eq. 21, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For Day 15, Month = July, J =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>196
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Latitude = 45&#176;43'N =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>45.72
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;N
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>40.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB> = 0.55 R<SUB>a</SUB> = 0.55 (40.55) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>22.29
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>so</SUB> = (0.75 + 2 (200)/100000) 40.55 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>30.58
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB>/R<SUB>so</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.73
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>ns</SUB> = 0.77 (22.29) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>17.16
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>Table 2.8, for:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max</SUB> = 26.6&#176;C
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>26.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>max, K</SUB> = 26.6+273.16 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>299.76
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e27.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>39.59
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=2 VALIGN=TOP> 
+      <p>Table 2.8, for:
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min</SUB> = 14.8&#176;C
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>14.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>&#176;C
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>T<SUB>min, K</SUB> = 14.8 +273.16
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>287.96
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e28.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>33.71
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><SUB><IMG SRC="x0490e29.gif"></SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>36.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>e<SUB>a</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.68
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>kPa
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (0.34 - 0.14<font FACE="Symbol">&#214;</font> e<SUB>a</SUB>) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.16
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>For:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>s</SUB>/R<SUB>so</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.73
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Then:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (1.35 R<SUB>s</SUB>/R<SUB>so</SUB> - 0.35) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.63
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>nl</SUB> = 36.65 (0.16) 0.63 =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.68
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>R<SUB>n</SUB> = (17.16-3.68) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>13.48
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Assume:
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>G =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p> (R<SUB>n</SUB> - G) = (13.48-0) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>13.48
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>MJ m<SUP>-2</SUP> day<SUP>-1</SUP>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408 (R<SUB>n</SUB> - G) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>5.50
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p><B>Grass reference evapotranspiration:</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.408 (R<SUB>n</SUB> - G) <font FACE="Symbol">&#68;</font> /[<font FACE="Symbol">&#68;</font> 
+        + <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>3.17
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>900/(T + 273) u<SUB>2</SUB> (e<SUB>s</SUB> - e<SUB>a</SUB>) <font FACE="Symbol">&#103;</font> /[<font FACE="Symbol">&#68;</font> 
+        + <font FACE="Symbol">&#103;</font> (1+0.34 u<SUB>2</SUB>)] =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.39
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> = (3.17 + 1.39) =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>4.56
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p>The estimated grass reference evapotranspiration is 4.6 mm/day. If instead 
+        of 2 m/s, the wind speed is estimated as 1 or 3 m/s, ET<SUB>o</SUB> would 
+        have been 7% lower (4.2 mm/day) or 6% higher (4.8 mm/day) respectively. 
+        In comparison, the Hargreaves equation (Equation 52) predicts ET<SUB>o</SUB> 
+        = 5.0 mm/day
+    </TD>
+  </TR>
+</TABLE>
+<p>
+<H2><a name="pan evaporation method">Pan evaporation method</a></H2>
+<hr>
+<blockquote>
+  <p><a href="x0490e08.htm#pan evaporation">Pan evaporation</a><br>
+    <a href="x0490e08.htm#pan coefficient (kp)">Pan coefficient (K<sub>p</sub>)</a> 
+  </p>
+</blockquote>
+<hr>
+<p><H3><a name="pan evaporation">Pan evaporation</a></H3>
+<p>The evaporation rate from pans filled with water is easily obtained. In the absence of rain, the amount of water evaporated during a period (mm/day) corresponds with the decrease in water depth in that period. Pans provide a measurement of the integrated effect of radiation, wind, temperature and humidity on the evaporation from an open water surface. Although the pan responds in a similar fashion to the same climatic factors affecting crop transpiration, several factors produce significant differences in loss of water from a water surface and from a cropped surface. Reflection of solar radiation from water in the shallow pan might be different from the assumed 23% for the grass reference surface. Storage of heat within the pan can be appreciable and may cause significant evaporation during the night while most crops transpire only during the daytime. There are also differences in turbulence, temperature and humidity of the air immediately above the respective surfaces. Heat transfer through the sides of the pan occurs and affects the energy balance.
+<p>Notwithstanding the difference between pan-evaporation and the evapotranspiration of cropped surfaces, the use of pans to predict ET<SUB>o</SUB> for periods of 10 days or longer may be warranted. The pan evaporation is related to the reference evapotranspiration by an empirically derived pan coefficient:
+<p><blockquote>ET<SUB>o</SUB> = K<SUB>p</SUB> E<SUB>pan</SUB> (55)</blockquote>
+<p>where
+<p><blockquote>ET<SUB>o</SUB> reference evapotranspiration [mm/day],<BR>K<SUB>p</SUB> pan coefficient [-],<BR>E<SUB>pan</SUB> pan evaporation [mm/day].</blockquote><H3><a name="pan coefficient (kp)">Pan coefficient (K<sub>p</sub>)</a></H3>
+<p><B><I>Pan types and environment</I></B>
+<p>Different types of pans exist. Descriptions of Class A and Colorado sunken pans are given in Boxes 12 and 13. As the colour, size, and position of the pan have a significant influence on the measured results, the pan coefficients are pan specific.
+<p>In selecting the appropriate pan coefficient, not only the pan type, but also the ground cover in the station, its surroundings as well as the general wind and humidity conditions, should be checked. The siting of the pan and the pan environment also influence the results. This is particularly so where the pan is placed in fallow rather than cropped fields. Two cases are commonly considered: Case A where the pan is sited on a short green (grass) cover and surrounded by fallow soil; and Case B where the pan is sited on fallow soil and surrounded by a green crop (Figure 19).
+<p align="center"><B>FIGURE 19. Two cases of evaporation pan siting and their 
+  environment</B> 
+<p align="center"><b></b> <img src="x0490e09.jpg" width="337" height="336"> <img src="x0490e0a.jpg" width="318" height="346"> 
+<p><B><I>Pan coefficients</I></B>
+<p>Depending on the type of pan and the size and state of the upwind buffer zone (fetch), pan coefficients will differ. The larger the upwind buffer zone, the more the air moving over the pan will be in equilibrium with the buffer zone. At equilibrium with a large fetch, the air contains more water vapour and less heat in Case A than in Case B. Pan coefficients for the Class A pan and for the Colorado sunken pan for different ground cover, fetch and climatic conditions are presented in Tables 5 and 6. Regression equations derived from the tables are presented in Table 7. Where measured data from other types of sunken pans are available, such data should first be related to Colorado sunken pan data or to the FAO Penman-Monteith equation to develop K<SUB>p</SUB>. Ratios between evaporation from sunken pans and from the Colorado sunken pan for different climatic conditions and pan environment are given in Table 8.
+<p>Where data are missing, wind speed can be estimated by taking a global value of u<SUB>2</SUB> = 2 m s<SUP>-1</SUP> or as indicated in Table 4 (page 63). RH<SUB>mean</SUB> can be approximated from air temperature as RH<SUB>mean</SUB> = 50 e&#176;(T<SUB>min</SUB>)/e&#176;(T<SUB>max</SUB>) + 50.
+<p><B><I>Adjustments</I></B>
+<p>Under some conditions not accounted for in the tables, the presented K<SUB>p</SUB> coefficients may need some adjustment. This is the case in areas with no agricultural development, or where the pans are enclosed by tall crops. Not maintaining the standard colour of the pan or installing screens can affect the pan readings and will require some adjustment of the pan coefficient.
+<p>In areas with no agricultural development and extensive areas of bare soils (large fetch, Case B), as found under desert or semi-desert conditions, the listed values for K<SUB>p</SUB> given for arid, windy areas may need to be reduced by up to 20%; for areas with moderate levels of wind, temperature and relative humidity, the listed values may need to be reduced by 5-10%; no or little reduction in K<SUB>p</SUB> is needed in humid, cool conditions.
+<p>Where pans are placed in a small enclosure but surrounded by tall crops, for example 2.5 m high maize, the listed pan coefficients will need to be increased by up to 30% for dry windy climates whereas only a 5-10% increase is required for calm, humid conditions.
+<p>Painting the pans may affect the pan evaporation. The pan coefficients presented apply to galvanized pans annually painted with aluminium and to stainless steel pans. Little difference in E<SUB>pan</SUB> will occur where the inside and outside surfaces of the pan are painted white. An increase in E<SUB>pan</SUB> of up to 10% may occur when they are painted black. The material from which the pan is made may account for variations of only a few percent.
+<p>The level at which the water is maintained in the pan is important; resulting errors may be up to 15% when water levels in the Class A pan fall 10 cm below the accepted standard of between 5 and 7.5 cm below the rim. Screens mounted over pans will reduce E<SUB>pan</SUB> by up to 10%. In an attempt to avoid pans being used by birds for drinking, pans filled to the rim with water can be placed near the Class A pan; birds may prefer to use the fully filled pan. The evaporation pan should be placed in a large, secure, wire enclosure to prevent animals from entering and drinking. The turbidity of the water in the pan usually does not affect E<SUB>pan</SUB> by more than 5%. The overall variation in E<SUB>pan</SUB> is not constant with time because of ageing, deterioration and repainting.
+<p><B>TABLE 5. Pan coefficients (K</B><SUB><B>p</B></SUB><B>) for Class A pan for different pan siting and environment and different levels of mean relative humidity and wind speed (FAO Irrigation and Drainage Paper No. 24)</B>
+<p>
+<TABLE BORDER>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Class A pan</B>
+    </TD>
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Case A: Pan placed in short green cropped area</B>
+    </TD>
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Case B: Pan placed in dry fallow area</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>RH mean (%) <font FACE="Symbol">&#174;</font> </B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>low &lt; 40</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>medium 40 - 70</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>high &gt; 70</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>low &lt; 40</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>medium 40 - 70</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>high &gt; 70</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Wind speed (m s</B><SUP><B>-1</B></SUP><B>)</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Windward side distance of green crop (m)</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Windward side distance of dry fallow (m)</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Light
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>&lt; 2
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Moderate
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75.
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>2-5
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6.
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Strong
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>5-8
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.4
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Very strong
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.4
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>&gt; 8
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.4
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.35
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.4
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+  </TR>
+</TABLE>
+<p><B>TABLE 6. Pan coefficients (K</B><SUB><B>p</B></SUB><B>) for Colorado sunken pan for different pan siting and environment and different levels of mean relative humidity and wind speed (FAO Irrigation and Drainage Paper No. 24)</B>
+<p>
+<TABLE BORDER>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Sunken Colorado</B>
+    </TD>
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Case A: Pan placed in short green cropped area</B>
+    </TD>
+    <TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Case B: Pan placed in dry fallow area (1)</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>RH mean (%) <font FACE="Symbol">&#174;</font> </B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>low &lt; 40</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>medium 40 - 70</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>high &gt; 70</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>low &lt; 40</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>medium 40 - 70</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>high &gt; 70</B>
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Wind speed (m s</B><SUP><B>-1</B></SUP><B>)</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Windward side distance of green crop (m)</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><B>Windward side distance of dry fallow (m)</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Light
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.1
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>&lt; 2
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.0
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><font FACE="Symbol">&#179;</font> 100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1.1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Moderate
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.95
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.95
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.95
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>2-5
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.85
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><font FACE="Symbol">&#179;</font> 100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.95
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.95
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.95
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Strong
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>5-8
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><font FACE="Symbol">&#179;</font> 100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>Very strong
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p>&gt; 8
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>10
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>,55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.65
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER><font FACE="Symbol">&#179;</font> 100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.75
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>100
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.6
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.45
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.5
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=CENTER>.55
+    </TD>
+  </TR>
+</TABLE>
+<p><blockquote>(1) For extensive areas of bare-fallow soils and no agricultural development, reduce K<SUB>pan</SUB> by 20% under hot, windy conditions; by 5-10% for moderate wind, temperature and humidity conditions.</blockquote>
+<p><B>TABLE 7. Pan coefficients (K</B><SUB><B>p</B></SUB><B>): regression equations derived from Tables 5 and 6</B>
+<p><TABLE BORDER><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>Class A pan with green fetch</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>K<SUB>p</SUB> = 0.108 - 0.0286 u<SUB>2</SUB> + 0.0422 ln(FET) +0.1434 ln(RH<SUB>mean</SUB>) - 0.000631 [ln(FET)]<SUP>2</SUP> ln(RH<SUB>mean</SUB>)</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>Class A pan with dry fetch</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>K<SUB>p</SUB> = 0.61 + 0.00341 RH<SUB>mean</SUB> - 0.000162 u<SUB>2</SUB> RH<SUB>mean</SUB> - 0.00000959 u<SUB>2</SUB> FET + 0.00327 u<SUB>2</SUB> ln(FET) - 0.00289 u<SUB>2</SUB> ln(86.4 u<SUB>2</SUB>) - 0.0106 ln(86.4 u<SUB>2</SUB>)ln(FET) + 0.00063 [ln(FET)]<SUP>2</SUP>ln(86.4 u<SUB>2</SUB>)</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>Colorado sunken pan with green</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>K<SUB>p</SUB> = 0.87 + 0.119 ln(FET)-0.0157[ln(86.4 u<SUB>2</SUB>)]<SUP>2</SUP> In(RH<SUB>mean</SUB>) - 0.000053 ln(86.4u<SUB>2</SUB>)ln(FET)RH<SUB>mean</SUB></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>Colorado sunken pan with dry fetch</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>K<SUB>p</SUB> <I>=</I> 1.145 - 0.080 u<SUB>2</SUB> + 0.000903(u<SUB>2</SUB>)<SUP>2</SUP>ln(RH<SUB>mean</SUB>) - 0.0964 ln(FET) + 0.0031 u<SUB>2</SUB> In(FET) + 0.0015[ln(FET)]<SUP>2</SUP>ln(RH<SUB>mean</SUB>)</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>Coefficients and parameters</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>K<SUB>p</SUB> pan coefficient []<BR>u<SUB>2</SUB> average daily wind speed at 2 m height (m s<SUP>-1</SUP>)<BR>RH<SUB>mean</SUB> average daily relative humidity [%] = (RH<SUB>max</SUB> + RH<SUB>min</SUB>)/2<BR>FET fetch, or distance of the identified surface type (grass or short green agricultural crop for case A, dry crop or bare soil for case B upwind of the evaporation pan)</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>Range for variables</B></TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>1 m <font FACE="Symbol">&#163;</font> FET <font FACE="Symbol">&#163;</font> 1000 m (these limits must be observed)<BR>30% <font FACE="Symbol">&#163;</font> RH<SUB>mean</SUB> <font FACE="Symbol">&#163;</font> 84%<BR>1 m s<SUP>-1</SUP> <font FACE="Symbol">&#163;</font> u<SUB>2</SUB> <font FACE="Symbol">&#163;</font> 8 m s<SUP>-1</SUP></TD></TR></TABLE>
+<p><B><I>Recommendations</I></B>
+<p>The above considerations and adjustments indicate that the use of tables or the corresponding equations may not be sufficient to consider all local environmental factors influencing K<SUB>p</SUB> and that local adjustment may be required. To do so, an appropriate calibration of E<SUB>pan</SUB> against ET<SUB>o</SUB> computed with the Penman-Monteith method is recommended.
+<p>It is recommended that the pan should be installed inside a short green cropped area with a size of a square of at least 15 by 15 m. The pan should not be installed in the centre but at a distance of at least 10 m from the green crop edge in the general upwind direction.
+<p>Where observations of wind speed and relative humidity, required for the computation of K<SUB>p</SUB>, are not available at the site, estimates of the weather variables from a nearby station have to be utilized. It is then recommended that these variables be averaged for the computation period and that E<SUB>pan</SUB> be averaged for the same period.
+<p>Equation 1 in Table 7 yields K<SUB>p</SUB> = 0.83 for data in Example 21 as shown in Example 22.
+<p><B>TABLE 8. Ratios between the evaporation from sunken pans and a Colorado sunken pan for different climatic conditions and environments (FAO Irrigation and Drainage Paper No. 24)</B>
+<p><TABLE BORDER><TR VALIGN="TOP"><TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=12 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Ratio E</B><SUB><B>pan</B></SUB><B> mentioned and E</B><SUB><B>pan</B></SUB><B> Colorado</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP>
+<p><B>Climate</B></TD><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Humid-temperate climate</B></TD><TD COLSPAN=6 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Arid to semi-arid (dry season)</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=2 ROWSPAN=1 VALIGN=TOP>
+<p><B>Ground cover surrounding pan (50 m or more)</B></TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Short green cover</B></TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Dry fallow</B></TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Short green cover</B></TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Dry fallow</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER><B>Pan area (m</B><SUP><B>2</B></SUP><B>)</B></TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>GGI 20 diameter 5 m, depth 2 m (former Soviet Union)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>19.6</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.0</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.1</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.05</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.25</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Sunken pan diameter 12 ft (3.66 m) depth 3.3 ft (Israel)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>10.5</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>BPI diameter 6 ft (1.83 m), depth 2 ft (0.61 m) (USA)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>2.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Kenya pan diameter 4 ft (1.22 m) depth 14 in (0.356 m)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Australian pan diameter 3 ft (0.91 m) depth 3 ft (0.91 m)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.7</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.0</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Symmons pan 6 ft<SUP>2</SUP> (0.56 m<SUP>2</SUP>) depth 2 ft (0.61 m)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.6</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Aslyng pan 0.33 m<SUP>2</SUP>, depth 1 m (Denmark)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.3</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.0</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>GGI 3000 diameter 0.618 cm, depth 60-80 cm (former Soviet Union)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.3</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><br></td></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Sunken pan diameter 50 cm, depth 25 cm (Netherlands)</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.2</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.0</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.95</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>1.0</TD><TD COLSPAN=3 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=CENTER>0.95</TD></TR></TABLE>
+<p><B>EXAMPLE 21. Determination of ET</B><SUB><B>o</B></SUB><B> from pan evaporation using tables</B>
+<p><TABLE BORDER><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p><B>Given</B> the daily evaporation data for the first week of July for a Class A pan installed in a green area surrounded by short irrigated field crops: 8.2, 7.5, 7.6, 6.8, 7.6, 8.9 and 8.5 mm/day. In that period the mean wind speed is 1.9 m/s and the daily mean relative humidity is 73%. Determine the 7-day average reference evapotranspiration.</TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p><B>Pan is installed on a green surface: Case A</B></TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Pan is surrounded by irrigated crops:</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>fetch<SUB>max</SUB> =</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=RIGHT>1000</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>m</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Wind speed is light:</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>u &lt;</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=RIGHT>2</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>m/s</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>Relative humidity is high:</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>RH<SUB>mean</SUB> &gt;</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=RIGHT>70</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>%</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>From Table 5 (for above conditions):</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>K<SUB>p</SUB> =</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=RIGHT>0.85</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>-</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>-</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>E<SUB>pan</SUB> = (8.2 + 7.5 + 7.6 + 6.8 + 7.6 + 8.9 + 8.5)/7 =</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=RIGHT>7.9</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>mm/day</TD></TR><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>From Eq. 55:</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>ET<SUB>o</SUB> = 0.85 (7.9) =</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p ALIGN=RIGHT>6.7</TD><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p>mm/day</TD></TR><TR VALIGN="TOP"><TD COLSPAN=4 ROWSPAN=1 VALIGN=TOP>
+<p>The 7-day average of the crop reference evapotranspiration is 6.7 mm/day</TD></TR></TABLE>
+<p><TABLE BORDER><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>BOX 12. Description of Class A pan</B>
+<p>The Class A Evaporation pan is circular, 120.7 cm in diameter and 25 cm deep. It is made of galvanized iron (22 gauge) or Monel metal (0.8 mm). The pan is mounted on a wooden open frame platform which is 15 cm above ground level. The soil is built up to within 5 cm of the bottom of the pan. The pan must be level. It is filled with water to 5 cm below the rim, and the water level should not be allowed to drop to more than 7.5 cm below the rim. The water should be regularly renewed, at least weekly, to eliminate extreme turbidity. The pan, if galvanized, is painted annually with aluminium paint. Screens over the pan are not a standard requirement and should preferably not be used. Pans should be protected by fences to keep animals from drinking.
+<p>The site should preferably be under grass, 20 by 20 m, open on all sides to permit free circulation of the air. It is preferable that stations be located in the centre or on the leeward side of large cropped fields.
+<p>Pan readings are taken daily in the early morning at the same time that precipitation is measured. Measurements are made in a stilling well that is situated in the pan near one edge. The stilling well is a metal cylinder of about 10 cm in diameter and some 20 cm deep with a small hole at the bottom.
+      <p align="center"><b><img src="x0490e0b.jpg" width="524" height="408"></b>
+    </TD></TR></TABLE>
+<p><TABLE BORDER><TR VALIGN="TOP"><TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP>
+<p><B>BOX 13. Description of Colorado sunken pan</B>
+<p>The Colorado sunken pan is 92 cm (3 ft) square and 46 cm (18 in) deep, made of 3 mm thick iron, placed in the ground with the rim 5 cm (2 in) above the soil level. Also, the dimensions 1 m square and 0.5 m deep are frequently used. The pan is painted with black tar paint. The water level is maintained at or slightly below ground level, i.e., 5-7.5 cm below the rim.
+<p>Measurements are taken similarly to those for the Class A pan. Siting and environment requirements are also similar to those for the Class A pan.
+<p>Sunken Colorado pans are sometimes preferred in crop water requirements studies, as these pans give a better direct estimation of the reference evapotranspiration than does the Class A pan. The disadvantage is that maintenance is more difficult and leaks are not visible.
+      <p align="center"><b><img src="x0490e0c.jpg" width="479" height="377"></b>
+    </TD></TR></TABLE>
+<p><B>EXAMPLE 22. Determination of ET</B><SUB><B>o</B></SUB><B> from pan evaporation using equations</B>
+<p>
+<TABLE BORDER>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p>Given the 7-day average evaporation measurement from Example 21, estimate 
+        the ET<SUB>o</SUB> for the two types of pans and two types of fetch conditions 
+        represented by equations in Table 7. Assume that fetch is 1000 m in both 
+        fetch cases (green and dry).
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p><br>
+      <p><br>
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>F<SUB>etch</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p><br>
+      <p><br>
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1000
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>u<SUB>2</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>1.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>m/s
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>RH<SUB>mean</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>73
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>%
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p><B>Class A pan with green fetch</B>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> <I>=</I> 0.108 - 0.0286 u<SUB>2</SUB> + 0.0422 ln(FET) 
+        + 0.1434 ln(RH<SUB>mean</SUB>) - 0.000631 [ln(FET)]2 ln(RH<SUB>mean</SUB>)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> = 0.108 - 0.0286 (1.9) + 0.0422 ln(1000) +0.1434 ln(73) 
+        - 0.000631 [ln(1000)]2 ln(73)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>0.83
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>E<SUB>pan</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>7.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> = 0.83 (7.9)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>6.6
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p><B>Class A pan with dry fetch</B>
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> = 0.61 + 0.00341 RH<SUB>mean</SUB> - 0.000162 u<SUB>2</SUB> 
+        RH<SUB>mean</SUB> - 0.00000959 u<SUB>2</SUB> FET + 0.00327 u<SUB>2</SUB> 
+        ln(FET) - 0.00289 u<SUB>2</SUB> ln(86.4 u<SUB>2</SUB>) - 0.0106 ln(86.4u<SUB>2</SUB>)ln(FET) 
+        + 0.00063 [ln(FET)]<SUP>2</SUP>ln(86.4 u<SUB>2</SUB>)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> = 0.61 + 0.00341 (73) - 0.000162 (1.9) (73) - 0.00000959 
+        (1.9)(1000) + 0.00327 (1.9) ln(1000) - 0.00289 (1.9) ln(86.4(1.9)) - 0.0106 
+        ln(86.4(1.9))ln(1000) + 0.00063 [ln(1000)]<SUP>2</SUP> ln(86.4 (1.9))
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.61
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>E<SUB>pan</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>7.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> = 0.61 (7.9)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>4.8
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p><B>Colorado sunken pan with green fetch</B>
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> <I>=</I> 0.87 + 0.119 ln(FET) - 0.0157[ln(86.4 u<SUB>2</SUB>)]<SUP>2</SUP> 
+        - 0.0019 [ln(FET)]<SUP>2</SUP>ln(86.4 u<SUB>2</SUB>) + 0.013 ln(86.4 u<SUB>2</SUB>) 
+        ln(RH<SUB>mean</SUB>) - 0.000053 ln(86.4 u<SUB>2</SUB>)ln(FET) RH<SUB>mean</SUB>
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> = 0.87 + 0.119 ln(100) - 0.0157 [ln(86.4(1.9))]<SUP>2</SUP> 
+        - 0.0019 [ln(1000)]2 ln(86.4 (1.9)) + 0.013 ln(86.4(1.9)) ln(73) - 0.000053 
+        ln(86.4 (1.9)) ln(1000) (73)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.97
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>E<SUB>pan</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>7.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> = 0.97(7.9)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>7.7
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=3 VALIGN=TOP> 
+      <p><B>Colorado sunken pan with dry fetch</B>
+      </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> = 1.145 - 0.080 u<SUB>2</SUB> +0.000903(u<SUB>2</SUB>)<SUP>2</SUP>ln(RH<SUB>mean</SUB>) 
+        - 0.0964 ln(FET) + 0.0031 u<SUB>2</SUB> ln(FET) + 0.0015 [ln(FET)]<SUP>2</SUP> 
+        ln(RH<SUB>mean</SUB>)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>K<SUB>p</SUB> = 1.145 - 0.080(1.9) + 0.000903(1.9)<SUP>2</SUP>ln(73) 
+        - 0.0964 ln(1000) + 0.0031 (1.9) ln(1000) +0.0015 [ln(1000)]<SUP>2</SUP>ln(73)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>0.69
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>-
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>E<SUB>pan</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p><br>
+    </td>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>7.9
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> =
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>ET<SUB>o</SUB> = 0.69 (7.9)
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p ALIGN=RIGHT>5.4
+    </TD>
+    <TD COLSPAN=1 ROWSPAN=1 VALIGN=TOP> 
+      <p>mm/day
+    </TD>
+  </TR>
+  <TR VALIGN="TOP"> 
+    <TD COLSPAN=5 ROWSPAN=1 VALIGN=TOP> 
+      <p>The 7-day average of the crop reference evapotranspiration for the four 
+        pan/fetch conditions is 6.6, 4.8, 7.7, and 5.4 mm/day
+    </TD>
+  </TR>
+</TABLE>
+<p>
+<p><hr>
+<p align="center">
+<a href="x0490e07.htm#TopOfPage"><img src="back.gif" width="43" height="35" alt="Previous Page" border="0"></a>
+<a href="#TopOfPage"><img src="top.gif" width="43" height="35" alt="Top of Page" border="0"></a>
+<a href="x0490e09.htm#TopOfPage"><img src="next.gif" width="43" height="35" alt="Next Page" border="0"></a>
+</p>
+</body>
+</html>

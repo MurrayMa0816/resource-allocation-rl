@@ -1,0 +1,283 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "5.8",
+  "caption": "不同初始资源量下固定策略的配置效果",
+  "label": "fig:ch5-validation-budget",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter05_dual_value/section63_experiments.tex",
+  "current_references": [
+    "chapters/chapter05_dual_value/figures/figure05-08_三档初始预算下冻结策略的达标数量与原始成效/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/costs_by_seed.csv",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/data_manifest.json",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/fixed_endpoints_by_seed.csv",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/learning_display.csv",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/learning_raw.csv",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/threshold_recounts_by_seed.csv"
+  ],
+  "current_source_files": [
+    "plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure57/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/parent_renderer.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/plot.py",
+    "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+    "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py"
+  ],
+  "historical_provenance": {
+    "schema": "chapters45-content-spacing-derivative-v1",
+    "number": "5.8",
+    "parent_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8",
+    "parent_pdf_sha256": "572e5b28b2c54049e3fbf9a000bf2ba43fc6e8b918d362bb5cc94bee44195b6a",
+    "parent_source_sha256": "4892822b81e1e488e76bc8db122cd306963aebc22b461bf4a11f632d969631dd",
+    "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+    "renderer_sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4",
+    "scientific_data_sha256": {
+      "inputs/data/learning_raw.csv": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "inputs/data/learning_display.csv": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "inputs/data/fixed_endpoints_by_seed.csv": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "inputs/data/threshold_recounts_by_seed.csv": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "inputs/data/costs_by_seed.csv": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76"
+    },
+    "input_copies_sha256": {
+      "spec.json": "a09a947a60b3b65709f1a94bbd9705aa99469de9ae41e8e6151caac1dd249fca",
+      "plot.py": "cac97de52b371e9d03b6a78545d7561a46de078688ea4d8187e9058cea1b4368",
+      "inherited_native_presentation_proof.json": "8437e10bcc4050af1909787018a80df137e206b4ba140db7be13b7e34e6793f1",
+      "print_presentation_proof.json": "d3f4b33a7acc40779dbe3bf12b5904afb7e18c747405ac2be8eef4cc5351aba8",
+      "source.json": "4892822b81e1e488e76bc8db122cd306963aebc22b461bf4a11f632d969631dd"
+    },
+    "scientific_values_styles_and_axes_physical_dimensions_preserved": true,
+    "pdf_character_frame_spacing": {
+      "width_bp": 442.2047119140625,
+      "height_bp": 340.1136474609375,
+      "content_top_bp": 4.251950263977051,
+      "content_bottom_bp": 334.4443664550781,
+      "legend_box_bp": [
+        114.22267150878906,
+        307.54986572265625,
+        350.0227966308594,
+        334.4443664550781
+      ],
+      "xlabel_to_legend_bp": 8.0,
+      "bottom_margin_mm": 1.9999963548448347,
+      "top_margin_mm": 1.4999935653474594,
+      "row_metrics": [
+        {
+          "upper": [
+            0,
+            1
+          ],
+          "lower": [
+            2,
+            3
+          ],
+          "gap": 12.0
+        }
+      ],
+      "all_pdf_text_exact": true,
+      "unmatched_texts": [],
+      "footer_below_legend": false
+    },
+    "output_sha256": {
+      "figure.pdf": "e111ae6a5837bb22560a110459db59d0365a4cbeb126febd126f7d388177d38e",
+      "figure.png": "df8213a5a9f818cbaecaf169d3ab9864ccef95441d06b0d11b22ce6865f07771",
+      "figure.svg": "c34b30be81b4a0961d0f5f876b79c93c7436ce88e58a86ec7d80a71da2db92a6"
+    },
+    "environment_steps": 0,
+    "model_loads": 0,
+    "training_runs": 0,
+    "external_scientific_data_sha256": {},
+    "retained_external_scientific_copies": {},
+    "external_data_files": [],
+    "language_revision": {
+      "date": "2026-11-10",
+      "changes": [
+        {
+          "before": "发射能量相对值",
+          "after": "初始能量／标准能量",
+          "pdf_glyph_box_compensation_bp": 0.046875
+        },
+        {
+          "before": "柴油供给相对值",
+          "after": "初始额度／标准额度",
+          "pdf_glyph_box_compensation_bp": 0.09375
+        },
+        {
+          "before": "发射能量相对值",
+          "after": "初始能量／标准能量",
+          "pdf_glyph_box_compensation_bp": 0.046875
+        },
+        {
+          "before": "柴油供给相对值",
+          "after": "初始额度／标准额度",
+          "pdf_glyph_box_compensation_bp": 0.09375
+        }
+      ],
+      "all_scientific_data_artists_and_original_axes_preserved": true,
+      "local_renderer_source": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+      "renderer_source_sha256": "7708f8e4d45e6272111f11efe257b79c8d4951cdfd5db4f3198f5e06e31462c8",
+      "external_runtime_dependencies": false,
+      "review_record": "docs/chapter5_comprehensive_language_20261110/PRESENTATION.json"
+    }
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "7e0e15a421212c0f10a6639b4681e5e42f33167d0cbbaa85ae7d115a0ddfdd9a"
+  },
+  "files": [
+    {
+      "path": "LOCAL_REPRODUCTION.rst",
+      "bytes": 669,
+      "sha256": "3a07681c8eacf02d83069d37aa18bc4aa6c1c1a498c3e7f983e46817d5e23d5c"
+    },
+    {
+      "path": "README.rst",
+      "bytes": 2807,
+      "sha256": "0166e206d7674ed96b2a1f1db5dab9e2d5bd5527905fd6b4e3782fd4ae642296"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 45334,
+      "sha256": "7e0e15a421212c0f10a6639b4681e5e42f33167d0cbbaa85ae7d115a0ddfdd9a"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 353075,
+      "sha256": "04085b82b1abcbe1e7c1b821f6c0ebedd34d44962a7067a9f7107a907cfa1ffc"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 150371,
+      "sha256": "75e3b4e100a433f29232b816680b5396cc4beefe98be79baaa4744bea993a0c9"
+    },
+    {
+      "path": "plot.py",
+      "bytes": 7310,
+      "sha256": "ea58459a682dd89e57ca860b4d978a26c018f04cd430db80316310be41383ba1"
+    },
+    {
+      "path": "render_support/config.json",
+      "bytes": 233,
+      "sha256": "04c0fd05a198ef0ed254d7a13af385604aa090cc7e92cb58f2e740d884a43c2c"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure57/plot.py",
+      "bytes": 215,
+      "sha256": "01552ec586f9f992aab5af001326e5d922c3bcb457ea9285f2aab7b665c40e3b"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/execution/print_manifest_ch45.json",
+      "bytes": 122366,
+      "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/manifest.json",
+      "bytes": 122365,
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-8/figure.png",
+      "bytes": 178404,
+      "sha256": "cefcedd8e3c20b18d5d1c73c25b1085a8cf3c20d63bf78e303483d9307d775bb"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/figure.pdf",
+      "bytes": 45313,
+      "sha256": "572e5b28b2c54049e3fbf9a000bf2ba43fc6e8b918d362bb5cc94bee44195b6a"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/figure.png",
+      "bytes": 192404,
+      "sha256": "4a5d3305c2f9afe32f4cd5727c6afe92960bdc5afa5961fa81dd14fe3f34e966"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inherited_native_presentation_proof.json",
+      "bytes": 69913,
+      "sha256": "8437e10bcc4050af1909787018a80df137e206b4ba140db7be13b7e34e6793f1"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/costs_by_seed.csv",
+      "bytes": 14491,
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/data_manifest.json",
+      "bytes": 1844,
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/fixed_endpoints_by_seed.csv",
+      "bytes": 22143,
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/learning_display.csv",
+      "bytes": 2758404,
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/learning_raw.csv",
+      "bytes": 1877519,
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/data/threshold_recounts_by_seed.csv",
+      "bytes": 26645,
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/parent_renderer.py",
+      "bytes": 13693,
+      "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/inputs/plot.py",
+      "bytes": 233,
+      "sha256": "17937eccc41cb8c7bffff9e875195b11561879fa6cdcdf3896bb04caf8e40aab"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/plot.py",
+      "bytes": 260,
+      "sha256": "cac97de52b371e9d03b6a78545d7561a46de078688ea4d8187e9058cea1b4368"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/print_presentation_proof.json",
+      "bytes": 13006,
+      "sha256": "d3f4b33a7acc40779dbe3bf12b5904afb7e18c747405ac2be8eef4cc5351aba8"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/source.json",
+      "bytes": 2114,
+      "sha256": "4892822b81e1e488e76bc8db122cd306963aebc22b461bf4a11f632d969631dd"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure5-8/spec.json",
+      "bytes": 5471,
+      "sha256": "a09a947a60b3b65709f1a94bbd9705aa99469de9ae41e8e6151caac1dd249fca"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/manifest.json",
+      "bytes": 122365,
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23"
+    },
+    {
+      "path": "render_support/fs/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+      "bytes": 12682,
+      "sha256": "b48d560e1c9c922cea85dad27b154d1e29dcf56717ad4b262f17ca789ce1fb57"
+    },
+    {
+      "path": "render_support/fs/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+      "bytes": 24350,
+      "sha256": "7708f8e4d45e6272111f11efe257b79c8d4951cdfd5db4f3198f5e06e31462c8"
+    }
+  ]
+}

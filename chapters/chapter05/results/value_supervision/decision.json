@@ -1,0 +1,19 @@
+{
+  "schema": "chapter05-value-supervision-final-decision-v1",
+  "utc": "2026-11-08T16:16:55.904350+00:00",
+  "status": "COMPLETE_NO_RETRAIN_REQUIRED",
+  "confirmed_implementation_or_numerical_bug": false,
+  "scientific_source_modified": false,
+  "new_training_models": 0,
+  "new_learning_steps": 0,
+  "new_diagnostic_models_reused": 20,
+  "new_diagnostic_environment_steps": 143360,
+  "why_no_retrain": "No reproducible implementation/numerical/budget error. Fixed-weight scalar and dual traces yield the same weighted advantage at equal predictions; diagnostics find component alignment differences but nearly unchanged weighted residuals. No evidence justifies blind longer training or weakening ScalarValue.",
+  "kept_strong_scalar_supervision_control": true,
+  "core_finding": "Separate supervision constrains each prediction to its own terminal metric; the scalar control only constrains their weighted sum. Better component correspondence has not yielded consistent configuration gains.",
+  "new_single_critic_control_launched": false,
+  "single_critic_note": "A capacity-matched single-critic arm tests network architecture, a different question from the current loss-supervision diagnosis; it is not needed to repair the verified correct comparison.",
+  "new_diagnosis_scope": "New external scenarios within known validation image pool, stochastic frozen policies; own occupancy realized-return residuals, not common-public-state conditional-value truth or formal TEST.",
+  "formal_models_preserved": 90,
+  "formal_evaluations_preserved": 210
+}

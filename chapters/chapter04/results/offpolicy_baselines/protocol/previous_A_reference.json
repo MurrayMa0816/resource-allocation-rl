@@ -1,0 +1,172 @@
+[
+  {
+    "domain": "radio",
+    "seed": 0,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "256",
+      "native_mean": "0.4655581892263061",
+      "native_std": "0.13972019431246108",
+      "min_return": "0.15427553217118764",
+      "max_return": "0.5865051163569377"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed0/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed0/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed0/completed.json"
+  },
+  {
+    "domain": "radio",
+    "seed": 1,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "256",
+      "native_mean": "0.46872847520657307",
+      "native_std": "0.1339727428450713",
+      "min_return": "0.17125495138992597",
+      "max_return": "0.5715154084859242"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed1/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed1/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed1/completed.json"
+  },
+  {
+    "domain": "radio",
+    "seed": 2,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "256",
+      "native_mean": "0.431422503528861",
+      "native_std": "0.12931672192521299",
+      "min_return": "0.14157672255012613",
+      "max_return": "0.53734756364111"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed2/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed2/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed2/completed.json"
+  },
+  {
+    "domain": "radio",
+    "seed": 3,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "256",
+      "native_mean": "0.4529770674596528",
+      "native_std": "0.13293428411224148",
+      "min_return": "0.15391644498770252",
+      "max_return": "0.5573643715957641"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed3/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed3/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed3/completed.json"
+  },
+  {
+    "domain": "radio",
+    "seed": 4,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "256",
+      "native_mean": "0.44239104505853",
+      "native_std": "0.13489389606905483",
+      "min_return": "0.13919573603089544",
+      "max_return": "0.5510390839536417"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed4/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed4/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__radio__seed4/completed.json"
+  },
+  {
+    "domain": "v5",
+    "seed": 0,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "192",
+      "native_mean": "0.7845282655421517",
+      "native_std": "0.04690135030496756",
+      "min_return": "0.6859597716547656",
+      "max_return": "0.8240515764732161"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed0/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed0/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed0/completed.json"
+  },
+  {
+    "domain": "v5",
+    "seed": 1,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "192",
+      "native_mean": "0.8054346514761184",
+      "native_std": "0.06464990319807681",
+      "min_return": "0.697131227906287",
+      "max_return": "0.9007260037431521"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed1/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed1/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed1/completed.json"
+  },
+  {
+    "domain": "v5",
+    "seed": 2,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "192",
+      "native_mean": "0.8091131171227549",
+      "native_std": "0.07246445092350821",
+      "min_return": "0.6803499758619325",
+      "max_return": "0.9112023027909638"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed2/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed2/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed2/completed.json"
+  },
+  {
+    "domain": "v5",
+    "seed": 3,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "192",
+      "native_mean": "0.7948345197596407",
+      "native_std": "0.06044958758420937",
+      "min_return": "0.7026723593725771",
+      "max_return": "0.9058305217635587"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed3/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed3/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed3/completed.json"
+  },
+  {
+    "domain": "v5",
+    "seed": 4,
+    "last_dev": {
+      "training_step": "100608",
+      "phase": "dev",
+      "paths": "8",
+      "evaluation_environment_steps": "192",
+      "native_mean": "0.7884775263827013",
+      "native_std": "0.0713067070273599",
+      "min_return": "0.6712352276437369",
+      "max_return": "0.9058339638348049"
+    },
+    "source": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed4/evaluation_curve.csv.gz",
+    "model": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed4/model/state.pt",
+    "completed": "/hy-tmp/resource_allocation_results/chapter3/formal_100k_5seed_20261105/remote_results/main__A_FULL__v5__seed4/completed.json"
+  }
+]

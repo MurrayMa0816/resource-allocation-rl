@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "id": "relaxed_feedback__radio__seed7101",
+  "domain": "radio",
+  "method": "relaxed_feedback",
+  "seed": 7101,
+  "environment_steps": 1024,
+  "model_loads": 1,
+  "cases": 32,
+  "phase": "dev",
+  "training_steps": 0,
+  "new_TEST_cases": 0,
+  "checkpoint": "/hy-tmp/resource_allocation_results/chapter04/experiments/lr_feedback_development_20261109_155109/jobs/relaxed_feedback__radio__seed7101/checkpoint_final.pt",
+  "checkpoint_sha256": "fae5a6307d3afed3fe3281d3b69c31da326d35a4ed169d758e01092a916bb38f",
+  "original_final_DEV_cases": 32,
+  "casewise_comparison_pass": true,
+  "casewise_exact_native_returns": 32,
+  "maximum_native_return_absolute_error": 0.0,
+  "maximum_score_x100_absolute_error": 0.0,
+  "source_unchanged": true,
+  "model_unchanged": true,
+  "resource_guard_pass": true,
+  "resource_audit_stream_sha256": "57d16ae44fdffd68d317112b10bd46cbe3fe2d997a1d31bfd41c1ebe5612a3d7",
+  "summary": {
+    "training_step": 49152,
+    "phase": "dev",
+    "paths": 32,
+    "evaluation_environment_steps": 1024,
+    "native_mean": 0.46168020259309983,
+    "native_std": 0.1102990523482497,
+    "score_x100_mean": 46.16802025930998,
+    "minimum": 0.13004526303611802,
+    "maximum": 0.6084083751955831
+  },
+  "elapsed_seconds": 11.311663173139095,
+  "data_digest_verification": {
+    "hits": 62,
+    "misses": 2,
+    "final_full_rereads": 2,
+    "records": {
+      "/hy-tmp/resource_allocation_results/chapter03/compat_legacy_paths/full_spend_revision_20261104/execution/source/allocation23/data/eurosat_rgb/split_manifest.json": {
+        "signature": [
+          66304,
+          106730542,
+          341975,
+          1793374931094393249,
+          1793761912241016680
+        ],
+        "sha256": "3da80902473649ff41d0b92110b03820827983434a45e11f5c1df3d4ac841731"
+      },
+      "/hy-tmp/resource_allocation_results/chapter03/compat_legacy_paths/two_seed_main_ablation_20261104/execution/shared_data/eurosat_rgb/images.npy": {
+        "signature": [
+          66304,
+          4479090841,
+          331776128,
+          1794028116347121024,
+          1794203057305351511
+        ],
+        "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef"
+      }
+    },
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "21ec305cea2bfbf3e86f746ecdd7b01a5e51258447fb9d0de0c9c2be6fb116f9",
+    "evaluation_paths.csv.gz": "f8dc679c242174b3e2be1857341733071e36e269f0c011714eaacdffc38b4b3c",
+    "protocol.json": "c68b77d28e88fd1a70cf8707f2cbaa98e9b71e45958df9b4ee2a1b3d28e3ae5c",
+    "resource_episodes.csv.gz": "c3c82e7d31de9a652e1a31a3a005aaefae3f727bf413c59f027c518cd672010e"
+  }
+}

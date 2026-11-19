@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "reviewer_role": "figure author, actual rendered PDF inspection",
+  "pdf_sha256": "c87682f2ace9f83e8ece918c74497871a82d17dd932f582004fce7fc9cc9d8a1",
+  "image_sha256": "329434081a9fc26471c77a08302a6d55836969ddc442a1d10f29c3087f15a60f",
+  "findings": "Four centered panel titles, axes, errorbars and three-method shared legend visibly readable. No clipping or collisions observed. Original axes and full 156×157mm canvas retained.",
+  "scope": "Single condition figure only; no thesis-page or full-document visual review"
+}

@@ -1,0 +1,138 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "2.6",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter02_high_dimensional/figures/figure02-06_图例与题注间距15bp_20261111",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter02/figures/figure02_06/figure.pdf"
+  ],
+  "files": {
+    "data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0069.csv",
+      "sha256": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244",
+      "bytes": 1667
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter02/figures/figure02_06/figure.pdf",
+      "sha256": "9b68129cfe03c1017f662c5421c947dc71efdbce4abb10dd7f1077422e8e7f4a",
+      "bytes": 29206
+    },
+    "figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0070.png",
+      "sha256": "b69609447a5dbba9fa184589dea740107078d5affb60eae4ad4024660c367c65",
+      "bytes": 149142
+    },
+    "figure.svg": {
+      "path": "chapters/chapter02/figures/inputs/input_0071.svg",
+      "sha256": "346906961598d601b96ec0fd5ec65d7d5d50cf31648c1f8893630ca8c9571898",
+      "bytes": 22640
+    },
+    "inherited_parent_render_manifest.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0072.json",
+      "sha256": "135ca62aa1c51bf03098374e845dbc7498ff622f9b5c0984b2aff9822c6f2300",
+      "bytes": 3151
+    },
+    "inputs/data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0069.csv",
+      "sha256": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244",
+      "bytes": 1667
+    },
+    "local_inputs_sha256.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0073.json",
+      "sha256": "208cabcfd5c4621a24e1080a4505681fed3e2fe7c9b045b285ade84073c0bcd8",
+      "bytes": 599
+    },
+    "local_packaging.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0074.json",
+      "sha256": "014729e8dd9ba31c55a9e935aac297b1c77e27f466671e4e5e55aa62e79d94e1",
+      "bytes": 388
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0075.json",
+      "sha256": "dd62e6b355a56a109e57550bd96bce7ea45cd6c716e93aeed1c5465b1bd03eb9",
+      "bytes": 24944
+    },
+    "plot.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0076.py",
+      "sha256": "ac421a3ff1998d03643f340754864eba1d825de6fba96d8829fb67bf206d800c",
+      "bytes": 1375
+    },
+    "render_geometry.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0077.json",
+      "sha256": "5175e7bf2001acb55840f5d03efa492fd887679de52b21ad245adf0b9209ec55",
+      "bytes": 3708
+    },
+    "render_receipt.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0078.json",
+      "sha256": "9016f7e96f80762aa8eece08e3de0f9035c2579d0c7b581d6bc13ecb4993d69a",
+      "bytes": 355
+    },
+    "replot_sources/parent/data.csv": {
+      "path": "chapters/chapter02/figures/inputs/input_0069.csv",
+      "sha256": "ac11e0cf12e85604b2430b0b3eda167dc377467aa183b1d3c7d73425b7fd6244",
+      "bytes": 1667
+    },
+    "replot_sources/parent/figure.pdf": {
+      "path": "chapters/chapter02/figures/inputs/input_0079.pdf",
+      "sha256": "4cc49aca9d084da0de7803ab7729104799bf7c44f565c3eb95f01cc324815e46",
+      "bytes": 29155
+    },
+    "replot_sources/parent/figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0080.png",
+      "sha256": "4b0d1879d275f8221121b55092b07a4cac5e07f25970bc5c78d2ab9fa5a6fa2c",
+      "bytes": 114639
+    },
+    "replot_sources/parent/plot.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0081.py",
+      "sha256": "7c51bc12637c4c9affc3118f92ff4bb018354eb258bb30ca4e999d23e1b8a2f3",
+      "bytes": 8123
+    },
+    "replot_sources/parent/presentation_layout.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0032.py",
+      "sha256": "a664d7615400324ce1607bf615c4896416a759aa25a6a3e84a4bf6f2b90afcf8",
+      "bytes": 3094
+    },
+    "replot_sources/parent/source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0082.json",
+      "sha256": "c84f643ed35888dbf7147dc2fb8d5dd692dce515945768421a2ec4475720c545",
+      "bytes": 1382
+    },
+    "replot_sources/renderer.py": {
+      "path": "chapters/chapter02/figures/inputs/source_0083.py",
+      "sha256": "e47fa98274487a0a7b263a4639fd34d01e9288dfbb94ab4494e81fe2516f43db",
+      "bytes": 21466
+    },
+    "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0075.json",
+      "sha256": "dd62e6b355a56a109e57550bd96bce7ea45cd6c716e93aeed1c5465b1bd03eb9",
+      "bytes": 24944
+    },
+    "rl_wording_export_evidence_20261114/render_geometry.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0077.json",
+      "sha256": "5175e7bf2001acb55840f5d03efa492fd887679de52b21ad245adf0b9209ec55",
+      "bytes": 3708
+    },
+    "rl_wording_export_evidence_20261114/render_receipt.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0084.json",
+      "sha256": "27cb78d09bf7577c0f6bfbbd0c6a9c4a909ed15aa923ae765116f4c14760e31b",
+      "bytes": 974
+    },
+    "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0085.json",
+      "sha256": "9e54dc652f4a28bcbbd9cb23f96f8fa3e640cd26eeb6795097549809c42f4ad5",
+      "bytes": 779
+    },
+    "source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0086.json",
+      "sha256": "6219d4f99bab3b96b1faa3be52beaed0bdd8a2bf1592e98fdee8be736df77999",
+      "bytes": 3252
+    },
+    "spacing_preservation_proof.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0087.json",
+      "sha256": "17e74bc66d00f5d438dedebc9393cb842e564e47b72966368f32e8317f976e4c",
+      "bytes": 2211
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

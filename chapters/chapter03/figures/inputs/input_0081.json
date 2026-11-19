@@ -1,0 +1,47 @@
+{
+  "schema": "experiment-wording-final-export-20261119",
+  "figure": "3.5",
+  "status": "PASS",
+  "native_renderer_guards_preserved": true,
+  "native_output_checked_before_final_text_layer": true,
+  "approved_review_rgb_exact_scales": [
+    2,
+    4
+  ],
+  "canvas_fonts_axes_data_unchanged": true,
+  "axis_count": 2,
+  "legend_count": 0,
+  "svg_proof": {
+    "svg": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter03_intertemporal/figures/figure03-05_总量与对象分配学习的消融比较/wording_layer_20261119/verified_export/figure.svg",
+    "status": "updated",
+    "mode": "editable_text",
+    "axis_edits": 2,
+    "legend_edits": 0,
+    "changed_axis_labels": 2,
+    "axis_count": 2,
+    "changed_legend_labels": 0,
+    "sha256_before": "8db864f402fb782d8569cf5cfc6edaf502493de72541907b4a67e39afed9f370",
+    "sha256_after": "f0f9664f7d04c7c86346469a851c6892b7e84aa501adcf07e21a9b55ad602ce5",
+    "target_group_ids": [
+      "text_18",
+      "text_6"
+    ],
+    "non_target_xml_unchanged": true,
+    "all_path_geometry_unchanged": true,
+    "page_geometry_unchanged": true,
+    "editable_text_attributes_unchanged": true,
+    "glyph_groups": []
+  },
+  "png_size": [
+    3685,
+    1973
+  ],
+  "png_dpi": 600,
+  "png_rendering": "Approved vector PDF, same DPI and canvas pixel dimensions; only unpainted fractional-edge pixels omitted",
+  "outputs_sha256": {
+    "figure.pdf": "e8852698af4009835a5053a9d9e5b88de43bd31c8533ba52f214c4625dc596cc",
+    "figure.svg": "f0f9664f7d04c7c86346469a851c6892b7e84aa501adcf07e21a9b55ad602ce5",
+    "figure.png": "12bd9cd03b2085558095ff6764f6172387537c211110b5fa0bbbbf17d63858f3"
+  },
+  "scientific_execution": 0
+}

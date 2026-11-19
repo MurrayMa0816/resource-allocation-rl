@@ -1,0 +1,12 @@
+{
+  "schema": "ch5-gpu-runtime-v1",
+  "pid": 800439,
+  "actual_device": "cuda:0",
+  "phase": "complete",
+  "unix_time": 1794004674.933946,
+  "memory_allocated_bytes": 17637888,
+  "memory_reserved_bytes": 69206016,
+  "peak_allocated_bytes": 45167104,
+  "peak_reserved_bytes": 69206016,
+  "learning_steps": 100608
+}

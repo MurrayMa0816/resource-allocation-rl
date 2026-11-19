@@ -1,0 +1,3794 @@
+{
+  "figure_inches": [
+    6.141732283464567,
+    6.181102362204724
+  ],
+  "canvas_px": [
+    1474.015748031496,
+    1483.4645669291338
+  ],
+  "dpi": 240,
+  "texts": [
+    {
+      "key": "ax0.xlabel",
+      "text": "可用发射能量（μJ）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        263.4129015639573,
+        549.4408956692914,
+        575.9129015639573,
+        584.9877706692914
+      ]
+    },
+    {
+      "key": "ax0.ylabel",
+      "text": "平均图像质量得分",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        36.53437500000003,
+        144.2246145013121,
+        69.55000000000004,
+        424.2246145013121
+      ]
+    },
+    {
+      "key": "ax0.title",
+      "text": "(a) 通信可用能量变化",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        255.9129015639573,
+        27.893749999999727,
+        583.4129015639573,
+        64.11249999999973
+      ]
+    },
+    {
+      "key": "ax0.xtick0.1",
+      "text": "384",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        140.27996074823864,
+        505.10756233595805,
+        192.77996074823864,
+        536.107562335958
+      ]
+    },
+    {
+      "key": "ax0.xtick1.1",
+      "text": "480",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        393.41290156395723,
+        505.10756233595805,
+        445.91290156395723,
+        536.107562335958
+      ]
+    },
+    {
+      "key": "ax0.xtick2.1",
+      "text": "576",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        646.545842379676,
+        505.10756233595805,
+        699.045842379676,
+        536.107562335958
+      ]
+    },
+    {
+      "key": "ax0.ytick0.1",
+      "text": "35",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        456.424408463736,
+        117.88333333333337,
+        487.4244084637361
+      ]
+    },
+    {
+      "key": "ax0.ytick1.1",
+      "text": "40",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        354.43117319212433,
+        117.88333333333337,
+        385.43117319212433
+      ]
+    },
+    {
+      "key": "ax0.ytick2.1",
+      "text": "45",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        252.4379379205127,
+        117.88333333333337,
+        283.4379379205127
+      ]
+    },
+    {
+      "key": "ax0.ytick3.1",
+      "text": "50",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        150.44470264890083,
+        117.88333333333337,
+        181.44470264890083
+      ]
+    },
+    {
+      "key": "ax1.xlabel",
+      "text": "相邻两期干扰不变概率（%）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        893.1470380252053,
+        549.4408956692914,
+        1342.3970380252053,
+        582.4408956692914
+      ]
+    },
+    {
+      "key": "ax1.ylabel",
+      "text": "平均图像质量得分",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        734.643511461248,
+        144.2246145013121,
+        767.659136461248,
+        424.2246145013121
+      ]
+    },
+    {
+      "key": "ax1.title",
+      "text": "(b) 通信干扰变化",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        988.0220380252053,
+        27.893749999999727,
+        1247.5220380252053,
+        64.11249999999973
+      ]
+    },
+    {
+      "key": "ax1.xtick0.1",
+      "text": "20",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        847.1390972094866,
+        505.10756233595805,
+        882.1390972094866,
+        536.107562335958
+      ]
+    },
+    {
+      "key": "ax1.xtick1.1",
+      "text": "80",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        1252.1518025146365,
+        505.10756233595805,
+        1287.1518025146365,
+        536.107562335958
+      ]
+    },
+    {
+      "key": "ax1.xtick2.1",
+      "text": "95",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        1353.4674788409243,
+        505.10756233595805,
+        1388.3424788409243,
+        536.107562335958
+      ]
+    },
+    {
+      "key": "ax1.ytick0.1",
+      "text": "40",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        417.4627595503,
+        815.9924697945813,
+        448.4627595503
+      ]
+    },
+    {
+      "key": "ax1.ytick1.1",
+      "text": "45",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        303.6332626675319,
+        815.9924697945813,
+        334.6332626675319
+      ]
+    },
+    {
+      "key": "ax1.ytick2.1",
+      "text": "50",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        189.80376578476375,
+        815.9924697945813,
+        220.80376578476375
+      ]
+    },
+    {
+      "key": "ax1.ytick3.1",
+      "text": "55",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        75.97426890199608,
+        815.9924697945813,
+        106.97426890199608
+      ]
+    },
+    {
+      "key": "ax2.xlabel",
+      "text": "可用柴油总量（升）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        262.1629015639573,
+        1133.1317913385826,
+        577.1629015639573,
+        1165.2567913385826
+      ]
+    },
+    {
+      "key": "ax2.ylabel",
+      "text": "平均需求完成比例（%）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        36.862500000000026,
+        678.2905101706035,
+        69.55000000000004,
+        1057.5405101706035
+      ]
+    },
+    {
+      "key": "ax2.title",
+      "text": "(c) 柴油可用总量变化",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        255.9129015639573,
+        611.6002706692911,
+        583.4129015639573,
+        647.8033956692911
+      ]
+    },
+    {
+      "key": "ax2.xtick0.1",
+      "text": "16128",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        122.65496074823852,
+        1088.7984580052494,
+        210.40496074823852,
+        1119.7984580052494
+      ]
+    },
+    {
+      "key": "ax2.xtick1.1",
+      "text": "20160",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        375.8504015639571,
+        1088.7984580052494,
+        463.4754015639571,
+        1119.7984580052494
+      ]
+    },
+    {
+      "key": "ax2.xtick2.1",
+      "text": "24192",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        629.0458423796758,
+        1088.7984580052494,
+        716.5458423796758,
+        1119.7984580052494
+      ]
+    },
+    {
+      "key": "ax2.ytick0.1",
+      "text": "64",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        981.0549500924476,
+        117.88333333333337,
+        1012.0549500924476
+      ]
+    },
+    {
+      "key": "ax2.ytick1.1",
+      "text": "72",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        881.4962799602947,
+        117.88333333333337,
+        912.4962799602947
+      ]
+    },
+    {
+      "key": "ax2.ytick2.1",
+      "text": "80",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        781.9376098281418,
+        117.88333333333337,
+        812.9376098281418
+      ]
+    },
+    {
+      "key": "ax2.ytick3.1",
+      "text": "88",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        82.88333333333337,
+        682.378939695989,
+        117.88333333333337,
+        713.378939695989
+      ]
+    },
+    {
+      "key": "ax3.xlabel",
+      "text": "新增需求出现时间",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        977.7720380252053,
+        1172.0099163385826,
+        1257.7720380252053,
+        1204.8380413385826
+      ]
+    },
+    {
+      "key": "ax3.ylabel",
+      "text": "平均需求完成比例（%）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        734.971636461248,
+        678.2905101706035,
+        767.659136461248,
+        1057.5405101706035
+      ]
+    },
+    {
+      "key": "ax3.title",
+      "text": "(d) 柴油需求出现时间变化",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        918.0845380252053,
+        611.6002706692911,
+        1317.4595380252053,
+        647.8033956692911
+      ]
+    },
+    {
+      "key": "ax3.xtick0.1",
+      "text": "原顺序",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        812.1390972094865,
+        1088.7984580052494,
+        917.1390972094865,
+        1121.4390830052494
+      ]
+    },
+    {
+      "key": "ax3.xtick1.1",
+      "text": "后段提前",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        1047.7720380252053,
+        1088.7984580052494,
+        1187.7720380252053,
+        1120.8765830052494
+      ]
+    },
+    {
+      "key": "ax3.xtick2.1",
+      "text": "后段移至\n中段",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "center",
+      "box": [
+        1300.904978840924,
+        1088.7984580052494,
+        1440.904978840924,
+        1158.6765830052493
+      ]
+    },
+    {
+      "key": "ax3.ytick0.1",
+      "text": "68",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        1037.384165931563,
+        815.9924697945813,
+        1068.384165931563
+      ]
+    },
+    {
+      "key": "ax3.ytick1.1",
+      "text": "72",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        927.5463642101402,
+        815.9924697945813,
+        958.5463642101402
+      ]
+    },
+    {
+      "key": "ax3.ytick2.1",
+      "text": "76",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        817.708562488717,
+        815.9924697945813,
+        848.708562488717
+      ]
+    },
+    {
+      "key": "ax3.ytick3.1",
+      "text": "80",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "right",
+      "box": [
+        780.9924697945813,
+        707.8707607672943,
+        815.9924697945813,
+        738.8707607672943
+      ]
+    },
+    {
+      "key": "legend0.0",
+      "text": "ReJoP（本文）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "left",
+      "box": [
+        287.19537401574803,
+        1300.2081791338583,
+        516.570374015748,
+        1332.5050541338583
+      ]
+    },
+    {
+      "key": "legend0.1",
+      "text": "按剩余期数均分",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "left",
+      "box": [
+        287.19537401574803,
+        1350.0050541338583,
+        532.195374015748,
+        1382.5988041338583
+      ]
+    },
+    {
+      "key": "legend0.2",
+      "text": "直接预测本期总量",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "left",
+      "box": [
+        287.19537401574803,
+        1400.0988041338583,
+        567.195374015748,
+        1432.8956791338583
+      ]
+    },
+    {
+      "key": "legend0.3",
+      "text": "C-PPO（通信）/Gradient PPO（柴油）",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "left",
+      "box": [
+        665.195374015748,
+        1299.8644291338583,
+        1249.820374015748,
+        1332.5050541338583
+      ]
+    },
+    {
+      "key": "legend0.4",
+      "text": "总量仅看资源与时间",
+      "font_size": 10.5,
+      "font_family": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "weight": "normal",
+      "ha": "left",
+      "box": [
+        665.195374015748,
+        1350.0050541338583,
+        980.195374015748,
+        1383.0831791338583
+      ]
+    }
+  ],
+  "science": [
+    {
+      "position": [
+        0.09580404202279205,
+        0.6752371173920736,
+        0.37780632299098194,
+        0.2663354675336166
+      ],
+      "xlim": [
+        374.4,
+        585.6
+      ],
+      "ylim": [
+        34.345553628956985,
+        53.71444745561427
+      ],
+      "lines": [
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                44.98957730951445
+              ],
+              [
+                480.0,
+                48.92485533074171
+              ],
+              [
+                576.0,
+                51.94095979139142
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "-",
+          "marker": "o",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                44.5198206220231
+              ],
+              [
+                480.0,
+                48.20165024122567
+              ],
+              [
+                576.0,
+                51.048735122178726
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                45.45933399700581
+              ],
+              [
+                480.0,
+                49.64806042025774
+              ],
+              [
+                576.0,
+                52.833184460604116
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                35.858713879512436
+              ],
+              [
+                480.0,
+                40.21134501152052
+              ],
+              [
+                576.0,
+                43.671668616190466
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "-",
+          "marker": "s",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                35.225957893805045
+              ],
+              [
+                480.0,
+                39.531715627923546
+              ],
+              [
+                576.0,
+                42.780851156049856
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                36.49146986521983
+              ],
+              [
+                480.0,
+                40.890974395117496
+              ],
+              [
+                576.0,
+                44.562486076331076
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                44.53950905073844
+              ],
+              [
+                480.0,
+                48.75772357451187
+              ],
+              [
+                576.0,
+                51.57971415049599
+              ]
+            ]
+          },
+          "color": "#7B5EA7",
+          "style": "-",
+          "marker": "^",
+          "markerfacecolor": "#7B5EA7",
+          "markeredgecolor": "#7B5EA7",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                43.91094407871025
+              ],
+              [
+                480.0,
+                47.82499098590377
+              ],
+              [
+                576.0,
+                50.32538511022577
+              ]
+            ]
+          },
+          "color": "#7B5EA7",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#7B5EA7",
+          "markeredgecolor": "#7B5EA7",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                45.168074022766625
+              ],
+              [
+                480.0,
+                49.690456163119975
+              ],
+              [
+                576.0,
+                52.83404319076621
+              ]
+            ]
+          },
+          "color": "#7B5EA7",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#7B5EA7",
+          "markeredgecolor": "#7B5EA7",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                40.453606437540046
+              ],
+              [
+                480.0,
+                46.64716186036499
+              ],
+              [
+                576.0,
+                51.798253061781836
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "-",
+          "marker": "D",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                39.52391557484968
+              ],
+              [
+                480.0,
+                45.79652387156256
+              ],
+              [
+                576.0,
+                50.964179525780445
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                384.0,
+                41.38329730023041
+              ],
+              [
+                480.0,
+                47.497799849167414
+              ],
+              [
+                576.0,
+                52.632326597783226
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    384.0,
+                    44.5198206220231
+                  ],
+                  [
+                    384.0,
+                    45.45933399700581
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    480.0,
+                    48.20165024122567
+                  ],
+                  [
+                    480.0,
+                    49.64806042025774
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    576.0,
+                    51.048735122178726
+                  ],
+                  [
+                    576.0,
+                    52.833184460604116
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.0,
+                0.4470588235294118,
+                0.6980392156862745,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    384.0,
+                    35.225957893805045
+                  ],
+                  [
+                    384.0,
+                    36.49146986521983
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    480.0,
+                    39.531715627923546
+                  ],
+                  [
+                    480.0,
+                    40.890974395117496
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    576.0,
+                    42.780851156049856
+                  ],
+                  [
+                    576.0,
+                    44.562486076331076
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.8352941176470589,
+                0.3686274509803922,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    384.0,
+                    43.91094407871025
+                  ],
+                  [
+                    384.0,
+                    45.168074022766625
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    480.0,
+                    47.82499098590377
+                  ],
+                  [
+                    480.0,
+                    49.690456163119975
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    576.0,
+                    50.32538511022577
+                  ],
+                  [
+                    576.0,
+                    52.83404319076621
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.4823529411764706,
+                0.3686274509803922,
+                0.6549019607843137,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    384.0,
+                    39.52391557484968
+                  ],
+                  [
+                    384.0,
+                    41.38329730023041
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    480.0,
+                    45.79652387156256
+                  ],
+                  [
+                    480.0,
+                    47.497799849167414
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    576.0,
+                    50.964179525780445
+                  ],
+                  [
+                    576.0,
+                    52.632326597783226
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": []
+    },
+    {
+      "position": [
+        0.5694144070365661,
+        0.6752371173920736,
+        0.37780632299098194,
+        0.2663354675336166
+      ],
+      "xlim": [
+        16.25,
+        98.75
+      ],
+      "ylim": [
+        37.70220062089004,
+        55.057070835661094
+      ],
+      "lines": [
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                53.448691760235896
+              ],
+              [
+                80.0,
+                48.92485533074171
+              ],
+              [
+                95.0,
+                44.91529118496541
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "-",
+          "marker": "o",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                52.62917042184574
+              ],
+              [
+                80.0,
+                48.20165024122567
+              ],
+              [
+                95.0,
+                43.9940611030503
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                54.26821309862605
+              ],
+              [
+                80.0,
+                49.64806042025774
+              ],
+              [
+                95.0,
+                45.836521266880524
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                42.14850962489347
+              ],
+              [
+                80.0,
+                40.21134501152052
+              ],
+              [
+                95.0,
+                39.79567328092155
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "-",
+          "marker": "s",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                41.58073291603596
+              ],
+              [
+                80.0,
+                39.531715627923546
+              ],
+              [
+                95.0,
+                38.70479097524338
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                42.71628633375098
+              ],
+              [
+                80.0,
+                40.890974395117496
+              ],
+              [
+                95.0,
+                40.88655558659972
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                42.832952572411266
+              ],
+              [
+                80.0,
+                40.85859080604213
+              ],
+              [
+                95.0,
+                40.27166731150829
+              ]
+            ]
+          },
+          "color": "#009E73",
+          "style": "-",
+          "marker": "^",
+          "markerfacecolor": "#009E73",
+          "markeredgecolor": "#009E73",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                41.62084172830772
+              ],
+              [
+                80.0,
+                39.48216875210675
+              ],
+              [
+                95.0,
+                38.491058357925084
+              ]
+            ]
+          },
+          "color": "#009E73",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#009E73",
+          "markeredgecolor": "#009E73",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                44.045063416514814
+              ],
+              [
+                80.0,
+                42.23501285997751
+              ],
+              [
+                95.0,
+                42.05227626509149
+              ]
+            ]
+          },
+          "color": "#009E73",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#009E73",
+          "markeredgecolor": "#009E73",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                51.681537720770734
+              ],
+              [
+                80.0,
+                46.64716186036499
+              ],
+              [
+                95.0,
+                41.24671984126881
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "-",
+          "marker": "D",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                50.68685962841784
+              ],
+              [
+                80.0,
+                45.79652387156256
+              ],
+              [
+                95.0,
+                40.53191449074167
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                20.0,
+                52.676215813123626
+              ],
+              [
+                80.0,
+                47.497799849167414
+              ],
+              [
+                95.0,
+                41.96152519179596
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20.0,
+                    52.62917042184574
+                  ],
+                  [
+                    20.0,
+                    54.26821309862605
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    80.0,
+                    48.20165024122567
+                  ],
+                  [
+                    80.0,
+                    49.64806042025774
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    95.0,
+                    43.9940611030503
+                  ],
+                  [
+                    95.0,
+                    45.836521266880524
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.0,
+                0.4470588235294118,
+                0.6980392156862745,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20.0,
+                    41.58073291603596
+                  ],
+                  [
+                    20.0,
+                    42.71628633375098
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    80.0,
+                    39.531715627923546
+                  ],
+                  [
+                    80.0,
+                    40.890974395117496
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    95.0,
+                    38.70479097524338
+                  ],
+                  [
+                    95.0,
+                    40.88655558659972
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.8352941176470589,
+                0.3686274509803922,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20.0,
+                    41.62084172830772
+                  ],
+                  [
+                    20.0,
+                    44.045063416514814
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    80.0,
+                    39.48216875210675
+                  ],
+                  [
+                    80.0,
+                    42.23501285997751
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    95.0,
+                    38.491058357925084
+                  ],
+                  [
+                    95.0,
+                    42.05227626509149
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.0,
+                0.6196078431372549,
+                0.45098039215686275,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20.0,
+                    50.68685962841784
+                  ],
+                  [
+                    20.0,
+                    52.676215813123626
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    80.0,
+                    45.79652387156256
+                  ],
+                  [
+                    80.0,
+                    47.497799849167414
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    95.0,
+                    40.53191449074167
+                  ],
+                  [
+                    95.0,
+                    41.96152519179596
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": []
+    },
+    {
+      "position": [
+        0.09580404202279205,
+        0.28177244780608635,
+        0.37780632299098194,
+        0.2663354675336165
+      ],
+      "xlim": [
+        15724.8,
+        24595.2
+      ],
+      "ylim": [
+        58.18150728744352,
+        89.92955924339473
+      ],
+      "lines": [
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                67.09328890227509
+              ],
+              [
+                20160.0,
+                78.99857129640127
+              ],
+              [
+                24192.0,
+                86.30203105593316
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "-",
+          "marker": "o",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                65.7940816422214
+              ],
+              [
+                20160.0,
+                77.83647334533448
+              ],
+              [
+                24192.0,
+                84.11759613919664
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                68.39249616232878
+              ],
+              [
+                20160.0,
+                80.16066924746805
+              ],
+              [
+                24192.0,
+                88.48646597266968
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                61.07245749312723
+              ],
+              [
+                20160.0,
+                69.27937707454397
+              ],
+              [
+                24192.0,
+                75.6035055911799
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "-",
+          "marker": "s",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                59.62460055816858
+              ],
+              [
+                20160.0,
+                68.06839529174722
+              ],
+              [
+                24192.0,
+                74.69977761113294
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                62.52031442808588
+              ],
+              [
+                20160.0,
+                70.49035885734072
+              ],
+              [
+                24192.0,
+                76.50723357122685
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                66.01745169640792
+              ],
+              [
+                20160.0,
+                77.59658457616277
+              ],
+              [
+                24192.0,
+                84.52961480745128
+              ]
+            ]
+          },
+          "color": "#7B5EA7",
+          "style": "-",
+          "marker": "^",
+          "markerfacecolor": "#7B5EA7",
+          "markeredgecolor": "#7B5EA7",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                64.2758134450181
+              ],
+              [
+                20160.0,
+                75.91817185657531
+              ],
+              [
+                24192.0,
+                82.13753435839693
+              ]
+            ]
+          },
+          "color": "#7B5EA7",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#7B5EA7",
+          "markeredgecolor": "#7B5EA7",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                67.75908994779773
+              ],
+              [
+                20160.0,
+                79.27499729575023
+              ],
+              [
+                24192.0,
+                86.92169525650563
+              ]
+            ]
+          },
+          "color": "#7B5EA7",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#7B5EA7",
+          "markeredgecolor": "#7B5EA7",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                64.98813792073322
+              ],
+              [
+                20160.0,
+                75.54460005892585
+              ],
+              [
+                24192.0,
+                83.26245547845438
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "-",
+          "marker": "D",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                64.80215198001495
+              ],
+              [
+                20160.0,
+                75.19435011505632
+              ],
+              [
+                24192.0,
+                82.54529593866702
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                16128.0,
+                65.17412386145149
+              ],
+              [
+                20160.0,
+                75.89485000279538
+              ],
+              [
+                24192.0,
+                83.97961501824174
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    16128.0,
+                    65.7940816422214
+                  ],
+                  [
+                    16128.0,
+                    68.39249616232878
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20160.0,
+                    77.83647334533448
+                  ],
+                  [
+                    20160.0,
+                    80.16066924746805
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    24192.0,
+                    84.11759613919664
+                  ],
+                  [
+                    24192.0,
+                    88.48646597266968
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.0,
+                0.4470588235294118,
+                0.6980392156862745,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    16128.0,
+                    59.62460055816858
+                  ],
+                  [
+                    16128.0,
+                    62.52031442808588
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20160.0,
+                    68.06839529174722
+                  ],
+                  [
+                    20160.0,
+                    70.49035885734072
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    24192.0,
+                    74.69977761113294
+                  ],
+                  [
+                    24192.0,
+                    76.50723357122685
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.8352941176470589,
+                0.3686274509803922,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    16128.0,
+                    64.2758134450181
+                  ],
+                  [
+                    16128.0,
+                    67.75908994779773
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20160.0,
+                    75.91817185657531
+                  ],
+                  [
+                    20160.0,
+                    79.27499729575023
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    24192.0,
+                    82.13753435839693
+                  ],
+                  [
+                    24192.0,
+                    86.92169525650563
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.4823529411764706,
+                0.3686274509803922,
+                0.6549019607843137,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    16128.0,
+                    64.80215198001495
+                  ],
+                  [
+                    16128.0,
+                    65.17412386145149
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    20160.0,
+                    75.19435011505632
+                  ],
+                  [
+                    20160.0,
+                    75.89485000279538
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    24192.0,
+                    82.54529593866702
+                  ],
+                  [
+                    24192.0,
+                    83.97961501824174
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": []
+    },
+    {
+      "position": [
+        0.5694144070365661,
+        0.28177244780608635,
+        0.37780632299098194,
+        0.2663354675336165
+      ],
+      "xlim": [
+        -0.1,
+        2.1
+      ],
+      "ylim": [
+        67.41437434149898,
+        81.80283524696024
+      ],
+      "lines": [
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                78.99857129640127
+              ],
+              [
+                1.0,
+                79.16570417277482
+              ],
+              [
+                2.0,
+                79.61843455392544
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "-",
+          "marker": "o",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                77.83647334533448
+              ],
+              [
+                1.0,
+                77.40567495578344
+              ],
+              [
+                2.0,
+                78.08805481113887
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                80.16066924746805
+              ],
+              [
+                1.0,
+                80.92573338976621
+              ],
+              [
+                2.0,
+                81.148814296712
+              ]
+            ]
+          },
+          "color": "#0072B2",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#0072B2",
+          "markeredgecolor": "#0072B2",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                69.27937707454397
+              ],
+              [
+                1.0,
+                74.79512669032442
+              ],
+              [
+                2.0,
+                76.51883257511216
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "-",
+          "marker": "s",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                68.06839529174722
+              ],
+              [
+                1.0,
+                72.4932927229017
+              ],
+              [
+                2.0,
+                75.84201973026413
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                70.49035885734072
+              ],
+              [
+                1.0,
+                77.09696065774715
+              ],
+              [
+                2.0,
+                77.19564541996019
+              ]
+            ]
+          },
+          "color": "#D55E00",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#D55E00",
+          "markeredgecolor": "#D55E00",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                79.21648287332398
+              ],
+              [
+                1.0,
+                77.6663711856813
+              ],
+              [
+                2.0,
+                78.62243041315105
+              ]
+            ]
+          },
+          "color": "#009E73",
+          "style": "-",
+          "marker": "^",
+          "markerfacecolor": "#009E73",
+          "markeredgecolor": "#009E73",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                78.15761239293786
+              ],
+              [
+                1.0,
+                76.39955337059982
+              ],
+              [
+                2.0,
+                77.36041097571682
+              ]
+            ]
+          },
+          "color": "#009E73",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#009E73",
+          "markeredgecolor": "#009E73",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                80.2753533537101
+              ],
+              [
+                1.0,
+                78.93318900076278
+              ],
+              [
+                2.0,
+                79.88444985058528
+              ]
+            ]
+          },
+          "color": "#009E73",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#009E73",
+          "markeredgecolor": "#009E73",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                75.54460005892585
+              ],
+              [
+                1.0,
+                75.91163780637957
+              ],
+              [
+                2.0,
+                75.95472541745846
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "-",
+          "marker": "D",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                75.19435011505632
+              ],
+              [
+                1.0,
+                75.50123141617655
+              ],
+              [
+                2.0,
+                75.53235886609475
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        },
+        {
+          "xy": {
+            "shape": [
+              3,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                75.89485000279538
+              ],
+              [
+                1.0,
+                76.3220441965826
+              ],
+              [
+                2.0,
+                76.37709196882217
+              ]
+            ]
+          },
+          "color": "#555555",
+          "style": "None",
+          "marker": "_",
+          "markerfacecolor": "#555555",
+          "markeredgecolor": "#555555",
+          "linewidth": 1.1,
+          "alpha": null
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    0.0,
+                    77.83647334533448
+                  ],
+                  [
+                    0.0,
+                    80.16066924746805
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    1.0,
+                    77.40567495578344
+                  ],
+                  [
+                    1.0,
+                    80.92573338976621
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    2.0,
+                    78.08805481113887
+                  ],
+                  [
+                    2.0,
+                    81.148814296712
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.0,
+                0.4470588235294118,
+                0.6980392156862745,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    0.0,
+                    68.06839529174722
+                  ],
+                  [
+                    0.0,
+                    70.49035885734072
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    1.0,
+                    72.4932927229017
+                  ],
+                  [
+                    1.0,
+                    77.09696065774715
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    2.0,
+                    75.84201973026413
+                  ],
+                  [
+                    2.0,
+                    77.19564541996019
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.8352941176470589,
+                0.3686274509803922,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    0.0,
+                    78.15761239293786
+                  ],
+                  [
+                    0.0,
+                    80.2753533537101
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    1.0,
+                    76.39955337059982
+                  ],
+                  [
+                    1.0,
+                    78.93318900076278
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    2.0,
+                    77.36041097571682
+                  ],
+                  [
+                    2.0,
+                    79.88444985058528
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.0,
+                0.6196078431372549,
+                0.45098039215686275,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    0.0,
+                    75.19435011505632
+                  ],
+                  [
+                    0.0,
+                    75.89485000279538
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    1.0,
+                    75.50123141617655
+                  ],
+                  [
+                    1.0,
+                    76.3220441965826
+                  ]
+                ]
+              },
+              "codes": null
+            },
+            {
+              "vertices": {
+                "shape": [
+                  2,
+                  2
+                ],
+                "values": [
+                  [
+                    2.0,
+                    75.53235886609475
+                  ],
+                  [
+                    2.0,
+                    76.37709196882217
+                  ]
+                ]
+              },
+              "codes": null
+            }
+          ],
+          "facecolors": {
+            "shape": [
+              0,
+              4
+            ],
+            "values": []
+          },
+          "edgecolors": {
+            "shape": [
+              1,
+              4
+            ],
+            "values": [
+              [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333,
+                1.0
+              ]
+            ]
+          },
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          "alpha": null
+        }
+      ],
+      "patches": [],
+      "images": []
+    }
+  ],
+  "legend_boxes": [
+    [
+      210.19537401574803,
+      1285.8644291338583,
+      1263.820374015748,
+      1446.8956791338583
+    ]
+  ],
+  "spacing": {
+    "xlabel_to_legend_pt": 24.77066633858267,
+    "legend_ink_to_canvas_bottom_pt": 15.170666338582675,
+    "legend_to_caption_estimate_pt": 24.770666338582675,
+    "caption_extra_pt": 9.6
+  }
+}

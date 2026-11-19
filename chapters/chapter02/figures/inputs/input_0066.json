@@ -1,0 +1,55 @@
+{
+  "figure": "2.5",
+  "entrypoint": "plot.py",
+  "returncode": 0,
+  "original_native_guards_retained": true,
+  "current_formal_outputs_preserved": true,
+  "final_export_receipt": {
+    "schema": "experiment-wording-final-export-20261119",
+    "figure": "2.5",
+    "status": "PASS",
+    "native_renderer_guards_preserved": true,
+    "native_output_checked_before_final_text_layer": true,
+    "approved_review_rgb_exact_scales": [
+      2,
+      4
+    ],
+    "canvas_fonts_axes_data_unchanged": true,
+    "axis_count": 2,
+    "legend_count": 1,
+    "svg_proof": {
+      "svg": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter02_high_dimensional/figures/figure02-05_图例与题注间距15bp_20261111/wording_layer_20261119/reproduction_final/figure.svg",
+      "status": "updated",
+      "mode": "editable_text",
+      "axis_edits": 2,
+      "legend_edits": 1,
+      "changed_axis_labels": 2,
+      "axis_count": 2,
+      "changed_legend_labels": 1,
+      "sha256_before": "fe18e7c4bbb6505fa559cc0e85b82394a1b1a07aa5592ee8bc9bacb8c2387353",
+      "sha256_after": "42135347433aabc5a7f5110a2543d224b6dcc6bff2be5e8da97510bb781bd254",
+      "target_group_ids": [
+        "text_18",
+        "text_27",
+        "text_6"
+      ],
+      "non_target_xml_unchanged": true,
+      "all_path_geometry_unchanged": true,
+      "page_geometry_unchanged": true,
+      "editable_text_attributes_unchanged": true,
+      "glyph_groups": []
+    },
+    "png_size": [
+      1842,
+      946
+    ],
+    "png_dpi": 300,
+    "png_rendering": "Approved vector PDF, same DPI and canvas pixel dimensions; only unpainted fractional-edge pixels omitted",
+    "outputs_sha256": {
+      "figure.pdf": "75e4c7c37a09ecf68d84b69f59d9b38ea9ff474b6ebbcaa8cc4ffe8109c8525f",
+      "figure.svg": "42135347433aabc5a7f5110a2543d224b6dcc6bff2be5e8da97510bb781bd254",
+      "figure.png": "ed85e722314286298437cfa0208966ceef9a2541e51ddb82761d3f71b7da873a"
+    },
+    "scientific_execution": 0
+  }
+}

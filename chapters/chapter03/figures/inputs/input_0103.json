@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "number": "3.6",
+  "outputs_sha256": {
+    "figure.pdf": "3922399979c0173a6618f71e482e089446e7c952f71dd7cb35533585f78f1b86",
+    "figure.png": "2e451cd47d7289123d89c8efce3325dd878668938f6d377863a0e185bed835c3",
+    "figure.svg": "ed630f2750b4d790655f77d94fcd90e8ed62e138cc5328265684be933da706a1",
+    "render_geometry.json": "7d01582d43f445abf35e6e6ef370cb5b85d4af4e249acd3df3603e07bc234e15",
+    "numeric_artist_values_before_after.json": "a9afc6c08240fd9d98daa8774a99955532a128cb08af8337f15a6a24c9460110",
+    "source.json": "49fea6e62eee0a36f5211d056b6955a2faf87169586c06e96fdb94d44193156b",
+    "plot.py": "ccd5b03edb864fbb4ebd6f5ba18983d14c4ffe60d6afcab4cebe50bfcc8366c8"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "training_runs": 0,
+  "thesis_builds": 0,
+  "scope": "Offline wording of three subplot titles, two x-axis labels, and two categorical tick labels; protected scientific renderer and data unchanged.",
+  "active_renderer_sha256": "5f51e63a1d43d6e150264263e22ebd701a16bf23c11b19e3898d76aff54b793d"
+}

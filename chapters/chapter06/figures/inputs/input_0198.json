@@ -1,0 +1,74 @@
+{
+  "schema": "chapter6-spacing-derivative-v1",
+  "number": "6.5",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison",
+  "parent_pdf_sha256": "890d39c951dbba3953efff6338517790a7d908cac3ca88bf87a762436396aa78",
+  "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter6.py",
+  "renderer_sha256": "f585c53280987141914c275d122d87aec5475fbe5042e717244bc8fd0583859d",
+  "accepted_renderer": "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/source/paper_learning_comparison_final.py",
+  "source_csv_sha256": {
+    "learning_all3_seed_DEV.csv": "684ee59e1ab6dda19ebd642109f5b123beedba4f7d45996f20baa7459b479ee7",
+    "learning_mean_sample_SD.csv": "3e195d5266c49ce23b9691a65c76fc169adf101a8c85d5ba1ca1075004c4647c",
+    "all7488_DEV_cases.csv": "f6c068711237324946501ef9a3866e910fd4db0b2dca86a655219899d8687944"
+  },
+  "parent_files_sha256": {
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/learning_all3_seed_DEV.csv": "684ee59e1ab6dda19ebd642109f5b123beedba4f7d45996f20baa7459b479ee7",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/learning_mean_sample_SD.csv": "3e195d5266c49ce23b9691a65c76fc169adf101a8c85d5ba1ca1075004c4647c",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/all7488_DEV_cases.csv": "f6c068711237324946501ef9a3866e910fd4db0b2dca86a655219899d8687944",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/figure.pdf": "890d39c951dbba3953efff6338517790a7d908cac3ca88bf87a762436396aa78",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/figure.svg": "2113b5723a93e3e6b0a9c874723ad7f8e0eff9a8068e40545fde0eeab4dacbf7",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/figure.png": "01b403e3c74316c059618cb48f68e30f9d90ead76e81edb4d3cf3b5d4a7e1c68",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/render_geometry.json": "b99b5a852b081d0fc2f81e45e48fe3669de0ca51a139406322f113852dc71b8e",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/source.json": "26ff8a3e132f1fbe636ab2fb3dae1289af6bcace30a50a8bb6a0b85b67696bea",
+    "/hy-tmp/resource_allocation_results/chapter06/paper_revisions/learning_comparison_publication_20261109_230111/figures/learning_comparison/plot.py": "de3af5b8f214df51adf117c568e9ab82d60b7760943662a242b6d5e3103f53ce"
+  },
+  "all_parent_files_unchanged": true,
+  "science_before_after_digest": "da946e80cb78b78a64772104b17a964172146284a6131fe531a7cff425f05d14",
+  "numeric_identity": true,
+  "output_sha256": {
+    "figure.pdf": "4baa529a9861517675884067f8f7eefd675ae8858168d9f518d6b764731b8c3f",
+    "figure.png": "715121de57e9a643b337841cb5ab32ca80b1e3a55a8c31524f5f156a1e503434",
+    "figure.svg": "df1dec1baf5d2fbd73f2f011922b3418987f2bf1537d431dc39074307197438c"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inference": 0,
+  "training_runs": 0,
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter06_irrigation/figures/figure06-05_学习方法配置成效比较_20261109/plot_horizontal15.py",
+    "active_editable_source": "chapters/chapter06_irrigation/figures/figure06-05_学习方法配置成效比较_20261109/plot_horizontal15.py",
+    "active_program_sha256": "bf7560caea4ea96fc6f98cc4a5fc006856e1e435f1f77703cd52bf185dc92557",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "capture_stage_directory": "rendered/'accepted_stage'/'figure'",
+    "selected_output_files": {
+      "pdf": "horizontal15.pdf",
+      "svg": "horizontal15.svg",
+      "png": "horizontal15.png"
+    },
+    "selected_outputs_sha256": {
+      "horizontal15.pdf": "57e619421bf9fd78f7b609ae49b042c9d95d2ed786e2fc86c7739d208382a322",
+      "horizontal15.svg": "88a6e2e21fb207db8243241e54b4821c5b88f2e3f4241ac6c53ac97b4764cde0",
+      "horizontal15.png": "a99f84da7fc385333de013ba4a8c305ca380a93879d8b289f96bbac7e446b805"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/horizontal15_geometry.json",
+      "rl_wording_export_evidence_20261114/horizontal15_numeric_artists.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "b7b5e045bfc885ddc18193bbe4a75ce3bf6eac33ddfdae24d3ba7c0d62fd0024",
+      "rl_wording_export_evidence_20261114/horizontal15_geometry.json": "6d6bc6dc23e343de5e4ecdd95615cba3c1a893c8696f9dbcea4f2f7d7907ac8b",
+      "rl_wording_export_evidence_20261114/horizontal15_numeric_artists.json": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "current_graphics_sha256": {
+    "horizontal15.pdf": "57e619421bf9fd78f7b609ae49b042c9d95d2ed786e2fc86c7739d208382a322",
+    "horizontal15.svg": "88a6e2e21fb207db8243241e54b4821c5b88f2e3f4241ac6c53ac97b4764cde0",
+    "horizontal15.png": "a99f84da7fc385333de013ba4a8c305ca380a93879d8b289f96bbac7e446b805"
+  }
+}

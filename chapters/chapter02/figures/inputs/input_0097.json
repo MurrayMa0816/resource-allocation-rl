@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "number": "2.7",
+  "outputs_sha256": {
+    "figure.pdf": "40d75a7f20fdecc3bee222da691ce37745f89ee5f20909192fdfab881584ca0c",
+    "figure.svg": "22a6a7e92201435024a9fe3b176271c13f43876c07640a0cf5734c49ec453293",
+    "figure.png": "335d16b916633d82a1f5ce0e25200f56c639f87a4e860c290b6840b83ca4685c"
+  },
+  "scientific_execution": 0,
+  "wording_precision_revision_20261112": {
+    "audit": "docs/chapter2_wording_precision_five_rounds_20261112/initial_figure_changes.json",
+    "renderer_sha256": "abfebc7e9ef217ed319f6ead8111abc591b20c3196a42637b5403ca7ac7d4254",
+    "numeric_artist_sha256": "9443b8b783d8f3ce733514a7183d512367e631d6fa22e32d6ba560e40545d284",
+    "render_geometry_sha256": "eb29d19b6539cf995c00e84819476c09621c234ad555ff9ee22241fcd49149bd",
+    "offline_render_calls": 2,
+    "first_candidate_accepted": false,
+    "accepted_final_canvas_unchanged": true
+  }
+}

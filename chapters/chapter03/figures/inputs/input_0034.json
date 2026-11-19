@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "number": "3.4",
+  "restored_axes_mm": [
+    59.71280923952941,
+    51.44177823
+  ],
+  "canvas_mm": [
+    156.0,
+    85.03773936014217
+  ],
+  "all_original_CSV_arrays_SHA_exact": {
+    "display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+    "data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "inputs/data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "inputs/display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+    "replot_sources/parent/display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+    "replot_sources/parent/data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "replot_sources/parent/inputs/data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "replot_sources/parent/inputs/display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+    "replot_sources/native_inputs/data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "replot_sources/native_inputs/display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b"
+  },
+  "all_scientific_artist_arrays_styles_equal": true,
+  "all_original_PDF_text_font_sizes_equal": true,
+  "xlabel_to_legend_ink_bp": 15.0,
+  "xlabel_to_legend_text_frame_bp": 12.991119384765625,
+  "ink_DPI": 720,
+  "legend_to_file_bottom_mm": 2.000001737806532,
+  "subtitle_to_file_top_mm": 1.5000043312708538,
+  "upper_xlabel_to_lower_subtitle_bp": null,
+  "source_restoration_phase_verified_before_spacing": "/hy-tmp/resource_allocation_results/chapter03/layout_restore_20261111/audit/stat_native_stage2_verified.json",
+  "scientific_execution": 0,
+  "builds": 0,
+  "legend_internal_row_spacing_exact_to_original": true,
+  "SVG_random_IDs_fixed_without_artist_geometry_changes": true
+}

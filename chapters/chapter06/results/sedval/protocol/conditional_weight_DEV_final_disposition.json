@@ -1,0 +1,24 @@
+{
+  "schema": "reasonable89-conditional-DEV-disposition-v1",
+  "status": "COMPLETE_ARCHIVED_UNPROMOTED_QUALITY_UNREAD",
+  "at": "2026-11-09T04:55:08.471319+08:00",
+  "primary_decision": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/primary_fixed3200_decision.json",
+    "sha256": "4f1e6aa85e717bf9f01aad6cbdcadc09fdab0b77e668822370af3348f3545898"
+  },
+  "blind_completion": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/development_contingency_weights/audit/blind_completion.json",
+    "sha256": "86c1947573b7e1acf7970d3378b153182e17ad017c6cfd5f15af1b45db4e03fe"
+  },
+  "primary_TEST_release": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/test_release.json",
+    "sha256": "52258e195c63392971ed1ddd8f08e1f981fab40b2341146494f550641c08892c"
+  },
+  "formal_inclusion": false,
+  "backup_models_or_performance_read_for_selection": false,
+  "backup_performance_added_to_paper": false,
+  "primary_main_budget_m3": 4000000,
+  "primary_lambda": 0.2,
+  "no_additional_training_or_TEST_authorized_by_this_disposition": true,
+  "retain_for_provenance": true
+}

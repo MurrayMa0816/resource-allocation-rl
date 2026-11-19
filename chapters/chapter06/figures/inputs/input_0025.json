@@ -1,0 +1,1454 @@
+{
+  "all_original_input_files_unchanged": true,
+  "input_files_sha256": {
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/figure.pdf": "08dc86e7dbcf2a0c79f2852e049a630006c163b6ee291ccf752db6a652bb5d04",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/figure.svg": "5d28531eb54fa100fb83f363e63778bc5cae84a933454b236015be8f51a94c8d",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/figure.png": "ec5eb52fffa6cb20f74d42f4f064a8ffa7015e7a231d6d0f481d7874154da264",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/region_categorical_colours.csv": "72b934395be46ed97ea1adc2cff102b7d858686cf540c0c84b5bb44feb7748cc",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/legend.pdf": "5d3ff6ffbbaf6004a0aed6714e145ce955989ae6fcb725220f6911430d0f6953",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/legend.svg": "3694b9788ce4488167de16da9edbff21187ec5dd70ebdd301be244001339e1af",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/legend.png": "d733b868b7a7321b2ac1bcd09056ae82fd552b0bbe27aed15777b444ab9cbc03",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/manifest.json": "9ca8aaa64be3d08bd303f88ce59738863e9e87258ec44db5f2ed82bdc0f21db2",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/plot.py": "cbf962c8a13692cb10faf8919b7bb80c3737becb7a0db5e6e65d23c02c322427",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/requirements.txt": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/README.local.rst": "e28f9c6e692564c86867a2904a1f90ddabeaa75f1cc6519a5f0617a6ab00b8e0",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/local_source.json": "ad927e67434873f6a5eadf3f85035171f743860b6e1308733de3aafde8b69edc",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/README.rst": "adaf3fcedeb95a8e770c7ca05e8753b18b1c7ea4e413a12cc23e7228cfe38197",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/CONTENTS.json": "f1401f06a597e0509b5b50248bf738e7741822dc1a0a44817eecce9c4e02949b",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/plot_legend_layout.py": "704f98c2fed55431e05c7befa9cd06810541e6689b0b04876aa5aaeecf43be72",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/legend_layout.pdf": "8d232be7632cfb1049effadabe2fdb4ef8cc8fff2e910fc7d9d2e8790bb5a9df",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/legend_layout.svg": "d770e4d1c494a60c6234853de206a41845ad3e8fa242e0fad3c693c36ff3c20f",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/legend_layout.png": "f943a80809b334c605e36376906fa782a73adfc3dcfe52f920ca2ec3e4bf5dc0",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/legend_layout_proof.json": "a8f257b7081a811963eebf84814667945c22ff09607dbd1e94377e58e611db6a",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/plot_native_map.py": "e585740e9a434748d3dd0d21bff6bcef12009a250ce602a470bd93dee2aea7d5",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/README_NATIVE_MAP.rst": "d8c25365cdfd32c96273e9088df94ed5a868f94e6be6e0100fe599f3b3b81a54",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_map.pdf": "10d3dfdf7878367a0547ba94ef26773ba27f126d70322374467662630e36dd9c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_map.svg": "3cfd6f15f36d1d830e8a0cb83ffcf0346d40fe9e965d220b1f1fe429fee4a578",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_map.png": "5a3fa495a2d0f9c20598f980d31dd6a00c8e163cde5f3497b8d35ff1693ce1ac",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_legend.pdf": "ef9b543f6490974283b2285f99d13eef7d70f6e87a269f1de062171481d93c25",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_legend.svg": "fb7168fc3c2738025a18ff71c735622815187d1aaeaa077b25664f4e18b07025",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_legend.png": "c475f83dc2b8d49510e78421adcef1c764b2fdcea86f534573042fb62026f923",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_map_proof.json": "bd7557e21c961aed7ef29849b6b8de0c471b9bd15b6c62e1623cb079389052c2",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/README_FULLSIZE15.rst": "f61135dc4e760233ee6c6cec43815b01142d0b94efc3245edca934c9180118dc",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15.pdf": "f7486c75d55e3917c85c5da31754a7bea3d4f648b05ccfa6b6cb4b3a95bd5cb5",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15.png": "99df415774f6ff78b4f3a01b2cd17b5d26ceb331edda42ee7d583425cc2a122c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15.svg": "4a9ead225c27e60cf50bc527c4b00ef66157716717828bd6f2908cf3408244d5",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15_geometry.json": "391e7e17cec1be1c7f648032ca698214db7f61ba2e53fbda33b137d0abc9b07d",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15_science.json": "837def7e9bc2ced02e6f086f78043e6bc43c13de0efefbeb7550cc1179d393f7",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/plot_fullsize15.py": "7592ebd434ae23a977c007f5fbb924c8dc2e852939157bcb5c7d3458fe4565df",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/provenance/original_static_scene_render.py": "983137583127d2bc239534bd7dbb2123d7866a02b03da634b08e3ae0c9e06284",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/source/display_helpers.py": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/source/map_family.py": "4e91b8f86a2c64b2668e3bbd9706092da52eb9567748026ca7cc6e9005dd9dd8",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/source/scene_clarity.py": "67119e4d8a05b4790965ef2253367bd75d8dd3b77229f1288b4efdde570b8b66",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/channel_style.json": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/mapping.json": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/visible_manifest.json": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/mean_terminal_y_all89.csv": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/palette.json": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/combined_water_geometry.json": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/water_hex_edges.json": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/style_overrides.json": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/water_band.json": "fe5549a2c52d64b10965212a5f8aa60df2e5a55ceb072fe6e5f98906200e1157",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/internal_hex_edges.json": "629694d376cadaaee127ae5d601e58846ca51be7f4482df53a5da6d2bb229f5c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/source_regions.json": "30a4c3e36e814b9406cae88c527b50b5d5e71ee145ca4eaaae9b91d0c9e52d65",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_map_20261110/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_map_20261110/origin.json": "096143e63af286afb1ea4bff48b183dc7d930e09f6730022a29babf9daf3cab6",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/native_map_20261110/source/render_maps.py": "5749c72af58f99fdd8a0b43b92678351ca9eeb36a5c4629c8de6f529ce4c86ed",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15_20261111/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15_20261111/origin.json": "b02ecaeb8aa7fe87934aff2fba2b54229ab755fdc6d10371363d55304452b26d",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/fullsize15_20261111/source/render_maps.py": "2db9bc118f27455d3128d02ddd55aa529e4f6b832b436f4b8ec39aa8d3d88c23",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/compact_labels_20261112/label_adjustments.json": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/compact_labels_20261112/origin.json": "43c2ddea619d8261a6568ea78a64ee3b3c28d00b0d92822aecd174b2b4ec2d1c",
+    "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/compact_labels_20261112/source/render_maps.py": "dc2b89fcaf6290d69e0eb2cec30679ed1246313e8e11f7b25c70f28f2abb9645"
+  },
+  "fixed89ID_world_positions_reuse_accepted_optimized_layout": true,
+  "fixed_ID_world_positions": [
+    [
+      7.269156599761611,
+      2.251619886466068
+    ],
+    [
+      11.49999991183751,
+      3.6675916932009636
+    ],
+    [
+      9.740000000000004,
+      -2.078507084146424
+    ],
+    [
+      14.90803117533135,
+      2.251619857971494
+    ],
+    [
+      14.500000000000004,
+      -2.078507084146424
+    ],
+    [
+      20.940000000000005,
+      1.0516199158535682
+    ],
+    [
+      25.02000000000001,
+      -2.078507084146424
+    ],
+    [
+      22.77999999999998,
+      2.0116199158535673
+    ],
+    [
+      25.921391158265244,
+      4.0399001711768365
+    ],
+    [
+      29.49999997061248,
+      3.752398264260396
+    ],
+    [
+      32.04743992531304,
+      -3.9947986938771387
+    ],
+    [
+      36.316873866282506,
+      -1.212481142921421
+    ],
+    [
+      35.61999991183745,
+      3.8915973394682575
+    ],
+    [
+      44.20000000000004,
+      -2.4124810841464255
+    ],
+    [
+      40.65423488068333,
+      -9.872736096663964
+    ],
+    [
+      38.21999991183753,
+      -4.130260762280517
+    ],
+    [
+      36.08831583998805,
+      -4.102608084146423
+    ],
+    [
+      34.06787628968059,
+      -4.978688805869831
+    ],
+    [
+      33.699999999999946,
+      -6.92315879610028
+    ],
+    [
+      27.9346959633135,
+      -5.542608142028497
+    ],
+    [
+      25.017637450093776,
+      -9.872736240922682
+    ],
+    [
+      22.836238257444336,
+      -6.88221600704411
+    ],
+    [
+      20.04362828561185,
+      -8.8312097534143
+    ],
+    [
+      18.798891330238643,
+      -12.13025714294976
+    ],
+    [
+      15.734715900174663,
+      -5.542608199910569
+    ],
+    [
+      21.003400525251156,
+      -11.66342537030977
+    ],
+    [
+      13.007478130344857,
+      -10.967995150778217
+    ],
+    [
+      7.740000000000001,
+      -3.0607958282365306
+    ],
+    [
+      10.987038510846812,
+      -11.193761756744546
+    ],
+    [
+      11.011596599511872,
+      -13.138230587503513
+    ],
+    [
+      10.07349754809494,
+      -5.782608142921422
+    ],
+    [
+      6.488118068459725,
+      -9.87273612605146
+    ],
+    [
+      2.4805480792340515,
+      -6.863774769346802
+    ],
+    [
+      8.991156194282668,
+      -13.576837142921454
+    ],
+    [
+      7.545906475296236,
+      -19.729632186296815
+    ],
+    [
+      6.513122300398838,
+      -16.660121178896492
+    ],
+    [
+      13.716599422854914,
+      -15.869815516452688
+    ],
+    [
+      15.027919828712474,
+      -12.045453155783743
+    ],
+    [
+      16.406827498875966,
+      -19.11367655359722
+    ],
+    [
+      18.597785048056135,
+      -14.074725393172244
+    ],
+    [
+      20.850218714092772,
+      -19.54250122964245
+    ],
+    [
+      27.424990468188806,
+      -13.576837142921454
+    ],
+    [
+      29.34319779035245,
+      -17.144409005459302
+    ],
+    [
+      32.98468108827562,
+      -13.336837199910605
+    ],
+    [
+      41.52152195718046,
+      -17.42696414292146
+    ],
+    [
+      44.93999987035785,
+      -18.583518121623943
+    ],
+    [
+      40.36288460399208,
+      -24.410443641368737
+    ],
+    [
+      39.06314299036697,
+      -21.371066142921453
+    ],
+    [
+      36.66038903297354,
+      -27.50613531413386
+    ],
+    [
+      34.73999999999995,
+      -22.293008251071175
+    ],
+    [
+      31.256030903420513,
+      -22.410046824600556
+    ],
+    [
+      30.79616864616913,
+      -27.052762191702612
+    ],
+    [
+      34.268004360627835,
+      -20.317093472899433
+    ],
+    [
+      25.969454255536558,
+      -22.47863126887012
+    ],
+    [
+      26.820000058774962,
+      -26.53451394309052
+    ],
+    [
+      23.949014271004692,
+      -22.95325425938472
+    ],
+    [
+      24.343877764700625,
+      -20.534162041796034
+    ],
+    [
+      23.21999999999997,
+      -18.58969328300444
+    ],
+    [
+      18.775917672395106,
+      -22.51535191369893
+    ],
+    [
+      18.829781546476028,
+      -20.570881254594006
+    ],
+    [
+      15.860000277259806,
+      -27.244200401184095
+    ],
+    [
+      16.755480939003583,
+      -21.371066706887053
+    ],
+    [
+      5.525470693073387,
+      -19.54682817840589
+    ],
+    [
+      6.963383236944926,
+      -21.674103365048826
+    ],
+    [
+      10.43078990374219,
+      -25.461193142921456
+    ],
+    [
+      0.4800002145664892,
+      -26.250848418211532
+    ],
+    [
+      6.139999941225003,
+      -27.07590913459164
+    ],
+    [
+      5.090011362013463,
+      -32.77542117166396
+    ],
+    [
+      11.5967014074692,
+      -32.38939569266157
+    ],
+    [
+      12.699999870357816,
+      -27.244610029593012
+    ],
+    [
+      13.617142475324346,
+      -32.285294084146415
+    ],
+    [
+      18.625190281135886,
+      -32.19397356184175
+    ],
+    [
+      18.580000000000005,
+      -35.4
+    ],
+    [
+      22.734780046666394,
+      -29.373524412624672
+    ],
+    [
+      24.487626891321433,
+      -33.255421142921385
+    ],
+    [
+      24.755219865171085,
+      -29.01185102677869
+    ],
+    [
+      24.303123476637634,
+      -35.4
+    ],
+    [
+      26.323562237223904,
+      -35.4
+    ],
+    [
+      28.34400010906964,
+      -35.4
+    ],
+    [
+      30.36443791172352,
+      -35.4
+    ],
+    [
+      32.161205861879274,
+      -28.997232301262656
+    ],
+    [
+      32.38487644167016,
+      -35.929464050976065
+    ],
+    [
+      36.72230311897344,
+      -29.450607091101347
+    ],
+    [
+      35.020000000000024,
+      -35.4
+    ],
+    [
+      38.75,
+      -29.01185102677869
+    ],
+    [
+      39.01213871101231,
+      -35.43071351985765
+    ],
+    [
+      43.01127130711669,
+      -26.285294142921362
+    ],
+    [
+      46.0751965845139,
+      -30.188316609512935
+    ],
+    [
+      46.54626523210804,
+      -33.255421142921385
+    ]
+  ],
+  "geographic_data_and_colours_source_files_unchanged": true,
+  "original_uncompressed_map_basis_mm": [
+    156.0,
+    131.21471879190491
+  ],
+  "actual_axes_mm": [
+    146.0,
+    109.21471879190491
+  ],
+  "raw_manifest": {
+    "source": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/compact_labels_20261112/source/render_maps.py",
+    "source_sha256": "dc2b89fcaf6290d69e0eb2cec30679ed1246313e8e11f7b25c70f28f2abb9645",
+    "read_only_inputs_sha256": {
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/combined_water_geometry.json": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/geometry/water_hex_edges.json": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/source/display_helpers.py": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/channel_style.json": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/mapping.json": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/visible_manifest.json": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/palette.json": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/layout.json": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/data/compact_gate_symbols.json": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/static_scene/style_overrides.json": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+      "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter06_irrigation/figures/figure06-01_区域与单元说明_20261109/data/mean_terminal_y_all89.csv": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "/root/gamewar/latex_thesis_resource_allocation/assets/fonts/windows/TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+    },
+    "inputs_unchanged": true,
+    "original_uncompressed_canvas_width_mm": 156.0,
+    "canvas_width_mm": 156.0,
+    "canvas_height_mm": 117.21471879190491,
+    "scene_board_width_mm": 146.0,
+    "scene_board_height_mm": 109.21471879190491,
+    "scene_left_mm": 5.0,
+    "scene_right_mm": 151.0,
+    "scene_bottom_mm": 4.0,
+    "common_fixed_label_positions": [
+      [
+        7.269156599761611,
+        2.251619886466068
+      ],
+      [
+        11.49999991183751,
+        3.6675916932009636
+      ],
+      [
+        9.740000000000004,
+        -2.078507084146424
+      ],
+      [
+        14.90803117533135,
+        2.251619857971494
+      ],
+      [
+        14.500000000000004,
+        -2.078507084146424
+      ],
+      [
+        20.940000000000005,
+        1.0516199158535682
+      ],
+      [
+        25.02000000000001,
+        -2.078507084146424
+      ],
+      [
+        22.77999999999998,
+        2.0116199158535673
+      ],
+      [
+        25.921391158265244,
+        4.0399001711768365
+      ],
+      [
+        29.49999997061248,
+        3.752398264260396
+      ],
+      [
+        32.04743992531304,
+        -3.9947986938771387
+      ],
+      [
+        36.316873866282506,
+        -1.212481142921421
+      ],
+      [
+        35.61999991183745,
+        3.8915973394682575
+      ],
+      [
+        44.20000000000004,
+        -2.4124810841464255
+      ],
+      [
+        40.65423488068333,
+        -9.872736096663964
+      ],
+      [
+        38.21999991183753,
+        -4.130260762280517
+      ],
+      [
+        36.08831583998805,
+        -4.102608084146423
+      ],
+      [
+        34.06787628968059,
+        -4.978688805869831
+      ],
+      [
+        33.699999999999946,
+        -6.92315879610028
+      ],
+      [
+        27.9346959633135,
+        -5.542608142028497
+      ],
+      [
+        25.017637450093776,
+        -9.872736240922682
+      ],
+      [
+        22.836238257444336,
+        -6.88221600704411
+      ],
+      [
+        20.04362828561185,
+        -8.8312097534143
+      ],
+      [
+        18.798891330238643,
+        -12.13025714294976
+      ],
+      [
+        15.734715900174663,
+        -5.542608199910569
+      ],
+      [
+        21.003400525251156,
+        -11.66342537030977
+      ],
+      [
+        13.007478130344857,
+        -10.967995150778217
+      ],
+      [
+        7.740000000000001,
+        -3.0607958282365306
+      ],
+      [
+        10.987038510846812,
+        -11.193761756744546
+      ],
+      [
+        11.011596599511872,
+        -13.138230587503513
+      ],
+      [
+        10.07349754809494,
+        -5.782608142921422
+      ],
+      [
+        6.488118068459725,
+        -9.87273612605146
+      ],
+      [
+        2.4805480792340515,
+        -6.863774769346802
+      ],
+      [
+        8.991156194282668,
+        -13.576837142921454
+      ],
+      [
+        7.545906475296236,
+        -19.729632186296815
+      ],
+      [
+        6.513122300398838,
+        -16.660121178896492
+      ],
+      [
+        13.716599422854914,
+        -15.869815516452688
+      ],
+      [
+        15.027919828712474,
+        -12.045453155783743
+      ],
+      [
+        16.406827498875966,
+        -19.11367655359722
+      ],
+      [
+        18.597785048056135,
+        -14.074725393172244
+      ],
+      [
+        20.850218714092772,
+        -19.54250122964245
+      ],
+      [
+        27.424990468188806,
+        -13.576837142921454
+      ],
+      [
+        29.34319779035245,
+        -17.144409005459302
+      ],
+      [
+        32.98468108827562,
+        -13.336837199910605
+      ],
+      [
+        41.52152195718046,
+        -17.42696414292146
+      ],
+      [
+        44.93999987035785,
+        -18.583518121623943
+      ],
+      [
+        40.36288460399208,
+        -24.410443641368737
+      ],
+      [
+        39.06314299036697,
+        -21.371066142921453
+      ],
+      [
+        36.66038903297354,
+        -27.50613531413386
+      ],
+      [
+        34.73999999999995,
+        -22.293008251071175
+      ],
+      [
+        31.256030903420513,
+        -22.410046824600556
+      ],
+      [
+        30.79616864616913,
+        -27.052762191702612
+      ],
+      [
+        34.268004360627835,
+        -20.317093472899433
+      ],
+      [
+        25.969454255536558,
+        -22.47863126887012
+      ],
+      [
+        26.820000058774962,
+        -26.53451394309052
+      ],
+      [
+        23.949014271004692,
+        -22.95325425938472
+      ],
+      [
+        24.343877764700625,
+        -20.534162041796034
+      ],
+      [
+        23.21999999999997,
+        -18.58969328300444
+      ],
+      [
+        18.775917672395106,
+        -22.51535191369893
+      ],
+      [
+        18.829781546476028,
+        -20.570881254594006
+      ],
+      [
+        15.860000277259806,
+        -27.244200401184095
+      ],
+      [
+        16.755480939003583,
+        -21.371066706887053
+      ],
+      [
+        5.525470693073387,
+        -19.54682817840589
+      ],
+      [
+        6.963383236944926,
+        -21.674103365048826
+      ],
+      [
+        10.43078990374219,
+        -25.461193142921456
+      ],
+      [
+        0.4800002145664892,
+        -26.250848418211532
+      ],
+      [
+        6.139999941225003,
+        -27.07590913459164
+      ],
+      [
+        5.090011362013463,
+        -32.77542117166396
+      ],
+      [
+        11.5967014074692,
+        -32.38939569266157
+      ],
+      [
+        12.699999870357816,
+        -27.244610029593012
+      ],
+      [
+        13.617142475324346,
+        -32.285294084146415
+      ],
+      [
+        18.625190281135886,
+        -32.19397356184175
+      ],
+      [
+        18.580000000000005,
+        -35.4
+      ],
+      [
+        22.734780046666394,
+        -29.373524412624672
+      ],
+      [
+        24.487626891321433,
+        -33.255421142921385
+      ],
+      [
+        24.755219865171085,
+        -29.01185102677869
+      ],
+      [
+        24.303123476637634,
+        -35.4
+      ],
+      [
+        26.323562237223904,
+        -35.4
+      ],
+      [
+        28.34400010906964,
+        -35.4
+      ],
+      [
+        30.36443791172352,
+        -35.4
+      ],
+      [
+        32.161205861879274,
+        -28.997232301262656
+      ],
+      [
+        32.38487644167016,
+        -35.929464050976065
+      ],
+      [
+        36.72230311897344,
+        -29.450607091101347
+      ],
+      [
+        35.020000000000024,
+        -35.4
+      ],
+      [
+        38.75,
+        -29.01185102677869
+      ],
+      [
+        39.01213871101231,
+        -35.43071351985765
+      ],
+      [
+        43.01127130711669,
+        -26.285294142921362
+      ],
+      [
+        46.0751965845139,
+        -30.188316609512935
+      ],
+      [
+        46.54626523210804,
+        -33.255421142921385
+      ]
+    ],
+    "original_big_circle_mapping_sha256": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+    "region_ID_font_bp": 9.5,
+    "channel_fonts_bp": [
+      10.5
+    ],
+    "channel_name_callouts": true,
+    "channel_semantics": "One upstream 三分干渠 and one continuous serpentine 洪庙支渠; five old repeated tiny labels did not denote five separate channels",
+    "service_hex_grid_line_bp": 0.25,
+    "original_service_hex_grid_line_bp": 0.16,
+    "yield_palette": [
+      "#f2da5e",
+      "#beb051",
+      "#8e8b5a",
+      "#5c636e",
+      "#123570"
+    ],
+    "yield_palette_gray_luminance": [
+      0.8398023529411764,
+      0.6749701960784313,
+      0.5337254901960784,
+      0.385513725490196,
+      0.19536784313725492
+    ],
+    "ordinary_legend_font_bp": 10.5,
+    "quantitative_bar_left_mm": 5.0,
+    "quantitative_bar_right_mm": 151.0,
+    "quantitative_bar_length_mm": 146.0,
+    "scientific_execution": {
+      "environment_steps": 0,
+      "model_loads": 0,
+      "inference_calls": 0,
+      "training_steps": 0
+    },
+    "group": "scene",
+    "assets": {
+      "scene": {
+        "width_mm": 156.0,
+        "height_mm": 117.21471879190491,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.1/.fullsize15-56umu9op/figures/scene/figure.pdf",
+            "sha256": "7092f2cd72bc36f8e8720c374507a8519454d7644a9d797b1afa1db9fd7562de"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.1/.fullsize15-56umu9op/figures/scene/figure.svg",
+            "sha256": "45743f3c59cac89e28613731b24b47db94c783cb28c2e22e9a84a01bbf441282"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.1/.fullsize15-56umu9op/figures/scene/figure.png",
+            "sha256": "9e58ba7a9d6643f1a595478c6a229abf1e6314b9addfb27c3acdc0abf1419deb"
+          }
+        },
+        "fill_semantics": "Original categorical region differentiation only",
+        "palette": [
+          "#d2dfad",
+          "#bacd90",
+          "#e0e9c9",
+          "#c5d9bb",
+          "#e1dfad",
+          "#add0ba"
+        ]
+      },
+      "scene_legend": {
+        "width_mm": 156.0,
+        "height_mm": 12.0,
+        "assets": {
+          "pdf": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.1/.fullsize15-56umu9op/figures/scene/legend.pdf",
+            "sha256": "7cc41818e68c31b0a8a84a1989c29451cc1b14bfd37eb67735555e9901524bab"
+          },
+          "svg": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.1/.fullsize15-56umu9op/figures/scene/legend.svg",
+            "sha256": "f0c68522f6dd1c843b9a2f228cc7280e9190e0c66bcc693131e051013d64f6cd"
+          },
+          "png": {
+            "path": "/tmp/ch6_map_channel_compact_20261112/candidate_6.1/.fullsize15-56umu9op/figures/scene/legend.png",
+            "sha256": "a0bcddbc98a61d19ab191d9869e87c4883a123d7295a3fd95fe119bb57bbe8af"
+          }
+        }
+      }
+    },
+    "fill_semantics": "Original categorical differentiation only; no state/yield statistic",
+    "original_palette": [
+      "#d2dfad",
+      "#bacd90",
+      "#e0e9c9",
+      "#c5d9bb",
+      "#e1dfad",
+      "#add0ba"
+    ]
+  },
+  "restored_display_only_no_new_scientific_execution": true,
+  "scientific_CSV_columns_unchanged": true,
+  "scientific_rows": [
+    {
+      "region_id": "1",
+      "owner": "0",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "3",
+      "owner": "1",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "2",
+      "owner": "2",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "4",
+      "owner": "3",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "5",
+      "owner": "4",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "6",
+      "owner": "5",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "7",
+      "owner": "6",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "8",
+      "owner": "7",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "9",
+      "owner": "8",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "11",
+      "owner": "9",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "12",
+      "owner": "10",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "13",
+      "owner": "11",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "14",
+      "owner": "12",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "15",
+      "owner": "13",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "16",
+      "owner": "14",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "17",
+      "owner": "15",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "19",
+      "owner": "16",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "20",
+      "owner": "17",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "21",
+      "owner": "18",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "22",
+      "owner": "19",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "23",
+      "owner": "20",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "24",
+      "owner": "21",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "25",
+      "owner": "22",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "27",
+      "owner": "23",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "26",
+      "owner": "24",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "28",
+      "owner": "25",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "29",
+      "owner": "26",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "31",
+      "owner": "27",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "30",
+      "owner": "28",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "33",
+      "owner": "29",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "34",
+      "owner": "30",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "35",
+      "owner": "31",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "36",
+      "owner": "32",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "37",
+      "owner": "33",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "38",
+      "owner": "34",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "39",
+      "owner": "35",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "40",
+      "owner": "36",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "41",
+      "owner": "37",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "42",
+      "owner": "38",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "43",
+      "owner": "39",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "44",
+      "owner": "40",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "45",
+      "owner": "41",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "46",
+      "owner": "42",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "47",
+      "owner": "43",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "48",
+      "owner": "44",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "49",
+      "owner": "45",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "50",
+      "owner": "46",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "51",
+      "owner": "47",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "52",
+      "owner": "48",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "54",
+      "owner": "49",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "53",
+      "owner": "50",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "55",
+      "owner": "51",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "57",
+      "owner": "52",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "56",
+      "owner": "53",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "58",
+      "owner": "54",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "59",
+      "owner": "55",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "60",
+      "owner": "56",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "61",
+      "owner": "57",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "62",
+      "owner": "58",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "63",
+      "owner": "59",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "64",
+      "owner": "60",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "65",
+      "owner": "61",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "66",
+      "owner": "62",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "68",
+      "owner": "63",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "67",
+      "owner": "64",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "69",
+      "owner": "65",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "70",
+      "owner": "66",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "71",
+      "owner": "67",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "72",
+      "owner": "68",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "73",
+      "owner": "69",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "75",
+      "owner": "70",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "74",
+      "owner": "71",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "76",
+      "owner": "72",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "77",
+      "owner": "73",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "78",
+      "owner": "74",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "79",
+      "owner": "75",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "80",
+      "owner": "76",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "81",
+      "owner": "77",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "82",
+      "owner": "78",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "83",
+      "owner": "79",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "84",
+      "owner": "80",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "85",
+      "owner": "81",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "86",
+      "owner": "82",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    },
+    {
+      "region_id": "87",
+      "owner": "83",
+      "categorical_colour_index": "5",
+      "colour": "#add0ba"
+    },
+    {
+      "region_id": "88",
+      "owner": "84",
+      "categorical_colour_index": "0",
+      "colour": "#d2dfad"
+    },
+    {
+      "region_id": "89",
+      "owner": "85",
+      "categorical_colour_index": "1",
+      "colour": "#bacd90"
+    },
+    {
+      "region_id": "90",
+      "owner": "86",
+      "categorical_colour_index": "2",
+      "colour": "#e0e9c9"
+    },
+    {
+      "region_id": "91",
+      "owner": "87",
+      "categorical_colour_index": "3",
+      "colour": "#c5d9bb"
+    },
+    {
+      "region_id": "92",
+      "owner": "88",
+      "categorical_colour_index": "4",
+      "colour": "#e1dfad"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "5.2",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter05_dual_value/figures/figure05-02_SeDVal方法总体框架",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter05/figures/figure05_02/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter05/figures/figure05_02/figure.pdf",
+      "sha256": "91fba692a10726c7de01f4e509991f8da3b450503823dfa6b90cce0b87b7b5ab",
+      "bytes": 86927
+    },
+    "figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0005.png",
+      "sha256": "8e1c95f0dab24e88722971bc0204fb0063bb6818920376266beda7158e232350",
+      "bytes": 227954
+    },
+    "figure.svg": {
+      "path": "chapters/chapter05/figures/inputs/input_0006.svg",
+      "sha256": "7e7ad7118c329e805a4492c909cb5f5c6e91c4ccc3c905faa89291dea0d0b4d3",
+      "bytes": 319802
+    },
+    "source.drawio": {
+      "path": "chapters/chapter05/figures/figure05_02/source.drawio",
+      "sha256": "d30f00a3ff2ff7e74a596c495b0442bf1930f965d5b8b8e2d2d2e319fb6a0323",
+      "bytes": 20719
+    },
+    "source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0008.json",
+      "sha256": "7954f8ea3589965318072004a12e9c7876244a031abd95a0e78344c7e6959467",
+      "bytes": 11925
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

@@ -1,0 +1,314 @@
+{
+  "status": "PASS_ALL9_ACTUAL_M64_INITIAL_DEV32_COMPLETE_LEARNING_IN_PROGRESS",
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "workers": [
+    {
+      "job_id": "budget_3500000__seed6400",
+      "pid": 3837700,
+      "start_ticks": 6205784461,
+      "DEV0_C90": 0.00877808988764045,
+      "DEV0_JA": 0.5070864509906392,
+      "DEV0_joint": 0.4074247787700395,
+      "DEV0_completed": true,
+      "DEV0_sha256": "fe680e049902c645182c76c2f039ebb0a5fa27e750234951cc6f33a882ed4ceb",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 112,
+        "episodes": 3200,
+        "learning_steps": 9396,
+        "counts": {
+          "train": {
+            "episodes": 116,
+            "physical_steps": 9396
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837700,
+        "seed": 6400,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.53722800314426,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_3500000__seed6401",
+      "pid": 3837701,
+      "start_ticks": 6205784461,
+      "DEV0_C90": 0.14606741573033707,
+      "DEV0_JA": 0.49397815306709786,
+      "DEV0_joint": 0.4243960055997457,
+      "DEV0_completed": true,
+      "DEV0_sha256": "7ba0e30701e00ab69e2a2fa42b8a18229bc1115c41db79bb2ed88f4d5e6778a7",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 112,
+        "episodes": 3200,
+        "learning_steps": 9396,
+        "counts": {
+          "train": {
+            "episodes": 116,
+            "physical_steps": 9396
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837701,
+        "seed": 6401,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.5985775589943,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_3500000__seed6402",
+      "pid": 3837702,
+      "start_ticks": 6205784461,
+      "DEV0_C90": 0.3479634831460674,
+      "DEV0_JA": 0.4698729413519501,
+      "DEV0_joint": 0.44549104971077363,
+      "DEV0_completed": true,
+      "DEV0_sha256": "a5cf404ceeb836a26fac3451ab1518415a4626d4473017924efe100d5d0c8ab3",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 116,
+        "episodes": 3200,
+        "learning_steps": 9720,
+        "counts": {
+          "train": {
+            "episodes": 120,
+            "physical_steps": 9720
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837702,
+        "seed": 6402,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.49757013469934,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4000000__seed6400",
+      "pid": 3837703,
+      "start_ticks": 6205784462,
+      "DEV0_C90": 0.1091994382022472,
+      "DEV0_JA": 0.6237869988114859,
+      "DEV0_joint": 0.5208694866896382,
+      "DEV0_completed": true,
+      "DEV0_sha256": "c9b27d7fb62fad7d7c9968c014451de215d8154cf214a297dc275f67b1af3ff3",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 112,
+        "episodes": 3200,
+        "learning_steps": 9396,
+        "counts": {
+          "train": {
+            "episodes": 116,
+            "physical_steps": 9396
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837703,
+        "seed": 6400,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.52893739938736,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4000000__seed6401",
+      "pid": 3837704,
+      "start_ticks": 6205784462,
+      "DEV0_C90": 0.14606741573033707,
+      "DEV0_JA": 0.5579185754570255,
+      "DEV0_joint": 0.47554834351168784,
+      "DEV0_completed": true,
+      "DEV0_sha256": "9ba8cd141a101ffe0f94f58e3752482b128796e15f44cd9a25d3dc76406c7633",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 116,
+        "episodes": 3200,
+        "learning_steps": 9720,
+        "counts": {
+          "train": {
+            "episodes": 120,
+            "physical_steps": 9720
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837704,
+        "seed": 6401,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.68355851620436,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4000000__seed6402",
+      "pid": 3837705,
+      "start_ticks": 6205784462,
+      "DEV0_C90": 0.4396067415730337,
+      "DEV0_JA": 0.5171095393489018,
+      "DEV0_joint": 0.5016089797937282,
+      "DEV0_completed": true,
+      "DEV0_sha256": "bda288147628a133c6d39b462eb7ca21a7a857ae5ce53327e0a7f898020bb56e",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 116,
+        "episodes": 3200,
+        "learning_steps": 9720,
+        "counts": {
+          "train": {
+            "episodes": 120,
+            "physical_steps": 9720
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837705,
+        "seed": 6402,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.5551567748189,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4500000__seed6400",
+      "pid": 3837706,
+      "start_ticks": 6205784463,
+      "DEV0_C90": 0.2503511235955056,
+      "DEV0_JA": 0.7363683238222274,
+      "DEV0_joint": 0.6391648837768832,
+      "DEV0_completed": true,
+      "DEV0_sha256": "9bccf906d63882c92181572ef38e2818e0c72be9898ba28f6d2a6069abb232fa",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 116,
+        "episodes": 3200,
+        "learning_steps": 9720,
+        "counts": {
+          "train": {
+            "episodes": 120,
+            "physical_steps": 9720
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837706,
+        "seed": 6400,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.45708588510752,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4500000__seed6401",
+      "pid": 3837707,
+      "start_ticks": 6205784463,
+      "DEV0_C90": 0.1583567415730337,
+      "DEV0_JA": 0.6109578012688979,
+      "DEV0_joint": 0.5204375893297251,
+      "DEV0_completed": true,
+      "DEV0_sha256": "a3e3f780d565660d0f6083b4224e804bc734f1e63c132c2f02cf530ae0dd6a63",
+      "progress": {
+        "status": "running",
+        "phase": "training_update",
+        "episode": 120,
+        "episodes": 3200,
+        "learning_steps": 10044,
+        "counts": {
+          "train": {
+            "episodes": 124,
+            "physical_steps": 10044
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837707,
+        "seed": 6401,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 172.58056926727295,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4500000__seed6402",
+      "pid": 3837708,
+      "start_ticks": 6205784463,
+      "DEV0_C90": 0.5038623595505618,
+      "DEV0_JA": 0.5512625560084129,
+      "DEV0_joint": 0.5417825167168427,
+      "DEV0_completed": true,
+      "DEV0_sha256": "fff12090bcc0a1eac9bbf4211b10b2f77e1b1591dddb88b7612443dd5cef52ff",
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 128,
+        "episodes": 3200,
+        "learning_steps": 10368,
+        "counts": {
+          "train": {
+            "episodes": 128,
+            "physical_steps": 10368
+          },
+          "development": {
+            "episodes": 32,
+            "physical_steps": 2592
+          }
+        },
+        "pid": 3837708,
+        "seed": 6402,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 170.1494783386588,
+        "formal_training": true
+      }
+    }
+  ],
+  "TEST_opened": false,
+  "reviewer_new_environment_steps": 0
+}

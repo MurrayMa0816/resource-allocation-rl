@@ -1,0 +1,67 @@
+{
+  "status": "COMPLETE",
+  "method": "cola",
+  "seed": 6401,
+  "learning_steps": 259200,
+  "episodes": 3200,
+  "updates": 257153,
+  "counts": {
+    "train": {
+      "physical_steps": 259200,
+      "episodes": 3200
+    },
+    "development": {
+      "physical_steps": 67392,
+      "episodes": 832
+    }
+  },
+  "actual_pool_counters": {
+    "train": {
+      "step_attempts": 259200,
+      "physical_steps": 259200,
+      "episodes": 3200,
+      "reset_attempts": 3200,
+      "resets": 3200
+    },
+    "development": {
+      "step_attempts": 67392,
+      "physical_steps": 67392,
+      "episodes": 832,
+      "reset_attempts": 832,
+      "resets": 832
+    }
+  },
+  "seconds": 10448.758540049195,
+  "update_seconds": 7226.522872105241,
+  "initial_model_sha256": "94d7eb233e9f79f41d722107470513649ffdaa35408ff1c151a9b289a24671ad",
+  "model_sha256": "cc3c067248167670393978102812e8c756960cc417bfa21774b60f6f87ee5ccc",
+  "endpoint_sha256": "b469f85af1a8f22229b3adf69f678175a9c35fa2a1981d42e4bbf21fd3d09bc2",
+  "endpoint_reload_exact": true,
+  "source_unchanged": true,
+  "replay_metadata": {
+    "n_step": 8,
+    "gamma": 1.0,
+    "native_reward_vectors_unchanged": true,
+    "original_transitions": 259200,
+    "emitted_transitions": 259200,
+    "single_step_auxiliary_label_retained": true,
+    "cross_episode_mixing": false,
+    "intermediate_soft_entropy_accumulated": false,
+    "importance_correction": false
+  },
+  "replay_pending_transitions": 0,
+  "maximum_projection_mass_error_m3": 5.820766091346741e-11,
+  "device_proof": {
+    "parameter_devices": [
+      "cuda:0"
+    ],
+    "cuda_optimizer_tensors": 56,
+    "peak_cuda_reserved": 58720256
+  },
+  "new_TEST_paths": 0,
+  "recovery": {
+    "command": null
+  },
+  "optimizer_backup": false,
+  "replay_backup": false
+}

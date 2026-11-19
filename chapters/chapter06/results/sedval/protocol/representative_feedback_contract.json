@@ -1,0 +1,21 @@
+{
+  "status": "LOCKED_BEFORE_TEST",
+  "selection_population": "All384 main4M final trajectories,3seedsx128",
+  "canonical_metric": "StoredJA after independent tolerance-checked recomputation; do not silently change selection using float-last-bit differences",
+  "selection": "Min(abs(JA-pooledMedian),seed,weatherID), no outcome-dependent threshold or feedback benefit filter",
+  "main_process_dates": [
+    0,
+    46,
+    62,
+    63,
+    72
+  ],
+  "feedback_statistics": "Always3seedsx32weather=96pairs per demand direction; no added descriptive paths enter statistical rows",
+  "descriptive_condition": "If representative.weatherID>=32, add exactly4 trajectories for that one seed/weather with ET0x.85/x1.15 and feedback/replay, from same registered test128 panel. If below32 reuse existing.",
+  "base_jobs": 36,
+  "max_jobs": 40,
+  "base_paths": 2694,
+  "max_paths": 2698,
+  "changes_to_model_or_selection": "None; conditional additional description only",
+  "source_of_rule": "PreTEST practical dependency between pooled representative process and registered feedback subset"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "mrq",
+  "domain": "radio",
+  "seed": 1,
+  "steps": 100608,
+  "output": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/evaluations/mrq__radio__seed1",
+  "device": "cuda",
+  "train_master": 202611043101,
+  "dev_master": 202611043101,
+  "eval_every": 768,
+  "dev_cases": 32,
+  "environment_root": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/source/environment",
+  "source_manifest": null,
+  "engineering_gate": false,
+  "evaluate_model": "/hy-tmp/resource_allocation_results/chapter4/formal_100k_5seed_20261106/jobs/mrq__radio__seed1/endpoint.pt",
+  "eval_phase": "final",
+  "eval_master": 2026110694199,
+  "eval_cases": 256,
+  "algorithm": {
+    "gamma": 0.99,
+    "seed": 1,
+    "total_steps": 100608
+  },
+  "eval_deterministic": true
+}

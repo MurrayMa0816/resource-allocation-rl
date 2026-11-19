@@ -1,0 +1,23 @@
+{
+  "schema": "chapter04-props-stochastic-curve-completion-v1",
+  "status": "COMPLETE",
+  "completed_at": "2026-11-09T13:32:59.955935+08:00",
+  "final_publication": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/FINAL_PUBLICATION.json",
+  "final_publication_sha256": "5cb7130b9f30693fcb1f724cd5e61bc6448219fa8cbaccd2abebfe72224b2daf",
+  "all_five_fixed_scientific_runs_accepted": true,
+  "original_postrun_registry_failures_preserved": 5,
+  "formal_nodes": 660,
+  "physical_steps": 5072256,
+  "model_loads": 27,
+  "independent_TEST_steps": 0,
+  "scientific_retries": 0,
+  "training_or_evaluation_pending": false,
+  "figure_only_PROPS_b_replaced": true,
+  "paper_build_and_target_visual_review": "PASS",
+  "pdf": "/root/gamewar/latex_thesis_resource_allocation/build/main.pdf",
+  "pdf_sha256": "41dd0724dce0011c5fa7f05f53fe3f25c76cf523b2e00e8811e7b6553d5743ef",
+  "current_formal_scientific_pointers_changed": false,
+  "recovery": {
+    "command": null
+  }
+}

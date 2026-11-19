@@ -1,0 +1,94 @@
+{
+  "schema": "chapter4-native-restored-axes-spacing15-v1",
+  "number": "4.6",
+  "caption": "不同轨迹利用方式下达到预设成效的训练环境交互步数",
+  "label": "fig:ch4-matched-development",
+  "directory": "chapters/chapter04_trajectory_reuse/figures/figure04-06_恢复绘图区与15bp间距_20261111",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter04_trajectory_reuse/section53_experiments.tex",
+  "current_references": [
+    "chapters/chapter04_trajectory_reuse/figures/figure04-06_恢复绘图区与15bp间距_20261111/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "native_parent/render_support/files/f0009_fixed_new_DEV.csv",
+    "native_parent/render_support/files/f0013_parent_data.csv",
+    "native_parent/render_support/files/f0012_parent_confirmation_steps_per_se.csv",
+    "native_parent/render_support/files/f0011_parent_confirmation_bar_points.csv",
+    "native_parent/render_support/files/f0003_confirmation_steps_per_seed.csv",
+    "native_parent/render_support/files/f0004_data.csv",
+    "native_parent/render_support/files/f0010_full_new_DEV.csv",
+    "native_parent/render_support/files/f0005_diesel_full_original_DEV.csv",
+    "native_parent/render_support/files/f0015_plotted_points.csv",
+    "native_parent/render_support/files/f0002_confirmation_bar_points.csv"
+  ],
+  "current_source_files": [
+    "plot.py",
+    "geometry_config.json",
+    "native_parent_sha256.json"
+  ],
+  "historical_provenance": {
+    "original_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter04_trajectory_reuse/figures/figure04-06_TRoC与三种消融变体的开发学习曲线",
+    "original_pdf_sha256": "380524affb281da611428fd511699d34e1d44b2ec966f02c748273ebb8c81fcf",
+    "original_native_inputs_all_bytes_preserved": true,
+    "parent_source": "native_parent/source.json",
+    "native_parent_render_verified_exact": true,
+    "figure4_4_59_2mm_width_basis": null,
+    "figure4_7_56_05mm_height_basis": null,
+    "axes_dimensions_after_mm": [
+      [
+        54.85365853658536,
+        50.4
+      ],
+      [
+        54.85365853658535,
+        50.4
+      ]
+    ],
+    "no_axis_dimension_reduced": true,
+    "ylabel_reflow_only": false
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "26349399e5a8323cda477be886c5d158d60b9d2a56c038c6758da8cf8c4ae9e5",
+    "figure.svg": "74a0594c63cc38d4f195114a9bdfa9047ce90fc509a92890a2e2ad48a71e1988",
+    "figure.png": "325572b3955e08c1e039180cad2b439b2108c27494fffc744b5396e909d46775"
+  },
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter04_trajectory_reuse/figures/figure04-06_恢复绘图区与15bp间距_20261111/plot.py",
+    "active_editable_source": "chapters/chapter04_trajectory_reuse/figures/figure04-06_恢复绘图区与15bp间距_20261111/plot.py",
+    "active_program_sha256": "510c3ac8b0a85d40d15b4f672fd64d24c53ac6562e0cb58f03194fa3db63adae",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "26349399e5a8323cda477be886c5d158d60b9d2a56c038c6758da8cf8c4ae9e5",
+      "figure.svg": "74a0594c63cc38d4f195114a9bdfa9047ce90fc509a92890a2e2ad48a71e1988",
+      "figure.png": "325572b3955e08c1e039180cad2b439b2108c27494fffc744b5396e909d46775"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "1b7dedf280d84289ce95be83630a9ef7cddaed9abc7ad099333d69c55c19afa7",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "3913920d1d1e8a551978fb85f69c90086aef71176eaccefeacb54e971244b226",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "73f1a711e75e5cba943662eb8780ca759235bcffae0069891fb2d2b79a63cd18"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "path_storage_20261119": {
+    "mapping_files": [
+      "native_parent/render_support/paths.json"
+    ],
+    "helper": "scripts/restore_render_support.py",
+    "original_source_and_data_bytes_preserved": true,
+    "historical_render_tree_restored_only_in_temporary_workspace": true,
+    "figure_exports": 0,
+    "scientific_execution": 0
+  }
+}

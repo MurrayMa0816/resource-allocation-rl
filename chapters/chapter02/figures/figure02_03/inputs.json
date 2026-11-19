@@ -1,0 +1,43 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "2.3",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter02_high_dimensional/figures/figure02-03_基函数组合与共同偏移投影_投入上限_20261110",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter02/figures/figure02_03/figure.pdf"
+  ],
+  "files": {
+    "export.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0010.json",
+      "sha256": "6a4b7f2065e2ed76bb753fcc79a39fec5eb87aad042d0af6355a5e8f3ad859c1",
+      "bytes": 1491
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter02/figures/figure02_03/figure.pdf",
+      "sha256": "81283167c690441ba19388b0899f11098ffad7c31d801fd03d578d263d8e63d7",
+      "bytes": 84700
+    },
+    "figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0011.png",
+      "sha256": "61dbec99c0dcb9e1fd7c8eacab53cfe06f37a940f45acfeb2de014c6f5633503",
+      "bytes": 180370
+    },
+    "figure.svg": {
+      "path": "chapters/chapter02/figures/inputs/input_0012.svg",
+      "sha256": "8b1cef29c1fa2195abd1ecc09aeace659fe70a2e575d969cdeb6f355b99c2224",
+      "bytes": 489005
+    },
+    "source.drawio": {
+      "path": "chapters/chapter02/figures/figure02_03/source.drawio",
+      "sha256": "3c2ee2dded9684d52efda417000de873127daf1fd8846ee6693842bb1f5be206",
+      "bytes": 12312
+    },
+    "source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0014.json",
+      "sha256": "b25757d35f778a0802f56cf3b753e06cbc189996fca0d52c3aa8efe3c633b33b",
+      "bytes": 6976
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

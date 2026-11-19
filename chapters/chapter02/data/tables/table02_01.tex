@@ -1,0 +1,21 @@
+\begin{table}[H]
+ \centering
+ \caption{BLoAR主要训练参数表}
+ \label{tab:formal-ch2-training}
+ \label{tab:ch2-training-parameters}
+ \begingroup\small
+ \begin{tabular}{llll}
+  \toprule
+  参数 & 取值 & 参数 & 取值 \\
+  \midrule
+  策略学习率 & \(3\times10^{-4}\) & 价值学习率 & \(10^{-3}\) \\
+  每批回合数 & 8 & 小批量大小 & 64 \\
+  每批更新轮数上限 & 4 & PPO裁剪宽度 & 0.2 \\
+  策略更新早停阈值 & 0.12 & 梯度范数上限 & 0.5 \\
+  折扣因子 & 1 & 熵正则项系数 & 0 \\
+  柴油系数维数 & 12 & 通信系数维数 & 18 \\
+  组合系数标准差 & \(1/\sqrt{d_w}\) & 优化器 & Adam \\
+  \bottomrule
+ \end{tabular}
+ \endgroup
+\end{table}

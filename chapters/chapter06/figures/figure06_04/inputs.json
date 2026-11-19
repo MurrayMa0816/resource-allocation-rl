@@ -1,0 +1,524 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "6.4",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter06_irrigation/figures/figure06-04_阶段状态配水统一风格_20261109",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter06/figures/figure06_04/figure_ab.pdf",
+    "chapters/chapter06/figures/figure06_04/figure_cd.pdf"
+  ],
+  "files": {
+    "all89_four_dates_state_action.csv": {
+      "path": "chapters/chapter06/figures/inputs/input_0091.csv",
+      "sha256": "2fc6be7f4fbc2652bc13dc97b11bba743b2a28ec12f6c9ebd90d17b16782d00d",
+      "bytes": 73251
+    },
+    "centered_pairs_proof.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0092.json",
+      "sha256": "6a5e96af3beb315890769f3bc548c78ff6c54417c6b573ff293611e36ee93dc4",
+      "bytes": 127876
+    },
+    "centered_titles_20261113/label_adjustments.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0001.json",
+      "sha256": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+      "bytes": 24031
+    },
+    "centered_titles_20261113/origin.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0093.json",
+      "sha256": "dceab7a4fabf1854541e0aebecef144f50512fcbdf1bf2d529634af15d632120",
+      "bytes": 352
+    },
+    "centered_titles_20261113/source/render_maps.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0094.py",
+      "sha256": "b431b4a7568555851d5493c4050051b1d50c6f1f787d9f7811d1949ec084f17f",
+      "bytes": 21890
+    },
+    "compact_labels_20261112/label_adjustments.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0001.json",
+      "sha256": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+      "bytes": 24031
+    },
+    "compact_labels_20261112/origin.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0095.json",
+      "sha256": "7633acee79d8d34a19f6fd44774e591baf57662df98a19605670a1c6533b10ec",
+      "bytes": 707
+    },
+    "compact_labels_20261112/source/render_maps.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0096.py",
+      "sha256": "66a4f388db4692be1e59e8bb252bd1ebbe87df154eefdf57b34c179882d25405",
+      "bytes": 21670
+    },
+    "data/channel_style.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0004.json",
+      "sha256": "a207f7b4bd548ba284b826720162589711565be2ba56eb8a2eb86e9c04c61c1b",
+      "bytes": 1256
+    },
+    "data/geometry/combined_water_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0005.json",
+      "sha256": "caf284d6967d1c4eaf50f78d923684b9d316643a10dfcedf85fe06f46bd74187",
+      "bytes": 38451
+    },
+    "data/geometry/compact_gate_symbols.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0006.json",
+      "sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "bytes": 140481
+    },
+    "data/geometry/layout.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0007.json",
+      "sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "bytes": 448689
+    },
+    "data/geometry/water_hex_edges.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0008.json",
+      "sha256": "00bcbdce8c50ccf247abcd1166350b26d8a88a80e122aad711a6793668d11bad",
+      "bytes": 28495
+    },
+    "data/mapping.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0009.json",
+      "sha256": "3c00bcb2c6bc7f7c37c3fc6d056a3bff0452df150e4685cf6e29be9013647cc9",
+      "bytes": 248935
+    },
+    "data/mean_terminal_y_all89.csv": {
+      "path": "chapters/chapter06/figures/inputs/input_0010.csv",
+      "sha256": "5181f583ad549b523164b9167e5fcae3e2dd293bb067a91a759e050a3a00cb80",
+      "bytes": 12412
+    },
+    "data/palette.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0011.json",
+      "sha256": "439fd95743c2e93ab4bd694de4d0bb63313b60582620e88836ecd858288897d1",
+      "bytes": 67
+    },
+    "data/static_scene/data/compact_gate_symbols.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0006.json",
+      "sha256": "d034f05b5f378473fd44543e7880319a52c8b4280d0d780afbddd46584298678",
+      "bytes": 140481
+    },
+    "data/static_scene/data/internal_hex_edges.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0012.json",
+      "sha256": "629694d376cadaaee127ae5d601e58846ca51be7f4482df53a5da6d2bb229f5c",
+      "bytes": 94029
+    },
+    "data/static_scene/data/layout.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0007.json",
+      "sha256": "721d000541bfed5e2236d22d562d30f8c52e055d9cee8aa414974fda281e6262",
+      "bytes": 448689
+    },
+    "data/static_scene/data/source_regions.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0013.json",
+      "sha256": "30a4c3e36e814b9406cae88c527b50b5d5e71ee145ca4eaaae9b91d0c9e52d65",
+      "bytes": 13924
+    },
+    "data/static_scene/data/water_band.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0014.json",
+      "sha256": "fe5549a2c52d64b10965212a5f8aa60df2e5a55ceb072fe6e5f98906200e1157",
+      "bytes": 84277
+    },
+    "data/static_scene/style_overrides.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0015.json",
+      "sha256": "12b7ca25f490abc0b7166d51cb9824369e2bdfd256965ca782ae6a345a6da933",
+      "bytes": 3358
+    },
+    "data/visible_manifest.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0016.json",
+      "sha256": "353d6b9d0e88c1a46d085131020fd4d148ac326843710281190691338b974654",
+      "bytes": 8315
+    },
+    "day00.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0097.pdf",
+      "sha256": "97e4969050ccc32354c6dbdcaa123f6700f328eb679733f0d0e9af62b8c9dd4d",
+      "bytes": 117324
+    },
+    "day00.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0098.png",
+      "sha256": "62b1da71cc2148eedf52c734de9f268f177d64305ebecd8e8bce869febbda121",
+      "bytes": 789609
+    },
+    "day00.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0099.svg",
+      "sha256": "8c196a20814707c072a47caea9733fcb06e4b132bbb37d95b1ccb2eda41bfbf2",
+      "bytes": 1285130
+    },
+    "day46.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0100.pdf",
+      "sha256": "a1e2a2823f56d36a15c6d92e4cacac8655870fda1cd38638f14c3ef113521b59",
+      "bytes": 117576
+    },
+    "day46.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0101.png",
+      "sha256": "21291026f441540a6aa5b21dd04e47a1834710487015dde8320209b9e17b2181",
+      "bytes": 841007
+    },
+    "day46.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0102.svg",
+      "sha256": "2fd26debecfda0476f03928f1d5fb584b5e4e737eb38e7b4e6c3711f4f8bd123",
+      "bytes": 1285188
+    },
+    "day62.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0103.pdf",
+      "sha256": "06ffb1da045966c1137ffe30aca467dc74f8195e4760611b0fdc39e87fd5a3ff",
+      "bytes": 117472
+    },
+    "day62.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0104.png",
+      "sha256": "1afcbd993afd412e598db63c1ec5fabaa1c5621b722c31fae7f404507c8b731b",
+      "bytes": 846590
+    },
+    "day62.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0105.svg",
+      "sha256": "d76a58c3a556362be7c05e20fb8e7c3f81586c35b087b83c5ac7560b1eaa6454",
+      "bytes": 1285020
+    },
+    "day72.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0106.pdf",
+      "sha256": "9eb3a44d027a1a85539c0b162e50221e7c953ab7dbcb3379d4b7f2bbe2bb887e",
+      "bytes": 117035
+    },
+    "day72.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0107.png",
+      "sha256": "4d7b7989d65d2a76e9976c70a29520ebf272cfe985ae694751f4810e211da637",
+      "bytes": 804174
+    },
+    "day72.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0108.svg",
+      "sha256": "28f357969fd57c146890d1f842a8acbd6aca83870ef49041069599200a23b954",
+      "bytes": 1282166
+    },
+    "fullsize15_20261111/label_adjustments.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0001.json",
+      "sha256": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+      "bytes": 24031
+    },
+    "fullsize15_20261111/origin.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0109.json",
+      "sha256": "e135c46bbfb61bd46058613ebf994a372259b5603b03badb73833e88a0c64bc4",
+      "bytes": 1198
+    },
+    "fullsize15_20261111/source/render_maps.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0110.py",
+      "sha256": "e732ee25ce07a2ded804e15eb0e676beb25cb6f4e62ac5c3ada0def1f60c380f",
+      "bytes": 21556
+    },
+    "fullsize15_day00.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0111.pdf",
+      "sha256": "3e3da48a6a4bf37441512b28c7199a527668ab668d7e508b47a9f958d6c9951e",
+      "bytes": 151617
+    },
+    "fullsize15_day00.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0112.png",
+      "sha256": "0a13002894504f40fe875d58bd6f2bdbe9a2e8e7f948ba2450ee4007fa8e2fee",
+      "bytes": 558383
+    },
+    "fullsize15_day00.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0113.svg",
+      "sha256": "91abe6684cc2c41b1b57e445875fd7473f3503474cd14226537245e95b9af49e",
+      "bytes": 1805019
+    },
+    "fullsize15_day46.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0114.pdf",
+      "sha256": "32be58465b82d56078a8ece52d7bc2c9939ceb2b3dc112b1eadec52ad03bf7aa",
+      "bytes": 151362
+    },
+    "fullsize15_day46.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0115.png",
+      "sha256": "62aecd0fd350f5065681ab7ed639a1ad7bfd34ed108f1121291cb087aaf11698",
+      "bytes": 591743
+    },
+    "fullsize15_day46.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0116.svg",
+      "sha256": "bae7035ad22192e5f7925b9bd2c07a8fc728f7cdd9bb240e865002d875937d54",
+      "bytes": 1804861
+    },
+    "fullsize15_day62.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0117.pdf",
+      "sha256": "52826ea4406f8bf53f03e74b5f653e44b12e4a1bf62b3cf0a6870c97dbda3da2",
+      "bytes": 151530
+    },
+    "fullsize15_day62.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0118.png",
+      "sha256": "19605b93082ca7d10154eae9099f1d2e9d1fbd5c39e94d57cda9405ba78c74d9",
+      "bytes": 595684
+    },
+    "fullsize15_day62.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0119.svg",
+      "sha256": "fb05b78490b4a5c2d3b7270b8d34ccad1ae4ce73ec4d35660a548cb49b6e0470",
+      "bytes": 1804801
+    },
+    "fullsize15_day72.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0120.pdf",
+      "sha256": "8cfb3b94fbc35b19ffafc83ca870187d6bc7fb543d0234ed33eb4b34ce57486d",
+      "bytes": 151169
+    },
+    "fullsize15_day72.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0121.png",
+      "sha256": "0e4a754c2233e4f38a6106679dc336705c714e1ceb43ed98bb26f14b9456618a",
+      "bytes": 568729
+    },
+    "fullsize15_day72.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0122.svg",
+      "sha256": "59498b53f0831269fe6a1eb0f39aca31f34c79a62fb9a2bb5cdf478b79d555d4",
+      "bytes": 1802273
+    },
+    "fullsize15_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0123.json",
+      "sha256": "f646aba62368ccfb331efd1d645cd78780ee3e6be1f5ba6e0d82dbe1b7741913",
+      "bytes": 100588
+    },
+    "fullsize15_science.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0124.json",
+      "sha256": "9ca56e332b9960d846514745a51687c2cc154cca89e84253e35d991ad517b7a3",
+      "bytes": 181728
+    },
+    "layout_pairs_20261110/label_adjustments.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0001.json",
+      "sha256": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+      "bytes": 24031
+    },
+    "layout_pairs_20261110/source/compose_pairs.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0125.py",
+      "sha256": "d3a29cdd198ccde098b06b01c854c2a2dc8ab1498a7e2ba8e764965b5869ee60",
+      "bytes": 3073
+    },
+    "layout_pairs_20261110/source/render_maps.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0126.py",
+      "sha256": "81ef4aac882fa7b421561d8784c4bc879d869ed284538298a72eeac38a446ab1",
+      "bytes": 21250
+    },
+    "legend.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0127.pdf",
+      "sha256": "bcf64f9f99b295a386521522cb2a2598ee49fdb4cdc40726166dfc6f8ef7630f",
+      "bytes": 18124
+    },
+    "legend.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0128.png",
+      "sha256": "790c1d3697459bdbb03749005e6f90998fa57bdeab67c8adcebacfe737877d1d",
+      "bytes": 32856
+    },
+    "legend.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0129.svg",
+      "sha256": "a61985e7148dcab2bcca68273c9816f1e687bfe0e89872612ad9e706f932968a",
+      "bytes": 9127
+    },
+    "local_source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0130.json",
+      "sha256": "73bf77f94de6903e93b0cefb806c71cdf0385984c786c2d8dee690a9c2323e5c",
+      "bytes": 3977
+    },
+    "manifest.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0131.json",
+      "sha256": "cb81fc9a1767b2eff7db12c8fa5c6a390f7b2e1064012d11cabfaca7918756e6",
+      "bytes": 16297
+    },
+    "pair_ab.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0132.pdf",
+      "sha256": "8ac4967696531f6343bca4fe6fa103c71af6fe02e0e09a8ca3b6c426414a69cb",
+      "bytes": 251156
+    },
+    "pair_ab.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0133.png",
+      "sha256": "264fe5ac4d1569857d8d81280a18af921de20c898076fed080add1be01391f2c",
+      "bytes": 682564
+    },
+    "pair_ab.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0134.svg",
+      "sha256": "1cb368c538c7407d289c995753a6ee14e67b6552808f2441ece60c5a703427de",
+      "bytes": 3694618
+    },
+    "pair_cd.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0135.pdf",
+      "sha256": "509072cf80c68fa89e3951761b77515553fe45cb3312bd4dcbcf96515312c3d0",
+      "bytes": 250942
+    },
+    "pair_cd.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0136.png",
+      "sha256": "d8eea09bbe1588ef983c3601e2bcd3d8e7677968b59c5642e0f6290b3a2f4dc7",
+      "bytes": 690037
+    },
+    "pair_cd.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0137.svg",
+      "sha256": "4fee90d2cc295f03d000c32e47c7ec839c299662631603132d182eb970d8c884",
+      "bytes": 3691812
+    },
+    "paired_ab.pdf": {
+      "path": "chapters/chapter06/figures/figure06_04/figure_ab.pdf",
+      "sha256": "4e1aa9f0bbdcc0e1fe6c450bed75ac007eacf3d9ea54eaedd10639a5433b6cee",
+      "bytes": 266582
+    },
+    "paired_ab.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0138.png",
+      "sha256": "cbbbe2d96506b50144aa600953ae151a2475c70f31cfdde6412f4fad16f19c31",
+      "bytes": 980198
+    },
+    "paired_ab.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0139.svg",
+      "sha256": "a00d967d8b72060d4abec3bf901e4a4616c5d6193c3ad1ce0182467d4e63ad29",
+      "bytes": 3693486
+    },
+    "paired_cd.pdf": {
+      "path": "chapters/chapter06/figures/figure06_04/figure_cd.pdf",
+      "sha256": "ee455154296fcba53c226f1ca79ebed50e44a5f1da206bb2512ccfe9d279042a",
+      "bytes": 266271
+    },
+    "paired_cd.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0140.png",
+      "sha256": "bca224edd6be2657e04fd45ace7d1acff420a3de6c747c086ee6b35749316a69",
+      "bytes": 992554
+    },
+    "paired_cd.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0141.svg",
+      "sha256": "dcde8e9806882201da308302197d6ccc72e27a5759b09c85e09d572ad96283d5",
+      "bytes": 3691046
+    },
+    "pairs_layout_proof.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0142.json",
+      "sha256": "62a548ceb59e022f977b1cb9b90ebe2062d62dbe503b660efab9bfd0ad07287d",
+      "bytes": 295028
+    },
+    "plot.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0143.py",
+      "sha256": "c9dc40d9dfe9c12ed023783d49df7121e0b76d5a17f90ea00b47ba6be9641cb2",
+      "bytes": 545
+    },
+    "plot_centered_pairs.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0144.py",
+      "sha256": "9373ad314f9aec80ed1a01db88efb505cdad0ed1e11ec93a978e754ba340c45f",
+      "bytes": 13680
+    },
+    "plot_fullsize15.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0145.py",
+      "sha256": "c695bdf8221404c646e15e45dc758d0f96791c8e00885ed450b39dc9055cac6e",
+      "bytes": 13669
+    },
+    "plot_pairs.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0146.py",
+      "sha256": "9e2415d06ae3ab1890cc3fb55054e5d0483613ca388c57be9198fd61b19c89eb",
+      "bytes": 6262
+    },
+    "plot_single_panels.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0147.py",
+      "sha256": "083c4abaeeffb08eefa965512bc5e4ac2514d3faa747b3126b9000177948180a",
+      "bytes": 8789
+    },
+    "plot_two_pages.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0148.py",
+      "sha256": "5a718473939d5c953622b3ac3be6ffe125fe3474359347b98f627b1df04a0c4b",
+      "bytes": 10752
+    },
+    "provenance/original_static_scene_render.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0048.py",
+      "sha256": "983137583127d2bc239534bd7dbb2123d7866a02b03da634b08e3ae0c9e06284",
+      "bytes": 15140
+    },
+    "requirements.txt": {
+      "path": "chapters/chapter06/figures/inputs/input_0050.txt",
+      "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+      "bytes": 33
+    },
+    "single_a.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0149.pdf",
+      "sha256": "007a895da55e6cf56e4fd4adcb5c00a09b62b6376501640ff0918c8c32ac17be",
+      "bytes": 267408
+    },
+    "single_a.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0150.png",
+      "sha256": "bf4d5b3532fa828018794ba34ef8572426ce0d9b68bfb367f7c63f2459e7ad60",
+      "bytes": 489516
+    },
+    "single_a.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0151.svg",
+      "sha256": "7e83755e104e3db3caec0e74bad5396bdb61bbcf346b57d306f2c7353a6e1cc1",
+      "bytes": 11082946
+    },
+    "single_b.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0152.pdf",
+      "sha256": "86cd55f3997e54a74a74db81d128bea6d817e6f563731ae6ecda9955bf55d938",
+      "bytes": 267390
+    },
+    "single_b.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0153.png",
+      "sha256": "c58d55146765c1695397dd0fe980fd3c52fe2247180fd7546d87304d8cb7e7fe",
+      "bytes": 513996
+    },
+    "single_b.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0154.svg",
+      "sha256": "3cfd1929851c79a952e7ded30e8af787654bd760e984c86ed0a3ef8969b9b4b2",
+      "bytes": 11083163
+    },
+    "single_c.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0155.pdf",
+      "sha256": "a7b6b7f5d942a365facb6921882fa1533c74a010639b7fa22b7f33078fc59be4",
+      "bytes": 267097
+    },
+    "single_c.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0156.png",
+      "sha256": "0437029d14678f9b6c288456b8f717105dc18b3bfc271a239064f07b0680186e",
+      "bytes": 518227
+    },
+    "single_c.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0157.svg",
+      "sha256": "4a522777ad6b586f9147219093e55e9b9ee37ae2bf6a6b0c330d9aa3961ed0ed",
+      "bytes": 11075627
+    },
+    "single_d.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0158.pdf",
+      "sha256": "ee0808344f10ee3d2bc671faec13929b666ab4fa481f56250a59bb2995944afd",
+      "bytes": 267079
+    },
+    "single_d.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0159.png",
+      "sha256": "f9c91fd16ce06258ff3358d7831a282c6227a499a4a36613041afc3187b307ed",
+      "bytes": 497758
+    },
+    "single_d.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0160.svg",
+      "sha256": "be6fb9e686e507d6685fd03c956f54dbad530bbd8d7fb80cc024009c35a67c81",
+      "bytes": 11075834
+    },
+    "single_panels_proof.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0161.json",
+      "sha256": "e0cb8cadef50fc8b67d0ffa0a59d9ef3ddfdc625efb69e8706d3276a2ca02df5",
+      "bytes": 100116
+    },
+    "source/display_helpers.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0051.py",
+      "sha256": "b7479d17711957c8cfb9a16d6746a0a504ae1ce5ad6e60e06f292f57ac351346",
+      "bytes": 7197
+    },
+    "source/map_family.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0052.py",
+      "sha256": "4e91b8f86a2c64b2668e3bbd9706092da52eb9567748026ca7cc6e9005dd9dd8",
+      "bytes": 19936
+    },
+    "source/storage_depth_legend.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0162.py",
+      "sha256": "25c1e01cca0113dae4aa49f46818ea60d4c0ca4160174a2395f8576c9bdef13f",
+      "bytes": 4541
+    },
+    "storage_depth_legend_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0163.json",
+      "sha256": "3b1d3757940ae9fa7cb6be8578ded7ac545273728e02ae76476156ece7c9283a",
+      "bytes": 999
+    },
+    "two_page_pairs_20261113/label_adjustments.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0001.json",
+      "sha256": "755e7caaf1340802570f3e355499ada2bb6617edb9839eebaa0bd7b55806f569",
+      "bytes": 24031
+    },
+    "two_page_pairs_20261113/origin.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0164.json",
+      "sha256": "140b853db9f06a3a70bc16324e0bcf1f4313cc187172c0874b650b53969c2e1e",
+      "bytes": 332
+    },
+    "two_page_pairs_20261113/source/render_maps.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0165.py",
+      "sha256": "3b692254574178e11cd397423494f6925d7d9caec06dfdbf770a6368e5774424",
+      "bytes": 22739
+    },
+    "two_page_pairs_proof.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0166.json",
+      "sha256": "8de9e3daf9b104ffebab712cd53f6342eba9a94c4029c47e8720677e022b9624",
+      "bytes": 126452
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

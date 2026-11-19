@@ -1,0 +1,38 @@
+{
+  "schema": "chapter05-frozen-value-diagnostic-completion-v1",
+  "status": "COMPLETE",
+  "utc": "2026-11-08T16:01:02.876851+00:00",
+  "model_count": 20,
+  "model_loads": 20,
+  "episodes": 5120,
+  "physical_steps": 143360,
+  "physical_steps_by_domain": {
+    "radio": 81920,
+    "v5": 61440
+  },
+  "learner_instances_constructed": 0,
+  "learning_steps": 0,
+  "optimizer_steps": 0,
+  "backward_calls": 0,
+  "failed_work_attempts": 0,
+  "failed_attempt_steps": 0,
+  "extra_engineering_rollouts": 0,
+  "all_process_exit_codes_zero": true,
+  "original_source_files_unchanged": 285,
+  "all_model_parameter_hashes_unchanged": true,
+  "all_endpoint_file_hashes_unchanged": true,
+  "all_four_input_hashes_unchanged": true,
+  "all_initial_states_and_exogenous_cases_paired": true,
+  "diagnostics_only_not_new_formal_TEST": true,
+  "retraining_performed": false,
+  "no_more_cases_or_models_queued": true,
+  "primary_outputs": [
+    "summary.json",
+    "per_seed_metrics.csv",
+    "paired_full_minus_scalar.csv",
+    "scientific_ledger.json"
+  ],
+  "interpretation": "Component semantics are constrained by Full; Scalar outputs are only constrained through their weighted sum. Large component residuals do not invalidate Scalar. Weighted F residual gains are not stable, so diagnostics do not justify automatic retraining or superiority claims.",
+  "original_artifacts_written": false,
+  "actor_critic_evaluation_mode": true
+}

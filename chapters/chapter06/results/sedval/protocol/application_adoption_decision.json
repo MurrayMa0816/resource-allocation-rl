@@ -1,0 +1,86 @@
+{
+  "schema": "reasonable89-application-adoption-decision-v1",
+  "status": "APPLICATION_CONFIGURATION_ADOPTED_FORMAL_LAUNCH_PENDING_TECHNICAL_RELEASE",
+  "adopted": {
+    "adapter": "depth_area_physical",
+    "training_weight": 0.2,
+    "spatial_sigma_scale": 1,
+    "main_budget_m3": 4000000,
+    "training_policy": "native_stochastic_complete_joint_Gaussian",
+    "development_execution": "fixed64_antithetic_mean_feasible_actions",
+    "deployment_execution": "fixed64_antithetic_mean_feasible_actions",
+    "point_count": 64,
+    "antithetic_positive_points": 32,
+    "point_generator_seed": 2026110964,
+    "point_event_dimension": 49
+  },
+  "selection_scope": "Separate adaptive DEV execution-stage application decision per execution_stage_adoption_plan, not a pass of the old39 tail-window protocol. All39 old native-mean pilots remain reported as unaccepted.",
+  "evidence": {
+    "combined39": {
+      "path": "protocol/combined_development39_selection.json",
+      "sha256": "6604e20d2e2121254287f9749bbad032a44d4aece0fc72c6284ebad409c1bc35",
+      "actual_jobs": 39,
+      "old_selected_adapter": null
+    },
+    "endpoint_execution_probe": {
+      "path": "diagnostics/execution_conversion/report.json",
+      "sha256": "bf5634f1809f1c6963f9cc63c9cd1188a4f38f5420f6e2adb5e47f674b598099"
+    },
+    "initial_same_operator_probe": {
+      "path": "diagnostics/execution_conversion_initial/report.json",
+      "sha256": "6a2daf15a02818995cd7308dd129e2a9c9590d25abe8d36aaa05ac932d496181"
+    },
+    "initial_independent_audit": {
+      "path": "diagnostics/execution_conversion_initial/independent_output_audit.json",
+      "sha256": "879068a41cf8cdf26011b4c84720eaa66263798bef343eb7e817bcb20b843148",
+      "status": "PASS"
+    },
+    "physical_math_independent": {
+      "path": "audit/execution_conversion_independent_review.json",
+      "sha256": "23642d7106cff0f636e80109bcd1bfef378c5ecbcf3120311226b4b9d2209596",
+      "status": "PASS_DEV_ONLY_MATH_AND_SAVED_RESULTS"
+    }
+  },
+  "development_evidence_only": {
+    "initial_means": {
+      "C90": 0.03803838951310861,
+      "JA": 0.7030990122623905
+    },
+    "fixed1536_means": {
+      "C90": 0.9213483146067416,
+      "JA": 0.9228193039399911,
+      "largest5_area_weighted_Y": 0.9189194342201391,
+      "min_pooled_regional_mean_Y": 0.8974265960404688
+    },
+    "all3_seeds_increase_C90_and_JA": true,
+    "original5_quality_targets_pass_at_single1536_endpoint": true,
+    "caveat": "DEV evidence does not count as heldout performance and does not select best checkpoints. Otherlambda and native-mean results, including regressions, retained."
+  },
+  "prospective_formal": {
+    "fresh_seeds": [
+      6400,
+      6401,
+      6402
+    ],
+    "budgets_m3": [
+      3500000,
+      4000000,
+      4500000
+    ],
+    "fixed_episodes": 3200,
+    "evaluate_every": 128,
+    "DEV_weather_count": 32,
+    "TEST_weather_count": 128,
+    "endpoint_selection": "fixed3200,no bestDEV checkpoint",
+    "new_initial_and_final_operator_identical": true
+  },
+  "pending_before_formal_launch": [
+    "Final scientific source closure with strict formal lambda.2/sigma1/physical8/M64 guards and unchanged native learning mathematics",
+    "Shared operator exact parity and source-independent review",
+    "Hardware concurrency engineering and frozen device policy",
+    "Canonical final_design and selected_application bound to final source and adoption evidence; fresh9 preflight and explicit launch receipt"
+  ],
+  "formal_training_authorized_now": false,
+  "TEST_opened": false,
+  "supportable_claim_scope": "Learning improvement and application allocation capabilities in the evaluated model; no rule superiority claim, no universal advantage, no equality to the stochastic closed-loop expected return."
+}

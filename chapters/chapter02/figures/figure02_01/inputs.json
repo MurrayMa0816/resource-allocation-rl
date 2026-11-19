@@ -1,0 +1,43 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "2.1",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter02_high_dimensional/figures/figure02-01_当期总量给定时的多对象配置_需求水平_20261110",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter02/figures/figure02_01/figure.pdf"
+  ],
+  "files": {
+    "export.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0001.json",
+      "sha256": "741e74ad6ce1842a23500016e60efe3677b86f08a4183621ddb817ac467a6d10",
+      "bytes": 1476
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter02/figures/figure02_01/figure.pdf",
+      "sha256": "6ab57645393b35d4020358201ca1d38037d0191cbb89239e26842bb940c47c1a",
+      "bytes": 123631
+    },
+    "figure.png": {
+      "path": "chapters/chapter02/figures/inputs/input_0002.png",
+      "sha256": "2fc9fcff00c107f1c042632084cc29c94f63acd51d045f1f8cc054047fb02955",
+      "bytes": 250833
+    },
+    "figure.svg": {
+      "path": "chapters/chapter02/figures/inputs/input_0003.svg",
+      "sha256": "489844d93d76e9fad96991a48a0295af104245fc529037721ee039ba1206975a",
+      "bytes": 70234
+    },
+    "source.drawio": {
+      "path": "chapters/chapter02/figures/figure02_01/source.drawio",
+      "sha256": "8f83f97fb2ac69f428267f50ae56867d377e7384d002ebc0e3118b28b3a796ba",
+      "bytes": 75691
+    },
+    "source.json": {
+      "path": "chapters/chapter02/figures/inputs/input_0005.json",
+      "sha256": "fa2be376ebe1964322eb969504a638de5cb67591b7e439097353f1205e825545",
+      "bytes": 10376
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

@@ -1,0 +1,263 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "6.5",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter06_irrigation/figures/figure06-05_学习方法配置成效比较_20261109",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter06/figures/figure06_05/figure.pdf"
+  ],
+  "files": {
+    "all7488_DEV_cases.csv": {
+      "path": "chapters/chapter06/figures/inputs/input_0167.csv",
+      "sha256": "f6c068711237324946501ef9a3866e910fd4db0b2dca86a655219899d8687944",
+      "bytes": 497210
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0168.pdf",
+      "sha256": "4baa529a9861517675884067f8f7eefd675ae8858168d9f518d6b764731b8c3f",
+      "bytes": 31970
+    },
+    "figure.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0169.png",
+      "sha256": "715121de57e9a643b337841cb5ab32ca80b1e3a55a8c31524f5f156a1e503434",
+      "bytes": 162799
+    },
+    "figure.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0170.svg",
+      "sha256": "df1dec1baf5d2fbd73f2f011922b3418987f2bf1537d431dc39074307197438c",
+      "bytes": 44069
+    },
+    "horizontal15.pdf": {
+      "path": "chapters/chapter06/figures/figure06_05/figure.pdf",
+      "sha256": "57e619421bf9fd78f7b609ae49b042c9d95d2ed786e2fc86c7739d208382a322",
+      "bytes": 34145
+    },
+    "horizontal15.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0171.png",
+      "sha256": "a99f84da7fc385333de013ba4a8c305ca380a93879d8b289f96bbac7e446b805",
+      "bytes": 188385
+    },
+    "horizontal15.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0172.svg",
+      "sha256": "88a6e2e21fb207db8243241e54b4821c5b88f2e3f4241ac6c53ac97b4764cde0",
+      "bytes": 44351
+    },
+    "horizontal15_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0173.json",
+      "sha256": "50b63145aa60498e962b5be492087769e9bd37b17fde0abd819872606e692315",
+      "bytes": 12355
+    },
+    "horizontal15_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0174.json",
+      "sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+      "bytes": 110599
+    },
+    "inherited_parent_render_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0175.json",
+      "sha256": "b99b5a852b081d0fc2f81e45e48fe3669de0ca51a139406322f113852dc71b8e",
+      "bytes": 9185
+    },
+    "inherited_parent_source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0176.json",
+      "sha256": "d9de4de134a62f14a9209d476eeb08b9b33aa48efaa0fff97cf91980f9d96488",
+      "bytes": 32472
+    },
+    "learning_all3_seed_DEV.csv": {
+      "path": "chapters/chapter06/figures/inputs/input_0177.csv",
+      "sha256": "684ee59e1ab6dda19ebd642109f5b123beedba4f7d45996f20baa7459b479ee7",
+      "bytes": 21834
+    },
+    "learning_mean_sample_SD.csv": {
+      "path": "chapters/chapter06/figures/inputs/input_0178.csv",
+      "sha256": "3e195d5266c49ce23b9691a65c76fc169adf101a8c85d5ba1ca1075004c4647c",
+      "bytes": 15826
+    },
+    "local_source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0179.json",
+      "sha256": "a14b96f76204f2ba3e684425e7e056d13d7f086a1b966df567472e83b2a1219b",
+      "bytes": 1305
+    },
+    "narrow.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0180.pdf",
+      "sha256": "f4771c3a44b4fd01caa9de4748bec22b5d633cd3f77e507baa7dcd5ddff8b724",
+      "bytes": 31765
+    },
+    "narrow.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0181.png",
+      "sha256": "575ac015ebbbec32699f6ee6fe873ff19e5b1fcb2d5c9beefd8a689305ae978c",
+      "bytes": 182501
+    },
+    "narrow.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0182.svg",
+      "sha256": "01f70e1a2992d3371ca60c983e640846c12dcba43efea16f5173359f0d41573b",
+      "bytes": 44252
+    },
+    "narrow15.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0183.pdf",
+      "sha256": "6ffe2900f899f1ff36e5e4f425dc2226cf1815458cc1a36bb5e84ddba5203246",
+      "bytes": 33368
+    },
+    "narrow15.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0184.png",
+      "sha256": "e5db8ea1ab8ed920f8c4cfff1c4cb98d70c53d4cfcec3eaeb2d5db79f9c1da3a",
+      "bytes": 222256
+    },
+    "narrow15.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0185.svg",
+      "sha256": "985737410553e6fd2899aec31571113b582afc31d19c62dcdf292e4542557a6c",
+      "bytes": 44654
+    },
+    "narrow15_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0186.json",
+      "sha256": "01b4314d704c7dfeb8de4d76d0ae2a07e3d4dbe315a0a091950166041126a15c",
+      "bytes": 14569
+    },
+    "narrow15_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0174.json",
+      "sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+      "bytes": 110599
+    },
+    "narrow_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0187.json",
+      "sha256": "96df727dffef50389243546cafc2c9c9bc1bd636f9aabae3e1530a4c20f6f941",
+      "bytes": 12455
+    },
+    "narrow_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0174.json",
+      "sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+      "bytes": 110599
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0174.json",
+      "sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+      "bytes": 110599
+    },
+    "plot.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0188.py",
+      "sha256": "916987b6cf911470ec4099ca2bc57c9394e1ed757e76ab13064256ab12c90245",
+      "bytes": 243
+    },
+    "plot_horizontal15.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0189.py",
+      "sha256": "bf7560caea4ea96fc6f98cc4a5fc006856e1e435f1f77703cd52bf185dc92557",
+      "bytes": 10554
+    },
+    "plot_narrow.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0190.py",
+      "sha256": "68feb726e127025dbfffd934059922b1daf47c00b70331a529281201c72c5944",
+      "bytes": 5317
+    },
+    "plot_narrow15.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0191.py",
+      "sha256": "6d4ee968712e0c0edec8b7ef4f66d8b135e5276163806c6488f61d82a5ff7d3f",
+      "bytes": 9313
+    },
+    "plot_template15.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0192.py",
+      "sha256": "a1659db43029ef569ba6f420ee6abcbd96975ed91d27dee10b2d09ac60a0be09",
+      "bytes": 9216
+    },
+    "plot_vertical.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0193.py",
+      "sha256": "6f973e9234424706caf71081e1a9ac1d57e47a15d192c889edfb1f6926913716",
+      "bytes": 4830
+    },
+    "render_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0194.json",
+      "sha256": "c3cd911b40a4a2a4ee540bb2b6e08105b3dbf5c6af9f3e9143134a4ab73bdd89",
+      "bytes": 9891
+    },
+    "render_receipt.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0195.json",
+      "sha256": "d988a65ea3fc135cd91fd03ae09d27f699130f21af62c70aa4fcfa2626cabd50",
+      "bytes": 966
+    },
+    "requirements.txt": {
+      "path": "chapters/chapter06/figures/inputs/input_0050.txt",
+      "sha256": "fd8faa17d917f8d53efd36450aae60fb45745a32ab5f05253048003fca734494",
+      "bytes": 33
+    },
+    "rl_wording_export_evidence_20261114/horizontal15_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0196.json",
+      "sha256": "6d6bc6dc23e343de5e4ecdd95615cba3c1a893c8696f9dbcea4f2f7d7907ac8b",
+      "bytes": 12355
+    },
+    "rl_wording_export_evidence_20261114/horizontal15_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0174.json",
+      "sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+      "bytes": 110599
+    },
+    "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0197.json",
+      "sha256": "b7b5e045bfc885ddc18193bbe4a75ce3bf6eac33ddfdae24d3ba7c0d62fd0024",
+      "bytes": 1044
+    },
+    "source.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0198.json",
+      "sha256": "cc7e672c5c80bedf36546132e3e7ce11ebd35443c204eb4ef6b4c38ce2315080",
+      "bytes": 5942
+    },
+    "source/accepted_learning.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0199.py",
+      "sha256": "d2ec8f2f10b6d57869dd185510483f9ba2b39835e76f7bfd34af1a7b22c9d78e",
+      "bytes": 6979
+    },
+    "source/spacing.py": {
+      "path": "chapters/chapter06/figures/inputs/source_0087.py",
+      "sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+      "bytes": 14490
+    },
+    "template15.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0200.pdf",
+      "sha256": "80b0c0de8b4d227ac1eaac6bcfa6baf099415127853110d5307278a5b3dc8538",
+      "bytes": 31843
+    },
+    "template15.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0201.png",
+      "sha256": "d9b2671b8bf235c20b3ca9957034d0ab9cc6d2bb6837936223fc275fdfae159c",
+      "bytes": 218679
+    },
+    "template15.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0202.svg",
+      "sha256": "010094ee7af9c8a881d31eba14c347d72bdb82058500e86cadf00ade52837f2f",
+      "bytes": 44384
+    },
+    "template15_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0203.json",
+      "sha256": "614656f205babbd1f8fa68e3d021d6ca3e94d5be36cec24538b5c11245f2207a",
+      "bytes": 14442
+    },
+    "template15_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0174.json",
+      "sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+      "bytes": 110599
+    },
+    "vertical.pdf": {
+      "path": "chapters/chapter06/figures/inputs/input_0204.pdf",
+      "sha256": "2437fd0030cdd265fdf00a9dcdbd665c0147698789fa0ecf931037c36dcf4eff",
+      "bytes": 31770
+    },
+    "vertical.png": {
+      "path": "chapters/chapter06/figures/inputs/input_0205.png",
+      "sha256": "f0ee1d14c63dd2d6e1da48c1754c984ac4dc0d09c4c2c9a0d6a8432230bd38fb",
+      "bytes": 189865
+    },
+    "vertical.svg": {
+      "path": "chapters/chapter06/figures/inputs/input_0206.svg",
+      "sha256": "178a150505e49cb4a208c007cd7f0c33b3a206fffe4fe2c826f120b303150bf7",
+      "bytes": 44353
+    },
+    "vertical_geometry.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0207.json",
+      "sha256": "ef2649b927ab2d053da9ce26d43cdf59159669dd116ccb3e2a35d56949581c57",
+      "bytes": 11922
+    },
+    "vertical_numeric_artists.json": {
+      "path": "chapters/chapter06/figures/inputs/input_0174.json",
+      "sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+      "bytes": 110599
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

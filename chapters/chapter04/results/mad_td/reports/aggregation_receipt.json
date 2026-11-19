@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "summary_sha256": "639321ef76c8da5b7458dbe8cf81c8e55f50beb065518a70c2bdf2264f83110d",
+  "acceptance_sha256": "1e598234708001597a4919d01a357a020623c9fb15699dff98e02d39b38334d4",
+  "unique_training_runs": 90,
+  "new_training_jobs": 10,
+  "reused_external_trainings": 80,
+  "inherited_models": 10,
+  "endpoint_panels": 100,
+  "initialization": "both_random",
+  "new_endpoint_evaluations": 70,
+  "reused_endpoint_evaluations": 30,
+  "curve_rows": 11880,
+  "endpoint_case_rows": 25600,
+  "methods": [
+    "f1",
+    "props",
+    "mad_td",
+    "redo",
+    "mrq",
+    "bro"
+  ],
+  "ablation_methods": [
+    "no_history",
+    "no_offpolicy_correction",
+    "fixed_actor_lr"
+  ],
+  "raw_results_unchanged": true,
+  "new_environment_steps": 0
+}

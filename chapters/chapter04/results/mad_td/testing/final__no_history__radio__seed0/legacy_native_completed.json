@@ -1,0 +1,63 @@
+{
+  "schema": "chapter4-double-random-F1-family-evaluation-only-v1",
+  "status": "completed",
+  "success": true,
+  "method": "no_history",
+  "domain": "radio",
+  "seed": 0,
+  "phase": "final",
+  "paths": 256,
+  "path_master": 2026110694199,
+  "summary": {
+    "training_step": 100608,
+    "phase": "final",
+    "paths": 256,
+    "evaluation_environment_steps": 8192,
+    "native_mean": 0.48022291104244175,
+    "native_std": 0.10419187292513783,
+    "score_x100_mean": 48.022291104244175,
+    "minimum": 0.058885939418940055,
+    "maximum": 0.6248559787052681
+  },
+  "training_steps": 0,
+  "evaluation_steps": 8192,
+  "model_loaded_from": "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/jobs/no_history__radio__seed0/checkpoint_final.pt",
+  "checkpoint_sha256": "bcbcb63e6949fa68a1795d2c8f173ce3fd02418957ed9efffc0cd42e5d7befdb",
+  "deterministic": true,
+  "resource_audit_stream_sha256": "4327e25ba8c4c6804a18a03ba34c7cb8688620ecd9b0f968d5aeada00ca065ea",
+  "elapsed_seconds": 62.94851315021515,
+  "data_digest_verification": {
+    "hits": 62,
+    "misses": 2,
+    "final_full_rereads": 2,
+    "records": {
+      "/hy-tmp/resource_allocation_results/chapter3/full_spend_revision_20261104/execution/source/allocation23/data/eurosat_rgb/split_manifest.json": {
+        "signature": [
+          66304,
+          106730542,
+          341975,
+          1793374931094393249,
+          1793761912241016680
+        ],
+        "sha256": "3da80902473649ff41d0b92110b03820827983434a45e11f5c1df3d4ac841731"
+      },
+      "/hy-tmp/resource_allocation_results/chapter3/two_seed_main_ablation_20261104/execution/shared_data/eurosat_rgb/images.npy": {
+        "signature": [
+          66304,
+          112561326,
+          331776128,
+          1793374930614390340,
+          1794027447133123837
+        ],
+        "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef"
+      }
+    },
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "e4220e423fff43a6db28b2d344ba23f2fd92decc5915f94db38d8329fa0c2b5b",
+    "evaluation_paths.csv.gz": "c6b4099755863909610dec60b6eebc5c1c14a16f6f2d39ede00f6cd0e297f548",
+    "protocol.json": "afa898b8493005d5fa2947b3da0a478a44dccc92df0421626e76b1ec42ab70c0",
+    "resource_episodes.csv.gz": "2e20afc5b02e121ee95b053407c5e265f1296e1ffbe6f304086815c148ccc44a"
+  }
+}

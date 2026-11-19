@@ -1,0 +1,20 @@
+\begin{table}[H]
+ \centering
+ \captionsetup{skip=8bp,belowskip=0pt}
+ \caption{对比方法主要训练参数表}
+ \label{tab:ch3-baseline-settings}
+ \begingroup\small
+ \setlength{\tabcolsep}{4pt}
+ \begin{tabular}{lccccc}
+  \toprule
+  方法 & \shortstack{每批采集\\步数} & 更新次数或轮数 & 小批量设置 & \shortstack{策略／价值\\学习率} & 折扣因子 \\
+  \midrule
+  C-PPO & 256 & 各\(\le40\)次 & 整批更新 & \(10^{-4},\,10^{-3}\) & 1 \\
+  PFO & 512 & 10轮 & 8个小批量／轮 & \(3\times10^{-4}\) & 0.99 \\
+  Gradient PPO & 1024 & 4轮 & 8个小批量／轮 & \(3\times10^{-4},\,3\times10^{-3}\) & 0.99 \\
+  RPO & 2048 & 10轮 & 32个小批量／轮 & \(3\times10^{-4}\) & 0.995 \\
+  PPO+ & 2048 & 10轮 & 256条／小批量 & \(3\times10^{-4}\) & 1 \\
+  \bottomrule
+ \end{tabular}
+ \endgroup
+\end{table}

@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "number": "5.4",
+  "old_physical_package": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+  "old_graphics_sha256": {
+    "figure.pdf": "475f006f03f300ca47bacb56f70345e12eb9f16f942f0e1e0dc9a4bee437b57a",
+    "figure.png": "b0026d30c08e5ebb38d7a098e453e1bf451a73b16682fd4994c98c11373aed72",
+    "figure.svg": "1f4f6d57c9f5572c8b63b54e6f136cb89e8b63e39cdc5d9b0b6154e2ffaff1f9"
+  },
+  "before_axes_mm": [
+    [
+      59.20000013333333,
+      50.99999995277778
+    ],
+    [
+      59.20000013333335,
+      50.99999995277778
+    ],
+    [
+      59.20000013333333,
+      50.99999995277777
+    ],
+    [
+      59.20000013333335,
+      50.99999995277777
+    ]
+  ],
+  "after_axes_mm": [
+    [
+      59.20000013333333,
+      50.99999995277778
+    ],
+    [
+      59.20000013333335,
+      50.99999995277778
+    ],
+    [
+      59.20000013333333,
+      50.99999995277777
+    ],
+    [
+      59.20000013333335,
+      50.99999995277777
+    ]
+  ],
+  "all_axes_target_mm": [
+    59.2,
+    51.0
+  ],
+  "no_axis_dimension_reduced": true,
+  "scientific_artists_match_parent_exact": true,
+  "scientific_artists_sha256": "abd86d1866aeafbcd9efaa1693ecca4c37ddbc6208efc8eb21554e9dfb532921",
+  "labels_ticks_data_fonts_lines_markers_uncertainty_preserved": true,
+  "parent_PDF_PNG_byte_exact_reproduction": {
+    "status": "PASS",
+    "outputs": {
+      "figure.pdf": {
+        "sha256": "475f006f03f300ca47bacb56f70345e12eb9f16f942f0e1e0dc9a4bee437b57a",
+        "accepted_sha256": "475f006f03f300ca47bacb56f70345e12eb9f16f942f0e1e0dc9a4bee437b57a",
+        "bytes_equal": true
+      },
+      "figure.png": {
+        "sha256": "b0026d30c08e5ebb38d7a098e453e1bf451a73b16682fd4994c98c11373aed72",
+        "accepted_sha256": "b0026d30c08e5ebb38d7a098e453e1bf451a73b16682fd4994c98c11373aed72",
+        "bytes_equal": true
+      }
+    },
+    "historical_paths_rebased_locally": true,
+    "external_source_reads_forbidden": true,
+    "science_runs": 0
+  },
+  "PDF_visible_xlabel_to_first_legend_bp": 15.0,
+  "PDF_last_legend_to_canvas_bottom_mm": 2.0000071207682293,
+  "native_mm": [
+    155.99999559190536,
+    157.62151590983072
+  ],
+  "new_scientific_execution": 0,
+  "role_of_5_6": null,
+  "offline_render_calls_to_this_point": {
+    "old_parent_reproduction": 1,
+    "derived_generation": 1,
+    "final_strict_reproduction": 1
+  },
+  "final_PDF_PNG_reproduction_byte_exact": true,
+  "final_SVG_reproduction_byte_exact": false,
+  "final_SVG_structure_geometry_text_exact_after_ID_normalization": true,
+  "actual_native_PNG_visual_review": "PASS; five figures individually viewed through view_image, titles/labels/legends/markers and uncertainty complete without clipping"
+}

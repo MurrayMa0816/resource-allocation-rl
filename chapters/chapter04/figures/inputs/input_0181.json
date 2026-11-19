@@ -1,0 +1,47 @@
+{
+  "schema": "thesis-print-readability-derivative-v1",
+  "number": "4.7",
+  "scientific_values_changed": false,
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter04/figures/figure45_46_clarity_20261109_135630/assets/figure4-7",
+  "parent_pdf_sha256": "ff0e9c512f8e1112908a9b69f6c17650a1c7ad8d16b375592debf16a8d9b157d",
+  "editable_source": "plot.py",
+  "render_engine": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+  "native_source": "inputs/plot.py",
+  "input_files_sha256": {
+    "data.csv": "9be1228019b9c87fb817e08935638382b822ea60e29d70b3c8a225ac2ccaf75d",
+    "figure_config.json": "bac7f9f2471f3d638ea3ce8223d15814fe9a4a6755396e5ce94efb02b62e87d2",
+    "plot.py": "3c2b1c83524ac84a853e1877df52ad858b1123d6a1dccf58e9fa74ea999084fe",
+    "replot.py": "8f3e2d1e04209ac88b981b3ad0ae50cc2d34bfb6723d96b88ace1ea7835150f5",
+    "render_geometry.json": "1494736a2fb371a3c1207ab3c604824ad340ddad8b972cba439e7e7e810244b1",
+    "plotted_points.csv": "adc32f27f6a9ea5ec984d4a1e181f990de01050dfbb5a1fc0017f6c9b2019367",
+    "source.json": "93a5941f8d880ff853ac6d6b1de6ef144a03d282be1bfc09393eaa9b88b86327",
+    "provenance/parent_binding.json": "f4ef7d23feee44e69e2925fb1b095fcb6d19bd7ccb2c3ee06661559d33fdefc5",
+    "provenance/parent_source.json": "6591c8c8fc7095160e303da32f3687d8c0f7e0ccf55f43050d892548256091b5",
+    "provenance/parent_render_geometry.json": "1932426f6afe045210368ac064f6908a1afc3ab8238652fcf5ec746c0812369f",
+    "provenance/parent_presentation_geometry.json": "d0f5b05b17850e85994f54bbb66ddfdfafa45a66dfd03b7d864bcb4c99d0141d",
+    "provenance/parent_title_alignment.diff": "9c1bf99a91e797986ee63671b0e312692760b8b68f45c8db317789cc749d7ff9",
+    "provenance/parent_source_replacements.json": "a098de820b5f63f2d399ab7c6963021741485d5eb9ad1dadc439572a0134117f",
+    "provenance/unused_parent_presentation_style.py": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba",
+    "provenance/unused_parent_title_alignment.diff": "9c1bf99a91e797986ee63671b0e312692760b8b68f45c8db317789cc749d7ff9",
+    "provenance/unused_parent_source_replacements.json": "a098de820b5f63f2d399ab7c6963021741485d5eb9ad1dadc439572a0134117f",
+    "provenance/unused_parent_presentation_geometry.json": "d0f5b05b17850e85994f54bbb66ddfdfafa45a66dfd03b7d864bcb4c99d0141d",
+    "provenance/attempt0_concurrent_overlay_repair.diff": "56cd89423f2ced4ef4a641a41fb5049645c80666e13851c892c3051a782b2542",
+    "provenance/attempt0_concurrent_overlay_failure.json": "b942cd2da9f971bd126d5878170b79513a0f18ac2ef8b6bf309b95177cb565f9",
+    "provenance/parent_plot.py": "941add52b5a57abbd04df7a5c91a24df6c50236c7f97d57d317a7af1033c2942",
+    "provenance/parent_README.rst": "662dc2403559b3188012d60051f67b24a1a172a0ac05f6a81628946a0c594d77"
+  },
+  "changes": [
+    "distinct dash patterns preserving markers/colors",
+    null
+  ],
+  "proof_sha256": "3eb47d63d3413a660c781986e3f41f9d43991e85cade1b58b1e7709fc28dd60c",
+  "outputs": {
+    "figure.pdf": "9d9e47715b62aed390635af892f5ee84483d283f4b8ebf4c594169cd3a423d72",
+    "figure.svg": "ff1c1cab98aebe0276da60e4d8fe573297f76bf4c278c7ab34f8f92615617020",
+    "figure.png": "72b53d6cc9f81b3032bdb0597564a0b47056b887d674c0ae03ab4d21fe7b127f"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

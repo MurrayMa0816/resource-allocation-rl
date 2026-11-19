@@ -1,0 +1,183 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "5.7",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter05_dual_value/figures/figure05-07_固定策略终点结果对评价门槛的敏感性_axes59p2x51_spacing15_20261111",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter05/figures/figure05_07/figure.pdf"
+  ],
+  "files": {
+    "axes_spacing15_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0109.json",
+      "sha256": "0a754b2c9ca84f7060f007a8c18b4afff4fa20f2bc301b60e3e096be3619e9a6",
+      "bytes": 2504
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter05/figures/figure05_07/figure.pdf",
+      "sha256": "0380308c40b1430cd86a373a0b60fc9ea27231ab26b7697c69c619a841611873",
+      "bytes": 38476
+    },
+    "figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0110.png",
+      "sha256": "8d10f466c178b4b3f2299ba16a734868d8c3b1f5fe1fadb60f5604abede3c9df",
+      "bytes": 281309
+    },
+    "figure.svg": {
+      "path": "chapters/chapter05/figures/inputs/input_0111.svg",
+      "sha256": "74d97f67f1b9fdb94ea4ef211dc65ca9cded71bc4b916a05c25395a7c3ad5d5b",
+      "bytes": 101246
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0112.json",
+      "sha256": "a1db0e5622bec7e00aa2a2b37a66c125d4547f6bb277c799c20161e1f38f887e",
+      "bytes": 73955
+    },
+    "parent_source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0113.json",
+      "sha256": "a02e349fe2d4fc855dfdb113b9387386179aa262f7a2bfff9a6faaeb9c357cbb",
+      "bytes": 13192
+    },
+    "plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0067.py",
+      "sha256": "99e7f6e5984222af3364cab10cc4bf7a2be1a97b1527035798afb699a12befd0",
+      "bytes": 8033
+    },
+    "render_geometry.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0114.json",
+      "sha256": "35587c042f5bb867438221723f683a62c466137e2512e38db0d37ba851aa6fcd",
+      "bytes": 8349
+    },
+    "render_support/config.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0115.json",
+      "sha256": "de1c30f758643cdf9ad21bfcd858083f7395cfe9b657ca12f89dd3865d48ae79",
+      "bytes": 233
+    },
+    "render_support/files/f0001_plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0116.py",
+      "sha256": "30f6dff4005f07e6f623ce470eda98ed1a3e0974a3f925480743472caad01033",
+      "bytes": 215
+    },
+    "render_support/files/f0002_baseline_figures.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0022.json",
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
+      "bytes": 21351
+    },
+    "render_support/files/f0003_print_manifest_ch45.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0117.json",
+      "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632",
+      "bytes": 122366
+    },
+    "render_support/files/f0004_manifest.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0118.json",
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
+      "bytes": 122365
+    },
+    "render_support/files/f0005_figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0119.png",
+      "sha256": "70d36743939a63ef003484ed5e22a054d59fbc8b43be2952410c6c522d5567fb",
+      "bytes": 138175
+    },
+    "render_support/files/f0006_figure.pdf": {
+      "path": "chapters/chapter05/figures/inputs/input_0120.pdf",
+      "sha256": "2d0d4d470b86d8a6f62a0bf85d9339d2333e5a87520dc1d6c6d2f9b7f66ac33d",
+      "bytes": 38490
+    },
+    "render_support/files/f0007_figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0121.png",
+      "sha256": "ba84ec686dc9729f36d46e92861ec9cfff3fcbe9838028ee8399aa3bf57bfe0d",
+      "bytes": 145990
+    },
+    "render_support/files/f0008_inherited_native_presentation_p.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0122.json",
+      "sha256": "1b0e8c20afd6524f6235a2549c7c5b23ec72243df7f0b3721ff9bb747acb88e1",
+      "bytes": 26996
+    },
+    "render_support/files/f0009_costs_by_seed.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0029.csv",
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+      "bytes": 14491
+    },
+    "render_support/files/f0010_data_manifest.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0041.json",
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
+      "bytes": 1844
+    },
+    "render_support/files/f0011_fixed_endpoints_by_seed.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0030.csv",
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "bytes": 22143
+    },
+    "render_support/files/f0012_learning_display.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0031.csv",
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "bytes": 2758404
+    },
+    "render_support/files/f0013_learning_raw.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0032.csv",
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "bytes": 1877519
+    },
+    "render_support/files/f0014_threshold_recounts_by_seed.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0033.csv",
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "bytes": 26645
+    },
+    "render_support/files/f0015_parent_renderer.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0043.py",
+      "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+      "bytes": 13693
+    },
+    "render_support/files/f0016_plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0123.py",
+      "sha256": "c738673b5664053ecc21936aa7e4fe9a9505fd2bed4f05157cc3f845b530c651",
+      "bytes": 233
+    },
+    "render_support/files/f0017_plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0124.py",
+      "sha256": "60d6a87c11ac92cd22b4a1ff4bae4fcfd4e354c5ca5ea014cf834b3c2350ea7f",
+      "bytes": 260
+    },
+    "render_support/files/f0018_print_presentation_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0125.json",
+      "sha256": "f5853f218061b687284610b1510f94dc9578db575428760da06bb7b908616474",
+      "bytes": 8108
+    },
+    "render_support/files/f0019_source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0126.json",
+      "sha256": "e63e88a56820dcc7f5cc215b89ed1c40fc03560e7de028ccc125780afa32617c",
+      "bytes": 2114
+    },
+    "render_support/files/f0020_spec.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0127.json",
+      "sha256": "2f086e63876363d7e084a1a0f322e60a315f72db395107385355b7654ea4b0a9",
+      "bytes": 5453
+    },
+    "render_support/files/f0021_manifest.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0118.json",
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23",
+      "bytes": 122365
+    },
+    "render_support/files/f0022_render_print_figures.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0128.py",
+      "sha256": "b48d560e1c9c922cea85dad27b154d1e29dcf56717ad4b262f17ca789ce1fb57",
+      "bytes": 12682
+    },
+    "render_support/files/f0023_plot_chapter45.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0047.py",
+      "sha256": "b95a47784d00cce0d29a85bcfef8facfd3a8e9cd29e2f788393c252455e57bd7",
+      "bytes": 23316
+    },
+    "render_support/paths.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0129.json",
+      "sha256": "01a6d5b5427c67b451ea00a65a98eb44c1658283ca0134ca67b5f2078e87f8d6",
+      "bytes": 7559
+    },
+    "source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0130.json",
+      "sha256": "f6ec0aca7256574d5422178dd7db64f89b3987c0076010a211140a67895f9954",
+      "bytes": 8740
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

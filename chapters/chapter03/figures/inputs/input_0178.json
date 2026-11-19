@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "number": "3.8",
+  "changes": [
+    {
+      "before": "(a) 各期分配的柴油额度",
+      "after": "(a) 各步分配的柴油额度",
+      "font_bp": 10.5
+    },
+    {
+      "before": "决策期",
+      "after": "分配步骤",
+      "font_bp": 10.5
+    },
+    {
+      "before": "本期分配的额度占\n初始总额度（%）",
+      "after": "本步分配的额度占\n初始总额度（%）",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(b) ReJoP · 第6期",
+      "after": "(b) ReJoP · 第6步",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(c) ReJoP · 第18期",
+      "after": "(c) ReJoP · 第18步",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(d) Gradient PPO · 第6期",
+      "after": "(d) Gradient PPO · 第6步",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(e) Gradient PPO · 第18期",
+      "after": "(e) Gradient PPO · 第18步",
+      "font_bp": 10.5
+    }
+  ],
+  "scientific_before_sha256": "fb3bb26d629c9596b75e6fa3b32ba57e86f383fbbef61338981cc6483d5197b4",
+  "scientific_after_sha256": "fb3bb26d629c9596b75e6fa3b32ba57e86f383fbbef61338981cc6483d5197b4",
+  "physical_axes_canvas_fonts_anchors_exact": true,
+  "all_labels_inside_canvas": true,
+  "display_numbers_preserved": true,
+  "model_index_unchanged": true,
+  "environment_steps": 0,
+  "training_runs": 0,
+  "model_loads": 0
+}

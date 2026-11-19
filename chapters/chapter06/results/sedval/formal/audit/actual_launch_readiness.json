@@ -1,0 +1,334 @@
+{
+  "status": "PASS_ACTUAL9LIVE",
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "registration_sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+  "workers": [
+    {
+      "job_id": "budget_3500000__seed6400",
+      "pid": 3837700,
+      "start_ticks": 6205784461,
+      "cpu_affinity": [
+        0
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837700,
+        "seed": 6400,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.97950667142868,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_3500000__seed6401",
+      "pid": 3837701,
+      "start_ticks": 6205784461,
+      "cpu_affinity": [
+        1
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837701,
+        "seed": 6401,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.974842078983784,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_3500000__seed6402",
+      "pid": 3837702,
+      "start_ticks": 6205784461,
+      "cpu_affinity": [
+        2
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837702,
+        "seed": 6402,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.969226337969303,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4000000__seed6400",
+      "pid": 3837703,
+      "start_ticks": 6205784462,
+      "cpu_affinity": [
+        3
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837703,
+        "seed": 6400,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.970585905015469,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4000000__seed6401",
+      "pid": 3837704,
+      "start_ticks": 6205784462,
+      "cpu_affinity": [
+        4
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837704,
+        "seed": 6401,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.9602129980921745,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4000000__seed6402",
+      "pid": 3837705,
+      "start_ticks": 6205784462,
+      "cpu_affinity": [
+        5
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837705,
+        "seed": 6402,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.961497209966183,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4500000__seed6400",
+      "pid": 3837706,
+      "start_ticks": 6205784463,
+      "cpu_affinity": [
+        6
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837706,
+        "seed": 6400,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.794666066765785,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4500000__seed6401",
+      "pid": 3837707,
+      "start_ticks": 6205784463,
+      "cpu_affinity": [
+        7
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837707,
+        "seed": 6401,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.954709418118,
+        "formal_training": true
+      }
+    },
+    {
+      "job_id": "budget_4500000__seed6402",
+      "pid": 3837708,
+      "start_ticks": 6205784463,
+      "cpu_affinity": [
+        8
+      ],
+      "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+      "cuda_cache": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/runtime_cache/cuda",
+      "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+      "initial_DEV0": null,
+      "progress": {
+        "status": "running",
+        "phase": "development",
+        "episode": 0,
+        "episodes": 3200,
+        "learning_steps": 0,
+        "counts": {
+          "train": {
+            "episodes": 0,
+            "physical_steps": 0
+          },
+          "development": {
+            "episodes": 0,
+            "physical_steps": 0
+          }
+        },
+        "pid": 3837708,
+        "seed": 6402,
+        "tau": 0.9,
+        "weight": 0.2,
+        "device": "cuda",
+        "seconds": 4.7346910536289215,
+        "formal_training": true
+      }
+    }
+  ],
+  "TEST_opened": false,
+  "reviewer_new_environment_steps": 0,
+  "reviewer_new_model_loads": 0
+}

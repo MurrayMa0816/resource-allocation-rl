@@ -1,0 +1,42 @@
+{
+  "schema": "chapter4-double-random-F1-family-evaluation-only-v1",
+  "status": "completed",
+  "success": true,
+  "method": "no_history",
+  "domain": "v5",
+  "seed": 1,
+  "phase": "final",
+  "paths": 256,
+  "path_master": 2026110694199,
+  "summary": {
+    "training_step": 100608,
+    "phase": "final",
+    "paths": 256,
+    "evaluation_environment_steps": 6144,
+    "native_mean": 0.7840297933629283,
+    "native_std": 0.05987115553514358,
+    "score_x100_mean": 78.40297933629283,
+    "minimum": 0.619797026669975,
+    "maximum": 0.945874000172947
+  },
+  "training_steps": 0,
+  "evaluation_steps": 6144,
+  "model_loaded_from": "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/jobs/no_history__v5__seed1/checkpoint_final.pt",
+  "checkpoint_sha256": "1cde4ecb556efe8515df6e396731f4fd4a8b558d2bd823ea39e7e4b0603bcc20",
+  "deterministic": true,
+  "resource_audit_stream_sha256": "9ee0d0288288f946b9992e1a2e44619d18ad36a4ceac42f6c8e14b7dab9bc74c",
+  "elapsed_seconds": 15.572547249495983,
+  "data_digest_verification": {
+    "hits": 0,
+    "misses": 0,
+    "final_full_rereads": 0,
+    "records": {},
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "fdb778a74139d5862f5ead74813d98c925d75fd1cd9d698671de8bba8fb3854a",
+    "evaluation_paths.csv.gz": "5e37fc0da746bc5ab294f31117b3a9dba5bbc96ae8408af813fc9c095a4632d0",
+    "protocol.json": "0fda7638838f6ab4da1849fd71b4608db27c6072242c231c482411f8ebbcf608",
+    "resource_episodes.csv.gz": "a004493af3cdea8bfac147f7cf32ec2be02d8eaa3628ea8ea1494399311b46ab"
+  }
+}

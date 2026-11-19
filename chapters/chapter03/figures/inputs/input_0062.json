@@ -1,0 +1,39 @@
+{
+  "schema": "chapter3-unified-ablation-style-v1",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter03/paper_revisions/two_branch_random_adoption_20261109_202210/assets/figure35",
+  "input_sha256": {
+    "data.csv.gz": "e815cedff8353878916cf0c4a8d65a050cd999d9d5fab6da70b0de48fb2226f6",
+    "artists.json": "1bff662bdaee5781814432ce8357a9d1b08dca6c0d026a284eef7868dd1b650e",
+    "figure.pdf": "464e2b8d8509a7e3a078261249c769a53cb35afd6c9c48c614aeeda824506171",
+    "plot.py": "56e9770f4446364a09c041322f353e13cd8f42e393a49e7d974e880e495c2fd0"
+  },
+  "renderer": "/hy-tmp/resource_allocation_project_code_20261105/chapter03/paper_figure_table_style_20261109/plot_ablation.py",
+  "renderer_sha256": "758d70bd9b6d708c02d3d1e3bbf96474af3e761e29ce5ec1dbadb547f7181b9f",
+  "data_sha256": "e815cedff8353878916cf0c4a8d65a050cd999d9d5fab6da70b0de48fb2226f6",
+  "all_5940_seed_observations_preserved": true,
+  "means_sample_sd_and_ranges_exact": true,
+  "native_mm": [
+    156,
+    88
+  ],
+  "axes_mm": [
+    59.2,
+    51
+  ],
+  "line_width_bp": 1.25,
+  "solid_lines": true,
+  "markers": [
+    "o",
+    "s",
+    "^"
+  ],
+  "legend_rows": 1,
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "training_runs": 0,
+  "outputs": {
+    "figure.pdf": "74b8f541ef4b83bf00195ac469c2bfce1e4624d1cc1e075577e39a108d62a276",
+    "figure.png": "bb2fb1aa97bf54440ef006865c3311fd2f88ba6c9710c1fd30feb6c7f19d0f24",
+    "figure.svg": "1d66f510e4ce9a176f2e07474b7f85f3a5e67538b45cbc7f05cac7fa55674644"
+  }
+}

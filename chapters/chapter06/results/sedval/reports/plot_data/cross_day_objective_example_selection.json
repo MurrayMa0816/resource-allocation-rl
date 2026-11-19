@@ -1,0 +1,60 @@
+{
+  "days": [
+    62,
+    63
+  ],
+  "rule": "minimum negative delta and maximum positive delta; exact m3; tie smaller originalID",
+  "class_status": {
+    "maximum_decrease": {
+      "present": true,
+      "count": 57
+    },
+    "maximum_increase": {
+      "present": true,
+      "count": 32
+    }
+  },
+  "selected": [
+    {
+      "selection_role": "maximum_decrease",
+      "label": "当日减配最多区域",
+      "region_id": "46",
+      "area_mu": 520.0,
+      "day_before": 62,
+      "date_before": "2022-07-31",
+      "day_after": 63,
+      "date_after": "2022-08-01",
+      "allocation_before_m3": 5332.601460488305,
+      "allocation_after_m3": 802.2022743715595,
+      "actual_change_m3": -4530.399186116745,
+      "storage_before_mm": 122.26328925841183,
+      "deficit_before_mm": 0.0,
+      "storage_after_mm": 129.36486106879855,
+      "deficit_after_mm": 0.0,
+      "next_storage_mm": 122.82208077410468,
+      "next_deficit_mm": 0.0
+    },
+    {
+      "selection_role": "maximum_increase",
+      "label": "当日增配最多区域",
+      "region_id": "23",
+      "area_mu": 236.0,
+      "day_before": 62,
+      "date_before": "2022-07-31",
+      "day_after": 63,
+      "date_after": "2022-08-01",
+      "allocation_before_m3": 148.22642259601804,
+      "allocation_after_m3": 3850.294714093067,
+      "actual_change_m3": 3702.068291497049,
+      "storage_before_mm": 145.51050830958485,
+      "deficit_before_mm": 0.0,
+      "storage_after_mm": 138.79145239754618,
+      "deficit_after_mm": 0.0,
+      "next_storage_mm": 154.87292853389062,
+      "next_deficit_mm": 0.0
+    }
+  ],
+  "all_changes_zero": false,
+  "exact_zero_changes": 0,
+  "missing_class_policy": "disclose absence and keep only existing sign; no substitute, stop label or invented example"
+}

@@ -1,0 +1,394 @@
+{
+  "schema": "thesis-measured-content-spacing-v1",
+  "status": "PASS",
+  "number": "2.8",
+  "parent_native_png_pixel_exact": true,
+  "native_mm": [
+    155.99999559190536,
+    203.31209479437933
+  ],
+  "original_native_mm": [
+    155.99999999999997,
+    200.0
+  ],
+  "axes_physical_mm_before": [
+    [
+      4.499999999999999,
+      138.0,
+      62.18621125239225,
+      53.0
+    ],
+    [
+      77.46879612810444,
+      138.0,
+      74.03120387189554,
+      53.0
+    ],
+    [
+      4.499999999999999,
+      76.0,
+      62.18621125239225,
+      53.0
+    ],
+    [
+      77.46879612810444,
+      76.0,
+      74.03120387189554,
+      53.0
+    ],
+    [
+      4.499999999999999,
+      14.000000000000009,
+      62.18621125239225,
+      52.99999999999998
+    ],
+    [
+      77.46879612810444,
+      14.000000000000004,
+      74.03120387189554,
+      53.0
+    ],
+    [
+      4.499999999999999,
+      5.699999999999999,
+      28.605657176100436,
+      1.6
+    ],
+    [
+      77.46879612810444,
+      5.699999999999999,
+      34.054353781071946,
+      1.6
+    ]
+  ],
+  "axes_physical_mm_after": [
+    [
+      4.499999999999999,
+      138.0,
+      62.18621125239225,
+      53.0
+    ],
+    [
+      77.46879612810444,
+      138.0,
+      74.03120387189554,
+      53.0
+    ],
+    [
+      4.499999999999999,
+      76.0,
+      62.18621125239225,
+      53.0
+    ],
+    [
+      77.46879612810444,
+      76.0,
+      74.03120387189554,
+      53.0
+    ],
+    [
+      4.499999999999999,
+      14.000000000000009,
+      62.18621125239225,
+      52.99999999999998
+    ],
+    [
+      77.46879612810444,
+      14.000000000000004,
+      74.03120387189554,
+      53.0
+    ],
+    [
+      4.499999999999999,
+      1.9958333333333327,
+      28.605657176100436,
+      1.6
+    ],
+    [
+      77.46879612810444,
+      1.9958333333333327,
+      34.054353781071946,
+      1.6
+    ]
+  ],
+  "axes_physical_width_height_unchanged": true,
+  "ordinary_font_bp": 10.5,
+  "object_ID_font_bp": 9,
+  "object_ID_count": 660,
+  "all_scientific_data_style_exact": true,
+  "PDF_text_frame_measurements": {
+    "xlabel_to_legend_bp": null,
+    "legend_to_file_bottom_mm": null,
+    "subtitle_to_file_top_mm": 1.5000258631176417,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      203.31209479437933
+    ],
+    "all_text_to_bottom_mm": 1.999985588921441,
+    "all_text_to_top_mm": 1.5000258631176417,
+    "subtitle_frames_bp": [
+      [
+        47.81571960449219,
+        4.252041816711426,
+        153.9692840576172,
+        15.896541595458984
+      ],
+      [
+        271.147705078125,
+        4.252041816711426,
+        377.890869140625,
+        15.896541595458984
+      ],
+      [
+        44.89384460449219,
+        180.00006103515625,
+        156.8870086669922,
+        191.64456176757812
+      ],
+      [
+        268.819580078125,
+        180.00006103515625,
+        380.22314453125,
+        191.64456176757812
+      ],
+      [
+        45.19071960449219,
+        355.7480773925781,
+        156.5942840576172,
+        367.392578125
+      ],
+      [
+        269.397705078125,
+        355.7480773925781,
+        379.637451171875,
+        367.392578125
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 620
+  },
+  "PDF_text_frame_initial": {
+    "xlabel_to_legend_bp": null,
+    "legend_to_file_bottom_mm": null,
+    "subtitle_to_file_top_mm": 3.695886662271288,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      200.0000015258789
+    ],
+    "all_text_to_bottom_mm": -2.738140360514323,
+    "all_text_to_top_mm": 3.695886662271288,
+    "subtitle_frames_bp": [
+      [
+        47.81571960449219,
+        10.476529121398926,
+        153.9692840576172,
+        22.121028900146484
+      ],
+      [
+        271.147705078125,
+        10.476529121398926,
+        377.890869140625,
+        22.121028900146484
+      ],
+      [
+        44.89384460449219,
+        186.22454833984375,
+        156.8870086669922,
+        197.86904907226562
+      ],
+      [
+        268.819580078125,
+        186.22454833984375,
+        380.22314453125,
+        197.86904907226562
+      ],
+      [
+        45.19071960449219,
+        361.97259521484375,
+        156.5942840576172,
+        373.6170959472656
+      ],
+      [
+        269.397705078125,
+        361.97259521484375,
+        379.637451171875,
+        373.6170959472656
+      ]
+    ],
+    "all_text_inside_canvas": false,
+    "PDF_text_count": 614
+  },
+  "measurement_basis": "native PDF text-line frames; not pixel ink",
+  "crop_bbox_inches": [
+    0.0,
+    -0.21684887236080355,
+    6.141732283464566,
+    8.004413066782245
+  ],
+  "figure_internal_axes_and_figure_artist_geometry_unchanged": false,
+  "map_axes_and_660_IDs_and_map_circles_unchanged": true,
+  "scale_legend_translation_bp": 10.5,
+  "standard_target_exception": "Composite map: map axes and their data/IDs/circles unchanged; two colorbars, ten scale texts and six reference circles translated down10.5bp as one layout group; radii/colors/values unchanged",
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "wording_revision": {
+    "old_text": "未完成任务量",
+    "new_text": "未完成需求量",
+    "exactly_one_native_Text_changed": true,
+    "all_other_Text_properties_unchanged": true,
+    "target_before": {
+      "text": "未完成任务量",
+      "position": [
+        0.6057434167861566,
+        0.026479166666666665
+      ],
+      "transform": [
+        [
+          614.1732283464567,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          787.4015748031496,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fontfamily": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "fontsize": 10.5,
+      "fontstyle": "normal",
+      "fontweight": "normal",
+      "color": "#111111",
+      "rotation": 0.0,
+      "ha": "center",
+      "va": "baseline",
+      "visible": true
+    },
+    "target_after": {
+      "text": "未完成需求量",
+      "position": [
+        0.6057434167861566,
+        0.026479166666666665
+      ],
+      "transform": [
+        [
+          614.1732283464567,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          787.4015748031496,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fontfamily": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "fontsize": 10.5,
+      "fontstyle": "normal",
+      "fontweight": "normal",
+      "color": "#111111",
+      "rotation": 0.0,
+      "ha": "center",
+      "va": "baseline",
+      "visible": true
+    }
+  },
+  "allocation_wording_revision": {
+    "old_text": "柴油投入（L）",
+    "new_text": "柴油分配量（L）",
+    "exactly_one_native_Text_changed": true,
+    "all_other_Text_properties_unchanged": true,
+    "target_before": {
+      "text": "柴油投入（L）",
+      "position": [
+        0.859632481346824,
+        0.026479166666666665
+      ],
+      "transform": [
+        [
+          614.1732283464567,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          787.4015748031496,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fontfamily": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "fontsize": 10.5,
+      "fontstyle": "normal",
+      "fontweight": "normal",
+      "color": "#111111",
+      "rotation": 0.0,
+      "ha": "center",
+      "va": "baseline",
+      "visible": true
+    },
+    "target_after": {
+      "text": "柴油分配量（L）",
+      "position": [
+        0.859632481346824,
+        0.026479166666666665
+      ],
+      "transform": [
+        [
+          614.1732283464567,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          787.4015748031496,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fontfamily": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "fontsize": 10.5,
+      "fontstyle": "normal",
+      "fontweight": "normal",
+      "color": "#111111",
+      "rotation": 0.0,
+      "ha": "center",
+      "va": "baseline",
+      "visible": true
+    }
+  }
+}

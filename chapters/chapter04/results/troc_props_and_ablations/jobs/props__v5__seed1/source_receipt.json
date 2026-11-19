@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/NicholasCorrado/PPOROS",
+  "expected_sha": "a0c8708529047f85dcf98f90d5ea264dd43aeba2",
+  "actual_sha": "a0c8708529047f85dcf98f90d5ea264dd43aeba2",
+  "source_file": "/root/resource_allocation_run_storage_20261101/chapter4_recent_baselines_formal_20261102_source/chapter4_recent_baselines/vendor/props/PROPS/ppo_props_continuous.py",
+  "sha256": "b2b98757c2e4ff0db87e5f15236d33355be5096de76a932f93b30d30f005935c",
+  "functions": [
+    "update_ppo",
+    "update_props"
+  ],
+  "source_modified": false,
+  "compatibility": "Gymnasium 1.x RunningMeanStd legacy import alias only",
+  "license": "not_declared",
+  "framework": "PyTorch"
+}

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" type="device" compressed="false">
+  <diagram id="problem_c4" name="配置策略样本效率与完整轨迹利用问题">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="576" pageHeight="400" math="1" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="outer" value="" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=3;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=0.9;rounded=0;absoluteArcSize=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="576" height="358" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;配置策略学习的样本效率问题&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=SimHei;fontSize=14;fontStyle=1;fontColor=#1E4E74;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=none;strokeColor=none;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="24" y="10" width="528" height="28" />
+        </mxCell>
+        <mxCell id="episode_panel" value="" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#F4F8FC;strokeColor=#285F8A;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="24" y="48" width="528" height="100" />
+        </mxCell>
+        <mxCell id="episode_title" value="&lt;div style=&quot;line-height:1.25;white-space:nowrap;&quot;&gt;依次分配并更新状态&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=SimHei;fontSize=14;fontStyle=1;fontColor=#1E4E74;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=none;strokeColor=none;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="40" y="52" width="496" height="24" />
+        </mxCell>
+        <mxCell id="first_period" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;首步&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#526B7D;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="40" y="94" width="100" height="34" />
+        </mxCell>
+        <mxCell id="middle_periods" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;中间各步&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#526B7D;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="172" y="94" width="100" height="34" />
+        </mxCell>
+        <mxCell id="last_period" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;最后一步&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#526B7D;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="304" y="94" width="100" height="34" />
+        </mxCell>
+        <mxCell id="terminal" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;最终成效&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#E3EDE2;strokeColor=#3D7D68;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="436" y="94" width="100" height="34" />
+        </mxCell>
+        <mxCell id="current_policy" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;当前策略&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#526B7D;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="34" y="172" width="112" height="40" />
+        </mxCell>
+        <mxCell id="new_record" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;新完整轨迹&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#526B7D;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="240" y="172" width="160" height="40" />
+        </mxCell>
+        <mxCell id="past_policy" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;先前策略&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#526B7D;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="34" y="236" width="112" height="40" />
+        </mxCell>
+        <mxCell id="old_record" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;近期完整轨迹&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FFFFFF;strokeColor=#526B7D;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="240" y="236" width="160" height="40" />
+        </mxCell>
+        <mxCell id="policy_update_label" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;策略更新&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=none;strokeColor=none;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="105" y="213" width="76" height="22" />
+        </mxCell>
+        <mxCell id="distribution_difficulty" value="&lt;div style=&quot;line-height:1.25;white-space:nowrap;&quot;&gt;复用需考虑&lt;/div&gt;&lt;div style=&quot;line-height:1.25;white-space:nowrap;&quot;&gt;策略分布差异&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#80501D;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FAEDDA;strokeColor=#A3723A;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="424" y="236" width="112" height="40" />
+        </mxCell>
+        <mxCell id="focus" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;如何利用近期完整轨迹，&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;减少达到同一成效要求所需的新增训练环境交互步数？&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=SimHei;fontSize=14;fontStyle=1;fontColor=#80501D;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#FAEDDA;strokeColor=#A3723A;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="24" y="300" width="528" height="40" />
+        </mxCell>
+        <mxCell id="period_1_to_middle" edge="1" parent="outer" source="first_period" target="middle_periods" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="middle_to_last" edge="1" parent="outer" source="middle_periods" target="last_period" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="last_to_terminal" edge="1" parent="outer" source="last_period" target="terminal" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="current_to_collection" edge="1" parent="outer" source="current_policy" target="first_period" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=0.5;exitY=0;exitPerimeter=0;entryX=0.5;entryY=1;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="complete_new_record" edge="1" parent="outer" source="terminal" target="new_record" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="486" y="160" />
+              <mxPoint x="320" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="past_to_current" edge="1" parent="outer" source="past_policy" target="current_policy" style="dashed=1;dashPattern=3 3;edgeStyle=none;rounded=0;html=1;strokeColor=#526B7D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=0.5;exitY=0;exitPerimeter=0;entryX=0.5;entryY=1;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="past_to_saved" edge="1" parent="outer" source="past_policy" target="old_record" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="new_record_comparison" edge="1" parent="outer" source="new_record" target="distribution_difficulty" style="edgeStyle=none;rounded=0;html=1;strokeColor=#A3723A;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=0.5;exitY=1;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="320" y="224" />
+              <mxPoint x="552" y="224" />
+              <mxPoint x="552" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="old_record_comparison" edge="1" parent="outer" source="old_record" target="distribution_difficulty" style="edgeStyle=none;rounded=0;html=1;strokeColor=#A3723A;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="difficulty_to_focus" edge="1" parent="outer" source="distribution_difficulty" target="focus" style="edgeStyle=none;rounded=0;html=1;strokeColor=#A3723A;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="480" y="288" />
+              <mxPoint x="288" y="288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="collection_cost" value="&lt;div style=&quot;line-height:1.25;white-space:nowrap;&quot;&gt;采集需要&lt;/div&gt;&lt;div style=&quot;line-height:1.25;white-space:nowrap;&quot;&gt;完整回合&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#263445;align=center;verticalAlign=middle;spacing=0;overflow=visible;autosize=0;fillColor=#E3EDE2;strokeColor=#3D7D68;strokeWidth=0.75;rounded=1;absoluteArcSize=1;arcSize=5;" vertex="1" parent="outer">
+          <mxGeometry as="geometry" x="424" y="172" width="112" height="40" />
+        </mxCell>
+        <mxCell id="new_record_cost" edge="1" parent="outer" source="new_record" target="collection_cost" style="edgeStyle=none;rounded=0;html=1;strokeColor=#1F5E8D;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="cost_to_focus" edge="1" parent="outer" source="collection_cost" target="focus" style="edgeStyle=none;rounded=0;html=1;strokeColor=#A3723A;strokeWidth=0.95;endArrow=classic;endFill=1;endSize=5;exitX=1;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="564" y="192" />
+              <mxPoint x="564" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

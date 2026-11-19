@@ -1,0 +1,25 @@
+{
+  "schema": "chapter05-value-supervision-diagnosis-completion-v1",
+  "status": "COMPLETE",
+  "utc": "2026-11-08T16:19:51.335698+00:00",
+  "root": "/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis",
+  "final_publication": "/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/FINAL_PUBLICATION.json",
+  "final_publication_sha256": "3d797afcab370f8181f40481f8919e880846e6dfe42ca7ea290e21bf9f70da5e",
+  "scientific_execution": {
+    "reused_endpoints": 20,
+    "new_models": 0,
+    "model_loads": 20,
+    "episodes": 5120,
+    "environment_steps": 143360,
+    "training_steps": 0,
+    "optimizer_steps": 0,
+    "failed_attempts": 0
+  },
+  "pdf": "/root/gamewar/latex_thesis_resource_allocation/build/main.pdf",
+  "pdf_sha256": "0e23245bee40ce585ed36077757cf27c4ab2aabdbf653e53941e9c48a1181c5b",
+  "pages": 195,
+  "report": "/hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/report/第五章_价值监督机制诊断与图5.6调整.pdf",
+  "report_sha256": "6b0ea7a1d492cd62e8e050e8e1a68a114f0092fbfd5c3f2153a9fdce1d53ed7c",
+  "automatic_more_training": false,
+  "recovery_command": null
+}

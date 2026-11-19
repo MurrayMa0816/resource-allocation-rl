@@ -1,0 +1,26 @@
+{
+  "schema": "thesis-local-figure-source-v1",
+  "chapter": "06",
+  "figure": "figure06-07_紧凑供水条件_20261109",
+  "entrypoint": "plot.py",
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "inference_calls": 0,
+    "training_runs": 0
+  },
+  "sources_sha256": {
+    "plot.py": "0787016bd13c89f37ced7bd585188ed4198748367118494201055a0196981b22",
+    "source/spacing.py": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+    "source/accepted_compact.py": "93f3f6b987ebe8dd5b172defc540373e2ea33cb61957f071ba7204a859888a53"
+  },
+  "data_sha256": {
+    "budget_joint_mean_sample_SD.csv": "397ecc8fef136347f5b0e8e052d9c7cdeec170d35ecbe12b3fd77bd5dfadd302",
+    "budget_all3_seed_weather_means.csv": "817c5f09e483d442876a97c4bed6d338887fa8df340ebe3aa7bb1469d6bdde64"
+  },
+  "output_pdf_sha256": {
+    "figure.pdf": "1d05cde06050e8217f728a5b4dde00101aa50429b147a51a73779f8e8e42b741"
+  },
+  "runtime_dependency_policy": "Reads this figure directory and thesis assets/fonts only; third-party Python packages are environment dependencies.",
+  "historical_records": "Original manifests and provenance are retained as historical evidence, not runtime paths."
+}

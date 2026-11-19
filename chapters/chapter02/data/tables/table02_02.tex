@@ -1,0 +1,19 @@
+\begin{table}[H]
+ \centering
+ \caption{对比方法主要训练参数表}
+ \label{tab:ch2-baseline-settings}
+ \begingroup\small
+ \setlength{\tabcolsep}{4pt}
+ \begin{tabular}{lcccc}
+  \toprule
+  方法 & \shortstack{小批量\\大小} & \shortstack{策略／价值\\学习率} & 更新频率 & \shortstack{策略更新间隔\\（价值更新次数）} \\
+  \midrule
+  PASPO & 128 & \(3\times10^{-4}\) & 4轮／8回合 & 1 \\
+  RPO-SAC & 256 & \(10^{-4},\,3\times10^{-4}\) & 1次／步 & 2 \\
+  TD7 & 256 & \(3\times10^{-4}\) & 1次／步 & 2 \\
+  SAC--SimBaV2 & 256 & \(10^{-4}\to5\times10^{-5}\) & 2次／步 & 1 \\
+  DIME & 256 & \(3\times10^{-4}\) & 2次／步 & 3 \\
+  \bottomrule
+ \end{tabular}
+ \endgroup
+\end{table}

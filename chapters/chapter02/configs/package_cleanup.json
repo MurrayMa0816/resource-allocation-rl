@@ -1,0 +1,90 @@
+{
+  "schema": "single-current-chapter-package-cleanup-v1",
+  "status": "COMPLETE",
+  "date": "2026-11-19",
+  "package": "/hy-tmp/resource_allocation_final",
+  "authorization": "User explicitly requested deleting superseded, unused and duplicate material and placing all final thesis material under chapters 02 through 06.",
+  "layout": [
+    "environment",
+    "algorithms",
+    "configs",
+    "data",
+    "models",
+    "results",
+    "scripts",
+    "figures"
+  ],
+  "before_files": 26652,
+  "before_bytes": 9674675985,
+  "accepted_current_files_before_this_receipt": 20046,
+  "accepted_current_bytes_before_this_receipt": 9371666049,
+  "retired_original_files": 8952,
+  "retired_original_bytes": 634539524,
+  "old_project_backup_retained": false,
+  "staging_and_retiring_directories_present": false,
+  "model_uses": 508,
+  "model_entities": 498,
+  "all_model_SHA256_preserved": true,
+  "all_accepted_current_file_SHA256_verified": 20046,
+  "chapters": {
+    "chapter02": {
+      "model_uses": 210,
+      "files": 2390,
+      "bytes": 3211601760
+    },
+    "chapter03": {
+      "model_uses": 80,
+      "files": 2692,
+      "bytes": 1576031651
+    },
+    "chapter04": {
+      "model_uses": 113,
+      "files": 3239,
+      "bytes": 1112495059
+    },
+    "chapter05": {
+      "model_uses": 90,
+      "files": 10414,
+      "bytes": 2380075582
+    },
+    "chapter06": {
+      "model_uses": 15,
+      "files": 1309,
+      "bytes": 1091457747
+    }
+  },
+  "current_numbered_figures": 41,
+  "current_tables": 15,
+  "source_view_and_entry_checks": "PASS",
+  "independent_final_reviews": "PASS",
+  "temporary_execution_source_trees": "Exact logical dependencies are materialized only on explicit execution; no permanent backup project trees.",
+  "data_and_result_values_changed": false,
+  "model_loading": 0,
+  "training": 0,
+  "inference": 0,
+  "environment_evaluation": 0,
+  "new_TEST": 0,
+  "figure_rendering": 0,
+  "thesis_compilation": 0,
+  "actual_training_or_render_equivalence_retested": false,
+  "remote_repository_updated_in_this_cleanup": false,
+  "retirement_identity_journal": "/hy-tmp/resource_allocation_final_reorganization_20261119/reports/retired_file_identities.json.gz",
+  "verification_reports": "/hy-tmp/resource_allocation_final_reorganization_20261119/reports",
+  "file_manifest_scope": "Per-chapter configs/files.json.gz excludes itself and this cleanup receipt. Preserved result metadata retains original source identities; new runs require new source-view registration.",
+  "removed_empty_directories": [
+    "chapters/chapter04/algorithms/foundation/chapter4_credit_assignment/configs"
+  ],
+  "generated_test_cache_cleanup": "Five regenerable Python caches removed; four briefly registered cache records were removed from manifests and all remaining file SHA256 values reverified.",
+  "publication_metadata_cleanup": {
+    "date": "2026-11-19",
+    "scope": "Removed invisible diagram-generator agent attributes from three files. Current publication source SHA values differ from original thesis packaging; visible XML and other Python AST nodes are unchanged.",
+    "source_paths": [
+      "chapters/chapter06/figures/inputs/source_0055.py",
+      "chapters/chapter06/figures/inputs/source_0059.py",
+      "chapters/chapter06/figures/figure06_02/source.drawio"
+    ],
+    "model_and_result_values_changed": false,
+    "figure_rendering": 0,
+    "source_checks_report": "/hy-tmp/resource_allocation_publication_20261119/reports/editorial_metadata_cleanup.json"
+  }
+}

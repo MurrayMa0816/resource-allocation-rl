@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "paths": 8,
+  "max_native_return_error": 0.0,
+  "same_path_seeds": true,
+  "physical_actions_bitwise_equal": true,
+  "all_native_replay_errors_zero": true,
+  "all_resource_fraction_errors_below": 1e-10
+}

@@ -1,0 +1,9 @@
+{
+  "actual_device": "cpu",
+  "backend": "torch",
+  "torch_version": "2.5.1+cu121",
+  "CUDA_VISIBLE_DEVICES": "",
+  "cpu_affinity": [
+    26
+  ]
+}

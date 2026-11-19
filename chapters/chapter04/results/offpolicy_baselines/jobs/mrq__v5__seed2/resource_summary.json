@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "train": 4192,
+    "dev": 4224,
+    "final": 0
+  },
+  "complete_full_spend_episodes": 8416,
+  "maximum_relative_allocation_error": 7.771561172376096e-16,
+  "ledger_rows": 8416,
+  "canonical_uncompressed_ledger_sha256": "dfa215e17ba6ad3601d189b537d09f34109d440ac31ebdae47ff4ef79a6e3fd9",
+  "ledger_gzip": "resource_ledger.jsonl.gz",
+  "learner_receives_ledger": false
+}

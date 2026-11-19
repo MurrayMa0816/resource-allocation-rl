@@ -1,0 +1,93 @@
+{
+  "schema": "C6-SeDVal-PASTA-COLA-fixed-endpoint-DEV-v1",
+  "status": "ALL_TRAINING_AND_DEV_COMPLETE_AUDITED_NO_NEW_JOINT_TEST",
+  "completed_beijing": "2026-11-09T22:07:59.732814+08:00",
+  "current_methods": [
+    "SeDVal",
+    "PASTA",
+    "COLA"
+  ],
+  "comparison_conditions": {
+    "region_count": 89,
+    "horizon": 81,
+    "net_water_budget_m3": 4000000,
+    "coverage_threshold": 0.9,
+    "deployment_preference": [
+      0.2,
+      0.8
+    ],
+    "learning_steps_per_seed": 259200,
+    "complete_episodes_per_seed": 3200,
+    "training_seeds": [
+      6400,
+      6401,
+      6402
+    ],
+    "DEV_weather_per_seed": 32,
+    "DEV_points_per_seed": 26
+  },
+  "metrics": {
+    "C": "Fraction of89 regions with relative yield>=.90",
+    "JA": "Area-weighted model relative yield; plotted as mean relative yield",
+    "aggregation": "Mean and sample SD across3 independently trained policies, each evaluated on32 common DEV weather paths"
+  },
+  "fixed_endpoint_DEV": {
+    "full": {
+      "method": "full",
+      "display_method": "SeDVal",
+      "learning_steps": 259200,
+      "C_mean_percent": 95.52902621722846,
+      "C_sample_SD_percent": 3.5410137130755435,
+      "JA_mean_percent": 92.33946504629681,
+      "JA_sample_SD_percent": 0.503945738774393,
+      "training_seed_count": 3,
+      "DEV_weather_per_seed": 32
+    },
+    "pasta": {
+      "method": "pasta",
+      "display_method": "PASTA",
+      "learning_steps": 259200,
+      "C_mean_percent": 67.96582397003745,
+      "C_sample_SD_percent": 2.587934143669406,
+      "JA_mean_percent": 70.05463606022305,
+      "JA_sample_SD_percent": 4.886400027272953,
+      "training_seed_count": 3,
+      "DEV_weather_per_seed": 32
+    },
+    "cola": {
+      "method": "cola",
+      "display_method": "COLA",
+      "learning_steps": 259200,
+      "C_mean_percent": 74.82443820224718,
+      "C_sample_SD_percent": 2.057296639787952,
+      "JA_mean_percent": 82.10657564307742,
+      "JA_sample_SD_percent": 1.3746355679110547,
+      "training_seed_count": 3,
+      "DEV_weather_per_seed": 32
+    }
+  },
+  "reused_without_new_training": [
+    "SeDVal",
+    "PASTA"
+  ],
+  "new_COLA_jobs_complete": 3,
+  "new_COLA_jobs_failed": 0,
+  "COLA_final_audit": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/audit/final_training_audit.json",
+    "sha256": "0a698f85bb6ff39582657a3046ada433c0ea1076c34ad3452eeef6cfaf3581c1"
+  },
+  "computational_ledger": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/audit/computational_ledger_final.json",
+    "sha256": "f3195881b4d5217edb2fd5922ca39c7e92914d40d2590b1e62c27f8e2b713ba7"
+  },
+  "new_joint_independent_TEST_complete": false,
+  "new_TEST_environment_steps": 0,
+  "paper_updated_or_built": false,
+  "CAPQL_retired": {
+    "receipt": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/CAPQL_RETIREMENT.json",
+    "negative_DEV_evidence_retained": true,
+    "four_C6_endpoint_files_deleted_by_user_authorization": true,
+    "selection_of_COLA_happened_after_CAPQL_DEV_results": true
+  },
+  "interpretation": "SeDVal has the highest observed fixed-endpoint DEV means on both metrics; these are DEV observations, not a new joint independent TEST conclusion. No retuning, extension, bestDEV checkpoint or seed selection."
+}

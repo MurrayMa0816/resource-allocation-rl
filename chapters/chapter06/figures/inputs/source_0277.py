@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""Reproduce the current figure from the CSVs and local rendering source."""
+from pathlib import Path
+import argparse,subprocess,sys,tempfile,shutil
+HERE=Path(__file__).resolve().parent
+p=argparse.ArgumentParser();p.add_argument('--output-dir',type=Path,default=HERE);args=p.parse_args()
+args.output_dir.mkdir(parents=True,exist_ok=True)
+with tempfile.TemporaryDirectory(prefix='.render-',dir=HERE)as tmp:
+    out=Path(tmp)/'output'
+    subprocess.run([sys.executable,str(HERE/'source/spacing.py'),'--number','6.8','--output-dir',str(out)],check=True)
+    for name in ['figure.pdf','figure.svg','figure.png','numeric_artist_values_before_after.json','render_geometry.json']:
+        shutil.copyfile(out/name,args.output_dir/name)
+
+# Reproduce the additional authorized native physical-axes layout.
+subprocess.run([sys.executable,str(HERE/'plot_layout.py'),'--output-dir',str(args.output_dir)],check=True)
+
+# Additional native panel proportions for continuous Chapter6 text flow.
+subprocess.run([sys.executable,str(HERE/'plot_flow.py'),'--output-dir',str(args.output_dir)],check=True)
+
+# Additional native proportions approved for the current Chapter6 layout.
+subprocess.run([sys.executable,str(HERE/'plot_equal.py'),'--output-dir',str(args.output_dir)],check=True)
+
+# Restored native dimensions and measured15bp image spacing.
+subprocess.run([sys.executable,str(HERE/'plot_template15.py'),'--output-dir',str(args.output_dir)],check=True)

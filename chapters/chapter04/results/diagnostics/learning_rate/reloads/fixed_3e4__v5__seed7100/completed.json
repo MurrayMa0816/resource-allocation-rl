@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "id": "fixed_3e4__v5__seed7100",
+  "domain": "v5",
+  "method": "fixed_3e4",
+  "seed": 7100,
+  "environment_steps": 768,
+  "model_loads": 1,
+  "cases": 32,
+  "phase": "dev",
+  "training_steps": 0,
+  "new_TEST_cases": 0,
+  "checkpoint": "/hy-tmp/resource_allocation_results/chapter04/experiments/lr_feedback_development_20261109_155109/jobs/fixed_3e4__v5__seed7100/checkpoint_final.pt",
+  "checkpoint_sha256": "b07e62487c68f635f69ab5e44bf088e629398d86ed3fca03ad92f922509163b0",
+  "original_final_DEV_cases": 32,
+  "casewise_comparison_pass": true,
+  "casewise_exact_native_returns": 32,
+  "maximum_native_return_absolute_error": 0.0,
+  "maximum_score_x100_absolute_error": 0.0,
+  "source_unchanged": true,
+  "model_unchanged": true,
+  "resource_guard_pass": true,
+  "resource_audit_stream_sha256": "9535482fd1efafc09214188b615087850d32a8e3df4b55dd307ea107ca8e6330",
+  "summary": {
+    "training_step": 49152,
+    "phase": "dev",
+    "paths": 32,
+    "evaluation_environment_steps": 768,
+    "native_mean": 0.7880831856017868,
+    "native_std": 0.041966865809084236,
+    "score_x100_mean": 78.80831856017868,
+    "minimum": 0.6877976521053367,
+    "maximum": 0.8578853059933989
+  },
+  "elapsed_seconds": 2.714571073651314,
+  "data_digest_verification": {
+    "hits": 0,
+    "misses": 0,
+    "final_full_rereads": 0,
+    "records": {},
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "c662e3d199c549f247601b810011da51cf01ac9ac9d2ab979a4eb1747f0d05c9",
+    "evaluation_paths.csv.gz": "53d50dd4d6f6c2493ac35a976335c2e9a5c59ffb38506f1df086032fed3aceb6",
+    "protocol.json": "72e2228a7b8fd880186fe6f5c127db3980f494a334df58d7eee625032aa3488c",
+    "resource_episodes.csv.gz": "340fd03aeb0517d63ecaa571372821a597fc6079a4ac568e49a4d4a9ed3ec7ba"
+  }
+}

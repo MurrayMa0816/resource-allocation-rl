@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "outputs": {
+    "figure.pdf": {
+      "sha256": "fc6b8272c6060810c81dc8e96844b7557eee25408ef9c3f7c1b6009ff90eff4f",
+      "accepted_sha256": "7d27dda1786d1af507125f62bfde9df548e8d311c7139848005117805ba70c0e",
+      "bytes_equal": false
+    },
+    "figure.png": {
+      "sha256": "3ea0618fae96c4bf2d1d1ee654f4bdb4519de8329479401c94840bfec72f7a6a",
+      "accepted_sha256": "ce48c5216fd854cb32284f8479b71410e462038929d500015d7aa8716b815f7e",
+      "bytes_equal": false
+    },
+    "intentional_label_revision": true,
+    "native_canvas_exact": true,
+    "numeric_artists_and_axes_exact": true
+  },
+  "historical_paths_rebased_locally": true,
+  "external_source_reads_forbidden": true,
+  "science_runs": 0
+}

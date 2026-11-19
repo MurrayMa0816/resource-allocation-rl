@@ -1,0 +1,156 @@
+{
+  "schema": "props-stochastic-curve-computational-ledger-v1",
+  "formal": {
+    "train": {
+      "attempted_physical_steps": 503040,
+      "successful_physical_steps": 503040,
+      "completed_physical_episodes": 20960,
+      "guarded_complete_episodes": 20960
+    },
+    "mean": {
+      "attempted_physical_steps": 506880,
+      "successful_physical_steps": 506880,
+      "completed_physical_episodes": 21120,
+      "guarded_complete_episodes": 21120
+    },
+    "stochastic": {
+      "attempted_physical_steps": 4055040,
+      "successful_physical_steps": 4055040,
+      "completed_physical_episodes": 168960,
+      "guarded_complete_episodes": 168960
+    }
+  },
+  "engineering": {
+    "train": {
+      "attempted_physical_steps": 1536,
+      "successful_physical_steps": 1536,
+      "completed_physical_episodes": 64,
+      "guarded_complete_episodes": 64
+    },
+    "mean": {
+      "attempted_physical_steps": 1152,
+      "successful_physical_steps": 1152,
+      "completed_physical_episodes": 48,
+      "guarded_complete_episodes": 48
+    },
+    "stochastic": {
+      "attempted_physical_steps": 4608,
+      "successful_physical_steps": 4608,
+      "completed_physical_episodes": 192,
+      "guarded_complete_episodes": 192
+    }
+  },
+  "preserved_failed_partial": {
+    "train": {
+      "attempted_physical_steps": 0,
+      "successful_physical_steps": 0,
+      "completed_physical_episodes": 0,
+      "guarded_complete_episodes": 0
+    },
+    "mean": {
+      "attempted_physical_steps": 0,
+      "successful_physical_steps": 0,
+      "completed_physical_episodes": 0,
+      "guarded_complete_episodes": 0
+    },
+    "stochastic": {
+      "attempted_physical_steps": 0,
+      "successful_physical_steps": 0,
+      "completed_physical_episodes": 0,
+      "guarded_complete_episodes": 0
+    }
+  },
+  "combined": {
+    "train": {
+      "attempted_physical_steps": 504576,
+      "successful_physical_steps": 504576,
+      "completed_physical_episodes": 21024,
+      "guarded_complete_episodes": 21024
+    },
+    "mean": {
+      "attempted_physical_steps": 508032,
+      "successful_physical_steps": 508032,
+      "completed_physical_episodes": 21168,
+      "guarded_complete_episodes": 21168
+    },
+    "stochastic": {
+      "attempted_physical_steps": 4059648,
+      "successful_physical_steps": 4059648,
+      "completed_physical_episodes": 169152,
+      "guarded_complete_episodes": 169152
+    }
+  },
+  "expected_formal_successful_physical_steps": 5064960,
+  "actual_formal_successful_physical_steps": 5064960,
+  "expected_engineering_successful_physical_steps": 7296,
+  "actual_engineering_successful_physical_steps": 7296,
+  "actual_successful_physical_steps": 5072256,
+  "actual_attempted_physical_steps": 5072256,
+  "actual_complete_physical_episodes": 211344,
+  "independent_TEST_steps": 0,
+  "failures": [],
+  "failed_attempt_count": 0,
+  "source_registry_postrun_failures": 5,
+  "source_registry_postrun_failure_history": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed0/failed.json",
+      "sha256": "fed8a3ecf99f64c363004071f36662d5d6c6e35b699b3ee16643476433c77d9e",
+      "acceptance_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed0/accepted_completion.json",
+      "acceptance_sha256": "6d2583add76b3249fbc1605dae2472603cdc7578cea20693d083fc16af533188",
+      "already_counted_in_formal_scientific_cost": true
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed1/failed.json",
+      "sha256": "c41dcf0de8b8407744cb26e2d132383f3cebc166e30a21972f010eb9ab43e633",
+      "acceptance_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed1/accepted_completion.json",
+      "acceptance_sha256": "b4d8e602ecea3ba912e99730e2263eee6b3fe1cc75258dd2b820b59acd19af59",
+      "already_counted_in_formal_scientific_cost": true
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed2/failed.json",
+      "sha256": "bb9868f2d9cf43e3822c17490207da4eae088848e0ba000aead30200bae10bc5",
+      "acceptance_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed2/accepted_completion.json",
+      "acceptance_sha256": "880503570a2b01c79a03a06f664be44cf6d6dc6969f62eccd7af37ec319a4c29",
+      "already_counted_in_formal_scientific_cost": true
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed3/failed.json",
+      "sha256": "ecf408cb63c9ae6d420000edb4e95303ff2c89a6c15b0d55a695419b9dfb520e",
+      "acceptance_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed3/accepted_completion.json",
+      "acceptance_sha256": "d1705e5c5f2f817b5c0f7496f797c2b75a0900d620b3ade51343fd67a856b506",
+      "already_counted_in_formal_scientific_cost": true
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/jobs/props__v5__seed4/failed.json",
+      "sha256": "e5a5f935e6f3c7b6296658365510da0eb4ab44f0cec2d1e074e695f87fd2928a",
+      "acceptance_path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed4/accepted_completion.json",
+      "acceptance_sha256": "2b5678946ae292595bbb9392058079f94fb8e880b77a390a198dd1e153307586",
+      "already_counted_in_formal_scientific_cost": true
+    }
+  ],
+  "physical_execution_failures": 0,
+  "scientific_retries": 0,
+  "automatic_retry": false,
+  "model_deserializations_during_workers": {
+    "native_checkpoint_roundtrip": 9,
+    "new_fixed_endpoint_inspection": 9,
+    "old_fixed_endpoint_comparison": 5
+  },
+  "model_deserializations_workers_total": 23,
+  "model_deserializations_formal_workers": 15,
+  "model_deserializations_engineering_workers": 8,
+  "additional_engineering_pair_audit_model_deserializations": 4,
+  "model_deserializations_total": 27,
+  "old_model_deserializations": 5,
+  "old_models_loaded_only_after_new_fixed_training_endpoint": true,
+  "engineering_pair_gate_sha256": "913918514f66d08a21a476d8ae3cf9dfe022382ac9ccd5e1bc28b2d33611d27e",
+  "aggregation_model_deserializations": 0,
+  "aggregation_environment_steps": 0,
+  "engineering_sources": {
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/engineering/cpu_seed0_mean_only/completion.json": "673259c077991b0efdea4f64c83802c028eceea53bfac5b021c1e2f57a92023f",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/engineering/cpu_seed0_mean_plus_random/completion.json": "427599d372fb77d81f2aba8f940023e8101a69c69af0aa1dc3524d26b9eee010",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/engineering/cuda0_seed2_mean_only/completion.json": "d0d729e4e082ff7cfd27020a986268c63492c451ba49f5daa3554e658f285647",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/engineering/cuda0_seed2_mean_plus_random/completion.json": "7bd592f9f5cda46ab1feea79b1d1d38342f3ef6a81d5334da3720eae031955f7"
+  },
+  "full_compressed_episode_ledger_check": "performed by independent audit, not claimed by this scalar aggregation"
+}

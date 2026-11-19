@@ -1,0 +1,43 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "3.1",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter03_intertemporal/figures/figure03-01_跨期投入与对象间分配的关系示意",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter03/figures/figure03_01/figure.pdf"
+  ],
+  "files": {
+    "export.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0001.json",
+      "sha256": "3e658c8ddcc057ba87b7c7cafcf2e5fd556da7c6c828f3c826d3b33900725d6a",
+      "bytes": 1475
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter03/figures/figure03_01/figure.pdf",
+      "sha256": "ef4a90dc2f18bed826b8251be48e9b1f7723ff1f74189d41b0d920a55976359f",
+      "bytes": 145546
+    },
+    "figure.png": {
+      "path": "chapters/chapter03/figures/inputs/input_0002.png",
+      "sha256": "418e0c7585d081c93b191bdacc101ef9185dfc92bad728bab930a7d0e75ee4e0",
+      "bytes": 359725
+    },
+    "figure.svg": {
+      "path": "chapters/chapter03/figures/inputs/input_0003.svg",
+      "sha256": "c7b173c108b9511fac3d6618d7741b6f752305baf9e5df81b1d8aa9929da0ba4",
+      "bytes": 108339
+    },
+    "source.drawio": {
+      "path": "chapters/chapter03/figures/figure03_01/source.drawio",
+      "sha256": "3be4089177a355c5ee9e2b3e6a801ff50bcabd7416cca73144b0ddaefd4b22dc",
+      "bytes": 81297
+    },
+    "source.json": {
+      "path": "chapters/chapter03/figures/inputs/input_0005.json",
+      "sha256": "185ee15ae9dadc84ac48c5fa294af3ac1e829d248fddb0a877f9fe267c080dab",
+      "bytes": 9522
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

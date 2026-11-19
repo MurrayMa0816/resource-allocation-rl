@@ -1,0 +1,43 @@
+{
+  "schema": "chapter05-value-supervision-diagnostic-protocol-v1",
+  "created_utc": "2026-11-08T15:48:08.823981+00:00",
+  "purpose": "核查Full与ScalarValue接近的机制原因，决定是否需要修复或重训，再重组图5.6证据任务",
+  "original_scientific_root": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2",
+  "original_model_ids": [
+    "full__radio__seed0",
+    "full__radio__seed1",
+    "full__radio__seed2",
+    "full__radio__seed3",
+    "full__radio__seed4",
+    "full__v5__seed0",
+    "full__v5__seed1",
+    "full__v5__seed2",
+    "full__v5__seed3",
+    "full__v5__seed4",
+    "scalar_value__radio__seed0",
+    "scalar_value__radio__seed1",
+    "scalar_value__radio__seed2",
+    "scalar_value__radio__seed3",
+    "scalar_value__radio__seed4",
+    "scalar_value__v5__seed0",
+    "scalar_value__v5__seed1",
+    "scalar_value__v5__seed2",
+    "scalar_value__v5__seed3",
+    "scalar_value__v5__seed4"
+  ],
+  "original_models_immutable": true,
+  "original_test_not_reused_for_tuning": true,
+  "stages": [
+    "既有40组日志与静态损失/更新核查",
+    "20固定终点模型在新登记诊断情景上的不更新预测诊断",
+    "根据实现错误/数值失稳或贡献不足作分支决定",
+    "目标构成图与监督配对差分开展示并更新当前论文"
+  ],
+  "training_authorized_condition": "仅在找到可复现的实现/数值/协议错误且独立复核确认之后，登记新冻结源与受影响组再从零重训；没有错误不为制造分离而改设置",
+  "no_automatic_external_baseline_retraining": true,
+  "diagnostic_is_not_new_formal_comparison": true,
+  "not_a_significance_or_equivalence_study": true,
+  "diagnostic_value_error_limit": "realized-return残差包含环境与策略噪声，各方法自身访问状态分布不同，不直接冒称同状态条件价值函数误差",
+  "publication_policy": "保留原始四设置完整曲线与全部原始数据；正文区分目标取舍和监督增益；保留无跨任务一致收益的结论",
+  "new_model_checkpoints": 0
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "thesis-print-readability-derivative-v1",
+  "number": "5.8",
+  "scientific_values_changed": false,
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-8",
+  "parent_pdf_sha256": "441e8051a18599f94a9512cb8aedfcc98011176244d9b34b53e1fb7c0df601f0",
+  "editable_source": "plot.py",
+  "render_engine": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+  "native_source": "inputs/parent_renderer.py",
+  "input_files_sha256": {
+    "parent_renderer.py": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+    "parent_presentation_proof.json": "eb7fa65d77c1fda79ddc6becfb678e9f5897e540e10ee783bf299506f75b79b4",
+    "source.json": "eabc431c7d8c67bb89724ecb89d2ba6cc79eea215fabf59e497424191f7f9524",
+    "plot.py": "17937eccc41cb8c7bffff9e875195b11561879fa6cdcdf3896bb04caf8e40aab",
+    "data/learning_raw.csv": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+    "data/learning_display.csv": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+    "data/fixed_endpoints_by_seed.csv": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+    "data/threshold_recounts_by_seed.csv": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+    "data/costs_by_seed.csv": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+    "data/data_manifest.json": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+  },
+  "changes": [
+    "distinct dash patterns preserving markers/colors",
+    null
+  ],
+  "proof_sha256": "d3f4b33a7acc40779dbe3bf12b5904afb7e18c747405ac2be8eef4cc5351aba8",
+  "outputs": {
+    "figure.pdf": "572e5b28b2c54049e3fbf9a000bf2ba43fc6e8b918d362bb5cc94bee44195b6a",
+    "figure.svg": "15c7573480f6ec737ae2eec77328fa97460892e2d71cc3acbe6e595af358320b",
+    "figure.png": "4a5d3305c2f9afe32f4cd5727c6afe92960bdc5afa5961fa81dd14fe3f34e966"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

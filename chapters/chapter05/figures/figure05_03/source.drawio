@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" type="device" compressed="false">
+  <diagram id="fig-5-3" name="图5.3 双价值目标与统一策略优势的计算">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="592" pageHeight="580" math="1" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="records" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;完整轨迹记录与回合回报&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\((s_t,\boldsymbol z_t,\lambda,\mu;C,J)\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=none;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3EDE2;" vertex="1" parent="1">
+          <mxGeometry x="163" y="8" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rho" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;共用截断重要性权重&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(\rho_t\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="14" y="98" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;设置任务终点目标&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol y_T=(C,J)^\top\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=none;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3EDE2;" vertex="1" parent="1">
+          <mxGeometry x="208" y="98" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frozen" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;固定网络价值预测&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(\boldsymbol V_t=\boldsymbol V_{\psi_{\rm old}}(s_t,\lambda)\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="402" y="98" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="trace" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;逆序计算两项回归目标&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol y_t=(1-\rho_t)\boldsymbol V_t+\rho_t\boldsymbol y_{t+1}\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="129" y="188" width="328" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fitC" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;拟合覆盖率目标&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(V_{\psi_C}\leftarrow y_t^C\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=4;strokeColor=none;strokeWidth=1.2;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#285F8A;" vertex="1" parent="1">
+          <mxGeometry x="14" y="278" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fitJ" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;拟合平均成效目标&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(V_{\psi_J}\leftarrow y_t^J\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=4;strokeColor=none;strokeWidth=1.2;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#285F8A;" vertex="1" parent="1">
+          <mxGeometry x="158" y="278" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="adv" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;分别计算两项优势估计&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(\boldsymbol A_t=\boldsymbol y_{t+1}-\boldsymbol V_t\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="306" y="278" width="268" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mix" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;两项优势估计加权&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;\(A_t^\lambda=\lambda A_t^C+(1-\lambda)A_t^J\)&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=none;strokeWidth=1.0;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#BDD5EB;" vertex="1" parent="1">
+          <mxGeometry x="306" y="368" width="268" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="norm" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;加权后作一次整批标准化&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(A_{\mathrm{std},t}=\dfrac{A_t^\lambda-A_{\mathrm{mean}}}{s_A+\delta_{\mathrm{adv}}}\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=none;strokeWidth=1.0;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#BDD5EB;" vertex="1" parent="1">
+          <mxGeometry x="306" y="458" width="268" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="actor" value="&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;更新同一Actor&lt;/div&gt;&lt;div style=&quot;line-height:1.35;white-space:nowrap;&quot;&gt;&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(A_{\mathrm{std},t}\longrightarrow L_\theta\)&lt;/span&gt;&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman,SimSun;fontSize=14;fontStyle=0;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;strokeColor=#000000;strokeWidth=0.8;overflow=visible;autosize=0;rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="14" y="458" width="268" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" edge="1" parent="1" source="records" target="rho" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="293" y="83" /><mxPoint x="99" y="83" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="" edge="1" parent="1" source="records" target="boundary" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="" edge="1" parent="1" source="records" target="frozen" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="293" y="83" /><mxPoint x="487" y="83" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="" edge="1" parent="1" source="rho" target="trace" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="99" y="173" /><mxPoint x="194.6" y="173" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="" edge="1" parent="1" source="boundary" target="trace" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="" edge="1" parent="1" source="frozen" target="trace" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="487" y="173" /><mxPoint x="391.4" y="173" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol y_t\)&lt;/span&gt;" edge="1" parent="1" source="trace" target="fitC" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.2774390243902439;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="220" y="263" /><mxPoint x="76" y="263" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="" edge="1" parent="1" source="trace" target="fitJ" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.2774390243902439;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol y_{t+1}\)&lt;/span&gt;" edge="1" parent="1" source="trace" target="adv" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="375" y="263" /><mxPoint x="440" y="263" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="&lt;span style=&quot;font-family:Times New Roman;&quot;&gt;\(\boldsymbol V_t\)&lt;/span&gt;" edge="1" parent="1" source="frozen" target="adv" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8656716417910447;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="" edge="1" parent="1" source="adv" target="mix" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" value="" edge="1" parent="1" source="mix" target="norm" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="" edge="1" parent="1" source="norm" target="actor" style="edgeStyle=none;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.1;endArrow=classic;endFill=1;endSize=5;labelBackgroundColor=#FFFFFF;fontFamily=Times New Roman,SimSun;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

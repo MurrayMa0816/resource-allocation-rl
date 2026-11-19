@@ -1,0 +1,14 @@
+{
+  "phase": "formal",
+  "configs": [
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6400.json",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6401.json",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6402.json"
+  ],
+  "source_manifest": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/source_manifest.json",
+  "source_release": "0286beddcbb2b8cbb7bc75ff2c9599bf7658b2f8fe4ad87c259a2e71c4228125",
+  "method": "cola",
+  "fresh_attempt": 0,
+  "automatic_retries": false,
+  "physical_steps_by_preparation": 0
+}

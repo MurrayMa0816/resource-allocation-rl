@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "label_changes": [
+    {
+      "old": "图像质量得分",
+      "new": "区间平均图像质量得分",
+      "font_bp": 10.5,
+      "rotation": 90.0,
+      "position": [
+        101.39337270341204,
+        0.5
+      ]
+    },
+    {
+      "old": "需求完成比例（%）",
+      "new": "区间平均需求完成比例（%）",
+      "font_bp": 10.5,
+      "rotation": 90.0,
+      "position": [
+        719.3268453050509,
+        0.5
+      ]
+    }
+  ],
+  "all_other_scientific_artists_exact": true,
+  "font_sizes_families_weights_preserved": true,
+  "scientific_execution": 0
+}

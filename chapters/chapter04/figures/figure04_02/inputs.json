@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "4.2",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter04_trajectory_reuse/figures/figure04-02_TRoC的总体框架",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter04/figures/figure04_02/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter04/figures/figure04_02/figure.pdf",
+      "sha256": "a38867c1351a9dc72acac352bf358637bbdfcb21fead101f25c10a5e72764f26",
+      "bytes": 95200
+    },
+    "figure.png": {
+      "path": "chapters/chapter04/figures/inputs/input_0006.png",
+      "sha256": "0823eb490e8213f0dddc3276c9c6bd017c7d1401bb35219de0dff1dd2d059a8a",
+      "bytes": 207279
+    },
+    "figure.svg": {
+      "path": "chapters/chapter04/figures/inputs/input_0007.svg",
+      "sha256": "cad6f5c10f24f987b2c9551b01134b6ee4e84fd0076a0d27a075f1bdfa17365f",
+      "bytes": 348704
+    },
+    "source.drawio": {
+      "path": "chapters/chapter04/figures/figure04_02/source.drawio",
+      "sha256": "87cc8a76b9e1e8ffe0e667f1613bd362932aed8a72261a128c5453ab7ef7b4e3",
+      "bytes": 16607
+    },
+    "source.json": {
+      "path": "chapters/chapter04/figures/inputs/input_0009.json",
+      "sha256": "3ea1d02437e362e497b22b2da1ca0288eedfa0786d9f9dc397d52b409f2ae10d",
+      "bytes": 11124
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

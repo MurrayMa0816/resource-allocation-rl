@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\caption{SeDVal主要训练参数表}
+\label{tab:ch5-formal-settings}
+\small
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}X}
+\toprule
+参数 & 取值 & 参数 & 取值 \\
+\midrule
+策略初始学习率 & \(3\times10^{-4}\) & 价值网络学习率 & \(10^{-3}\) \\
+预热阶段每批轨迹数 & 8条新轨迹 & 复用时每批轨迹数 & 4条新＋4条旧 \\
+每批更新轮数上限 & 4 & 小批量决策记录数 & 64 \\
+预热阶段策略裁剪宽度 & 0.2 & 复用策略裁剪宽度 & \(0.2/1.5\) \\
+梯度范数上限 & 0.5 & 策略更新早停阈值 & 0.12 \\
+学习率调整倍数 & 1.03 & 策略学习率范围 & \([10^{-5},10^{-3}]\) \\
+\bottomrule
+\end{tabularx}
+\end{table}

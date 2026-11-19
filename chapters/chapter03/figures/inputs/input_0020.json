@@ -1,0 +1,39 @@
+{
+  "schema": "four-chapter-main-learning-style-v1",
+  "number": "3.4",
+  "parent_directory": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure3-4",
+  "parent_pdf_sha256": "63c0228e7ff7eccab432c96dab2faaea378678f7267bff2f8683b8fd86216f9a",
+  "input_original_sha256": {
+    "plot_parent.py": "9a6d861603cd960b1421a29859349c40a39208a0038d94fa638e01cbbbe4ef23",
+    "plot_source.py": "69b69609d069ced43acebd5ba5e20baa7ee8c63fcede21da7059eb9a13ff1b3e",
+    "data.csv.gz": "30b724434667116af573cc995e9bccd1ced1ce3c40e2b30318fafa0f57312141",
+    "layout_reference.json": "2f292663b1416145876e1621cf201250d6b727cb186324f4526f75a2c2ad33e4",
+    "source.json": "c63cab14b3cf0f5ca02152eca81b745cedc1d581f2438014f17391f327ae270b",
+    "plot.py": "be2f3c3afc8dc59810ddde7675f95fb48679a9d2a14940ccdae6856c71876448",
+    "presentation.py": "583ac9ce9468d106393d67634aa9ada60994a212b03747e6708c50b321e50008",
+    "render_geometry.json": "38d75fe83cf287f969246ab09244fce59eff2d0d4ad3088a7c233fcd32c6a06f",
+    "display_aggregates.csv.gz": "ad0c513b31368f2e079771d3e46a34e7afc9f891f919da8ba3bd3cb12e25641b",
+    "source_parent.json": "4ccc88f950ee5cfbf8aac61a7d95816ebd314007ea6ebd831d9129b9b096b6ac",
+    "plot_scientific_parent.py": "2a6f76a509b8ffae56053c98f612e7b6a95701541b78803a4b8b62fd1a0d602c",
+    "presentation_parent.py": "583ac9ce9468d106393d67634aa9ada60994a212b03747e6708c50b321e50008",
+    "artist_values.json": "77b105129d5b9170f6b585e6ca1da078b139b31fe496cebdb74f9123b9a0ea99"
+  },
+  "renderer": "/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/render_learning_figures.py",
+  "renderer_sha256": "8ad96f999ce819f40e2de3389babcabf34d41f6e01ec7bae6c89d2d9ef058fed",
+  "numeric_before_sha256": "7cb98ef130fc4c73f534bce07046504a53039e21f7fb2d4b168d972eac4a5c88",
+  "numeric_after_sha256": "7cb98ef130fc4c73f534bce07046504a53039e21f7fb2d4b168d972eac4a5c88",
+  "source_data_changed": false,
+  "changes": [
+    "equal 1.25bp solid method lines",
+    "distinct color and filled markers",
+    "shared physical panel size and legend spacing"
+  ],
+  "outputs": {
+    "figure.pdf": "46a319a75b44011dfa263ab3f724d6723f031c54a1d5eb9ff5a2d8e7ff4d24f3",
+    "figure.png": "96b39eab168b84a53d7a42f363ea425c4705f952c0281d1661dbc369210fa722",
+    "figure.svg": "6fdb729ae53ed090ce2d6ef33e13578372f7d05ec89a4c0e32e66f777de95fa9"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "training_runs": 0
+}

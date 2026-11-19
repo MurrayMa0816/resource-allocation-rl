@@ -1,0 +1,163 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "5.5",
+  "kind": "data_plot",
+  "original_virtual_directory": "chapters/chapter05_dual_value/figures/figure05-05_六种方法独立终点的达标数量与原始业务指标对照_axes59p2x51_spacing15_20261111",
+  "entry": "plot.py",
+  "graphics": [
+    "chapters/chapter05/figures/figure05_05/figure.pdf"
+  ],
+  "files": {
+    "accepted_metric_specification.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0061.json",
+      "sha256": "20f18e7143406e68e4f8e384fe6869ae8414503667b881b947664cfbc228b919",
+      "bytes": 1056
+    },
+    "axes_spacing15_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0062.json",
+      "sha256": "437c30d1cf5ef363ca6a1a06726fdc16f6f7061c146aaaebd47a0eb4884d371a",
+      "bytes": 2519
+    },
+    "figure.pdf": {
+      "path": "chapters/chapter05/figures/figure05_05/figure.pdf",
+      "sha256": "a7f92d418e49566f32d48ca130984a318b44f907adfdc371310c162d46acd9b1",
+      "bytes": 35063
+    },
+    "figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0063.png",
+      "sha256": "f8d4c20cb9d28fed6f3b06ea8eda5787db9744ea94b4d9e05d09dfd90748f9f8",
+      "bytes": 147346
+    },
+    "figure.svg": {
+      "path": "chapters/chapter05/figures/inputs/input_0064.svg",
+      "sha256": "ad39c9534cb97119698f74321f6efdc2d9d807e2f66ee73e16f67f3eefcaf75e",
+      "bytes": 101562
+    },
+    "numeric_artist_values_before_after.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0065.json",
+      "sha256": "e94779816826ed36cc7edee4584d130becbbac9fe3836b57fd25f17f8b217a19",
+      "bytes": 93605
+    },
+    "parent_source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0066.json",
+      "sha256": "65fac03e377309e6a848ce7e73824b9db7d16a934ac89c8669d80e31193cb52a",
+      "bytes": 15138
+    },
+    "plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0067.py",
+      "sha256": "99e7f6e5984222af3364cab10cc4bf7a2be1a97b1527035798afb699a12befd0",
+      "bytes": 8033
+    },
+    "render_geometry.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0068.json",
+      "sha256": "538461adcd8980a15176eaead92417a5b811b1e13365e0fab7114e9271fa6580",
+      "bytes": 8076
+    },
+    "render_support/config.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0069.json",
+      "sha256": "a28f7567c1dd0fcf4bdccd041fd5619c57d475d102c1d464fb3aadb439ef8050",
+      "bytes": 233
+    },
+    "render_support/files/f0001_figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0070.png",
+      "sha256": "4f0a27e2230712e101343eb0b30cf466ed1429a5b134bc9720997f9661e931b4",
+      "bytes": 81062
+    },
+    "render_support/files/f0002_costs_by_seed.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0029.csv",
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76",
+      "bytes": 14491
+    },
+    "render_support/files/f0003_data_manifest.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0041.json",
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8",
+      "bytes": 1844
+    },
+    "render_support/files/f0004_fixed_endpoints_by_seed.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0030.csv",
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b",
+      "bytes": 22143
+    },
+    "render_support/files/f0005_learning_display.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0031.csv",
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f",
+      "bytes": 2758404
+    },
+    "render_support/files/f0006_learning_raw.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0032.csv",
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef",
+      "bytes": 1877519
+    },
+    "render_support/files/f0007_threshold_recounts_by_seed.csv": {
+      "path": "chapters/chapter05/figures/inputs/input_0033.csv",
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59",
+      "bytes": 26645
+    },
+    "render_support/files/f0008_plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0071.py",
+      "sha256": "b703088b12ace4e60a531157e12d5119f7942df06f5003a5855d132f06e93e04",
+      "bytes": 215
+    },
+    "render_support/files/f0009_baseline_figures.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0022.json",
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5",
+      "bytes": 21351
+    },
+    "render_support/files/f0010_render_metric_labels.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0072.py",
+      "sha256": "56e1123adb73cefbe7c9112b7b10ccf44266dbc03e0196db00148a12789903ee",
+      "bytes": 9571
+    },
+    "render_support/files/f0011_specifications.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0073.json",
+      "sha256": "3a88eee6483ffd20eb455665f91b841efa6d34607393c32cb3d4497c6e5869c0",
+      "bytes": 6943
+    },
+    "render_support/files/f0012_figure.pdf": {
+      "path": "chapters/chapter05/figures/inputs/input_0074.pdf",
+      "sha256": "44158a64fe8638d39b52274fc2e660cfe836e8ae9434ae4132511103a5236ace",
+      "bytes": 35091
+    },
+    "render_support/files/f0013_figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0075.png",
+      "sha256": "bb222cabe6f14507160a76b3db47f681a04963c26cc3352138cf4fa993d3b10c",
+      "bytes": 81591
+    },
+    "render_support/files/f0014_parent_presentation_proof.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0076.json",
+      "sha256": "1fa15fe07c95d38560514db8ef25eadc839221f9cb53fe01296cb96ecb234b04",
+      "bytes": 44743
+    },
+    "render_support/files/f0015_parent_renderer.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0043.py",
+      "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c",
+      "bytes": 13693
+    },
+    "render_support/files/f0016_plot.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0077.py",
+      "sha256": "4f35cc031ab82a09e02c1465ac1116a1a4149420e5edef5cf35a59c7a3083b0d",
+      "bytes": 233
+    },
+    "render_support/files/f0017_source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0078.json",
+      "sha256": "59d80770a3a981c5f99d70a7ef0bf66561181c9a87836f729e1443cd0c6c97ae",
+      "bytes": 2533
+    },
+    "render_support/files/f0018_plot_chapter45.py": {
+      "path": "chapters/chapter05/figures/inputs/source_0047.py",
+      "sha256": "b95a47784d00cce0d29a85bcfef8facfd3a8e9cd29e2f788393c252455e57bd7",
+      "bytes": 23316
+    },
+    "render_support/paths.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0079.json",
+      "sha256": "a32cbdf38c964f5de333e15e4cddc8f2f2c6ca58e4ef2c2fc2d459874e197911",
+      "bytes": 5814
+    },
+    "source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0080.json",
+      "sha256": "c393acf68c0935e550f321233643bb83309c51358bd02dfc33aef3f14d76544f",
+      "bytes": 7834
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

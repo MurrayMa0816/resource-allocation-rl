@@ -1,0 +1,80 @@
+{
+  "schema": "thesis-flat-render-support-v1",
+  "purpose": "短路径保存原绘图链文件；virtual为原fs内路径，仅在复绘临时工作区恢复。",
+  "restore_helper": "scripts/restore_render_support.py",
+  "restore_helper_sha256": "4577fb4dc07bac98615aab9560245441603618f57edfbe60ee6661c074f839cf",
+  "files": [
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/per_seed_metrics.csv",
+      "stored": "files/f0001_per_seed_metrics.csv",
+      "bytes": 22615,
+      "sha256": "c2c98a75c9d99c3e0ad80e287744bdf2b3396cbc81e4a9919abe3d6573ab0d2c"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/protocol.json",
+      "stored": "files/f0002_protocol.json",
+      "bytes": 16478,
+      "sha256": "61089c223238ff6f1adfd901d5e7e66753a16a2cc443c134ba600ab034eb33c5"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/experiments/value_supervision_diagnosis/diagnostic/summary.json",
+      "stored": "files/f0003_summary.json",
+      "bytes": 28231,
+      "sha256": "51fa064fc7bb40c4b015a0bce2a3b81fb44ea775cc98c64c685122152f08918d"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/plot.py",
+      "stored": "files/f0004_plot.py",
+      "bytes": 5304,
+      "sha256": "a284dfb1311ec37f1a59b5c97ecf1f38ee2f91d2c63efce51324746b4254e09c"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/plotted_values.json",
+      "stored": "files/f0005_plotted_values.json",
+      "bytes": 11463,
+      "sha256": "912bf54f0e7aed13eba371625e3a45c848d59b1cdae4f88f5b13f70b270a4cb8"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/source_binding.json",
+      "stored": "files/f0006_source_binding.json",
+      "bytes": 665,
+      "sha256": "2bd9c61dd2aabca6b2c362fb78e32431e3371871b11765e0b480da92505b57d8"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/value_supervision_boxplot.pdf",
+      "stored": "files/f0007_value_supervision_boxplot.pdf",
+      "bytes": 31491,
+      "sha256": "2e1a9c8d23ae9a22650c106c639c3fcab4f0307db3ecea8cd13632e46b553ee5"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/value_supervision_boxplot.png",
+      "stored": "files/f0008_value_supervision_boxplot.png",
+      "bytes": 153971,
+      "sha256": "99f2d22dfc8ae06119de778828288e7d30946585012c4556d0737fa75f89be81"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/figures/value_supervision_boxplot_20261110_161215/value_supervision_boxplot.svg",
+      "stored": "files/f0009_value_supervision_boxplot.svg",
+      "bytes": 92877,
+      "sha256": "5f1beed2593921fd4aab2865538c5ed2a3b732d5f07dbdfe538650a7e03a2dbe"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter05/paper_revisions/integrate_supervision_boxplot_20261110_171410/assets/figure56_supervision/plot.py",
+      "stored": "files/f0010_plot.py",
+      "bytes": 334,
+      "sha256": "be197a61fa3be13ddaab1284347283f0c8a71a0095ea8e5d00f65d086514e28c"
+    },
+    {
+      "virtual": "root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/chapter05_supervision_boxplot_20261110.py",
+      "stored": "files/f0011_chapter05_supervision_boxplot_202.py",
+      "bytes": 28689,
+      "sha256": "60593a3b8c055319b2fe5dd5f83a79cdb2ad5189512213cd70907786364f2ff8"
+    },
+    {
+      "virtual": "root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/figure_5_6_supervision_boxplot__plot.py",
+      "stored": "files/f0012_figure_5_6_supervision_boxplot__p.py",
+      "bytes": 168,
+      "sha256": "eb5ce2a1f42b7bfb902dee0428785a305a01ba5a778657519a265f7a6076ca11"
+    }
+  ]
+}

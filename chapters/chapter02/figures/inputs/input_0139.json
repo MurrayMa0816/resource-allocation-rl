@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "number": "2.8",
+  "parent_12bp_pdf_sha256": "5905e88d10abf07f16e5f81cf322e03b375bcf636f88bd2bb9abcbbc1b217039",
+  "new_pdf_sha256": "2d0aac508499460b1aa4e4f5fee8d3afa0ce54aa480e6664272eec03354e06f9",
+  "all_scientific_artist_values_styles_equal": true,
+  "PDF_text_font_size_multiset_equal": true,
+  "axis_width_height_unchanged": true,
+  "all_map_axes_and_map_patches_unchanged": true,
+  "scale_group_further_down_from_12bp": 3,
+  "raw_scale_group_translation_bp": 10.5,
+  "measured_spacing": {
+    "xlabel_to_legend_bp": null,
+    "legend_to_file_bottom_mm": null,
+    "subtitle_to_file_top_mm": 1.5000258631176417,
+    "row_gaps_bp": [],
+    "native_mm": [
+      155.99999559190536,
+      203.31209479437933
+    ],
+    "all_text_to_bottom_mm": 1.999985588921441,
+    "all_text_to_top_mm": 1.5000258631176417,
+    "subtitle_frames_bp": [
+      [
+        47.81571960449219,
+        4.252041816711426,
+        153.9692840576172,
+        15.896541595458984
+      ],
+      [
+        271.147705078125,
+        4.252041816711426,
+        377.890869140625,
+        15.896541595458984
+      ],
+      [
+        44.89384460449219,
+        180.00006103515625,
+        156.8870086669922,
+        191.64456176757812
+      ],
+      [
+        268.819580078125,
+        180.00006103515625,
+        380.22314453125,
+        191.64456176757812
+      ],
+      [
+        45.19071960449219,
+        355.7480773925781,
+        156.5942840576172,
+        367.392578125
+      ],
+      [
+        269.397705078125,
+        355.7480773925781,
+        379.637451171875,
+        367.392578125
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 620
+  },
+  "CSV_sha256": {
+    "data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+    "inputs/data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+    "replot_sources/parent/data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38",
+    "replot_sources/native_inputs/data.csv": "cdf950545f793bc49e0851492aabbc7f866cc199ca979434258da8388ad8bd38"
+  },
+  "one_offline_render": true,
+  "second_replay_run": false,
+  "deterministic_export_settings_preserved": true,
+  "ROOT_edits": 0,
+  "thesis_builds": 0,
+  "scientific_execution": 0
+}

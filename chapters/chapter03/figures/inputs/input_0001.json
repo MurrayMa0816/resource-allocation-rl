@@ -1,0 +1,37 @@
+{
+  "source": "source.drawio",
+  "source_sha256": "3be4089177a355c5ee9e2b3e6a801ff50bcabd7416cca73144b0ddaefd4b22dc",
+  "pdf": "figure.pdf",
+  "pdf_sha256": "ef4a90dc2f18bed826b8251be48e9b1f7723ff1f74189d41b0d920a55976359f",
+  "exporter": "scripts/export_method_figures.py",
+  "exporter_sha256": "653c73585d9f682ff04b504be850eb24a5dfcae919f726b8727d74a1d9d8c673",
+  "generated_utc": "2026-11-18T01:25:07.180131+00:00",
+  "font_files_sha256": {
+    "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+    "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+    "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+    "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+    "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+    "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+  },
+  "diagram_vertices": 129,
+  "diagram_edges": 12,
+  "mathjax_errors": 0,
+  "expected_formulas": 0,
+  "rendered_formulas": 0,
+  "pdf_size_pt": [
+    437.5933532714844,
+    603.0121459960938
+  ],
+  "text_width_limit_cm": 15.6,
+  "applied_pdf_scale": 1.056988810011798,
+  "native_content_clip_pt": [
+    1.0,
+    2.0,
+    415.0,
+    572.5
+  ],
+  "native_primary_text_bp": 9.93388,
+  "target_primary_text_bp": 10.5,
+  "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "allocation23-completion-physical-condition-v1",
+  "metadata": {
+    "chapter": 3,
+    "domain": "radio",
+    "condition_id": "chapter5-budget-radio-0.8",
+    "family": "initial_budget_only",
+    "level": "0.8"
+  },
+  "physical_config": {
+    "groups": 100,
+    "rounds": 32,
+    "source_packets": 24,
+    "payload_bytes": 512,
+    "crc_bits": 32,
+    "packet_slot_s": 0.001,
+    "frame_s": 0.128,
+    "control_and_guard_reserve_s": 0.028,
+    "reference_power_W": 0.001,
+    "quota_power_per_terminal_W": 0.00015,
+    "maximum_power_W": 0.002,
+    "reference_mean_snr_min_dB": 6.0,
+    "reference_mean_snr_max_dB": 18.0,
+    "channel_rho": 0.8,
+    "csi_complex_error_variance": 0.0625,
+    "deployment_seed": 2026102904,
+    "global_stay_probability": 0.8,
+    "weak_noise_multiplier": 1.0,
+    "strong_noise_multiplier": 16.0,
+    "global_seed_salt": 2026102915,
+    "period_quota_override_J": null,
+    "episode_budget_override_J": 0.000384,
+    "energy_tolerance_J": 1e-15,
+    "power_tolerance_W": 1e-12
+  },
+  "invariants": {
+    "adapter_schema": "chapter5-budget-condition-adapter-v1",
+    "scale": 0.8,
+    "baseline_physical_sha256": "57419787925f28cb6f8fdb880760cab9eee0f364d85251f24267e7587f292658",
+    "changed_fields": [
+      "episode_budget_override_J"
+    ],
+    "initial_budget_in_action_units": 0.384,
+    "baseline_initial_budget_in_action_units": 0.48,
+    "groups": 100,
+    "horizon": 32,
+    "demands_and_physics_unchanged": true,
+    "per_object_caps_unchanged": true,
+    "nominal_period_resource_unchanged": true,
+    "source_native_manifest_sha256": "7b9d4745ee53ffc57ea9de75cb659ab315d343722d06d9f6b6ecadf426350c2c"
+  }
+}

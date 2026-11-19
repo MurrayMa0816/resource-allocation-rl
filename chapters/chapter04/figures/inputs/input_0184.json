@@ -1,0 +1,152 @@
+{
+  "schema": "thesis-flat-render-support-v1",
+  "purpose": "短路径保存原绘图链文件；virtual为原fs内路径，仅在复绘临时工作区恢复。",
+  "restore_helper": "scripts/restore_render_support.py",
+  "restore_helper_sha256": "4577fb4dc07bac98615aab9560245441603618f57edfbe60ee6661c074f839cf",
+  "files": [
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_46_clarity_20261109_135630/assets/figure4-7/figure.png",
+      "stored": "files/f0001_figure.png",
+      "bytes": 160334,
+      "sha256": "9348a4491b54016b57e745f1b455eb3f98e6ec1d5b25a9a5e1ee05f8cebe93d6"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure47/plot.py",
+      "stored": "files/f0002_plot.py",
+      "bytes": 215,
+      "sha256": "75ad7b42831ad01c59168b9339c73bea1aaa789b3a69c2a35588e45abc171e38"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "stored": "files/f0003_baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/execution/print_manifest_ch45.json",
+      "stored": "files/f0004_print_manifest_ch45.json",
+      "bytes": 122366,
+      "sha256": "c23f1d9d7b4513828e144f3738ee764001f44007efc9fd99b4bff4b1cf84e632"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/manifest.json",
+      "stored": "files/f0005_manifest.json",
+      "bytes": 122365,
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/data.csv",
+      "stored": "files/f0006_data.csv",
+      "bytes": 24254,
+      "sha256": "9be1228019b9c87fb817e08935638382b822ea60e29d70b3c8a225ac2ccaf75d"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/figure.pdf",
+      "stored": "files/f0007_figure.pdf",
+      "bytes": 37198,
+      "sha256": "9d9e47715b62aed390635af892f5ee84483d283f4b8ebf4c594169cd3a423d72"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/figure.png",
+      "stored": "files/f0008_figure.png",
+      "bytes": 169038,
+      "sha256": "72b53d6cc9f81b3032bdb0597564a0b47056b887d674c0ae03ab4d21fe7b127f"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/figure_config.json",
+      "stored": "files/f0009_figure_config.json",
+      "bytes": 624,
+      "sha256": "bac7f9f2471f3d638ea3ce8223d15814fe9a4a6755396e5ce94efb02b62e87d2"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/inputs/data.csv",
+      "stored": "files/f0010_data.csv",
+      "bytes": 24254,
+      "sha256": "9be1228019b9c87fb817e08935638382b822ea60e29d70b3c8a225ac2ccaf75d"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/inputs/figure_config.json",
+      "stored": "files/f0011_figure_config.json",
+      "bytes": 624,
+      "sha256": "bac7f9f2471f3d638ea3ce8223d15814fe9a4a6755396e5ce94efb02b62e87d2"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/inputs/plot.py",
+      "stored": "files/f0012_plot.py",
+      "bytes": 8406,
+      "sha256": "3c2b1c83524ac84a853e1877df52ad858b1123d6a1dccf58e9fa74ea999084fe"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/inputs/plotted_points.csv",
+      "stored": "files/f0013_plotted_points.csv",
+      "bytes": 3375,
+      "sha256": "adc32f27f6a9ea5ec984d4a1e181f990de01050dfbb5a1fc0017f6c9b2019367"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/inputs/provenance/parent_plot.py",
+      "stored": "files/f0014_parent_plot.py",
+      "bytes": 8227,
+      "sha256": "941add52b5a57abbd04df7a5c91a24df6c50236c7f97d57d317a7af1033c2942"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/inputs/provenance/unused_parent_presentation_style.py",
+      "stored": "files/f0015_unused_parent_presentation_style.py",
+      "bytes": 5412,
+      "sha256": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/inputs/replot.py",
+      "stored": "files/f0016_replot.py",
+      "bytes": 53,
+      "sha256": "8f3e2d1e04209ac88b981b3ad0ae50cc2d34bfb6723d96b88ace1ea7835150f5"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/plot.py",
+      "stored": "files/f0017_plot.py",
+      "bytes": 260,
+      "sha256": "bb77bcdca177ea7efefaf3e1aeb5785c668e4c611b324c1b71883f1429d86d05"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/plotted_points.csv",
+      "stored": "files/f0018_plotted_points.csv",
+      "bytes": 3375,
+      "sha256": "adc32f27f6a9ea5ec984d4a1e181f990de01050dfbb5a1fc0017f6c9b2019367"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/print_presentation_proof.json",
+      "stored": "files/f0019_print_presentation_proof.json",
+      "bytes": 8125,
+      "sha256": "3eb47d63d3413a660c781986e3f41f9d43991e85cade1b58b1e7709fc28dd60c"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/source.json",
+      "stored": "files/f0020_source.json",
+      "bytes": 3376,
+      "sha256": "2480018956c6a5abc3802f2deb480d117ce2787119d67fc2d6542dfaf4056e43"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/assets/figure4-7/spec.json",
+      "stored": "files/f0021_spec.json",
+      "bytes": 8397,
+      "sha256": "a9502a7306219cc92639a756f3d62f3dec542bd3fae365940e9125dd7bf546ed"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/manifest.json",
+      "stored": "files/f0022_manifest.json",
+      "bytes": 122365,
+      "sha256": "157197b97e7159b7ed492ac9bb682a600fe7555ee740afb14348ed1d1cfbbb23"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+      "stored": "files/f0023_render_print_figures.py",
+      "bytes": 12682,
+      "sha256": "b48d560e1c9c922cea85dad27b154d1e29dcf56717ad4b262f17ca789ce1fb57"
+    },
+    {
+      "virtual": "root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+      "stored": "files/f0024_plot_chapter45.py",
+      "bytes": 22348,
+      "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4"
+    }
+  ]
+}

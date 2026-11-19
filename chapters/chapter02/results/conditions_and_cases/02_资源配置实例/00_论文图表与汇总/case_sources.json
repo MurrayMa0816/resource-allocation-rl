@@ -1,0 +1,20 @@
+{
+  "radio": {
+    "path": "/hy-tmp/resource_allocation_results/chapter2/random_head_formal_20261106/evaluation/jobs/c2_randomhead__radio__A_FULL__default__seed0__ep4688__endpoint/evaluation_4688_sample_traces.npz",
+    "sha256": "3f28b28ab74db00b1f4a3378c2171a47bf75483adfd717ec8886d8808ac2a32e",
+    "endpoint_id": "c2_randomhead__radio__A_FULL__default__seed0__ep4688__endpoint",
+    "training_seed": 0,
+    "test_path_index": 0,
+    "period_one_based": 16,
+    "model_sha256": "61aeffe6a820d2a93ca78bee325d353c102dfae5d3e127b039b5a70cfc866219"
+  },
+  "v5": {
+    "path": "/hy-tmp/resource_allocation_results/chapter2/random_head_formal_20261106/evaluation/jobs/c2_randomhead__v5__A_FULL__default__seed0__ep6256__endpoint/evaluation_6256_sample_traces.npz",
+    "sha256": "d2a20c7d820d276759c82ff47e4b98d9c8bf7720079f652c2120a73e876473d0",
+    "endpoint_id": "c2_randomhead__v5__A_FULL__default__seed0__ep6256__endpoint",
+    "training_seed": 0,
+    "test_path_index": 0,
+    "period_one_based": 12,
+    "model_sha256": "1cee36ed04e37abbb4433a856c27b45ab08445021a2dcdae00598e979b4f5932"
+  }
+}

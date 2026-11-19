@@ -1,0 +1,27 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "f3123246151dc9c38a871f84030170e0ad1c0775d0e10704db123f40bf0aeeff",
+  "scientific_after_sha256": "f3123246151dc9c38a871f84030170e0ad1c0775d0e10704db123f40bf0aeeff",
+  "labels": [
+    {
+      "before": "信道模平方",
+      "after": "信道系数模的平方",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        15.526884204922126,
+        17.849737532808398,
+        116.99999999999999,
+        14.65625
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

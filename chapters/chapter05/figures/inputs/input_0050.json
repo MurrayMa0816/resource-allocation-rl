@@ -1,0 +1,60 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "5c23b3b8b4074778120154868efb0ae86c3f12fa553c04e4f4d2248b783deeda",
+  "scientific_after_sha256": "5c23b3b8b4074778120154868efb0ae86c3f12fa553c04e4f4d2248b783deeda",
+  "labels": [
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        194.17913385826773,
+        1069.7135205807022,
+        345.5,
+        27.1875
+      ]
+    },
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        800.4783464566931,
+        1069.7135205807022,
+        345.5,
+        27.1875
+      ]
+    },
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        194.17913385826773,
+        215.5773249348318,
+        345.5,
+        27.1875
+      ]
+    },
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        800.4783464566931,
+        215.5773249348318,
+        345.5,
+        27.1875
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

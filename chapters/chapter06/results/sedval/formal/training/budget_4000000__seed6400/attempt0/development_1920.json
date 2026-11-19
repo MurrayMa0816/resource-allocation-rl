@@ -1,0 +1,48 @@
+{
+  "episode": 1920,
+  "paths": 32,
+  "means": {
+    "C": 0.9592696629213484,
+    "JA": 0.9229059619918513,
+    "J": 0.926263150282183,
+    "joint_score": 0.9301787021777508,
+    "area_weighted_performance": 0.9229059619918513,
+    "area_coverage_rate": 0.9124861309240767,
+    "water_used_m3": 4000000.0,
+    "remaining_budget_m3": 0.0,
+    "performance_min": 0.9029284393404082,
+    "performance_p10": 0.9173654012619682
+  },
+  "learner_unchanged": true,
+  "model_selection": false,
+  "counts": {
+    "train": {
+      "episodes": 1920,
+      "physical_steps": 155520
+    },
+    "development": {
+      "episodes": 512,
+      "physical_steps": 41472
+    }
+  },
+  "development_execution": {
+    "operator": "fixed64_antithetic_mean_feasible_actions",
+    "training": false,
+    "point_count": 64,
+    "positive_points": 32,
+    "antithetic": true,
+    "seed": 2026110964,
+    "event_dim": 49,
+    "point_generation": "torch.randn CPU float64 using isolated generator; positive thennegative",
+    "points_array_sha256": "9b59078bcb00785b7febcfe2b78d35fd1bd227c0ec7a85af45ef25b1b6a6a500",
+    "source_sha256": "98e101735afd12446aa6c107a84766e363a51c171074ae3e50b858db97eaf528",
+    "averaging": "native feasible physical action vectors before one physical transition",
+    "meaning": "Finite-point conditional physical-action mean; not original latentmean or exact stochastic expectedreturn"
+  },
+  "execution_work": {
+    "parameter_evaluations": 41472,
+    "feasible_vectors": 2654208,
+    "batch_calls": 5184,
+    "max_mass_error": 5.820766091346741e-11
+  }
+}

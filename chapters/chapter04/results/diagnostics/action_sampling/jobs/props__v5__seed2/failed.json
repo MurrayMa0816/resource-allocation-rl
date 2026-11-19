@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "training_steps": 0,
+  "completed_rounds": [],
+  "stored_completed_trajectories": 0,
+  "evaluation_steps": 768,
+  "physical_call_ledger": {
+    "actual_physical_steps": 768,
+    "actual_complete_episodes": 32
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/hy-tmp/resource_allocation_results/chapter04/experiments/action_sampling_diagnostic_20261109/source/evaluate_endpoint.py\", line 294, in main\n    raise AssertionError('Mean execution did not reproduce original DEV32 cases')\nAssertionError: Mean execution did not reproduce original DEV32 cases\n",
+  "elapsed_seconds": 4.7940192222595215
+}

@@ -1,0 +1,216 @@
+{
+  "schema": "props-fixed-science-independent-acceptance-index-v1",
+  "status": "ALL_FIVE_SCIENTIFIC_RUNS_ACCEPTED",
+  "accepted_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "pending": [],
+  "receipts": [
+    {
+      "seed": 0,
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed0/accepted_completion.json",
+      "sha256": "6d2583add76b3249fbc1605dae2472603cdc7578cea20693d083fc16af533188"
+    },
+    {
+      "seed": 1,
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed1/accepted_completion.json",
+      "sha256": "b4d8e602ecea3ba912e99730e2263eee6b3fe1cc75258dd2b820b59acd19af59"
+    },
+    {
+      "seed": 2,
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed2/accepted_completion.json",
+      "sha256": "880503570a2b01c79a03a06f664be44cf6d6dc6969f62eccd7af37ec319a4c29"
+    },
+    {
+      "seed": 3,
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed3/accepted_completion.json",
+      "sha256": "d1705e5c5f2f817b5c0f7496f797c2b75a0900d620b3ade51343fd67a856b506"
+    },
+    {
+      "seed": 4,
+      "path": "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/audit/postprocess_acceptance/seed4/accepted_completion.json",
+      "sha256": "2b5678946ae292595bbb9392058079f94fb8e880b77a390a198dd1e153307586"
+    }
+  ],
+  "original_controller_status": {
+    "status": "failed",
+    "elapsed_seconds": 5318.064131826162,
+    "workers": [
+      {
+        "seed": 0,
+        "pid": 1423253,
+        "returncode": 1,
+        "phase": "failed",
+        "training_steps": 100608,
+        "completed_nodes": 132,
+        "physical_counts": {
+          "train": {
+            "attempted_physical_steps": 100608,
+            "successful_physical_steps": 100608,
+            "completed_physical_episodes": 4192,
+            "guarded_complete_episodes": 4192
+          },
+          "mean": {
+            "attempted_physical_steps": 101376,
+            "successful_physical_steps": 101376,
+            "completed_physical_episodes": 4224,
+            "guarded_complete_episodes": 4224
+          },
+          "stochastic": {
+            "attempted_physical_steps": 811008,
+            "successful_physical_steps": 811008,
+            "completed_physical_episodes": 33792,
+            "guarded_complete_episodes": 33792
+          }
+        },
+        "worker_elapsed_seconds": 4486.441248729825
+      },
+      {
+        "seed": 1,
+        "pid": 1423254,
+        "returncode": 1,
+        "phase": "failed",
+        "training_steps": 100608,
+        "completed_nodes": 132,
+        "physical_counts": {
+          "train": {
+            "attempted_physical_steps": 100608,
+            "successful_physical_steps": 100608,
+            "completed_physical_episodes": 4192,
+            "guarded_complete_episodes": 4192
+          },
+          "mean": {
+            "attempted_physical_steps": 101376,
+            "successful_physical_steps": 101376,
+            "completed_physical_episodes": 4224,
+            "guarded_complete_episodes": 4224
+          },
+          "stochastic": {
+            "attempted_physical_steps": 811008,
+            "successful_physical_steps": 811008,
+            "completed_physical_episodes": 33792,
+            "guarded_complete_episodes": 33792
+          }
+        },
+        "worker_elapsed_seconds": 4522.9357489049435
+      },
+      {
+        "seed": 2,
+        "pid": 1423255,
+        "returncode": 1,
+        "phase": "failed",
+        "training_steps": 100608,
+        "completed_nodes": 132,
+        "physical_counts": {
+          "train": {
+            "attempted_physical_steps": 100608,
+            "successful_physical_steps": 100608,
+            "completed_physical_episodes": 4192,
+            "guarded_complete_episodes": 4192
+          },
+          "mean": {
+            "attempted_physical_steps": 101376,
+            "successful_physical_steps": 101376,
+            "completed_physical_episodes": 4224,
+            "guarded_complete_episodes": 4224
+          },
+          "stochastic": {
+            "attempted_physical_steps": 811008,
+            "successful_physical_steps": 811008,
+            "completed_physical_episodes": 33792,
+            "guarded_complete_episodes": 33792
+          }
+        },
+        "worker_elapsed_seconds": 5315.8620103523135
+      },
+      {
+        "seed": 3,
+        "pid": 1423256,
+        "returncode": 1,
+        "phase": "failed",
+        "training_steps": 100608,
+        "completed_nodes": 132,
+        "physical_counts": {
+          "train": {
+            "attempted_physical_steps": 100608,
+            "successful_physical_steps": 100608,
+            "completed_physical_episodes": 4192,
+            "guarded_complete_episodes": 4192
+          },
+          "mean": {
+            "attempted_physical_steps": 101376,
+            "successful_physical_steps": 101376,
+            "completed_physical_episodes": 4224,
+            "guarded_complete_episodes": 4224
+          },
+          "stochastic": {
+            "attempted_physical_steps": 811008,
+            "successful_physical_steps": 811008,
+            "completed_physical_episodes": 33792,
+            "guarded_complete_episodes": 33792
+          }
+        },
+        "worker_elapsed_seconds": 4474.402232483029
+      },
+      {
+        "seed": 4,
+        "pid": 1423257,
+        "returncode": 1,
+        "phase": "failed",
+        "training_steps": 100608,
+        "completed_nodes": 132,
+        "physical_counts": {
+          "train": {
+            "attempted_physical_steps": 100608,
+            "successful_physical_steps": 100608,
+            "completed_physical_episodes": 4192,
+            "guarded_complete_episodes": 4192
+          },
+          "mean": {
+            "attempted_physical_steps": 101376,
+            "successful_physical_steps": 101376,
+            "completed_physical_episodes": 4224,
+            "guarded_complete_episodes": 4224
+          },
+          "stochastic": {
+            "attempted_physical_steps": 811008,
+            "successful_physical_steps": 811008,
+            "completed_physical_episodes": 33792,
+            "guarded_complete_episodes": 33792
+          }
+        },
+        "worker_elapsed_seconds": 4534.602553203702
+      }
+    ],
+    "completed": 0,
+    "failed": 5,
+    "running": 0
+  },
+  "original_controller_status_unchanged": true,
+  "original_failed_records_retained": true,
+  "added_environment_steps": 0,
+  "added_model_deserializations": 0,
+  "scientific_retries": 0,
+  "postrun_source_registry_failures": 5,
+  "protected_original_source_check": {
+    "status": "PASS",
+    "worker_sha256": "7a01c742960c2624c540e0673acf029c94c800dbb982bd4521a0d06267aec899",
+    "plan_sha256": "5f5965769674e6788005aba34cc3e493d633417cdb2227f57e3f132dbcc26afd",
+    "controller_sha256": "849bc398aa401a4b8aa715853dc4dbe00ca00aa671323c694d16543e336fae17",
+    "protected_original_files": 192,
+    "protected_original_roles": {
+      "original_scientific_source": 161,
+      "original_execution_source": 3,
+      "original_formal_evidence": 25,
+      "current_models_or_original_curves": 3
+    },
+    "protection_manifest_sha256": "97fa3a46c0759486a67049ac225a4b1cb95f8df59ac365f0a0a74f1528605337"
+  },
+  "acceptor_source_sha256": "6d64696d53739fee306638c4efd4bb55a2e1cbea5f8c6c255eafdd4df59c3293",
+  "aggregate_source_sha256": "3ae0bf0d15fdcc96f4ebef750912ba2ee4acff9b8bf15215be37f966ed29b581",
+  "elapsed_seconds": 1.732135996222496
+}

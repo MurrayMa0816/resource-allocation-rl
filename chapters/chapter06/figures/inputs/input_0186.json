@@ -1,0 +1,621 @@
+{
+  "schema": "c6-user-narrowed-figure65-v1",
+  "status": "PASS_REQUIRES_VISUAL_REVIEW",
+  "figure": "6.5",
+  "native_mm": [
+    104.4,
+    154.78332460191515
+  ],
+  "axes_sizes_mm": [
+    [
+      79.2,
+      52.8
+    ],
+    [
+      79.2,
+      52.80000000000001
+    ]
+  ],
+  "native_fonts_bp": 10.5,
+  "scientific_artists_exact_current_parent": true,
+  "parent_numeric_record_sha256": "5c3da536aa9c70ea9c5b43cdb3ae5f4641a5c53a63e44f2eb602fa5b7e754f7c",
+  "new_data_or_annotation_exceptions": [],
+  "retained_display_attributes": "6.3 last8/19 right alignment;6.8 first未调整 offset(0,-9)bp",
+  "authorized_geometry_changes": [
+    {
+      "role": "temporary_native_canvas",
+      "after_mm": [
+        104.4,
+        200.0
+      ]
+    },
+    {
+      "role": "restore_clear_axes",
+      "before_fraction": [
+        0.10897435897435898,
+        0.2716049382716049,
+        0.3794871794871795,
+        0.6296296296296297
+      ],
+      "after_fraction": [
+        0.22068965517241376,
+        0.46296540828545873,
+        0.7586206896551724,
+        0.264
+      ]
+    },
+    {
+      "role": "restore_clear_axes",
+      "before_fraction": [
+        0.6025641025641025,
+        0.2716049382716049,
+        0.3794871794871795,
+        0.6296296296296297
+      ],
+      "after_fraction": [
+        0.22068965517241376,
+        0.09767276679144965,
+        0.7586206896551724,
+        0.264
+      ]
+    }
+  ],
+  "layout_only_in_memory_substitutions": [
+    {
+      "before": "move_axes([0],8-f['upper_axis_including_ticks_to_legend_bp'])",
+      "after": "move_axes([0],15-f['upper_axis_including_ticks_to_legend_bp'])"
+    },
+    {
+      "before": "move_legend(len(fig.legends)-1,8-f['xlabel_to_legend_bp'])",
+      "after": "move_legend(len(fig.legends)-1,15-f['xlabel_to_legend_bp'])"
+    },
+    {
+      "before": "abs(final['xlabel_to_legend_bp']-8)",
+      "after": "abs(final['xlabel_to_legend_bp']-15)"
+    },
+    {
+      "before": "abs(final['upper_axis_including_ticks_to_legend_bp']-8)",
+      "after": "abs(final['upper_axis_including_ticks_to_legend_bp']-15)"
+    }
+  ],
+  "unchanged_local_spacing_source_sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+  "entry_sha256": "6d4ee968712e0c0edec8b7ef4f66d8b135e5276163806c6488f61d82a5ff7d3f",
+  "CSV_sha256": {
+    "learning_all3_seed_DEV.csv": "684ee59e1ab6dda19ebd642109f5b123beedba4f7d45996f20baa7459b479ee7",
+    "learning_mean_sample_SD.csv": "3e195d5266c49ce23b9691a65c76fc169adf101a8c85d5ba1ca1075004c4647c",
+    "all7488_DEV_cases.csv": "f6c068711237324946501ef9a3866e910fd4db0b2dca86a655219899d8687944"
+  },
+  "geometry": {
+    "schema": "chapter6-measured-content-spacing-v1",
+    "status": "PASS",
+    "number": "6.5",
+    "native_mm": [
+      104.4,
+      154.78332460191515
+    ],
+    "axes_sizes_mm": [
+      [
+        79.2,
+        52.8
+      ],
+      [
+        79.2,
+        52.80000000000001
+      ]
+    ],
+    "axes_positions_mm": [
+      [
+        23.04,
+        95.06254051261475,
+        79.2,
+        52.8
+      ],
+      [
+        23.04,
+        22.004012213812935,
+        79.2,
+        52.80000000000001
+      ]
+    ],
+    "ordinary_font_bp": 10.5,
+    "measurement_basis": "native PDF text frames; upper unlabeled axes use spine plus declared tick length, not pixel ink",
+    "pdf_frames_before": {
+      "native_mm": [
+        104.4000013563368,
+        200.0000015258789
+      ],
+      "xlabel_to_legend_bp": 7.9190673828125,
+      "bottom_content_margin_mm": 2.028536817762587,
+      "top_content_margin_mm": 49.186134253607854,
+      "upper_axis_including_ticks_to_lower_title_bp": null,
+      "upper_axis_including_ticks_to_legend_bp": null,
+      "upper_legend_to_lower_title_bp": null,
+      "xlabel_frames_bp": [
+        [
+          136.2731475830078,
+          322.8758239746094,
+          218.8427276611328,
+          334.52032470703125
+        ],
+        [
+          136.2731475830078,
+          529.9708251953125,
+          218.8427276611328,
+          541.6153564453125
+        ]
+      ],
+      "legend_frames_bp": [
+        [
+          [
+            76.72943878173828,
+            549.534423828125,
+            108.81619262695312,
+            561.178955078125
+          ],
+          [
+            146.1138153076172,
+            549.534423828125,
+            177.5860595703125,
+            561.178955078125
+          ],
+          [
+            214.77943420410156,
+            549.534423828125,
+            243.3604278564453,
+            561.178955078125
+          ]
+        ]
+      ],
+      "title_frames_bp": [
+        [
+          123.17157745361328,
+          139.42526245117188,
+          231.95013427734375,
+          151.06976318359375
+        ],
+        [
+          107.12470245361328,
+          346.5202941894531,
+          247.99285888671875,
+          358.164794921875
+        ]
+      ]
+    },
+    "pdf_frames_after": {
+      "native_mm": [
+        104.4000013563368,
+        154.78332782321505
+      ],
+      "xlabel_to_legend_bp": 15.000030517578125,
+      "bottom_content_margin_mm": 1.9999963548448347,
+      "top_content_margin_mm": 1.5000043312708538,
+      "upper_axis_including_ticks_to_lower_title_bp": null,
+      "upper_axis_including_ticks_to_legend_bp": null,
+      "upper_legend_to_lower_title_bp": null,
+      "xlabel_frames_bp": [
+        [
+          136.2731475830078,
+          187.70252990722656,
+          218.8427276611328,
+          199.34703063964844
+        ],
+        [
+          136.2731475830078,
+          394.7975769042969,
+          218.8427276611328,
+          406.44207763671875
+        ]
+      ],
+      "legend_frames_bp": [
+        [
+          [
+            76.72943878173828,
+            421.4421081542969,
+            108.81619262695312,
+            433.08660888671875
+          ],
+          [
+            146.1138153076172,
+            421.4421081542969,
+            177.5860595703125,
+            433.08660888671875
+          ],
+          [
+            214.77943420410156,
+            421.4421081542969,
+            243.3604278564453,
+            433.08660888671875
+          ]
+        ]
+      ],
+      "title_frames_bp": [
+        [
+          123.17157745361328,
+          4.251980781555176,
+          231.95013427734375,
+          15.896480560302734
+        ],
+        [
+          107.12470245361328,
+          211.34703063964844,
+          247.99285888671875,
+          222.9915313720703
+        ]
+      ]
+    },
+    "legend_count": 1,
+    "xlabel_to_legend_bp": 15.000030517578125,
+    "legend_to_file_bottom_mm": 1.9999963548448347,
+    "bottom_content_margin_mm": 1.9999963548448347,
+    "top_content_margin_mm": 1.5000043312708538,
+    "upper_axis_including_ticks_to_lower_title_bp": null,
+    "upper_axis_including_ticks_to_legend_bp": null,
+    "upper_legend_to_lower_title_bp": null,
+    "all_text_inside_canvas": true,
+    "all_scientific_artist_values_and_line_styles_exact": true,
+    "numeric_before_sha256": "da946e80cb78b78a64772104b17a964172146284a6131fe531a7cff425f05d14",
+    "numeric_after_sha256": "da946e80cb78b78a64772104b17a964172146284a6131fe531a7cff425f05d14",
+    "texts": [
+      {
+        "text": "训练步数（×10³）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          136.34220472440947,
+          240.32111877591586,
+          82.44,
+          9.7875
+        ]
+      },
+      {
+        "text": "0",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          62.70023622047243,
+          254.10861877591586,
+          5.22,
+          9.36
+        ]
+      },
+      {
+        "text": "50",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          103.37482283464567,
+          254.10861877591586,
+          10.485,
+          9.36
+        ]
+      },
+      {
+        "text": "100",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          144.07190944881893,
+          254.10861877591586,
+          15.705,
+          9.36
+        ]
+      },
+      {
+        "text": "150",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          187.35649606299216,
+          254.10861877591586,
+          15.75,
+          9.36
+        ]
+      },
+      {
+        "text": "200",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          230.7085826771654,
+          254.10861877591586,
+          15.66,
+          9.36
+        ]
+      },
+      {
+        "text": "250",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          273.99316929133863,
+          254.10861877591586,
+          15.705,
+          9.36
+        ]
+      },
+      {
+        "text": "灌溉区域产量达标率\n（%）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          18.972736220472438,
+          297.1207644452072,
+          20.632500000000004,
+          94.365
+        ]
+      },
+      {
+        "text": "0",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          54.09023622047244,
+          263.70861877591585,
+          5.22,
+          9.36
+        ]
+      },
+      {
+        "text": "20",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.87023622047244,
+          293.64247704363237,
+          10.44,
+          9.36
+        ]
+      },
+      {
+        "text": "40",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.82523622047244,
+          323.57633531134894,
+          10.485,
+          9.36
+        ]
+      },
+      {
+        "text": "60",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.87023622047244,
+          353.51019357906546,
+          10.44,
+          9.36
+        ]
+      },
+      {
+        "text": "80",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.87023622047244,
+          383.44405184678203,
+          10.44,
+          9.36
+        ]
+      },
+      {
+        "text": "100",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          43.60523622047244,
+          413.3779101144985,
+          15.705,
+          9.36
+        ]
+      },
+      {
+        "text": "(a) 灌溉区域产量达标率",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          123.24720472440947,
+          422.9666601144986,
+          108.63,
+          10.8675
+        ]
+      },
+      {
+        "text": "训练步数（×10³）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          136.34220472440947,
+          33.22607792891856,
+          82.44,
+          9.7875
+        ]
+      },
+      {
+        "text": "0",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          62.70023622047243,
+          47.013577928918565,
+          5.22,
+          9.36
+        ]
+      },
+      {
+        "text": "50",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          103.37482283464567,
+          47.013577928918565,
+          10.485,
+          9.36
+        ]
+      },
+      {
+        "text": "100",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          144.07190944881893,
+          47.013577928918565,
+          15.705,
+          9.36
+        ]
+      },
+      {
+        "text": "150",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          187.35649606299216,
+          47.013577928918565,
+          15.75,
+          9.36
+        ]
+      },
+      {
+        "text": "200",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          230.7085826771654,
+          47.013577928918565,
+          15.66,
+          9.36
+        ]
+      },
+      {
+        "text": "250",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          273.99316929133863,
+          47.013577928918565,
+          15.705,
+          9.36
+        ]
+      },
+      {
+        "text": "按面积加权的平均相对产量\n（%）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          18.978361220472433,
+          74.29822359820994,
+          20.626875000000005,
+          125.82
+        ]
+      },
+      {
+        "text": "0",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          54.09023622047244,
+          56.613577928918566,
+          5.22,
+          9.36
+        ]
+      },
+      {
+        "text": "20",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.87023622047244,
+          86.54743619663512,
+          10.44,
+          9.36
+        ]
+      },
+      {
+        "text": "40",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.82523622047244,
+          116.48129446435163,
+          10.485,
+          9.36
+        ]
+      },
+      {
+        "text": "60",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.87023622047244,
+          146.4151527320682,
+          10.44,
+          9.36
+        ]
+      },
+      {
+        "text": "80",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.87023622047244,
+          176.34901099978472,
+          10.44,
+          9.36
+        ]
+      },
+      {
+        "text": "100",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          43.60523622047244,
+          206.2828692675013,
+          15.705,
+          9.36
+        ]
+      },
+      {
+        "text": "(b) 按面积加权的平均相对产量",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          107.20470472440948,
+          215.8716192675013,
+          140.715,
+          10.805625
+        ]
+      },
+      {
+        "text": "SeDVal",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          76.7335039370079,
+          5.588399571696607,
+          32.040000000000006,
+          9.36
+        ]
+      },
+      {
+        "text": "PASTA",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          146.0485039370079,
+          5.588399571696607,
+          31.455,
+          9.36
+        ]
+      },
+      {
+        "text": "COLA",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          214.7785039370079,
+          5.588399571696607,
+          28.575,
+          9.36
+        ]
+      }
+    ],
+    "exceptions": [],
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0
+  },
+  "complete_visible_content": {
+    "measurement": "union of actual PDF text span/character frames and drawn path bounds, including legend handles/strokes; full-page white background excluded",
+    "bounds_bp": [
+      16.642738342285156,
+      4.251980781555176,
+      292.94257813692093,
+      433.08660888671875
+    ],
+    "top_white_bp": 4.251980781555176,
+    "bottom_white_bp": 5.669281005859375,
+    "last_complete_legend_or_xlabel_y_bp": 433.08660888671875,
+    "PDF_page_height_bp": 438.7558898925781
+  },
+  "output_sha256": {
+    "narrow15.pdf": "6ffe2900f899f1ff36e5e4f425dc2226cf1815458cc1a36bb5e84ddba5203246",
+    "narrow15.svg": "985737410553e6fd2899aec31571113b582afc31d19c62dcdf292e4542557a6c",
+    "narrow15.png": "e5db8ea1ab8ed920f8c4cfff1c4cb98d70c53d4cfcec3eaeb2d5db79f9c1da3a"
+  },
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0,
+    "new_TEST": 0
+  }
+}

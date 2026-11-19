@@ -1,0 +1,55 @@
+{
+  "directory": "chapters/chapter03_intertemporal/figures/figure03-04_各方法在固定开发情景上的评价曲线",
+  "physical_directory": true,
+  "symlink_count": 0,
+  "figure_pdf_sha256": "b3a71ffcf48d6f5a4b0c3bebff3e6c32245e8f0e68b829ed706d154bc8f00740",
+  "all_original_pdfs_data_drawio_bytes_preserved": false,
+  "preserved_files": {
+    "figure.pdf": false,
+    "display_aggregates.csv.gz": true,
+    "data.csv.gz": true,
+    "inputs/data.csv.gz": true,
+    "inputs/display_aggregates.csv.gz": true
+  },
+  "current_entrypoint": "plot.py",
+  "local_renderer": "replot_sources/renderer.py",
+  "data_manifest": "local_inputs_sha256.json",
+  "shared_font_directory": "assets/fonts/windows (located by walking up from this figure)",
+  "runtime_project_dependencies": "only this figure directory and thesis assets/fonts/windows",
+  "script_files": {
+    "inputs/plot.py": "be2f3c3afc8dc59810ddde7675f95fb48679a9d2a14940ccdae6856c71876448",
+    "inputs/plot_parent.py": "9a6d861603cd960b1421a29859349c40a39208a0038d94fa638e01cbbbe4ef23",
+    "inputs/plot_scientific_parent.py": "2a6f76a509b8ffae56053c98f612e7b6a95701541b78803a4b8b62fd1a0d602c",
+    "inputs/plot_source.py": "69b69609d069ced43acebd5ba5e20baa7ee8c63fcede21da7059eb9a13ff1b3e",
+    "plot.py": "2c536f5308e0738c6dfc4903e7c6ab9c755aac02582e0bf0a5389028c36088cd",
+    "replot_sources/main_learning.py": "d28d7889d45e44aed67af95bb2e251c610492e950486f588d43b9959a408aceb",
+    "replot_sources/native_inputs/plot_parent.py": "daa69dc7487be45b4969ea4cdf03f541afc5256f197b56d2037c03ef1d920ee7",
+    "replot_sources/native_inputs/plot_scientific_parent.py": "e7575e4b6f54b4c899980d94033c5097a4b88c33b11e50aa85b4c1944dc0cbcc",
+    "replot_sources/native_inputs/plot_source.py": "278f4a415ede9fa6e1590b13b410ed85bb30fc52b02df2cd508b7e6582a2bd72",
+    "replot_sources/native_inputs/presentation.py": "583ac9ce9468d106393d67634aa9ada60994a212b03747e6708c50b321e50008",
+    "replot_sources/parent/plot.py": "a39da08ea19de06420a676521ecff486e9656efef00f4a3e8490ebd4b8598c7b",
+    "replot_sources/renderer.py": "99e0ccd37b059a569cb7bd16c0de56151b8d9fe15a118201514d3cbe65a1652a"
+  },
+  "science_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inferences": 0,
+    "training_runs": 0
+  },
+  "cleanup_reaudit": "docs/figure_cleanup_reaudit_20261110/c1c2c3_deletion_receipt.json",
+  "obsolete_previews_wrappers_and_duplicate_sources_removed": true,
+  "required_qualifier_revision_20261112": {
+    "scope": "Only the two horizontal-axis labels qualify training interaction steps",
+    "before": "训练步数（×10³）",
+    "after": "训练交互步数（×10³）",
+    "baseline_pdf_sha256": "63a0bb9237b5a4149980fa9d0dcbae86b195f6055a608c915b8d86eb56cb8933",
+    "renderer_sha256": "99e0ccd37b059a569cb7bd16c0de56151b8d9fe15a118201514d3cbe65a1652a",
+    "canvas_axes_text_baselines_legend_positions_preserved": true,
+    "all_data_and_scientific_artists_exact": true,
+    "original_xlabel_to_legend_ink_bp": 15.0,
+    "current_xlabel_to_legend_ink_bp": 14.900000000000006,
+    "ink_DPI": 720,
+    "layout_order": "Calibrate inherited original label first; replace xlabel text after geometry is fixed; no compensation or re-cropping",
+    "evidence": "/hy-tmp/resource_allocation_results/chapter3_required_qualifiers_five_rounds_20261112/figure_revision.json"
+  }
+}

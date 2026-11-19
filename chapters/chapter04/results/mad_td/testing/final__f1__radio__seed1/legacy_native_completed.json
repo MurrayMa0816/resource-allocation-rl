@@ -1,0 +1,63 @@
+{
+  "schema": "chapter4-double-random-F1-family-evaluation-only-v1",
+  "status": "completed",
+  "success": true,
+  "method": "f1",
+  "domain": "radio",
+  "seed": 1,
+  "phase": "final",
+  "paths": 256,
+  "path_master": 2026110694199,
+  "summary": {
+    "training_step": 100608,
+    "phase": "final",
+    "paths": 256,
+    "evaluation_environment_steps": 8192,
+    "native_mean": 0.48078784986492856,
+    "native_std": 0.10544918121930293,
+    "score_x100_mean": 48.078784986492856,
+    "minimum": 0.06345209934002685,
+    "maximum": 0.625106686489921
+  },
+  "training_steps": 0,
+  "evaluation_steps": 8192,
+  "model_loaded_from": "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/jobs/f1__radio__seed1/checkpoint_final.pt",
+  "checkpoint_sha256": "53348e16b2d6b75d2ff97ffa3189d4f9c5e61e44ec71217cc5ae759bc28608cf",
+  "deterministic": true,
+  "resource_audit_stream_sha256": "52e0b11b6521d75e450d942f0390603c470e12c22c20dbd75736e645eb48b981",
+  "elapsed_seconds": 61.87359669059515,
+  "data_digest_verification": {
+    "hits": 62,
+    "misses": 2,
+    "final_full_rereads": 2,
+    "records": {
+      "/hy-tmp/resource_allocation_results/chapter3/full_spend_revision_20261104/execution/source/allocation23/data/eurosat_rgb/split_manifest.json": {
+        "signature": [
+          66304,
+          106730542,
+          341975,
+          1793374931094393249,
+          1793761912241016680
+        ],
+        "sha256": "3da80902473649ff41d0b92110b03820827983434a45e11f5c1df3d4ac841731"
+      },
+      "/hy-tmp/resource_allocation_results/chapter3/two_seed_main_ablation_20261104/execution/shared_data/eurosat_rgb/images.npy": {
+        "signature": [
+          66304,
+          112561326,
+          331776128,
+          1793374930614390340,
+          1794027447133123837
+        ],
+        "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef"
+      }
+    },
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "6399332d84411f8505b3a37b3f52295ebcb6f54b913fdcdf1831b9bd1b9e3200",
+    "evaluation_paths.csv.gz": "01919ec820978c9027bd3de9e3219dff6045baeef4a717d2c7236c75cbd28eaf",
+    "protocol.json": "478803b4097158001a18cb54ca1c3398d80b740b84ad64cc4e4ec7aeeee588ff",
+    "resource_episodes.csv.gz": "f9f84cbeeecb50b1bb373189ae880ebae012267485e3db3f37469339f41bc3c8"
+  }
+}

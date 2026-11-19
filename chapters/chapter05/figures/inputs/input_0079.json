@@ -1,0 +1,116 @@
+{
+  "schema": "thesis-flat-render-support-v1",
+  "purpose": "短路径保存原绘图链文件；virtual为原fs内路径，仅在复绘临时工作区恢复。",
+  "restore_helper": "scripts/restore_render_support.py",
+  "restore_helper_sha256": "4577fb4dc07bac98615aab9560245441603618f57edfbe60ee6661c074f839cf",
+  "files": [
+    {
+      "virtual": "hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/assets/joint_endpoint/figure.png",
+      "stored": "files/f0001_figure.png",
+      "bytes": 81062,
+      "sha256": "4f0a27e2230712e101343eb0b30cf466ed1429a5b134bc9720997f9661e931b4"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/costs_by_seed.csv",
+      "stored": "files/f0002_costs_by_seed.csv",
+      "bytes": 14491,
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/data_manifest.json",
+      "stored": "files/f0003_data_manifest.json",
+      "bytes": 1844,
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/fixed_endpoints_by_seed.csv",
+      "stored": "files/f0004_fixed_endpoints_by_seed.csv",
+      "bytes": 22143,
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/learning_display.csv",
+      "stored": "files/f0005_learning_display.csv",
+      "bytes": 2758404,
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/learning_raw.csv",
+      "stored": "files/f0006_learning_raw.csv",
+      "bytes": 1877519,
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/experiment_sections_alignment_20261108_171303/chapter5/data/threshold_recounts_by_seed.csv",
+      "stored": "files/f0007_threshold_recounts_by_seed.csv",
+      "bytes": 26645,
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure55/plot.py",
+      "stored": "files/f0008_plot.py",
+      "bytes": 215,
+      "sha256": "b703088b12ace4e60a531157e12d5119f7942df06f5003a5855d132f06e93e04"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "stored": "files/f0009_baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/agents/figures_c45/render_metric_labels.py",
+      "stored": "files/f0010_render_metric_labels.py",
+      "bytes": 9571,
+      "sha256": "56e1123adb73cefbe7c9112b7b10ccf44266dbc03e0196db00148a12789903ee"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/agents/figures_c45/specifications.json",
+      "stored": "files/f0011_specifications.json",
+      "bytes": 6943,
+      "sha256": "3a88eee6483ffd20eb455665f91b841efa6d34607393c32cb3d4497c6e5869c0"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/figure.pdf",
+      "stored": "files/f0012_figure.pdf",
+      "bytes": 35091,
+      "sha256": "44158a64fe8638d39b52274fc2e660cfe836e8ae9434ae4132511103a5236ace"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/figure.png",
+      "stored": "files/f0013_figure.png",
+      "bytes": 81591,
+      "sha256": "bb222cabe6f14507160a76b3db47f681a04963c26cc3352138cf4fa993d3b10c"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/parent_presentation_proof.json",
+      "stored": "files/f0014_parent_presentation_proof.json",
+      "bytes": 44743,
+      "sha256": "1fa15fe07c95d38560514db8ef25eadc839221f9cb53fe01296cb96ecb234b04"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/parent_renderer.py",
+      "stored": "files/f0015_parent_renderer.py",
+      "bytes": 13693,
+      "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/plot.py",
+      "stored": "files/f0016_plot.py",
+      "bytes": 233,
+      "sha256": "4f35cc031ab82a09e02c1465ac1116a1a4149420e5edef5cf35a59c7a3083b0d"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_metric_chinese_unification_20261109_131953/assets/figure5-4/source.json",
+      "stored": "files/f0017_source.json",
+      "bytes": 2533,
+      "sha256": "59d80770a3a981c5f99d70a7ef0bf66561181c9a87836f729e1443cd0c6c97ae"
+    },
+    {
+      "virtual": "root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+      "stored": "files/f0018_plot_chapter45.py",
+      "bytes": 23316,
+      "sha256": "b95a47784d00cce0d29a85bcfef8facfd3a8e9cd29e2f788393c252455e57bd7"
+    }
+  ]
+}

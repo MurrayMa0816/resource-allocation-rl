@@ -1,0 +1,27 @@
+{
+  "schema": "chapter2-measured-content-spacing-v1",
+  "number": "2.7",
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter2/display120k_multitime_case_20261108_230003/assets/figure02-07_960回合资源条件与对象差异_默认随机输出头",
+  "parent_pdf_sha256": "f59a56c60c2bec3dc1f6628527c297f290fb3587fd854590c6e7e9039afacead",
+  "parent_source_sha256": "7aff3189836b65cf7db67b9397f0dc25d533b009d9428673c1d3c72a118cd98b",
+  "renderer": "/root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter2.py",
+  "renderer_sha256": "c9e4d7fa88e3bee648798bc4ece5b01b816472e702d32767c0ba1911794510b8",
+  "scientific_data_sha256": {
+    "data.csv": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91"
+  },
+  "all_scientific_data_style_exact": true,
+  "geometry_proof_sha256": "09a50da359fcc35e8ec56dcdaa29c25ca3d3e3af445374653ed3976b01b6ecba",
+  "native_mm": [
+    155.99999559190536,
+    121.04604602389865
+  ],
+  "outputs_sha256": {
+    "figure.pdf": "cb63667d01a5f881d0ba2c11fefa153f43e427a0df243d4f24455b0fd67c4d8d",
+    "figure.png": "5e1881321312c6763037e69b758b78313e332f1f014620d2232ea768375beb93",
+    "figure.svg": "f2cda4643d506ebd3b2ca6fadd2c25f7ba51e8f1ba9ec802166d9ad4e976e7f8"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

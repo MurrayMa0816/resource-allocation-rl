@@ -1,0 +1,76 @@
+{
+  "schema": "chapter5-formal-five-seed-completion-v1",
+  "status": "complete",
+  "utc": "2026-11-07T03:18:25.570514+00:00",
+  "root": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2",
+  "science_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "trained_models": 90,
+  "training_steps_per_model": 100608,
+  "development_interval": 512,
+  "development_paths": 32,
+  "development_points": 198,
+  "formal_evaluations": 210,
+  "evaluation_episodes": 53760,
+  "evaluation_physical_steps": 1505280,
+  "training_model_reuse": 0,
+  "automatic_more_seeds": false,
+  "independent_pdf": {
+    "path": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/reports/presentation_v3/第五章_正式五种子_主比较消融与条件分析.pdf",
+    "sha256": "bb530f40d8d3ce37e145b6591612a5bf84f45103e7fa94fee520bde839c42f2c"
+  },
+  "thesis_pdf": "/root/gamewar/latex_thesis_resource_allocation/build/main.pdf",
+  "immutable_thesis_pdf": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/presentation_repair_20261107/layout2_publication_20261107_111419/main.pdf",
+  "immutable_pdf_sha256": "53240fd69d1d48c4cfca1999dd72e716f85cf7c3725dadd2678fa301235f9aa1",
+  "evidence": {
+    "contract.json": "dc92009f55349840b002bcebc55f8a7e107d95f199562ae47df77485e4cc6f3a",
+    "plan.json": "0b5839433e748a9e6ec400a03f6f37fa06ffef4f7305d45d0b76539780acc6a6",
+    "execution/source_manifest.json": "2341958df1d3a73298d025741f634c3ec84fcc2f2900cd832a7310b6c07d6cf7",
+    "deployment/gate_pass.json": "e826ddc600430272538fce4c41526a928eccfe0c870adb9a4970d5f8d5287f37",
+    "model_registry.json": "3c12657664f6d5824180ed3ccf4f6faf91024b692f6716eeb6bf3fd512fc9ec7",
+    "training_audit.json": "43c0e500028c89d0995dc575d2f1751d5af41dc9435f778f3f42c9b444daa51d",
+    "fixed_evaluation_plan.json": "45631244b854bfa56ddc8cc1e1d6ff5081fe9f46d6a126da243420bae9d5e33c",
+    "final_evaluation_audit.json": "73445335fe97ff464ea4e2a7c6c27fbb013d9ea0aed9c8df02552f4e7fe33ead",
+    "report_bundle.json": "ebfaaa7876a3059c94ae3f6fc4e654f609d6566d2c785eafc888651bb8d0842e",
+    "reports/presentation_v3/publication_ready.json": "61dd9120a5bc0faedec6d85b7c1a4af50620355f17b7452f92d500156cdecd40",
+    "FINAL_THESIS_PUBLICATION.json": "d61da588b43a3a0b0be6af5d235b4d8bc859a99a9ea38e030672feaf1c82de5f",
+    "audit/remote_mirror_verification.json": "c68fcb07293ecc0cde4fcaf3ab2c68cdc2e9ebd644d85f824a9ddf8ac9edd59a"
+  },
+  "visual_review": "PASS_ACTUAL_REPORT_AND_UPDATED_THESIS_PAGES",
+  "publication_time_visual_review": "pending explicit inspection of this new layout PDF",
+  "final_visual_review": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/presentation_repair_20261107/final_visual_review.json",
+  "final_visual_review_sha256": "54b8c830fa1d93ae6386f3da6300e2d171918736343b806f960d70311421acae",
+  "selected_corrected_report": {
+    "schema": "chapter5-selected-presentation-only-revision-v1",
+    "status": "PASS_REPORT_VISUAL_AND_DATA_IDENTITY",
+    "report_directory": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/reports/presentation_v3",
+    "report_ready_sha256": "61dd9120a5bc0faedec6d85b7c1a4af50620355f17b7452f92d500156cdecd40",
+    "adapter": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/presentation_repair_20261107/report_presentation_adapter_v2.py",
+    "adapter_sha256": "e8089c04e38540e03bc2df8fe76fb1f6927f49e247ecda09b8dc7fa864e2c46e",
+    "visual_review": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/presentation_repair_20261107/actual_report_visual_review_v3.json",
+    "visual_review_sha256": "ddae34e2371f2d3dbd3b0433d2aa1d0b066884009d790ca4b84b0f8a7a1e6cc9",
+    "reason": "Correct unsupported table subscript display only; no model/seed/metric/data selection",
+    "failed_attempts_preserved": [
+      "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/reports/final",
+      "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/reports/presentation_v2"
+    ],
+    "science_csv_identical": true,
+    "new_environment_steps": 0,
+    "new_optimizer_steps": 0,
+    "utc": "2026-11-07T02:57:46.720546+00:00"
+  },
+  "presentation_path_adaptation": {
+    "status": "PASS_READY_PATH_ONLY_ADAPTATION",
+    "changed_constants": 2,
+    "original_finalizer_sha256": "2e320a3c07307c27f987736fd6489b20197fba7526a0ac43d781ef0965eb1d28",
+    "finalization_adapter_sha256": "bdae9baf75b431ad4ef61136ae191690d77508025bb2b8810b26270323ebc499",
+    "corrected_ready": "reports/presentation_v3/publication_ready.json",
+    "all_other_final_audit_syntax_identical": true,
+    "additional_environment_or_learning_steps": 0
+  }
+}

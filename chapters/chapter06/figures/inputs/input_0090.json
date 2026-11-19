@@ -1,0 +1,508 @@
+{
+  "schema": "c6-restored-template15-v1",
+  "status": "PASS_REQUIRES_VISUAL_REVIEW",
+  "figure": "6.3",
+  "native_mm": [
+    144.0,
+    99.03277621799047
+  ],
+  "axes_sizes_mm": [
+    [
+      118.8,
+      32.00000000000001
+    ],
+    [
+      118.8,
+      31.999999999999996
+    ]
+  ],
+  "native_fonts_bp": 10.5,
+  "scientific_artists_exact_current_parent": true,
+  "parent_numeric_record_sha256": "799fb7bbde705170666825fb4ed7cb2a071f354adb0dfba2cb79f0424f32c713",
+  "new_data_or_annotation_exceptions": [],
+  "retained_display_attributes": "6.3 last8/19 right alignment;6.8 first未调整 offset(0,-9)bp",
+  "authorized_geometry_changes": [
+    {
+      "role": "temporary_native_canvas",
+      "after_mm": [
+        144,
+        200.0
+      ]
+    },
+    {
+      "role": "restore_clear_axes",
+      "before_fraction": [
+        0.16,
+        0.5375,
+        0.825,
+        0.3125
+      ],
+      "after_fraction": [
+        0.16,
+        0.5375,
+        0.825,
+        0.16
+      ]
+    },
+    {
+      "role": "restore_clear_axes",
+      "before_fraction": [
+        0.16,
+        0.1625,
+        0.825,
+        0.25
+      ],
+      "after_fraction": [
+        0.16,
+        0.1625,
+        0.825,
+        0.16
+      ]
+    }
+  ],
+  "layout_only_in_memory_substitutions": [
+    {
+      "before": "move_axes([0],8-f['upper_axis_including_ticks_to_legend_bp'])",
+      "after": "move_axes([0],15-f['upper_axis_including_ticks_to_legend_bp'])"
+    },
+    {
+      "before": "move_legend(len(fig.legends)-1,8-f['xlabel_to_legend_bp'])",
+      "after": "move_legend(len(fig.legends)-1,15-f['xlabel_to_legend_bp'])"
+    },
+    {
+      "before": "abs(final['xlabel_to_legend_bp']-8)",
+      "after": "abs(final['xlabel_to_legend_bp']-15)"
+    },
+    {
+      "before": "abs(final['upper_axis_including_ticks_to_legend_bp']-8)",
+      "after": "abs(final['upper_axis_including_ticks_to_legend_bp']-15)"
+    }
+  ],
+  "unchanged_local_spacing_source_sha256": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+  "entry_sha256": "6ad505a6969ab0d7d280180d53fbad13b699672cc54f8af151514a471ad7dbe0",
+  "CSV_sha256": {
+    "daily_allocation81.csv": "8fa44fca3853f6bc3b105473c7a6eba1e37f2f79da5d17eec14b12755c9746b6",
+    "beginning_balance82.csv": "97aae56771bff74d4c0a8ea7d3ea61b11f10e3980eaefb9884779d246f6db0ab"
+  },
+  "geometry": {
+    "schema": "chapter6-measured-content-spacing-v1",
+    "status": "PASS",
+    "number": "6.3",
+    "native_mm": [
+      144.0,
+      99.03277621799047
+    ],
+    "axes_sizes_mm": [
+      [
+        118.8,
+        32.00000000000001
+      ],
+      [
+        118.8,
+        31.999999999999996
+      ]
+    ],
+    "axes_positions_mm": [
+      [
+        23.04,
+        55.29164377848308,
+        118.8,
+        32.00000000000001
+      ],
+      [
+        23.04,
+        12.52133509318034,
+        118.8,
+        31.999999999999996
+      ]
+    ],
+    "ordinary_font_bp": 10.5,
+    "measurement_basis": "native PDF text frames; upper unlabeled axes use spine plus declared tick length, not pixel ink",
+    "pdf_frames_before": {
+      "native_mm": [
+        143.99999593098957,
+        200.0000015258789
+      ],
+      "xlabel_to_legend_bp": null,
+      "bottom_content_margin_mm": 21.97866490681966,
+      "top_content_margin_mm": 50.25886162651909,
+      "upper_axis_including_ticks_to_lower_title_bp": 103.35975490780328,
+      "upper_axis_including_ticks_to_legend_bp": null,
+      "upper_legend_to_lower_title_bp": null,
+      "xlabel_frames_bp": [
+        [
+          212.6881866455078,
+          494.1169128417969,
+          254.6881866455078,
+          504.6274108886719
+        ]
+      ],
+      "legend_frames_bp": [],
+      "title_frames_bp": [
+        [
+          177.9928741455078,
+          142.466064453125,
+          289.38739013671875,
+          152.9765625
+        ],
+        [
+          151.4538116455078,
+          369.0644836425781,
+          315.9258117675781,
+          379.5749816894531
+        ]
+      ]
+    },
+    "pdf_frames_after": {
+      "native_mm": [
+        143.99999593098957,
+        99.03277943929035
+      ],
+      "xlabel_to_legend_bp": null,
+      "bottom_content_margin_mm": 2.0000071207682293,
+      "top_content_margin_mm": 1.4999942382176716,
+      "upper_axis_including_ticks_to_lower_title_bp": 12.000010332723292,
+      "upper_axis_including_ticks_to_legend_bp": null,
+      "upper_legend_to_lower_title_bp": null,
+      "xlabel_frames_bp": [
+        [
+          212.6881866455078,
+          264.54302978515625,
+          254.6881866455078,
+          275.05352783203125
+        ]
+      ],
+      "legend_frames_bp": [],
+      "title_frames_bp": [
+        [
+          177.9928741455078,
+          4.251952171325684,
+          289.38739013671875,
+          14.762452125549316
+        ],
+        [
+          151.4538116455078,
+          139.49063110351562,
+          315.9258117675781,
+          150.00112915039062
+        ]
+      ]
+    },
+    "legend_count": 0,
+    "xlabel_to_legend_bp": null,
+    "legend_to_file_bottom_mm": null,
+    "bottom_content_margin_mm": 2.0000071207682293,
+    "top_content_margin_mm": 1.4999942382176716,
+    "upper_axis_including_ticks_to_lower_title_bp": 12.000010332723292,
+    "upper_axis_including_ticks_to_legend_bp": null,
+    "upper_legend_to_lower_title_bp": null,
+    "all_text_inside_canvas": true,
+    "all_scientific_artist_values_and_line_styles_exact": true,
+    "numeric_before_sha256": "d339ec2757f14de6d95c0679491dc77965a68c777ba8e391127008550e6a2408",
+    "numeric_after_sha256": "d339ec2757f14de6d95c0679491dc77965a68c777ba8e391127008550e6a2408",
+    "texts": [
+      {
+        "text": "返青",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          76.38806066614555,
+          250.61568315160562,
+          21.05999999999999,
+          10.58625
+        ]
+      },
+      {
+        "text": "分蘖",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          170.15786486434956,
+          250.61568315160562,
+          21.05999999999998,
+          10.42875
+        ]
+      },
+      {
+        "text": "孕穗",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          278.1969870927151,
+          250.61568315160562,
+          21.06,
+          10.20375
+        ]
+      },
+      {
+        "text": "抽穗",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          331.1973112047435,
+          250.61568315160562,
+          21.06,
+          10.65375
+        ]
+      },
+      {
+        "text": "乳熟",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          369.9283172866103,
+          250.61568315160562,
+          21.06,
+          10.18125
+        ]
+      },
+      {
+        "text": "5/30",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          70.79864424631171,
+          183.91995782939907,
+          39.703734449995345,
+          50.41918988913565
+        ]
+      },
+      {
+        "text": "7/15",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          222.3347149720692,
+          216.78613762417987,
+          30.33729980794252,
+          17.55301009435488
+        ]
+      },
+      {
+        "text": "7/31—8/1",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          295.9806231530381,
+          230.3790117156966,
+          42.57,
+          16.659348601263353
+        ]
+      },
+      {
+        "text": "8/10",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          364.7575499955107,
+          196.6574841393806,
+          18.855345278173335,
+          15.91158483899664
+        ]
+      },
+      {
+        "text": "每日分配灌溉总水量\n（万m³）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          22.11998622047245,
+          154.70154929333788,
+          22.25025,
+          94.77
+        ]
+      },
+      {
+        "text": "0",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.590236220472455,
+          150.61221858467644,
+          5.22,
+          10.08
+        ]
+      },
+      {
+        "text": "5",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.590236220472455,
+          181.23581285242082,
+          5.22,
+          10.08
+        ]
+      },
+      {
+        "text": "10",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          48.37023622047245,
+          211.85940712016526,
+          10.44,
+          10.08
+        ]
+      },
+      {
+        "text": "(a) 每日分配灌溉总水量",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          177.84318897637795,
+          265.0896300019993,
+          111.69,
+          11.44125
+        ]
+      },
+      {
+        "text": "灌溉日期",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          212.62818897637794,
+          4.597298295629309,
+          42.12,
+          10.31625
+        ]
+      },
+      {
+        "text": "5/30",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          59.256794627366496,
+          18.913548295629308,
+          18.63,
+          10.08
+        ]
+      },
+      {
+        "text": "6/16",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          128.51991077386512,
+          18.913548295629308,
+          18.72,
+          10.08
+        ]
+      },
+      {
+        "text": "7/1",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          192.32913090312866,
+          18.913548295629308,
+          13.41,
+          10.08
+        ]
+      },
+      {
+        "text": "7/15",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          246.7964030237746,
+          18.913548295629308,
+          18.63,
+          10.08
+        ]
+      },
+      {
+        "text": "7/31",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          311.98257116165564,
+          18.913548295629308,
+          18.72,
+          10.08
+        ]
+      },
+      {
+        "text": "8/10",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          352.8420512478313,
+          18.913548295629308,
+          18.540000000000042,
+          10.08
+        ]
+      },
+      {
+        "text": "8/19",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          380.17458332538945,
+          18.913548295629308,
+          18.63,
+          10.08
+        ]
+      },
+      {
+        "text": "剩余可供分配的水量\n（万m³）",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          16.77623622047245,
+          33.46287900429072,
+          22.284000000000002,
+          94.77
+        ]
+      },
+      {
+        "text": "0",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          53.590236220472455,
+          31.022796685035182,
+          5.22,
+          10.08
+        ]
+      },
+      {
+        "text": "200",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          43.060236220472454,
+          72.25400642018191,
+          15.75,
+          10.08
+        ]
+      },
+      {
+        "text": "400",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          43.060236220472454,
+          113.48521615532866,
+          15.75,
+          10.08
+        ]
+      },
+      {
+        "text": "(b) 每日开始时剩余可供分配的水量",
+        "font_bp": 10.5,
+        "bbox_bp": [
+          151.20318897637793,
+          129.85095971295215,
+          164.97,
+          11.475
+        ]
+      }
+    ],
+    "exceptions": [
+      "6.3 top titlepad20bp clears the preserved growth-stage name row"
+    ],
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0
+  },
+  "complete_visible_content": {
+    "measurement": "union of actual PDF text span/character frames and drawn path bounds, including legend handles/strokes; full-page white background excluded",
+    "bounds_bp": [
+      16.123985290527344,
+      4.251952171325684,
+      402.3661316037178,
+      275.05352783203125
+    ],
+    "top_white_bp": 4.251952171325684,
+    "bottom_white_bp": 5.6693115234375,
+    "last_complete_legend_or_xlabel_y_bp": 275.05352783203125,
+    "PDF_page_height_bp": 280.72283935546875
+  },
+  "output_sha256": {
+    "template15.pdf": "7b8de17c02576d75102e5419db6ad516ba247370579b504a36281ea6d8ecc486",
+    "template15.svg": "b49d36cd94b9f9f19e3c729625b2ee26c47ed7c07a994cca5cd1d079c12ac184",
+    "template15.png": "d991eb06ed553b97ff64d54a3d69f70675709fb4501c4132a33248dbff2d92f6"
+  },
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "policy_inference": 0,
+    "training_runs": 0,
+    "new_TEST": 0
+  }
+}

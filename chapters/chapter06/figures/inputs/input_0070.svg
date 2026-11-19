@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="408.188976pt" height="499.273994pt" viewBox="0 0 408.188976 499.273994" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 499.273994 
+L 408.188976 499.273994 
+L 408.188976 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 65.310236 240.352841 
+L 402.066142 240.352841 
+L 402.066142 33.281975 
+L 65.310236 33.281975 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 319.711792 240.352841 
+L 327.050298 240.352841 
+L 327.050298 33.281975 
+L 319.711792 33.281975 
+z
+" clip-path="url(#p5e0f44df89)" style="fill: #cf7627; opacity: 0.12; stroke: #cf7627; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 105.264327 240.352841 
+L 105.264327 33.281975 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 256.111403 240.352841 
+L 256.111403 33.281975 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 321.342571 240.352841 
+L 321.342571 33.281975 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 362.112051 240.352841 
+L 362.112051 33.281975 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m29286120de" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m29286120de" x="68.571795" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m29286120de" x="137.879911" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m29286120de" x="199.034131" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m29286120de" x="256.111403" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m29286120de" x="321.342571" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m29286120de" x="362.112051" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m29286120de" x="398.804583" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_12">
+      <path d="M 65.310236 240.352841 
+L 402.066142 240.352841 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.18; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <defs>
+       <path id="m952a0b6b18" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m952a0b6b18" x="65.310236" y="240.352841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: end" x="58.810236" y="244.003232" transform="rotate(-0 58.810236 244.003232)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <path d="M 65.310236 170.444917 
+L 402.066142 170.444917 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.18; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m952a0b6b18" x="65.310236" y="170.444917" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: end" x="58.810236" y="174.095308" transform="rotate(-0 58.810236 174.095308)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_16">
+      <path d="M 65.310236 100.536994 
+L 402.066142 100.536994 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.18; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m952a0b6b18" x="65.310236" y="100.536994" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: end" x="58.810236" y="104.187384" transform="rotate(-0 58.810236 104.187384)">10</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="42.054377" y="136.817408" transform="rotate(-90 42.054377 136.817408)">当日总量（万m³）</text>
+    </g>
+   </g>
+   <g id="line2d_18">
+    <path d="M 68.571795 185.87944 
+L 72.648743 177.639049 
+L 76.725691 179.266443 
+L 80.802639 183.618808 
+L 84.879587 187.079738 
+L 88.956535 181.368557 
+L 93.033483 184.321331 
+L 97.110431 182.97828 
+L 101.187379 181.359223 
+L 105.264327 170.798115 
+L 109.341275 174.618543 
+L 113.418223 179.087661 
+L 117.495171 180.023343 
+L 121.572119 167.172257 
+L 125.649067 173.483339 
+L 129.726015 180.689061 
+L 133.802963 170.848275 
+L 137.879911 174.533436 
+L 141.956859 182.059007 
+L 146.033807 177.234618 
+L 150.110755 181.396136 
+L 154.187703 177.518597 
+L 158.264651 185.749684 
+L 162.341599 185.072284 
+L 166.418547 175.979073 
+L 170.495495 174.640837 
+L 174.572443 182.59489 
+L 178.649391 169.040496 
+L 182.726339 178.373755 
+L 186.803287 179.021082 
+L 190.880235 180.193488 
+L 194.957183 186.368888 
+L 199.034131 187.989378 
+L 203.111079 190.806141 
+L 207.188027 181.096732 
+L 211.264975 173.396249 
+L 215.341923 185.904394 
+L 219.418871 176.385686 
+L 223.495819 188.570644 
+L 227.572767 187.42541 
+L 231.649715 189.916419 
+L 235.726663 193.854103 
+L 239.803611 196.032044 
+L 243.880559 191.146333 
+L 247.957507 193.859807 
+L 252.034455 189.827362 
+L 256.111403 107.934405 
+L 260.188351 98.188782 
+L 264.265299 127.999233 
+L 268.342247 119.092078 
+L 272.419195 142.67604 
+L 276.496143 125.846504 
+L 280.573091 146.60726 
+L 284.650039 144.753605 
+L 288.726987 142.386388 
+L 292.803935 147.538229 
+L 296.880883 153.741169 
+L 300.957831 155.553661 
+L 305.034779 154.932725 
+L 309.111727 153.23652 
+L 313.188675 157.958181 
+L 317.265623 159.323624 
+L 321.342571 81.067559 
+L 325.419519 118.171981 
+L 329.496467 125.511644 
+L 333.573415 124.289397 
+L 337.650363 144.064361 
+L 341.727311 158.117923 
+L 345.804259 155.189701 
+L 349.881207 164.989028 
+L 353.958155 168.64857 
+L 358.035103 176.689233 
+L 362.112051 156.060509 
+L 366.188999 181.82631 
+L 370.265947 188.884401 
+L 374.342895 203.432422 
+L 378.419843 211.766634 
+L 382.496791 221.147204 
+L 386.573739 228.515801 
+L 390.650687 234.789124 
+L 394.727635 238.797583 
+" clip-path="url(#p5e0f44df89)" style="fill: none; stroke: #236d9e; stroke-width: 1.15; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 65.310236 240.352841 
+L 65.310236 33.281975 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 65.310236 240.352841 
+L 402.066142 240.352841 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="86.918061" y="23.778635" transform="rotate(-0 86.918061 23.778635)">返青</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="180.687865" y="23.778635" transform="rotate(-0 180.687865 23.778635)">分蘖</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="288.726987" y="23.778635" transform="rotate(-0 288.726987 23.778635)">孕穗</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="341.727311" y="23.778635" transform="rotate(-0 341.727311 23.778635)">抽穗</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="380.458317" y="23.778635" transform="rotate(-0 380.458317 23.778635)">乳熟</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 98.355644 84.349252 
+Q 84.026802 133.194853 69.69796 182.040453 
+" style="fill: none; stroke: #646464; stroke-width: 0.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="101.187379" y="77.218609" transform="rotate(-0 101.187379 77.218609)">5/30</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 238.41838 83.893331 
+Q 246.080245 94.304184 253.74211 104.715037 
+" style="fill: none; stroke: #646464; stroke-width: 0.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="231.649715" y="77.218609" transform="rotate(-0 231.649715 77.218609)">7/15</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 318.39138 55.470455 
+Q 319.638035 66.283294 320.88469 77.096134 
+" style="fill: none; stroke: #646464; stroke-width: 0.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="317.265623" y="48.228688" transform="rotate(-0 317.265623 48.228688)">7/31—8/1</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 370.644803 133.96803 
+Q 367.098691 143.149408 363.552578 152.330785 
+" style="fill: none; stroke: #646464; stroke-width: 0.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="374.342895" y="126.915617" transform="rotate(-0 374.342895 126.915617)">8/10</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="233.688189" y="13.281975" transform="rotate(-0 233.688189 13.281975)">(a) 每日配置总量</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="ma8c33ef3ba" d="M 0 2.061553 
+C 0.54673 2.061553 1.071141 1.844335 1.457738 1.457738 
+C 1.844335 1.071141 2.061553 0.54673 2.061553 0 
+C 2.061553 -0.54673 1.844335 -1.071141 1.457738 -1.457738 
+C 1.071141 -1.844335 0.54673 -2.061553 0 -2.061553 
+C -0.54673 -2.061553 -1.071141 -1.844335 -1.457738 -1.457738 
+C -1.844335 -1.071141 -2.061553 -0.54673 -2.061553 0 
+C -2.061553 0.54673 -1.844335 1.071141 -1.457738 1.457738 
+C -1.071141 1.844335 -0.54673 2.061553 0 2.061553 
+z
+" style="stroke: #ffffff; stroke-width: 0.35"/>
+    </defs>
+    <g clip-path="url(#p5e0f44df89)">
+     <use xlink:href="#ma8c33ef3ba" x="68.571795" y="185.87944" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="256.111403" y="107.934405" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="321.342571" y="81.067559" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="325.419519" y="118.171981" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="362.112051" y="156.060509" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_10">
+    <path d="M 65.310236 463.780465 
+L 402.066142 463.780465 
+L 402.066142 270.882827 
+L 65.310236 270.882827 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 319.711792 463.780465 
+L 327.050298 463.780465 
+L 327.050298 270.882827 
+L 319.711792 270.882827 
+z
+" clip-path="url(#p588b62c07d)" style="fill: #cf7627; opacity: 0.12; stroke: #cf7627; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 105.264327 463.780465 
+L 105.264327 270.882827 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 256.111403 463.780465 
+L 256.111403 270.882827 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 321.342571 463.780465 
+L 321.342571 270.882827 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 362.112051 463.780465 
+L 362.112051 270.882827 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #b1b1b1; stroke-width: 0.6"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_8">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m29286120de" x="68.571795" y="463.780465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="68.571795" y="477.581246" transform="rotate(-0 68.571795 477.581246)">5/30</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m29286120de" x="137.879911" y="463.780465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="137.879911" y="477.581246" transform="rotate(-0 137.879911 477.581246)">6/16</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m29286120de" x="199.034131" y="463.780465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="199.034131" y="477.581246" transform="rotate(-0 199.034131 477.581246)">7/1</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m29286120de" x="256.111403" y="463.780465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="256.111403" y="477.581246" transform="rotate(-0 256.111403 477.581246)">7/15</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m29286120de" x="321.342571" y="463.780465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="321.342571" y="477.581246" transform="rotate(-0 321.342571 477.581246)">7/31</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m29286120de" x="362.112051" y="463.780465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="362.112051" y="477.581246" transform="rotate(-0 362.112051 477.581246)">8/10</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m29286120de" x="398.804583" y="463.780465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: end" x="398.804583" y="477.581246" transform="rotate(-0 398.804583 477.581246)">8/19</text>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="233.688189" y="491.301949" transform="rotate(-0 233.688189 491.301949)">灌溉日期</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_4">
+     <g id="line2d_30">
+      <path d="M 65.310236 460.273235 
+L 402.066142 460.273235 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.18; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m952a0b6b18" x="65.310236" y="460.273235" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: end" x="58.810236" y="463.923626" transform="rotate(-0 58.810236 463.923626)">0</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_32">
+      <path d="M 65.310236 372.592491 
+L 402.066142 372.592491 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.18; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m952a0b6b18" x="65.310236" y="372.592491" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: end" x="58.810236" y="376.242881" transform="rotate(-0 58.810236 376.242881)">200</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_34">
+      <path d="M 65.310236 284.911746 
+L 402.066142 284.911746 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.18; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m952a0b6b18" x="65.310236" y="284.911746" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: end" x="58.810236" y="288.562137" transform="rotate(-0 58.810236 288.562137)">400</text>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="36.804377" y="367.331646" transform="rotate(-90 36.804377 367.331646)">日初余额（万m³）</text>
+    </g>
+   </g>
+   <g id="line2d_36">
+    <path d="M 68.571795 284.911746 
+L 72.648743 286.619803 
+L 76.725691 288.586244 
+L 80.802639 290.501657 
+L 84.879587 292.280597 
+L 88.956535 293.951018 
+L 93.033483 295.800517 
+L 97.110431 297.55743 
+L 101.187379 299.356455 
+L 105.264327 301.206247 
+L 109.341275 303.387191 
+L 113.418223 305.448342 
+L 117.495171 307.36936 
+L 121.572119 309.26104 
+L 125.649067 311.555675 
+L 129.726015 313.652422 
+L 133.802963 315.523227 
+L 137.879911 317.702598 
+L 141.956859 319.766418 
+L 146.033807 321.594267 
+L 150.110755 323.57339 
+L 154.187703 325.422024 
+L 158.264651 327.392242 
+L 162.341599 329.104367 
+L 166.418547 330.837733 
+L 170.495495 332.856224 
+L 174.572443 334.916676 
+L 178.649391 336.727723 
+L 182.726339 338.963778 
+L 186.803287 340.907182 
+L 190.880235 342.830288 
+L 194.957183 344.716632 
+L 199.034131 346.409342 
+L 203.111079 348.05124 
+L 207.188027 349.604816 
+L 211.264975 351.462839 
+L 215.341923 353.562316 
+L 219.418871 355.26959 
+L 223.495819 357.275332 
+L 227.572767 358.899004 
+L 231.649715 360.558585 
+L 235.726663 362.140059 
+L 239.803611 363.598064 
+L 243.880559 364.987778 
+L 247.957507 366.530687 
+L 252.034455 367.988514 
+L 256.111403 369.57278 
+L 260.188351 373.724866 
+L 264.265299 378.182533 
+L 268.342247 381.70547 
+L 272.419195 385.507698 
+L 276.496143 388.570431 
+L 280.573091 392.160869 
+L 284.650039 395.100336 
+L 288.726987 398.097926 
+L 292.803935 401.169742 
+L 296.880883 404.080019 
+L 300.957831 406.795796 
+L 305.034779 409.454742 
+L 309.111727 412.133158 
+L 313.188675 414.86476 
+L 317.265623 417.44831 
+L 321.342571 419.989045 
+L 325.419519 424.983562 
+L 329.496467 428.81464 
+L 333.573415 432.415578 
+L 337.650363 436.054839 
+L 341.727311 439.074041 
+L 345.804259 441.652583 
+L 349.881207 444.322941 
+L 353.958155 446.686033 
+L 358.035103 448.934377 
+L 362.112051 450.930601 
+L 366.188999 453.573654 
+L 370.265947 455.4088 
+L 374.342895 457.022634 
+L 378.419843 458.180303 
+L 382.496791 459.076646 
+L 386.573739 459.678854 
+L 390.650687 460.050014 
+L 394.727635 460.224469 
+L 398.804583 460.273235 
+" clip-path="url(#p588b62c07d)" style="fill: none; stroke: #236d9e; stroke-width: 1.15; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 65.310236 463.780465 
+L 65.310236 270.882827 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 65.310236 463.780465 
+L 402.066142 463.780465 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10.5px; font-family: 'Thesis Figure Text'; text-anchor: middle" x="233.688189" y="264.882827" transform="rotate(-0 233.688189 264.882827)">(b) 日初供水余额</text>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p588b62c07d)">
+     <use xlink:href="#ma8c33ef3ba" x="68.571795" y="284.911746" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="256.111403" y="369.57278" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="321.342571" y="419.989045" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="325.419519" y="424.983562" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+     <use xlink:href="#ma8c33ef3ba" x="362.112051" y="450.930601" style="fill: #cf7627; stroke: #ffffff; stroke-width: 0.35"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5e0f44df89">
+   <rect x="65.310236" y="33.281975" width="336.755906" height="207.070866"/>
+  </clipPath>
+  <clipPath id="p588b62c07d">
+   <rect x="65.310236" y="270.882827" width="336.755906" height="192.897638"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,1869 @@
+{
+  "before": [
+    {
+      "xlim": [
+        -0.452,
+        2.4520000000000004
+      ],
+      "ylim": [
+        0.0,
+        80.0
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        0,
+        1,
+        2
+      ],
+      "yticks": [
+        0.0,
+        20.0,
+        40.0,
+        60.0,
+        80.0
+      ],
+      "xlabel": "",
+      "ylabel": "达到45.27分所需训练步数\n（×10³）",
+      "title": "(a) 通信功率分配",
+      "xticklabels": [
+        "TRoC",
+        "仅用\n新轨迹",
+        "旧轨迹\n不校正"
+      ],
+      "yticklabels": [
+        "0",
+        "20",
+        "40",
+        "60",
+        "80"
+      ],
+      "lines": [
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            17.345883984097462
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            19.518116015902535
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            48.89514230507211
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            68.76245769492789
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            24.981723430521868
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            49.667876569478125
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  0.0,
+                  17.345883984097462
+                ],
+                [
+                  0.0,
+                  19.518116015902535
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  1.0,
+                  48.89514230507211
+                ],
+                [
+                  1.0,
+                  68.76245769492789
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  2.0,
+                  24.981723430521868
+                ],
+                [
+                  2.0,
+                  49.667876569478125
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            -0.32,
+            0
+          ],
+          "width": 0.64,
+          "height": 18.432,
+          "fc": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            0.6799999999999999,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 58.8288,
+          "fc": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            1.68,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 37.324799999999996,
+          "fc": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        }
+      ],
+      "texts": [
+        {
+          "text": "18.43",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "58.83",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "37.32",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        }
+      ]
+    },
+    {
+      "xlim": [
+        -0.452,
+        2.4520000000000004
+      ],
+      "ylim": [
+        0.0,
+        22.0
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        0,
+        1,
+        2
+      ],
+      "yticks": [
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      "xlabel": "",
+      "ylabel": "达到75.60%所需训练步数\n（×10³）",
+      "title": "(b) 应急柴油分配",
+      "xticklabels": [
+        "TRoC",
+        "仅用\n新轨迹",
+        "旧轨迹\n不校正"
+      ],
+      "yticklabels": [
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "lines": [
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            4.871535936389852
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            13.560464063610148
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            6.43350306336524
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            18.449696936634762
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            4.778361912536045
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            16.725638087463953
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  0.0,
+                  4.871535936389852
+                ],
+                [
+                  0.0,
+                  13.560464063610148
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  1.0,
+                  6.43350306336524
+                ],
+                [
+                  1.0,
+                  18.449696936634762
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  2.0,
+                  4.778361912536045
+                ],
+                [
+                  2.0,
+                  16.725638087463953
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            -0.32,
+            0
+          ],
+          "width": 0.64,
+          "height": 9.216,
+          "fc": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            0.6799999999999999,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 12.441600000000001,
+          "fc": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            1.68,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 10.751999999999999,
+          "fc": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        }
+      ],
+      "texts": [
+        {
+          "text": "9.22",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "12.44",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "10.75",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "xlim": [
+        -0.452,
+        2.4520000000000004
+      ],
+      "ylim": [
+        0.0,
+        80.0
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        0,
+        1,
+        2
+      ],
+      "yticks": [
+        0.0,
+        20.0,
+        40.0,
+        60.0,
+        80.0
+      ],
+      "xlabel": "",
+      "ylabel": "达到45.27分所需训练步数\n（×10³）",
+      "title": "(a) 通信功率分配",
+      "xticklabels": [
+        "TRoC",
+        "仅用\n新轨迹",
+        "旧轨迹\n不校正"
+      ],
+      "yticklabels": [
+        "0",
+        "20",
+        "40",
+        "60",
+        "80"
+      ],
+      "lines": [
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            17.345883984097462
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            19.518116015902535
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            48.89514230507211
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            68.76245769492789
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            24.981723430521868
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            49.667876569478125
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  0.0,
+                  17.345883984097462
+                ],
+                [
+                  0.0,
+                  19.518116015902535
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  1.0,
+                  48.89514230507211
+                ],
+                [
+                  1.0,
+                  68.76245769492789
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  2.0,
+                  24.981723430521868
+                ],
+                [
+                  2.0,
+                  49.667876569478125
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            -0.32,
+            0
+          ],
+          "width": 0.64,
+          "height": 18.432,
+          "fc": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            0.6799999999999999,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 58.8288,
+          "fc": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            1.68,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 37.324799999999996,
+          "fc": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        }
+      ],
+      "texts": [
+        {
+          "text": "18.43",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "58.83",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "37.32",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        }
+      ]
+    },
+    {
+      "xlim": [
+        -0.452,
+        2.4520000000000004
+      ],
+      "ylim": [
+        0.0,
+        22.0
+      ],
+      "xscale": "linear",
+      "yscale": "linear",
+      "xticks": [
+        0,
+        1,
+        2
+      ],
+      "yticks": [
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      "xlabel": "",
+      "ylabel": "达到75.60%所需训练步数\n（×10³）",
+      "title": "(b) 应急柴油分配",
+      "xticklabels": [
+        "TRoC",
+        "仅用\n新轨迹",
+        "旧轨迹\n不校正"
+      ],
+      "yticklabels": [
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "lines": [
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            4.871535936389852
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            0.0
+          ],
+          "y": [
+            13.560464063610148
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            6.43350306336524
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            1.0
+          ],
+          "y": [
+            18.449696936634762
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            4.778361912536045
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        },
+        {
+          "x": [
+            2.0
+          ],
+          "y": [
+            16.725638087463953
+          ],
+          "color": "C0",
+          "linewidth": 1.5,
+          "linestyle": "None",
+          "marker": "_",
+          "markersize": 6.0,
+          "mfc": "C0",
+          "mec": "k",
+          "alpha": null,
+          "markevery": null,
+          "zorder": 2
+        }
+      ],
+      "collections": [
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  0.0,
+                  4.871535936389852
+                ],
+                [
+                  0.0,
+                  13.560464063610148
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  1.0,
+                  6.43350306336524
+                ],
+                [
+                  1.0,
+                  18.449696936634762
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        },
+        {
+          "paths": [
+            {
+              "vertices": [
+                [
+                  2.0,
+                  4.778361912536045
+                ],
+                [
+                  2.0,
+                  16.725638087463953
+                ]
+              ],
+              "codes": null
+            }
+          ],
+          "offsets": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "array": null,
+          "clim": [
+            null,
+            null
+          ],
+          "fc": [],
+          "ec": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lw": [
+            1.0
+          ],
+          "alpha": null
+        }
+      ],
+      "patches": [
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            -0.32,
+            0
+          ],
+          "width": 0.64,
+          "height": 9.216,
+          "fc": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            0.6799999999999999,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 12.441600000000001,
+          "fc": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        },
+        {
+          "type": "Rectangle",
+          "path": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "codes": [
+            1,
+            2,
+            2,
+            2,
+            79
+          ],
+          "xy": [
+            1.68,
+            0
+          ],
+          "width": 0.6400000000000001,
+          "height": 10.751999999999999,
+          "fc": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            0.78
+          ],
+          "ec": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lw": 1.0,
+          "alpha": 0.78,
+          "hatch": null
+        }
+      ],
+      "texts": [
+        {
+          "text": "9.22",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "12.44",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        },
+        {
+          "text": "10.75",
+          "position": [
+            0,
+            4
+          ],
+          "font": 10.5,
+          "weight": "normal"
+        }
+      ]
+    }
+  ],
+  "before_sha256": "727e3166e40c42372a95b8a2b341911a15831a6f6ab013e4c1d50115cf249e54",
+  "after_sha256": "727e3166e40c42372a95b8a2b341911a15831a6f6ab013e4c1d50115cf249e54",
+  "exact": true
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "thesis-print-readability-derivative-v1",
+  "number": "3.7",
+  "scientific_values_changed": false,
+  "parent_directory": "/hy-tmp/resource_allocation_results/chapter03/paper_revisions/reviewer_revision_20261108_232506/figures/figure_3_7",
+  "parent_pdf_sha256": "41b19980034f64d41480e68beed10eb368eb67d0a23ce840469a607acd9847db",
+  "editable_source": "plot.py",
+  "render_engine": "/hy-tmp/resource_allocation_results/thesis_print_format_implementation_20261109_160917/figures/render_print_figures.py",
+  "native_source": "inputs/plot_source.py",
+  "input_files_sha256": {
+    "plot.py": "be2f3c3afc8dc59810ddde7675f95fb48679a9d2a14940ccdae6856c71876448",
+    "data.csv": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+    "period_totals.csv": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+    "checks.json": "dbc50b995caee23dc6e148b8dbfa221fbc8eb2804c7c44a9da763f393022d881",
+    "source.json": "450366c08a4b016c151ac46969ae9c9b91c3852a25ca02cb2f2b6ebefc300a9b",
+    "source_parent.json": "8601b5bdea1fbda41bdd683ca65b781da80c0c30f3f3c403f2acb3f1f62d62cf",
+    "plot_scientific_parent.py": "89750690b0d21dd52820b8cd9cd2d5371d6e685ec46ca76ea0b1ce057d766740",
+    "plot_source.py": "addd52f3f7b74c35ba0cc06cceacb4c7490b785f8fb578be7eef3543660dc4c4",
+    "artist_values.json": "ec04a127cf4cc2f328f001fb65050c92dfa4ddcab179cccae0caadba23b44600",
+    "data/provenance.json": "9c445ac98d3f662eb50446e3124d787f050aee53ac9451e4533ede81074a3333"
+  },
+  "changes": [
+    "distinct dash patterns preserving markers/colors",
+    "object IDs 7.5 -> 9bp, centered, no collisions"
+  ],
+  "proof_sha256": "c483079eee7309adbd53a4f16fce4fcae7eb0c55208825fbfa46e6519567de3d",
+  "outputs": {
+    "figure.pdf": "3084ec8b00a4fc3ff48a6acab65c8a44a967aa2e195ec4f13fb6d042f79484b8",
+    "figure.svg": "057ae3265e44903a1b6c3f4cb4a79d4d5bcb221e2878fea64cbf656aa3ee366e",
+    "figure.png": "eaccdb505924d2cb50dd9fc247437916a9e35d6f04d1ce28f95f0355c1c423be"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

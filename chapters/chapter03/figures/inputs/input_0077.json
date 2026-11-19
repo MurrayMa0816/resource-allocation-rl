@@ -1,0 +1,49 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "d50c68c3d4191e7facda6026dcc914d98b89efab31bca57dc3895551f465d895",
+  "scientific_after_sha256": "d50c68c3d4191e7facda6026dcc914d98b89efab31bca57dc3895551f465d895",
+  "labels": [
+    {
+      "before": "训练交互步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        194.1791338582678,
+        24.65996788781834,
+        345.49999999999994,
+        27.1875
+      ]
+    },
+    {
+      "before": "训练交互步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        800.4783464566931,
+        24.65996788781834,
+        345.5,
+        27.1875
+      ]
+    },
+    {
+      "before": "不学习各期\n资源分配总量",
+      "after": "不训练\n总量决策分支",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        204.59767470472448,
+        1.1020616378183492,
+        174.74999999999997,
+        58.546875
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "number": "3.7",
+  "changes": [
+    {
+      "before": "(a) 各期发射能量分配总量",
+      "after": "(a) 各轮发射能量分配总量",
+      "font_bp": 10.5
+    },
+    {
+      "before": "决策期",
+      "after": "传输轮次",
+      "font_bp": 10.5
+    },
+    {
+      "before": "本期发射能量占\n初始发射能量（%）",
+      "after": "本轮发射能量占\n初始发射能量（%）",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(b) ReJoP · 第8期",
+      "after": "(b) ReJoP · 第8轮",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(c) ReJoP · 第24期",
+      "after": "(c) ReJoP · 第24轮",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(d) C-PPO · 第8期",
+      "after": "(d) C-PPO · 第8轮",
+      "font_bp": 10.5
+    },
+    {
+      "before": "(e) C-PPO · 第24期",
+      "after": "(e) C-PPO · 第24轮",
+      "font_bp": 10.5
+    }
+  ],
+  "scientific_before_sha256": "30c8d23f2937d083c54f1f6b44a04303d07490bacaecc8adc31b504de84c88d2",
+  "scientific_after_sha256": "30c8d23f2937d083c54f1f6b44a04303d07490bacaecc8adc31b504de84c88d2",
+  "physical_axes_canvas_fonts_anchors_exact": true,
+  "all_labels_inside_canvas": true,
+  "display_numbers_preserved": true,
+  "model_index_unchanged": true,
+  "environment_steps": 0,
+  "training_runs": 0,
+  "model_loads": 0
+}

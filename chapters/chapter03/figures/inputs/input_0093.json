@@ -1,0 +1,112 @@
+[
+  {
+    "domain": "radio",
+    "condition": "budget08",
+    "full_mean": 44.98957730951445,
+    "pace_mean": 35.858713879512436,
+    "full_minus_pace_mean": 9.130863430002012,
+    "paired_sample_sd": 0.37284870592812885,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "score points"
+  },
+  {
+    "domain": "radio",
+    "condition": "default",
+    "full_mean": 48.92485533074171,
+    "pace_mean": 40.21134501152052,
+    "full_minus_pace_mean": 8.713510319221184,
+    "paired_sample_sd": 0.8532386168638776,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "score points"
+  },
+  {
+    "domain": "radio",
+    "condition": "budget12",
+    "full_mean": 51.94095979139142,
+    "pace_mean": 43.671668616190466,
+    "full_minus_pace_mean": 8.269291175200959,
+    "paired_sample_sd": 1.3438797810426248,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "score points"
+  },
+  {
+    "domain": "radio",
+    "condition": "persistence02",
+    "full_mean": 53.448691760235896,
+    "pace_mean": 42.14850962489347,
+    "full_minus_pace_mean": 11.300182135342425,
+    "paired_sample_sd": 0.6772156167201707,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "score points"
+  },
+  {
+    "domain": "radio",
+    "condition": "persistence095",
+    "full_mean": 44.91529118496541,
+    "pace_mean": 39.79567328092155,
+    "full_minus_pace_mean": 5.119617904043869,
+    "paired_sample_sd": 1.2534674748210988,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "score points"
+  },
+  {
+    "domain": "v5",
+    "condition": "budget08",
+    "full_mean": 67.09328890227509,
+    "pace_mean": 61.07245749312723,
+    "full_minus_pace_mean": 6.020831409147872,
+    "paired_sample_sd": 1.7760663878314225,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "percentage points"
+  },
+  {
+    "domain": "v5",
+    "condition": "default",
+    "full_mean": 78.99857129640127,
+    "pace_mean": 69.27937707454397,
+    "full_minus_pace_mean": 9.719194221857288,
+    "paired_sample_sd": 1.9928588283216837,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "percentage points"
+  },
+  {
+    "domain": "v5",
+    "condition": "budget12",
+    "full_mean": 86.30203105593316,
+    "pace_mean": 75.6035055911799,
+    "full_minus_pace_mean": 10.698525464753269,
+    "paired_sample_sd": 2.506018134885442,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "percentage points"
+  },
+  {
+    "domain": "v5",
+    "condition": "arrivals_front",
+    "full_mean": 79.16570417277482,
+    "pace_mean": 74.79512669032442,
+    "full_minus_pace_mean": 4.370577482450409,
+    "paired_sample_sd": 2.839996134000561,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "percentage points"
+  },
+  {
+    "domain": "v5",
+    "condition": "arrivals_middle",
+    "full_mean": 79.61843455392544,
+    "pace_mean": 76.51883257511216,
+    "full_minus_pace_mean": 3.0996019788132854,
+    "paired_sample_sd": 1.472502792928657,
+    "positive_seeds": 5,
+    "seed_count": 5,
+    "unit": "percentage points"
+  }
+]

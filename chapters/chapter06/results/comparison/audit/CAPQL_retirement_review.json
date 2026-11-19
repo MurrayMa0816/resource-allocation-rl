@@ -1,0 +1,341 @@
+{
+  "schema": "C6-CAPQL-independent-post-removal-dependency-evidence-review-v1",
+  "status": "PASS_POST_REMOVAL_DEPENDENCIES_AND_RETAINED_EVIDENCE",
+  "reviewed_at_utc": "2026-11-09T11:19:45.702686+00:00",
+  "reviewer": "supplement_rule_eval read-only dependency/evidence reviewer, not cleanup executor",
+  "user_authorized_scope": "RetireCAPQLfromcurrentC6comparison and removeonly4newC6endpoints, retain scientificcurves/DEV/receipts/diagnosis; continueCOLA.",
+  "retirement_manifest": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/CAPQL_RETIREMENT.json",
+    "sha256": "e4648558099ddd494dd9a924201dc88e011876ae144ae58820677f8ef196b1de",
+    "registered_status": "RETIRED_ENDPOINTS_REMOVED",
+    "registered_removed_files": 4,
+    "registered_removed_bytes": 21836840,
+    "MiB": 20.825233459472656
+  },
+  "artifacts": [
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/endpoint.pt",
+      "size_bytes": 5464794,
+      "sha256": "68b5d0c0da2aa654da285cd04a182eefd0b399480fdb5ac48dc29075e271e3d7",
+      "deleted": true,
+      "current_exists": false,
+      "pre_removal_size_independently_observed": true,
+      "pre_removal_file_SHA_independently_recomputed_by_this_reviewer": true,
+      "hash_evidence": "Formal: independentfinal_training_audit beforedeletion",
+      "original_completion_receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/completed.json",
+      "original_completion_receipt_sha256": "88ceefa94b8a6eaca74c63cb63d5f3b93617731e7bbac1ac82ac1f9d45de8800"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/endpoint.pt",
+      "size_bytes": 5464794,
+      "sha256": "6a4a301dab6abbef0a11ef5d04f7e9fc9e0b5e5f33e20d087c77b576552cd417",
+      "deleted": true,
+      "current_exists": false,
+      "pre_removal_size_independently_observed": true,
+      "pre_removal_file_SHA_independently_recomputed_by_this_reviewer": true,
+      "hash_evidence": "Formal: independentfinal_training_audit beforedeletion",
+      "original_completion_receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/completed.json",
+      "original_completion_receipt_sha256": "09d3b99dc8afdb5ff9caccdaa20e4e64f969390d320e2a14616db0a2ccd7f57a"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/endpoint.pt",
+      "size_bytes": 5464794,
+      "sha256": "c76e4020593b577f23eb64d903fba318efdaf018a26b56ea4ffc1d1060e45616",
+      "deleted": true,
+      "current_exists": false,
+      "pre_removal_size_independently_observed": true,
+      "pre_removal_file_SHA_independently_recomputed_by_this_reviewer": true,
+      "hash_evidence": "Formal: independentfinal_training_audit beforedeletion",
+      "original_completion_receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/completed.json",
+      "original_completion_receipt_sha256": "27f2c629b9d37abd2f9002aa4689fce1c3741d1132c71e4924ab7d68aa9d7077"
+    },
+    {
+      "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/engineering/capql__seed7900/attempt0/endpoint.pt",
+      "size_bytes": 5442458,
+      "sha256": "38239b6232810febeac84ee07d96d1bd6c366f469e68e7ab6f8f0f605a48db62",
+      "deleted": true,
+      "current_exists": false,
+      "pre_removal_size_independently_observed": true,
+      "pre_removal_file_SHA_independently_recomputed_by_this_reviewer": false,
+      "hash_evidence": "Engineering: originalworkercompletionreceipt and rootpredeletionmanifestverification; thisreviewer didnotindependentlyhash engineeringendpoint beforeunlink",
+      "original_completion_receipt_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/engineering/capql__seed7900/attempt0/completed.json",
+      "original_completion_receipt_sha256": "d287baafcad1adac4b0d8acbd6e908ff1f2b71908b7cce61fdaf7191700e359b"
+    }
+  ],
+  "process_review": {
+    "old_CAPQL_and_PASTA_six_original_jobs": [
+      {
+        "job": "capql__seed6400",
+        "recorded_pid": 2386833,
+        "process_exists": false
+      },
+      {
+        "job": "capql__seed6401",
+        "recorded_pid": 2386834,
+        "process_exists": false
+      },
+      {
+        "job": "capql__seed6402",
+        "recorded_pid": 2386835,
+        "process_exists": false
+      },
+      {
+        "job": "pasta__seed6400",
+        "recorded_pid": 2386836,
+        "process_exists": false
+      },
+      {
+        "job": "pasta__seed6401",
+        "recorded_pid": 2386837,
+        "process_exists": false
+      },
+      {
+        "job": "pasta__seed6402",
+        "recorded_pid": 2386838,
+        "process_exists": false
+      }
+    ],
+    "original_controller_complete": true,
+    "CAPQL_jobs_running": 0,
+    "stops_needed_or_performed_by_reviewer": 0,
+    "current_COLA3workers_preserved": [
+      {
+        "pid": 2891325,
+        "exists": true
+      },
+      {
+        "pid": 2891326,
+        "exists": true
+      },
+      {
+        "pid": 2891327,
+        "exists": true
+      }
+    ],
+    "relevant_active_processes": [
+      {
+        "pid": 2891324,
+        "argv": [
+          "/usr/local/bin/python",
+          "-B",
+          "/root/gamewar/resource_allocation_rl/applications/irrigation/learning_comparison_20261109/cola_launcher.py",
+          "train",
+          "--phase",
+          "formal"
+        ]
+      },
+      {
+        "pid": 2891325,
+        "argv": [
+          "/usr/local/bin/python",
+          "-B",
+          "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/execution/cola_worker.py",
+          "--config",
+          "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6400.json"
+        ]
+      },
+      {
+        "pid": 2891326,
+        "argv": [
+          "/usr/local/bin/python",
+          "-B",
+          "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/execution/cola_worker.py",
+          "--config",
+          "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6401.json"
+        ]
+      },
+      {
+        "pid": 2891327,
+        "argv": [
+          "/usr/local/bin/python",
+          "-B",
+          "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/execution/cola_worker.py",
+          "--config",
+          "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/protocol/formal_attempt0_cola__seed6402.json"
+        ]
+      },
+      {
+        "pid": 2892255,
+        "argv": [
+          "python",
+          "-B",
+          "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/analysis/aggregate_cola.py",
+          "--watch"
+        ]
+      }
+    ],
+    "registered_endpoint_open_file_descriptors": [],
+    "snapshot_limit": "Process/fdobservations atreviewtime; notaperpetualguaranteeagainstfuturemanualcommands."
+  },
+  "runtime_dependency_review": {
+    "reviewed_source_sha256": {
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/execution/cola_worker.py": "eea273b6aa08066b66857659b3e7e863fbc70c4763fd9bc6d982cef34a9a38c8",
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/execution/bridge.py": "e61650717f086f69812d8a91bdc2a5c31a44b33bbf5b05b521204103c8408016",
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/analysis/aggregate_cola.py": "05fdfb25c4a6d94124bf4aeb7289246837479ae8a5d5b1432ebd2c11f2c8e85b",
+      "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/additional_cola_20261109/source/formal_attempt0/analysis/aggregate.py": "77bcd4d1716d6d381ce46a362c8650804716a8e540a6663073f7082d9ea49802"
+    },
+    "COLA_training": "Onlyclone/reload ofitsown out/endpoint.pt; noCAPQLendpointinput.",
+    "COLA_offline_watch": "aggregate_cola replaceshelperrosterwithPASTA+COLA andreads savedDEV/receipts; noendpointload.",
+    "PASTA": "All3trainingjobscompleted; noactivePASTAworker orCAPQLendpointdependency.",
+    "current409_source_guard_count": 409,
+    "current409_source_guard_mismatches": [],
+    "deleted_paths_intersect_409_guard": [],
+    "previous400_source_guard_mismatches": [],
+    "frozen_CAPQL_or_C5source_not_removed": true
+  },
+  "retained_evidence": {
+    "registered_files_checked": 12,
+    "all_registered_SHA_match": true,
+    "files": [
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/final_training_audit.json",
+        "sha256": "09d00d2f67841aefdca637724e1c77fd3e7544fee22b06d94d4112a10d65fa78",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/capql_terminal_readonly_diagnosis.json",
+        "sha256": "0d22c1c36debac6041dca49c3655cd0c99582768c9d29ca617308321ac40c8ae",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/training/controller_completed.json",
+        "sha256": "3bc21969fcce8a50faa8d54e40da5e817db9680b51ce9ae4f705f334831d07f8",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/completed.json",
+        "sha256": "88ceefa94b8a6eaca74c63cb63d5f3b93617731e7bbac1ac82ac1f9d45de8800",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/protocol.json",
+        "sha256": "3f8dd4ef3e6b00babc714da090bc2a3bea7506351a0255501b9c5a7975dcd52e",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/development.npz",
+        "sha256": "e320ee89672438c64d188aca7153eb8b5584a880be5146be8f7d4bb86f4c6a3a",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/completed.json",
+        "sha256": "09d3b99dc8afdb5ff9caccdaa20e4e64f969390d320e2a14616db0a2ccd7f57a",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/protocol.json",
+        "sha256": "1505c2c9d01e0070ea87725eeb9d2bc9a3edecc00015c067c1c2f18c14672a35",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/development.npz",
+        "sha256": "6a6ca55742f350d6a280aa504d82e9fcec16b50a985df9658bd8c739f088bba7",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/completed.json",
+        "sha256": "27f2c629b9d37abd2f9002aa4689fce1c3741d1132c71e4924ab7d68aa9d7077",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/protocol.json",
+        "sha256": "3be3f4737fd4c134722e9ba795e3a67a8bec9cc36ebe23ac144877f408da3f3a",
+        "matches_registered": true
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/development.npz",
+        "sha256": "8986763d11e6d9fa29e0ed205f60f3be4e4c73756a07198c98d2dd96f37ebbe7",
+        "matches_registered": true
+      }
+    ],
+    "other_saved_DEV_and_raw_training_update_logs_present": [
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/development.npz",
+        "bytes": 476977
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/development.jsonl.gz",
+        "bytes": 1575567
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/training.jsonl.gz",
+        "bytes": 6414350
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6400/attempt0/updates.jsonl.gz",
+        "bytes": 15927382
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/development.npz",
+        "bytes": 1180645
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/development.jsonl.gz",
+        "bytes": 1968446
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/training.jsonl.gz",
+        "bytes": 7791164
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6401/attempt0/updates.jsonl.gz",
+        "bytes": 17644326
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/development.npz",
+        "bytes": 550547
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/development.jsonl.gz",
+        "bytes": 1652872
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/training.jsonl.gz",
+        "bytes": 6438498
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/formal/capql__seed6402/attempt0/updates.jsonl.gz",
+        "bytes": 15677042
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/engineering/capql__seed7900/attempt0/development.npz",
+        "bytes": 8805
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/engineering/capql__seed7900/attempt0/development.jsonl.gz",
+        "bytes": 9166
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/engineering/capql__seed7900/attempt0/training.jsonl.gz",
+        "bytes": 156079
+      },
+      {
+        "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/engineering/capql__seed7900/attempt0/updates.jsonl.gz",
+        "bytes": 229287
+      }
+    ],
+    "raw_training_and_update_log_bytes": 70278128
+  },
+  "historical_reload_truth": {
+    "original_exact_reload_receipts": "Historicalexecutionfactbeforeauthorizeddeletion, notpresent-dayreloadavailability.",
+    "CAPQL_endpoint_reload_available_now": false,
+    "fresh_CAPQLinference_ornewTEST_from_deletedendpoints_available": false,
+    "no_original_receipts_rewritten_by_reviewer": true,
+    "compute_not_erased": "CompletedCAPQLlearning777600 andDEV202176 plusengineering5508 remain historicalcost; deletiondoesnotzero work."
+  },
+  "limitations": [
+    "This reviewer independentlystatlisted all4models beforedeletion; only3formalmodel hashes were independentlyrecomputed beforeunlink. EngineeringmodelSHA is originalworker/rootmanifest evidence.",
+    "Duringthefinalpre-removalhashcheckroot hadalreadyunlinkedtargets; thecheckraisedFileNotFoundError, thenreview continued strictlyaspost-removalverification. No missingfilewasrecreated.",
+    "No claimofwholefilesystembefore/afterinventory; certified4registeredtargetsabsent,12registeredretainedfilesunchanged,all409/400protectedsourcebindingsunchanged andlistedrawlogsremain."
+  ],
+  "actions_by_reviewer": {
+    "process_stops": 0,
+    "files_deleted": 0,
+    "model_loads": 0,
+    "model_inference": 0,
+    "environment_steps": 0,
+    "training_updates": 0,
+    "author_source_edits": 0,
+    "only_new_audit_JSON_written": "/hy-tmp/resource_allocation_results/chapter06/experiments/external_learning_comparison_20261109/audit/CAPQL_retirement_review.json"
+  }
+}

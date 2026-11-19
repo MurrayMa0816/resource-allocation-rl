@@ -1,0 +1,65 @@
+{
+  "invariants": {
+    "definition_details": {
+      "reference_power_W_unchanged": true,
+      "resource_multiplier": 1.25
+    },
+    "deployment_linear_mean_snr": 21.517125686097348,
+    "deployment_linear_snr_cv": 0.7601661037531424,
+    "frame_s": 0.128,
+    "guard_reserve_s": 0.028,
+    "horizon_unchanged": true,
+    "initial_energy_budget_uJ": 600.0,
+    "native_config_validation": "passed",
+    "nominal_period_energy_uJ": 18.75,
+    "original_reward_and_observation_definitions_unchanged": true,
+    "packet_slot_s": 0.001,
+    "per_terminal_power_upper_bound_W": 0.002,
+    "period_energy_per_terminal_uJ": 0.18749999999999997,
+    "snr_db_bounds": [
+      6.0,
+      18.0
+    ],
+    "strong_noise_multiplier": 16.0,
+    "symmetric_bad_state_expected_fraction": 0.5,
+    "weak_noise_multiplier": 1.0
+  },
+  "metadata": {
+    "chapter": 2,
+    "condition_id": "resource_high",
+    "domain": "radio",
+    "family": "resource",
+    "heterogeneity_meaning": "object",
+    "level": "high",
+    "no_added_policy_observation_or_reward_shaping": true,
+    "no_environment_reset_step_training_or_policy_evaluation_executed": true,
+    "status": "prepared_physical_configuration_only_not_connected_to_training_cli"
+  },
+  "physical_config": {
+    "channel_rho": 0.8,
+    "control_and_guard_reserve_s": 0.028,
+    "crc_bits": 32,
+    "csi_complex_error_variance": 0.0625,
+    "deployment_seed": 2026102904,
+    "energy_tolerance_J": 1e-15,
+    "episode_budget_override_J": null,
+    "frame_s": 0.128,
+    "global_seed_salt": 2026102915,
+    "global_stay_probability": 0.8,
+    "groups": 100,
+    "maximum_power_W": 0.002,
+    "packet_slot_s": 0.001,
+    "payload_bytes": 512,
+    "period_quota_override_J": null,
+    "power_tolerance_W": 1e-12,
+    "quota_power_per_terminal_W": 0.00018749999999999998,
+    "reference_mean_snr_max_dB": 18.0,
+    "reference_mean_snr_min_dB": 6.0,
+    "reference_power_W": 0.001,
+    "rounds": 32,
+    "source_packets": 24,
+    "strong_noise_multiplier": 16.0,
+    "weak_noise_multiplier": 1.0
+  },
+  "schema": "allocation23-completion-physical-condition-v1"
+}

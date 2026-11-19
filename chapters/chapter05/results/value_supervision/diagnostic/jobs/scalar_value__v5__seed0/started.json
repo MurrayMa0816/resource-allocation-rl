@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-08T15:56:24.296437+00:00",
+  "pid": 3284266,
+  "job": {
+    "id": "scalar_value__v5__seed0",
+    "domain": "v5",
+    "seed": 0,
+    "arm": "scalar_value",
+    "endpoint": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/jobs/scalar_value__v5__seed0/native/checkpoint_endpoint.pt",
+    "endpoint_sha256": "e577bc56dbac9400e8dc3a7e0ba1876e3cbc5d37c42f1ad54c0da41e6aa704f1",
+    "config": "/hy-tmp/resource_allocation_results/chapter5/formal_random_5seed_100k_20261107_v2/configs/scalar_value__v5__seed0.json",
+    "config_sha256": "351a8e80465205bccaeb42755681a9b889694757490ef018b65cccbfa309a0b8",
+    "policy_rng_seed": 9065702,
+    "cases": 32,
+    "repeats": 8,
+    "horizon": 24,
+    "expected_physical_steps": 6144
+  }
+}

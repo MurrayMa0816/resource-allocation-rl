@@ -1,0 +1,40 @@
+{
+  "tables": [
+    {
+      "number": "6.1",
+      "caption": "灌溉用水分配推演主要参数与初态设置表",
+      "file": "chapters/chapter06/data/tables/table06_01.tex",
+      "sha256": "f83995b53cb90735faffc24e740112becc78a2d90d1da7f6a598f058454c95cb",
+      "current_chapter_source": "chapters/chapter06_irrigation/chapter.tex"
+    },
+    {
+      "number": "6.2",
+      "caption": "中稻生育阶段与计算参数表",
+      "file": "chapters/chapter06/data/tables/table06_02.tex",
+      "sha256": "3c16c5319989615ea0da8e81f9e4dfd980a2ae7e498448adf0fc4c1fea07a136",
+      "current_chapter_source": "chapters/chapter06_irrigation/chapter.tex"
+    },
+    {
+      "number": "6.3",
+      "caption": "相邻日期灌溉区域储水深度与灌溉用水分配量对照表",
+      "file": "chapters/chapter06/data/tables/table06_03.tex",
+      "sha256": "8925d08d99b0af6209b704fa9a491c575105b91830bb9ceba4b9ff4cbc0c6fe6",
+      "current_chapter_source": "chapters/chapter06_irrigation/chapter.tex"
+    },
+    {
+      "number": "6.4",
+      "caption": "同一天气下三档供水方案的阶段用水与产量指标对比表",
+      "file": "chapters/chapter06/data/tables/table06_04.tex",
+      "sha256": "a98b5fee8f9e54bd81f3c5d36eb8b800e99ddcd935d77ef65850f7245e4a28c2",
+      "current_chapter_source": "chapters/chapter06_irrigation/chapter.tex"
+    },
+    {
+      "number": "6.5",
+      "caption": "参考蒸散率变化前后配水方案的产量指标对比表",
+      "file": "chapters/chapter06/data/tables/table06_05.tex",
+      "sha256": "de87060514296d289369ba06410c11f829a2b91910f225f734a5bb1cabfa4013",
+      "current_chapter_source": "chapters/chapter06_irrigation/chapter.tex"
+    }
+  ],
+  "scope": "Exact currently included TeX table blocks, not an extra thesis or chapter PDF."
+}

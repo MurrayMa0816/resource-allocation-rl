@@ -1,0 +1,150 @@
+{
+  "schema": "thesis-figure-local-assets-v2",
+  "number": "2.2",
+  "caption": "BLoAR总体框架图",
+  "label": "fig:ch3-overview",
+  "directory": "chapters/chapter02_high_dimensional/figures/figure02-02_BLoAR的总体框架",
+  "current_section": "chapters/chapter02_high_dimensional/section32_method.tex",
+  "current_references": [
+    "chapters/chapter02_high_dimensional/figures/figure02-02_BLoAR的总体框架/figure.pdf"
+  ],
+  "files": [
+    {
+      "path": "README.rst",
+      "role": "documentation",
+      "bytes": 679,
+      "sha256": "d513ea07deecf4c29673e8740ba54f5c7c0d18c14fedd45eac1f9729ea4f6ee5"
+    },
+    {
+      "path": "figure.pdf",
+      "role": "inserted_pdf",
+      "bytes": 105697,
+      "sha256": "2a1eb69d70f836f91129c1361045b94780f629187d8ae074c14b65203de6957e"
+    },
+    {
+      "path": "source.drawio",
+      "role": "editable_diagram",
+      "bytes": 20412,
+      "sha256": "e387a6e6c27b6ffec42b9dca219cce6aa0abcb111c1309219ac6b1422b95517b"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 208700,
+      "sha256": "d84212e3dda77eb452209b4f66ef04cfd416cf8fb7427116390a2190483ddb2d"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 466371,
+      "sha256": "90b8df1e3e873018315eb4c94060d93aac816ff17d81cc6465cc5efe8981d7a9"
+    }
+  ],
+  "original_source_manifest": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter02_high_dimensional/figures/figure02-02_BLoAR的总体框架/original_source.json",
+  "old_references": [
+    "chapters/chapter03_high_dimensional/figures/method_A_framework.tex"
+  ],
+  "pdf_policy": "Generated directly from source.drawio with thesis fonts and calibrated 10.5bp main labels; oversized diagrams must be reflowed.",
+  "drawio_policy": "The sole editable source is source.drawio. Native shapes/text/edges; the thesis supplies figure captions.",
+  "plot_command": null,
+  "plot_output_default": null,
+  "scientific_data_changed": false,
+  "training_or_evaluation_run": false,
+  "verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_font_unification_20261105/audit",
+  "editing_source": "source.drawio",
+  "editing_format": "drawio",
+  "drawio_export": {
+    "source": "source.drawio",
+    "source_sha256": "e387a6e6c27b6ffec42b9dca219cce6aa0abcb111c1309219ac6b1422b95517b",
+    "pdf": "figure.pdf",
+    "pdf_sha256": "2a1eb69d70f836f91129c1361045b94780f629187d8ae074c14b65203de6957e",
+    "exporter": "scripts/export_method_figures.py",
+    "exporter_sha256": "653c73585d9f682ff04b504be850eb24a5dfcae919f726b8727d74a1d9d8c673",
+    "generated_utc": "2026-11-19T01:45:16.579952+00:00",
+    "font_files_sha256": {
+      "simsun.ttc": "1111e31e04a3218986616a7081dd1eef1c50144da9d15e6b22242e020b58e8bc",
+      "simhei.ttf": "336a838f4a78e150826be608dae69de59d50948c3d2b71760e096ae764154bdc",
+      "TIMES.TTF": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+      "TIMESBD.TTF": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5",
+      "TIMESI.TTF": "e7f7a88b65188328aea58670f955022e23c712f55679524729da1e4e03c49d88",
+      "TIMESBI.TTF": "3a29d114cb5229e8dbda5bef6c69be4a210a13b7277de4d66e9fc86963226f6c"
+    },
+    "diagram_vertices": 21,
+    "diagram_edges": 13,
+    "mathjax_errors": 0,
+    "expected_formulas": 20,
+    "rendered_formulas": 20,
+    "pdf_size_pt": [
+      440.7746276855469,
+      362.74273681640625
+    ],
+    "text_width_limit_cm": 15.6,
+    "applied_pdf_scale": 1.0544847235291694,
+    "native_content_clip_pt": [
+      39.0,
+      2.5,
+      457.0,
+      346.5
+    ],
+    "native_primary_text_bp": 9.95747,
+    "target_primary_text_bp": 10.5,
+    "font_policy": "SimSun / Times New Roman; SimHei group headings; 10.5bp ordinary main labels"
+  },
+  "retired_legacy_drawing_sources": {
+    "date": "2026-11-05",
+    "receipt": "docs/drawio_single_source_20261105/retirement_receipt.json",
+    "historical_source_records_are_not_active_inputs": true
+  },
+  "previous_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_figure_directory_reorganization_20261105/audit/integrated_ch123",
+  "historical_source_archive": "/hy-tmp/resource_allocation_results/thesis_figure_history_archive_20261105/history/chapters/chapter02_high_dimensional/figures/figure02-02_BLoAR的总体框架",
+  "previous_font_verification_evidence": "/hy-tmp/resource_allocation_results/thesis_drawio_single_source_20261105/audit/drawio_workflow_verification.json",
+  "font_policy": {
+    "ordinary_chinese": "SimSun (宋体)",
+    "ordinary_latin_and_digits": "Times New Roman",
+    "chinese_group_headings": "SimHei (黑体), used sparingly",
+    "ordinary_main_text_final_pdf_bp": 10.5,
+    "secondary_data_plot_ticks_and_legends_bp": 9.5,
+    "mathematics": "MathJax TeX for drawio; Computer Modern mathtext for plots; natural superscript/subscript sizing",
+    "diagram_source_font_size_gui_px": 14,
+    "diagram_export": "Measured primary ordinary text calibrated to10.5bp, natural-size inclusion, maximum width15.6cm; reflow overwide figures instead of shrinking text",
+    "font_directory": "assets/fonts/windows"
+  },
+  "font_unification_record": "docs/figure_font_unification_20261105/PRESENTATION.json",
+  "writing_clarity_revision_20261112": {
+    "audit": "docs/chapter2_writing_revision_five_rounds_20261112/figure_round01_revision.json",
+    "stage": "round01",
+    "source_sha256": "455295d0b193ff29a48656509888cca34743b34cf3387b4019b82cf5bfb7e2b5",
+    "pdf_sha256": "2857cccf42eb993bbddf6f34fc2eec881e4a3ab4bfcfde7635ecfcb0f7f1d574",
+    "changes": [
+      "对象输入与公共输入分行解释。",
+      "给定的当期资源分配总量保留原q_t输入与原有数学路径。"
+    ],
+    "math_fragments_unchanged": true,
+    "main_font_bp": 10.5,
+    "natural_figure_size_unchanged": true,
+    "whole_manuscript_build_run": false
+  },
+  "wording_precision_revision_20261112": {
+    "audit": "docs/chapter2_wording_precision_five_rounds_20261112/initial_figure_changes.json",
+    "table_item": 28,
+    "only_visible_target_label_changed": true,
+    "geometry_style_and_math_unchanged": true,
+    "source_sha256": "4227f573fcc48ba1a9149a61c3d8de448378b1d067f417d52c2ad5826212f598",
+    "pdf_sha256": "84a600b23ec7395d0359cf359ef9e29133bb8988bc8ce749622e6a6d9341a650"
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "b17d88d9b94b9a203efe283f173b7c66bf2986ffca3f6102281ee54573009700",
+    "figure.svg": "f39be80f98f7326f53bd9f66c586e56117687b1722e1017a837c73a7a77d796a",
+    "figure.png": "1a9bdc9a3c3057a81e402e8f2dbb9c6f7cd52bcf114b11850fad68f836f91263"
+  },
+  "rl_terminology_wording_20261114": {
+    "selected_outputs_sha256": {
+      "figure.pdf": "b17d88d9b94b9a203efe283f173b7c66bf2986ffca3f6102281ee54573009700",
+      "figure.svg": "f39be80f98f7326f53bd9f66c586e56117687b1722e1017a837c73a7a77d796a",
+      "figure.png": "1a9bdc9a3c3057a81e402e8f2dbb9c6f7cd52bcf114b11850fad68f836f91263"
+    },
+    "export_evidence_files": [],
+    "evidence_sha256": {},
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true,
+    "scientific_execution": 0
+  }
+}

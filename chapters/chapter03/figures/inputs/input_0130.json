@@ -1,0 +1,72 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "text_anchor_max_shift_bp": 0.07425000000000409,
+  "text_anchor_tolerance_bp": 0.1,
+  "scientific_before_sha256": "69781d3644109985b18f0009deca9773b7a6d5579ba718351def076f8256a1b9",
+  "scientific_after_sha256": "69781d3644109985b18f0009deca9773b7a6d5579ba718351def076f8256a1b9",
+  "labels": [
+    {
+      "before": "初始柴油分配总额度（L）",
+      "after": "初始柴油总额度（万 L）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        208.7416338582678,
+        508.70202157728943,
+        316.37499999999994,
+        27.296875
+      ]
+    },
+    {
+      "before": "相邻两期干扰不变概率（%）",
+      "after": "相邻两轮干扰不变概率（%）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        786.3533464566931,
+        2212.7642063383764,
+        373.75,
+        27.359375
+      ]
+    },
+    {
+      "before": "后期需求\n移至中期",
+      "after": "后段新需求\n提前8步",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        1041.3213465981728,
+        158.90553497020755,
+        145.625,
+        57.87187500000002
+      ]
+    },
+    {
+      "before": "不学习各期\n资源分配总量",
+      "after": "不训练\n总量决策分支",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        1373.1446850393702,
+        59.505146577289395,
+        174.75,
+        58.546875
+      ]
+    }
+  ],
+  "axis_formatter": [
+    {
+      "axis_index": 2,
+      "numeric_ticks_before": [
+        16128.0,
+        20160.0,
+        24192.0
+      ],
+      "divisor": 10000
+    }
+  ],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

@@ -1,0 +1,17 @@
+{
+  "nonterminal_reward_count": 0,
+  "completed_episodes": 4192,
+  "terminal_feedback_count": 4192,
+  "target_updates": 1048,
+  "behavior_updates": 4192,
+  "target_minibatches": 176600,
+  "behavior_minibatches": 118806,
+  "target_actor_parameter_delta": 2.322603464126587,
+  "target_critic_parameter_delta": 1.0050681829452515,
+  "maximum_behavior_delta": 0.13147810101509094,
+  "maximum_old_rows_in_target_update": 96,
+  "checkpoint_roundtrip_exact": true,
+  "sample_references_in_target_batches": 201120,
+  "behavior_reference_order": "author_main_pre_target_update_reference",
+  "gamma_note": "finite_horizon gamma defaults 1.0; author MuJoCo default 0.99; configurable"
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "reasonable89-formal-all9GPU-device-policy-v1",
+  "status": "PREDECLARED_BEFORE_FORMAL_TRAINING_AFTER_HARDWARE_ENGINEERING",
+  "registered_at_utc": "2026-11-08T18:29:37Z",
+  "supersedes_for_future_formal_only": {
+    "path": "final_device_policy.json",
+    "sha256": "e48b55b99049c83a7ff75f470962d766b086482b70d02ab84ca4abc54bb278a0",
+    "old_retained": true
+  },
+  "hardware_basis": {
+    "gpu_index": 0,
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "gpu_uuid": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+    "total_MiB": 24576,
+    "observed_before_engineering_used_MiB": 1,
+    "cgroup_CPU_quota_cores": 42
+  },
+  "measured_engineering": {
+    "report": "engineering/M64_device_benchmark/result.json",
+    "sha256": "c50120b21a853462277391c79ed9d3db6efb9c91f1ccc6d78f899af175379f8a",
+    "concurrent_GPU_jobs": 9,
+    "fixed_training_episodes_each": 40,
+    "all_exit_zero": true,
+    "peak_total_NVML_MiB": 3900,
+    "paired_same_seed_CPU_seconds": 61.51179580390453,
+    "paired_same_seed_GPU_seconds": 57.05316009372473,
+    "paired_actor_optimizer_steps_both": 172,
+    "meaning": "Short engineering throughput/capacity measurement under native updates and M64DEV. Not a claimed full-training speed multiplier. No model quality used for device choice."
+  },
+  "prospective_formal": {
+    "max_parallel": 9,
+    "all_jobs_device": "cuda",
+    "CUDA_VISIBLE_DEVICES": "GPU-a3130b13-8288-caaa-0f96-f2916c92d8e3",
+    "logical_cuda_device": "cuda:0",
+    "CPU_sampling": true,
+    "CPU_threads_per_worker": 1,
+    "distinct_CPU_affinity": "0..8 per9job mapping declared in launch registration",
+    "budgets_m3": [
+      3500000,
+      4000000,
+      4500000
+    ],
+    "seeds": [
+      6400,
+      6401,
+      6402
+    ],
+    "mixed_device_model_selection": false
+  },
+  "fallback": "No silent scientific retry or partial continuation. Engineering OOM/device failures would require recorded failed attempt plus prospectively documented replacement; immutable completed jobs retained.",
+  "formal_started": false,
+  "new_TEST_opened": false
+}

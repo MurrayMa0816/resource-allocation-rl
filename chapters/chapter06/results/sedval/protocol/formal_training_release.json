@@ -1,0 +1,42 @@
+{
+  "schema": "reasonable89-root-explicit-formal9-training-release-v1",
+  "status": "AUTHORIZED_FRESH9_FORMAL_TRAINING_TEST_CLOSED",
+  "at_utc": "2026-11-08T18:40:22.791966+00:00",
+  "user_scope": "Full autonomous diagnose,repair,train,evaluate and updateChapter6 with genuine demonstrated capabilities; no further permission required.",
+  "registration_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/protocol/training_registration.json",
+  "registration_sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+  "scientific_source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "independent_final_review": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/formal140_final_independent_review.json",
+    "sha256": "9c1bb7391e4d49a1d32f5cdc7adcc957ed639355a7ec6e9b74794f6b092d343a",
+    "status": "PASS"
+  },
+  "adopted_application_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/application_adoption_decision.json",
+  "adopted_application_sha256": "0f05b4fae56f451f9fa53f3dc238d0d38b249295d887b97da9eb30f6d3dcc7a5",
+  "device_policy_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/final_device_policy_all9GPU.json",
+  "device_policy_sha256": "c9b5ed33c88cdc3470cd1137a677783f4164cf6583e44d04eb722652bf790793",
+  "jobs": 9,
+  "max_parallel": 9,
+  "fixed_endpoint_episode": 3200,
+  "seed_list": [
+    6400,
+    6401,
+    6402
+  ],
+  "budgets_m3": [
+    3500000,
+    4000000,
+    4500000
+  ],
+  "operator": "fixed64_antithetic_mean_feasible_actions",
+  "training_policy": "native stochastic complete joint Gaussian; unchanged learner",
+  "hold_archive": {
+    "original_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/hold_formal_pending_combined_DEV.json",
+    "sha256": "102b00c77cf476843e1f836f5dbbef94596a41cb50ff01aab336537a1d173be4",
+    "archive": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/history/hold_formal_pending_combined_DEV_before_formal_release.json"
+  },
+  "old39_native_mean_tail_candidates_accepted": 0,
+  "formal_start_authorized": true,
+  "TEST_release_authorized": false,
+  "post_training_action": "Finish all9 fixed endpoints then source/numeric/registeredDEV review before separate root TEST release; do not select checkpoints or extend afterTEST."
+}

@@ -1,0 +1,69 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/source/worker.py\", line 509, in main\n    raise AssertionError('Read-only imported source changed during execution')\nAssertionError: Read-only imported source changed during execution\n",
+  "physical_counts": {
+    "train": {
+      "attempted_physical_steps": 100608,
+      "successful_physical_steps": 100608,
+      "completed_physical_episodes": 4192,
+      "guarded_complete_episodes": 4192
+    },
+    "mean": {
+      "attempted_physical_steps": 101376,
+      "successful_physical_steps": 101376,
+      "completed_physical_episodes": 4224,
+      "guarded_complete_episodes": 4224
+    },
+    "stochastic": {
+      "attempted_physical_steps": 811008,
+      "successful_physical_steps": 811008,
+      "completed_physical_episodes": 33792,
+      "guarded_complete_episodes": 33792
+    }
+  },
+  "actual_total_successful_physical_steps": 1012992,
+  "elapsed_seconds": 4522.93539775908,
+  "automatic_retry": false,
+  "exact_resume_available": false,
+  "source_binding_before": {
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/chapter4_full_spend_env/__init__.py": "ee873fe851b9aec615d6a1f1abc8f0200ff8a8ef674d63024d1021e9ac0fdc53",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/chapter4_full_spend_env/bootstrap.py": "a01a88d20007a58468a39fbfe2164d316c8774e6cdcd71da918f35e72c75a8cd",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/chapter4_full_spend_env/env_adapter.py": "81aff57b87d5f6416005aca52cfca29e73a6a2d4b114b620b69d406eae5f1d22",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/chapter4_full_spend_env/native.py": "7f8f861aa46734a5c8f3ef63d57a9a508749fbfd766991ad96123a7a75394cbf",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/chapter4_full_spend_env/task.py": "f880875a62693ffc00c57161cd4284dbe34f1d73750be3477b48068845920e47",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/__init__.py": "7dddf18afed5a90e095334b93efd32cfedaed71490443d40ce810e454f4bf256",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/__init__.py": "b1d83ac57e3842515e92fb6a6c5652c4f0b12d7c4530c0c4acb924685cd32465",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_emergency/__init__.py": "23e9510b6ddebd1a02142eb417cf8995b036f2c22c4fb3b0a4f22e663975a0d9",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_emergency/arrivals.py": "d3e1fdb1edc9d0b4187572cd5d17a1caded191879ef8934c3ad13163f35e4fe9",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_emergency/config.py": "5eacc194cd19148816f09acf0af06170fa122e4e7c46d12f5a63fa1c6340d3f6",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_emergency/core.py": "d0750b9dab693284183fb75f6505c03b08a237dd490c6ed12af5434a2c5c0da6",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_radio/__init__.py": "23e9510b6ddebd1a02142eb417cf8995b036f2c22c4fb3b0a4f22e663975a0d9",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_radio/codec.py": "3f4f6e2b6f57379cde248342aa314e2b9be89b1eb1c31a7c6c5514738c689f9e",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_radio/config.py": "52e4ce689698aa5c4021e79557c898752e8e931cd8fedf31830e1eb6453e1476",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_radio/env.py": "ac6b154ade5b1b5ccbf7924723c206dd0a0d1c09dbb66d119c66e7303354287f",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/_radio/quality.py": "bf875f3dea3181ce56bf5cd43f810a5e8178cf1216ddbe7e890930273f736188",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/emergency.py": "739792e2c2c9e7e7692b4b563f68cef8118e2f905b53519d64cf61b4d90ac233",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/environments/radio.py": "7c4d1502a7474bafdbd15026a6dda75e977eb225fb4bdf433837b623fafe0933",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/full_spend.py": "5b9f5d47569742730c9d12bdc8037e3a0d26b140c34fdadd3f055227d56a0269",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/image_data.py": "1000dfa1de02f88499180cd1e0b218e847bde843ffea50145b80c60d65e3e769",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/io.py": "8ebf7d2f82e44206af9b64972488893b1cc7f5ee34c4cb8efe60b26ae17017fa",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/learning.py": "87f5e497befdbedb7a3f67bbafc19826eff1c5a2b7eeb10e84a27cdec4fdd04c",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/methods/__init__.py": "894e67cae8579b43c2ec7a8f80902b7fcbe8d5a3cbaced1bed6f854724f9c72e",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/methods/constraints.py": "617c4e1d3e2bad67f4320b2c145becf68fd1234b1f669ea428070f756d136b6e",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/methods/method_a.py": "22e07b6a737d92e9c41c545ee952e6d12de6cb657d9d24cf610308031f6298ac",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/methods/method_b.py": "4f981fffe0293f964cee8c33d759de26b83c3c59b68c09886265ad8f9f9875a4",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/methods/networks.py": "a542f91b9a73c77af19df16efe1f890f0e47d3b4ffb49ec14f77a6fb46682875",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/methods/policy.py": "321fc27f42137f1965d153fdc7bf9ae76700ca34beabbb27cf64b0053a6a09d8",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/spec.py": "136f3e3970592c65215a2a4615ef1648cbf042c163869debd7269bb8641680ff",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/state.py": "d93d58ad5d6d4619308b0481641946fa6fcc59b0bf2de26f0fdb68312d8e1341",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/environment/release/allocation23/task.py": "5dafe3eef027cb36be9dcc45a39ae631a45423c129b6be3f654e0799966201ef",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/props_pgr/formal_support.py": "c1600f59668b6ea081eaa100feca66a9540c2ba1f4765a956694d97e42786cab",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/props_pgr/matched_agent.py": "84005618ac6c7927a65fff00ee6ef5f22230e1ee6c0d568895a43d641d676fc9",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/props_pgr/native_loop.py": "0c3656266e1f11359997d649fc99e9f8cb0b15cccdd731ed4b651315e5e86662",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/props_pgr/pgr_adaptations.py": "092f59a98dc79714d8936aab0247f2c407eaf3f2bdd3944269971d63a7c96eb3",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/props_pgr/pgr_native_runner.py": "6cd50688b6e447fcb5be424d576b35a014cae0d083331a11692f7217121d5148",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/double_random_formal_20261107/source/props_pgr/runtime_hooks.py": "218904066e1d4b43ce652fc67a542c72667b2bd6f16699eb7796b7385ac8c5e0",
+    "/hy-tmp/resource_allocation_results/chapter04/experiments/props_stochastic_curve_20261109_113430/source/worker.py": "7a01c742960c2624c540e0673acf029c94c800dbb982bd4521a0d06267aec899",
+    "/root/resource_allocation_run_storage_20261101/chapter4_recent_baselines_formal_20261102_source/chapter4_recent_baselines/__init__.py": "098274568b4dce335309eddfc73ed77b652423b081b59d0a672e51fd3899b1f3"
+  }
+}

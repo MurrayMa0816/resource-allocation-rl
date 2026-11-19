@@ -1,0 +1,68 @@
+{
+  "schema": "thesis-flat-render-support-v1",
+  "purpose": "短路径保存原绘图链文件；virtual为原fs内路径，仅在复绘临时工作区恢复。",
+  "restore_helper": "scripts/restore_render_support.py",
+  "restore_helper_sha256": "4577fb4dc07bac98615aab9560245441603618f57edfbe60ee6661c074f839cf",
+  "files": [
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/numeric_artist_values_before_after.json",
+      "stored": "files/f0001_numeric_artist_values_before_af.json",
+      "bytes": 512345,
+      "sha256": "96efb56f9b61cd81be964fee5d8fdc9142219912c617011773e63250786e3365"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/parent_renderer.py",
+      "stored": "files/f0002_parent_renderer.py",
+      "bytes": 11221,
+      "sha256": "04db643f1b8423c28155edc6fe58492477118e23ac8d21d2a713baf3a6d32c5b"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/plotted_points.csv",
+      "stored": "files/f0003_plotted_points.csv",
+      "bytes": 315650,
+      "sha256": "ef1b448fe1a25eaec2636f25b794c3bafaf94a088d284add52f4d480c523e682"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/accepted_inputs/render_geometry.json",
+      "stored": "files/f0004_render_geometry.json",
+      "bytes": 12585,
+      "sha256": "67dc736de15ef2be52a837b7cd1169a400fdc3344fb838e938b5181eb49b1ad7"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/data.csv",
+      "stored": "files/f0005_data.csv",
+      "bytes": 13251157,
+      "sha256": "aeb379cdbf58fa33236d962016842202fb20572a83bea1f887a7a84f108c0436"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_per_seed.csv",
+      "stored": "files/f0006_exceedance_per_seed.csv",
+      "bytes": 3102,
+      "sha256": "c0f7bde80eaa0413a3779286632e9f93e748b0ee67699e76a03608123f4fc13d"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/exceedance_summary.csv",
+      "stored": "files/f0007_exceedance_summary.csv",
+      "bytes": 1684,
+      "sha256": "b9a51bf31ba8e2c9e47c973e1daeb71dad1baa4d9b3f10f26033cf49c1f7e579"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/assets/figure48/plot.py",
+      "stored": "files/f0008_plot.py",
+      "bytes": 8802,
+      "sha256": "71070ae11666ba3bf07cd8c6e4159f50b563af2a651cb839c9fea559aa96ac3c"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/paths.json",
+      "stored": "files/f0009_paths.json",
+      "bytes": 870,
+      "sha256": "fe4424cbb1cca53c484d84363f1d0c107fbeca8fca97758ac3909981dcb4b2d2"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/paper_revisions/diagnostic_simplification_20261110_011802/runtime/mpl/fontlist-v390.json",
+      "stored": "files/f0010_fontlist-v390.json",
+      "bytes": 165561,
+      "sha256": "1b9a688ff3526e6e83629b7f67d659d80fa6dbe066673c75fc92e4d1c5d18a57"
+    }
+  ]
+}

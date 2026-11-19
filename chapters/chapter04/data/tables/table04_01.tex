@@ -1,0 +1,24 @@
+\begin{table}[!htb]
+ \centering
+ \caption{TRoC主要更新参数表}
+ \label{tab:ch4-reuse-training-parameters}
+ \begingroup\small
+ \setlength{\tabcolsep}{3.5pt}
+ \renewcommand{\arraystretch}{1.12}
+ \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}X}
+ \toprule
+参数 & 取值 & 参数 & 取值 \\
+ \midrule
+策略初始学习率 & \(3\times10^{-4}\) & 价值网络学习率 & \(10^{-3}\) \\
+预热阶段每批轨迹数 & 8 & 随后每批轨迹数 & 新旧轨迹各4条 \\
+每批更新轮数上限 & 4 & 小批量大小 & 64条转移记录 \\
+预热阶段裁剪系数 & 0.2 & 随后裁剪系数\(\epsilon\) & \(0.2/1.5\) \\
+折扣因子 & 1 & 校正衰减系数 & 1 \\
+V-trace截断上限 & 1 & 梯度范数上限 & 0.5 \\
+早停阈值\(K_{\mathrm{stop}}\) & 0.12 & 策略学习率范围 & \([10^{-5},10^{-3}]\) \\
+调整指标下阈值 & \(\epsilon/4\) & 调整指标上阈值 & \(\epsilon/2\) \\
+学习率调整倍数 & 1.03 & 优化器 & Adam \\
+ \bottomrule
+ \end{tabularx}
+ \endgroup
+\end{table}

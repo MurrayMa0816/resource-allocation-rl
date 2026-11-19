@@ -1,0 +1,149 @@
+{
+  "figure": "5.4",
+  "entrypoint": "plot.py",
+  "returncode": 0,
+  "original_native_guards_retained": true,
+  "current_formal_outputs_preserved": true,
+  "final_export_receipt": {
+    "schema": "experiment-wording-final-export-20261119",
+    "figure": "5.4",
+    "status": "PASS",
+    "native_renderer_guards_preserved": true,
+    "native_output_checked_before_final_text_layer": true,
+    "approved_review_rgb_exact_scales": [
+      2,
+      4
+    ],
+    "canvas_fonts_axes_data_unchanged": true,
+    "axis_count": 4,
+    "legend_count": 0,
+    "svg_proof": {
+      "svg": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/wording_layer_20261119/reproduction_final/figure.svg",
+      "status": "updated",
+      "mode": "glyph_paths",
+      "axis_edits": 4,
+      "legend_edits": 0,
+      "changed_axis_labels": 4,
+      "axis_count": 4,
+      "changed_legend_labels": 0,
+      "sha256_before": "fbab5f136249b47b362df36d07306ba03acd28e32b290c2960b7826bc5f583c1",
+      "sha256_after": "158219b8d743a3f304018424301d795f319004eaa0b103ab11fee0b43f4a56bb",
+      "target_group_ids": [
+        "text_18",
+        "text_28",
+        "text_38",
+        "text_6"
+      ],
+      "non_target_xml_unchanged": true,
+      "all_path_geometry_unchanged": true,
+      "page_geometry_unchanged": true,
+      "editable_text_attributes_unchanged": false,
+      "glyph_groups": [
+        {
+          "text_group_id": "text_6",
+          "old_parent_x_pt": "69.809801",
+          "new_parent_x_pt": "90.809801",
+          "parent_y_pt": "191.196535",
+          "scale_unchanged": [
+            "0.105",
+            "-0.105"
+          ],
+          "removed_glyphs": [
+            "SimSun-73af",
+            "SimSun-5883",
+            "SimSun-4ea4",
+            "SimSun-4e92"
+          ],
+          "source_glyph_uses": 14,
+          "target_glyph_uses": 10,
+          "removed_advance_font_units": 400,
+          "remaining_glyph_x_shift_font_units": -400,
+          "center_delta_pt": "0",
+          "baseline_delta_pt": "0",
+          "font_definitions_byte_unchanged": true
+        },
+        {
+          "text_group_id": "text_18",
+          "old_parent_x_pt": "288.077517",
+          "new_parent_x_pt": "309.077517",
+          "parent_y_pt": "191.196535",
+          "scale_unchanged": [
+            "0.105",
+            "-0.105"
+          ],
+          "removed_glyphs": [
+            "SimSun-73af",
+            "SimSun-5883",
+            "SimSun-4ea4",
+            "SimSun-4e92"
+          ],
+          "source_glyph_uses": 14,
+          "target_glyph_uses": 10,
+          "removed_advance_font_units": 400,
+          "remaining_glyph_x_shift_font_units": -400,
+          "center_delta_pt": "0",
+          "baseline_delta_pt": "0",
+          "font_definitions_byte_unchanged": true
+        },
+        {
+          "text_group_id": "text_28",
+          "old_parent_x_pt": "69.809801",
+          "new_parent_x_pt": "90.809801",
+          "parent_y_pt": "396.189222",
+          "scale_unchanged": [
+            "0.105",
+            "-0.105"
+          ],
+          "removed_glyphs": [
+            "SimSun-73af",
+            "SimSun-5883",
+            "SimSun-4ea4",
+            "SimSun-4e92"
+          ],
+          "source_glyph_uses": 14,
+          "target_glyph_uses": 10,
+          "removed_advance_font_units": 400,
+          "remaining_glyph_x_shift_font_units": -400,
+          "center_delta_pt": "0",
+          "baseline_delta_pt": "0",
+          "font_definitions_byte_unchanged": true
+        },
+        {
+          "text_group_id": "text_38",
+          "old_parent_x_pt": "288.077517",
+          "new_parent_x_pt": "309.077517",
+          "parent_y_pt": "396.189222",
+          "scale_unchanged": [
+            "0.105",
+            "-0.105"
+          ],
+          "removed_glyphs": [
+            "SimSun-73af",
+            "SimSun-5883",
+            "SimSun-4ea4",
+            "SimSun-4e92"
+          ],
+          "source_glyph_uses": 14,
+          "target_glyph_uses": 10,
+          "removed_advance_font_units": 400,
+          "remaining_glyph_x_shift_font_units": -400,
+          "center_delta_pt": "0",
+          "baseline_delta_pt": "0",
+          "font_definitions_byte_unchanged": true
+        }
+      ]
+    },
+    "png_size": [
+      1842,
+      1861
+    ],
+    "png_dpi": 300,
+    "png_rendering": "Approved vector PDF, same DPI and canvas pixel dimensions; only unpainted fractional-edge pixels omitted",
+    "outputs_sha256": {
+      "figure.pdf": "7352c8b492209cc0bca979ada508157173c58e31a90d9675239e691e9c73203a",
+      "figure.svg": "158219b8d743a3f304018424301d795f319004eaa0b103ab11fee0b43f4a56bb",
+      "figure.png": "09e5c691f23577ec9276575b72199c659f6eec10e82b2ebe80e03302d261c1ed"
+    },
+    "scientific_execution": 0
+  }
+}

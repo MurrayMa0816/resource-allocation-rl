@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "id": "original_feedback__v5__seed7101",
+  "domain": "v5",
+  "method": "original_feedback",
+  "seed": 7101,
+  "environment_steps": 768,
+  "model_loads": 1,
+  "cases": 32,
+  "phase": "dev",
+  "training_steps": 0,
+  "new_TEST_cases": 0,
+  "checkpoint": "/hy-tmp/resource_allocation_results/chapter04/experiments/lr_feedback_development_20261109_155109/jobs/original_feedback__v5__seed7101/checkpoint_final.pt",
+  "checkpoint_sha256": "7295e42d39d496633d52e674b9e48ff1ae82fb3c5543973c36292645680c6dd4",
+  "original_final_DEV_cases": 32,
+  "casewise_comparison_pass": true,
+  "casewise_exact_native_returns": 32,
+  "maximum_native_return_absolute_error": 0.0,
+  "maximum_score_x100_absolute_error": 0.0,
+  "source_unchanged": true,
+  "model_unchanged": true,
+  "resource_guard_pass": true,
+  "resource_audit_stream_sha256": "acca7a5c9cd450ab3c77ea783cd2535ca6431db4ad10ecd733d8a7edd3e4bcb9",
+  "summary": {
+    "training_step": 49152,
+    "phase": "dev",
+    "paths": 32,
+    "evaluation_environment_steps": 768,
+    "native_mean": 0.7936125962096507,
+    "native_std": 0.05740644838319452,
+    "score_x100_mean": 79.36125962096507,
+    "minimum": 0.6902739940300645,
+    "maximum": 0.9122108610640687
+  },
+  "elapsed_seconds": 2.650082007050514,
+  "data_digest_verification": {
+    "hits": 0,
+    "misses": 0,
+    "final_full_rereads": 0,
+    "records": {},
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "0d4d7fa43b7c19989ebf926b9cf9bee2ff85055f8dba49c0548015300e6d89b9",
+    "evaluation_paths.csv.gz": "8ed0a92117f846724107e1b9423830a3516b3b6df8d525606e2a93a3c37f6a24",
+    "protocol.json": "4dc90e01afcb2746e1c129717876ae1b21cf299509c32f3367790326d39d5268",
+    "resource_episodes.csv.gz": "d35245b9359e37b1debfdebf8152a83d056b4956bdd7d7ad9d5e88b37dbeaef9"
+  }
+}

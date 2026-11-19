@@ -1,0 +1,16 @@
+{
+  "status": "FORMAL9_CONTROLLER_STARTED_TEST_CLOSED",
+  "at_utc": "2026-11-08T18:41:33.151415+00:00",
+  "pid": 3837698,
+  "start_ticks": 6205784456,
+  "argv": [
+    "/usr/local/bin/python3",
+    "-B",
+    "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/execution/train_final_M64_controller.py"
+  ],
+  "controller_sha256": "d6197292aba5ee34321e3206ea077f0c62b5943cd3ac5f7c1d2bd13e93a32ed0",
+  "formal_training_release_sha256": "c23020934e032135f4f1804b5d0c730cbc12a2d8d5e71b47f1e123a421a2529e",
+  "registration_sha256": "433f5b5f5d98860f02519683670aa80d6dd2c820ed1f2ae76628e90485d05a78",
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "formal_TEST_opened": false
+}

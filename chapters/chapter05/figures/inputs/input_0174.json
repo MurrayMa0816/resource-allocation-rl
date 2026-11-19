@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "outputs": {
+    "accepted_parent_reproduction": {
+      "figure.pdf": {
+        "sha256": "98493cfddbdf84a8a6682881f754820b23bce86f4b92ce20e41e9ed3ec315ba3",
+        "accepted_sha256": "0f4ee121994243b6ee5af74f7b14a513cc2cf4a3190601c4939450cf5fdbd6d1",
+        "bytes_equal": false,
+        "decoded_streams_text_vectors_and_300dpi_pixels_equal": true
+      },
+      "figure.png": {
+        "sha256": "48a2108710609724b1dbb66d31b5abb3a4f64175eee677b03ba6869203e1546e",
+        "accepted_sha256": "48a2108710609724b1dbb66d31b5abb3a4f64175eee677b03ba6869203e1546e",
+        "bytes_equal": true
+      }
+    },
+    "intentional_label_revision": true,
+    "outputs_sha256": {
+      "figure.pdf": "60505f3ee32d0c3016215351bb10d880d2cbc9c8d2812d08ef65c66b9f23f7fe",
+      "figure.svg": "db5060da8afcad9b73f17c899dbe351ed8ddc2514df71bd590f94afc39fa71de",
+      "figure.png": "f3e17115184e349c2c9cb79a71dc8e6b26a22c244f07ce725f92b907bb74da33"
+    },
+    "final_label_proof": "rl_wording_label_proof.json"
+  },
+  "historical_paths_rebased_locally": true,
+  "external_source_reads_forbidden": true,
+  "science_runs": 0
+}

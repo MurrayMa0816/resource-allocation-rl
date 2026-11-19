@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "number": "3.6",
+  "restored_axes_mm": [
+    59.71280923952941,
+    51.44177823
+  ],
+  "canvas_mm": [
+    156.0,
+    151.86110631777532
+  ],
+  "all_original_CSV_arrays_SHA_exact": {
+    "display_aggregates.csv.gz": "29d14f20137484ccd82d2bc749b68890f1641ca177f643ffe7a43fd74c0c419e",
+    "display_aggregates.csv": "25bbac2f0af47bf8144c2e4383e204aad395ee11334a8ca1cd80c4e7d74fd8cd",
+    "display_seed_data.csv": "531f1aecc3c58b82c491571dacf1cfef32c2e3da8c91a965060b6cb480fc5e52",
+    "full_minus_pace.csv": "f33bbcb1dfd5600fa2bcf4f9a7a63dc537cf4f859cc9bf73ced5d44860acc629",
+    "data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+    "replot_sources/parent/display_aggregates.csv.gz": "29d14f20137484ccd82d2bc749b68890f1641ca177f643ffe7a43fd74c0c419e",
+    "replot_sources/parent/display_aggregates.csv": "25bbac2f0af47bf8144c2e4383e204aad395ee11334a8ca1cd80c4e7d74fd8cd",
+    "replot_sources/parent/display_seed_data.csv": "531f1aecc3c58b82c491571dacf1cfef32c2e3da8c91a965060b6cb480fc5e52",
+    "replot_sources/parent/full_minus_pace.csv": "f33bbcb1dfd5600fa2bcf4f9a7a63dc537cf4f859cc9bf73ced5d44860acc629",
+    "replot_sources/parent/data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+    "replot_sources/selection/display_aggregates.csv.gz": "29d14f20137484ccd82d2bc749b68890f1641ca177f643ffe7a43fd74c0c419e",
+    "replot_sources/selection/display_aggregates.csv": "25bbac2f0af47bf8144c2e4383e204aad395ee11334a8ca1cd80c4e7d74fd8cd",
+    "replot_sources/selection/display_seed_data.csv": "531f1aecc3c58b82c491571dacf1cfef32c2e3da8c91a965060b6cb480fc5e52",
+    "replot_sources/selection/data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b",
+    "replot_sources/selection/full_minus_pace.csv": "f33bbcb1dfd5600fa2bcf4f9a7a63dc537cf4f859cc9bf73ced5d44860acc629",
+    "replot_sources/selection/inputs/data.csv.gz": "15539369343c4ba35f5db94401304cb4323cd6e05ddbdd11ffcbcce5ffc6a88b"
+  },
+  "all_scientific_artist_arrays_styles_equal": true,
+  "all_original_PDF_text_font_sizes_equal": true,
+  "xlabel_to_legend_ink_bp": 15.0,
+  "xlabel_to_legend_text_frame_bp": 13.761627197265625,
+  "ink_DPI": 720,
+  "legend_to_file_bottom_mm": 2.0000071207682293,
+  "subtitle_to_file_top_mm": 1.4999935653474594,
+  "upper_xlabel_to_lower_subtitle_bp": 12.0,
+  "source_restoration_phase_verified_before_spacing": "/hy-tmp/resource_allocation_results/chapter03/layout_restore_20261111/audit/stat_native_stage2_verified.json",
+  "scientific_execution": 0,
+  "builds": 0,
+  "legend_internal_row_spacing_exact_to_original": true,
+  "SVG_random_IDs_fixed_without_artist_geometry_changes": true
+}

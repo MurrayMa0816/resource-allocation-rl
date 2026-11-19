@@ -1,0 +1,138 @@
+{
+  "schema": "chapter3-integrated-online-candidates-v1",
+  "success": true,
+  "method": "gradient_ppo",
+  "domain": "radio",
+  "seed": 3,
+  "storage_contract": {
+    "profile": "lean",
+    "version": 1,
+    "training_numeric_steps_episodes_update_metrics": "complete gzip CSV",
+    "evaluation_numeric_steps_and_path_summaries": "complete gzip CSV",
+    "native_replay_full_spend_policy_rng_gates": "every evaluated path; unchanged",
+    "per_step_array_sha256_saved": false,
+    "initial_development_arrays_saved": false,
+    "representative_path_indices": [
+      0
+    ],
+    "representative_capture_phases": [
+      "endpoint_development",
+      "independent_final"
+    ],
+    "representative_arrays": [
+      "public_observations",
+      "latent_actions",
+      "physical_actions"
+    ],
+    "model": "one fixed endpoint with the native save/load fields; no periodic checkpoints"
+  },
+  "training_steps": 100608,
+  "training_episodes": 3144,
+  "development_environment_steps": 50944,
+  "evaluation_validation": {
+    "evaluation_calls": 199,
+    "evaluated_paths": 1592,
+    "native_replayed_paths": 1592,
+    "full_spend_checked_paths": 1592,
+    "retained_path_summary_rows": 1592,
+    "retained_numeric_step_rows": 50944,
+    "policy_normalization_pending_private_rng_isolation_checks": 199,
+    "global_rng_preservation_scopes": 199,
+    "representative_path_indices": [
+      0
+    ]
+  },
+  "independent_holdout_paths": 0,
+  "engineering_gate": false,
+  "initial_development": {
+    "training_step": 0,
+    "evaluation_kind": "development",
+    "paths": 8,
+    "evaluation_environment_steps": 256,
+    "native_mean": 0.2889966357311281,
+    "native_std": 0.11781976875506803,
+    "min_return": 0.05873668939409028,
+    "max_return": 0.4343223790913109
+  },
+  "endpoint_development": {
+    "training_step": 100608,
+    "evaluation_kind": "development",
+    "paths": 8,
+    "evaluation_environment_steps": 256,
+    "native_mean": 0.3848670702367548,
+    "native_std": 0.13725430618500464,
+    "min_return": 0.10149999025680836,
+    "max_return": 0.532796478006522
+  },
+  "reloaded_development": {
+    "training_step": 100608,
+    "evaluation_kind": "endpoint_reload",
+    "paths": 8,
+    "evaluation_environment_steps": 256,
+    "native_mean": 0.3848670702367548,
+    "native_std": 0.13725430618500464,
+    "min_return": 0.10149999025680836,
+    "max_return": 0.532796478006522
+  },
+  "endpoint_reload_gate": {
+    "status": "PASS",
+    "paths": 8,
+    "max_native_return_error": 0.0,
+    "same_path_seeds": true,
+    "physical_actions_bitwise_equal": true,
+    "all_native_replay_errors_zero": true,
+    "all_resource_fraction_errors_below": 1e-10
+  },
+  "source_unchanged": true,
+  "config_sha256": "b40f898b73bb11e0007db4c51d5477c52f6944b1ff62ec128b39cd66a19fdcbd",
+  "protocol_sha256": "895c67b9f5335abbf7e9921010907e15f3dcc822da47d4a9a337228b4c63e87a",
+  "accounting": {
+    "environment_steps": 100608,
+    "updates": 3168,
+    "actor_updates": 3168,
+    "reward_model_updates": 0,
+    "h_updates": 3168,
+    "rollout_updates": 99,
+    "effective_td_positions": 402432,
+    "algorithm": "gradient_ppo",
+    "critic_terminal_positions": 12576,
+    "critic_nonzero_reward_positions": 12576,
+    "observation_moment_count": 103752.0001,
+    "return_moment_count": 100608.0001
+  },
+  "model_files": {
+    "metadata.json": {
+      "sha256": "19a85d5437d76ad9b28769ab09639f0ac03e370bbd360a3922b29883828ef273",
+      "bytes": 1164
+    },
+    "model.pt": {
+      "sha256": "50e0c2171d92b99f45b9ce6b37ea7c6176aa023a8eed1e285422d14a75313bb8",
+      "bytes": 131641
+    }
+  },
+  "data_final_verification": {
+    "path": "/hy-tmp/resource_allocation_results/chapter4/baseline_completion_20261104/execution/portable_immutable/c3_source/allocation23/data/eurosat_rgb/images.npy",
+    "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef",
+    "cache_hits": 1792,
+    "final_full_rehash_passed": true,
+    "filesystem_identity": [
+      66309,
+      5475901752,
+      331776128,
+      1793374930000000000,
+      1793797228833255592
+    ]
+  },
+  "optimizer_or_replay_saved": false,
+  "periodic_models_saved": false,
+  "elapsed_seconds": 2336.9420890808105,
+  "artifacts_sha256": {
+    "development_curve.csv.gz": "0bf2a7c8fb47cbb3ff29a6cf07799d27640faf19271e76b9e537291b94adfb76",
+    "development_paths.csv.gz": "da7802766ce2043e73891aa13d1177ee31d28199c90d39728e46ba11351d9f82",
+    "development_steps.csv.gz": "7eed27245600cee885e18a63b01805ac4ed3a83f64dbfee64cd15b43b5eb7fbd",
+    "training_episodes.csv.gz": "fd3fca1ce39a2d25bc4ca22e2570ff44dcde68976d49b0798d9b775a5b0e3f24",
+    "training_steps.csv.gz": "b97595ca67971b3ef4307c8442d1006768d2a3874477cc54a5a76f103d53ca72",
+    "update_metrics.csv.gz": "eda0804b5ffe271001d486cff1925913d4256bf7da6ac154883a2fc1248eb295",
+    "development_arrays_step_100608.npz": "b0b253f63693d13b4e25302fb1bbb26022831563427db64d9bd3a7076efb0595"
+  }
+}

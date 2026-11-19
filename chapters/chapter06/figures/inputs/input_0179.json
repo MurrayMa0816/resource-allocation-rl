@@ -1,0 +1,27 @@
+{
+  "schema": "thesis-local-figure-source-v1",
+  "chapter": "06",
+  "figure": "figure06-05_学习方法配置成效比较_20261109",
+  "entrypoint": "plot.py",
+  "scientific_execution": {
+    "environment_steps": 0,
+    "model_loads": 0,
+    "inference_calls": 0,
+    "training_runs": 0
+  },
+  "sources_sha256": {
+    "plot.py": "27f6e9d70ef5617fa52dc87137dd9791fec12e7e7c3d5b0cf129a234e2983b57",
+    "source/spacing.py": "db8ebaff99928fa27a8e46a948b1ad369d77ff15089a73b5d5dae5f4582aabba",
+    "source/accepted_learning.py": "6ed5f7f9c99a040f1fe0b1ca23be1b91ffb70a0224de2175e349dd42303fb9e2"
+  },
+  "data_sha256": {
+    "learning_all3_seed_DEV.csv": "684ee59e1ab6dda19ebd642109f5b123beedba4f7d45996f20baa7459b479ee7",
+    "learning_mean_sample_SD.csv": "3e195d5266c49ce23b9691a65c76fc169adf101a8c85d5ba1ca1075004c4647c",
+    "all7488_DEV_cases.csv": "f6c068711237324946501ef9a3866e910fd4db0b2dca86a655219899d8687944"
+  },
+  "output_pdf_sha256": {
+    "figure.pdf": "4baa529a9861517675884067f8f7eefd675ae8858168d9f518d6b764731b8c3f"
+  },
+  "runtime_dependency_policy": "Reads this figure directory and thesis assets/fonts only; third-party Python packages are environment dependencies.",
+  "historical_records": "Original manifests and provenance are retained as historical evidence, not runtime paths."
+}

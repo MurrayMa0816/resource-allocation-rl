@@ -1,0 +1,60 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "85ce86ebc8023d77d147316561beabce2338cad59c8da2285ea871b8537b090d",
+  "scientific_after_sha256": "85ce86ebc8023d77d147316561beabce2338cad59c8da2285ea871b8537b090d",
+  "labels": [
+    {
+      "before": "达标运行数/5",
+      "after": "达标训练次数/5",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        516.8167306292595,
+        546.6992218871965,
+        197.5,
+        27.203125
+      ]
+    },
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        219.28864222854486,
+        41.01684464181818,
+        345.5,
+        27.1875
+      ]
+    },
+    {
+      "before": "达标运行数/5",
+      "after": "达标训练次数/5",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        1022.5032256997285,
+        546.6992218871965,
+        197.5,
+        27.203125
+      ]
+    },
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        724.975137299014,
+        41.01684464181818,
+        345.5,
+        27.1875
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

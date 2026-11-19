@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETE_REGISTERED_TEST_INDEPENDENTLY_ACCEPTED_NO_THESIS_WRITE",
+  "base_jobs": 36,
+  "base_paths": 2694,
+  "descriptive_jobs": 4,
+  "descriptive_paths": 4,
+  "descriptive_excluded_from192_feedback_pairs": true,
+  "actual_work": {
+    "paths": 2698,
+    "environment_steps": 218538,
+    "parameter_evaluations": 202824,
+    "raw_feasible_action_vectors": 12980736,
+    "model_inferences": 202824,
+    "policy_parameter_batch_calls": 202824
+  },
+  "failed_attempts": 0,
+  "retries": 0,
+  "controller_seconds": 347.264363527298,
+  "completion_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/dispatch/evaluation/completion.json",
+  "completion_sha256": "dcc4fc659e1ee199cf719c6ca921d22bbd8d86c7b70b72e6b94e6cfa7c7af0a4",
+  "source_acceptance_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/TEST_saved_source_acceptance.json",
+  "source_acceptance_sha256": "746c07f9152768edbd13b48d27575d14013669a1fd94fb72b0a248fa10f54c45",
+  "independent_acceptance_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/audit/TEST_independent_output_acceptance.json",
+  "independent_acceptance_sha256": "fb39c0db9f9bb0150cc4868854e20de704b857c285078e163a7f0aeb180112b4",
+  "representative_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/representative_case.json",
+  "representative_sha256": "061bc70f419ec4dfa4a7efd84c6d7816ad348350556f2ef722ada51499da3210",
+  "representative_identity": {
+    "seed": 6400,
+    "weather_id": 125,
+    "weather_seed": 3900000125
+  },
+  "fingerprint_path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/TEST_ACCEPTED_SOURCE_FINGERPRINT.json",
+  "fingerprint_file_sha256": "44f547db3a9cdb6da8b0c542ac6b13e04ec0125e0c0f01bb84479016db0b9666",
+  "fingerprint_sha256": "e11fb4eab3fb1c20876c123a0b126527a8e5f5e54e43c885e672454f72d92e9f",
+  "source_and_model_selection_unchanged": true,
+  "backup_performance_read": false,
+  "all_signed_feedback_retained": true,
+  "training_or_learning_updates": 0,
+  "additional_environment_or_model_work_for_acceptance": 0,
+  "thesis_or_plots_written": false,
+  "next": "ROOT plus independent physics review saved arrays before rendering/publication"
+}

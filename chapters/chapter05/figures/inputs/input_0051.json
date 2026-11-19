@@ -1,0 +1,388 @@
+{
+  "schema": "self-contained-thesis-figure-source-v1",
+  "number": "5.4",
+  "caption": "SeDVal与对比算法的达标对象数及平均成效学习曲线",
+  "label": "fig:ch5-validation-learning",
+  "directory": "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111",
+  "kind": "data_plot",
+  "current_section": "chapters/chapter05_dual_value/section63_experiments.tex",
+  "current_references": [
+    "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/figure.pdf"
+  ],
+  "current_plot_entry": "plot.py",
+  "current_editable_source": "plot.py",
+  "current_data_files": [
+    "render_support/files/f0009_costs_by_seed.csv",
+    "render_support/files/f0010_fixed_endpoints_by_seed.csv",
+    "render_support/files/f0011_learning_display.csv",
+    "render_support/files/f0012_learning_raw.csv",
+    "render_support/files/f0013_threshold_recounts_by_seed.csv",
+    "render_support/files/f0024_data_manifest.json"
+  ],
+  "current_source_files": [
+    "plot.py",
+    "render_support/files/f0001_plot.py",
+    "render_support/files/f0015_plot.py",
+    "render_support/files/f0021_render_learning_figures.py",
+    "render_support/files/f0030_parent_renderer.py",
+    "render_support/files/f0031_plot.py",
+    "render_support/files/f0034_plot_chapter45.py",
+    "wording_layer_20261119/label_export.py",
+    "wording_layer_20261119/svg_label_export.py",
+    "wording_layer_20261119/label_config.json"
+  ],
+  "historical_provenance": {
+    "schema": "chapter5-axes59p2x51-spacing15-20261111",
+    "parent_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线",
+    "parent_source_sha256": "68ec8d477d552e3bdc0d8b186224f2d2f27a98605b790c13cd4d5ad7d7ff6281",
+    "old_provenance_retained": "parent_source.json",
+    "proof": "axes_spacing15_proof.json",
+    "axis_dimensions_before_mm": [
+      [
+        59.20000013333333,
+        50.99999995277778
+      ],
+      [
+        59.20000013333335,
+        50.99999995277778
+      ],
+      [
+        59.20000013333333,
+        50.99999995277777
+      ],
+      [
+        59.20000013333335,
+        50.99999995277777
+      ]
+    ],
+    "axis_dimensions_after_mm": [
+      [
+        59.20000013333333,
+        50.99999995277778
+      ],
+      [
+        59.20000013333335,
+        50.99999995277778
+      ],
+      [
+        59.20000013333333,
+        50.99999995277777
+      ],
+      [
+        59.20000013333335,
+        50.99999995277777
+      ]
+    ],
+    "scientific_artist_values_and_styles_preserved": true,
+    "xlabel_to_legend_bp": 15.0,
+    "last_legend_to_bottom_mm": 2.0,
+    "new_scientific_execution": 0
+  },
+  "scientific_execution": 0,
+  "current_graphics_sha256": {
+    "figure.pdf": "137600d3e9d2f888018158049a6084fd4ca0c9aa924f41f85780b192aaab59ec",
+    "figure.svg": "05470e837af9669bf7b296b1e0d1baa498f7c556851437835716c4339a065cea",
+    "figure.png": "09e5c691f23577ec9276575b72199c659f6eec10e82b2ebe80e03302d261c1ed"
+  },
+  "files": [
+    {
+      "path": "LOCAL_REPRODUCTION.rst",
+      "bytes": 984,
+      "sha256": "33577583779b411962f301442ce097eaf310204cc9c898e09b14020680c6d1fd"
+    },
+    {
+      "path": "README.rst",
+      "bytes": 3195,
+      "sha256": "09f1fb67d4fe1391c4c1e5b0e52448fa6a4e3ecc8720307e83e1f4748830d027"
+    },
+    {
+      "path": "axes_spacing15_proof.json",
+      "bytes": 2777,
+      "sha256": "7c3ba6d5c430ab41f0eda7441805d24965ec881ffda47774504f5a8a1acb4883"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 181352,
+      "sha256": "137600d3e9d2f888018158049a6084fd4ca0c9aa924f41f85780b192aaab59ec"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 543553,
+      "sha256": "09e5c691f23577ec9276575b72199c659f6eec10e82b2ebe80e03302d261c1ed"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 512121,
+      "sha256": "05470e837af9669bf7b296b1e0d1baa498f7c556851437835716c4339a065cea"
+    },
+    {
+      "path": "numeric_artist_values_before_after.json",
+      "bytes": 2787549,
+      "sha256": "a206e1d42823ad44e5e100bf085feef2448c69e9c56aedadaeacb8166491b987"
+    },
+    {
+      "path": "parent_source.json",
+      "bytes": 16241,
+      "sha256": "68ec8d477d552e3bdc0d8b186224f2d2f27a98605b790c13cd4d5ad7d7ff6281"
+    },
+    {
+      "path": "plot.py",
+      "bytes": 15537,
+      "sha256": "da5eaadfd0463d9e484f48d4db20c19fdf36f71ceb2fe4e90523e561d45b3f36"
+    },
+    {
+      "path": "render_geometry.json",
+      "bytes": 12305,
+      "sha256": "c3041b0b61062ca9864223da9a898bc897b19cb07df65578e2e3fed4dee23e5d"
+    },
+    {
+      "path": "render_support/config.json",
+      "bytes": 233,
+      "sha256": "6d66a0a63a6331bc3b161605fe461caa50bdd3df3dc67d9a1d877df14b422fd9"
+    },
+    {
+      "path": "render_support/files/f0001_plot.py",
+      "bytes": 215,
+      "sha256": "bfb0a2a4746451f846707a82e7155a21f53ff72b90f864bb953a8368e4e2f57f"
+    },
+    {
+      "path": "render_support/files/f0002_baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "path": "render_support/files/f0003_active_figures.json",
+      "bytes": 1629,
+      "sha256": "4d3d2f4a79465638778ffc2ec4e1d2037eaa621d5ac440aa502c9bcca7026e4e"
+    },
+    {
+      "path": "render_support/files/f0004_manifest.json",
+      "bytes": 65451,
+      "sha256": "d73ccf98afa17828354cebf8d4bfd03d7980355addbf45f95b3a196c937ad320"
+    },
+    {
+      "path": "render_support/files/f0005_figure.pdf",
+      "bytes": 156101,
+      "sha256": "4c5b3628911fd4f647496b7e5c76ecabb0a514cc86ee9ccd300360cf44b025d1"
+    },
+    {
+      "path": "render_support/files/f0006_figure.png",
+      "bytes": 283602,
+      "sha256": "229059ddb3f37d73fd991ecab4a821947adb2197ca8c64caefbe270bad5c7cf8"
+    },
+    {
+      "path": "render_support/files/f0007_inherited_native_presentation_p.json",
+      "bytes": 47107,
+      "sha256": "93a9984c4a489256d0f0aafca9395367d3295e0979e64501c0539845dd48bd40"
+    },
+    {
+      "path": "render_support/files/f0008_input_original_sha256.json",
+      "bytes": 967,
+      "sha256": "c8324532d34facbb7f571920110753abdc4576f344d04b2181ff1169240686c0"
+    },
+    {
+      "path": "render_support/files/f0009_costs_by_seed.csv",
+      "bytes": 14491,
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76"
+    },
+    {
+      "path": "render_support/files/f0010_fixed_endpoints_by_seed.csv",
+      "bytes": 22143,
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b"
+    },
+    {
+      "path": "render_support/files/f0011_learning_display.csv",
+      "bytes": 2758404,
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f"
+    },
+    {
+      "path": "render_support/files/f0012_learning_raw.csv",
+      "bytes": 1877519,
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef"
+    },
+    {
+      "path": "render_support/files/f0013_threshold_recounts_by_seed.csv",
+      "bytes": 26645,
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59"
+    },
+    {
+      "path": "render_support/files/f0014_numeric_artist_geometry.json",
+      "bytes": 2758677,
+      "sha256": "fb38a5fa6fff1b7952c25f0ac64d29aac6492b59d5ac160e7a82033b64900023"
+    },
+    {
+      "path": "render_support/files/f0015_plot.py",
+      "bytes": 240,
+      "sha256": "fe2fbf95079ce683cad9347cf2ede2265488b6f638d724fa2aaedbcd178c17a3"
+    },
+    {
+      "path": "render_support/files/f0016_render_geometry.json",
+      "bytes": 22228,
+      "sha256": "140128e3776c61d387d832b4b56d3a4132450b2ba8fb2608a423b4154c58bc58"
+    },
+    {
+      "path": "render_support/files/f0018_style_proof.json",
+      "bytes": 670,
+      "sha256": "ab72bf0baccc003abc2dc92992579cef5a68662491881a92605b53f98b07c042"
+    },
+    {
+      "path": "render_support/files/f0019_active_figures.json",
+      "bytes": 1629,
+      "sha256": "4d3d2f4a79465638778ffc2ec4e1d2037eaa621d5ac440aa502c9bcca7026e4e"
+    },
+    {
+      "path": "render_support/files/f0020_manifest.json",
+      "bytes": 65451,
+      "sha256": "d73ccf98afa17828354cebf8d4bfd03d7980355addbf45f95b3a196c937ad320"
+    },
+    {
+      "path": "render_support/files/f0021_render_learning_figures.py",
+      "bytes": 14804,
+      "sha256": "8ad96f999ce819f40e2de3389babcabf34d41f6e01ec7bae6c89d2d9ef058fed"
+    },
+    {
+      "path": "render_support/files/f0022_figure.pdf",
+      "bytes": 137350,
+      "sha256": "c23b78bf3043b60ec38a0df9e297e3fcf799bc5c49b11626cccfe3730a2ba0f8"
+    },
+    {
+      "path": "render_support/files/f0023_costs_by_seed.csv",
+      "bytes": 14491,
+      "sha256": "3f4b5542009dca87d97ed17866fb4fcd6a77ebdcab41503e89f6572136cdcf76"
+    },
+    {
+      "path": "render_support/files/f0024_data_manifest.json",
+      "bytes": 1844,
+      "sha256": "ee28aeaf4796a201fb375b9a0dac93587f4c90a8e5a74f24c3f9ec15781bd7c8"
+    },
+    {
+      "path": "render_support/files/f0025_fixed_endpoints_by_seed.csv",
+      "bytes": 22143,
+      "sha256": "95133e6214dbff03b9e8ee523c85c7b43b01c75ff9841293271fab5cfc47851b"
+    },
+    {
+      "path": "render_support/files/f0026_learning_display.csv",
+      "bytes": 2758404,
+      "sha256": "a16035099368eac77a2bea7547954b27baf20d4d913a781f13e19ce459dca12f"
+    },
+    {
+      "path": "render_support/files/f0027_learning_raw.csv",
+      "bytes": 1877519,
+      "sha256": "b6c1bf291df4f889ea8ca2a118d0555ca9e58e7cc521262a992d9c498f7325ef"
+    },
+    {
+      "path": "render_support/files/f0028_threshold_recounts_by_seed.csv",
+      "bytes": 26645,
+      "sha256": "e554f7f57c602ad3e40c33fe09bd4854ca3e6aefb7c063674329798e38fe5a59"
+    },
+    {
+      "path": "render_support/files/f0029_parent_presentation_proof.json",
+      "bytes": 47107,
+      "sha256": "435d9a9297526746eb653789b1362e3588bb0b387d313bdc0dd4e4e196836d74"
+    },
+    {
+      "path": "render_support/files/f0030_parent_renderer.py",
+      "bytes": 13693,
+      "sha256": "abfe83618bf057c8812a8369f3b5712bb384ae55fbd8d4a3c97dc5414216184c"
+    },
+    {
+      "path": "render_support/files/f0031_plot.py",
+      "bytes": 233,
+      "sha256": "e9b5565c811f13e0a4f267a6ba5e662026cf74153b397f2c00e2c7ad638b4e33"
+    },
+    {
+      "path": "render_support/files/f0033_spec.json",
+      "bytes": 5428,
+      "sha256": "f5853180a75b2843d4835d00cf11f6658a4a887a7b933aa1100c278138832d58"
+    },
+    {
+      "path": "render_support/files/f0034_plot_chapter45.py",
+      "bytes": 23316,
+      "sha256": "b95a47784d00cce0d29a85bcfef8facfd3a8e9cd29e2f788393c252455e57bd7"
+    },
+    {
+      "path": "rl_wording_export_evidence_20261114/local_replot_receipt.json",
+      "bytes": 1064,
+      "sha256": "7862c9c535b6d622008da8741be03f357ac890cf7358aa6a9afc4c45b0d8adeb"
+    },
+    {
+      "path": "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json",
+      "bytes": 2787549,
+      "sha256": "a206e1d42823ad44e5e100bf085feef2448c69e9c56aedadaeacb8166491b987"
+    },
+    {
+      "path": "rl_wording_export_evidence_20261114/render_geometry.json",
+      "bytes": 12305,
+      "sha256": "c3041b0b61062ca9864223da9a898bc897b19cb07df65578e2e3fed4dee23e5d"
+    },
+    {
+      "path": "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "bytes": 1547,
+      "sha256": "264c608d039d56e3df3f559a5bf4ec2194705e768c0de9ef6ee98182f26356b7"
+    }
+  ],
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/plot.py",
+    "active_editable_source": "chapters/chapter05_dual_value/figures/figure05-04_六种方法达标数量与原始业务指标学习曲线_axes59p2x51_spacing15_20261111/plot.py",
+    "active_program_sha256": "afc161d83eee57bebdeee4b93597d6b87301841a92c223ef0a45d7b89ad996c1",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "9edf8aeb6c973818a05e6ace9c8ed694a83c92da53d917c39c6cbc6e4b5728f9",
+      "figure.svg": "14f62d4879d08876dfcda31b8290f1020d14b1e06034e42a47b4fb54efe812b9",
+      "figure.png": "889928e234ea122f4982ff1d9e85fae3b53e98b7bb5243e24625f7c817f32d2c"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/local_replot_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "264c608d039d56e3df3f559a5bf4ec2194705e768c0de9ef6ee98182f26356b7",
+      "rl_wording_export_evidence_20261114/local_replot_receipt.json": "7862c9c535b6d622008da8741be03f357ac890cf7358aa6a9afc4c45b0d8adeb",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "c3041b0b61062ca9864223da9a898bc897b19cb07df65578e2e3fed4dee23e5d",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": "a206e1d42823ad44e5e100bf085feef2448c69e9c56aedadaeacb8166491b987"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "4c80d15e5576fc9ecaf2184ba9c10026a54dfa72534529797989424f3a287d24",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "8673a616bf2503b84d783a85c78739fadc7363025126293dc9c24290a5e08de8",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 4,
+    "legend_labels_changed": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "137600d3e9d2f888018158049a6084fd4ca0c9aa924f41f85780b192aaab59ec",
+      "figure.svg": "05470e837af9669bf7b296b1e0d1baa498f7c556851437835716c4339a065cea",
+      "figure.png": "09e5c691f23577ec9276575b72199c659f6eec10e82b2ebe80e03302d261c1ed"
+    },
+    "approved_review_pdf_sha256": "beb4754835d3676846e7cb11445007a7da17fa9bc891eca9401f7bfcdce5db4f",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json",
+    "necessary_reproduction_repair": "Existing 2026-11-14 native label layer now runs before its matching accepted-output comparison; original byte/stream/text/vector/pixel checks remain, against explicit accepted_before_wording inputs."
+  },
+  "path_storage_20261119": {
+    "mapping_files": [
+      "render_support/paths.json"
+    ],
+    "helper": "scripts/restore_render_support.py",
+    "original_source_and_data_bytes_preserved": true,
+    "historical_render_tree_restored_only_in_temporary_workspace": true,
+    "figure_exports": 0,
+    "scientific_execution": 0
+  }
+}

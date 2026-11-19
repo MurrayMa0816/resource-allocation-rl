@@ -1,0 +1,41 @@
+{
+  "schema": "reasonable89-selected-application-v2",
+  "status": "ADOPTED_FRESH_FORMAL_PENDING_EXPLICIT_LAUNCH",
+  "adapter": "depth_area_physical",
+  "training_weight": 0.2,
+  "spatial_sigma_scale": 1.0,
+  "coverage_threshold": 0.9,
+  "execution_operator": "fixed64_antithetic_mean_feasible_actions",
+  "execution_description": {
+    "operator": "fixed64_antithetic_mean_feasible_actions",
+    "training": false,
+    "point_count": 64,
+    "positive_points": 32,
+    "antithetic": true,
+    "seed": 2026110964,
+    "event_dim": 49,
+    "point_generation": "torch.randn CPU float64 using isolated generator; positive thennegative",
+    "points_array_sha256": "9b59078bcb00785b7febcfe2b78d35fd1bd227c0ec7a85af45ef25b1b6a6a500",
+    "source_sha256": "98e101735afd12446aa6c107a84766e363a51c171074ae3e50b858db97eaf528",
+    "averaging": "native feasible physical action vectors before one physical transition",
+    "meaning": "Finite-point conditional physical-action mean; not original latentmean or exact stochastic expectedreturn"
+  },
+  "training_operator": "native_stochastic_complete_joint_Gaussian",
+  "source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "final_design": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/final_design.json",
+    "sha256": "07bda52f9462d30e8c12517631c7fb3e664b212390e1a43ed8b5f98df9a45bdd"
+  },
+  "adoption_decision": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/application_adoption_decision.json",
+    "sha256": "0f05b4fae56f451f9fa53f3dc238d0d38b249295d887b97da9eb30f6d3dcc7a5"
+  },
+  "historical_combined39": {
+    "path": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/protocol/combined_development39_selection.json",
+    "sha256": "6604e20d2e2121254287f9749bbad032a44d4aece0fc72c6284ebad409c1bc35"
+  },
+  "historical_native_mean_tail_candidates_accepted": 0,
+  "decision_scope": "Separate adaptive DEV execution-stage application decision per execution_stage_adoption_plan, not a pass of the old39 tail-window protocol. All39 old native-mean pilots remain reported as unaccepted.",
+  "formal_training_started": false,
+  "TEST_opened": false
+}

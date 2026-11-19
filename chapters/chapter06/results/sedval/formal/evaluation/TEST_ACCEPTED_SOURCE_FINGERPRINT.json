@@ -1,0 +1,298 @@
+{
+  "status": "ACCEPTED_SAVED_TEST_FINGERPRINT",
+  "fingerprint_sha256": "e11fb4eab3fb1c20876c123a0b126527a8e5f5e54e43c885e672454f72d92e9f",
+  "payload": {
+    "scientific_source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+    "parameter_barrier_sha256": "3d89a7154b1d3a7fab85d8b0c909a8c47207600fbdabd990592b99c2a0016a98",
+    "root_TEST_release_sha256": "52258e195c63392971ed1ddd8f08e1f981fab40b2341146494f550641c08892c",
+    "primary_fixed_decision_sha256": "4f1e6aa85e717bf9f01aad6cbdcadc09fdab0b77e668822370af3348f3545898",
+    "test_namespace_amendment_sha256": "a8213768eeb0de85f7e774030670dcd9614b7a7c260b5cdb5bcc5fb4766fb079",
+    "weather_panel_sha256": "d7c932395cc8759534b5f529e75eb37458643c78ec1cccce347f6558ce542ec9",
+    "evaluation_execution_capsule_sha256": "cf6b1ca62e3110773c658154ebf0fac86a2f20282ad429783ec1af287120c4ee",
+    "base_matrix_sha256": "5fa9932139b596f1e6ea2fbc4168ac913ff51313bbd0d0ac490c5affa042b163",
+    "descriptive_matrix_sha256": "3e43c0bbc167a61215aa03996c792b4699e1337442840c379543276dc0558a5f",
+    "representative_case_sha256": "061bc70f419ec4dfa4a7efd84c6d7816ad348350556f2ef722ada51499da3210",
+    "outputs": [
+      {
+        "job_id": "descriptive_feedback_high_feedback__seed6400__weather125",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_high_feedback__seed6400__weather125/attempt0",
+        "results_sha256": "93b62cc56f4a45111c4ae306c98472f040e57a8bb3251be48696ec0d80d21652",
+        "metadata_sha256": "2b156320599b58383bd3705bb44d3ef929d619f122e1b1e264187f9cfc710650",
+        "complete_sha256": "be3a221591a173f8eeb94ca017fa9f61935aea7b6c8c06b047292c695d49b8e5"
+      },
+      {
+        "job_id": "descriptive_feedback_high_replay__seed6400__weather125",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_high_replay__seed6400__weather125/attempt0",
+        "results_sha256": "f3c2c2e6786aac0819fd424ac232ede5c04ff3c4d800f27aae32da98acddf700",
+        "metadata_sha256": "e116446742fdc325dbb4abea2f4dfabefa7745e87c7d31f0dc472097ef1f17ff",
+        "complete_sha256": "3792025473963a91b90000878e19d1a7625535bea786bfefeb0c9ffc1f7b834e"
+      },
+      {
+        "job_id": "descriptive_feedback_low_feedback__seed6400__weather125",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_low_feedback__seed6400__weather125/attempt0",
+        "results_sha256": "7bbe24178c0f63e11ce2eeb7b610daea3ef55465c88280176b2a1b932584d0b9",
+        "metadata_sha256": "2ae1cb556da96c5dca7b17c31d3a3cea62e22fa152c4e06e4fbff74ef8283f82",
+        "complete_sha256": "c40be5415ad8c2b1d143127b43249f929c082ef0eb49b1b798326816e43008b4"
+      },
+      {
+        "job_id": "descriptive_feedback_low_replay__seed6400__weather125",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/descriptive_feedback_low_replay__seed6400__weather125/attempt0",
+        "results_sha256": "7e0b43ea763af98b91cc0274a9f2d98829f6052ade7e939d042ab6d61726ffef",
+        "metadata_sha256": "583fceba0d2c8532ad7c4c346dfcc9d7b2c22c713c24967bb4fdf5f1bc559168",
+        "complete_sha256": "dd006ff86c1406abaf53288353b6089b3b587c14b2fda20e5db0fc6e86c26398"
+      },
+      {
+        "job_id": "feedback_high_feedback__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6400/attempt0",
+        "results_sha256": "740916456e52645b951b7916655da3d07c07d87dab6ff6bc339aeba0a0ad3de6",
+        "metadata_sha256": "a531d8602dbc3a16ae207203203a150924d66fd4831aa2a67eb72b814ad19e7d",
+        "complete_sha256": "ad8683d35c14a018c1e8532ce04f5ab874ea73cfbcb93423db64d0c812dd3d9e"
+      },
+      {
+        "job_id": "feedback_high_feedback__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6401/attempt0",
+        "results_sha256": "47ab4510dd6e69ce3c70ea05e99b4d9f62ac8e3d99b0c578884172da88cd02e0",
+        "metadata_sha256": "125cde83e7a74323b8ad26672081e97d299fd5243f73530b0b6030f4ff9bf4b0",
+        "complete_sha256": "032ae1777ca890c6e27a4256e150685ca0369e95150e812d1036fb3414af53d7"
+      },
+      {
+        "job_id": "feedback_high_feedback__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_feedback__seed6402/attempt0",
+        "results_sha256": "86178f3c8cf7dfbea37a39a468747b7113077924c0dd217b9e18889c447d918e",
+        "metadata_sha256": "ad662e054b0e59bca2377045a52bd9c84c4740dc6f7d8f76cb71bca4d061cd82",
+        "complete_sha256": "aa91419c0a1db651091e7a3a7c7ac5d7eb4da3e5b27e76bdfeca5f7a6f0ca0b8"
+      },
+      {
+        "job_id": "feedback_high_replay__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6400/attempt0",
+        "results_sha256": "321d3607e3b3cd6320bfb325125170fea54f1e4913e23beb079117ea0ab6e8f8",
+        "metadata_sha256": "bd1927fc74685565a5a199a588c82b28640abd3f5340410dc14b6bb054a3d498",
+        "complete_sha256": "f99ed0cfc0ba29ee68b065df170d4e7a4a3276fc422447043e5b75fc5d9a1183"
+      },
+      {
+        "job_id": "feedback_high_replay__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6401/attempt0",
+        "results_sha256": "527b02bd9f967b919e11c749e2b6e2e176f51ed20d24ddee53a15aac6c672fe8",
+        "metadata_sha256": "ae67f364b69e2184c93f760b37d67dfc135ee1360f483b41a19af8293d5c4131",
+        "complete_sha256": "21a26a84fbbb5d0bf229c7c57ccab4102802a362b867c8a49fc6983c7bacd4ca"
+      },
+      {
+        "job_id": "feedback_high_replay__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_high_replay__seed6402/attempt0",
+        "results_sha256": "b1224cb7f30c2fd6cbe43e27117127951af4f51125fc1db98f1a82ad776d7531",
+        "metadata_sha256": "eb6eeaa0c73aa1c3c7f53c27d249790602a718aecb772bab81969bf4c4276781",
+        "complete_sha256": "4de08e9e7e6e5aa67393666641603f90d23207a9ff4188f5a64a6376cfde1aac"
+      },
+      {
+        "job_id": "feedback_low_feedback__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6400/attempt0",
+        "results_sha256": "907cc971284340013ee840a784987c1d0d9564e13e29d11eeeda6a2b79f39d26",
+        "metadata_sha256": "b8ac8e3a9a97f4e7c15af0caffdbbdc7f1d3bdfabbd0b1b9691b05c3c02ca12a",
+        "complete_sha256": "8870ecce9f32625921e2eeb96c49b0ad3d7b4988841e0328914dcd759d70b885"
+      },
+      {
+        "job_id": "feedback_low_feedback__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6401/attempt0",
+        "results_sha256": "57739314ae0f43f1b78de893640cbc6995f7b4a4d95b31d11be39ad4f68b3bf8",
+        "metadata_sha256": "961ff5cb4d29e12c601587e9016141180db19820fe91ddee59f9d7b4f9c5453c",
+        "complete_sha256": "4146f9180908da506b33b338d541445aaaf4aaf93cb18927f923a85138a8e4c7"
+      },
+      {
+        "job_id": "feedback_low_feedback__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_feedback__seed6402/attempt0",
+        "results_sha256": "fe8cc2096d736f0107f92085eb597b2a53b6e6992c7e8204cb5cc2a4f1cc47f2",
+        "metadata_sha256": "daf3cd3817e8384c375b46ba9d14a2b3a241b84605656298545cf18afda9f8e7",
+        "complete_sha256": "b8cda5d274bc341bd4c3f8d9e91a9053f17210180135e507ddac015ea94b1a9e"
+      },
+      {
+        "job_id": "feedback_low_replay__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6400/attempt0",
+        "results_sha256": "35e76bb2e03f779146187694c388208e71f7f43633cf82cc4f0820d81523581b",
+        "metadata_sha256": "743814ac5d423d1b51dcfa2265cedecf0d265531ecacb3c677d17521c9ba8253",
+        "complete_sha256": "91d1bf2ea0da593766b417bf13a4c2fa3d502399412d2b59aeb9d4612e36f641"
+      },
+      {
+        "job_id": "feedback_low_replay__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6401/attempt0",
+        "results_sha256": "baea6d340f11b602971346883bf2e98703a5591bc3ed0368c9c2bf781a97f98b",
+        "metadata_sha256": "40c037f67359dee870d6a6aad1bb7cce0767af9384e50ffc3e86e786d7bae7d9",
+        "complete_sha256": "ea7b663b69abc8ed04e093ecca6a868b295da8496670fc67f2728435fe5615d6"
+      },
+      {
+        "job_id": "feedback_low_replay__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/feedback_low_replay__seed6402/attempt0",
+        "results_sha256": "83a4b4a96fee917f2f25f4c60c150b3a4bf12164a06981ac899fad19e7ec2a6a",
+        "metadata_sha256": "e353e0bb1832601323e844048fbeefdbc1458aa33c0629fb4f8fd8faeb66744c",
+        "complete_sha256": "2fdd096b1fa7881439c56cc10f514c479b66732e62d365d45275bcdcc94771b1"
+      },
+      {
+        "job_id": "fixed_budget_3500000__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6400/attempt0",
+        "results_sha256": "b972cd4cfe9afc4559af88755b512be7b72fb2db3ea4d5a420bdec6246f82a08",
+        "metadata_sha256": "23cf654bb767373dfa6cf69155fb36050bbd936479f35b5386f2354d9d5dff43",
+        "complete_sha256": "bb031b3e2915ce5fa32b770b51e29ea675f653e9889f2eabfc99d063645d3206"
+      },
+      {
+        "job_id": "fixed_budget_3500000__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6401/attempt0",
+        "results_sha256": "2de834be0574777226d4d25402bd12e4fa605915aa3aecf0f56e3e9512f5c2bf",
+        "metadata_sha256": "74aec581ec09576bb5b32972c76ff211a0df9e7505998534345ed31ab5d64dea",
+        "complete_sha256": "7a08485fdb409f7007884bd43dd7a368a9030ec5b2d244798988461908d5ec14"
+      },
+      {
+        "job_id": "fixed_budget_3500000__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_3500000__seed6402/attempt0",
+        "results_sha256": "f1d3dad476ffcab2665ed9e4792a71fa205accefa22f43cb945062de9be8e59f",
+        "metadata_sha256": "973e6828b923fe2ee6fc43a3e520523a991b532cb1eecc7423e2eebe7afdc322",
+        "complete_sha256": "8a0738f7f00a6180589993a57e255505ac581d38ad0e9673e07d8bbda67156c8"
+      },
+      {
+        "job_id": "fixed_budget_4500000__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6400/attempt0",
+        "results_sha256": "5cfc27be185d3bc9313e16a54ac1fb0a2b641ed0aa37a8272e975d180648cb6b",
+        "metadata_sha256": "eb4cb5e0fe6a7f5ce930e42dae3d1610a64be924ab822251d23f36447a83bc63",
+        "complete_sha256": "4bd9da61f446c69ac3e1f774b5c0a090a2c7bd21bb95e92600f622438a539efe"
+      },
+      {
+        "job_id": "fixed_budget_4500000__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6401/attempt0",
+        "results_sha256": "1ea2dfe17ada3c665741a12b753e97a56ae0fd43c6889594b96dcf9fc718bca3",
+        "metadata_sha256": "28305d4b7774c0c55b6ad6146b97bebc3987182a82a77798825aaa8cbed48c01",
+        "complete_sha256": "38aac415369023a7203195d886d1b7a3e37ed514f9f2b206f2349c90063ec45e"
+      },
+      {
+        "job_id": "fixed_budget_4500000__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/fixed_budget_4500000__seed6402/attempt0",
+        "results_sha256": "d4dc7e64723a7c99b5699b1884b9bcbe58fb7e9020dddc45e3945afb4379f28f",
+        "metadata_sha256": "1ddb4c0f123652075def77958adeb44cabf4a2faba7ce55551422f71b0b362d9",
+        "complete_sha256": "55d7e1c0cffbbb35c001b3a086b692ffe75053e7d742aa51dbbc8d7c1770800f"
+      },
+      {
+        "job_id": "history_2022__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6400/attempt0",
+        "results_sha256": "50e3e29363d1bd6b7e003751efad03aa5c404d3ce4d35e399262daecea121ffa",
+        "metadata_sha256": "00d2e012e8f360cf2ae02001c543c9802964598cdf9f929c67aef546a198c19f",
+        "complete_sha256": "6a387752143ab73953c65feff9d4eb1b6648b44666b227adbbdb7d4ab96400b7"
+      },
+      {
+        "job_id": "history_2022__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6401/attempt0",
+        "results_sha256": "eaa56c5242bd6338047b124011d218923758126212be7382b62443ca983cbda3",
+        "metadata_sha256": "69c7a3e6f51a5a5cac06e84ed4719b6b3d04f2657d3d044576085a15268dcf25",
+        "complete_sha256": "c59805139acab16970a4a52027e90b1306a2aef45b5b086126340a0a56bf74c9"
+      },
+      {
+        "job_id": "history_2022__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2022__seed6402/attempt0",
+        "results_sha256": "2e38d7b95681372c112bc4443b688874dbcbcba8c495fe98fa35ecd326186c6f",
+        "metadata_sha256": "84440d76afc61948ce6e1118b67145b34593f468299640b7c719c73d6edf0857",
+        "complete_sha256": "c67c1605c8e7e303790158ed9953a12767f3ef00d885360e63e71e35b8b53baa"
+      },
+      {
+        "job_id": "history_2024__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6400/attempt0",
+        "results_sha256": "a1b90ec6f219e4c1badf969db994c45d15c786db65c1f8965691b832a96eab08",
+        "metadata_sha256": "f4a02a3a14f8194c956e9a17b22b3e5505602710dbffe8dfed54768ff241f096",
+        "complete_sha256": "d534f96c06454dce0729977d89cce62287f74c67ee4fd1fa1df80de8fda85697"
+      },
+      {
+        "job_id": "history_2024__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6401/attempt0",
+        "results_sha256": "8eb8676423830e36ef55217ec0c61e792851e014f0ddcfb26a0c2e8b38bb45a0",
+        "metadata_sha256": "f30d53772f9ff0e08f347410590d7a9b183b70e720656cace485501b9863ac6a",
+        "complete_sha256": "c34107f64b1c41e21f527a715b08315543ea718a6b9460559781ca1e9716e9db"
+      },
+      {
+        "job_id": "history_2024__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/history_2024__seed6402/attempt0",
+        "results_sha256": "746edc3d50187067c89888a2e551a483f1d51fe6e7bf4879080c8741f2ce2e0f",
+        "metadata_sha256": "211673f47321e760ecd92975eb3f7f3d4738fbf0a660e8f6482ca64d7d3709ad",
+        "complete_sha256": "c6d083427c50a22d2313a75a7dae9a9ee76605b69e74ab4a2283232aec0710ec"
+      },
+      {
+        "job_id": "initial__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6400/attempt0",
+        "results_sha256": "44b39d566c1b33769b98500a8c4a7ff3e376d4f90d410c9fdc3881c0cf4381e2",
+        "metadata_sha256": "156ce3fe30a786bd6b6cd8eda48f7f8a3b88327a6c0efa6b38613f367e82db05",
+        "complete_sha256": "bcc3ba5e92962e9bd2350622d54d091a0ace0453095057a4338f1fd80ba24df0"
+      },
+      {
+        "job_id": "initial__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6401/attempt0",
+        "results_sha256": "905c9e08ccecd1069e61fd930471a2ac33100264efac48c081e597b98e7cb030",
+        "metadata_sha256": "29be413787bfe1e40169206b66548f431e50ef800e4fed968e433acad2a66491",
+        "complete_sha256": "b2e90dbc7270f4ee36a035487903f57a2f88b9b3b48db6e2b6d873fd94e93d62"
+      },
+      {
+        "job_id": "initial__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/initial__seed6402/attempt0",
+        "results_sha256": "93f64eaafe62494b8baf9d5d1ada5b451b057db844124b81c96cefc32f92b79a",
+        "metadata_sha256": "22268673c6a1bb673761acc45731383e22be7da87d6f41a7f52650066268a624",
+        "complete_sha256": "7b5f42a9ae9409657677694c0e4c984cded06e4bebd37f077cc0ce73c5c20e83"
+      },
+      {
+        "job_id": "main__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6400/attempt0",
+        "results_sha256": "36a66cbcfb07675b1d44cbb380e4e40d0322b545f56c1ac5ee218d8a2b11529e",
+        "metadata_sha256": "715961fcf281ff2c105fdab664f73dd5fcb1a3c5ac59faef033b93a37de8cf56",
+        "complete_sha256": "af1d4b03cf81a922b212168e031c768b13d9427fc28b9c3be2efebabc0530d65"
+      },
+      {
+        "job_id": "main__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6401/attempt0",
+        "results_sha256": "f6b07043359c8b62a5871a967409990a130ecd587c161b17d52099357a49a858",
+        "metadata_sha256": "4955276d188a6f0133f20c35ad720c2ea79ff0a403c64c715c502bd721456ccb",
+        "complete_sha256": "9f7fbbbb39a0969ace5fc9807666d0d5b3f4a1d9263431a51d9d352043353118"
+      },
+      {
+        "job_id": "main__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/main__seed6402/attempt0",
+        "results_sha256": "a0f22e7a5ea9a24cef500e3c87e5873a1540d7b0cd707bc7febd55f9c62f0dc7",
+        "metadata_sha256": "00ddc541334fb4f7de9738fdd8ab3066f001d0f3db850bc37ef557bace2eb43c",
+        "complete_sha256": "1e225216e0d253739d43b688a4d0ef433b12d02d1292e3142b0359322d936919"
+      },
+      {
+        "job_id": "trained_budget_3500000__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6400/attempt0",
+        "results_sha256": "b19bb0da36a42b732a45777cd551befbfda9454e249c95035ac7fdf819ff5e92",
+        "metadata_sha256": "3fcc3ec61e90cc45d5372bae5ef273112f8ec2d225cb29232159fd74af5b2273",
+        "complete_sha256": "596d5c220949d87c83d8a31ae4502367365b7b83c263cd842adeecc27e1675ce"
+      },
+      {
+        "job_id": "trained_budget_3500000__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6401/attempt0",
+        "results_sha256": "64d46fcf8dba92cd727c27b4c07097101ed610d4f731f83fea7f1953455a8a51",
+        "metadata_sha256": "b1892d2c2a58ddc9e4ec6d947084213faf140f592ed28fd471c19121d1086b60",
+        "complete_sha256": "5b3251f3c3dd98b79a501480efe68108615cef0f21a36e5db7c10e324ff8b68f"
+      },
+      {
+        "job_id": "trained_budget_3500000__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_3500000__seed6402/attempt0",
+        "results_sha256": "b815ea5adb291fb8ab433e5dfca069a478fda3cbaae09cbe17c02ecbba92ced7",
+        "metadata_sha256": "ed912e42a0d963c1d9b42835391f3d4aa142c06dda6a0d18be3d0ac004f65250",
+        "complete_sha256": "10f5c37748e6b5ee6b6899f7e3b533e7209fe573821e9796428270bef4bc23a0"
+      },
+      {
+        "job_id": "trained_budget_4500000__seed6400",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6400/attempt0",
+        "results_sha256": "a6da027cf67639dc14704b87d1a51a1b7762a2615c521e20099608d11594495b",
+        "metadata_sha256": "a20be4b0a3f8115a76ecb66552ec8f3caaaa8cd17eb22bc8f00f601f98c1bf60",
+        "complete_sha256": "19fd6d12deb6d3659cfa2aba6383bd5273522d1a58e5986d4d4598224c04dcec"
+      },
+      {
+        "job_id": "trained_budget_4500000__seed6401",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6401/attempt0",
+        "results_sha256": "537bdcf4e0713291f51f91fc205d55cd13b2f13940c5e6e6b8b4169425e74c6f",
+        "metadata_sha256": "79f3532cb2807c8110af20bc5a1f942cdf31b3216d2d90ff94f74e733796583c",
+        "complete_sha256": "7a4ab264879f65d656b232f475ec6e12b0d9407b0cd22c73f882c4239b76d0d2"
+      },
+      {
+        "job_id": "trained_budget_4500000__seed6402",
+        "actual_output": "/hy-tmp/resource_allocation_results/chapter06/experiments/reasonable_allocation89_20261109/formal/evaluation/trained_budget_4500000__seed6402/attempt0",
+        "results_sha256": "ab639955b840a89061ec92098ae4cc32d24896c5f16dce2e8daa3c080f31f8f7",
+        "metadata_sha256": "c40e989298fb00491c3f3c65458d737ec5bdab526101c73a643d96563aab0953",
+        "complete_sha256": "fa880f971fabe0410c50ff4425e95b50e21fb92a31a06c6c420e8bac01a7dc1f"
+      }
+    ]
+  }
+}

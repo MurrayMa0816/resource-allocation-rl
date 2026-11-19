@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "formal_source_release": "7143fa7a029532bc0ca82275652f595853c90ab35992bdc6bd3ff6704aa0f487",
+  "positive_registered_profiles": [
+    "budget_3500000__seed6400",
+    "budget_3500000__seed6401",
+    "budget_3500000__seed6402",
+    "budget_4000000__seed6400",
+    "budget_4000000__seed6401",
+    "budget_4000000__seed6402",
+    "budget_4500000__seed6400",
+    "budget_4500000__seed6401",
+    "budget_4500000__seed6402"
+  ],
+  "negative_rejections": [
+    {
+      "field": "weight",
+      "value": 0.8,
+      "rejected": "Formal89 requires adopted C90/JA lambda.2, physical8, sigma1 and M64 execution"
+    },
+    {
+      "field": "spatial_sigma_scale",
+      "value": 0.5,
+      "rejected": "Formal89 requires adopted C90/JA lambda.2, physical8, sigma1 and M64 execution"
+    },
+    {
+      "field": "development_execution",
+      "value": "latent_mean",
+      "rejected": "Formal89 requires adopted C90/JA lambda.2, physical8, sigma1 and M64 execution"
+    },
+    {
+      "field": "adapter",
+      "value": "depth_area",
+      "rejected": "Formal89 requires adopted C90/JA lambda.2, physical8, sigma1 and M64 execution"
+    },
+    {
+      "field": "episodes",
+      "value": 1536,
+      "rejected": "Formal89 requires fixed3200/128/32 and its unique endpoint"
+    },
+    {
+      "field": "eval_every",
+      "value": 64,
+      "rejected": "Formal89 requires fixed3200/128/32 and its unique endpoint"
+    },
+    {
+      "field": "dev_paths",
+      "value": 16,
+      "rejected": "Formal89 requires fixed3200/128/32 and its unique endpoint"
+    },
+    {
+      "field": "save_model",
+      "value": false,
+      "rejected": "Formal89 requires fixed3200/128/32 and its unique endpoint"
+    },
+    {
+      "field": "seed",
+      "value": 6300,
+      "rejected": "Formal89 requires the three fresh registered seeds"
+    },
+    {
+      "field": "phase",
+      "value": "development",
+      "rejected": "Formal89 requires adopted C90/JA lambda.2, physical8, sigma1 and M64 execution"
+    },
+    {
+      "field": "experiment_design_sha256",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000",
+      "rejected": "Formal89 final design changed"
+    },
+    {
+      "field": "env_config",
+      "rejected": "Formal89 budget is outside the three registered settings"
+    },
+    {
+      "field": "train_weather_seeds",
+      "rejected": "Formal89 training or development forcing namespace differs"
+    },
+    {
+      "field": "dev_weather_seeds",
+      "rejected": "Formal89 training or development forcing namespace differs"
+    }
+  ],
+  "nonformal_AST_exact_after_removing_formal_only_validation_defaults_and_protocol_aliases": true,
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "model_forwards": 0,
+  "learning_updates": 0,
+  "TEST_opened": false
+}

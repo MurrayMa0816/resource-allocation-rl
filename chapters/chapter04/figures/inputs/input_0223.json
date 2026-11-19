@@ -1,0 +1,71 @@
+{
+  "schema": "rl-wording-final-native-label-layer-v1",
+  "status": "PASS",
+  "original_render_guards_retained": true,
+  "only_final_labels_changed": true,
+  "numeric_artists_axes_canvas_fonts_exact": true,
+  "scientific_before_sha256": "44fc040a8882f1df1b4c4513c50bda26ef1b427d89c6ceee305bdabfb43de908",
+  "scientific_after_sha256": "44fc040a8882f1df1b4c4513c50bda26ef1b427d89c6ceee305bdabfb43de908",
+  "labels": [
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        104.58858267716539,
+        164.51995016583624,
+        173.5,
+        14.703125
+      ]
+    },
+    {
+      "before": "单批策略密度比变化（样本估计）",
+      "after": "单批密度比差异（样本估计）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        89.08132381889764,
+        102.59650405790342,
+        14.953125000000014,
+        190.125
+      ]
+    },
+    {
+      "before": "训练步数（×10³）",
+      "after": "训练环境交互步数（×10³）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        399.86417322834654,
+        164.51995016583624,
+        173.5,
+        14.703125
+      ]
+    },
+    {
+      "before": "单批策略密度比变化（样本估计）",
+      "after": "单批密度比差异（样本估计）",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        974.908095472441,
+        102.59650405790342,
+        14.953125,
+        190.125
+      ]
+    },
+    {
+      "before": "学习率反馈阈值区间",
+      "after": "学习率调整指标阈值区间",
+      "font_bp": 10.5,
+      "bbox_pixels": [
+        1206.1348425196852,
+        29.285035461265615,
+        160.875,
+        14.890625
+      ]
+    }
+  ],
+  "axis_formatter": [],
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0
+}

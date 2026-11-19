@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "number": "2.5",
+  "output_sha256": {
+    "figure.pdf": "b9dbb49bad2e8aeca289927f11f7fc7c9e54cc00993afc618b302be6c14d6f14",
+    "figure.png": "52404a81f0dd6186f2ff1af144cb59636f5456060b3f8019030d5db863adf065",
+    "figure.svg": "fe18e7c4bbb6505fa559cc0e85b82394a1b1a07aa5592ee8bc9bacb8c2387353",
+    "render_geometry.json": "8ec7c31ec792b1d4d0d02719be3835397e30a4155a6f9173163ab939c81a8935",
+    "numeric_artist_values_before_after.json": "20743f7113bfddcf81d498541b6aeb40112d4dcd0d38805628c54b0d269220e1",
+    "source.json": "4d8215d6aedcf9a5c105c4c5bac570aa712fde7f35e58f1342b3182b63b8d765",
+    "plot.py": "fa62a511423e2acf999dc94450bb3a3f423b1dc961d07ade265ea73e914fa5f5"
+  },
+  "scientific_data_sha256": {
+    "data.csv": "9a1bb656ed63a339b69e4f4186109b66eca3f1217bf9d7c4545583455587d7a5"
+  },
+  "parent_png_pixel_exact": true,
+  "environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "thesis_builds": 0
+}

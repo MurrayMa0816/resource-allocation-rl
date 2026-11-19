@@ -1,0 +1,34 @@
+{
+  "files": {
+    "policy.py": {
+      "maintained": "/root/gamewar/resource_allocation_rl/chapters/chapter03/random_object_ablation_20261109/policy.py",
+      "execution": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/execution/policy.py",
+      "sha256": "9d13e39d564266367aab0a87bb1ead23303075a5604b961e6c6cf713b262e647"
+    },
+    "train.py": {
+      "maintained": "/root/gamewar/resource_allocation_rl/chapters/chapter03/random_object_ablation_20261109/train.py",
+      "execution": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/execution/train.py",
+      "sha256": "69c7ab4a5f5cab26267af805b732cab9d4da8bdb341063c624719094d03a7c32"
+    },
+    "verify_adapter.py": {
+      "maintained": "/root/gamewar/resource_allocation_rl/chapters/chapter03/random_object_ablation_20261109/verify_adapter.py",
+      "execution": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/execution/verify_adapter.py",
+      "sha256": "54dc87d2607e46f078fd5987bcc911ae4aaf24bfd38bdef3246ec2d70d0714b3"
+    },
+    "run_experiment.py": {
+      "maintained": "/root/gamewar/resource_allocation_rl/chapters/chapter03/random_object_ablation_20261109/run_experiment.py",
+      "execution": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/execution/run_experiment.py",
+      "sha256": "b19843819a0106c6a8727598ccd8e6aa1cda96c72ed9340f591813b5852266be"
+    },
+    "analyze.py": {
+      "maintained": "/root/gamewar/resource_allocation_rl/chapters/chapter03/random_object_ablation_20261109/analyze.py",
+      "execution": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/execution/analyze.py",
+      "sha256": "435519ebb202a1ad73e4b0bf764e893da762437266b36396a213cb56b4de9bb5"
+    },
+    "plot.py": {
+      "maintained": "/root/gamewar/resource_allocation_rl/chapters/chapter03/random_object_ablation_20261109/plot.py",
+      "execution": "/hy-tmp/resource_allocation_results/chapter03/experiments/random_object_ablation_20261109_192455/execution/plot.py",
+      "sha256": "38fb077c3f45adc11935b5f9b6ef482a6e9367b514352735b6ca192c03e278cd"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "domain": "radio",
+  "N": 100,
+  "H": 32,
+  "periods_one_based": [
+    8,
+    24
+  ],
+  "initial_interface_budget": 0.48,
+  "native_action_unit": "W",
+  "case_selection": "Existing fixed training seed0/path0/default case; not chosen by return.",
+  "frame_selection": "Fixed H/4 and 3H/4 one-based display periods; no result-based frame selection.",
+  "normalization": "100 * physical_actions / initial task-interface budget; not cumulative.",
+  "radio_unit_note": "Interface budget is E0/delta_t=0.48 W, not the raw 0.00048 J energy balance.",
+  "panel_role": "Existing common confirmation panel, not a new untouched holdout.",
+  "current_case_csv": "/hy-tmp/resource_allocation_results/thesis_task_names_20261108_021450/figure_relabel/assets/figure03-09_不同方法在固定测试情景中的跨期资源配置/data.csv.gz",
+  "current_case_csv_sha256": "4c4e6b31a6711afb8e7646cc27217eb97c6d84b8ad4118333238531eacdc6978",
+  "current_full_heatmap_csv": "/hy-tmp/resource_allocation_results/thesis_task_names_20261108_021450/figure_relabel/assets/figure03-09_不同方法在固定测试情景中的跨期资源配置/heatmap_data.csv.gz",
+  "current_full_heatmap_csv_sha256": "efa3c1931347141fc8ba222419a0a17685326d6a8eebac7e7b75d56c2ec8e388",
+  "trajectories": [
+    {
+      "method": "A_FULL",
+      "method_label": "ReJoP",
+      "trajectories_path": "/hy-tmp/resource_allocation_results/chapter3/double_random_formal_20261107/jobs/eval__A_FULL__radio__seed0__default/attempt0/trajectories.npz",
+      "trajectories_sha256": "a1c9d9ebf466f880426c4125a9e7ffdce0ae0768cd86c5a7827249431a6bde5c",
+      "path_index": 0,
+      "path_position": 0,
+      "path_seed": "2958041883",
+      "path0_actions_shape": [
+        32,
+        100
+      ],
+      "q_sum_max_error": 0.0,
+      "old_full_heatmap_max_error": 0.0,
+      "physical_energy_initial_J": 0.00048
+    },
+    {
+      "method": "c_ppo",
+      "method_label": "C-PPO",
+      "trajectories_path": "/hy-tmp/resource_allocation_results/chapter3/supplement_direct_conditions_20261106/jobs/eval__c_ppo__radio__seed0__default/trajectories.npz",
+      "trajectories_sha256": "7685d94b0b35e2faa423e6be4742991ac33bcb7bc322f51a09e4ae911e7cb0be",
+      "path_index": 0,
+      "path_position": 0,
+      "path_seed": "2958041883",
+      "path0_actions_shape": [
+        32,
+        100
+      ],
+      "q_sum_max_error": 0.0,
+      "old_full_heatmap_max_error": null,
+      "physical_energy_initial_J": 0.00048
+    }
+  ],
+  "map_actions_sha256": "a8e6f5ed6617e84336dcadfd900ea3eaf15f5345804b39333caa15498cee716d",
+  "period_totals_sha256": "a7ea4c8a24ed7e51cfd5197216b61804946e56ca8fd4b4fe0f535fadb7a5004c",
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "new_policy_inferences": 0,
+  "learning_updates": 0
+}

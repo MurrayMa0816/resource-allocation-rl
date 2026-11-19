@@ -1,0 +1,129 @@
+{
+  "number": "3.7",
+  "kind": "chapter3_case",
+  "figure_size_mm": [
+    156.0,
+    181.38750500149195
+  ],
+  "axes_mm": [
+    [
+      16.499999999999996,
+      149.2810320493917,
+      124.99999999999999,
+      26.13563961876693
+    ],
+    [
+      14.50000000000001,
+      73.4513518587752,
+      57.99999999999996,
+      49.432180190616485
+    ],
+    [
+      83.50000000000001,
+      73.4513518587752,
+      57.99999999999995,
+      49.432180190616485
+    ],
+    [
+      14.500000000000007,
+      16.519171668158645,
+      57.99999999999998,
+      49.43218019061652
+    ],
+    [
+      83.5,
+      16.519171668158634,
+      57.999999999999986,
+      49.432180190616535
+    ],
+    [
+      16.499999999999996,
+      11.519171668158634,
+      124.99999999999999,
+      2.0000000000000027
+    ]
+  ],
+  "fonts_bp": {
+    "main": 10.5,
+    "object_ID": 9.0
+  },
+  "spacing": {
+    "xlabel_to_legend_bp": 15.71703986220466,
+    "legend_to_first_map_title_bp": 11.115206692913556,
+    "colorbar_label_to_figure_bottom_bp": 5.438707582969355,
+    "curve_to_first_map_top_mm": 26.39750000000003,
+    "map_rows_frame_gap_mm": 7.500000000000028,
+    "bottom_maps_to_colorbar_mm": 3.000000000000008,
+    "legend_rows": 1,
+    "legend_columns": 2
+  },
+  "actual_ink_spacing_720dpi": {
+    "schema": "actual-raster-ink-spacing-v1",
+    "dpi": 720,
+    "threshold_min_rgb_less_than": 220,
+    "measurement_basis": "actual raster pixels in independent PDF text/key crops; not font layout boxes",
+    "xlabel_bbox_bp": [
+      208.18701171875,
+      106.76171875,
+      239.68701171875,
+      117.272216796875
+    ],
+    "legend_bbox_bp": [
+      129.90731811523438,
+      131.25372314453125,
+      300.008056640625,
+      142.89822387695312
+    ],
+    "xlabel_ink_bp": [
+      208.9,
+      107.3,
+      239.0,
+      117.0
+    ],
+    "legend_ink_bp": [
+      147.2,
+      132.0,
+      299.6,
+      141.7
+    ],
+    "top_map_title_ink_bp": [
+      [
+        84.5,
+        153.7,
+        162.1,
+        165.7
+      ],
+      [
+        277.8,
+        153.7,
+        360.0,
+        165.7
+      ]
+    ],
+    "bottom_scale_label_ink_bp": [
+      136.0,
+      498.7,
+      306.4,
+      508.4
+    ],
+    "top_visible_ink_bp": [
+      8.8,
+      4.5,
+      283.2,
+      30.0
+    ],
+    "top_visible_content_to_file_top_bp": 4.5,
+    "xlabel_to_first_legend_ink_bp": 15.0,
+    "last_legend_to_first_map_title_ink_bp": 12.0,
+    "scale_label_ink_to_file_bottom_bp": 5.769311523437523,
+    "native_canvas_bp": [
+      442.2047119140625,
+      514.1693115234375
+    ]
+  },
+  "color_scales_and_map_geometry": "inherited exactly",
+  "curve_axes_size_mm": [
+    125.0,
+    26.13563961876694
+  ]
+}

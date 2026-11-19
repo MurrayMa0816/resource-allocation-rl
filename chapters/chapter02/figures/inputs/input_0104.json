@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "number": "2.7",
+  "parent_12bp_pdf_sha256": "5f98d03fb9ad658c4f6657ee2f1085503bc4e94cbb1f52ed77344af78591cb0d",
+  "new_pdf_sha256": "40d75a7f20fdecc3bee222da691ce37745f89ee5f20909192fdfab881584ca0c",
+  "all_scientific_artist_values_styles_equal": true,
+  "PDF_text_font_size_multiset_equal": true,
+  "axis_width_height_unchanged": true,
+  "all_map_axes_and_map_patches_unchanged": null,
+  "scale_group_further_down_from_12bp": null,
+  "raw_scale_group_translation_bp": null,
+  "measured_spacing": {
+    "xlabel_to_legend_target_bp": 15,
+    "xlabel_to_legend_bp": 15.000030517578125,
+    "legend_to_file_bottom_mm": 1.9999963548448347,
+    "subtitle_to_file_top_mm": 1.5000043312708538,
+    "row_gaps_bp": [
+      12.0
+    ],
+    "native_mm": [
+      155.99999559190536,
+      109.51549445258246
+    ],
+    "xlabel_frames_bp": [
+      [
+        86.18363189697266,
+        267.6133117675781,
+        170.18362426757812,
+        278.1238098144531
+      ],
+      [
+        311.81951904296875,
+        267.5820617675781,
+        395.81951904296875,
+        278.0925598144531
+      ]
+    ],
+    "legend_frames_bp": [
+      [
+        171.4497528076172,
+        293.12384033203125,
+        246.7031707763672,
+        304.7683410644531
+      ],
+      [
+        294.999755859375,
+        293.12384033203125,
+        326.7226257324219,
+        304.7683410644531
+      ]
+    ],
+    "subtitle_frames_bp": [
+      [
+        89.54300689697266,
+        4.251980781555176,
+        166.82156372070312,
+        15.896480560302734
+      ],
+      [
+        314.88201904296875,
+        4.251980781555176,
+        392.75018310546875,
+        15.896480560302734
+      ],
+      [
+        89.54300689697266,
+        147.18789672851562,
+        166.82156372070312,
+        158.8323974609375
+      ],
+      [
+        314.88201904296875,
+        147.18789672851562,
+        392.75018310546875,
+        158.8323974609375
+      ]
+    ],
+    "all_text_inside_canvas": true,
+    "PDF_text_count": 46
+  },
+  "CSV_sha256": {
+    "data.csv": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91",
+    "inputs/data.csv": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91",
+    "replot_sources/parent/data.csv": "e0f38df28e692835d35fa4b4c04b8097fee133768234804a91674b8464ccfa91"
+  },
+  "one_offline_render": false,
+  "second_replay_run": false,
+  "deterministic_export_settings_preserved": true,
+  "ROOT_edits": 0,
+  "thesis_builds": 0,
+  "scientific_execution": 0,
+  "offline_render_calls_this_revision": 2,
+  "wording_precision_revision_20261112": {
+    "audit": "docs/chapter2_wording_precision_five_rounds_20261112/initial_figure_changes.json",
+    "data_and_numeric_artists_exact": true,
+    "axes_and_canvas_exact": true,
+    "label_frames_vertical_exact": true
+  }
+}

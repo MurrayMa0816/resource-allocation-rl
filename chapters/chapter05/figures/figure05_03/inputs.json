@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "5.3",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter05_dual_value/figures/figure05-03_双价值目标与统一策略优势的计算",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter05/figures/figure05_03/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter05/figures/figure05_03/figure.pdf",
+      "sha256": "0f4a7edbc26c1b3e9c73e59c7cdfe18e97e4a4a00b79e26fa14bdfba6a93a59e",
+      "bytes": 76334
+    },
+    "figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0009.png",
+      "sha256": "974f4e640e2d79e0aaea1965ccd25450725a9910a1f086e569e4fbf83e2d55d5",
+      "bytes": 191311
+    },
+    "figure.svg": {
+      "path": "chapters/chapter05/figures/inputs/input_0010.svg",
+      "sha256": "409c157fdc411be94b390a1b9059098ca91e54af7d9853c4c73b8c882c33ba12",
+      "bytes": 390397
+    },
+    "source.drawio": {
+      "path": "chapters/chapter05/figures/figure05_03/source.drawio",
+      "sha256": "846bbd9abf1b0ef0e8cb641569edaa1723d2ba657dd573bc069d7db9ae9fff58",
+      "bytes": 15455
+    },
+    "source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0012.json",
+      "sha256": "9cd9f9f41dc8a833316d2f4f727e21d16f149eebe6f2d3830988223cb9349120",
+      "bytes": 14175
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

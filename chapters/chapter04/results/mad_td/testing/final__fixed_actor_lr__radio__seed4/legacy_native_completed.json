@@ -1,0 +1,63 @@
+{
+  "schema": "chapter4-double-random-F1-family-evaluation-only-v1",
+  "status": "completed",
+  "success": true,
+  "method": "fixed_actor_lr",
+  "domain": "radio",
+  "seed": 4,
+  "phase": "final",
+  "paths": 256,
+  "path_master": 2026110694199,
+  "summary": {
+    "training_step": 100608,
+    "phase": "final",
+    "paths": 256,
+    "evaluation_environment_steps": 8192,
+    "native_mean": 0.4881565275816717,
+    "native_std": 0.10523258312653715,
+    "score_x100_mean": 48.815652758167175,
+    "minimum": 0.07043159266039804,
+    "maximum": 0.6388640670587692
+  },
+  "training_steps": 0,
+  "evaluation_steps": 8192,
+  "model_loaded_from": "/hy-tmp/resource_allocation_results/chapter4/double_random_formal_20261107/jobs/fixed_actor_lr__radio__seed4/checkpoint_final.pt",
+  "checkpoint_sha256": "5ba1cc0b3027226bc17531b6fb8f86c19e0ab0f4df6681442b768fb6717799e6",
+  "deterministic": true,
+  "resource_audit_stream_sha256": "c0b84ffcde27af35e910b3fdf12e48b73ef6233ec9747704b30343d565a25840",
+  "elapsed_seconds": 65.76513221114874,
+  "data_digest_verification": {
+    "hits": 62,
+    "misses": 2,
+    "final_full_rereads": 2,
+    "records": {
+      "/hy-tmp/resource_allocation_results/chapter4/baseline_completion_20261104/execution/portable_immutable/c3_source/allocation23/data/eurosat_rgb/split_manifest.json": {
+        "signature": [
+          66309,
+          5973373510,
+          341975,
+          1793374931094393249,
+          1793798413523006074
+        ],
+        "sha256": "3da80902473649ff41d0b92110b03820827983434a45e11f5c1df3d4ac841731"
+      },
+      "/hy-tmp/resource_allocation_results/chapter4/baseline_completion_20261104/execution/portable_immutable/c3_source/allocation23/data/eurosat_rgb/images.npy": {
+        "signature": [
+          66309,
+          5475901752,
+          331776128,
+          1793374930000000000,
+          1793797228833255592
+        ],
+        "sha256": "a8d6886ab5137069e69aaf17a91c70f0a515a6cbb303e7e37de2738d36ebccef"
+      }
+    },
+    "scope": "identity hashing only; no file contents/algorithm/RNG changed"
+  },
+  "artifacts_sha256": {
+    "evaluation_curve.csv.gz": "8d6bff42ed303a65a9c3838178ef6479cd6ae8a6ca67802b50b4c91db135dbb9",
+    "evaluation_paths.csv.gz": "de6d1bdedfa029b41b116abd23f4a3daee4144f88b9c3e7e166cae2f2eb5f115",
+    "protocol.json": "816e58237bdacb7d74af0b3408219b931dc842950b1d6ed1bf3b4afe89e9e1da",
+    "resource_episodes.csv.gz": "392d0e317be74730f4cc6b86e9251ac5767aa62a64fe028b00979cad34146f64"
+  }
+}

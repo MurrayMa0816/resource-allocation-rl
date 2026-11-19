@@ -1,0 +1,80 @@
+{
+  "schema": "chapter2-spacing15-preview-v1",
+  "number": "2.4",
+  "figure_directory": "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111",
+  "parent_12bp_directory": "/root/gamewar/latex_thesis_resource_allocation/chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距_20261111",
+  "parent_12bp_pdf_sha256": "8dfb46b5ba35493066ca1a82fa8aca85f4fca9e7468fcfb41f08b4329e4031b7",
+  "renderer": "replot_sources/renderer.py",
+  "renderer_sha256": "4a295613e05472cd7e638c61a32bec611067acac8c3527858d5dc93fe1bbaf97",
+  "portable_entrypoint": "plot.py",
+  "scientific_values_styles_fonts_unchanged": true,
+  "outputs_sha256": {
+    "figure.pdf": "ba1fd189f69b4bc0933b7f9057d029cf61a6f89ca7fca7b3bbe4eb2813197e7c",
+    "figure.svg": "6dbf395c71b1e20da7997960b5f41e9167c4dbbbb3e8cec7f21ccb42f60cd2e6",
+    "figure.png": "7105b87dd7cb8a19b492738f7fa32e204b5b622edb669bc42e9508818830f6a5"
+  },
+  "new_environment_steps": 0,
+  "model_loads": 0,
+  "policy_inferences": 0,
+  "training_runs": 0,
+  "rl_terminology_wording_20261114": {
+    "active_entrypoint": "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/plot.py",
+    "active_editable_source": "chapters/chapter02_high_dimensional/figures/figure02-04_图例与题注间距15bp_20261111/replot_sources/renderer.py",
+    "active_program_sha256": "4a295613e05472cd7e638c61a32bec611067acac8c3527858d5dc93fe1bbaf97",
+    "final_native_label_layer": true,
+    "original_reproduction_guards_retained": true,
+    "no_scientific_data_or_geometry_changes": true,
+    "scientific_execution": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "af2277153e50da92b8f534f64f32b51db70391de53c3fe55adf6bebc1e8d724a",
+      "figure.svg": "9682d4140ad49a6fdaf27048557a3834ea372463d9a23c1388ecb381be2d4222",
+      "figure.png": "0a6f473ba35cf0b057233fe0a43f6c5f4e05b71f831a61740daad4210428ea7b"
+    },
+    "export_evidence_files": [
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json",
+      "rl_wording_export_evidence_20261114/render_receipt.json",
+      "rl_wording_export_evidence_20261114/render_geometry.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json",
+      "rl_wording_export_evidence_20261114/numeric_artist_geometry.json"
+    ],
+    "evidence_sha256": {
+      "rl_wording_export_evidence_20261114/rl_wording_label_proof.json": "6c5628bfd773b48cbf9e72dd2592d036f783b2a85facb6e0cabba4df0dc55ff1",
+      "rl_wording_export_evidence_20261114/render_receipt.json": "d20bb32640a9f7a795ebd25455c104c07c16231b91ce04af2c0f1d0c805c1157",
+      "rl_wording_export_evidence_20261114/render_geometry.json": "7a2b728613542635f5629332dc4dfa1b14ad396fb16ee59e0601295a50d56db3",
+      "rl_wording_export_evidence_20261114/numeric_artist_values_before_after.json": "b2ed185025316abf2025ae1a9d200472772ea648ec5fcc5db54c394e56b90f2a",
+      "rl_wording_export_evidence_20261114/numeric_artist_geometry.json": "49498a031d2a7613415f31ae6c7ea056d867c8833bd2ca0ce37fc61fe14c9efb"
+    },
+    "staged_metadata_not_promoted": true,
+    "native_sources_and_historical_layers_preserved": true
+  },
+  "current_graphics_sha256": {
+    "figure.pdf": "ba1fd189f69b4bc0933b7f9057d029cf61a6f89ca7fca7b3bbe4eb2813197e7c",
+    "figure.svg": "6dbf395c71b1e20da7997960b5f41e9167c4dbbbb3e8cec7f21ccb42f60cd2e6",
+    "figure.png": "7105b87dd7cb8a19b492738f7fa32e204b5b622edb669bc42e9508818830f6a5"
+  },
+  "experiment_wording_revision_20261119": {
+    "active_entrypoint": "plot.py",
+    "active_program_sha256": "251d97480c2dcca18eb78ba746f107ba2db800515de8d3a1e22e9a9fc24ae61a",
+    "final_label_layer": "wording_layer_20261119/label_export.py",
+    "final_label_layer_sha256": "2165ba9c8e4a11ca8c340cc475672bf5b4e938fe4be519cfadc667d0a3ebbfbe",
+    "svg_layer_sha256": "e775a165a56a9f210ec8b26f6d6f7e29b96598fc0cb0f3a431f0d01b09a62af1",
+    "config_sha256": "de8f801496f9167b52958b0b9cd7dd46922ede5d086b198109a284cce7d444a5",
+    "reproduction_guards_retained": true,
+    "native_renderer_and_scientific_inputs_unchanged": true,
+    "ordinary_font_bp": 10.5,
+    "axis_labels_changed": 2,
+    "legend_labels_changed": 0,
+    "selected_outputs_sha256": {
+      "figure.pdf": "ba1fd189f69b4bc0933b7f9057d029cf61a6f89ca7fca7b3bbe4eb2813197e7c",
+      "figure.svg": "6dbf395c71b1e20da7997960b5f41e9167c4dbbbb3e8cec7f21ccb42f60cd2e6",
+      "figure.png": "7105b87dd7cb8a19b492738f7fa32e204b5b622edb669bc42e9508818830f6a5"
+    },
+    "approved_review_pdf_sha256": "14f2af25b1930244904420a5744d94d0456e5e7cbbc30b25d6bdfce9ae33b914",
+    "approved_review_pdf_exact_RGB_at_scales": [
+      2,
+      4
+    ],
+    "new_scientific_execution": 0,
+    "evidence": "wording_layer_20261119/wording_export_20261119.json"
+  }
+}

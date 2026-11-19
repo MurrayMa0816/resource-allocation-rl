@@ -1,0 +1,98 @@
+{
+  "schema": "thesis-flat-render-support-v1",
+  "purpose": "短路径保存原绘图链文件；virtual为原fs内路径，仅在复绘临时工作区恢复。",
+  "restore_helper": "scripts/restore_render_support.py",
+  "restore_helper_sha256": "4577fb4dc07bac98615aab9560245441603618f57edfbe60ee6661c074f839cf",
+  "files": [
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/data.csv",
+      "stored": "files/f0001_data.csv",
+      "bytes": 1503,
+      "sha256": "443d7cc73d23439b4c800cfa3aa607ad27b58c4425e8d293bee3a237102ac9d9"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/figure.pdf",
+      "stored": "files/f0002_figure.pdf",
+      "bytes": 31373,
+      "sha256": "7d117f2a69cdcb0afd0e0bc46dbbb526d0db9b1a44d964350cac3a10a682b5da"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/figure.png",
+      "stored": "files/f0003_figure.png",
+      "bytes": 72442,
+      "sha256": "b205f869c851afc5e2306cda1115d41ba709185eb33d6e32b403c1425c4f8f3c"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/figure_config.json",
+      "stored": "files/f0004_figure_config.json",
+      "bytes": 359,
+      "sha256": "ac964c11c6d77cd7849fcf5d4f6830d3e3c8cb833e6493183a92b9f92c35f4ec"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plot.py",
+      "stored": "files/f0005_plot.py",
+      "bytes": 8490,
+      "sha256": "22d30446d4bb5aca45c139b9b4bf50e082fc9318b39b5545b07d9b9be1cd26cf"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/plotted_points.csv",
+      "stored": "files/f0006_plotted_points.csv",
+      "bytes": 487,
+      "sha256": "4f610dfec1e69dd7acc3c49fb1b956b337521cebb41872aca484dbbc8e4a411e"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/props_b_derivation.json",
+      "stored": "files/f0007_props_b_derivation.json",
+      "bytes": 2727,
+      "sha256": "f1135a74343d21c57c18fde33be630249b534b270f63a2d6ed870d1446e28849"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/provenance/parent_binding.json",
+      "stored": "files/f0008_parent_binding.json",
+      "bytes": 712,
+      "sha256": "b95914d2eeab2a3d26b98909efe2064df8f8f821179d8d745fa9b5434f8fbd11"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/provenance/unused_parent_presentation_style.py",
+      "stored": "files/f0009_unused_parent_presentation_style.py",
+      "bytes": 5412,
+      "sha256": "4ad76eccf78552f4cb03540a5d9e14c8eb805018e02518842905e53296c505ba"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/render_geometry.json",
+      "stored": "files/f0010_render_geometry.json",
+      "bytes": 11654,
+      "sha256": "c16b27e59e1d64dc5556d9f766898a347988825f5bfb728b65e0aebf48a393b0"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/replot.py",
+      "stored": "files/f0011_replot.py",
+      "bytes": 53,
+      "sha256": "8f3e2d1e04209ac88b981b3ad0ae50cc2d34bfb6723d96b88ace1ea7835150f5"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/chapter04/figures/figure45_plain_lr_explanation_20261109_151035/assets/figure4-5/source.json",
+      "stored": "files/f0012_source.json",
+      "bytes": 5434,
+      "sha256": "409727294ccce6aa1ecbf7737346c948988df591419978d39af92897e759a5b5"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/assets/figure45/plot.py",
+      "stored": "files/f0013_plot.py",
+      "bytes": 215,
+      "sha256": "3232b50fe709e4111742c14f3993e97689799efac5c237e33560db13496b78ad"
+    },
+    {
+      "virtual": "hy-tmp/resource_allocation_results/thesis_figure_spacing_unification_20261110_000617/audit/baseline_figures.json",
+      "stored": "files/f0014_baseline_figures.json",
+      "bytes": 21351,
+      "sha256": "0f86fde4c462f283f227187d61927e68a5e172cb61f2d8e12d75e9c9ea2ecfa5"
+    },
+    {
+      "virtual": "root/gamewar/resource_allocation_rl/tools/paper_experiments/visualization/spacing_20261110/plot_chapter45.py",
+      "stored": "files/f0015_plot_chapter45.py",
+      "bytes": 22348,
+      "sha256": "8d7e240e59cd90087e02cb1c9c921e454c2c25e56ecf1db38346cb09731c78c4"
+    }
+  ]
+}

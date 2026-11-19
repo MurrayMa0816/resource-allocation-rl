@@ -1,0 +1,38 @@
+{
+  "schema": "current-paper-figure-input-view-v1",
+  "number": "5.1",
+  "kind": "drawio",
+  "original_virtual_directory": "chapters/chapter05_dual_value/figures/figure05-01_兼顾个体达标与平均成效的资源配置",
+  "entry": "source.drawio",
+  "graphics": [
+    "chapters/chapter05/figures/figure05_01/figure.pdf"
+  ],
+  "files": {
+    "figure.pdf": {
+      "path": "chapters/chapter05/figures/figure05_01/figure.pdf",
+      "sha256": "16f2413118bf24a3e27c6628091cad53652db74ffcc3e98303bbe4659482ae9d",
+      "bytes": 186345
+    },
+    "figure.png": {
+      "path": "chapters/chapter05/figures/inputs/input_0001.png",
+      "sha256": "ec993ac9e7efe291c4ce4eb6f46c5d40b967bf6b1621a568a88aed14d9ed97d2",
+      "bytes": 454809
+    },
+    "figure.svg": {
+      "path": "chapters/chapter05/figures/inputs/input_0002.svg",
+      "sha256": "4da58370ae97f9b935d0464b11868d063a6d9c876af642342eb51a1dfe0bafcb",
+      "bytes": 170136
+    },
+    "source.drawio": {
+      "path": "chapters/chapter05/figures/figure05_01/source.drawio",
+      "sha256": "8297da6a3d05bca9930f6f12b2315d6b5a001e097f919c8f85cefc2d0f71b3c8",
+      "bytes": 166402
+    },
+    "source.json": {
+      "path": "chapters/chapter05/figures/inputs/input_0004.json",
+      "sha256": "09c6f256a80a9c38dbc7c06919957d6adb2253b26672d963f968c3f604d232a4",
+      "bytes": 15247
+    }
+  },
+  "scope": "One current entry and its byte-preserved rendering dependencies; historical virtual names are restored only in a temporary directory."
+}

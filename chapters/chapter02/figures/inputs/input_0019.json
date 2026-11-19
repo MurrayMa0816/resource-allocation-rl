@@ -1,0 +1,30 @@
+{
+  "schema": "four-chapter-main-learning-style-v1",
+  "number": "2.4",
+  "parent_directory": "/hy-tmp/resource_allocation_results/subplot_alignment_revision_20261108_222540/chapter2/assets/figure02-04_各方法十五万步开发评估_默认随机输出头",
+  "parent_pdf_sha256": "f9c1cac014e9b231f51fc7ca787dd821d2221c57f0c536cdeb2b11177290dc4f",
+  "input_original_sha256": {
+    "data.csv": "3ee20326a336e59ec922bd534cea85cb63b45ecf6fd8f2754090b522c29bb7d6",
+    "plot.py": "f8fd466037b933790868421f0c1ac72af43ba6762ae7a20bc0c5f8b5b328b552",
+    "presentation_layout.py": "a664d7615400324ce1607bf615c4896416a759aa25a6a3e84a4bf6f2b90afcf8",
+    "source.json": "15842ade0a10bd5db894e8d682806f8883221e317238f1242148b225d300e73b"
+  },
+  "renderer": "/hy-tmp/resource_allocation_results/thesis_main_learning_style_20261109/render_learning_figures.py",
+  "renderer_sha256": "8ad96f999ce819f40e2de3389babcabf34d41f6e01ec7bae6c89d2d9ef058fed",
+  "numeric_before_sha256": "a4abae7432d918250969de44ed44b52bb884f17268fc8884b656979c0fe8a234",
+  "numeric_after_sha256": "a4abae7432d918250969de44ed44b52bb884f17268fc8884b656979c0fe8a234",
+  "source_data_changed": false,
+  "changes": [
+    "equal 1.25bp solid method lines",
+    "distinct color and filled markers",
+    "shared physical panel size and legend spacing"
+  ],
+  "outputs": {
+    "figure.pdf": "6a96971de31d40d91736239de22365b322db9fbde66e3026b88713b69672c6a3",
+    "figure.png": "7b0ff1e4e5fa383ea75da910bfde514219013a155febe2e6fb5f9cb92434f843",
+    "figure.svg": "e3825e05d14c379a95c69446e8510e3d55289a8bdb47468e603b092d126348e9"
+  },
+  "environment_steps": 0,
+  "model_loads": 0,
+  "training_runs": 0
+}
