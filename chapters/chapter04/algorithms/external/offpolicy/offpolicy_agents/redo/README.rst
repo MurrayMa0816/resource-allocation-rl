@@ -1,82 +1,90 @@
-SAC+ReDo：作者状态连续控制核心的显式Torch移植
-==========================================
+SAC+ReDo：Torch 核心与 steady_graph 执行
+========================================
 
-论文为ICML2023 The Dormant Neuron Phenomenon in Deep Reinforcement Learning。
-作者代码google/dopamine，固定5873f5494ee0c2d7c016d0ab2ad530354fec59d0；Apache2.0。
-来源/许可/代码差异见PROVENANCE.json。只维护本目录，不改旧封印、F1或其他方法。
+来源与配置
+----------
 
-主配方固定scientific_profile.json：warmup10000、RR8、49152总真实训练步，
-共313216次完整SAC迭代。按作者pre-increment时钟，首次回收发生在
-update200001/env35001；回收周期200000梯度迭代而非环境步，预计一次回收。
-两层256×256 ReLU，gamma.99，alpha1，target_entropy=-A/2，tau.005，batch256，
-lr.0003，TF Adam epsilon-hat1e-7。原终奖不变；learner reward_scale=1为任务尺度适配。
+来源为 ICML 2023 论文 The Dormant Neuron Phenomenon in Deep Reinforcement
+Learning，作者代码 google/dopamine，固定提交
+5873f5494ee0c2d7c016d0ab2ad530354fec59d0，Apache 2.0。来源、许可和移植差异见
+PROVENANCE.json。eager 核心由 agent.Agent 提供；当前配置使用 steady_graph 执行封装。
 
-回收同时覆盖actor和两个在线critic的全部hidden层；score为mean(abs activation)
-除以同层平均+1e-9，阈值<=0。critic分数取critic更新前、actor分数取actor更新前
-的同一训练batch激活。先冻结全层mask，再全部入边Glorot重采/bias清零，最后全部
-出边清零。kernel的Adam m/v按mask清零；bias slots及优化器全局时钟保留。
-actor输出是合并的mean/logstd头，确保最后hidden出边同时覆盖两个分布参数。
-不直接reset target、alpha或replay；target仍在hook后按原SAC执行Polyak。
+scientific_profile.json 固定 warmup=10000、RR=8、总训练步数 49152，预期执行
+313216 次完整 SAC 迭代。作者采用 pre-increment 时钟，首次回收在
+update=200001、env=35001；周期为 200000 次梯度迭代，该预算预期回收一次。
+网络为两层 256×256 ReLU，gamma=.99、alpha=1、target_entropy=-A/2、tau=.005、
+batch=256、lr=.0003，采用 TF Adam epsilon-hat=1e-7。原终奖不变，任务适配使用
+learner reward_scale=1。
 
-更新顺序忠于TF-Agents：critic→actor→ReDo→用更新后actor重新采样算alpha→
-counter+1→target。没有静默沿用SB3不同的alpha-first顺序、-A熵目标、logstd
-截断或Adam eps位置。Torch与TF的随机流和浮点轨迹不承诺逐位相同。
+回收与更新
+----------
 
-接口
-----
+回收覆盖 actor 和两个在线 critic 的全部 hidden 层。score 是同一训练 batch
+上 mean(abs activation) 除以同层平均值加 1e-9，阈值为 <=0；critic 和 actor
+分别使用各自更新前的激活。先固定全部层的 mask，再重采全部入边 Glorot 权重并
+清零 bias，最后清零全部出边。kernel 的 Adam m/v 按 mask 清零，bias slots 和
+优化器全局时钟保留。actor 的 mean/logstd 合并输出头均被最后 hidden 层出边覆盖。
 
-Agent(cfg, observation_dim, action_dim, device)，act用于训练采集；
-policy_action(obs, deterministic=False)始终评价真实策略，包括DEV0，绕过uniform
-warmup，不改steps/updates/replay。observe(obs, action, reward, next_obs, done)
-接一条真实transition并返回steps/updates/本步recycle_events。
-n_updates计完整SAC迭代；每次含critic、actor、alpha各一步Adam。
-diagnostics()含计数、alpha、loss和完整last_recycle_event；event含逐层dead_indices、
-mask条目数、已清零Adam槽数，以及target/replay回收前后SHA。
-native_state_fingerprint()可用于DEV无副作用检查。随机数只有Torch global和
-agent.rng这个公开np.Generator，公共worker应隔离两者。
+target、alpha 和 replay 不直接重置。每次更新顺序为 critic→actor→ReDo→
+用更新后 actor 重新采样计算 alpha→counter+1→target Polyak。保留 TF-Agents
+的熵目标、logstd 和 Adam eps 位置；Torch 与 TF 随机流及浮点轨迹不保证逐位相同。
 
-save(path)只写一个actor推理终点及配置/诊断，load后禁止observe继续训练。
-replay全部保存在RAM并贯穿回收；不落盘Adam、critic、replay或周期模型。
-算法本身不建立Env、不写日志文件、不接入GPU；由公共worker处理环境和注册预算。
+接口与保存
+----------
 
-工程门禁与速度
---------------
+Agent(cfg, observation_dim, action_dim, device) 的 act 用于采集；
+policy_action(obs, deterministic=False) 绕过均匀预热，评价实际策略且不改变
+steps、updates 或 replay。observe(obs, action, reward, next_obs, done) 接收
+一条真实转移并返回 steps、updates 和本步 recycle_events。n_updates 统计完整
+SAC 迭代，每次含 critic、actor、alpha 各一步 Adam。
 
-test_zero_env.py已在CPU1、CUDA隐藏执行固定batch、独立TF公式Adam/SAC、mask轴、
-相邻层覆盖顺序、bias moment、target/replay、预热与强制时钟、推理重载门禁。
-强制200001时钟是明示合成fixture，不虚报20万实际更新或35001环境步。
-CPU32次固定batch约0.70秒，约21.95ms/次；313216次核心粗估约6874秒，
-不包含物理采样、DEV、传输或争用，不能当CUDA耗时。
+diagnostics 包含计数、alpha、loss 和逐层回收信息，包括 dead_indices、mask
+条目、清零的 Adam 槽及回收前后 target/replay SHA。评价需隔离 Torch 全局 RNG
+和 agent.rng；native_state_fingerprint 可用于检查评价副作用。
 
-gpu_gate_command.json保留原eager纯CUDA门禁命令；root已实际执行门禁。
-它同时测305/19与244/13、CPU/CUDA数值误差和实际强制时钟hook，不调用Env或存模型。
-原agent.py的e3f4c13f源码保持作为eager参考，不因加速改写其数学。
+save 只保存 actor 推理终点、配置和诊断；load 后不支持 observe 续训。critic、
+Adam 和 replay 不落盘，replay 在训练期间保存在 RAM。环境和预算由公共 worker
+管理。
 
-原生wrapper门禁若10000预热、10272总步，则更新数是2176，不是2184。
-科学是否实际触发回收、每层是否有非零mask及末段是否退化，必须以真实结果判断。
+检查范围
+--------
 
-已通过的唯一稳态执行加速
-------------------------
+test_zero_env.py 的 CPU 检查覆盖固定 batch、TF 公式 Adam/SAC、mask 轴、相邻层
+回收顺序、bias moment、target/replay、预热时钟及推理重载。强制 update=200001
+为合成时钟 fixture，不代表执行了 200001 次更新或 35001 个环境步。
 
-root实际执行steady_graph_gate.py，两域全部参数、Adam m/v、梯度、loss、全局
-CPU/CUDA RNG、回收mask、target及replay逐位对照原eager路径通过；局部固定batch
-核心加速为8.7888/8.5381倍，不是完整训练倍率。真实门禁收据为新结果根
-redo/steady_graph_gate.json，SHA002e989cb2c43b4d10acff2858d8989024bfa79894f2794ea9a550451e2c69c7。
-没有再次运行GPU或另加优化候选。
+gpu_gate_command.json 给出 eager CUDA 检查的参数与环境；对应实际结果已登记于
+DELIVERY.json 的 root_eager_GPU_gate。检查覆盖 305/19 和 244/13 两种输入尺寸、
+CPU/CUDA 数值误差及回收 hook，不创建环境或保存模型。
 
-科学配置顶层cfg.execution_variant='steady_graph'；公共worker应导入
-replacement_candidates.redo.graph_agent.Agent。默认agent.Agent仍是完整eager参考。
-graph_agent只改变一块8次既有更新的执行调度，steady_graph调用原_update_batch，
-没有Tensor公式重写、beta/epsilon/学习率/时程/RNG算法改变。
+已记录的 CPU 固定 batch 耗时约为 32 次 0.70 秒、每次 21.95 ms，按 313216 次
+估算约 6874 秒，不包括采样、评价、传输或设备争用，不能用作 CUDA 或完整训练耗时。
+预热 10000、总步数 10272 时，完整 SAC 更新数为 2176。实际回收事件、非零 mask
+及学习表现应由对应实验记录判断。
 
-前40000次optimizer迭代保eager；以后Python double偏差修正已精确round1，
-只有不跨回收边界的8次更新才capture/replay。任何跨200001回收事件的整块仍eager，
-实际env35001回收后再次使用同图。初次进入graph约在env15001。
-预期有效迭代数313216不变：eager40008，graph273208（34151块）。
-图准备额外进行8次可逆warmup，全部参数/slot/梯度/时钟/RNG恢复，计入执行诊断；
-另有8次Python capture trace，不虚报为有效学习或环境步。
-diagnostics.execution记录graph/eager块数、warmup及capture开销，不能漏报这段工程成本。
+steady_graph 执行
+----------------
 
-新交付入口DELIVERY.json及刷新后的source_manifest.json绑定实际门禁、原核心和新封装。
-README_eager_reference.rst和source_manifest_eager_reference.json只作采用前的元数据历史，
-不替换当前执行合同；原eager核心代码原位保持。
+cfg.execution_variant='steady_graph'，worker 使用
+replacement_candidates.redo.graph_agent.Agent。封装仍调用原 _update_batch，
+只改变一组 8 次既有更新的执行调度，不改 Tensor 公式、beta、epsilon、学习率、
+时程或 RNG 算法；agent.py 的原 eager 来源指纹为 e3f4c13f。
+
+前 40000 次 optimizer 迭代使用 eager；随后 Python double 偏差修正已 round 为 1，
+仅不跨回收边界的 8 次更新块使用 capture/replay。跨 update=200001 的整块仍执行
+eager，env=35001 回收后恢复使用图，首次 graph 约在 env=15001。313216 次有效
+迭代分为 eager 40008 次与 graph 273208 次，后者为 34151 块。
+
+图准备另含 8 次可逆 warmup，恢复参数、slots、梯度、时钟和 RNG；另有 8 次 Python
+capture trace，均不计为有效学习或环境步。diagnostics.execution 单独记录
+warmup、capture、graph/eager 块数及执行开销。
+
+steady_graph_gate.py 的既有结果记录两域参数、Adam m/v、梯度、loss、全局
+CPU/CUDA RNG、回收 mask、target 和 replay 与 eager 路径逐位一致。局部固定
+batch 核心加速为 8.7888/8.5381 倍，不是完整训练倍率。对应记录为
+redo/steady_graph_gate.json，SHA256 为
+002e989cb2c43b4d10acff2858d8989024bfa79894f2794ea9a550451e2c69c7。
+
+DELIVERY.json 与 source_manifest.json 绑定当前核心、封装和检查记录。
+README_eager_reference.rst 说明 eager 路径，source_manifest_eager_reference.json
+保存相应来源身份，不替代当前执行配置。

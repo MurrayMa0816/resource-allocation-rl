@@ -5,7 +5,7 @@
   "method": "morld",
   "display_name": "MORL/D",
   "profile": "critic_lr1e4",
-  "selection": "User explicitly fixed the orange Critic-lr0.0001 setting as the only current implementation.",
+  "selection": "MORL/D uses the critic_lr1e4 configuration with critic learning rate 0.0001 and actor learning rate 0.0003.",
   "actor_lr": 0.0003,
   "critic_lr": 0.0001,
   "morld_update_passes": 10,
@@ -53,7 +53,7 @@
     }
   ],
   "new_endpoint_format": "morld-selected-critic1e4-three-actors-inference-v1",
-  "old_model_identity": "No old model is relabelled; retained selected trials use original frozen loaders and config/SHA binding.",
+  "old_model_identity": "The listed reference checkpoints retain their original model format, loader, configuration and source hashes. Adopted thesis checkpoints are indexed in chapters/chapter05/models/index.json.",
   "history_in_active_selection": false,
   "new_training_started": false,
   "whole_roster_accepted": false,

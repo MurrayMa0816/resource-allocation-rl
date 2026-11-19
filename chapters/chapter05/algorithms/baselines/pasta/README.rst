@@ -1,28 +1,41 @@
-PASTA：已有修正版和历史最高配方复核候选
-=====================================
+PASTA
+=====
 
-本目录是待复测候选，不代表正式采用。来源为作者RSS2026仓库，固定commit
-745d769740b6ce648c7ea8209933733dea8a1eab；作者根目录未声明代码LICENSE，
-不能冒称MIT或把论文许可当代码许可。_native.py原字节保留。
+本目录提供 PASTA 的资源配置任务适配。第五章采用 ``current_recipe`` 配置，
+模型和实际运行参数分别见章级 ``models/index.json`` 与 ``configs/recorded/configs/``。
+第六章的 PASTA 任务适配也引用本目录实现；第六章对比记录包含训练与共同 DEV，
+没有与 SeDVal 合做的新增独立 TEST。
 
-入口 Agent(obs_dim,action_dim,seed=0,device='cpu',config=None)。
-configs.json为configurations[domain]['current_recipe']。
-沿用既有GAE done[t]、PCGrad objective-ID两项修正；本轮没有再改学习算法。
-radio沿用R2 lr1e-4，v5沿用R1 lr3e-4，其余是原已声明参数。
+配置与接口
+----------
 
-on_policy=True，action_mode=raw。每个完整回合panel调用train_preferences，
-每tick sample_info返回actions/logp/values；整panel后调用update_rollout。
-trajectory中obs[T,B,O]、actions[T,B,A]、logp[T,B,1]、values/rewards[T,B,2]、
-dones[T,B,1]。所有panel为真实完整回合，只有最后tick的done=1与终奖非零。
-B=8、每8个panel优化一次；radio T32、v5 T24。因此首次真实优化分别在
-2048、1536训练步，起点后短暂平线是尚未优化，不补点、不移动横坐标。
-61440/24576两种预算均落在完整优化边界；不能把不同预算混成主比较。
+接口为 ``Agent(obs_dim, action_dim, seed=0, device='cpu', config=None)``。
+``configs.json`` 按 ``configurations[domain]['current_recipe']`` 组织参数。
+无线任务学习率为 0.0001，应急任务为 0.0003；适配保留 GAE 的 done[t] 索引和
+PCGrad 的 objective-ID 对应关系修正。
 
-DEV可在精确512步中途执行，但必须保留未完panel和全部训练状态/RNG。
-state_dict为RAM-only完整恢复（含Adam），固定终点请用checkpoint_state_dict，
-它只含actor及必要公共观察统计，不含critic/Adam/回放。
-manages_observation_normalization=True；选定配方内部归一化关闭，不叠加外部映射。
+Agent 使用 ``on_policy=True`` 和 ``action_mode=raw``。
+每个完整回合 panel 调用 ``train_preferences``，每个 tick 通过 ``sample_info``
+获取动作、logp 和 values，完整 panel 收集后调用 ``update_rollout``。
+轨迹形状为 obs[T,B,O]、actions[T,B,A]、logp[T,B,1]、values/rewards[T,B,2]、
+dones[T,B,1]；仅末 tick 的 done 为 1，中间奖励为 0，终奖在末 tick 给出。
 
-历史应急两seed明显学习；无线9731仅略过预登记净增门槛，末段有平台/轻微下降，
-而且低于中性规则，不能称其持续强收敛。新数据之前不改变这个限制。
-本轮仅CPU合成/零物理工程核查；不因此宣布真实CUDA或正式实验验收通过。
+B=8，每 8 个 panel 优化一次；无线 T=32，应急 T=24。
+首次优化分别发生于 2048 和 1536 个训练步，优化前的平线按真实步数保留。
+具体交互预算以对应实验配置为准，不将不同预算的结果混作同一比较。
+
+状态与验证范围
+--------------
+
+DEV 可在精确 512 步处执行，评价前后需保持未完成的 panel、训练状态和随机状态一致。
+``state_dict`` 用于 RAM 中的完整状态恢复（含 Adam）；固定终点使用
+``checkpoint_state_dict``，只保存 actor 和必要的公共观察统计，不含 critic、Adam 或回放。
+``manages_observation_normalization=True``，所列配方关闭内部归一化，不叠加外部映射。
+CPU 接口检查不能代替实际学习与独立测试结果，具体评价范围以章级结果索引为准。
+
+来源
+----
+
+来源为 RSS 2026 PASTA 作者仓库 ``https://github.com/AlejandroMllo/PASTA``，固定提交
+``745d769740b6ce648c7ea8209933733dea8a1eab``。``_native.py`` 保留作者源码。
+该固定快照未声明根代码许可证，本目录不将论文许可视为代码许可，也不另行指定 MIT 许可。

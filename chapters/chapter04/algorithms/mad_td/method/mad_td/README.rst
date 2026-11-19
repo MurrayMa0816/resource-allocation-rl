@@ -3,57 +3,61 @@ MAD-TD：第四章有限终奖任务适配
 
 方法与来源
 ----------
-MAD-TD: Model-Augmented Data stabilizes High Update Ratio RL，ICLR2025。
-作者仓库adaptive-agents-lab/MAD-TD，固定685293e222accf1a0f36afcab933ce1902d4452a。
-repository About的2024与正式proceedings及README引用2025不符，本文按正式发表年2025。
-vendor59文件原字节保留，vendor_manifest逐SHA校验；该pin没有LICENSE文件，不虚构许可证。
 
-本实现直接执行作者的512维SimNorm编码、512×512 Actor、双151-bin HL-Gauss
-critic、512×512 latent/reward model、DAML/BYOL辅助目标、Optax Adam与梯度裁剪、
-目标更新，以及vmaped_utd_update。486条真实回放与26条当前策略动作的模型生成
-转移共同训练critic；不是给TD3换一个名字，也不执行百万扩散样本或128步去噪。
+MAD-TD: Model-Augmented Data stabilizes High Update Ratio RL，ICLR 2025。
+作者仓库为 adaptive-agents-lab/MAD-TD，固定提交为
+685293e222accf1a0f36afcab933ce1902d4452a。发表年按正式 proceedings 和作者
+README 的 2025 记载。vendor_manifest.json 登记保留的 59 个原文件及其 SHA；
+该提交未提供 LICENSE 文件，不能据此声明代码许可。
 
-固定配置
---------
-真实随机预热5000步，5001步起每次新交互执行UTD8；slow_model=True，故model及
-encoder仅在8次更新的第一次更新，critic及actor各8次。batch512、RL/model学习率
-3e-4、encoder1e-4、clip10；不重置。tau=.99按官方YAML，表示目标保留系数；
-不能误当源参数插值权重，论文表中.995差异已在scientific_profile.json声明。
-MPC默认关闭，这是作者提供的完整MAD-TD配置；不把未执行MPC说成执行了规划。
-训练策略保留作者均匀预热、均值动作加sigma.1且clip±.3的高斯探索。
+实现保留 512 维 SimNorm 编码、512×512 Actor、双 151-bin HL-Gauss critic、
+512×512 latent/reward model、DAML/BYOL 辅助目标、Optax Adam、梯度裁剪、
+目标更新和 vmaped_utd_update。critic 的每批输入由 486 条真实回放与 26 条
+使用当前策略动作生成的模型转移组成。
 
-有限终奖的必要适配
+固定配置与任务适配
 ------------------
-当前物理任务固定H、只在真正终点返回奖励。作者DMC持续任务路径将mask乘整个
-critic损失及reward模型损失，且target没有done。如果直接照搬，就会丢掉唯一终奖。
-内存AST适配明确改为r+mask*gamma*nextQ，终点critic/encoder critic和reward模型
-保留监督；BYOL/DAML的终点下一latent损失仍masked。同一公开固定时钟决定终止，
-所以生成的当前策略动作使用源row的terminal mask合法；没有查询未来或额外奖励。
-gamma固定1，真实奖励不缩放。真实任务的Q范围由单一终奖公开边界确定，故在任何
-MAD-TD开发结果产生前两域统一登记HL-Gauss[-1,1]、151bins，编码与zero prior保留。
-范围来源及固定H源码SHA见scientific_profile.json。该配置不是原DMC数值配置逐位复现。
 
-官方训练驱动将5%已付费在线交互随机送入内部诊断replay，本实现保留。它不参与
-网络更新，也不是公共开发或独立终测面板，不使用外部离线/专家数据。随机分流与
-原生回放抽样、JAX显式key均可保存/恢复以隔离评价。每真实决策对应一轮物理执行，
-没有DMC动作重复。策略接收同一公开精简vector状态，输出19/13维公共连续动作。
+随机预热为 5000 个真实环境步，从第 5001 步起每次交互执行 UTD8。
+slow_model=True，model 和 encoder 每轮只在第一次更新，critic 和 actor 各更新
+8 次。batch=512，RL/model 学习率为 3e-4，encoder 学习率为 1e-4，clip=10，
+不重置网络。tau=.99 是目标保留系数；与论文表中 .995 的差异见
+scientific_profile.json。MPC 关闭。探索使用作者的均匀预热和均值动作加高斯噪声，
+sigma=.1、噪声截断为 ±.3。
 
-接口与工件
+任务固定时域 H，只在真实终点返回奖励。适配后的价值目标为
+r + mask * gamma * nextQ，终点仍监督 critic、encoder 的 critic 分支和 reward
+model；BYOL/DAML 的终点下一 latent 损失继续由 mask 屏蔽。生成动作使用源转移
+对应的 terminal mask，因为终止由公开固定时钟决定。
+
+gamma=1，真实奖励不缩放。两域统一使用 HL-Gauss 支持区间 [-1,1]、151 bins，
+保留编码和 zero prior。区间由任务终奖的公开边界确定，来源与固定 H 的源码 SHA
+见 scientific_profile.json。这是有限终奖任务适配，不是原 DMC 数值配置的逐位复现。
+
+作者驱动中 5% 的在线交互随机进入内部诊断 replay，此部分不用于网络更新，也不
+作为公共开发或独立测试面板。随机分流、回放抽样和 JAX key 可保存、恢复，以隔离
+评价。每个决策对应一次真实环境交互，无 DMC 动作重复；公开 vector 状态对应
+19/13 维连续动作。实现不使用外部离线或专家数据。
+
+接口与依赖
 ----------
-Agent(cfg,observation_dim,action_dim,device)，cfg仅接受seed/total_steps/domain及固定
-gamma1/reward_scale1/value_support[-1,1]；提供act、policy_action、observe、diagnostics、
-get_rng_state、set_rng_state、native_state_fingerprint、save与load。
-确定性部署直接encoder→actor，不带采样噪声。终点msgpack只含encoder/actor参数、
-构造参数和计数，无critic/model/Adam/磁盘replay/周期模型，不能精确续训。
 
-最小运行依赖为JAX/Flax/Optax/Hydra/NumPy/SciPy。native_loader只移除ReplayBuffer
-未执行的Env类型注解import，不加载DMC/Brax/Gymnax及WandB；直接提取作者原样
-get_policy_action函数，学习函数仍来自保留的原件。旧JAX API同义aliases单独声明。
+Agent(cfg, observation_dim, action_dim, device) 接受 seed、total_steps、domain
+及固定的 gamma=1、reward_scale=1、value_support=[-1,1]。提供 act、
+policy_action、observe、diagnostics、get_rng_state、set_rng_state、
+native_state_fingerprint、save 和 load。确定性策略直接执行 encoder→actor。
 
-zero_env_gate.py执行真实完整尺寸JAX更新，但没有创建真实环境。它要求终奖对
-critic和reward模型产生非零参数变化、终点更新不依赖nextQ，原作者mask路径的
-负对照确实丢失终奖，同时非终点仍bootstrap；原生UTD8计数和推理参数序列化核验。
-GPU门禁须由父任务显式安排远端物理GPU0，不能独自占用设备。正式训练前还需
-真实双环境动作/全额资源/终奖/保存重载/评价RNG隔离门禁；代码可编译不等于通过。
-所有模型、曲线、日志、门禁和缓存实体放新HY根mad_td_pilot_20261107；维护代码
-经现有ROOT comparison/replacement_candidates路径指向canonical HY代码目录。
+推理终点使用 msgpack，仅保存 encoder/actor 参数、构造参数和计数，不包含
+critic、model、Adam 或 replay，不能用于精确续训。
+
+运行依赖为 JAX、Flax、Optax、Hydra、NumPy 和 SciPy。native_loader 只移除
+ReplayBuffer 中未执行的 Env 类型注解导入，不加载 DMC、Brax、Gymnax 或 WandB；
+get_policy_action 和学习函数来自保留的作者源码。旧 JAX API 别名单独声明。
+
+检查范围
+--------
+
+zero_env_gate.py 使用合成数据执行完整尺寸 JAX 更新，检查终奖对 critic/reward
+model 的影响、终点目标与 nextQ 的隔离、非终点 bootstrap、原生 UTD8 计数和
+推理参数序列化。该检查不创建真实环境，不能替代双任务中的动作、全额分配、终奖、
+保存重载及评价 RNG 隔离检查，也不能单独证明学习效果。

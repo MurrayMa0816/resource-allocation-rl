@@ -1,43 +1,31 @@
-MORL/D：第五章唯一当前实现
-==========================
+MORL/D
+======
 
-用户已选定橙色曲线对应的critic_lr1e4。后续训练、评价和对比只使用这一配置，
-不再提供其他当前候选版本。显示名称统一为MORL/D。
+本目录提供 MORL/D 的资源配置任务适配。第五章采用 ``critic_lr1e4`` 配置；
+对应模型见章级 ``models/index.json``，实际运行参数见 ``configs/recorded/configs/``。
 
-固定设置
---------
-
-* Critic学习率0.0001，Actor学习率0.0003。
-* 三个独立MOSAC成员、共享RAM回放、PSA，每个训练回合后执行其他成员10遍更新。
-* 固定部署初始偏好[0.8,0.2]的成员，评价不挑选历史峰值或其他成员。
-* 原生MOSAC、轮转和PSA内核及MIT许可证保持；完整内部评价的交互继续计入预算。
-* 无线n_step32、应急n_step1的已有任务适配保持，物理环境、原奖励和全额分配不改。
-
-唯一配置在configs.json，各域仅有critic_lr1e4；Agent默认也采用这一设置。
-冲突的学习率、旧profile、零额外更新或cadence16会明确报错，不能静默退回旧版。
-新模型记录选定配置身份并使用独立格式，避免把旧模型误标为当前版。
-
-使用与验证
+配置与接口
 ----------
 
-Agent(obs_dim, action_dim, seed, device, config)。configs.json给出当前配方，
-seed、设备、输出、来源冻结和训练/开发/测试主种子仍须在新运行协议中显式登记。
-不恢复旧队列，不在本文件中隐式启动训练。每512步评价，保留完整原始数据。
+* Actor 学习率为 0.0003，Critic 学习率为 0.0001。
+* 三个独立 MOSAC 成员共享 RAM 回放，使用 PSA；每个训练回合后对其他成员执行 10 遍更新。
+* 部署使用初始偏好为 [0.8, 0.2] 的成员，不按开发集峰值选择检查点或成员。
+* 无线任务使用 n_step32，应急任务使用 n_step1；内部策略评价的环境交互计入学习预算。
 
-CPU工程检查不创建物理环境、不保存模型::
+参数定义在 ``configs.json``。接口为
+``Agent(obs_dim, action_dim, seed=0, device='cpu', config=None)``，
+通过 ``act`` 和 ``update`` 完成交互与更新。
+配置检查会拒绝与 ``critic_lr1e4`` 不一致的学习率和更新节奏。
 
-    python validate_cpu.py --output /hy-tmp/<new-path>/selected_cpu_gate.json
+验证范围与来源
+--------------
 
-真实已测橙色证据是应急v5的两个种子9840/9841、98304收费步、193个DEV点。
-无线采用同一当前实现和Critic学习率，但尚未新增该学习率的无线训练证据；
-工程API检查不能当成无线学习效果或独立终测通过。选定记录及原模型身份见
-selected_implementation.json。既有橙色模型按各自原冻结源码和config/SHA读取，
-不改写模型格式或把其他模型重标为橙色版本。
+``validate_cpu.py`` 检查 CPU 接口，不创建物理环境或保存模型。
+``selected_implementation.json`` 中的参考验证覆盖 v5 种子 9840/9841、
+98304 个计费交互步和 193 个 DEV 点，未包含该记录下的无线学习验证或独立 TEST。
+论文采用的检查点与结果以章级模型和结果索引为准。
 
-来源
-----
-
-Multi-Objective Reinforcement Learning Based on Decomposition: A Taxonomy and Framework，
-Felten/Talbi/Danoy，JAIR2024，DOI 10.1613/jair.1.15702。
-作者固定提交、原论文参数与许可见provenance.json及vendor/。原论文Critic学习率
-0.001的来源记录保留；本任务唯一选定值为0.0001，明确属于任务配置。
+算法来源为 Felten、Talbi、Danoy 的 JAIR 2024 论文
+``Multi-Objective Reinforcement Learning Based on Decomposition: A Taxonomy and Framework``，
+DOI ``10.1613/jair.1.15702``。固定源码提交与 MIT 许可见 ``provenance.json`` 和 ``vendor/``。
+原论文 Critic 学习率为 0.001；本任务配置采用 0.0001。

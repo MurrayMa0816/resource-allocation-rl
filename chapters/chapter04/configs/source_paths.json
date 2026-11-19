@@ -209,8 +209,8 @@
     },
     "mad_td/source/method/mad_td/README.rst": {
       "path": "algorithms/mad_td/method/mad_td/README.rst",
-      "sha256": "88aca8c703fa39d716ecc5a590e2aabb3e32495e42e54557d770e0058a9437d7",
-      "bytes": 4293
+      "sha256": "f33b51b14d40992970b37102531279aa1da155c940b44d110701f21c27b6aa02",
+      "bytes": 3602
     },
     "mad_td/source/method/mad_td/__init__.py": {
       "path": "algorithms/mad_td/method/mad_td/__init__.py",
@@ -624,7 +624,7 @@
     },
     "offpolicy/source/environment/native_copy_manifest.json": {
       "path": "environment/offpolicy/native_copy_manifest.json",
-      "sha256": "1df2a84d42c827953d770eb85b4e6a6a9cc24e78551b0f46a7967729bb347311",
+      "sha256": "22f45de135260fe489435fce469fd400b4e07e5152e67314bf6f1c6c1e1b671e",
       "bytes": 24655
     },
     "offpolicy/source/environment/release/.runtime-python": {
@@ -649,13 +649,13 @@
     },
     "offpolicy/source/environment/release/CHAPTER3_RELEASE.json": {
       "path": "environment/offpolicy/release/CHAPTER3_RELEASE.json",
-      "sha256": "ca269d851c337813d13e20c01a5fa5292cc3ed795aea62dd1658acb492e98b1f",
+      "sha256": "fdb41aeab54c5156a9f261355e67424c42400e5e42a22996788f87c2531d8885",
       "bytes": 24303
     },
     "offpolicy/source/environment/release/README.rst": {
       "path": "environment/offpolicy/release/README.rst",
-      "sha256": "926913d21ba778a0370682a7dd4bf9690c4f992c04d11a5f7807999bda5e2caa",
-      "bytes": 5529
+      "sha256": "4b86958bbe265e5681172275f42a07fb998f8cc1b9d47c007d09933da535d2c4",
+      "bytes": 604
     },
     "offpolicy/source/environment/release/allocation23/__init__.py": {
       "path": "environment/offpolicy/release/allocation23/__init__.py",
@@ -1529,12 +1529,12 @@
     },
     "offpolicy/source/environment/接口与验收说明.rst": {
       "path": "environment/offpolicy/接口与验收说明.rst",
-      "sha256": "e06e7d8d4e57cb7e2a0202958eaa288237565468b2c1fe1f4fb4ea00e7f62fb1",
-      "bytes": 5107
+      "sha256": "090036e803185e030e357a6d945eb568daca0c868b62fe9c6490e4b836bc4005",
+      "bytes": 3854
     },
     "offpolicy/source/offpolicy/agent_source_manifest.json": {
       "path": "algorithms/external/offpolicy/agent_source_manifest.json",
-      "sha256": "ce984ace9d647f51138c6edf6ee3b905bd4abb0d6329f255156aa479abee4c54",
+      "sha256": "a452488cc85af9593c1e75be2e42b7df4d269938f5b331e8191036e4bc57315b",
       "bytes": 38192
     },
     "offpolicy/source/offpolicy/offpolicy_agents/__init__.py": {
@@ -1559,8 +1559,8 @@
     },
     "offpolicy/source/offpolicy/offpolicy_agents/bro/README.rst": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/bro/README.rst",
-      "sha256": "1c372ea50b881b6fb058eabe318ff297783ab64a12486c576540e2db4300e926",
-      "bytes": 5037
+      "sha256": "1f86a458ce1343891f2d32e76bdfab5a01ca6b3dd6e47b5da36d6e4a9a935b68",
+      "bytes": 4049
     },
     "offpolicy/source/offpolicy/offpolicy_agents/bro/__init__.py": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/bro/__init__.py",
@@ -1689,8 +1689,8 @@
     },
     "offpolicy/source/offpolicy/offpolicy_agents/mrq/GPU_GATE.rst": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/mrq/GPU_GATE.rst",
-      "sha256": "ff005a65923ebef74734ddb10cd47fed50d77b029c35beeb99c9d90c022479ac",
-      "bytes": 6418
+      "sha256": "78e4cb29671643dc78c4c5a067838d6811231dff18af669aedf327dc837640f4",
+      "bytes": 4138
     },
     "offpolicy/source/offpolicy/offpolicy_agents/mrq/PROVENANCE.json": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/mrq/PROVENANCE.json",
@@ -1699,8 +1699,8 @@
     },
     "offpolicy/source/offpolicy/offpolicy_agents/mrq/README.rst": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/mrq/README.rst",
-      "sha256": "a06675cb15378ccfecbffdefc5713f489d16ccc680a083aab746a014292d8d1d",
-      "bytes": 6759
+      "sha256": "7c1147508ee6c19a224860b4263aa980d09e2a37515f262dbc168613ade3588a",
+      "bytes": 4982
     },
     "offpolicy/source/offpolicy/offpolicy_agents/mrq/__init__.py": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/mrq/__init__.py",
@@ -1789,8 +1789,8 @@
     },
     "offpolicy/source/offpolicy/offpolicy_agents/redo/DELIVERY.json": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/redo/DELIVERY.json",
-      "sha256": "9283a568122503285be5e1a5362dbc382d54d0dd10aaf9c5570b79a09eb4a9b5",
-      "bytes": 4262
+      "sha256": "4ae504f58e17e83d1c8b2f82cc1b362fd539594923f3fc2f085cee711ca806df",
+      "bytes": 4323
     },
     "offpolicy/source/offpolicy/offpolicy_agents/redo/LICENSE": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/redo/LICENSE",
@@ -1804,13 +1804,13 @@
     },
     "offpolicy/source/offpolicy/offpolicy_agents/redo/README.rst": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/redo/README.rst",
-      "sha256": "398717dc85ecb3b6595567939e88637822a60bb06069cded1e00fbc2d1a26808",
-      "bytes": 5444
+      "sha256": "437e2f16edafbd3b517fa17bfcd2a86c83941df42acfbc7a92eadf07d07cb0e6",
+      "bytes": 5133
     },
     "offpolicy/source/offpolicy/offpolicy_agents/redo/README_eager_reference.rst": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/redo/README_eager_reference.rst",
-      "sha256": "ddbf2d955beb721fff16102e8ccafac1c659a523db1f00142552dfceeae759cf",
-      "bytes": 3798
+      "sha256": "ca7469416bc93c0df7d1ab214d08659edc4f59c9609a4494ff41544c643f7e08",
+      "bytes": 3513
     },
     "offpolicy/source/offpolicy/offpolicy_agents/redo/agent.py": {
       "path": "algorithms/external/offpolicy/offpolicy_agents/redo/agent.py",
@@ -1959,7 +1959,7 @@
     },
     "troc_props/source/environment/native_copy_manifest.json": {
       "path": "environment/troc_props/native_copy_manifest.json",
-      "sha256": "b5c593fc838b2da49ce78f9d5daa2c0dc6f4f497e36cf1abd51021fdd4cedea1",
+      "sha256": "10c1e396b1806ed740d6c4738d73cb3c6618b3d183fca171f8316c6a5d6264b7",
       "bytes": 25696
     },
     "troc_props/source/environment/release/.runtime-python": {
@@ -1984,13 +1984,13 @@
     },
     "troc_props/source/environment/release/CHAPTER3_RELEASE.json": {
       "path": "environment/troc_props/release/CHAPTER3_RELEASE.json",
-      "sha256": "ca269d851c337813d13e20c01a5fa5292cc3ed795aea62dd1658acb492e98b1f",
+      "sha256": "c22f07d14f72236523a0b9920bf315ce10b79d9f9e1460912c5d928b1f156d22",
       "bytes": 24303
     },
     "troc_props/source/environment/release/README.rst": {
       "path": "environment/troc_props/release/README.rst",
-      "sha256": "926913d21ba778a0370682a7dd4bf9690c4f992c04d11a5f7807999bda5e2caa",
-      "bytes": 5529
+      "sha256": "192e8bae249aa1e0c222c3020276d3c2ce7dff1c999d6dca1c67c69157323e33",
+      "bytes": 605
     },
     "troc_props/source/environment/release/allocation23/__init__.py": {
       "path": "environment/troc_props/release/allocation23/__init__.py",
@@ -2864,8 +2864,8 @@
     },
     "troc_props/source/environment/接口与验收说明.rst": {
       "path": "environment/troc_props/接口与验收说明.rst",
-      "sha256": "e06e7d8d4e57cb7e2a0202958eaa288237565468b2c1fe1f4fb4ea00e7f62fb1",
-      "bytes": 5107
+      "sha256": "090036e803185e030e357a6d945eb568daca0c868b62fe9c6490e4b836bc4005",
+      "bytes": 3854
     },
     "troc_props/source/f1_extension.py": {
       "path": "algorithms/troc/f1_extension.py",

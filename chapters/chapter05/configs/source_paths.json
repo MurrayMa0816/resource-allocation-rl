@@ -59,8 +59,8 @@
     },
     "_internal/src/chapter5_cross_server_20261103/README.rst": {
       "path": "algorithms/packages/chapter5_cross_server_20261103/README.rst",
-      "sha256": "35773e290fdeb482ab735637820111d5a07124fcedcf6a2e147c9195f1d17b26",
-      "bytes": 4384
+      "sha256": "26be855cc56caab267ea4c78f6100e0dbeb5cf3e3b3acb5166ea5d3b0fa99d38",
+      "bytes": 1606
     },
     "_internal/src/chapter5_cross_server_20261103/__init__.py": {
       "path": "algorithms/packages/chapter5_cross_server_20261103/__init__.py",
@@ -99,7 +99,7 @@
     },
     "_internal/src/chapter5_full_spend_20261104/development_source_manifest.json": {
       "path": "environment/full_spend/development_source_manifest.json",
-      "sha256": "d04ab7a4e7ea88dbb76b6400aff17363b49d8b0efc1d4b936015cee51aea6626",
+      "sha256": "aee7009bc80a3e81e3e8ed967655bf0f9f40ef32f4c6ece1b7d088ba92b6f3a0",
       "bytes": 4583,
       "original_sha256": "ec935c6e94b4ddd99791176bcff7b42f3590af3e7ef567de6a515d448cfd9786",
       "adaptation": "current selected development source list, excluding retired controllers"
@@ -131,8 +131,8 @@
     },
     "_internal/src/chapter5_full_spend_20261104/native_source/README.rst": {
       "path": "environment/full_spend/native_source/README.rst",
-      "sha256": "926913d21ba778a0370682a7dd4bf9690c4f992c04d11a5f7807999bda5e2caa",
-      "bytes": 5529
+      "sha256": "57798d029982be3fb80dfd9d33e4cc27010b56a72753af22b75e8cffd5db7f6b",
+      "bytes": 573
     },
     "_internal/src/chapter5_full_spend_20261104/native_source/allocation23/__init__.py": {
       "path": "environment/full_spend/native_source/allocation23/__init__.py",
@@ -986,7 +986,7 @@
     },
     "_internal/src/chapter5_full_spend_20261104/native_source_manifest.json": {
       "path": "environment/full_spend/native_source_manifest.json",
-      "sha256": "7b9d4745ee53ffc57ea9de75cb659ab315d343722d06d9f6b6ecadf426350c2c",
+      "sha256": "c3520ad394eb674fd8bf8dbda602d2231723f3a9099c4fca67c2c16bc3bbac70",
       "bytes": 24462
     },
     "_internal/src/chapter5_full_spend_20261104/rollout.py": {
@@ -1091,8 +1091,8 @@
     },
     "baselines/capql/README.rst": {
       "path": "algorithms/baselines/capql/README.rst",
-      "sha256": "48fee00cef288074e3f3855ddab5c95ba1ba672d2b68ca5f9158bd0f58e21440",
-      "bytes": 1059
+      "sha256": "806788b27cb2c23be440d8b3874b134eeccbae4d71d3dfc98a02f325420a1efa",
+      "bytes": 1385
     },
     "baselines/capql/SOURCE_RELEASE.json": {
       "path": "algorithms/baselines/capql/SOURCE_RELEASE.json",
@@ -1171,8 +1171,8 @@
     },
     "baselines/cola/README.rst": {
       "path": "algorithms/baselines/cola/README.rst",
-      "sha256": "62f91ebaf112b1008dbb1935c7f382d3f16f272163e875193cded9b6098be83f",
-      "bytes": 1995
+      "sha256": "4b61de060e9c52f022237f687aaf59c582f9b36c490b401de9b086f4a6f6e4dd",
+      "bytes": 1908
     },
     "baselines/cola/RELEASE.json": {
       "path": "algorithms/baselines/cola/RELEASE.json",
@@ -1211,8 +1211,8 @@
     },
     "baselines/morld/README.rst": {
       "path": "algorithms/baselines/morld/README.rst",
-      "sha256": "0cc9ee3aa4ae517532a43c8ce19e1afa6f1462abbbd822a05b20d8e00725822c",
-      "bytes": 2320
+      "sha256": "f07fb70c33d3ff85a45f209c61ea2adae20e970b231982b03835ccff29b3232d",
+      "bytes": 1601
     },
     "baselines/morld/__init__.py": {
       "path": "algorithms/baselines/morld/__init__.py",
@@ -1241,8 +1241,8 @@
     },
     "baselines/morld/selected_implementation.json": {
       "path": "algorithms/baselines/morld/selected_implementation.json",
-      "sha256": "0ff7404784f8876dc3aa6a83d8eb71c99bce8cff9b155de6f1a00a6455761ecb",
-      "bytes": 3653
+      "sha256": "93d3e259f114544d41a0440cc43b27d8b24d036386ec0d126974110596a7d919",
+      "bytes": 3753
     },
     "baselines/morld/source_manifest.json": {
       "path": "algorithms/baselines/morld/source_manifest.json",
@@ -1281,8 +1281,8 @@
     },
     "baselines/pasta/README.rst": {
       "path": "algorithms/baselines/pasta/README.rst",
-      "sha256": "1a09609a0cdcc5ceea83cdc2a32d2105e1287cecd3a93faa7f780fca02607b85",
-      "bytes": 1939
+      "sha256": "bebc5cb25d81d0d716c02b7daff40469284eb9c4d718a1d61f67c317ab986eb5",
+      "bytes": 2267
     },
     "baselines/pasta/RELEASE.json": {
       "path": "algorithms/baselines/pasta/RELEASE.json",
@@ -1311,8 +1311,8 @@
     },
     "baselines/qpensieve/README.rst": {
       "path": "algorithms/baselines/qpensieve/README.rst",
-      "sha256": "f2ead2794cc429d9853bb0db3f7eb1108243ae9c52dd1ed41ca36c47b34691d9",
-      "bytes": 1080
+      "sha256": "a4ad08d69fc589150cef247d04c2b16a3f3871501bb5bf5530cf070e8f028a5b",
+      "bytes": 1466
     },
     "baselines/qpensieve/SOURCE_RELEASE.json": {
       "path": "algorithms/baselines/qpensieve/SOURCE_RELEASE.json",

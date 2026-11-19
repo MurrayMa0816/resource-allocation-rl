@@ -1,16 +1,29 @@
-qpensieve 候选复核实现
-================================
+Q-Pensieve
+==========
 
-入口：from baselines.qpensieve import Agent, load_config。
-当前仅供候选复核，未加入正式外部对比名单，不恢复旧队列。
-代码实体位于HY，不导入旧日期包的训练器或环境。统一worker必须使用当前全额Env。
+本目录提供 Q-Pensieve 的资源配置任务适配。第五章采用 ``legacy_recipe`` 配置；
+对应模型见章级 ``models/index.json``，实际运行参数见 ``configs/recorded/configs/``。
 
-配置：configs.json，按profiles→legacy_recipe/fixed→radio/v5读取。
-Agent自己管理train-only观察归一化，worker调用observe_training一次/真实步，勿再包第二层。
-自有RNG用rng_state_dict保存；CAPQL使用全局Torch抽样，worker仍须隔离全局Python/NumPy/Torch/CUDA状态。
+配置与接口
+----------
 
-QP fixed仅修复作者Xavier/零bias初始化；原初始化与修复初始化不同，必须保留各自真实pi0，不能声称同起点数值配对。
+入口为 ``from baselines.qpensieve import Agent, load_config``。
+论文对应配置通过 ``load_config(domain, profile='legacy_recipe')`` 读取，
+``domain`` 为 ``radio`` 或 ``v5``。
 
-历史五轮优化与真实增长、无线仍弱于同情景规则的边界见provenance.json和historical_review.json。
-CPU合成检查不等于物理训练已改善；真实GPU门禁与学习趋势由独立新scope验证。
-旧配方及源保留，不以新结果覆盖负结果。
+``Agent(obs_dim, action_dim, seed=0, device='cpu', config=None)`` 提供 ``act``、``update``
+和 ``observe_training``。观察归一化由 Agent 管理，``observe_training`` 每个真实训练步
+调用一次，不叠加第二层归一化；开发集评价不更新训练统计。
+自有随机状态通过 ``rng_state_dict`` 保存，公共 Python、NumPy、Torch、CUDA 随机状态
+由训练程序保存和恢复。紧凑检查点不包含优化器和回放，不能用于精确续训。
+
+``configs.json`` 另列出 ``fixed`` 配置，其区别为 Xavier-uniform 权重和零偏置初始化。
+两种配置的初始权重不同，不能视为相同初始策略下的数值配对；初始化修正本身也不构成
+学习效果改善或与上游源码逐位等价的证据。
+
+来源
+----
+
+来源为 ``https://github.com/rl-bandits-lab/Q-Pensieve``，固定提交
+``07385086539126db74284402d798dd89ce04ff0b``。MIT 许可证保存在 ``vendor/LICENSE``，
+实现来源与任务适配范围见 ``provenance.json``。
